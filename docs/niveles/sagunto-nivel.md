@@ -277,6 +277,42 @@ La vía dentro del recinto · el paso a nivel, el desvío y la entrada de la pue
 - **Glacis de 30 m al oeste: sí.** La capa C no tiene colisión, así que la anchura no cambia el flujo de la horda: es solo lectura, y 30 m dicen «campo de tiro» con claridad. Lo único que lo limita es lo ya construido. El almacén de naranjas (X 40-51, Z 30-51) se queda fuera del glacis; al norte de él, el glacis sí llega a los 30 m (X 40-70). La calle de la Estación y el paso a nivel lo cruzan con su propia zona. En el resto del perímetro le he dado 12 m, que es lo que hay hasta las casas por el norte.
 - **Acequias**: la madre va **paralela a la carretera vieja, en Z 9-11, al sur**, y los ramales **bajan hacia el sur** cada 40 m. Ninguna cruza la carretera, la vía, la calle de la Estación ni los tres caminos de la horda. **Cañas solo en los tramos del faldón (Z < 0)**: dentro de la zona, una caña de 3 m a 10 m de la carretera taparía a los zombis que van por ella con la cámara mirando al norte.
 
+## 9. Escala: «se siente todo muy pequeño» (Eugenio, 6-nov 23:55)
+
+### 9.1 Diagnóstico (con el código de main, f5af670)
+1. **La zona entera cabe en una pantalla.** La zona mide 256 × 128 m (`SimConst`: 512 × 256 celdas de 0,5 m). Con el zoom máximo (`_orthoSize` 90, es decir, 180 m de alto y unos 320 m de ancho en 16:9) se ve todo a la vez: el mundo se acaba donde se acaba la pantalla. Esa es la causa principal de la sensación.
+2. **Calles de un solo carril.** La calle de la Estación y la carretera vieja miden 6 m y la calle del pueblo, 7 m. Un VCR 8x8 Dragón mide 3 m de ancho (V1_dragon_dimensiones.md); un VAMTAC, unos 2,2 m (SIN VERIFICAR). En 6 m no se cruzan dos blindados y un pelotón solo puede ir en columna.
+3. **El fuerte no tiene dónde maniobrar.** El interior mide 84 × 39 m. La vía, el andén, el edificio y el almacén dejan una franja libre de unos 17 m al sur de la vía, en la que un 8x8 no puede dar la vuelta, y no hay ningún hueco donde aterrice un helicóptero.
+4. **El helicóptero cruza la zona en segundos.** A unos 150 km/h (≈ 42 m/s) recorre los 256 m en ~6 s. No hay vuelo que sentir.
+
+### 9.2 Medidas de referencia
+- Helicópteros del Ejército: NH90 (HT-29), con rotor de 16,3 m; Cougar (HU-27), de 15,6 m; Tigre (HA-28), de 13 m. Son cifras de memoria y quedan **SIN VERIFICAR** hasta que Paula las confirme.
+- Zona de toma: el manual de pathfinders del Ejército de EE. UU. (FM 3-21.38) da 50 m de diámetro despejado para un helicóptero medio (tamaño 3). También **SIN VERIFICAR** en la edición actual. Para el juego propongo un **mínimo de 30 × 30 m despejados** y una senda de aproximación libre de postes y tejados.
+- Calzada real: una carretera nacional tiene unos 7 m de calzada y arcenes de ~1,5 m (orden de magnitud, sin fuente aquí).
+
+### 9.3 Propuesta, en dos niveles
+**Nivel 1: esta noche, sin tocar el tamaño de la zona** (todo visual salvo la puerta, que va marcada):
+| # | Cambio | Ahora | Propuesta |
+|---|---|---|---|
+| E1 | Carretera vieja | 6 m (Z 20-26) | **10 m (Z 18-28)**: 7 m de calzada con línea central en #d4d0cc y arcenes de 1,5 m. El atasco ocupa los dos carriles |
+| E2 | Calle de la Estación | 6 m (X 56-62) | **10 m (X 54-64)**: 7 m de calzada y aceras de 1,5 m. El paso a nivel se ensancha igual |
+| E3 | Calle del pueblo | 7 m | **9 m**: la hilera de delante se queda en Z 103 (12 m de campo de tiro), la calle pasa a Z 108-117 y la de atrás a Z 122 |
+| E4 | **Puerta de vehículos** en el muro sur | No hay | **8 m de hueco en X 95-103**, con un camino de 8 m hasta la carretera vieja. Hoy los vehículos no pueden salir del fuerte, salvo por la vía. **Toca la simulación** (sólidos del muro y `Works`): Nacho/Marcos, y el coste, Hugo (como la puerta de vía, 8 u) |
+| E5 | **Parque de vehículos** dentro del fuerte | No hay | **X 72-124, Z 46-60** (52 × 14 m), al sur de la vía, frente a la puerta nueva: 3 Dragón y 4 VAMTAC en batería, que salen de frente por E4. Nada de decorado en esa franja |
+| E6 | **Helipuerto anexo** | No hay | **30 × 30 m despejados en X 165-195, Z 29-59** (centro en (180; 44)), con un anillo de HESCO bajo (1,2 m) y una H en #d4d0cc. Está fuera del muro, al sureste, como la zona de toma anexa de una base avanzada. Queda a 5 m del poste de catenaria de X = 160 y la aproximación entra por el sureste, sobre la huerta. **Cabe un helicóptero medio** |
+
+**Nivel 2: agrandar la zona de Sagunto (es lo que de verdad lo arregla).** Recomiendo **512 × 256 m**: el doble por lado, cuatro veces la superficie. Así la cámara al máximo deja de ver el nivel entero, hay sitio para un fuerte de ~120 × 70 m con patio de armas y helipuerto dentro, un pueblo con plaza, una huerta en la que se pueda luchar y unos 200 m de carrera de la horda hasta el muro (más tiempo para disparar). Con celdas de 0,5 m son 1024 × 512 celdas (×4); si el FPS no lo aguanta, con celdas de 0,75 m la zona sería de 384 × 192 m. **Lo deciden Marcos y Nacho midiendo el FPS** (ZombieGrid: 361 FPS con 10.000 zombis en la zona actual), y obliga a regenerar los goldens de zona. Si sale adelante, rehago la distribución completa (v2) sobre la zona nueva.
+
+### 9.4 Boceto del nivel 2 sobre 512 × 256 m (7-nov; no entra esta noche, se decide con las medidas)
+Plano: `sagunto_plano_v2_boceto.png` (script en `herramientas/plano_v2.py`). Misma lógica que la v1, con sitio de verdad:
+- **Vía en Z = 128**, en el centro. Los remates (paso superior y puente) siguen fuera de la zona. La horda tiene **176 m de carrera** desde el borde oeste hasta la puerta oeste (hoy, 70).
+- **Fuerte de 140 × 80 m** (X 176-316, Z 96-176), que sigue cabiendo con el tren de 64 m y sus 70 m de andén. Al sur de la vía: **parque de vehículos de 80 × 20 m** con la **puerta de vehículos** de 8 m en el muro sur y el almacén. Al norte: andén, edificio de viajeros pegado al muro y **patio de armas con helipuerto de 44 × 38 m dentro del recinto**.
+- **Glacis** de 30 m al oeste y de 12 m en el resto.
+- **Pueblo** al norte (Z 188-236): tres hileras de casas de 6 m con dos calles de 9 m y una **plaza mayor de 36 × 48 m con su iglesia**. La plaza es la zona de toma alternativa y el sitio para que maniobren los pelotones. Las calles llegan hasta la calle de la Estación.
+- **Calle de la Estación** de 10 m (X 130-140) y **carretera vieja** de 10 m (Z 50-60) con el atasco.
+- **Huerta** al sur con su acequia madre, ramales y 3 alquerías sueltas, y **huerta este** detrás del bloque de pisos.
+- Para el tamaño del perímetro (440 m frente a los 254 de hoy) habría que recalcular el muro de partida de D-N63 con Hugo.
+
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
 
 ### 7d. Puente real del Palancia (6-nov, 18:45)
