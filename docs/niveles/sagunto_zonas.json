@@ -1,0 +1,36 @@
+{
+ "origen_px00": "esquina noroeste: X=-250, Z=480",
+ "px_m": 1,
+ "ancho": 756,
+ "alto": 680,
+ "X": [
+  -250,
+  506
+ ],
+ "Z": [
+  -200,
+  480
+ ],
+ "uv_unity": "u=(X+250)/756, v=(Z+200)/680 (Unity carga la fila 0 del PNG arriba, como v=1)",
+ "zonas": {
+  "0": "descampado",
+  "1": "recinto",
+  "2": "glacis",
+  "3": "via",
+  "4": "calle",
+  "5": "huerta",
+  "6": "descampado_pisado",
+  "7": "pueblo",
+  "8": "cauce",
+  "9": "acequia",
+  "10": "solar",
+  "11": "cerro_castillo"
+ },
+ "color_zona_9_acequia": "agua #6c7874 con borde de 1 px en #94948c (D-N67, Lucía 6-nov 18:35); el cauce (8) sigue en #605c48",
+ "color_zona_11": "cerro del castillo y sierra: los cubre el modelo de fondo; sin capa C",
+ "mascara": {
+  "255": "sin vegetación",
+  "128": "glacis: nada de más de 0,3 m",
+  "0": "libre"
+ }
+}
