@@ -1,0 +1,8 @@
+Focos en el encuadre de la muestra de luna (foco de camara (59;40), ortho 14, zona de Sagunto). Coordenadas de mundo (X;Z) en metros.
+Farolas del muro oeste (spot, intensidad 90, 4,1 m de altura, apuntan al suelo hacia -X):
+  Farola A: centro de la luz en suelo (62,5; 50,0), radio del cono 6,9 m, rango 45 m.
+  Farola B: centro (62,5; 64,5), radio del cono 6,9 m.
+  Farola C: centro (62,5; 79,0), radio del cono 6,9 m.
+Charco de luz usado por la textura nocturna del suelo (zona «lit», donde el suelo conserva su color real de noche): circulo de 11,0 m de radio centrado en (62,5; z de cada farola): A (62,5; 50,0), B (62,5; 64,5), C (62,5; 79,0).
+Foco de obra: (72,5; 58,5), spot de 25 m de rango, solo visual; su charco no entra en la textura.
+Nota: el cono real (6,9 m) es menor que el circulo de textura (11 m): el circulo de 11 m es lo que se mantiene al color real.
