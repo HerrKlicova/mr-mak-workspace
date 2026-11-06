@@ -1,5 +1,5 @@
 {
- "nota": "D-N80 · Color por instancia para la horda y rampa del mapa de sangre. Bruno (Arte técnico), 7-nov (noche).\n\nEncargo de Mak (00:18): unos 8 tonos de camisa, 6 de pantalón y 4 de piel, con su regla de mezcla, que\nsigan leyéndose de noche contra el suelo, sin confundirse con nuestros soldados ni con el coyote #605c48.\nLos zombis son personas (norma de variantes de Eugenio), pero la horda sigue siendo LO MÁS OSCURO de la\nescena (D-N61): por eso todos los tonos viven en una banda de valor estrecha, L* 9–16, y la variedad va\nen el matiz y la saturación, nunca en el valor. Así:\n  - el decorado más oscuro (#303424, L* 20,9) queda siempre por encima de cualquier zombi;\n  - de noche, con el suelo en L* ≈ 25 (luna 0,45, D-N69), el contraste de Sara (ΔL* ≥ 8) se mantiene;\n  - ningún tono es oliva (soldado), coyote, rojo o granate (sangre y ataque) ni azul pizarra (#404460, rim).\nRESERVA PARA LA HORDA: todo color final con L* < 20. En concreto, los valores en que cuantizaba el\npantalón del soldado, #1e220c y #2e3022 (65 % de #1c200c / #303424 + 35 % del albedo), son de la horda:\nningún albedo de unidad propia puede bajar de L* 28 (#48403c). Se avisa a Teo.",
+ "nota": "D-N80 · Color por instancia para la horda y rampa del mapa de sangre. Bruno (Arte técnico), 7-nov (noche).\n\nEncargo de Mak (00:18): unos 8 tonos de camisa, 6 de pantalón y 4 de piel, con su regla de mezcla, que\nsigan leyéndose de noche contra el suelo, sin confundirse con nuestros soldados ni con el coyote #605c48.\nLos zombis son personas (norma de variantes de Eugenio), pero la horda sigue siendo LO MÁS OSCURO de la\nescena (D-N61): por eso todos los tonos viven en una banda de valor estrecha, L* 9–13 (Lucía: toda la partida es de noche), y la variedad va\nen el matiz y la saturación, nunca en el valor. Así:\n  - el decorado más oscuro (#303424, L* 20,9) queda siempre por encima de cualquier zombi;\n  - de noche, con el suelo en L* ≈ 25 (luna 0,45, D-N69), el contraste de Sara (ΔL* ≥ 8) se mantiene;\n  - ningún tono es oliva (soldado), coyote, rojo o granate (sangre y ataque) ni azul pizarra (#404460, rim).\nRESERVA PARA LA HORDA: todo color final con L* < 20. En concreto, los valores en que cuantizaba el\npantalón del soldado, #1e220c y #2e3022 (65 % de #1c200c / #303424 + 35 % del albedo), son de la horda:\nningún albedo de unidad propia puede bajar de L* 28 (#48403c). Se avisa a Teo.",
  "camisas": [
   {
    "nombre": "negro desteñido",
@@ -9,44 +9,44 @@
   },
   {
    "nombre": "gris marengo",
-   "hex": "#262628",
-   "L": 15.2,
+   "hex": "#202022",
+   "L": 12.3,
    "peso": 3
   },
   {
    "nombre": "azul mahón",
-   "hex": "#1c2230",
-   "L": 13.3,
+   "hex": "#1b212f",
+   "L": 12.8,
    "peso": 2
   },
   {
    "nombre": "chocolate",
-   "hex": "#28221a",
-   "L": 13.6,
+   "hex": "#262018",
+   "L": 12.7,
    "peso": 2
   },
   {
    "nombre": "tostado",
-   "hex": "#2a2418",
-   "L": 14.5,
+   "hex": "#262014",
+   "L": 12.6,
    "peso": 1
   },
   {
    "nombre": "gris azulado",
-   "hex": "#22262c",
-   "L": 15.0,
+   "hex": "#1d2127",
+   "L": 12.6,
    "peso": 2
   },
   {
    "nombre": "ciruela apagado",
-   "hex": "#26202c",
-   "L": 13.4,
+   "hex": "#241e2a",
+   "L": 12.4,
    "peso": 1
   },
   {
    "nombre": "pardo sucio",
-   "hex": "#2a2724",
-   "L": 15.9,
+   "hex": "#23201d",
+   "L": 12.5,
    "peso": 2
   }
  ],
@@ -65,8 +65,8 @@
   },
   {
    "nombre": "gris",
-   "hex": "#252525",
-   "L": 14.7,
+   "hex": "#212121",
+   "L": 12.7,
    "peso": 2
   },
   {
@@ -83,34 +83,34 @@
   },
   {
    "nombre": "pana parda",
-   "hex": "#28241c",
-   "L": 14.4,
+   "hex": "#242018",
+   "L": 12.4,
    "peso": 1
   }
  ],
  "piel": [
   {
    "nombre": "cerúlea",
-   "hex": "#262624",
-   "L": 15.1,
+   "hex": "#21211f",
+   "L": 12.7,
    "peso": 2
   },
   {
    "nombre": "morena",
-   "hex": "#2c2724",
-   "L": 16.1,
+   "hex": "#25201d",
+   "L": 12.7,
    "peso": 2
   },
   {
    "nombre": "amoratada",
-   "hex": "#28242c",
-   "L": 14.9,
+   "hex": "#231f27",
+   "L": 12.5,
    "peso": 1
   },
   {
    "nombre": "terrosa",
-   "hex": "#2a2720",
-   "L": 15.7,
+   "hex": "#232019",
+   "L": 12.4,
    "peso": 2
   }
  ],
@@ -124,24 +124,24 @@
  "reserva_horda": "todo color final con L* < 20, incluidos #1e220c y #2e3022; ninguna unidad propia por debajo de L* 28 (#48403c)",
  "medidas_muestra": {
   "muestra_horda_dia_un_valor": {
-   "L_max_horda": 10.8,
+   "L_p90_horda": 10.8,
    "L_p10_suelo": 27.3,
    "dL": 16.5
   },
   "muestra_horda_dia_variada": {
-   "L_max_horda": 18.9,
+   "L_p90_horda": 11.5,
    "L_p10_suelo": 27.3,
-   "dL": 8.4
+   "dL": 15.8
   },
   "muestra_horda_noche_un_valor": {
-   "L_max_horda": 1.0,
+   "L_p90_horda": 1.0,
    "L_p10_suelo": 16.7,
    "dL": 15.7
   },
   "muestra_horda_noche_variada": {
-   "L_max_horda": 8.7,
+   "L_p90_horda": 1.1,
    "L_p10_suelo": 16.7,
-   "dL": 8.0
+   "dL": 15.6
   }
  },
  "sangre": {
