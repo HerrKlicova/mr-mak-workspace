@@ -1,0 +1,152 @@
+{
+ "nota": "D-N80 · Color por instancia para la horda y rampa del mapa de sangre. Bruno (Arte técnico), 7-nov (noche).\n\nEncargo de Mak (00:18): unos 8 tonos de camisa, 6 de pantalón y 4 de piel, con su regla de mezcla, que\nsigan leyéndose de noche contra el suelo, sin confundirse con nuestros soldados ni con el coyote #605c48.\nLos zombis son personas (norma de variantes de Eugenio), pero la horda sigue siendo LO MÁS OSCURO de la\nescena (D-N61): por eso todos los tonos viven en una banda de valor estrecha, L* 9–16, y la variedad va\nen el matiz y la saturación, nunca en el valor. Así:\n  - el decorado más oscuro (#303424, L* 20,9) queda siempre por encima de cualquier zombi;\n  - de noche, con el suelo en L* ≈ 25 (luna 0,45, D-N69), el contraste de Sara (ΔL* ≥ 8) se mantiene;\n  - ningún tono es oliva (soldado), coyote, rojo o granate (sangre y ataque) ni azul pizarra (#404460, rim).\nRESERVA PARA LA HORDA: todo color final con L* < 20. En concreto, los valores en que cuantizaba el\npantalón del soldado, #1e220c y #2e3022 (65 % de #1c200c / #303424 + 35 % del albedo), son de la horda:\nningún albedo de unidad propia puede bajar de L* 28 (#48403c). Se avisa a Teo.",
+ "camisas": [
+  {
+   "nombre": "negro desteñido",
+   "hex": "#1c1c1e",
+   "L": 10.3,
+   "peso": 3
+  },
+  {
+   "nombre": "gris marengo",
+   "hex": "#262628",
+   "L": 15.2,
+   "peso": 3
+  },
+  {
+   "nombre": "azul mahón",
+   "hex": "#1c2230",
+   "L": 13.3,
+   "peso": 2
+  },
+  {
+   "nombre": "chocolate",
+   "hex": "#28221a",
+   "L": 13.6,
+   "peso": 2
+  },
+  {
+   "nombre": "tostado",
+   "hex": "#2a2418",
+   "L": 14.5,
+   "peso": 1
+  },
+  {
+   "nombre": "gris azulado",
+   "hex": "#22262c",
+   "L": 15.0,
+   "peso": 2
+  },
+  {
+   "nombre": "ciruela apagado",
+   "hex": "#26202c",
+   "L": 13.4,
+   "peso": 1
+  },
+  {
+   "nombre": "pardo sucio",
+   "hex": "#2a2724",
+   "L": 15.9,
+   "peso": 2
+  }
+ ],
+ "pantalones": [
+  {
+   "nombre": "vaquero",
+   "hex": "#1a202e",
+   "L": 12.3,
+   "peso": 4
+  },
+  {
+   "nombre": "negro",
+   "hex": "#1a1a1c",
+   "L": 9.3,
+   "peso": 3
+  },
+  {
+   "nombre": "gris",
+   "hex": "#252525",
+   "L": 14.7,
+   "peso": 2
+  },
+  {
+   "nombre": "marrón",
+   "hex": "#262016",
+   "L": 12.6,
+   "peso": 2
+  },
+  {
+   "nombre": "chándal marino",
+   "hex": "#181c2a",
+   "L": 10.5,
+   "peso": 1
+  },
+  {
+   "nombre": "pana parda",
+   "hex": "#28241c",
+   "L": 14.4,
+   "peso": 1
+  }
+ ],
+ "piel": [
+  {
+   "nombre": "cerúlea",
+   "hex": "#262624",
+   "L": 15.1,
+   "peso": 2
+  },
+  {
+   "nombre": "morena",
+   "hex": "#2c2724",
+   "L": 16.1,
+   "peso": 2
+  },
+  {
+   "nombre": "amoratada",
+   "hex": "#28242c",
+   "L": 14.9,
+   "peso": 1
+  },
+  {
+   "nombre": "terrosa",
+   "hex": "#2a2720",
+   "L": 15.7,
+   "peso": 2
+  }
+ ],
+ "regla": "hash(Entity.Index): camisa = por peso con h(1); pantalón = por peso con h(2), y si ΔE(camisa, pantalón) < 4 pasa al siguiente; piel = uniforme con h(3). Ver elige() en build_horda_color.py",
+ "subpaleta_horda": {
+  "black": "#000000",
+  "olive_black": "#1c200c",
+  "brown_dark": "#442c0c",
+  "olive_shadow": "#303424"
+ },
+ "reserva_horda": "todo color final con L* < 20, incluidos #1e220c y #2e3022; ninguna unidad propia por debajo de L* 28 (#48403c)",
+ "medidas_muestra": {
+  "muestra_horda_dia_un_valor": {
+   "L_max_horda": 10.8,
+   "L_p10_suelo": 27.3,
+   "dL": 16.5
+  },
+  "muestra_horda_dia_variada": {
+   "L_max_horda": 18.9,
+   "L_p10_suelo": 27.3,
+   "dL": 8.4
+  },
+  "muestra_horda_noche_un_valor": {
+   "L_max_horda": 1.0,
+   "L_p10_suelo": 16.7,
+   "dL": 15.7
+  },
+  "muestra_horda_noche_variada": {
+   "L_max_horda": 8.7,
+   "L_p10_suelo": 16.7,
+   "dL": 8.0
+  }
+ },
+ "sangre": {
+  "rampa": "sangre_rampa.png (16 niveles)",
+  "bayer": "bayer4.png en espacio de mundo, celda = téxel de 0,1 m",
+  "regla": "nivel = floor(cantidad*16); se pinta si nivel > umbral Bayer y el color es rampa[nivel]; cada impacto suma 3 niveles en un radio de 0,3 m, cada muerte 8 en 0,6 m; se seca 1 nivel cada 1,25 s (20 s)"
+ }
+}
