@@ -294,14 +294,30 @@ La vía dentro del recinto · el paso a nivel, el desvío y la entrada de la pue
 **Nivel 1: esta noche, sin tocar el tamaño de la zona** (todo visual salvo la puerta, que va marcada):
 | # | Cambio | Ahora | Propuesta |
 |---|---|---|---|
-| E1 | Carretera vieja | 6 m (Z 20-26) | **10 m (Z 18-28)**: 7 m de calzada con línea central en #d4d0cc y arcenes de 1,5 m. El atasco ocupa los dos carriles |
+| E1 | Carretera vieja | 6 m (Z 20-26) | **10 m (Z 18-28)**: 7 m de calzada con **línea central discontinua en #b8b8b8** (nunca #d4d0cc, que es la selección) y arcenes de 1,5 m en #94948c. El atasco ocupa los dos carriles |
 | E2 | Calle de la Estación | 6 m (X 56-62) | **10 m (X 54-64)**: 7 m de calzada y aceras de 1,5 m. El paso a nivel se ensancha igual |
 | E3 | Calle del pueblo | 7 m | **9 m**: la hilera de delante se queda en Z 103 (12 m de campo de tiro), la calle pasa a Z 108-117 y la de atrás a Z 122 |
 | E4 | **Puerta de vehículos** en el muro sur | No hay | **8 m de hueco en X 95-103**, con un camino de 8 m hasta la carretera vieja. Hoy los vehículos no pueden salir del fuerte, salvo por la vía. **Toca la simulación** (sólidos del muro y `Works`): Nacho/Marcos, y el coste, Hugo (como la puerta de vía, 8 u) |
 | E5 | **Parque de vehículos** dentro del fuerte | No hay | **X 72-124, Z 46-60** (52 × 14 m), al sur de la vía, frente a la puerta nueva: 3 Dragón y 4 VAMTAC en batería, que salen de frente por E4. Nada de decorado en esa franja |
-| E6 | **Helipuerto anexo** | No hay | **30 × 30 m despejados en X 165-195, Z 29-59** (centro en (180; 44)), con un anillo de HESCO bajo (1,2 m) y una H en #d4d0cc. Está fuera del muro, al sureste, como la zona de toma anexa de una base avanzada. Queda a 5 m del poste de catenaria de X = 160 y la aproximación entra por el sureste, sobre la huerta. **Cabe un helicóptero medio** |
+| E6 | **Helipuerto anexo** | No hay | **30 × 30 m despejados en X 165-195, Z 29-59** (centro en (180; 44)), con un anillo de HESCO bajo (1,2 m, como el del muro) y una **H en #b8b8b8 dentro de un círculo** (nunca ámbar). Está fuera del muro, al sureste, como la zona de toma anexa de una base avanzada. Queda a 5 m del poste de catenaria de X = 160 y la aproximación entra por el sureste, sobre la huerta. **Cabe un helicóptero medio** |
 
 **Nivel 2: agrandar la zona de Sagunto (es lo que de verdad lo arregla).** Recomiendo **512 × 256 m**: el doble por lado, cuatro veces la superficie. Así la cámara al máximo deja de ver el nivel entero, hay sitio para un fuerte de ~120 × 70 m con patio de armas y helipuerto dentro, un pueblo con plaza, una huerta en la que se pueda luchar y unos 200 m de carrera de la horda hasta el muro (más tiempo para disparar). Con celdas de 0,5 m son 1024 × 512 celdas (×4); si el FPS no lo aguanta, con celdas de 0,75 m la zona sería de 384 × 192 m. **Lo deciden Marcos y Nacho midiendo el FPS** (ZombieGrid: 361 FPS con 10.000 zombis en la zona actual), y obliga a regenerar los goldens de zona. Si sale adelante, rehago la distribución completa (v2) sobre la zona nueva.
+
+### 9.5 Entradas de las oleadas y posición inicial de los vehículos (zona actual de 256 × 128 m con el nivel 1; Lucía, 7-nov)
+Nivel 1 aprobado por Lucía (P0, punto 6 de `docs/plan-noche-7nov.md`). Nivel 2 en P2: solo si cuesta menos de 1 h y el FPS aguanta.
+
+**Entradas de las oleadas** (rectángulos de aparición en el borde oeste, uno por cada camino de §2):
+| Id | Camino | Rectángulo (X; Z) | Peso inicial | Por qué |
+|---|---|---|---|---|
+| O1 | La vía | X 0-8, Z 56-73 | 50 % | Sale de debajo del paso superior y va recta a la puerta oeste |
+| O2 | La carretera vieja | X 0-8, Z 14-31 | 30 % | Entre los coches del atasco, hacia el muro sur y la puerta de vehículos |
+| O3 | El pueblo | X 0-8, Z 92-124 | 20 % | Por el descampado hacia la barricada y las calles del pueblo, hasta el muro norte |
+| O4 (más adelante) | El puente | X 248-256, Z 56-73 | 0 % al principio | La Colmena aprende y entra por el este, «por donde no miras» |
+
+**Vehículos al empezar** (en Unity, yaw 0 = mirando a +Z):
+- **VCR 8x8 Dragón**: en el parque de vehículos, en **(99; 0; 53)**, yaw 180° (mirando al sur, hacia la puerta de vehículos de X 95-103). Sale de frente.
+- **VAMTAC** (si los hay): (88; 0; 53) y (80; 0; 53), con el mismo yaw.
+- **NH90**: en el centro del helipuerto anexo, **(180; 0; 44)**, con el rotor parado y yaw 270° (morro al oeste, hacia el fuerte). Despega hacia el sureste, sobre la huerta, sin pasar por la catenaria.
 
 ### 9.4 Boceto del nivel 2 sobre 512 × 256 m (7-nov; no entra esta noche, se decide con las medidas)
 Plano: `sagunto_plano_v2_boceto.png` (script en `herramientas/plano_v2.py`). Misma lógica que la v1, con sitio de verdad:
