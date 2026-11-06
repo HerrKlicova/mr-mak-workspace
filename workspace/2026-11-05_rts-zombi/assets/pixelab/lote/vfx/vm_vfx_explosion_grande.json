@@ -1,0 +1,859 @@
+{
+ "frames": [
+  {
+   "filename": "vm-vfx-explosion-grande 0.png",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 1.png",
+   "frame": {
+    "x": 224,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 2.png",
+   "frame": {
+    "x": 448,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 3.png",
+   "frame": {
+    "x": 672,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 4.png",
+   "frame": {
+    "x": 896,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 5.png",
+   "frame": {
+    "x": 1120,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 6.png",
+   "frame": {
+    "x": 0,
+    "y": 216,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 7.png",
+   "frame": {
+    "x": 224,
+    "y": 216,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 8.png",
+   "frame": {
+    "x": 448,
+    "y": 216,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 9.png",
+   "frame": {
+    "x": 672,
+    "y": 216,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 10.png",
+   "frame": {
+    "x": 896,
+    "y": 216,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 11.png",
+   "frame": {
+    "x": 1120,
+    "y": 216,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 12.png",
+   "frame": {
+    "x": 0,
+    "y": 432,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 13.png",
+   "frame": {
+    "x": 224,
+    "y": 432,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 14.png",
+   "frame": {
+    "x": 448,
+    "y": 432,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 15.png",
+   "frame": {
+    "x": 672,
+    "y": 432,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 16.png",
+   "frame": {
+    "x": 896,
+    "y": 432,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 17.png",
+   "frame": {
+    "x": 1120,
+    "y": 432,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 18.png",
+   "frame": {
+    "x": 0,
+    "y": 648,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 19.png",
+   "frame": {
+    "x": 224,
+    "y": 648,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 20.png",
+   "frame": {
+    "x": 448,
+    "y": 648,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 21.png",
+   "frame": {
+    "x": 672,
+    "y": 648,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 22.png",
+   "frame": {
+    "x": 896,
+    "y": 648,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 23.png",
+   "frame": {
+    "x": 1120,
+    "y": 648,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 24.png",
+   "frame": {
+    "x": 0,
+    "y": 864,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 25.png",
+   "frame": {
+    "x": 224,
+    "y": 864,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 26.png",
+   "frame": {
+    "x": 448,
+    "y": 864,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 27.png",
+   "frame": {
+    "x": 672,
+    "y": 864,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 28.png",
+   "frame": {
+    "x": 896,
+    "y": 864,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 29.png",
+   "frame": {
+    "x": 1120,
+    "y": 864,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 30.png",
+   "frame": {
+    "x": 0,
+    "y": 1080,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-explosion-grande 31.png",
+   "frame": {
+    "x": 224,
+    "y": 1080,
+    "w": 224,
+    "h": 216
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 216
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 216
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.7962962962962963
+   },
+   "duration": 100
+  }
+ ],
+ "meta": {
+  "app": "PixelLab VFX Creator",
+  "image": "vm-vfx-explosion-grande.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1344,
+   "h": 1296
+  },
+  "scale": "1",
+  "anchor": {
+   "kind": "origin",
+   "x": 112,
+   "y": 172
+  },
+  "frameTags": [
+   {
+    "name": "vm-vfx-explosion-grande",
+    "from": 0,
+    "to": 31,
+    "direction": "forward"
+   }
+  ]
+ }
+}

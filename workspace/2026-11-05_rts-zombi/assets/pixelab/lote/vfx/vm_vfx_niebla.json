@@ -1,0 +1,859 @@
+{
+ "frames": [
+  {
+   "filename": "vm-vfx-niebla 0.png",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 1.png",
+   "frame": {
+    "x": 192,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 2.png",
+   "frame": {
+    "x": 384,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 3.png",
+   "frame": {
+    "x": 576,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 4.png",
+   "frame": {
+    "x": 768,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 5.png",
+   "frame": {
+    "x": 960,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 6.png",
+   "frame": {
+    "x": 0,
+    "y": 100,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 7.png",
+   "frame": {
+    "x": 192,
+    "y": 100,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 8.png",
+   "frame": {
+    "x": 384,
+    "y": 100,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 9.png",
+   "frame": {
+    "x": 576,
+    "y": 100,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 10.png",
+   "frame": {
+    "x": 768,
+    "y": 100,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 11.png",
+   "frame": {
+    "x": 960,
+    "y": 100,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 12.png",
+   "frame": {
+    "x": 0,
+    "y": 200,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 13.png",
+   "frame": {
+    "x": 192,
+    "y": 200,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 14.png",
+   "frame": {
+    "x": 384,
+    "y": 200,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 15.png",
+   "frame": {
+    "x": 576,
+    "y": 200,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 16.png",
+   "frame": {
+    "x": 768,
+    "y": 200,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 17.png",
+   "frame": {
+    "x": 960,
+    "y": 200,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 18.png",
+   "frame": {
+    "x": 0,
+    "y": 300,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 19.png",
+   "frame": {
+    "x": 192,
+    "y": 300,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 20.png",
+   "frame": {
+    "x": 384,
+    "y": 300,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 21.png",
+   "frame": {
+    "x": 576,
+    "y": 300,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 22.png",
+   "frame": {
+    "x": 768,
+    "y": 300,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 23.png",
+   "frame": {
+    "x": 960,
+    "y": 300,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 24.png",
+   "frame": {
+    "x": 0,
+    "y": 400,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 25.png",
+   "frame": {
+    "x": 192,
+    "y": 400,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 26.png",
+   "frame": {
+    "x": 384,
+    "y": 400,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 27.png",
+   "frame": {
+    "x": 576,
+    "y": 400,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 28.png",
+   "frame": {
+    "x": 768,
+    "y": 400,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 29.png",
+   "frame": {
+    "x": 960,
+    "y": 400,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 30.png",
+   "frame": {
+    "x": 0,
+    "y": 500,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  },
+  {
+   "filename": "vm-vfx-niebla 31.png",
+   "frame": {
+    "x": 192,
+    "y": 500,
+    "w": 192,
+    "h": 100
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 192,
+    "h": 100
+   },
+   "sourceSize": {
+    "w": 192,
+    "h": 100
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.84
+   },
+   "duration": 125
+  }
+ ],
+ "meta": {
+  "app": "PixelLab VFX Creator",
+  "image": "vm-vfx-niebla.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1152,
+   "h": 600
+  },
+  "scale": "1",
+  "anchor": {
+   "kind": "origin",
+   "x": 96,
+   "y": 84
+  },
+  "frameTags": [
+   {
+    "name": "vm-vfx-niebla",
+    "from": 0,
+    "to": 31,
+    "direction": "forward"
+   }
+  ]
+ }
+}

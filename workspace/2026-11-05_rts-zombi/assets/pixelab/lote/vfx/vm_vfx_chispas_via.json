@@ -1,0 +1,833 @@
+{
+ "frames": [
+  {
+   "filename": "vm-vfx-chispas-via 0.png",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 1.png",
+   "frame": {
+    "x": 75,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 2.png",
+   "frame": {
+    "x": 150,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 3.png",
+   "frame": {
+    "x": 225,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 4.png",
+   "frame": {
+    "x": 300,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 5.png",
+   "frame": {
+    "x": 375,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 6.png",
+   "frame": {
+    "x": 0,
+    "y": 51,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 7.png",
+   "frame": {
+    "x": 75,
+    "y": 51,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 8.png",
+   "frame": {
+    "x": 150,
+    "y": 51,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 9.png",
+   "frame": {
+    "x": 225,
+    "y": 51,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 10.png",
+   "frame": {
+    "x": 300,
+    "y": 51,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 11.png",
+   "frame": {
+    "x": 375,
+    "y": 51,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 12.png",
+   "frame": {
+    "x": 0,
+    "y": 102,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 13.png",
+   "frame": {
+    "x": 75,
+    "y": 102,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 14.png",
+   "frame": {
+    "x": 150,
+    "y": 102,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 15.png",
+   "frame": {
+    "x": 225,
+    "y": 102,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 16.png",
+   "frame": {
+    "x": 300,
+    "y": 102,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 17.png",
+   "frame": {
+    "x": 375,
+    "y": 102,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 18.png",
+   "frame": {
+    "x": 0,
+    "y": 153,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 19.png",
+   "frame": {
+    "x": 75,
+    "y": 153,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 20.png",
+   "frame": {
+    "x": 150,
+    "y": 153,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 21.png",
+   "frame": {
+    "x": 225,
+    "y": 153,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 22.png",
+   "frame": {
+    "x": 300,
+    "y": 153,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 23.png",
+   "frame": {
+    "x": 375,
+    "y": 153,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 24.png",
+   "frame": {
+    "x": 0,
+    "y": 204,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 25.png",
+   "frame": {
+    "x": 75,
+    "y": 204,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 26.png",
+   "frame": {
+    "x": 150,
+    "y": 204,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 27.png",
+   "frame": {
+    "x": 225,
+    "y": 204,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 28.png",
+   "frame": {
+    "x": 300,
+    "y": 204,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 29.png",
+   "frame": {
+    "x": 375,
+    "y": 204,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-chispas-via 30.png",
+   "frame": {
+    "x": 0,
+    "y": 255,
+    "w": 75,
+    "h": 51
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 75,
+    "h": 51
+   },
+   "sourceSize": {
+    "w": 75,
+    "h": 51
+   },
+   "pivot": {
+    "x": 0.88,
+    "y": 0.47058823529411764
+   },
+   "duration": 33
+  }
+ ],
+ "meta": {
+  "app": "PixelLab VFX Creator",
+  "image": "vm-vfx-chispas-via.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 450,
+   "h": 306
+  },
+  "scale": "1",
+  "anchor": {
+   "kind": "origin",
+   "x": 66,
+   "y": 24
+  },
+  "frameTags": [
+   {
+    "name": "vm-vfx-chispas-via",
+    "from": 0,
+    "to": 30,
+    "direction": "forward"
+   }
+  ]
+ }
+}

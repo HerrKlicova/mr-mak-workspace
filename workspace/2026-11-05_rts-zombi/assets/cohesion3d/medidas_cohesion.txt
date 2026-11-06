@@ -1,0 +1,11 @@
+momento  modelo     L*modelo L*suelo  dL*   (criterio: |dL*| >= 25)
+dia      soldado       10.1    15.7   -5.6 bajo
+dia      civil         25.8    19.7   +6.1 bajo
+dia      zombi         23.9    22.6   +1.3 bajo
+dia      blindado      25.5    25.9   -0.4 bajo
+dia      hesco         36.8    46.9  -10.1 bajo
+noche    soldado        1.8     2.5   -0.7 bajo
+noche    civil         16.3     3.6  +12.7 bajo
+noche    zombi          5.4     4.3   +1.1 bajo
+noche    blindado       6.0     6.0   +0.0 bajo
+noche    hesco         15.8    20.2   -4.5 bajo

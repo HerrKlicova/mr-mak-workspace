@@ -1,0 +1,12 @@
+D-N57: dL* = max(|L* del 20 % mas claro - suelo|, |L* del contorno - suelo|), criterio >= 25 (modelos a mediodia; noche medida fuera del charco)
+momento  modelo     L*claro  L*contorno  L*suelo  dL*
+dia      soldado       31.6       0.5     15.7  +15.9 bajo
+dia      civil         36.5       0.5     19.8  +19.2 bajo
+dia      zombi         14.5       0.8     22.6  +21.8 bajo
+dia      blindado      51.8      17.0     18.7  +33.1 OK
+dia      hesco         21.9       0.8      7.3  +14.6 bajo
+noche    soldado       13.1       1.4      2.5  +10.6 bajo
+noche    civil         15.9       1.9      3.6  +12.3 bajo
+noche    zombi          6.4       2.7      4.3   +2.0 bajo
+noche    blindado      23.8       5.7     81.7  +76.0 OK
+noche    hesco          4.5       2.5      2.8   +1.7 bajo

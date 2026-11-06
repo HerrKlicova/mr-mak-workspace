@@ -1,0 +1,5 @@
+momento;servicio;saldo;nota
+antes;pixelab_generaciones_restantes;8648.05;get_balance 6-nov 07:08 (UTC), plan Tier 3, reinicio 2026-11-17
+antes;elevenlabs_creditos_usados;37 de 814102;tier pro (comprobación previa 2: plan de pago, música permitida)
+despues_A1;pixelab_generaciones_restantes;8568.05;gasto real de A1 = 80,00 (previsto 80): desvío 0 %
+despues_A6_y_prueba_A7;pixelab_generaciones_restantes;8364.05;gastadas desde el inicio de la fase A: 284,00 (A1 80, A2 56, A3 48, A4 32, A5 14, A6 40, prueba A7 4 y ~10 perdidas por coincidencia de órdenes y paradas)

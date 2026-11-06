@@ -1,0 +1,859 @@
+{
+ "frames": [
+  {
+   "filename": "vm-vfx-nieve 0.png",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 1.png",
+   "frame": {
+    "x": 160,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 2.png",
+   "frame": {
+    "x": 320,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 3.png",
+   "frame": {
+    "x": 480,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 4.png",
+   "frame": {
+    "x": 640,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 5.png",
+   "frame": {
+    "x": 800,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 6.png",
+   "frame": {
+    "x": 0,
+    "y": 120,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 7.png",
+   "frame": {
+    "x": 160,
+    "y": 120,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 8.png",
+   "frame": {
+    "x": 320,
+    "y": 120,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 9.png",
+   "frame": {
+    "x": 480,
+    "y": 120,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 10.png",
+   "frame": {
+    "x": 640,
+    "y": 120,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 11.png",
+   "frame": {
+    "x": 800,
+    "y": 120,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 12.png",
+   "frame": {
+    "x": 0,
+    "y": 240,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 13.png",
+   "frame": {
+    "x": 160,
+    "y": 240,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 14.png",
+   "frame": {
+    "x": 320,
+    "y": 240,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 15.png",
+   "frame": {
+    "x": 480,
+    "y": 240,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 16.png",
+   "frame": {
+    "x": 640,
+    "y": 240,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 17.png",
+   "frame": {
+    "x": 800,
+    "y": 240,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 18.png",
+   "frame": {
+    "x": 0,
+    "y": 360,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 19.png",
+   "frame": {
+    "x": 160,
+    "y": 360,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 20.png",
+   "frame": {
+    "x": 320,
+    "y": 360,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 21.png",
+   "frame": {
+    "x": 480,
+    "y": 360,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 22.png",
+   "frame": {
+    "x": 640,
+    "y": 360,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 23.png",
+   "frame": {
+    "x": 800,
+    "y": 360,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 24.png",
+   "frame": {
+    "x": 0,
+    "y": 480,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 25.png",
+   "frame": {
+    "x": 160,
+    "y": 480,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 26.png",
+   "frame": {
+    "x": 320,
+    "y": 480,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 27.png",
+   "frame": {
+    "x": 480,
+    "y": 480,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 28.png",
+   "frame": {
+    "x": 640,
+    "y": 480,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 29.png",
+   "frame": {
+    "x": 800,
+    "y": 480,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 30.png",
+   "frame": {
+    "x": 0,
+    "y": 600,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  },
+  {
+   "filename": "vm-vfx-nieve 31.png",
+   "frame": {
+    "x": 160,
+    "y": 600,
+    "w": 160,
+    "h": 120
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 120
+   },
+   "sourceSize": {
+    "w": 160,
+    "h": 120
+   },
+   "pivot": {
+    "x": 0.5,
+    "y": 0.9583333333333334
+   },
+   "duration": 100
+  }
+ ],
+ "meta": {
+  "app": "PixelLab VFX Creator",
+  "image": "vm-vfx-nieve.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 960,
+   "h": 720
+  },
+  "scale": "1",
+  "anchor": {
+   "kind": "origin",
+   "x": 80,
+   "y": 115
+  },
+  "frameTags": [
+   {
+    "name": "vm-vfx-nieve",
+    "from": 0,
+    "to": 31,
+    "direction": "forward"
+   }
+  ]
+ }
+}

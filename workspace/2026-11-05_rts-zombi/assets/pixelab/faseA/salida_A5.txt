@@ -1,0 +1,17 @@
+32 trabajos, 32 pendientes
+OK  A5_trenes|movimiento|v3                  ok
+OK  A5_trenes|movimiento|v2                  ok
+OK  A5_trenes|movimiento|v4                  ok
+OK  A5_trenes|movimiento|v1                  ok
+OK  A5_trenes|movimiento|v6                  ok
+OK  A5_trenes|movimiento|v5                  ok
+OK  A5_trenes|parado|v1                      ok
+OK  A5_trenes|movimiento|v7                  ok
+OK  A5_trenes|movimiento|v8                  ok
+OK  A5_trenes|parado|v2                      ok
+OK  A5_trenes|parado|v3                      ok
+OK  A5_trenes|parado|v4                      ok
+OK  A5_trenes|parado|v6                      ok
+OK  A5_trenes|parado|v8                      ok
+OK  A5_trenes|parado|v5                      ok
+OK  A5_trenes|parado|v7                      ok

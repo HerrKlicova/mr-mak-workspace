@@ -11,3 +11,5 @@
 *.jpg binary
 *.mp4 binary
 *.ico binary
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text

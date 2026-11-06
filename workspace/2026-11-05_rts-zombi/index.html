@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es" data-mak-report="document">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RTS zombi (TBD)</title>
+<link rel="stylesheet" href="../_shared/report.css">
+<link rel="stylesheet" href="../_shared/examples.css">
+<style>
+main>section{padding:20px 24px}
+main>section>h2:first-child{margin-top:0}
+@media(max-width:650px){main>section{padding:16px}}
+.kv{list-style:none;padding:0;margin:0}
+.kv li{display:flex;flex-wrap:wrap;gap:4px 12px;padding:8px 0;border-bottom:1px solid var(--mak-border,#ffffff10)}
+.kv li:last-child{border-bottom:0}
+.kv b{flex:0 0 11em;font-weight:600}
+.kv span{flex:1 1 16em;min-width:0}
+@media(max-width:650px){.kv b{flex-basis:100%}}
+.badge{display:inline-block;font-size:11px;padding:3px 8px;border-radius:6px;margin-left:6px;vertical-align:middle;border:1px solid currentColor}
+.badge.now{color:#d98a2b}.badge.next{color:var(--mak-muted,#8a8590)}.badge.done{color:#3f9a62}
+.pix{image-rendering:pixelated}
+.table-scroll{overflow-x:auto}
+</style>
+<script defer src="../_shared/report.js"></script>
+</head>
+<body>
+<main class="container">
+<div class="eyebrow">Proyecto · RTS de supervivencia zombi en Unity 6.3 LTS</div>
+<h1>RTS zombi <span class="meta">(título provisional: TBD)</span></h1>
+<p>Fuente viva del proyecto: GDD, ideas, assets y sonidos, con el historial de cómo cambia cada cosa respecto a la idea original.
+Cada pestaña de esta tarjeta tiene su documento. Última actualización: 5-nov-2026.</p>
+
+<section>
+<h2>Estado <span class="badge now">preparación</span></h2>
+<ul class="kv">
+<li><b>Ahora</b><span>Preparación del entorno: Unity 6.3 LTS instalada por Eugenio, repositorios creados (<code>TBD</code> para el juego y <code>mr-mak-workspace</code> para mr.mak). El proyecto de Unity <strong>no está creado</strong>: espera a que Eugenio confirme que la guía está completada.</span></li>
+<li><b>Siguiente</b><span>Crear el proyecto (URP, Entities 1.5.0, Entities Graphics 1.5.0), conectar MCP for Unity, primer commit y push; el hilo de diseño cierra el GDD v0.1.</span></li>
+<li><b>Bloqueos</b><span>Ninguno técnico. Pendiente: confirmar la versión exacta de Unity y que la licencia Personal está activa.</span></li>
+<li><b>Fecha límite</b><span>Lote de Pixelab antes del 12-nov (el plan se reinicia el 17-nov y probablemente no se renueve).</span></li>
+</ul>
+</section>
+
+<section>
+<h2>Qué hay en cada pestaña</h2>
+<div class="table-scroll"><table>
+<thead><tr><th>Pestaña</th><th>Contenido</th></tr></thead>
+<tbody>
+<tr><td>GDD</td><td>Documento vivo, una sección por sistema. Todo en PENDIENTE hasta el borrador.</td></tr>
+<tr><td>Idea original</td><td>Copia congelada del primer GDD (vacía hasta cerrarlo).</td></tr>
+<tr><td>Cambios</td><td>Registro de cada cambio respecto a la idea original, con motivo.</td></tr>
+<tr><td>Decisiones</td><td>Decisiones <code>D-xxx</code> con estado y origen.</td></tr>
+<tr><td>Investigación</td><td>Fuentes y referencias, con imágenes.</td></tr>
+<tr><td>Arte</td><td>Piloto de Pixelab, imagen de referencia y prueba 3D con Hunyuan.</td></tr>
+<tr><td>Audio</td><td>Banco de sonidos (vacío por ahora).</td></tr>
+<tr><td>Herramientas</td><td>Guía de preparación del entorno.</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>Decisiones recientes</h2>
+<ul class="kv">
+<li><b>D-001 · Motor</b><span>Unity 6.3 LTS con URP y Entities 1.5.0. Aceptada.</span></li>
+<li><b>D-002 · 3D</b><span>Hunyuan para vehículos y edificios clave. Aceptada.</span></li>
+<li><b>D-003 · Imágenes</b><span>API de ElevenLabs (plan Pro): GPT Image 2.5 o Nano Banana Pro. Propuesta.</span></li>
+<li><b>D-004 · Pixelab</b><span>Solo capa 2D; lote antes del 12-nov. Aceptada.</span></li>
+<li><b>D-006 · Unity 6.6</b><span>No usarla: no es LTS y Entities cambia de API. Abierta.</span></li>
+</ul>
+</section>
+
+<section>
+<h2>Primeras pruebas de arte</h2>
+<p>Detalle, costes y observaciones en la pestaña Arte. Nada está aprobado todavía.</p>
+<div class="grid">
+<figure><img class="pix" src="assets/pixelab/retratos/_hoja_retratos.png" alt="Retratos de prueba: tres mandos y tres especialistas en pixel art" loading="lazy"><figcaption class="meta">Piloto de Pixelab · retratos (64×64, ampliados)</figcaption></figure>
+<figure><img src="assets/pixelab/eventos/vm_eventos_tren_blindado_a.png" alt="Tren blindado parado en una trinchera al anochecer con siluetas de zombis" loading="lazy"><figcaption class="meta">Piloto de Pixelab · ilustración de evento (512×288)</figcaption></figure>
+<figure><img src="assets/referencias/E5_prueba_gpt-image-2.5-flare_1K-low.png" alt="Estación de tren abandonada al anochecer con vagones oxidados" loading="lazy"><figcaption class="meta">ElevenLabs · GPT Image 2.5 Flare (1K, calidad baja)</figcaption></figure>
+<figure><img src="assets/3d/E4_prueba_hunyuan_mr-mak_40k.png" alt="Modelo 3D texturado de un cerdito de peluche con sombrero de copa, generado con Hunyuan" loading="lazy"><figcaption class="meta">Hunyuan · 40.000 caras, 3 min 01 s</figcaption></figure>
+</div>
+</section>
+</main>
+</body>
+</html>

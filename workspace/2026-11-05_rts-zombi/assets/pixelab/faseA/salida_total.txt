@@ -1,0 +1,13 @@
+== A2_32 08:44:51
+OK  A2_alertas|asedio_32|v8                  ok
+Resumen: 48 correctos, 0 fallos, gasto estimado 48 generaciones
+== A3_32 08:51:42
+OK  A3_ordenes|escoltar_32|v6                ok
+Resumen: 48 correctos, 0 fallos, gasto estimado 48 generaciones
+== A4 08:58:22
+OK  A4_estaciones|perdida|v8                 ok
+Resumen: 32 correctos, 0 fallos, gasto estimado 32 generaciones
+== A5 09:03:25
+OK  A5_trenes|parado|v5                      ok
+OK  A5_trenes|parado|v7                      ok
+== A6 09:05:49

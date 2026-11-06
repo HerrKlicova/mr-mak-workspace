@@ -1,0 +1,1015 @@
+{"key": "iconos|recursos_toneladas|c", "job_id": "3846871d-ad2a-4843-9340-81b540104de0", "coste": 1, "enviado": "2026-11-05 16:01:00"}
+{"key": "iconos|recursos_toneladas|a", "job_id": "572021ac-8cb4-41a8-941d-c79da1b40d99", "coste": 1, "enviado": "2026-11-05 16:01:00"}
+{"key": "iconos|recursos_toneladas|b", "job_id": "404ac6b5-59bb-48dd-8db3-07ec6a669656", "coste": 1, "enviado": "2026-11-05 16:01:00"}
+{"key": "iconos|recursos_tren_servicio|a", "job_id": "116e13dc-53ab-46b1-8b16-3ddb42dd42bb", "coste": 1, "enviado": "2026-11-05 16:01:00"}
+{"key": "iconos|recursos_toneladas|b", "job_id": "404ac6b5-59bb-48dd-8db3-07ec6a669656", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_tren_servicio|b", "job_id": "99dd966d-e4a5-49a3-914d-f70a2527c947", "coste": 1, "enviado": "2026-11-05 16:01:30"}
+{"key": "iconos|recursos_toneladas|a", "job_id": "572021ac-8cb4-41a8-941d-c79da1b40d99", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_tren_servicio|c", "job_id": "464d017d-9326-4fce-8678-ec63e5cd94fc", "coste": 1, "enviado": "2026-11-05 16:01:34"}
+{"key": "iconos|recursos_tren_servicio|a", "job_id": "116e13dc-53ab-46b1-8b16-3ddb42dd42bb", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_km_via|a", "job_id": "d2060249-08a3-4bea-a40c-bb17abdc23c5", "coste": 1, "enviado": "2026-11-05 16:01:38"}
+{"key": "iconos|recursos_toneladas|c", "job_id": "3846871d-ad2a-4843-9340-81b540104de0", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_km_via|b", "job_id": "b845cee0-1059-4b29-8b5e-96cb45f6b697", "coste": 1, "enviado": "2026-11-05 16:01:43"}
+{"key": "iconos|recursos_km_via|a", "job_id": "d2060249-08a3-4bea-a40c-bb17abdc23c5", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_km_via|c", "job_id": "5a7c47d3-dcb8-4d58-a140-6fc9d1847c59", "coste": 1, "enviado": "2026-11-05 16:01:56"}
+{"key": "iconos|recursos_km_via|b", "job_id": "b845cee0-1059-4b29-8b5e-96cb45f6b697", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_rescatados|a", "job_id": "da9ffd4b-e4f7-4087-8a67-4813b5b99b72", "coste": 1, "enviado": "2026-11-05 16:02:09"}
+{"key": "iconos|recursos_tren_servicio|c", "job_id": "464d017d-9326-4fce-8678-ec63e5cd94fc", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_tren_servicio|b", "job_id": "99dd966d-e4a5-49a3-914d-f70a2527c947", "terminado": true, "transparencia": "FONDO (94% del borde opaco)"}
+{"key": "iconos|recursos_rescatados|b", "job_id": "19d5af79-fd8b-4626-970d-4596726fa6e9", "coste": 1, "enviado": "2026-11-05 16:02:13"}
+{"key": "iconos|recursos_rescatados|c", "job_id": "8e1c0fa1-c280-4abc-818b-7746c813f836", "coste": 1, "enviado": "2026-11-05 16:02:13"}
+{"key": "iconos|recursos_km_via|c", "job_id": "5a7c47d3-dcb8-4d58-a140-6fc9d1847c59", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_rescatados|a", "job_id": "da9ffd4b-e4f7-4087-8a67-4813b5b99b72", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_rescatados|b", "job_id": "19d5af79-fd8b-4626-970d-4596726fa6e9", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|recursos_rescatados|c", "job_id": "8e1c0fa1-c280-4abc-818b-7746c813f836", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_atacar|a", "job_id": "b75f6b10-e8fa-4da5-89e4-4229a3a5fa1e", "coste": 1, "enviado": "2026-11-05 16:03:25"}
+{"key": "iconos|ordenes_avanzar|c", "job_id": "f8118a47-3248-47a0-aae9-cfc760b069bb", "coste": 1, "enviado": "2026-11-05 16:03:25"}
+{"key": "iconos|ordenes_atacar|b", "job_id": "b13de096-c8b6-423c-bf35-54f51fa08733", "coste": 1, "enviado": "2026-11-05 16:03:25"}
+{"key": "iconos|ordenes_avanzar|a", "job_id": "44082a40-2934-4c60-8ca8-9d35b84ebb0f", "coste": 1, "enviado": "2026-11-05 16:03:25"}
+{"key": "iconos|ordenes_atacar|c", "job_id": "ab6a9002-d54d-43f4-9bd4-09055045c16d", "coste": 1, "enviado": "2026-11-05 16:03:25"}
+{"key": "iconos|ordenes_avanzar|b", "job_id": "ff5f6cc7-41c5-43b0-894e-11b16bf3c884", "coste": 1, "enviado": "2026-11-05 16:03:26"}
+{"key": "iconos|ordenes_avanzar|c", "job_id": "f8118a47-3248-47a0-aae9-cfc760b069bb", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_reparar|a", "job_id": "5f90fcb6-e33c-498b-920c-9490c3a5ed62", "coste": 1, "enviado": "2026-11-05 16:03:55"}
+{"key": "iconos|ordenes_atacar|a", "job_id": "b75f6b10-e8fa-4da5-89e4-4229a3a5fa1e", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_atacar|b", "job_id": "b13de096-c8b6-423c-bf35-54f51fa08733", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_reparar|b", "job_id": "615fe008-1a5b-403b-b0ac-be17c291ccf1", "coste": 1, "enviado": "2026-11-05 16:04:00"}
+{"key": "iconos|ordenes_reparar|c", "job_id": "11ef6c6d-b4c7-46fc-8e3c-c753905e42c9", "coste": 1, "enviado": "2026-11-05 16:04:00"}
+{"key": "iconos|ordenes_avanzar|a", "job_id": "44082a40-2934-4c60-8ca8-9d35b84ebb0f", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_construir|a", "job_id": "78f4cb19-812c-4e3e-b1f3-c89bb6f10fc2", "coste": 1, "enviado": "2026-11-05 16:04:12"}
+{"key": "iconos|ordenes_reparar|c", "job_id": "11ef6c6d-b4c7-46fc-8e3c-c753905e42c9", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_construir|b", "job_id": "bca2deb5-ce55-4cc1-81c1-09ff47316959", "coste": 1, "enviado": "2026-11-05 16:04:17"}
+{"key": "iconos|ordenes_reparar|b", "job_id": "615fe008-1a5b-403b-b0ac-be17c291ccf1", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_construir|c", "job_id": "cc015e8e-565a-4912-b98b-7dfd87f6c67f", "coste": 1, "enviado": "2026-11-05 16:04:21"}
+{"key": "iconos|ordenes_reparar|a", "job_id": "5f90fcb6-e33c-498b-920c-9490c3a5ed62", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_demoler|a", "job_id": "9d1c3a83-bc73-4dda-be7a-135fc0b80b57", "coste": 1, "enviado": "2026-11-05 16:04:26"}
+{"key": "iconos|ordenes_atacar|c", "job_id": "ab6a9002-d54d-43f4-9bd4-09055045c16d", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_avanzar|b", "job_id": "ff5f6cc7-41c5-43b0-894e-11b16bf3c884", "terminado": true, "transparencia": "FONDO (80% del borde opaco)"}
+{"key": "iconos|ordenes_demoler|b", "job_id": "d69b3db7-fd62-4635-bcfc-05e6ec0a178f", "coste": 1, "enviado": "2026-11-05 16:04:29"}
+{"key": "iconos|ordenes_demoler|c", "job_id": "6d93741a-e3cf-48af-a1cc-a1e0613faedc", "coste": 1, "enviado": "2026-11-05 16:04:29"}
+{"key": "iconos|ordenes_construir|b", "job_id": "bca2deb5-ce55-4cc1-81c1-09ff47316959", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_guarnecer|a", "job_id": "df794dbd-54bc-496a-a187-555b85d93abd", "coste": 1, "enviado": "2026-11-05 16:04:39"}
+{"key": "iconos|ordenes_demoler|b", "job_id": "d69b3db7-fd62-4635-bcfc-05e6ec0a178f", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_construir|a", "job_id": "78f4cb19-812c-4e3e-b1f3-c89bb6f10fc2", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_guarnecer|b", "job_id": "a65f3198-f256-412a-990f-d2e88597ae55", "coste": 1, "enviado": "2026-11-05 16:04:51"}
+{"key": "iconos|ordenes_guarnecer|c", "job_id": "95ad47fd-fb9c-4ae4-bf89-21999368a67a", "coste": 1, "enviado": "2026-11-05 16:04:51"}
+{"key": "iconos|ordenes_construir|c", "job_id": "cc015e8e-565a-4912-b98b-7dfd87f6c67f", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_patrullar|a", "job_id": "552ffa6f-c62d-4e80-85dc-e272142e650c", "coste": 1, "enviado": "2026-11-05 16:04:52"}
+{"key": "iconos|ordenes_demoler|c", "job_id": "6d93741a-e3cf-48af-a1cc-a1e0613faedc", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_patrullar|b", "job_id": "4d159163-9e33-44d6-a8a5-f24469f0ecb2", "coste": 1, "enviado": "2026-11-05 16:05:04"}
+{"key": "iconos|ordenes_demoler|a", "job_id": "9d1c3a83-bc73-4dda-be7a-135fc0b80b57", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_patrullar|c", "job_id": "108a4764-d20e-4a89-836c-8e6bb1a1a075", "coste": 1, "enviado": "2026-11-05 16:05:04"}
+{"key": "iconos|ordenes_guarnecer|a", "job_id": "df794dbd-54bc-496a-a187-555b85d93abd", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_reabrir_linea|a", "job_id": "1f196baa-7189-4bf4-9fe9-c38ba2e0e2d6", "coste": 1, "enviado": "2026-11-05 16:05:18"}
+{"key": "iconos|ordenes_patrullar|a", "job_id": "552ffa6f-c62d-4e80-85dc-e272142e650c", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_reabrir_linea|b", "job_id": "ed706afb-9a47-4518-85b1-0d0069ec229c", "coste": 1, "enviado": "2026-11-05 16:05:22"}
+{"key": "iconos|ordenes_guarnecer|c", "job_id": "95ad47fd-fb9c-4ae4-bf89-21999368a67a", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_reabrir_linea|c", "job_id": "3b6557ae-979c-4311-8ca8-b25e5b73bcdb", "coste": 1, "enviado": "2026-11-05 16:05:25"}
+{"key": "iconos|ordenes_guarnecer|b", "job_id": "a65f3198-f256-412a-990f-d2e88597ae55", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_trazar_linea|a", "job_id": "67870b96-104f-4877-8b05-a46a83c6b1f7", "coste": 1, "enviado": "2026-11-05 16:05:29"}
+{"key": "iconos|ordenes_patrullar|b", "job_id": "4d159163-9e33-44d6-a8a5-f24469f0ecb2", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_patrullar|c", "job_id": "108a4764-d20e-4a89-836c-8e6bb1a1a075", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_trazar_linea|b", "job_id": "e05d793d-68a9-4434-a3fc-88b5b44f74a2", "coste": 1, "enviado": "2026-11-05 16:05:46"}
+{"key": "iconos|ordenes_trazar_linea|c", "job_id": "a10573f6-dc15-4401-9c03-c7dd5a3170a3", "coste": 1, "enviado": "2026-11-05 16:05:47"}
+{"key": "iconos|ordenes_reabrir_linea|c", "job_id": "3b6557ae-979c-4311-8ca8-b25e5b73bcdb", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_senuelo|a", "job_id": "bc2eb1d4-dafa-4cf4-bcc7-6da213d7e0da", "coste": 1, "enviado": "2026-11-05 16:05:51"}
+{"key": "iconos|ordenes_reabrir_linea|a", "job_id": "1f196baa-7189-4bf4-9fe9-c38ba2e0e2d6", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_senuelo|b", "job_id": "b2f169e9-9291-46d3-a21a-6139f92e1556", "coste": 1, "enviado": "2026-11-05 16:05:52"}
+{"key": "iconos|ordenes_trazar_linea|a", "job_id": "67870b96-104f-4877-8b05-a46a83c6b1f7", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_senuelo|c", "job_id": "fd6309f9-e9ce-4185-86ea-a297cbce9d29", "coste": 1, "enviado": "2026-11-05 16:06:00"}
+{"key": "iconos|ordenes_reabrir_linea|b", "job_id": "ed706afb-9a47-4518-85b1-0d0069ec229c", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_detener_tren|a", "job_id": "53a06121-d7f4-46a7-8289-40dac10d8e3d", "coste": 1, "enviado": "2026-11-05 16:06:09"}
+{"key": "iconos|ordenes_trazar_linea|c", "job_id": "a10573f6-dc15-4401-9c03-c7dd5a3170a3", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_detener_tren|b", "job_id": "e5ef55ae-547c-4795-835a-4743bf672ad9", "coste": 1, "enviado": "2026-11-05 16:06:17"}
+{"key": "iconos|ordenes_senuelo|c", "job_id": "fd6309f9-e9ce-4185-86ea-a297cbce9d29", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_detener_tren|c", "job_id": "33e5a2d7-e1ca-4e38-88cb-0c465c51426c", "coste": 1, "enviado": "2026-11-05 16:06:26"}
+{"key": "iconos|ordenes_trazar_linea|b", "job_id": "e05d793d-68a9-4434-a3fc-88b5b44f74a2", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_arrancar_tren|a", "job_id": "d223bc11-e551-4a88-8dab-56dae5632b17", "coste": 1, "enviado": "2026-11-05 16:06:29"}
+{"key": "iconos|ordenes_senuelo|a", "job_id": "bc2eb1d4-dafa-4cf4-bcc7-6da213d7e0da", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_arrancar_tren|b", "job_id": "b3321864-a89e-48f8-8c61-78bbf6ddea7e", "coste": 1, "enviado": "2026-11-05 16:06:46"}
+{"key": "iconos|ordenes_senuelo|b", "job_id": "b2f169e9-9291-46d3-a21a-6139f92e1556", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_detener_tren|a", "job_id": "53a06121-d7f4-46a7-8289-40dac10d8e3d", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_detener_tren|c", "job_id": "33e5a2d7-e1ca-4e38-88cb-0c465c51426c", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_arrancar_tren|c", "job_id": "09a2586c-1473-4de1-9777-8cb0c480298c", "coste": 1, "enviado": "2026-11-05 16:06:47"}
+{"key": "iconos|ordenes_enganchar_vagon|a", "job_id": "13c1d4f3-e493-435e-b841-2aae43de674f", "coste": 1, "enviado": "2026-11-05 16:06:47"}
+{"key": "iconos|ordenes_enganchar_vagon|b", "job_id": "8960c377-03ed-4ec1-93e7-bc15ff07e749", "coste": 1, "enviado": "2026-11-05 16:06:48"}
+{"key": "iconos|ordenes_arrancar_tren|a", "job_id": "d223bc11-e551-4a88-8dab-56dae5632b17", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_enganchar_vagon|c", "job_id": "32981ec3-3fc9-4a1c-ada5-df698435d96c", "coste": 1, "enviado": "2026-11-05 16:06:55"}
+{"key": "iconos|ordenes_detener_tren|b", "job_id": "e5ef55ae-547c-4795-835a-4743bf672ad9", "terminado": true, "transparencia": "FONDO (50% del borde opaco)"}
+{"key": "iconos|ordenes_desenganchar_vagon|a", "job_id": "f241c5c1-7ae3-4f34-8e5e-bb898eb35821", "coste": 1, "enviado": "2026-11-05 16:06:56"}
+{"key": "iconos|ordenes_enganchar_vagon|b", "job_id": "8960c377-03ed-4ec1-93e7-bc15ff07e749", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_desenganchar_vagon|b", "job_id": "23c28ee6-7793-4769-9152-3e66a37af8e7", "coste": 1, "enviado": "2026-11-05 16:07:05"}
+{"key": "mapa|pueblo|b", "job_id": "0f639968-e6a2-41e0-b7e5-f4e573e9b250", "coste": 1, "enviado": "2026-11-05 16:07:07"}
+{"key": "mapa|estacion|c", "job_id": "b349c7a5-8d02-4d5a-9741-f5881cb21cd3", "coste": 1, "enviado": "2026-11-05 16:07:07"}
+{"key": "mapa|estacion|a", "job_id": "6f0589b2-bd30-4c4c-95f5-bfaa21057ded", "coste": 1, "enviado": "2026-11-05 16:07:07"}
+{"key": "mapa|pueblo|a", "job_id": "465e2e28-7ef7-499e-961d-5e8c7567c68d", "coste": 1, "enviado": "2026-11-05 16:07:07"}
+{"key": "mapa|estacion|d", "job_id": "d502a2b4-7646-4b50-b5a5-bc2376dd760a", "coste": 1, "enviado": "2026-11-05 16:07:07"}
+{"key": "mapa|estacion|b", "job_id": "a43065fb-30be-44bd-b702-7f64e24bdab4", "coste": 1, "enviado": "2026-11-05 16:07:07"}
+{"key": "iconos|ordenes_arrancar_tren|b", "job_id": "b3321864-a89e-48f8-8c61-78bbf6ddea7e", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_desenganchar_vagon|c", "job_id": "7bebe039-db00-4443-905a-05c0eeaa4d35", "coste": 1, "enviado": "2026-11-05 16:07:12"}
+{"key": "iconos|ordenes_enganchar_vagon|a", "job_id": "13c1d4f3-e493-435e-b841-2aae43de674f", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_evacuar|a", "job_id": "a724f9e3-2db7-4e01-932e-327509ad188a", "coste": 1, "enviado": "2026-11-05 16:07:18"}
+{"key": "iconos|ordenes_arrancar_tren|c", "job_id": "09a2586c-1473-4de1-9777-8cb0c480298c", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_evacuar|b", "job_id": "eaadd46b-4328-42ef-ad8c-213364fa8e61", "coste": 1, "enviado": "2026-11-05 16:07:22"}
+{"key": "iconos|ordenes_desenganchar_vagon|b", "job_id": "23c28ee6-7793-4769-9152-3e66a37af8e7", "terminado": true, "transparencia": "FONDO (100% del borde opaco)"}
+{"key": "iconos|ordenes_evacuar|c", "job_id": "227a73a4-99d9-4438-b38f-b09cb5ba044b", "coste": 1, "enviado": "2026-11-05 16:07:27"}
+{"key": "iconos|ordenes_desenganchar_vagon|a", "job_id": "f241c5c1-7ae3-4f34-8e5e-bb898eb35821", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_rescatar|a", "job_id": "e06bb1cd-c92e-49dd-8d74-3ef0b34664ff", "coste": 1, "enviado": "2026-11-05 16:07:35"}
+{"key": "mapa|pueblo|a", "job_id": "465e2e28-7ef7-499e-961d-5e8c7567c68d", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|pueblo|b", "job_id": "0f639968-e6a2-41e0-b7e5-f4e573e9b250", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_enganchar_vagon|c", "job_id": "32981ec3-3fc9-4a1c-ada5-df698435d96c", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|pueblo|d", "job_id": "3bb2f116-ca5a-432c-a434-ea3ea5681026", "coste": 1, "enviado": "2026-11-05 16:07:38"}
+{"key": "mapa|pueblo|c", "job_id": "322061df-7266-40f6-9885-deb413651e4d", "coste": 1, "enviado": "2026-11-05 16:07:38"}
+{"key": "iconos|ordenes_rescatar|b", "job_id": "1cd46690-049d-4c7b-ae9a-f248a269ecde", "coste": 1, "enviado": "2026-11-05 16:07:38"}
+{"key": "iconos|ordenes_evacuar|a", "job_id": "a724f9e3-2db7-4e01-932e-327509ad188a", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_rescatar|c", "job_id": "a89d597e-8977-4218-ac7a-9017329c1372", "coste": 1, "enviado": "2026-11-05 16:07:39"}
+{"key": "mapa|estacion|b", "job_id": "a43065fb-30be-44bd-b702-7f64e24bdab4", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|estacion|c", "job_id": "b349c7a5-8d02-4d5a-9741-f5881cb21cd3", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|ciudad|a", "job_id": "f1aa3d85-7ab3-4b49-b716-9dd5dcb5c0b6", "coste": 1, "enviado": "2026-11-05 16:07:46"}
+{"key": "mapa|ciudad|b", "job_id": "6058c312-1141-4909-a047-8e3ad4d0f853", "coste": 1, "enviado": "2026-11-05 16:07:46"}
+{"key": "iconos|ordenes_desenganchar_vagon|c", "job_id": "7bebe039-db00-4443-905a-05c0eeaa4d35", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_abastecer|a", "job_id": "53b701bf-56ea-4a0e-8c68-24de979bece5", "coste": 1, "enviado": "2026-11-05 16:07:47"}
+{"key": "mapa|estacion|d", "job_id": "d502a2b4-7646-4b50-b5a5-bc2376dd760a", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|ciudad|c", "job_id": "8f760212-a377-4f64-a8fa-dad3b3836aa2", "coste": 1, "enviado": "2026-11-05 16:07:50"}
+{"key": "iconos|ordenes_evacuar|c", "job_id": "227a73a4-99d9-4438-b38f-b09cb5ba044b", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_abastecer|b", "job_id": "b34383b5-f1fa-44a9-a716-afadb6c59886", "coste": 1, "enviado": "2026-11-05 16:07:53"}
+{"key": "mapa|estacion|a", "job_id": "6f0589b2-bd30-4c4c-95f5-bfaa21057ded", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|ciudad|d", "job_id": "3e164612-179e-4224-8d04-6d484cf2f9a5", "coste": 1, "enviado": "2026-11-05 16:07:54"}
+{"key": "iconos|ordenes_evacuar|b", "job_id": "eaadd46b-4328-42ef-ad8c-213364fa8e61", "terminado": true, "transparencia": "FONDO (100% del borde opaco)"}
+{"key": "iconos|ordenes_abastecer|c", "job_id": "d6761bc9-f664-48cf-bdee-fc3f0c24b18e", "coste": 1, "enviado": "2026-11-05 16:07:56"}
+{"key": "mapa|pueblo|d", "job_id": "3bb2f116-ca5a-432c-a434-ea3ea5681026", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|pueblo|c", "job_id": "322061df-7266-40f6-9885-deb413651e4d", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|puerto|a", "job_id": "eaf42e99-f767-4098-a8f4-6fb6bb3c9f83", "coste": 1, "enviado": "2026-11-05 16:08:04"}
+{"key": "mapa|puerto|b", "job_id": "57a6e027-685f-4526-9c4e-1766eb48ab4e", "coste": 1, "enviado": "2026-11-05 16:08:04"}
+{"key": "iconos|ordenes_rescatar|c", "job_id": "a89d597e-8977-4218-ac7a-9017329c1372", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_apoyo_aereo|a", "job_id": "b2df4ee3-d508-4524-b39a-0120a97618d1", "coste": 1, "enviado": "2026-11-05 16:08:05"}
+{"key": "iconos|ordenes_rescatar|b", "job_id": "1cd46690-049d-4c7b-ae9a-f248a269ecde", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_apoyo_aereo|b", "job_id": "ed3188c7-abdc-410d-a497-1b983bb4f43d", "coste": 1, "enviado": "2026-11-05 16:08:08"}
+{"key": "iconos|ordenes_rescatar|a", "job_id": "e06bb1cd-c92e-49dd-8d74-3ef0b34664ff", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_apoyo_aereo|c", "job_id": "f09747f8-7ec0-439f-93aa-387c69fe5d1b", "coste": 1, "enviado": "2026-11-05 16:08:09"}
+{"key": "iconos|ordenes_abastecer|a", "job_id": "53b701bf-56ea-4a0e-8c68-24de979bece5", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_artilleria|a", "job_id": "bb4a9ef0-a8af-495a-a2dc-10d903a784e3", "coste": 1, "enviado": "2026-11-05 16:08:13"}
+{"key": "iconos|ordenes_abastecer|b", "job_id": "b34383b5-f1fa-44a9-a716-afadb6c59886", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_artilleria|b", "job_id": "4bc1b667-c9a1-4309-beff-2c11aa5aa0c2", "coste": 1, "enviado": "2026-11-05 16:08:19"}
+{"key": "mapa|ciudad|b", "job_id": "6058c312-1141-4909-a047-8e3ad4d0f853", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|puerto|c", "job_id": "440b2cfa-5ba1-4070-ac16-22acc169c38e", "coste": 1, "enviado": "2026-11-05 16:08:20"}
+{"key": "mapa|ciudad|a", "job_id": "f1aa3d85-7ab3-4b49-b716-9dd5dcb5c0b6", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|ciudad|d", "job_id": "3e164612-179e-4224-8d04-6d484cf2f9a5", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|puerto|d", "job_id": "4a26b82f-76a5-4af1-9714-bbd8cec4508a", "coste": 1, "enviado": "2026-11-05 16:08:25"}
+{"key": "mapa|aerodromo|a", "job_id": "89e8f21b-9f74-4cb0-9c5a-c180054e6dc4", "coste": 1, "enviado": "2026-11-05 16:08:25"}
+{"key": "mapa|puerto|a", "job_id": "eaf42e99-f767-4098-a8f4-6fb6bb3c9f83", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|aerodromo|b", "job_id": "1723d2f3-d2ea-4442-9357-399f83d37598", "coste": 1, "enviado": "2026-11-05 16:08:25"}
+{"key": "mapa|ciudad|c", "job_id": "8f760212-a377-4f64-a8fa-dad3b3836aa2", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|aerodromo|c", "job_id": "acabdaba-c41f-4ce5-ab35-079afca95d04", "coste": 1, "enviado": "2026-11-05 16:08:29"}
+{"key": "iconos|ordenes_abastecer|c", "job_id": "d6761bc9-f664-48cf-bdee-fc3f0c24b18e", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_artilleria|c", "job_id": "6c5d469e-cade-44c6-be55-4d522928ae2b", "coste": 1, "enviado": "2026-11-05 16:08:30"}
+{"key": "iconos|ordenes_apoyo_aereo|a", "job_id": "b2df4ee3-d508-4524-b39a-0120a97618d1", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_cambiar_horario|a", "job_id": "5a491b5b-9824-4b84-ba49-6bd58c8f51a7", "coste": 1, "enviado": "2026-11-05 16:08:31"}
+{"key": "iconos|ordenes_artilleria|a", "job_id": "bb4a9ef0-a8af-495a-a2dc-10d903a784e3", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_cambiar_horario|b", "job_id": "d79251b1-b856-4762-a3ef-0941c4aaa3f4", "coste": 1, "enviado": "2026-11-05 16:08:35"}
+{"key": "mapa|puerto|b", "job_id": "57a6e027-685f-4526-9c4e-1766eb48ab4e", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|aerodromo|d", "job_id": "7b565046-f23c-4dfa-8668-2eae26853dad", "coste": 1, "enviado": "2026-11-05 16:08:39"}
+{"key": "iconos|ordenes_apoyo_aereo|c", "job_id": "f09747f8-7ec0-439f-93aa-387c69fe5d1b", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_cambiar_horario|c", "job_id": "4f08c4b8-c89a-4fb3-be78-2d26ab434bc5", "coste": 1, "enviado": "2026-11-05 16:08:44"}
+{"key": "iconos|ordenes_artilleria|b", "job_id": "4bc1b667-c9a1-4309-beff-2c11aa5aa0c2", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_cambiar_ruta|a", "job_id": "c1858f2a-f39c-4b5d-b97a-d2176623f2c7", "coste": 1, "enviado": "2026-11-05 16:08:45"}
+{"key": "mapa|puerto|d", "job_id": "4a26b82f-76a5-4af1-9714-bbd8cec4508a", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|taller|a", "job_id": "7b4855d1-44cc-4ab0-866a-d3ccbf804fd1", "coste": 1, "enviado": "2026-11-05 16:08:51"}
+{"key": "iconos|ordenes_apoyo_aereo|b", "job_id": "ed3188c7-abdc-410d-a497-1b983bb4f43d", "terminado": true, "transparencia": "FONDO (100% del borde opaco)"}
+{"key": "iconos|ordenes_cambiar_ruta|b", "job_id": "d9d50708-619d-4d36-a3a4-6de77c33fc02", "coste": 1, "enviado": "2026-11-05 16:08:55"}
+{"key": "mapa|aerodromo|b", "job_id": "1723d2f3-d2ea-4442-9357-399f83d37598", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|taller|b", "job_id": "b370e8d0-4a1e-4718-a6b2-bc487a282edf", "coste": 1, "enviado": "2026-11-05 16:09:00"}
+{"key": "mapa|puerto|c", "job_id": "440b2cfa-5ba1-4070-ac16-22acc169c38e", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|taller|c", "job_id": "a8ee1741-ba18-4cc2-858f-41faa672ffde", "coste": 1, "enviado": "2026-11-05 16:09:03"}
+{"key": "iconos|ordenes_artilleria|c", "job_id": "6c5d469e-cade-44c6-be55-4d522928ae2b", "terminado": true, "transparencia": "ok"}
+{"key": "iconos|ordenes_cambiar_ruta|c", "job_id": "396edffe-43ee-4ebd-8f9e-1599170e2306", "coste": 1, "enviado": "2026-11-05 16:09:05"}
+{"key": "mapa|aerodromo|c", "job_id": "acabdaba-c41f-4ce5-ab35-079afca95d04", "terminado": true, "transparencia": "ok"}
+{"key": "mapa|taller|d", "job_id": "5b807bba-84f3-4777-9198-df64b45ae162", "coste": 1, "enviado": "2026-11-05 16:09:07"}
+{"key": "mapa|aerodromo|a", "job_id": "89e8f21b-9f74-4cb0-9c5a-c180054e6dc4", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_16|v1", "job_id": "d8dc83bb-27aa-41c8-8480-adb9991f26e3", "coste": 1, "enviado": "2026-11-06 08:27:39"}
+{"key": "A1_cargas|municion_16|v2", "job_id": "77163545-6564-47b8-a7cd-13f9e77a68d1", "coste": 1, "enviado": "2026-11-06 08:27:39"}
+{"key": "A1_cargas|municion_16|v4", "job_id": "47f3f127-9a12-41ac-aa5f-86141c00a684", "coste": 1, "enviado": "2026-11-06 08:27:39"}
+{"key": "A1_cargas|municion_16|v3", "job_id": "d1929f10-7880-4d0c-b557-28f43d670c2c", "coste": 1, "enviado": "2026-11-06 08:27:39"}
+{"key": "A1_cargas|municion_16|v4", "job_id": "47f3f127-9a12-41ac-aa5f-86141c00a684", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_16|v5", "job_id": "bfb1273f-b716-4c66-8d2c-8a075bc9376b", "coste": 1, "enviado": "2026-11-06 08:28:01"}
+{"key": "A1_cargas|municion_16|v3", "job_id": "d1929f10-7880-4d0c-b557-28f43d670c2c", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_16|v6", "job_id": "0cb5a5be-bbe4-4ddd-ad54-e375d4be89cc", "coste": 1, "enviado": "2026-11-06 08:28:05"}
+{"key": "A1_cargas|municion_16|v2", "job_id": "77163545-6564-47b8-a7cd-13f9e77a68d1", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_16|v7", "job_id": "aea7a17e-9844-49dc-9cf7-48f4f7dc0ec5", "coste": 1, "enviado": "2026-11-06 08:28:14"}
+{"key": "A1_cargas|municion_16|v1", "job_id": "d8dc83bb-27aa-41c8-8480-adb9991f26e3", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_16|v8", "job_id": "6a40222b-839b-446d-92d3-1422b2e0bf70", "coste": 1, "enviado": "2026-11-06 08:28:18"}
+{"key": "A1_cargas|municion_16|v5", "job_id": "bfb1273f-b716-4c66-8d2c-8a075bc9376b", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v1", "job_id": "f59c63b5-7d59-4ba7-9a7c-fdbab6a01e37", "coste": 1, "enviado": "2026-11-06 08:28:31"}
+{"key": "A1_cargas|municion_16|v8", "job_id": "6a40222b-839b-446d-92d3-1422b2e0bf70", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v2", "job_id": "005d06d5-49b1-4792-9521-b8bf933c6839", "coste": 1, "enviado": "2026-11-06 08:28:40"}
+{"key": "A1_cargas|municion_16|v6", "job_id": "0cb5a5be-bbe4-4ddd-ad54-e375d4be89cc", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v3", "job_id": "3925a1e7-9014-490d-9573-a4914e421d54", "coste": 1, "enviado": "2026-11-06 08:28:44"}
+{"key": "A1_cargas|municion_16|v7", "job_id": "aea7a17e-9844-49dc-9cf7-48f4f7dc0ec5", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v4", "job_id": "5487f7b1-71f8-4393-ad70-4b059a4a0053", "coste": 1, "enviado": "2026-11-06 08:28:52"}
+{"key": "A1_cargas|municion_32|v1", "job_id": "f59c63b5-7d59-4ba7-9a7c-fdbab6a01e37", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v2", "job_id": "005d06d5-49b1-4792-9521-b8bf933c6839", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v5", "job_id": "805cd027-28f1-4f0b-9333-1dedada4a9bb", "coste": 1, "enviado": "2026-11-06 08:29:01"}
+{"key": "A1_cargas|municion_32|v6", "job_id": "e9f97327-e75d-4706-b177-505a891ac8df", "coste": 1, "enviado": "2026-11-06 08:29:02"}
+{"key": "A1_cargas|municion_32|v4", "job_id": "5487f7b1-71f8-4393-ad70-4b059a4a0053", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v7", "job_id": "4da7aeac-79d7-4027-a838-0f8fd6e16b65", "coste": 1, "enviado": "2026-11-06 08:29:18"}
+{"key": "A1_cargas|municion_32|v3", "job_id": "3925a1e7-9014-490d-9573-a4914e421d54", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|municion_32|v8", "job_id": "af7c0370-7c4d-4f25-8d3b-25bb2bdae516", "coste": 1, "enviado": "2026-11-06 08:29:22"}
+{"key": "A1_cargas|municion_32|v6", "job_id": "e9f97327-e75d-4706-b177-505a891ac8df", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_16|v1", "job_id": "e37998b3-a2fe-4967-8734-f61f9ab7b392", "coste": 1, "enviado": "2026-11-06 08:29:23"}
+{"key": "A1_cargas|municion_32|v5", "job_id": "805cd027-28f1-4f0b-9333-1dedada4a9bb", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_16|v2", "job_id": "74ff4a0d-254f-4b99-82e0-b8f9e5639b56", "coste": 1, "enviado": "2026-11-06 08:29:28"}
+{"key": "A1_cargas|municion_32|v7", "job_id": "4da7aeac-79d7-4027-a838-0f8fd6e16b65", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_16|v3", "job_id": "209d4335-7442-44f9-9ee4-9e182540861e", "coste": 1, "enviado": "2026-11-06 08:29:48"}
+{"key": "A1_cargas|combustible_16|v1", "job_id": "e37998b3-a2fe-4967-8734-f61f9ab7b392", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_16|v4", "job_id": "1c0dd306-1cbe-467c-b75a-5b4927c82cdc", "coste": 1, "enviado": "2026-11-06 08:29:49"}
+{"key": "A1_cargas|combustible_16|v2", "job_id": "74ff4a0d-254f-4b99-82e0-b8f9e5639b56", "terminado": true, "transparencia": "FONDO (97% del borde opaco)"}
+{"key": "A1_cargas|combustible_16|v5", "job_id": "5882021f-5740-4142-80dc-22e0773c56e7", "coste": 1, "enviado": "2026-11-06 08:29:54"}
+{"key": "A1_cargas|municion_32|v8", "job_id": "af7c0370-7c4d-4f25-8d3b-25bb2bdae516", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_16|v6", "job_id": "fc83df88-0a46-4b93-8955-e895f1a1ba8f", "coste": 1, "enviado": "2026-11-06 08:30:09"}
+{"key": "A1_cargas|combustible_16|v3", "job_id": "209d4335-7442-44f9-9ee4-9e182540861e", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_16|v7", "job_id": "7c6afb48-98ba-417f-bce0-d8d327c7a234", "coste": 1, "enviado": "2026-11-06 08:30:10"}
+{"key": "A1_cargas|combustible_16|v5", "job_id": "5882021f-5740-4142-80dc-22e0773c56e7", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_16|v8", "job_id": "58d89921-0e22-4b1b-983e-2a802606ba5b", "coste": 1, "enviado": "2026-11-06 08:30:20"}
+{"key": "A1_cargas|combustible_16|v6", "job_id": "fc83df88-0a46-4b93-8955-e895f1a1ba8f", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v1", "job_id": "f59ab00c-4b29-4bd4-8eb3-2fe3b306b454", "coste": 1, "enviado": "2026-11-06 08:30:36"}
+{"key": "A1_cargas|combustible_16|v4", "job_id": "1c0dd306-1cbe-467c-b75a-5b4927c82cdc", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v2", "job_id": "0892803c-fd2d-4d0e-8a87-0aa46db6ac8b", "coste": 1, "enviado": "2026-11-06 08:30:36"}
+{"key": "A1_cargas|combustible_16|v7", "job_id": "7c6afb48-98ba-417f-bce0-d8d327c7a234", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v3", "job_id": "9f1e9737-4f31-4be4-9aa1-4aecc80f700c", "coste": 1, "enviado": "2026-11-06 08:30:49"}
+{"key": "A1_cargas|combustible_16|v8", "job_id": "58d89921-0e22-4b1b-983e-2a802606ba5b", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v4", "job_id": "f7b280f3-9617-4089-bff4-2e9fa3b7cd23", "coste": 1, "enviado": "2026-11-06 08:31:02"}
+{"key": "A1_cargas|combustible_32|v1", "job_id": "f59ab00c-4b29-4bd4-8eb3-2fe3b306b454", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v5", "job_id": "f070939e-97a2-4e90-8a52-a31d91f056a7", "coste": 1, "enviado": "2026-11-06 08:31:06"}
+{"key": "A1_cargas|combustible_32|v2", "job_id": "0892803c-fd2d-4d0e-8a87-0aa46db6ac8b", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v6", "job_id": "fb063d31-65cd-4d10-b9dc-c60b80a77a29", "coste": 1, "enviado": "2026-11-06 08:31:11"}
+{"key": "A1_cargas|combustible_32|v3", "job_id": "9f1e9737-4f31-4be4-9aa1-4aecc80f700c", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v7", "job_id": "cd8caf2d-6d0a-425a-b2b4-2235ab508477", "coste": 1, "enviado": "2026-11-06 08:31:15"}
+{"key": "A1_cargas|combustible_32|v5", "job_id": "f070939e-97a2-4e90-8a52-a31d91f056a7", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v8", "job_id": "575a93f6-2521-407c-bad3-344ebc2c2fc3", "coste": 1, "enviado": "2026-11-06 08:31:32"}
+{"key": "A1_cargas|combustible_32|v4", "job_id": "f7b280f3-9617-4089-bff4-2e9fa3b7cd23", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_16|v1", "job_id": "2d9c324a-8bb6-457d-91c7-f6ac504dcab7", "coste": 1, "enviado": "2026-11-06 08:31:33"}
+{"key": "A1_cargas|combustible_32|v7", "job_id": "cd8caf2d-6d0a-425a-b2b4-2235ab508477", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_16|v2", "job_id": "89fef627-4e75-407e-86ac-b9530bc2d6fd", "coste": 1, "enviado": "2026-11-06 08:31:45"}
+{"key": "A1_cargas|combustible_32|v8", "job_id": "575a93f6-2521-407c-bad3-344ebc2c2fc3", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|combustible_32|v6", "job_id": "fb063d31-65cd-4d10-b9dc-c60b80a77a29", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_16|v3", "job_id": "9bf56946-9ef5-44ed-9fd8-9bc881c54da2", "coste": 1, "enviado": "2026-11-06 08:31:54"}
+{"key": "A1_cargas|materiales_16|v4", "job_id": "bf03e150-daa4-49e3-bdcc-316b57f69d9d", "coste": 1, "enviado": "2026-11-06 08:31:54"}
+{"key": "A1_cargas|materiales_16|v1", "job_id": "2d9c324a-8bb6-457d-91c7-f6ac504dcab7", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_16|v5", "job_id": "c2ca5ed3-f3fb-4dd8-9034-a36c51459b8f", "coste": 1, "enviado": "2026-11-06 08:32:03"}
+{"key": "A1_cargas|materiales_16|v2", "job_id": "89fef627-4e75-407e-86ac-b9530bc2d6fd", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_16|v6", "job_id": "2858bdea-98c5-458a-b66a-0e8ea610eaed", "coste": 1, "enviado": "2026-11-06 08:32:15"}
+{"key": "A1_cargas|materiales_16|v4", "job_id": "bf03e150-daa4-49e3-bdcc-316b57f69d9d", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_16|v7", "job_id": "9524f1ce-059d-4fc1-ac3e-64f92106dc19", "coste": 1, "enviado": "2026-11-06 08:32:32"}
+{"key": "A1_cargas|materiales_16|v3", "job_id": "9bf56946-9ef5-44ed-9fd8-9bc881c54da2", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_16|v8", "job_id": "24a4066c-18c7-4afe-914d-961e6b68e6f2", "coste": 1, "enviado": "2026-11-06 08:32:36"}
+{"key": "A1_cargas|materiales_16|v5", "job_id": "c2ca5ed3-f3fb-4dd8-9034-a36c51459b8f", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v1", "job_id": "00a4057e-d384-4e1a-b1c2-1b07f2433997", "coste": 1, "enviado": "2026-11-06 08:32:41"}
+{"key": "A1_cargas|materiales_16|v6", "job_id": "2858bdea-98c5-458a-b66a-0e8ea610eaed", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v2", "job_id": "b4fb0738-5b3e-4c1a-8450-b6fa0354b6fb", "coste": 1, "enviado": "2026-11-06 08:32:50"}
+{"key": "A1_cargas|materiales_16|v7", "job_id": "9524f1ce-059d-4fc1-ac3e-64f92106dc19", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v1", "job_id": "00a4057e-d384-4e1a-b1c2-1b07f2433997", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v3", "job_id": "cab2ec9b-03fd-41f8-af2f-6f0516d37cad", "coste": 1, "enviado": "2026-11-06 08:32:58"}
+{"key": "A1_cargas|materiales_32|v4", "job_id": "af1f1d2b-bb0e-49fb-a67a-1b4bd1a6f7f9", "coste": 1, "enviado": "2026-11-06 08:32:59"}
+{"key": "A1_cargas|materiales_16|v8", "job_id": "24a4066c-18c7-4afe-914d-961e6b68e6f2", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v5", "job_id": "617730f4-a4ba-4f3d-a909-52b0e13e97a6", "coste": 1, "enviado": "2026-11-06 08:33:07"}
+{"key": "A1_cargas|materiales_32|v2", "job_id": "b4fb0738-5b3e-4c1a-8450-b6fa0354b6fb", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v6", "job_id": "16d2af9a-f9c8-4d07-9158-81d5a6120f8d", "coste": 1, "enviado": "2026-11-06 08:33:24"}
+{"key": "A1_cargas|materiales_32|v4", "job_id": "af1f1d2b-bb0e-49fb-a67a-1b4bd1a6f7f9", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v7", "job_id": "020adf13-9a37-407c-8be7-0662a6367aaf", "coste": 1, "enviado": "2026-11-06 08:33:25"}
+{"key": "A1_cargas|materiales_32|v5", "job_id": "617730f4-a4ba-4f3d-a909-52b0e13e97a6", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v3", "job_id": "cab2ec9b-03fd-41f8-af2f-6f0516d37cad", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|materiales_32|v8", "job_id": "e5cf058f-d548-41a7-b394-d038f62a1b62", "coste": 1, "enviado": "2026-11-06 08:33:37"}
+{"key": "A1_cargas|viveres_16|v1", "job_id": "7be71a11-3409-4134-9bd7-d55227fe24f4", "coste": 1, "enviado": "2026-11-06 08:33:37"}
+{"key": "A1_cargas|materiales_32|v6", "job_id": "16d2af9a-f9c8-4d07-9158-81d5a6120f8d", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_16|v2", "job_id": "227128b0-bdf3-468a-80a4-b9272282995e", "coste": 1, "enviado": "2026-11-06 08:33:59"}
+{"key": "A1_cargas|viveres_16|v1", "job_id": "7be71a11-3409-4134-9bd7-d55227fe24f4", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_16|v3", "job_id": "e0585024-e7be-4f3b-8801-3ba21741df91", "coste": 1, "enviado": "2026-11-06 08:34:03"}
+{"key": "A1_cargas|materiales_32|v7", "job_id": "020adf13-9a37-407c-8be7-0662a6367aaf", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_16|v4", "job_id": "89f078e4-dc78-49e0-85a0-777181858799", "coste": 1, "enviado": "2026-11-06 08:34:08"}
+{"key": "A1_cargas|materiales_32|v8", "job_id": "e5cf058f-d548-41a7-b394-d038f62a1b62", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_16|v5", "job_id": "0e9758f5-6c35-4a0d-9619-2912618add5a", "coste": 1, "enviado": "2026-11-06 08:34:20"}
+{"key": "A1_cargas|viveres_16|v3", "job_id": "e0585024-e7be-4f3b-8801-3ba21741df91", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_16|v6", "job_id": "449f338e-c79c-4d5c-bf0a-9f4381611dd8", "coste": 1, "enviado": "2026-11-06 08:34:29"}
+{"key": "A1_cargas|viveres_16|v2", "job_id": "227128b0-bdf3-468a-80a4-b9272282995e", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_16|v7", "job_id": "cd836a81-de4e-47c8-ae1d-8ce2ba6722e7", "coste": 1, "enviado": "2026-11-06 08:34:37"}
+{"key": "A1_cargas|viveres_16|v6", "job_id": "449f338e-c79c-4d5c-bf0a-9f4381611dd8", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_16|v8", "job_id": "f13d591e-c484-4c83-bfab-83bba67167dc", "coste": 1, "enviado": "2026-11-06 08:34:55"}
+{"key": "A1_cargas|viveres_16|v4", "job_id": "89f078e4-dc78-49e0-85a0-777181858799", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v1", "job_id": "fb1197d4-9fe5-4639-b14a-ff69b473c17e", "coste": 1, "enviado": "2026-11-06 08:34:59"}
+{"key": "A1_cargas|viveres_16|v5", "job_id": "0e9758f5-6c35-4a0d-9619-2912618add5a", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v2", "job_id": "9573bbb1-2695-41ad-a071-8209562bcf19", "coste": 1, "enviado": "2026-11-06 08:35:23"}
+{"key": "A1_cargas|viveres_16|v7", "job_id": "cd836a81-de4e-47c8-ae1d-8ce2ba6722e7", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v3", "job_id": "89a7abaa-362a-49d7-9a0c-9e0634a266dd", "coste": 1, "enviado": "2026-11-06 08:35:24"}
+{"key": "A1_cargas|viveres_32|v1", "job_id": "fb1197d4-9fe5-4639-b14a-ff69b473c17e", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v4", "job_id": "c3da2a44-9ce0-4040-91db-fcde715cdc02", "coste": 1, "enviado": "2026-11-06 08:35:38"}
+{"key": "A1_cargas|viveres_16|v8", "job_id": "f13d591e-c484-4c83-bfab-83bba67167dc", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v5", "job_id": "90d0d098-e92b-4f4e-9c22-6350d6ae353f", "coste": 1, "enviado": "2026-11-06 08:35:42"}
+{"key": "A1_cargas|viveres_32|v2", "job_id": "9573bbb1-2695-41ad-a071-8209562bcf19", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v6", "job_id": "97bf4f31-0183-4c3c-a560-99eb05fa1edf", "coste": 1, "enviado": "2026-11-06 08:36:02"}
+{"key": "A1_cargas|viveres_32|v4", "job_id": "c3da2a44-9ce0-4040-91db-fcde715cdc02", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v7", "job_id": "30cc573a-e3ae-47a4-a942-87751e09dcda", "coste": 1, "enviado": "2026-11-06 08:36:04"}
+{"key": "A1_cargas|viveres_32|v3", "job_id": "89a7abaa-362a-49d7-9a0c-9e0634a266dd", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|viveres_32|v8", "job_id": "e17be9e1-99cf-46ab-943b-780e5798a759", "coste": 1, "enviado": "2026-11-06 08:36:16"}
+{"key": "A1_cargas|viveres_32|v5", "job_id": "90d0d098-e92b-4f4e-9c22-6350d6ae353f", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v1", "job_id": "781ad070-6daa-4de6-b9ee-e4f62fd045e9", "coste": 1, "enviado": "2026-11-06 08:36:21"}
+{"key": "A1_cargas|viveres_32|v6", "job_id": "97bf4f31-0183-4c3c-a560-99eb05fa1edf", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v2", "job_id": "b0f8679f-a35a-4555-a999-1728e133a1ef", "coste": 1, "enviado": "2026-11-06 08:36:32"}
+{"key": "A1_cargas|viveres_32|v7", "job_id": "30cc573a-e3ae-47a4-a942-87751e09dcda", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v3", "job_id": "a4d60a4e-8d0b-4845-933f-b874ebe38aa8", "coste": 1, "enviado": "2026-11-06 08:36:38"}
+{"key": "A1_cargas|poblacion_16|v2", "job_id": "b0f8679f-a35a-4555-a999-1728e133a1ef", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v4", "job_id": "a3071725-32c2-43e8-b9f1-c8b86955897b", "coste": 1, "enviado": "2026-11-06 08:36:54"}
+{"key": "A1_cargas|viveres_32|v8", "job_id": "e17be9e1-99cf-46ab-943b-780e5798a759", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v5", "job_id": "619c5597-b8b1-4b4c-92b9-b913f1585e91", "coste": 1, "enviado": "2026-11-06 08:37:03"}
+{"key": "A1_cargas|poblacion_16|v1", "job_id": "781ad070-6daa-4de6-b9ee-e4f62fd045e9", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v6", "job_id": "eedc209d-9f98-47a9-8736-6fe59ba86ba2", "coste": 1, "enviado": "2026-11-06 08:37:08"}
+{"key": "A1_cargas|poblacion_16|v3", "job_id": "a4d60a4e-8d0b-4845-933f-b874ebe38aa8", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v7", "job_id": "1c613c5e-f467-4f2b-954b-dede814436ee", "coste": 1, "enviado": "2026-11-06 08:37:08"}
+{"key": "A1_cargas|poblacion_16|v4", "job_id": "a3071725-32c2-43e8-b9f1-c8b86955897b", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v5", "job_id": "619c5597-b8b1-4b4c-92b9-b913f1585e91", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v8", "job_id": "6ca41283-57ac-4dd3-9352-8840f265f5ec", "coste": 1, "enviado": "2026-11-06 08:37:24"}
+{"key": "A1_cargas|poblacion_32|v1", "job_id": "e8d3ea53-53b5-41d1-afac-b1870a01a342", "coste": 1, "enviado": "2026-11-06 08:37:25"}
+{"key": "A1_cargas|poblacion_16|v6", "job_id": "eedc209d-9f98-47a9-8736-6fe59ba86ba2", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_16|v7", "job_id": "1c613c5e-f467-4f2b-954b-dede814436ee", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v2", "job_id": "3092b3c6-40ef-42bd-b493-3ccdb2fb1355", "coste": 1, "enviado": "2026-11-06 08:37:50"}
+{"key": "A1_cargas|poblacion_32|v3", "job_id": "0b803e0a-2676-4ad1-82bf-1d99fd3e0ae4", "coste": 1, "enviado": "2026-11-06 08:37:51"}
+{"key": "A1_cargas|poblacion_16|v8", "job_id": "6ca41283-57ac-4dd3-9352-8840f265f5ec", "terminado": true, "transparencia": "FONDO (73% del borde opaco)"}
+{"key": "A1_cargas|poblacion_32|v4", "job_id": "3c907d01-6485-40c4-9cdf-453505deaeb3", "coste": 1, "enviado": "2026-11-06 08:38:03"}
+{"key": "A1_cargas|poblacion_32|v1", "job_id": "e8d3ea53-53b5-41d1-afac-b1870a01a342", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v5", "job_id": "89cb03ef-074f-4ea1-bdd9-987997bf0769", "coste": 1, "enviado": "2026-11-06 08:38:11"}
+{"key": "A1_cargas|poblacion_32|v3", "job_id": "0b803e0a-2676-4ad1-82bf-1d99fd3e0ae4", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v6", "job_id": "854aac5a-61cb-47cf-84c8-0a7075dcc648", "coste": 1, "enviado": "2026-11-06 08:38:17"}
+{"key": "A1_cargas|poblacion_32|v2", "job_id": "3092b3c6-40ef-42bd-b493-3ccdb2fb1355", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v7", "job_id": "73c7e744-2ff1-46b9-8433-9c0fa5857683", "coste": 1, "enviado": "2026-11-06 08:38:25"}
+{"key": "A1_cargas|poblacion_32|v5", "job_id": "89cb03ef-074f-4ea1-bdd9-987997bf0769", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v8", "job_id": "05f88a5f-d989-4014-9ed8-ca04f7ef57b1", "coste": 1, "enviado": "2026-11-06 08:38:38"}
+{"key": "A1_cargas|poblacion_32|v6", "job_id": "854aac5a-61cb-47cf-84c8-0a7075dcc648", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v4", "job_id": "3c907d01-6485-40c4-9cdf-453505deaeb3", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v7", "job_id": "73c7e744-2ff1-46b9-8433-9c0fa5857683", "terminado": true, "transparencia": "ok"}
+{"key": "A1_cargas|poblacion_32|v8", "job_id": "05f88a5f-d989-4014-9ed8-ca04f7ef57b1", "terminado": true, "transparencia": "FONDO (100% del borde opaco)"}
+{"key": "A2_alertas|ataque_32|v2", "job_id": "3e869f0b-57aa-426d-88e3-c9df4566e0c0", "coste": 1, "enviado": "2026-11-06 08:45:07"}
+{"key": "A2_alertas|ataque_32|v3", "job_id": "6f9dcf03-13e4-45de-adf9-a76e0a2ebb3e", "coste": 1, "enviado": "2026-11-06 08:45:07"}
+{"key": "A2_alertas|ataque_32|v1", "job_id": "d39d5bc8-faeb-4925-a269-f05f8139273a", "coste": 1, "enviado": "2026-11-06 08:45:07"}
+{"key": "A2_alertas|ataque_32|v4", "job_id": "d6372de2-fb5a-4b31-bceb-f30a51621448", "coste": 1, "enviado": "2026-11-06 08:45:07"}
+{"key": "A2_alertas|ataque_32|v1", "job_id": "d39d5bc8-faeb-4925-a269-f05f8139273a", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|ataque_32|v2", "job_id": "3e869f0b-57aa-426d-88e3-c9df4566e0c0", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|ataque_32|v5", "job_id": "3e60ce38-42e9-40ab-92ab-d8b744007b76", "coste": 1, "enviado": "2026-11-06 08:45:41"}
+{"key": "A2_alertas|ataque_32|v6", "job_id": "e964218c-2c3c-44c3-a86e-8911e5f9505b", "coste": 1, "enviado": "2026-11-06 08:45:41"}
+{"key": "A2_alertas|ataque_32|v3", "job_id": "6f9dcf03-13e4-45de-adf9-a76e0a2ebb3e", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|ataque_32|v4", "job_id": "d6372de2-fb5a-4b31-bceb-f30a51621448", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|ataque_32|v7", "job_id": "09a30e03-53f8-4043-9d90-3d994aa7972b", "coste": 1, "enviado": "2026-11-06 08:45:45"}
+{"key": "A2_alertas|ataque_32|v8", "job_id": "f200970f-af3e-4c55-8c05-d60777bc7e05", "coste": 1, "enviado": "2026-11-06 08:45:45"}
+{"key": "A2_alertas|ataque_32|v5", "job_id": "3e60ce38-42e9-40ab-92ab-d8b744007b76", "terminado": true, "transparencia": "FONDO (69% del borde opaco)"}
+{"key": "A2_alertas|via_cortada_32|v1", "job_id": "df869948-73b8-4961-8422-807f6d1a7631", "coste": 1, "enviado": "2026-11-06 08:46:08"}
+{"key": "A2_alertas|ataque_32|v8", "job_id": "f200970f-af3e-4c55-8c05-d60777bc7e05", "terminado": true, "transparencia": "FONDO (81% del borde opaco)"}
+{"key": "A2_alertas|ataque_32|v6", "job_id": "e964218c-2c3c-44c3-a86e-8911e5f9505b", "terminado": true, "transparencia": "FONDO (70% del borde opaco)"}
+{"key": "A2_alertas|via_cortada_32|v3", "job_id": "6a4e0132-ec0c-4d4a-a623-69d2845c4b17", "coste": 1, "enviado": "2026-11-06 08:46:12"}
+{"key": "A2_alertas|via_cortada_32|v2", "job_id": "280e9dd4-bfce-4dfa-878b-b7c71b37445f", "coste": 1, "enviado": "2026-11-06 08:46:12"}
+{"key": "A2_alertas|ataque_32|v7", "job_id": "09a30e03-53f8-4043-9d90-3d994aa7972b", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|via_cortada_32|v4", "job_id": "f600b32e-dfa9-4d4b-9090-10a5baa10925", "coste": 1, "enviado": "2026-11-06 08:46:24"}
+{"key": "A2_alertas|via_cortada_32|v2", "job_id": "280e9dd4-bfce-4dfa-878b-b7c71b37445f", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|via_cortada_32|v3", "job_id": "6a4e0132-ec0c-4d4a-a623-69d2845c4b17", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|via_cortada_32|v5", "job_id": "19a10ecc-6eff-4c4f-bcb7-7da624b4e6f6", "coste": 1, "enviado": "2026-11-06 08:46:33"}
+{"key": "A2_alertas|via_cortada_32|v6", "job_id": "ec840846-0b79-43f0-84d9-cc16d07c97ea", "coste": 1, "enviado": "2026-11-06 08:46:33"}
+{"key": "A2_alertas|via_cortada_32|v1", "job_id": "df869948-73b8-4961-8422-807f6d1a7631", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|via_cortada_32|v7", "job_id": "9aeb8723-348d-477a-8f28-d1de2cf1d94a", "coste": 1, "enviado": "2026-11-06 08:46:47"}
+{"key": "A2_alertas|via_cortada_32|v4", "job_id": "f600b32e-dfa9-4d4b-9090-10a5baa10925", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|via_cortada_32|v8", "job_id": "9b338386-398b-41db-b7cb-e1d081ee6d02", "coste": 1, "enviado": "2026-11-06 08:47:03"}
+{"key": "A2_alertas|via_cortada_32|v5", "job_id": "19a10ecc-6eff-4c4f-bcb7-7da624b4e6f6", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|via_cortada_32|v7", "job_id": "9aeb8723-348d-477a-8f28-d1de2cf1d94a", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|tren_detenido_32|v2", "job_id": "6319a3dc-fd7c-4281-a6e0-da2cf91dc9ae", "coste": 1, "enviado": "2026-11-06 08:47:13"}
+{"key": "A2_alertas|tren_detenido_32|v1", "job_id": "74c914e3-6d76-4711-b258-f84e78289f6a", "coste": 1, "enviado": "2026-11-06 08:47:13"}
+{"key": "A2_alertas|via_cortada_32|v6", "job_id": "ec840846-0b79-43f0-84d9-cc16d07c97ea", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|tren_detenido_32|v3", "job_id": "8a80efc7-a532-434b-a065-3ed6356ed89c", "coste": 1, "enviado": "2026-11-06 08:47:17"}
+{"key": "A2_alertas|via_cortada_32|v8", "job_id": "9b338386-398b-41db-b7cb-e1d081ee6d02", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|tren_detenido_32|v4", "job_id": "cea48480-2eaa-476d-8a13-45e777eded9c", "coste": 1, "enviado": "2026-11-06 08:47:33"}
+{"key": "A2_alertas|tren_detenido_32|v3", "job_id": "8a80efc7-a532-434b-a065-3ed6356ed89c", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|tren_detenido_32|v5", "job_id": "d9bcc486-921c-4847-9c5f-c1c635ff3c9b", "coste": 1, "enviado": "2026-11-06 08:47:43"}
+{"key": "A2_alertas|tren_detenido_32|v2", "job_id": "6319a3dc-fd7c-4281-a6e0-da2cf91dc9ae", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|tren_detenido_32|v6", "job_id": "ca78f9e3-8d14-41d2-82f8-795a448aa0c9", "coste": 1, "enviado": "2026-11-06 08:47:47"}
+{"key": "A2_alertas|tren_detenido_32|v1", "job_id": "74c914e3-6d76-4711-b258-f84e78289f6a", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|tren_detenido_32|v7", "job_id": "6426c5ad-29fd-49dd-893b-cc488ba6e27e", "coste": 1, "enviado": "2026-11-06 08:47:51"}
+{"key": "A2_alertas|tren_detenido_32|v4", "job_id": "cea48480-2eaa-476d-8a13-45e777eded9c", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|tren_detenido_32|v8", "job_id": "b0141904-c8b5-4a00-81cf-628d8d1f314b", "coste": 1, "enviado": "2026-11-06 08:47:59"}
+{"key": "A2_alertas|tren_detenido_32|v5", "job_id": "d9bcc486-921c-4847-9c5f-c1c635ff3c9b", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v1", "job_id": "0cea9068-b061-4c8a-8154-a1b459b71dea", "coste": 1, "enviado": "2026-11-06 08:48:09"}
+{"key": "A2_alertas|tren_detenido_32|v8", "job_id": "b0141904-c8b5-4a00-81cf-628d8d1f314b", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v2", "job_id": "79061288-6a0b-4942-8d1c-bcde28c36d33", "coste": 1, "enviado": "2026-11-06 08:48:25"}
+{"key": "A2_alertas|tren_detenido_32|v6", "job_id": "ca78f9e3-8d14-41d2-82f8-795a448aa0c9", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v3", "job_id": "8f2ef4b1-edf7-4e88-8269-59d8a9dcc1a1", "coste": 1, "enviado": "2026-11-06 08:48:26"}
+{"key": "A2_alertas|sin_municion_32|v1", "job_id": "0cea9068-b061-4c8a-8154-a1b459b71dea", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v4", "job_id": "a0914f72-031e-448e-8781-f83ad34e8bb7", "coste": 1, "enviado": "2026-11-06 08:48:30"}
+{"key": "A2_alertas|tren_detenido_32|v7", "job_id": "6426c5ad-29fd-49dd-893b-cc488ba6e27e", "terminado": true, "transparencia": "FONDO (52% del borde opaco)"}
+{"key": "A2_alertas|sin_municion_32|v5", "job_id": "fb8e2f8e-9433-4730-ac07-7e92f9f6e5ab", "coste": 1, "enviado": "2026-11-06 08:48:34"}
+{"key": "A2_alertas|sin_municion_32|v3", "job_id": "8f2ef4b1-edf7-4e88-8269-59d8a9dcc1a1", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v6", "job_id": "6192561c-da24-4c32-b995-39df3a7ecef3", "coste": 1, "enviado": "2026-11-06 08:48:52"}
+{"key": "A2_alertas|sin_municion_32|v4", "job_id": "a0914f72-031e-448e-8781-f83ad34e8bb7", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v7", "job_id": "e5577981-79f6-4d71-8622-829aded1a067", "coste": 1, "enviado": "2026-11-06 08:48:56"}
+{"key": "A2_alertas|sin_municion_32|v2", "job_id": "79061288-6a0b-4942-8d1c-bcde28c36d33", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v5", "job_id": "fb8e2f8e-9433-4730-ac07-7e92f9f6e5ab", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_municion_32|v8", "job_id": "1bf96011-05aa-423c-b8c7-65b0af41b91c", "coste": 1, "enviado": "2026-11-06 08:49:00"}
+{"key": "A2_alertas|sin_combustible_32|v1", "job_id": "dd3e969d-abad-4284-b71f-dc70ac313533", "coste": 1, "enviado": "2026-11-06 08:49:00"}
+{"key": "A2_alertas|sin_municion_32|v6", "job_id": "6192561c-da24-4c32-b995-39df3a7ecef3", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v2", "job_id": "0fa58b24-3c4c-4855-885d-08e110606fc1", "coste": 1, "enviado": "2026-11-06 08:49:26"}
+{"key": "A2_alertas|sin_municion_32|v7", "job_id": "e5577981-79f6-4d71-8622-829aded1a067", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v3", "job_id": "4db78b85-633d-419f-b899-6563cc94350f", "coste": 1, "enviado": "2026-11-06 08:49:31"}
+{"key": "A2_alertas|sin_municion_32|v8", "job_id": "1bf96011-05aa-423c-b8c7-65b0af41b91c", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v4", "job_id": "e63ac0f9-7a0c-4ed5-b4f5-c517722fcf8b", "coste": 1, "enviado": "2026-11-06 08:49:34"}
+{"key": "A2_alertas|sin_combustible_32|v1", "job_id": "dd3e969d-abad-4284-b71f-dc70ac313533", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v5", "job_id": "b9cee84d-ca81-4d0a-bed1-45a1064d90d5", "coste": 1, "enviado": "2026-11-06 08:49:37"}
+{"key": "A2_alertas|sin_combustible_32|v1", "job_id": "dd3e969d-abad-4284-b71f-dc70ac313533", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v5", "job_id": "7fc2b3cd-203b-4b06-9540-62fc03215b5b", "coste": 1, "enviado": "2026-11-06 08:49:38"}
+{"key": "A2_alertas|sin_combustible_32|v2", "job_id": "0fa58b24-3c4c-4855-885d-08e110606fc1", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v6", "job_id": "455bffaa-fd59-424e-94e7-0956628d65b4", "coste": 1, "enviado": "2026-11-06 08:50:01"}
+{"key": "A2_alertas|sin_combustible_32|v2", "job_id": "0fa58b24-3c4c-4855-885d-08e110606fc1", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v4", "job_id": "e63ac0f9-7a0c-4ed5-b4f5-c517722fcf8b", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v7", "job_id": "c8d6f522-7d73-4d00-b045-45f5f0d459d4", "coste": 1, "enviado": "2026-11-06 08:50:02"}
+{"key": "A2_alertas|sin_combustible_32|v6", "job_id": "3c51018d-b918-4553-92f8-1aaed9d0dd8d", "coste": 1, "enviado": "2026-11-06 08:50:02"}
+{"key": "A2_alertas|sin_combustible_32|v5", "job_id": "b9cee84d-ca81-4d0a-bed1-45a1064d90d5", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v8", "job_id": "0c1eca29-e879-4bf6-9dc6-84031f3f2a95", "coste": 1, "enviado": "2026-11-06 08:50:03"}
+{"key": "A2_alertas|sin_combustible_32|v4", "job_id": "e63ac0f9-7a0c-4ed5-b4f5-c517722fcf8b", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v7", "job_id": "8807c99e-9311-4f26-8487-d08fa0346643", "coste": 1, "enviado": "2026-11-06 08:50:04"}
+{"key": "A2_alertas|sin_combustible_32|v5", "job_id": "7fc2b3cd-203b-4b06-9540-62fc03215b5b", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|sin_combustible_32|v8", "job_id": "2fa07afb-7cd4-42e0-ab08-14aff9f584b1", "coste": 1, "enviado": "2026-11-06 08:50:09"}
+{"key": "A2_alertas|sin_combustible_32|v3", "job_id": "4db78b85-633d-419f-b899-6563cc94350f", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v1", "job_id": "3115fc71-baf1-426e-a0b6-7b3c1204d806", "coste": 1, "enviado": "2026-11-06 08:50:09"}
+{"key": "A2_alertas|sin_combustible_32|v3", "job_id": "4db78b85-633d-419f-b899-6563cc94350f", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v1", "job_id": "fadbcdbd-a3f9-486c-b764-5d9276821c85", "coste": 1, "enviado": "2026-11-06 08:50:10"}
+{"key": "A2_alertas|sin_combustible_32|v6", "job_id": "455bffaa-fd59-424e-94e7-0956628d65b4", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v2", "job_id": "75f3cb30-d204-41e0-86d0-f48c17333d72", "coste": 1, "enviado": "2026-11-06 08:50:23"}
+{"key": "A2_alertas|sin_combustible_32|v8", "job_id": "0c1eca29-e879-4bf6-9dc6-84031f3f2a95", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v2", "job_id": "bdb9be8e-ec74-4dd2-9558-2f3c68b20fe6", "coste": 1, "enviado": "2026-11-06 08:50:29"}
+{"key": "A2_alertas|sin_combustible_32|v7", "job_id": "8807c99e-9311-4f26-8487-d08fa0346643", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v3", "job_id": "5a34811e-c59f-493a-8ab0-e6b335aa6fff", "coste": 1, "enviado": "2026-11-06 08:50:30"}
+{"key": "A2_alertas|sin_combustible_32|v8", "job_id": "2fa07afb-7cd4-42e0-ab08-14aff9f584b1", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v4", "job_id": "990fe8d3-05f7-411a-863c-83fcfed916fd", "coste": 1, "enviado": "2026-11-06 08:50:35"}
+{"key": "A2_alertas|sin_combustible_32|v7", "job_id": "c8d6f522-7d73-4d00-b045-45f5f0d459d4", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v3", "job_id": "b96d533f-e4a7-483a-8e49-2370b964b25e", "coste": 1, "enviado": "2026-11-06 08:50:36"}
+{"key": "A2_alertas|sin_combustible_32|v6", "job_id": "3c51018d-b918-4553-92f8-1aaed9d0dd8d", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v4", "job_id": "3b7f382b-0333-44af-aa27-2c3365b1dd8c", "coste": 1, "enviado": "2026-11-06 08:50:41"}
+{"key": "A2_alertas|asedio_32|v1", "job_id": "3115fc71-baf1-426e-a0b6-7b3c1204d806", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v5", "job_id": "3c0e880f-11b3-4bae-becc-ea7bb9206203", "coste": 1, "enviado": "2026-11-06 08:50:52"}
+{"key": "A2_alertas|asedio_32|v2", "job_id": "75f3cb30-d204-41e0-86d0-f48c17333d72", "terminado": true, "transparencia": "FONDO (62% del borde opaco)"}
+{"key": "A2_alertas|asedio_32|v6", "job_id": "c2bd2cfc-2360-4be1-ad35-93ff7196dd9b", "coste": 1, "enviado": "2026-11-06 08:51:01"}
+{"key": "A2_alertas|asedio_32|v4", "job_id": "990fe8d3-05f7-411a-863c-83fcfed916fd", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v7", "job_id": "b227422a-4586-497b-8746-749d02aa1976", "coste": 1, "enviado": "2026-11-06 08:51:09"}
+{"key": "A2_alertas|asedio_32|v3", "job_id": "5a34811e-c59f-493a-8ab0-e6b335aa6fff", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v8", "job_id": "a2ebd248-1d9d-4d5e-93a1-4f6f50c56103", "coste": 1, "enviado": "2026-11-06 08:51:17"}
+{"key": "A2_alertas|asedio_32|v5", "job_id": "3c0e880f-11b3-4bae-becc-ea7bb9206203", "terminado": true, "transparencia": "FONDO (74% del borde opaco)"}
+{"key": "A2_alertas|asedio_32|v7", "job_id": "b227422a-4586-497b-8746-749d02aa1976", "terminado": true, "transparencia": "FONDO (100% del borde opaco)"}
+{"key": "A2_alertas|asedio_32|v6", "job_id": "c2bd2cfc-2360-4be1-ad35-93ff7196dd9b", "terminado": true, "transparencia": "ok"}
+{"key": "A2_alertas|asedio_32|v8", "job_id": "a2ebd248-1d9d-4d5e-93a1-4f6f50c56103", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|aguantar_32|v1", "job_id": "833a1cb4-be5a-4da0-94e8-42f1c11d9fe2", "coste": 1, "enviado": "2026-11-06 08:51:43"}
+{"key": "A3_ordenes|aguantar_32|v4", "job_id": "022d0216-66de-4edb-855f-75fed96f7d23", "coste": 1, "enviado": "2026-11-06 08:51:43"}
+{"key": "A3_ordenes|aguantar_32|v3", "job_id": "f0006589-1f29-41e7-bcb8-afb146576909", "coste": 1, "enviado": "2026-11-06 08:51:43"}
+{"key": "A3_ordenes|aguantar_32|v2", "job_id": "de735d16-5fac-496b-9169-ba6b6e83d616", "coste": 1, "enviado": "2026-11-06 08:51:43"}
+{"key": "A3_ordenes|aguantar_32|v1", "job_id": "833a1cb4-be5a-4da0-94e8-42f1c11d9fe2", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|aguantar_32|v5", "job_id": "7459eef6-16e7-445e-9bd9-ee2c240a2f2b", "coste": 1, "enviado": "2026-11-06 08:52:09"}
+{"key": "A3_ordenes|aguantar_32|v2", "job_id": "de735d16-5fac-496b-9169-ba6b6e83d616", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|aguantar_32|v6", "job_id": "cfcf389c-0a5d-4352-b3b6-17bff076658c", "coste": 1, "enviado": "2026-11-06 08:52:13"}
+{"key": "A3_ordenes|aguantar_32|v4", "job_id": "022d0216-66de-4edb-855f-75fed96f7d23", "terminado": true, "transparencia": "FONDO (72% del borde opaco)"}
+{"key": "A3_ordenes|aguantar_32|v7", "job_id": "3620f894-14ab-4a56-a5a4-9c4c81960573", "coste": 1, "enviado": "2026-11-06 08:52:22"}
+{"key": "A3_ordenes|aguantar_32|v3", "job_id": "f0006589-1f29-41e7-bcb8-afb146576909", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|aguantar_32|v8", "job_id": "eb888092-30e9-490d-bf03-e976caa3865e", "coste": 1, "enviado": "2026-11-06 08:52:30"}
+{"key": "A3_ordenes|aguantar_32|v5", "job_id": "7459eef6-16e7-445e-9bd9-ee2c240a2f2b", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v1", "job_id": "8b57d26c-922a-4844-b636-219ecf049716", "coste": 1, "enviado": "2026-11-06 08:52:39"}
+{"key": "A3_ordenes|aguantar_32|v6", "job_id": "cfcf389c-0a5d-4352-b3b6-17bff076658c", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v2", "job_id": "682706e7-aeae-4dc1-b802-1b4d25f62f9e", "coste": 1, "enviado": "2026-11-06 08:52:48"}
+{"key": "A3_ordenes|aguantar_32|v7", "job_id": "3620f894-14ab-4a56-a5a4-9c4c81960573", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v3", "job_id": "989714a9-48f4-4a8a-8fd4-fb2d2210ce7f", "coste": 1, "enviado": "2026-11-06 08:52:52"}
+{"key": "A3_ordenes|aguantar_32|v8", "job_id": "eb888092-30e9-490d-bf03-e976caa3865e", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v4", "job_id": "36133f23-0c95-4cc6-af05-99f2db508edf", "coste": 1, "enviado": "2026-11-06 08:53:05"}
+{"key": "A3_ordenes|seguir_32|v1", "job_id": "8b57d26c-922a-4844-b636-219ecf049716", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v5", "job_id": "39228b26-f690-4ea6-a6dd-9ae8ff1c5f84", "coste": 1, "enviado": "2026-11-06 08:53:05"}
+{"key": "A3_ordenes|seguir_32|v2", "job_id": "682706e7-aeae-4dc1-b802-1b4d25f62f9e", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v6", "job_id": "1d8b4d71-be5a-4502-b175-e6a9883ecf38", "coste": 1, "enviado": "2026-11-06 08:53:18"}
+{"key": "A3_ordenes|seguir_32|v3", "job_id": "989714a9-48f4-4a8a-8fd4-fb2d2210ce7f", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v7", "job_id": "11913318-fa96-4878-a19c-48e4c9486e80", "coste": 1, "enviado": "2026-11-06 08:53:26"}
+{"key": "A3_ordenes|seguir_32|v5", "job_id": "39228b26-f690-4ea6-a6dd-9ae8ff1c5f84", "terminado": true, "transparencia": "FONDO (54% del borde opaco)"}
+{"key": "A3_ordenes|seguir_32|v4", "job_id": "36133f23-0c95-4cc6-af05-99f2db508edf", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|seguir_32|v8", "job_id": "8023ae2b-73b0-48ff-bb0b-8680ad8ef018", "coste": 1, "enviado": "2026-11-06 08:53:35"}
+{"key": "A3_ordenes|retirarse_32|v1", "job_id": "213b8394-0b54-47bb-b225-d7f3f21f226b", "coste": 1, "enviado": "2026-11-06 08:53:35"}
+{"key": "A3_ordenes|seguir_32|v6", "job_id": "1d8b4d71-be5a-4502-b175-e6a9883ecf38", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|retirarse_32|v2", "job_id": "2cd93a97-a856-4ec1-914e-ebb0e23fe73b", "coste": 1, "enviado": "2026-11-06 08:53:44"}
+{"key": "A3_ordenes|seguir_32|v7", "job_id": "11913318-fa96-4878-a19c-48e4c9486e80", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|retirarse_32|v3", "job_id": "ae42f3a8-9b6b-478e-ac83-c6fa1765aa46", "coste": 1, "enviado": "2026-11-06 08:54:01"}
+{"key": "A3_ordenes|retirarse_32|v2", "job_id": "2cd93a97-a856-4ec1-914e-ebb0e23fe73b", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|retirarse_32|v4", "job_id": "9d8d1229-feeb-42c9-94c4-d79ae0f3774c", "coste": 1, "enviado": "2026-11-06 08:54:02"}
+{"key": "A3_ordenes|retirarse_32|v1", "job_id": "213b8394-0b54-47bb-b225-d7f3f21f226b", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|retirarse_32|v5", "job_id": "96a92a42-570d-4ed3-ad72-22c3e0da2922", "coste": 1, "enviado": "2026-11-06 08:54:05"}
+{"key": "A3_ordenes|seguir_32|v8", "job_id": "8023ae2b-73b0-48ff-bb0b-8680ad8ef018", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|retirarse_32|v6", "job_id": "0fd1f3f1-6c4c-46a2-9418-7788abcb7425", "coste": 1, "enviado": "2026-11-06 08:54:09"}
+{"key": "A3_ordenes|retirarse_32|v5", "job_id": "96a92a42-570d-4ed3-ad72-22c3e0da2922", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|retirarse_32|v7", "job_id": "75e784d0-03b0-4458-b8bc-9a4f1d073301", "coste": 1, "enviado": "2026-11-06 08:54:36"}
+{"key": "A3_ordenes|retirarse_32|v4", "job_id": "9d8d1229-feeb-42c9-94c4-d79ae0f3774c", "terminado": true, "transparencia": "FONDO (63% del borde opaco)"}
+{"key": "A3_ordenes|retirarse_32|v8", "job_id": "5eabac51-d606-411f-8d41-59dd60391e0b", "coste": 1, "enviado": "2026-11-06 08:54:40"}
+{"key": "A3_ordenes|retirarse_32|v3", "job_id": "ae42f3a8-9b6b-478e-ac83-c6fa1765aa46", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|retirarse_32|v6", "job_id": "0fd1f3f1-6c4c-46a2-9418-7788abcb7425", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|desplegar_32|v1", "job_id": "a24fd7ef-94c0-4167-8d38-00f0664d81b1", "coste": 1, "enviado": "2026-11-06 08:54:44"}
+{"key": "A3_ordenes|desplegar_32|v2", "job_id": "5a62f5fa-16c1-4345-b199-9374d44ddf5b", "coste": 1, "enviado": "2026-11-06 08:54:44"}
+{"key": "A3_ordenes|retirarse_32|v7", "job_id": "75e784d0-03b0-4458-b8bc-9a4f1d073301", "terminado": true, "transparencia": "FONDO (57% del borde opaco)"}
+{"key": "A3_ordenes|desplegar_32|v3", "job_id": "6eb4eb7f-536f-4f26-9505-6e509788406e", "coste": 1, "enviado": "2026-11-06 08:55:10"}
+{"key": "A3_ordenes|desplegar_32|v2", "job_id": "5a62f5fa-16c1-4345-b199-9374d44ddf5b", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|desplegar_32|v4", "job_id": "e7ab991c-bb7b-4166-8aa3-9f739c88c978", "coste": 1, "enviado": "2026-11-06 08:55:18"}
+{"key": "A3_ordenes|desplegar_32|v1", "job_id": "a24fd7ef-94c0-4167-8d38-00f0664d81b1", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|desplegar_32|v5", "job_id": "11b36ff3-4a45-483e-82ab-12db1f4cae79", "coste": 1, "enviado": "2026-11-06 08:55:22"}
+{"key": "A3_ordenes|retirarse_32|v8", "job_id": "5eabac51-d606-411f-8d41-59dd60391e0b", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|desplegar_32|v3", "job_id": "6eb4eb7f-536f-4f26-9505-6e509788406e", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|desplegar_32|v6", "job_id": "1e648a8a-acf8-4055-b400-27d95d4e8f31", "coste": 1, "enviado": "2026-11-06 08:55:31"}
+{"key": "A3_ordenes|desplegar_32|v7", "job_id": "138f42b0-c740-4e98-a794-957beaed6d2e", "coste": 1, "enviado": "2026-11-06 08:55:32"}
+{"key": "A3_ordenes|desplegar_32|v4", "job_id": "e7ab991c-bb7b-4166-8aa3-9f739c88c978", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|desplegar_32|v8", "job_id": "848fba1e-5d3f-45ab-9488-0ab30a1e7176", "coste": 1, "enviado": "2026-11-06 08:55:52"}
+{"key": "A3_ordenes|desplegar_32|v5", "job_id": "11b36ff3-4a45-483e-82ab-12db1f4cae79", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v1", "job_id": "fe878d49-771c-4744-983c-cb1a6987e9af", "coste": 1, "enviado": "2026-11-06 08:55:57"}
+{"key": "A3_ordenes|desplegar_32|v6", "job_id": "1e648a8a-acf8-4055-b400-27d95d4e8f31", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v2", "job_id": "0e3f7d4d-0e58-4ddd-891a-71e358f416a6", "coste": 1, "enviado": "2026-11-06 08:55:57"}
+{"key": "A3_ordenes|desplegar_32|v7", "job_id": "138f42b0-c740-4e98-a794-957beaed6d2e", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v2", "job_id": "0e3f7d4d-0e58-4ddd-891a-71e358f416a6", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v3", "job_id": "3964d8c7-5807-4c35-8ef0-ad1b0987f72e", "coste": 1, "enviado": "2026-11-06 08:56:23"}
+{"key": "A3_ordenes|embarcar_32|v4", "job_id": "e2d02cd5-6ba2-4ee9-9661-cb4a77fc1b04", "coste": 1, "enviado": "2026-11-06 08:56:23"}
+{"key": "A3_ordenes|embarcar_32|v1", "job_id": "fe878d49-771c-4744-983c-cb1a6987e9af", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v5", "job_id": "3eb1b904-149d-4e49-92c0-8a57c7f8c946", "coste": 1, "enviado": "2026-11-06 08:56:27"}
+{"key": "A3_ordenes|desplegar_32|v8", "job_id": "848fba1e-5d3f-45ab-9488-0ab30a1e7176", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v6", "job_id": "f5f9916c-1e71-4ea2-a308-f5d79ca03dac", "coste": 1, "enviado": "2026-11-06 08:56:35"}
+{"key": "A3_ordenes|embarcar_32|v4", "job_id": "e2d02cd5-6ba2-4ee9-9661-cb4a77fc1b04", "terminado": true, "transparencia": "FONDO (98% del borde opaco)"}
+{"key": "A3_ordenes|embarcar_32|v7", "job_id": "6f93996b-61c0-495d-ab6f-6edbea9aa7fd", "coste": 1, "enviado": "2026-11-06 08:56:53"}
+{"key": "A3_ordenes|embarcar_32|v5", "job_id": "3eb1b904-149d-4e49-92c0-8a57c7f8c946", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v8", "job_id": "70c9d5de-dfc8-4e6f-8cba-8ca64599e376", "coste": 1, "enviado": "2026-11-06 08:56:57"}
+{"key": "A3_ordenes|embarcar_32|v3", "job_id": "3964d8c7-5807-4c35-8ef0-ad1b0987f72e", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v1", "job_id": "dd528b18-e6fe-431a-bbe2-4adf2be76c4b", "coste": 1, "enviado": "2026-11-06 08:57:01"}
+{"key": "A3_ordenes|embarcar_32|v6", "job_id": "f5f9916c-1e71-4ea2-a308-f5d79ca03dac", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v2", "job_id": "fa76d3a9-8f79-45fc-9349-97bd78ca8163", "coste": 1, "enviado": "2026-11-06 08:57:14"}
+{"key": "A3_ordenes|embarcar_32|v7", "job_id": "6f93996b-61c0-495d-ab6f-6edbea9aa7fd", "terminado": true, "transparencia": "FONDO (100% del borde opaco)"}
+{"key": "A3_ordenes|escoltar_32|v3", "job_id": "52d92b80-cbab-4335-9e87-cfff659f7edb", "coste": 1, "enviado": "2026-11-06 08:57:19"}
+{"key": "A3_ordenes|escoltar_32|v1", "job_id": "dd528b18-e6fe-431a-bbe2-4adf2be76c4b", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v4", "job_id": "9772a759-e1f3-40eb-965b-5bc1a7b35fea", "coste": 1, "enviado": "2026-11-06 08:57:23"}
+{"key": "A3_ordenes|escoltar_32|v2", "job_id": "fa76d3a9-8f79-45fc-9349-97bd78ca8163", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|embarcar_32|v8", "job_id": "70c9d5de-dfc8-4e6f-8cba-8ca64599e376", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v5", "job_id": "d4f16d7e-07b1-4760-9e8f-4ad1281f2a22", "coste": 1, "enviado": "2026-11-06 08:57:35"}
+{"key": "A3_ordenes|escoltar_32|v6", "job_id": "3deaa965-4e00-416e-8cd3-75d7f7509f77", "coste": 1, "enviado": "2026-11-06 08:57:36"}
+{"key": "A3_ordenes|escoltar_32|v3", "job_id": "52d92b80-cbab-4335-9e87-cfff659f7edb", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v7", "job_id": "642b4aca-de5e-468e-89a3-a75e0ce44ceb", "coste": 1, "enviado": "2026-11-06 08:57:50"}
+{"key": "A3_ordenes|escoltar_32|v4", "job_id": "9772a759-e1f3-40eb-965b-5bc1a7b35fea", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v8", "job_id": "9ac46e8c-706a-4939-b9e2-75a3e7ae3711", "coste": 1, "enviado": "2026-11-06 08:57:57"}
+{"key": "A3_ordenes|escoltar_32|v5", "job_id": "d4f16d7e-07b1-4760-9e8f-4ad1281f2a22", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v7", "job_id": "642b4aca-de5e-468e-89a3-a75e0ce44ceb", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v8", "job_id": "9ac46e8c-706a-4939-b9e2-75a3e7ae3711", "terminado": true, "transparencia": "ok"}
+{"key": "A3_ordenes|escoltar_32|v6", "job_id": "3deaa965-4e00-416e-8cd3-75d7f7509f77", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|segura|v2", "job_id": "e16b8bf9-7d55-4d42-a3b0-08c37226a8f4", "coste": 1, "enviado": "2026-11-06 08:58:23"}
+{"key": "A4_estaciones|segura|v3", "job_id": "3a00ba2a-d5d6-4f10-8647-172ceec9b3ed", "coste": 1, "enviado": "2026-11-06 08:58:23"}
+{"key": "A4_estaciones|segura|v1", "job_id": "2841b768-54c5-4e8f-93b6-fb7aed96d767", "coste": 1, "enviado": "2026-11-06 08:58:23"}
+{"key": "A4_estaciones|segura|v4", "job_id": "4bc298d8-f4eb-4c79-bd07-056c645fe865", "coste": 1, "enviado": "2026-11-06 08:58:23"}
+{"key": "A4_estaciones|segura|v1", "job_id": "2841b768-54c5-4e8f-93b6-fb7aed96d767", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|segura|v3", "job_id": "3a00ba2a-d5d6-4f10-8647-172ceec9b3ed", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|segura|v5", "job_id": "3952b424-955d-41be-9747-9685e4bd3cbf", "coste": 1, "enviado": "2026-11-06 08:58:49"}
+{"key": "A4_estaciones|segura|v6", "job_id": "1c3bea75-5212-48cd-8ae7-a4dce8fc27a9", "coste": 1, "enviado": "2026-11-06 08:58:50"}
+{"key": "A4_estaciones|segura|v2", "job_id": "e16b8bf9-7d55-4d42-a3b0-08c37226a8f4", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|segura|v7", "job_id": "b3750c52-114f-4ee2-bbcd-ae0721c6b200", "coste": 1, "enviado": "2026-11-06 08:59:06"}
+{"key": "A4_estaciones|segura|v4", "job_id": "4bc298d8-f4eb-4c79-bd07-056c645fe865", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|segura|v8", "job_id": "e9766a10-7b94-432f-af3a-9c141df0a3f9", "coste": 1, "enviado": "2026-11-06 08:59:10"}
+{"key": "A4_estaciones|segura|v5", "job_id": "3952b424-955d-41be-9747-9685e4bd3cbf", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|segura|v6", "job_id": "1c3bea75-5212-48cd-8ae7-a4dce8fc27a9", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|amenazada|v1", "job_id": "78bfd36d-20d5-4486-8785-692dab9ec106", "coste": 1, "enviado": "2026-11-06 08:59:11"}
+{"key": "A4_estaciones|amenazada|v2", "job_id": "fe3ca20d-2e9d-4fcf-bc9f-ecf15c5264fa", "coste": 1, "enviado": "2026-11-06 08:59:11"}
+{"key": "A4_estaciones|segura|v7", "job_id": "b3750c52-114f-4ee2-bbcd-ae0721c6b200", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|amenazada|v3", "job_id": "eb0ceba1-d45c-419a-a894-fc4a409a6363", "coste": 1, "enviado": "2026-11-06 08:59:36"}
+{"key": "A4_estaciones|segura|v8", "job_id": "e9766a10-7b94-432f-af3a-9c141df0a3f9", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|amenazada|v4", "job_id": "5ab9d465-2bd1-4e04-aa73-f3cc995c5e91", "coste": 1, "enviado": "2026-11-06 08:59:40"}
+{"key": "A4_estaciones|amenazada|v1", "job_id": "78bfd36d-20d5-4486-8785-692dab9ec106", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|amenazada|v5", "job_id": "d06109e6-a125-4bd3-97cd-6913342e108d", "coste": 1, "enviado": "2026-11-06 08:59:41"}
+{"key": "A4_estaciones|amenazada|v2", "job_id": "fe3ca20d-2e9d-4fcf-bc9f-ecf15c5264fa", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|amenazada|v6", "job_id": "923be175-5a71-48ac-ade6-c3aebbecfd2c", "coste": 1, "enviado": "2026-11-06 08:59:46"}
+{"key": "A4_estaciones|amenazada|v6", "job_id": "923be175-5a71-48ac-ade6-c3aebbecfd2c", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|amenazada|v7", "job_id": "778f9444-9a52-4300-b1f9-4384960d4756", "coste": 1, "enviado": "2026-11-06 09:00:21"}
+{"key": "A4_estaciones|amenazada|v3", "job_id": "eb0ceba1-d45c-419a-a894-fc4a409a6363", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|amenazada|v8", "job_id": "a99a84f0-dc09-48e2-80c5-439440061b97", "coste": 1, "enviado": "2026-11-06 09:00:23"}
+{"key": "A4_estaciones|amenazada|v5", "job_id": "d06109e6-a125-4bd3-97cd-6913342e108d", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v1", "job_id": "d5c474c4-aa3e-4644-b3ed-e262d96caeff", "coste": 1, "enviado": "2026-11-06 09:00:28"}
+{"key": "A4_estaciones|amenazada|v4", "job_id": "5ab9d465-2bd1-4e04-aa73-f3cc995c5e91", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v2", "job_id": "ff0bc501-095b-4f28-b567-f5f4ee8cb768", "coste": 1, "enviado": "2026-11-06 09:00:35"}
+{"key": "A4_estaciones|amenazada|v8", "job_id": "a99a84f0-dc09-48e2-80c5-439440061b97", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v3", "job_id": "5d75ca59-89ce-4157-ac0a-395e832b0c12", "coste": 1, "enviado": "2026-11-06 09:00:57"}
+{"key": "A4_estaciones|amenazada|v7", "job_id": "778f9444-9a52-4300-b1f9-4384960d4756", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v4", "job_id": "b37b30b9-7770-4479-b3b8-b9ee592299b5", "coste": 1, "enviado": "2026-11-06 09:01:03"}
+{"key": "A4_estaciones|asediada|v1", "job_id": "d5c474c4-aa3e-4644-b3ed-e262d96caeff", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v5", "job_id": "301a07f6-8936-469c-9701-a8f71f23c8c3", "coste": 1, "enviado": "2026-11-06 09:01:06"}
+{"key": "A4_estaciones|asediada|v2", "job_id": "ff0bc501-095b-4f28-b567-f5f4ee8cb768", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v6", "job_id": "5014f3e0-5a27-4e42-b492-9ee43d771eb4", "coste": 1, "enviado": "2026-11-06 09:01:10"}
+{"key": "A4_estaciones|asediada|v5", "job_id": "301a07f6-8936-469c-9701-a8f71f23c8c3", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v7", "job_id": "0ed660cc-ae57-4399-a1bb-a9fa0dd32284", "coste": 1, "enviado": "2026-11-06 09:01:24"}
+{"key": "A4_estaciones|asediada|v6", "job_id": "5014f3e0-5a27-4e42-b492-9ee43d771eb4", "terminado": true, "transparencia": "FONDO (55% del borde opaco)"}
+{"key": "A4_estaciones|asediada|v3", "job_id": "5d75ca59-89ce-4157-ac0a-395e832b0c12", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|asediada|v8", "job_id": "9c854cda-fe51-404f-9045-cff01ebf39ca", "coste": 1, "enviado": "2026-11-06 09:01:32"}
+{"key": "A4_estaciones|perdida|v1", "job_id": "5af12462-fdce-41af-8e67-33239884b357", "coste": 1, "enviado": "2026-11-06 09:01:32"}
+{"key": "A4_estaciones|asediada|v4", "job_id": "b37b30b9-7770-4479-b3b8-b9ee592299b5", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v2", "job_id": "6be318cd-1d00-4bf8-b3d9-b2b30625170b", "coste": 1, "enviado": "2026-11-06 09:01:38"}
+{"key": "A4_estaciones|asediada|v7", "job_id": "0ed660cc-ae57-4399-a1bb-a9fa0dd32284", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v3", "job_id": "6b2694a2-6ca0-4f5e-883c-870f92b3d479", "coste": 1, "enviado": "2026-11-06 09:01:58"}
+{"key": "A4_estaciones|asediada|v8", "job_id": "9c854cda-fe51-404f-9045-cff01ebf39ca", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v4", "job_id": "6db7cf67-4029-44c2-8bdd-5475df736ddc", "coste": 1, "enviado": "2026-11-06 09:02:10"}
+{"key": "A4_estaciones|perdida|v2", "job_id": "6be318cd-1d00-4bf8-b3d9-b2b30625170b", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v5", "job_id": "29d514af-0ad9-4633-8603-5bdc904da4e7", "coste": 1, "enviado": "2026-11-06 09:02:12"}
+{"key": "A4_estaciones|perdida|v1", "job_id": "5af12462-fdce-41af-8e67-33239884b357", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v6", "job_id": "221ebb86-188e-4623-964c-8c581ef4ecac", "coste": 1, "enviado": "2026-11-06 09:02:19"}
+{"key": "A4_estaciones|perdida|v4", "job_id": "6db7cf67-4029-44c2-8bdd-5475df736ddc", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v7", "job_id": "b5678a61-0822-4ed4-8f1e-e3ae6f3d016f", "coste": 1, "enviado": "2026-11-06 09:02:45"}
+{"key": "A4_estaciones|perdida|v5", "job_id": "29d514af-0ad9-4633-8603-5bdc904da4e7", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v8", "job_id": "216aafee-0253-4f1b-b722-14019d7afedb", "coste": 1, "enviado": "2026-11-06 09:02:51"}
+{"key": "A4_estaciones|perdida|v3", "job_id": "6b2694a2-6ca0-4f5e-883c-870f92b3d479", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v6", "job_id": "221ebb86-188e-4623-964c-8c581ef4ecac", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v7", "job_id": "b5678a61-0822-4ed4-8f1e-e3ae6f3d016f", "terminado": true, "transparencia": "ok"}
+{"key": "A4_estaciones|perdida|v8", "job_id": "216aafee-0253-4f1b-b722-14019d7afedb", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|movimiento|v1", "job_id": "152ee424-ba26-4fcb-ad60-43ee56e34e67", "coste": 1, "enviado": "2026-11-06 09:03:26"}
+{"key": "A5_trenes|movimiento|v3", "job_id": "0b14cd78-d4cb-4bc0-8d98-64dae8b914d5", "coste": 1, "enviado": "2026-11-06 09:03:26"}
+{"key": "A5_trenes|movimiento|v2", "job_id": "a7da105c-78bd-4f72-80f2-739c2df739e8", "coste": 1, "enviado": "2026-11-06 09:03:26"}
+{"key": "A5_trenes|movimiento|v4", "job_id": "46ea6d7d-4202-48af-85c2-87c82ad6f5b6", "coste": 1, "enviado": "2026-11-06 09:03:26"}
+{"key": "A5_trenes|movimiento|v3", "job_id": "0b14cd78-d4cb-4bc0-8d98-64dae8b914d5", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|movimiento|v2", "job_id": "a7da105c-78bd-4f72-80f2-739c2df739e8", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|movimiento|v6", "job_id": "1cac79ce-b66f-494c-bcad-7c2fdbaf2a11", "coste": 1, "enviado": "2026-11-06 09:03:52"}
+{"key": "A5_trenes|movimiento|v5", "job_id": "209a571c-7b72-453e-a91f-16cfce49ca91", "coste": 1, "enviado": "2026-11-06 09:03:52"}
+{"key": "A5_trenes|movimiento|v4", "job_id": "46ea6d7d-4202-48af-85c2-87c82ad6f5b6", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|movimiento|v7", "job_id": "34a3955c-a18a-4c43-b65e-479aded1b825", "coste": 1, "enviado": "2026-11-06 09:04:00"}
+{"key": "A5_trenes|movimiento|v1", "job_id": "152ee424-ba26-4fcb-ad60-43ee56e34e67", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|movimiento|v8", "job_id": "70fb6f2c-874b-450e-b83b-da09b5c03812", "coste": 1, "enviado": "2026-11-06 09:04:13"}
+{"key": "A5_trenes|movimiento|v6", "job_id": "1cac79ce-b66f-494c-bcad-7c2fdbaf2a11", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v1", "job_id": "f43cc2b9-1a09-4db3-ac01-f16141f98679", "coste": 1, "enviado": "2026-11-06 09:04:14"}
+{"key": "A5_trenes|movimiento|v5", "job_id": "209a571c-7b72-453e-a91f-16cfce49ca91", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v2", "job_id": "ef2c64ac-b455-4268-8bcd-98481e6f635e", "coste": 1, "enviado": "2026-11-06 09:04:30"}
+{"key": "A5_trenes|parado|v1", "job_id": "f43cc2b9-1a09-4db3-ac01-f16141f98679", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v3", "job_id": "9ea82ce4-b4b0-4069-ab2c-21a4a5f1c20f", "coste": 1, "enviado": "2026-11-06 09:04:40"}
+{"key": "A5_trenes|movimiento|v7", "job_id": "34a3955c-a18a-4c43-b65e-479aded1b825", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v4", "job_id": "f08dbb57-6d32-469f-aacc-1d64ab0a94bd", "coste": 1, "enviado": "2026-11-06 09:04:43"}
+{"key": "A5_trenes|movimiento|v8", "job_id": "70fb6f2c-874b-450e-b83b-da09b5c03812", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v5", "job_id": "5fb749be-8d3d-4b6b-a243-4a8305b6e0c8", "coste": 1, "enviado": "2026-11-06 09:05:00"}
+{"key": "A5_trenes|parado|v2", "job_id": "ef2c64ac-b455-4268-8bcd-98481e6f635e", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v6", "job_id": "9ec6a3ef-0a4b-4028-adb2-cb3d15a59d4e", "coste": 1, "enviado": "2026-11-06 09:05:01"}
+{"key": "A5_trenes|parado|v3", "job_id": "9ea82ce4-b4b0-4069-ab2c-21a4a5f1c20f", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v7", "job_id": "0efb3262-ff6f-419a-b298-512ce34a2add", "coste": 1, "enviado": "2026-11-06 09:05:10"}
+{"key": "A5_trenes|parado|v4", "job_id": "f08dbb57-6d32-469f-aacc-1d64ab0a94bd", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|parado|v8", "job_id": "2e3aa4e9-e086-4b09-922b-e0965bfa2ec3", "coste": 1, "enviado": "2026-11-06 09:05:14"}
+{"key": "A5_trenes|parado|v6", "job_id": "9ec6a3ef-0a4b-4028-adb2-cb3d15a59d4e", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|bajo_ataque|v1", "job_id": "c22ca122-72cf-4db1-864d-d4e8e39a690c", "coste": 1, "enviado": "2026-11-06 09:05:31"}
+{"key": "A5_trenes|parado|v8", "job_id": "2e3aa4e9-e086-4b09-922b-e0965bfa2ec3", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|bajo_ataque|v2", "job_id": "5cab218d-e80c-4487-8842-17d18ac5da7a", "coste": 1, "enviado": "2026-11-06 09:05:35"}
+{"key": "A5_trenes|parado|v5", "job_id": "5fb749be-8d3d-4b6b-a243-4a8305b6e0c8", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|bajo_ataque|v3", "job_id": "4699ee80-ef47-4d1d-b50d-847935fb58b5", "coste": 1, "enviado": "2026-11-06 09:05:38"}
+{"key": "A5_trenes|parado|v7", "job_id": "0efb3262-ff6f-419a-b298-512ce34a2add", "terminado": true, "transparencia": "ok"}
+{"key": "A5_trenes|bajo_ataque|v4", "job_id": "1d1a03ab-afa5-4130-bf76-6211aa764269", "coste": 1, "enviado": "2026-11-06 09:05:44"}
+{"key": "A6_unidades|fusileros|v4", "job_id": "3d84b814-8271-4950-a512-4e7602d7e14a", "coste": 1, "enviado": "2026-11-06 09:05:50"}
+{"key": "A6_unidades|fusileros|v1", "job_id": "1712585a-825a-476f-8623-6c7109e652a2", "coste": 1, "enviado": "2026-11-06 09:05:50"}
+{"key": "A6_unidades|fusileros|v2", "job_id": "96da38a2-36d1-4c61-9413-9288ae96c4aa", "coste": 1, "enviado": "2026-11-06 09:05:50"}
+{"key": "A6_unidades|fusileros|v3", "job_id": "0244b7e8-2ec3-4556-868d-552d7c2050b0", "coste": 1, "enviado": "2026-11-06 09:05:50"}
+{"key": "A6_unidades|fusileros|v1", "job_id": "1712585a-825a-476f-8623-6c7109e652a2", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|fusileros|v5", "job_id": "fec1209c-2f8d-4153-bc63-8707498ab153", "coste": 1, "enviado": "2026-11-06 09:06:12"}
+{"key": "A6_unidades|fusileros|v2", "job_id": "96da38a2-36d1-4c61-9413-9288ae96c4aa", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|fusileros|v6", "job_id": "6398f5fb-6214-4be7-b848-44e9cbb82fc2", "coste": 1, "enviado": "2026-11-06 09:06:20"}
+{"key": "A6_unidades|fusileros|v4", "job_id": "3d84b814-8271-4950-a512-4e7602d7e14a", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|fusileros|v7", "job_id": "7f512a4c-a0c6-4d8c-9065-64517431bf1c", "coste": 1, "enviado": "2026-11-06 09:06:25"}
+{"key": "A6_unidades|fusileros|v3", "job_id": "0244b7e8-2ec3-4556-868d-552d7c2050b0", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|fusileros|v8", "job_id": "278e34ed-41f0-4f89-b39a-36bbbce8cbba", "coste": 1, "enviado": "2026-11-06 09:06:29"}
+{"key": "A6_unidades|fusileros|v5", "job_id": "fec1209c-2f8d-4153-bc63-8707498ab153", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|fusileros|v6", "job_id": "6398f5fb-6214-4be7-b848-44e9cbb82fc2", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v2", "job_id": "24fd2bc8-5ba2-4da4-a941-f693da1f442b", "coste": 1, "enviado": "2026-11-06 09:06:42"}
+{"key": "A6_unidades|ametralladora|v1", "job_id": "195eb488-1a90-4373-a4d5-f25c0c4fd718", "coste": 1, "enviado": "2026-11-06 09:06:42"}
+{"key": "A6_unidades|fusileros|v8", "job_id": "278e34ed-41f0-4f89-b39a-36bbbce8cbba", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v3", "job_id": "6fbc7f49-93ad-4511-a8a4-ff89ffb7d1f1", "coste": 1, "enviado": "2026-11-06 09:06:55"}
+{"key": "A6_unidades|fusileros|v7", "job_id": "7f512a4c-a0c6-4d8c-9065-64517431bf1c", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v4", "job_id": "19020e28-aa7d-44bb-a37d-6a8fce6edd76", "coste": 1, "enviado": "2026-11-06 09:07:03"}
+{"key": "A6_unidades|ametralladora|v3", "job_id": "6fbc7f49-93ad-4511-a8a4-ff89ffb7d1f1", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v5", "job_id": "626f4171-60d0-4dc9-92a4-862ab73108f4", "coste": 1, "enviado": "2026-11-06 09:07:17"}
+{"key": "A6_unidades|ametralladora|v1", "job_id": "195eb488-1a90-4373-a4d5-f25c0c4fd718", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v6", "job_id": "940c60e7-1123-43ab-9cdc-c7d3afc4c806", "coste": 1, "enviado": "2026-11-06 09:07:21"}
+{"key": "A6_unidades|ametralladora|v4", "job_id": "19020e28-aa7d-44bb-a37d-6a8fce6edd76", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v7", "job_id": "ca8a03b0-8ca7-4416-a8af-5b1c00055d66", "coste": 1, "enviado": "2026-11-06 09:07:25"}
+{"key": "A6_unidades|ametralladora|v2", "job_id": "24fd2bc8-5ba2-4da4-a941-f693da1f442b", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v8", "job_id": "246c3bf6-a52d-4277-80c8-797b62ac18f3", "coste": 1, "enviado": "2026-11-06 09:07:29"}
+{"key": "A6_unidades|ametralladora|v5", "job_id": "626f4171-60d0-4dc9-92a4-862ab73108f4", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|blindado_8x8|v1", "job_id": "7784d222-5b5d-4651-b4e9-839215e1266a", "coste": 1, "enviado": "2026-11-06 09:07:43"}
+{"key": "A6_unidades|ametralladora|v6", "job_id": "940c60e7-1123-43ab-9cdc-c7d3afc4c806", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v7", "job_id": "ca8a03b0-8ca7-4416-a8af-5b1c00055d66", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|ametralladora|v8", "job_id": "246c3bf6-a52d-4277-80c8-797b62ac18f3", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|blindado_8x8|v3", "job_id": "e272efbd-6758-4ee1-a9fd-d06bc5b8b1d7", "coste": 1, "enviado": "2026-11-06 09:07:55"}
+{"key": "A6_unidades|blindado_8x8|v2", "job_id": "76ef6b05-9d20-4462-ab39-3836a5d1c57c", "coste": 1, "enviado": "2026-11-06 09:07:55"}
+{"key": "A6_unidades|blindado_8x8|v4", "job_id": "d06059a4-cfbd-43aa-b699-de38efb948fe", "coste": 1, "enviado": "2026-11-06 09:07:55"}
+{"key": "A6_unidades|blindado_8x8|v1", "job_id": "7784d222-5b5d-4651-b4e9-839215e1266a", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|blindado_8x8|v5", "job_id": "b5bafd87-a120-4c88-89e8-14874b234b9f", "coste": 1, "enviado": "2026-11-06 09:08:13"}
+{"key": "A6_unidades|blindado_8x8|v4", "job_id": "d06059a4-cfbd-43aa-b699-de38efb948fe", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|blindado_8x8|v6", "job_id": "ca3f196e-4b22-4c81-98b2-fcc599da1ae3", "coste": 1, "enviado": "2026-11-06 09:08:22"}
+{"key": "A6_unidades|blindado_8x8|v3", "job_id": "e272efbd-6758-4ee1-a9fd-d06bc5b8b1d7", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|blindado_8x8|v2", "job_id": "76ef6b05-9d20-4462-ab39-3836a5d1c57c", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|blindado_8x8|v7", "job_id": "f53cb8dd-9d01-4452-827b-24e41ea3641c", "coste": 1, "enviado": "2026-11-06 09:08:30"}
+{"key": "A6_unidades|blindado_8x8|v8", "job_id": "22326526-f0f5-4a35-bf05-4421d6d97de9", "coste": 1, "enviado": "2026-11-06 09:08:30"}
+{"key": "A6_unidades|blindado_8x8|v5", "job_id": "b5bafd87-a120-4c88-89e8-14874b234b9f", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v1", "job_id": "e0c0934f-910d-4aa2-ad99-495f32c7b955", "coste": 1, "enviado": "2026-11-06 09:08:47"}
+{"key": "A6_unidades|blindado_8x8|v6", "job_id": "ca3f196e-4b22-4c81-98b2-fcc599da1ae3", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v2", "job_id": "c11ec56a-f152-4e69-b4dd-ef3b9c369f2a", "coste": 1, "enviado": "2026-11-06 09:08:48"}
+{"key": "A6_unidades|blindado_8x8|v8", "job_id": "22326526-f0f5-4a35-bf05-4421d6d97de9", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v3", "job_id": "966a16f2-01d7-432e-b3ba-e268859f1d20", "coste": 1, "enviado": "2026-11-06 09:09:00"}
+{"key": "A6_unidades|blindado_8x8|v7", "job_id": "f53cb8dd-9d01-4452-827b-24e41ea3641c", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v4", "job_id": "a6faa455-43be-4833-89db-df04facc3f51", "coste": 1, "enviado": "2026-11-06 09:09:12"}
+{"key": "A6_unidades|tren_blindado|v1", "job_id": "e0c0934f-910d-4aa2-ad99-495f32c7b955", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v5", "job_id": "791e9a70-9e4a-4760-b9bf-042a46b5fed0", "coste": 1, "enviado": "2026-11-06 09:09:13"}
+{"key": "A6_unidades|tren_blindado|v3", "job_id": "966a16f2-01d7-432e-b3ba-e268859f1d20", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v6", "job_id": "2da96301-706e-4ceb-bc8e-cf0765ca0e86", "coste": 1, "enviado": "2026-11-06 09:09:26"}
+{"key": "A6_unidades|tren_blindado|v4", "job_id": "a6faa455-43be-4833-89db-df04facc3f51", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v7", "job_id": "7586aba1-56cf-4330-94f7-2385a5fd39ce", "coste": 1, "enviado": "2026-11-06 09:09:34"}
+{"key": "A6_unidades|tren_blindado|v2", "job_id": "c11ec56a-f152-4e69-b4dd-ef3b9c369f2a", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|tren_blindado|v8", "job_id": "de41e573-3051-45f3-8120-380888593020", "coste": 1, "enviado": "2026-11-06 09:09:35"}
+{"key": "A6_unidades|tren_blindado|v5", "job_id": "791e9a70-9e4a-4760-b9bf-042a46b5fed0", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v1", "job_id": "c0e02de2-640f-4a1f-a088-3af6111dc7ea", "coste": 1, "enviado": "2026-11-06 09:09:39"}
+{"key": "A6_unidades|tren_blindado|v6", "job_id": "2da96301-706e-4ceb-bc8e-cf0765ca0e86", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v2", "job_id": "ec839b3d-22a1-443c-9ec8-84c1667f4d87", "coste": 1, "enviado": "2026-11-06 09:09:52"}
+{"key": "A6_unidades|tren_blindado|v8", "job_id": "de41e573-3051-45f3-8120-380888593020", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v3", "job_id": "e33d5397-03d7-4909-938a-c5826625b886", "coste": 1, "enviado": "2026-11-06 09:10:10"}
+{"key": "A6_unidades|artilleria_ferroviaria|v1", "job_id": "c0e02de2-640f-4a1f-a088-3af6111dc7ea", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v4", "job_id": "cfd891ce-2c50-4c53-80bb-8a3a63edbfae", "coste": 1, "enviado": "2026-11-06 09:10:18"}
+{"key": "A6_unidades|artilleria_ferroviaria|v2", "job_id": "ec839b3d-22a1-443c-9ec8-84c1667f4d87", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v5", "job_id": "bad6f86f-f33c-4bd6-870f-8b60ba01efdc", "coste": 1, "enviado": "2026-11-06 09:10:43"}
+{"key": "A6_unidades|tren_blindado|v7", "job_id": "7586aba1-56cf-4330-94f7-2385a5fd39ce", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v6", "job_id": "70627ca5-5d2e-4196-b0cd-06a1d6d761f8", "coste": 1, "enviado": "2026-11-06 09:10:47"}
+{"key": "A6_unidades|artilleria_ferroviaria|v4", "job_id": "cfd891ce-2c50-4c53-80bb-8a3a63edbfae", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v7", "job_id": "96c53901-260a-4fb5-85a7-bcc371d35fda", "coste": 1, "enviado": "2026-11-06 09:10:48"}
+{"key": "A6_unidades|artilleria_ferroviaria|v3", "job_id": "e33d5397-03d7-4909-938a-c5826625b886", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v8", "job_id": "9513fdba-040a-4451-a734-6e43b187654d", "coste": 1, "enviado": "2026-11-06 09:10:57"}
+{"key": "A6_unidades|artilleria_ferroviaria|v7", "job_id": "96c53901-260a-4fb5-85a7-bcc371d35fda", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v5", "job_id": "bad6f86f-f33c-4bd6-870f-8b60ba01efdc", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v6", "job_id": "70627ca5-5d2e-4196-b0cd-06a1d6d761f8", "terminado": true, "transparencia": "ok"}
+{"key": "A6_unidades|artilleria_ferroviaria|v8", "job_id": "9513fdba-040a-4451-a734-6e43b187654d", "terminado": true, "transparencia": "ok"}
+{"key": "A7_texturas|ladrillo|v3", "job_id": "107e90e5-dbf4-40a0-9919-5f159061cba5", "coste": 1, "enviado": "2026-11-06 09:11:55"}
+{"key": "A7_texturas|ladrillo_grietas|v1", "job_id": "27dfbacc-2be7-4f3a-af81-70122dbcb0d8", "coste": 1, "enviado": "2026-11-06 09:11:55"}
+{"key": "A7_texturas|ladrillo|v2", "job_id": "847c2460-0a40-4981-a13e-abf39bbb7dc6", "coste": 1, "enviado": "2026-11-06 09:11:55"}
+{"key": "A7_texturas|ladrillo|v1", "job_id": "b3f9708e-3503-4f6c-b101-5df3375a6552", "coste": 1, "enviado": "2026-11-06 09:11:56"}
+{"key": "A7_texturas|ladrillo|v3", "job_id": "107e90e5-dbf4-40a0-9919-5f159061cba5", "terminado": true, "transparencia": "no aplica"}
+{"key": "A7_texturas|ladrillo_grietas|v1", "job_id": "27dfbacc-2be7-4f3a-af81-70122dbcb0d8", "terminado": true, "transparencia": "no aplica"}
+{"key": "A7_texturas|ladrillo|v1", "job_id": "b3f9708e-3503-4f6c-b101-5df3375a6552", "terminado": true, "transparencia": "no aplica"}
+{"key": "A7_texturas|ladrillo|v2", "job_id": "847c2460-0a40-4981-a13e-abf39bbb7dc6", "terminado": true, "transparencia": "no aplica"}
+{"key": "C_retratos|julian_mora_normal|v2", "job_id": "0f696428-9307-4bb2-8650-6921749849ac", "coste": 1, "enviado": "2026-11-06 09:38:59"}
+{"key": "C_retratos|comandante_reig_normal|v2", "job_id": "026c8452-6a5e-4d62-ae9c-5eac832fd19c", "coste": 1, "enviado": "2026-11-06 09:38:59"}
+{"key": "C_retratos|julian_mora_normal|v1", "job_id": "b3a3ee16-9f0c-4e42-9f0b-ad5a6c39e491", "coste": 1, "enviado": "2026-11-06 09:38:59"}
+{"key": "C_retratos|comandante_reig_normal|v1", "job_id": "533f7e62-f9b3-4ded-8b4a-1239733313f9", "coste": 1, "enviado": "2026-11-06 09:38:59"}
+{"key": "C_retratos|julian_mora_normal|v2", "job_id": "0f696428-9307-4bb2-8650-6921749849ac", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos|comandante_reig_normal|v2", "job_id": "026c8452-6a5e-4d62-ae9c-5eac832fd19c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos|comandante_reig_normal|v1", "job_id": "533f7e62-f9b3-4ded-8b4a-1239733313f9", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos|julian_mora_normal|v1", "job_id": "b3a3ee16-9f0c-4e42-9f0b-ad5a6c39e491", "terminado": true, "transparencia": "ok"}
+{"key": "A7b_texturas|chapa_ondulada|v1", "job_id": "815f24de-cfdc-4048-86ec-27733e215b48", "coste": 1, "enviado": "2026-11-06 09:39:47"}
+{"key": "A7b_texturas|teja_arabe|v1", "job_id": "76daff5b-dcba-4dfa-bb5d-c91c92aa3c8f", "coste": 1, "enviado": "2026-11-06 09:39:47"}
+{"key": "A7b_texturas|balasto|v1", "job_id": "012bf36e-3160-4a7d-b5bb-2f4d44cdf3cd", "coste": 1, "enviado": "2026-11-06 09:39:47"}
+{"key": "A7b_texturas|hormigon|v1", "job_id": "fcccc1b5-056c-4922-b97f-682b86925be4", "coste": 1, "enviado": "2026-11-06 09:39:47"}
+{"key": "A7b_texturas|teja_arabe|v1", "job_id": "76daff5b-dcba-4dfa-bb5d-c91c92aa3c8f", "terminado": true, "transparencia": "no aplica"}
+{"key": "A7b_texturas|balasto|v1", "job_id": "012bf36e-3160-4a7d-b5bb-2f4d44cdf3cd", "terminado": true, "transparencia": "no aplica"}
+{"key": "A7b_texturas|chapa_ondulada|v1", "job_id": "815f24de-cfdc-4048-86ec-27733e215b48", "terminado": true, "transparencia": "no aplica"}
+{"key": "A7b_texturas|hormigon|v1", "job_id": "fcccc1b5-056c-4922-b97f-682b86925be4", "terminado": true, "transparencia": "no aplica"}
+{"key": "C_retratos2|comandante_reig_normal|v4", "job_id": "6366c744-38ae-4842-adf9-9c646846a265", "coste": 1, "enviado": "2026-11-06 09:52:09"}
+{"key": "C_retratos2|comandante_reig_normal|v1", "job_id": "d69a2ff5-572f-45bd-b13a-d0fa841e6102", "coste": 1, "enviado": "2026-11-06 09:52:09"}
+{"key": "C_retratos2|comandante_reig_normal|v3", "job_id": "a2742327-084d-48b5-b599-9885c21dbfe0", "coste": 1, "enviado": "2026-11-06 09:52:09"}
+{"key": "C_retratos2|comandante_reig_normal|v2", "job_id": "9f1dc3c9-a946-4f67-ac61-d791018e105c", "coste": 1, "enviado": "2026-11-06 09:52:09"}
+{"key": "C_retratos2|comandante_reig_normal|v4", "job_id": "6366c744-38ae-4842-adf9-9c646846a265", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_normal|v5", "job_id": "9ab89936-dd81-4f61-a14e-43237b22ade4", "coste": 1, "enviado": "2026-11-06 09:52:40"}
+{"key": "C_retratos2|comandante_reig_normal|v1", "job_id": "d69a2ff5-572f-45bd-b13a-d0fa841e6102", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_normal|v6", "job_id": "d35ea3d9-57d3-499b-985f-315937ce8d2b", "coste": 1, "enviado": "2026-11-06 09:52:44"}
+{"key": "C_retratos2|comandante_reig_normal|v3", "job_id": "a2742327-084d-48b5-b599-9885c21dbfe0", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_normal|v7", "job_id": "331f5d6c-2066-4018-8b06-edaaa5ad76e1", "coste": 1, "enviado": "2026-11-06 09:52:48"}
+{"key": "C_retratos2|comandante_reig_normal|v2", "job_id": "9f1dc3c9-a946-4f67-ac61-d791018e105c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_normal|v8", "job_id": "755fae16-dc3b-489e-a612-817ecc3ba204", "coste": 1, "enviado": "2026-11-06 09:52:53"}
+{"key": "C_retratos2|comandante_reig_normal|v6", "job_id": "d35ea3d9-57d3-499b-985f-315937ce8d2b", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_normal|v5", "job_id": "9ab89936-dd81-4f61-a14e-43237b22ade4", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_herido|v1", "job_id": "3bcebead-79b5-4986-97e4-5a85df274377", "coste": 1, "enviado": "2026-11-06 09:53:18"}
+{"key": "C_retratos2|comandante_reig_herido|v2", "job_id": "ba892530-e3ae-407e-85f1-73e5efe02613", "coste": 1, "enviado": "2026-11-06 09:53:18"}
+{"key": "C_retratos2|comandante_reig_normal|v7", "job_id": "331f5d6c-2066-4018-8b06-edaaa5ad76e1", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_herido|v3", "job_id": "6a4f585b-ce33-4737-8f85-6725d9da7324", "coste": 1, "enviado": "2026-11-06 09:53:27"}
+{"key": "C_retratos2|comandante_reig_normal|v8", "job_id": "755fae16-dc3b-489e-a612-817ecc3ba204", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_herido|v4", "job_id": "e02844ba-da0c-46e2-966f-61113ea7be98", "coste": 1, "enviado": "2026-11-06 09:53:40"}
+{"key": "C_retratos2|comandante_reig_herido|v2", "job_id": "ba892530-e3ae-407e-85f1-73e5efe02613", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_agotado|v1", "job_id": "093a8523-f684-4b0b-ae4e-d8be0804211c", "coste": 1, "enviado": "2026-11-06 09:53:48"}
+{"key": "C_retratos2|comandante_reig_herido|v1", "job_id": "3bcebead-79b5-4986-97e4-5a85df274377", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_agotado|v2", "job_id": "0b2b7714-5365-47a6-8689-29bbcf474fb2", "coste": 1, "enviado": "2026-11-06 09:54:01"}
+{"key": "C_retratos2|comandante_reig_herido|v3", "job_id": "6a4f585b-ce33-4737-8f85-6725d9da7324", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_agotado|v3", "job_id": "01eb38ab-9996-41ee-8f85-f379f666bfa9", "coste": 1, "enviado": "2026-11-06 09:54:13"}
+{"key": "C_retratos2|comandante_reig_herido|v4", "job_id": "e02844ba-da0c-46e2-966f-61113ea7be98", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_agotado|v1", "job_id": "093a8523-f684-4b0b-ae4e-d8be0804211c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|comandante_reig_agotado|v4", "job_id": "a93fc9c7-2231-483b-9343-1238739358c4", "coste": 1, "enviado": "2026-11-06 09:54:27"}
+{"key": "C_retratos2|teniente_bolea_normal|v1", "job_id": "6cd70b4d-78a3-46ee-b211-3432f4a7c775", "coste": 1, "enviado": "2026-11-06 09:54:27"}
+{"key": "C_retratos2|comandante_reig_agotado|v2", "job_id": "0b2b7714-5365-47a6-8689-29bbcf474fb2", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v2", "job_id": "d599dc0d-5eb2-4608-b787-266fa1fbc336", "coste": 1, "enviado": "2026-11-06 09:54:48"}
+{"key": "C_retratos2|comandante_reig_agotado|v3", "job_id": "01eb38ab-9996-41ee-8f85-f379f666bfa9", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v3", "job_id": "517b5806-4b72-4dbe-afc8-3294130e4c91", "coste": 1, "enviado": "2026-11-06 09:54:52"}
+{"key": "C_retratos2|comandante_reig_agotado|v4", "job_id": "a93fc9c7-2231-483b-9343-1238739358c4", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v4", "job_id": "8b46cb92-d8c4-4730-8b8f-cb48efbcf1ed", "coste": 1, "enviado": "2026-11-06 09:55:09"}
+{"key": "C_retratos2|teniente_bolea_normal|v1", "job_id": "6cd70b4d-78a3-46ee-b211-3432f4a7c775", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v5", "job_id": "e54235df-5418-4436-b513-154941da9d17", "coste": 1, "enviado": "2026-11-06 09:55:14"}
+{"key": "C_retratos2|teniente_bolea_normal|v3", "job_id": "517b5806-4b72-4dbe-afc8-3294130e4c91", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v6", "job_id": "3924aa2b-559c-4afa-8651-fa387c72b3f0", "coste": 1, "enviado": "2026-11-06 09:55:31"}
+{"key": "C_retratos2|teniente_bolea_normal|v2", "job_id": "d599dc0d-5eb2-4608-b787-266fa1fbc336", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v7", "job_id": "eb4de5e2-577c-4a26-a221-c4561ae5d1cb", "coste": 1, "enviado": "2026-11-06 09:55:43"}
+{"key": "C_retratos2|teniente_bolea_normal|v5", "job_id": "e54235df-5418-4436-b513-154941da9d17", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v8", "job_id": "cd297abd-9306-4056-92b7-89ccf2b7084c", "coste": 1, "enviado": "2026-11-06 09:55:48"}
+{"key": "C_retratos2|teniente_bolea_normal|v4", "job_id": "8b46cb92-d8c4-4730-8b8f-cb48efbcf1ed", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_normal|v6", "job_id": "3924aa2b-559c-4afa-8651-fa387c72b3f0", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_herido|v1", "job_id": "a19a854a-7a4a-465a-991d-5be1957f9ede", "coste": 1, "enviado": "2026-11-06 09:56:09"}
+{"key": "C_retratos2|teniente_bolea_herido|v2", "job_id": "abdc44c7-0de5-4ce8-819e-7508368d06ac", "coste": 1, "enviado": "2026-11-06 09:56:09"}
+{"key": "C_retratos2|teniente_bolea_normal|v7", "job_id": "eb4de5e2-577c-4a26-a221-c4561ae5d1cb", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_herido|v3", "job_id": "9245cd56-2771-44a0-9989-4ace71add1e9", "coste": 1, "enviado": "2026-11-06 09:56:26"}
+{"key": "C_retratos2|teniente_bolea_normal|v8", "job_id": "cd297abd-9306-4056-92b7-89ccf2b7084c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_herido|v4", "job_id": "0ac3823e-028b-41e3-b63d-0c7b0aa2424f", "coste": 1, "enviado": "2026-11-06 09:56:27"}
+{"key": "C_retratos2|teniente_bolea_herido|v1", "job_id": "a19a854a-7a4a-465a-991d-5be1957f9ede", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_herido|v2", "job_id": "abdc44c7-0de5-4ce8-819e-7508368d06ac", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_agotado|v2", "job_id": "ff1201b3-41ed-4e5a-9789-ac5ba68f9ff6", "coste": 1, "enviado": "2026-11-06 09:56:48"}
+{"key": "C_retratos2|teniente_bolea_agotado|v1", "job_id": "5abeb8a5-86ca-4ff7-b66d-97096b7205cc", "coste": 1, "enviado": "2026-11-06 09:56:48"}
+{"key": "C_retratos2|teniente_bolea_herido|v3", "job_id": "9245cd56-2771-44a0-9989-4ace71add1e9", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_agotado|v3", "job_id": "c1020697-2413-4b50-b1a6-44d58c914d39", "coste": 1, "enviado": "2026-11-06 09:57:00"}
+{"key": "C_retratos2|teniente_bolea_herido|v4", "job_id": "0ac3823e-028b-41e3-b63d-0c7b0aa2424f", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_agotado|v4", "job_id": "5a0a86de-2737-4d99-8c84-6dd3d9a8fd43", "coste": 1, "enviado": "2026-11-06 09:57:01"}
+{"key": "C_retratos2|teniente_bolea_agotado|v1", "job_id": "5abeb8a5-86ca-4ff7-b66d-97096b7205cc", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_normal|v1", "job_id": "857e4613-06c8-46fc-bc2e-8d7c42457120", "coste": 1, "enviado": "2026-11-06 09:57:22"}
+{"key": "C_retratos2|teniente_bolea_agotado|v3", "job_id": "c1020697-2413-4b50-b1a6-44d58c914d39", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|teniente_bolea_agotado|v2", "job_id": "ff1201b3-41ed-4e5a-9789-ac5ba68f9ff6", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_normal|v2", "job_id": "18a94587-08f0-4975-8cfa-e977a7333bcf", "coste": 1, "enviado": "2026-11-06 09:57:35"}
+{"key": "C_retratos2|sargento_ouali_normal|v3", "job_id": "2b85f520-d1b9-48eb-b7e4-42365da12508", "coste": 1, "enviado": "2026-11-06 09:57:35"}
+{"key": "C_retratos2|teniente_bolea_agotado|v4", "job_id": "5a0a86de-2737-4d99-8c84-6dd3d9a8fd43", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_normal|v4", "job_id": "a055f742-6ec0-441e-b809-814c44ed4119", "coste": 1, "enviado": "2026-11-06 09:57:40"}
+{"key": "C_retratos2|sargento_ouali_normal|v1", "job_id": "857e4613-06c8-46fc-bc2e-8d7c42457120", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_normal|v5", "job_id": "887be13b-577d-437c-aca2-e69e937d2590", "coste": 1, "enviado": "2026-11-06 09:58:09"}
+{"key": "C_retratos2|sargento_ouali_normal|v2", "job_id": "18a94587-08f0-4975-8cfa-e977a7333bcf", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_normal|v6", "job_id": "3cc0c20f-6bbe-4e02-9e1f-f73e5b11891b", "coste": 1, "enviado": "2026-11-06 09:58:22"}
+{"key": "C_retratos2|sargento_ouali_normal|v4", "job_id": "a055f742-6ec0-441e-b809-814c44ed4119", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_normal|v7", "job_id": "8c9d09ce-4497-4665-a4f5-d89c14dbb7ed", "coste": 1, "enviado": "2026-11-06 09:58:26"}
+{"key": "C_retratos2|sargento_ouali_normal|v3", "job_id": "2b85f520-d1b9-48eb-b7e4-42365da12508", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_normal|v8", "job_id": "5be54ef4-4e35-47ec-8828-4d4c43252203", "coste": 1, "enviado": "2026-11-06 09:58:38"}
+{"key": "C_retratos2|sargento_ouali_normal|v5", "job_id": "887be13b-577d-437c-aca2-e69e937d2590", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_herido|v1", "job_id": "8f27ecd3-12da-4a04-8af8-ac3e29388b79", "coste": 1, "enviado": "2026-11-06 09:58:48"}
+{"key": "C_retratos2|sargento_ouali_normal|v6", "job_id": "3cc0c20f-6bbe-4e02-9e1f-f73e5b11891b", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_herido|v2", "job_id": "9cf3a38a-c9e4-449b-9e40-4f71bdf00680", "coste": 1, "enviado": "2026-11-06 09:59:09"}
+{"key": "C_retratos2|sargento_ouali_normal|v7", "job_id": "8c9d09ce-4497-4665-a4f5-d89c14dbb7ed", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_herido|v3", "job_id": "637d3372-45e8-4f96-b623-b390546609e7", "coste": 1, "enviado": "2026-11-06 09:59:13"}
+{"key": "C_retratos2|sargento_ouali_normal|v8", "job_id": "5be54ef4-4e35-47ec-8828-4d4c43252203", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_herido|v4", "job_id": "cfb2390a-cb8b-4171-82bf-7d39ec59c964", "coste": 1, "enviado": "2026-11-06 09:59:21"}
+{"key": "C_retratos2|sargento_ouali_herido|v1", "job_id": "8f27ecd3-12da-4a04-8af8-ac3e29388b79", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_agotado|v1", "job_id": "07e3ae0b-483f-4b9a-b88f-274a1780ce1c", "coste": 1, "enviado": "2026-11-06 09:59:39"}
+{"key": "C_retratos2|sargento_ouali_herido|v3", "job_id": "637d3372-45e8-4f96-b623-b390546609e7", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_agotado|v2", "job_id": "1388341d-4913-46c8-a554-510824bd84c8", "coste": 1, "enviado": "2026-11-06 09:59:52"}
+{"key": "C_retratos2|sargento_ouali_herido|v2", "job_id": "9cf3a38a-c9e4-449b-9e40-4f71bdf00680", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_agotado|v3", "job_id": "4183bdf3-a176-4f7c-bf42-4eb00c60dd55", "coste": 1, "enviado": "2026-11-06 09:59:56"}
+{"key": "C_retratos2|sargento_ouali_herido|v4", "job_id": "cfb2390a-cb8b-4171-82bf-7d39ec59c964", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|sargento_ouali_agotado|v4", "job_id": "2d60b116-1f7d-4ff0-aa12-f5cfcc8372a1", "coste": 1, "enviado": "2026-11-06 10:00:00"}
+{"key": "C_retratos2|sargento_ouali_agotado|v1", "job_id": "07e3ae0b-483f-4b9a-b88f-274a1780ce1c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v1", "job_id": "f8eda0c1-fce3-4a97-9032-580b6f760e8a", "coste": 1, "enviado": "2026-11-06 10:00:13"}
+{"key": "C_retratos2|sargento_ouali_agotado|v2", "job_id": "1388341d-4913-46c8-a554-510824bd84c8", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v2", "job_id": "c905f385-3d6d-46eb-a0cf-8766a0237128", "coste": 1, "enviado": "2026-11-06 10:00:26"}
+{"key": "C_retratos2|sargento_ouali_agotado|v4", "job_id": "2d60b116-1f7d-4ff0-aa12-f5cfcc8372a1", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v3", "job_id": "9bdef988-83bc-4ed5-9234-54d3a2d18742", "coste": 1, "enviado": "2026-11-06 10:00:34"}
+{"key": "C_retratos2|sargento_ouali_agotado|v3", "job_id": "4183bdf3-a176-4f7c-bf42-4eb00c60dd55", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v4", "job_id": "418f8818-d635-4164-96ad-27de4fc00f01", "coste": 1, "enviado": "2026-11-06 10:00:42"}
+{"key": "C_retratos2|chispas_ferrer_normal|v1", "job_id": "f8eda0c1-fce3-4a97-9032-580b6f760e8a", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v5", "job_id": "d8effcc2-5535-4665-850a-a5e030f27882", "coste": 1, "enviado": "2026-11-06 10:01:00"}
+{"key": "C_retratos2|chispas_ferrer_normal|v3", "job_id": "9bdef988-83bc-4ed5-9234-54d3a2d18742", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v6", "job_id": "9cef4fd1-5cac-41b5-bcdf-310b0e8b29d7", "coste": 1, "enviado": "2026-11-06 10:01:13"}
+{"key": "C_retratos2|chispas_ferrer_normal|v4", "job_id": "418f8818-d635-4164-96ad-27de4fc00f01", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v7", "job_id": "bb0ef1fb-d845-4f8c-bde2-12ab46bf8c04", "coste": 1, "enviado": "2026-11-06 10:01:21"}
+{"key": "C_retratos2|chispas_ferrer_normal|v2", "job_id": "c905f385-3d6d-46eb-a0cf-8766a0237128", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_normal|v8", "job_id": "660d9842-51ac-474b-99e8-3c322e149f2c", "coste": 1, "enviado": "2026-11-06 10:01:34"}
+{"key": "C_retratos2|chispas_ferrer_normal|v5", "job_id": "d8effcc2-5535-4665-850a-a5e030f27882", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_herido|v1", "job_id": "eab1d5d3-dbf8-4497-9f72-493cb77af2e0", "coste": 1, "enviado": "2026-11-06 10:01:43"}
+{"key": "C_retratos2|chispas_ferrer_normal|v6", "job_id": "9cef4fd1-5cac-41b5-bcdf-310b0e8b29d7", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_herido|v2", "job_id": "d7e2d81b-3d8c-48f6-ba64-71f645d56a5f", "coste": 1, "enviado": "2026-11-06 10:01:47"}
+{"key": "C_retratos2|chispas_ferrer_normal|v7", "job_id": "bb0ef1fb-d845-4f8c-bde2-12ab46bf8c04", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_herido|v3", "job_id": "8f91f899-c42f-40d2-a4cc-9af86d825c88", "coste": 1, "enviado": "2026-11-06 10:02:12"}
+{"key": "C_retratos2|chispas_ferrer_normal|v8", "job_id": "660d9842-51ac-474b-99e8-3c322e149f2c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_herido|v4", "job_id": "1c120b0d-5a95-4194-a589-7bc063e3c487", "coste": 1, "enviado": "2026-11-06 10:02:13"}
+{"key": "C_retratos2|chispas_ferrer_herido|v2", "job_id": "d7e2d81b-3d8c-48f6-ba64-71f645d56a5f", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_herido|v1", "job_id": "eab1d5d3-dbf8-4497-9f72-493cb77af2e0", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v1", "job_id": "d9ae54a2-d93a-4253-9220-92b5765ed2b5", "coste": 1, "enviado": "2026-11-06 10:02:34"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v2", "job_id": "66166ccf-7927-4af3-ac9d-5ed224859d22", "coste": 1, "enviado": "2026-11-06 10:02:35"}
+{"key": "C_retratos2|chispas_ferrer_herido|v3", "job_id": "8f91f899-c42f-40d2-a4cc-9af86d825c88", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v3", "job_id": "887555e8-e49e-4263-bb50-85bc19dabd9f", "coste": 1, "enviado": "2026-11-06 10:02:51"}
+{"key": "C_retratos2|chispas_ferrer_herido|v4", "job_id": "1c120b0d-5a95-4194-a589-7bc063e3c487", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v4", "job_id": "980f9e6a-ea70-4f89-95d4-99f69c9b05ad", "coste": 1, "enviado": "2026-11-06 10:03:04"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v1", "job_id": "d9ae54a2-d93a-4253-9220-92b5765ed2b5", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v1", "job_id": "16c4b0f7-b527-43ff-b7fb-e5424b589a8a", "coste": 1, "enviado": "2026-11-06 10:03:13"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v3", "job_id": "887555e8-e49e-4263-bb50-85bc19dabd9f", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v2", "job_id": "4603175d-87a6-40e1-b790-0b45d08161fd", "coste": 1, "enviado": "2026-11-06 10:03:25"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v2", "job_id": "66166ccf-7927-4af3-ac9d-5ed224859d22", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v3", "job_id": "08c613ef-2dcf-4138-8e95-f451a8573553", "coste": 1, "enviado": "2026-11-06 10:03:30"}
+{"key": "C_retratos2|chispas_ferrer_agotado|v4", "job_id": "980f9e6a-ea70-4f89-95d4-99f69c9b05ad", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v4", "job_id": "72ef02ae-250d-4372-8739-e3f6b56476c9", "coste": 1, "enviado": "2026-11-06 10:03:42"}
+{"key": "C_retratos2|doctora_calvo_normal|v1", "job_id": "16c4b0f7-b527-43ff-b7fb-e5424b589a8a", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v5", "job_id": "3ec7f45d-d8fd-4613-aa57-6ef3eef84ead", "coste": 1, "enviado": "2026-11-06 10:03:56"}
+{"key": "C_retratos2|doctora_calvo_normal|v2", "job_id": "4603175d-87a6-40e1-b790-0b45d08161fd", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v6", "job_id": "f94b6a53-f6aa-440a-916c-679bd917231c", "coste": 1, "enviado": "2026-11-06 10:04:00"}
+{"key": "C_retratos2|doctora_calvo_normal|v3", "job_id": "08c613ef-2dcf-4138-8e95-f451a8573553", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v4", "job_id": "72ef02ae-250d-4372-8739-e3f6b56476c9", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v7", "job_id": "fbaacbe7-ea3c-4295-8e4f-49717b9b8f36", "coste": 1, "enviado": "2026-11-06 10:04:21"}
+{"key": "C_retratos2|doctora_calvo_normal|v8", "job_id": "45b732e6-3e31-4b22-bfd7-18e3fc992615", "coste": 1, "enviado": "2026-11-06 10:04:21"}
+{"key": "C_retratos2|doctora_calvo_normal|v6", "job_id": "f94b6a53-f6aa-440a-916c-679bd917231c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_normal|v5", "job_id": "3ec7f45d-d8fd-4613-aa57-6ef3eef84ead", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_herido|v1", "job_id": "d708498b-29e9-42ad-895e-5a5e3a4d5644", "coste": 1, "enviado": "2026-11-06 10:04:43"}
+{"key": "C_retratos2|doctora_calvo_herido|v2", "job_id": "a13856c8-59ad-4245-adc1-593d5db5dc50", "coste": 1, "enviado": "2026-11-06 10:04:43"}
+{"key": "C_retratos2|doctora_calvo_normal|v8", "job_id": "45b732e6-3e31-4b22-bfd7-18e3fc992615", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_herido|v3", "job_id": "8c656c76-bc72-4eb4-bb94-01f30b41f976", "coste": 1, "enviado": "2026-11-06 10:05:04"}
+{"key": "C_retratos2|doctora_calvo_herido|v1", "job_id": "d708498b-29e9-42ad-895e-5a5e3a4d5644", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_herido|v4", "job_id": "e7e09a9e-d90a-481f-aac6-cd851f5ad14e", "coste": 1, "enviado": "2026-11-06 10:05:17"}
+{"key": "C_retratos2|doctora_calvo_normal|v7", "job_id": "fbaacbe7-ea3c-4295-8e4f-49717b9b8f36", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_agotado|v1", "job_id": "fd662ad4-0497-4d7f-b478-30a48e44f21d", "coste": 1, "enviado": "2026-11-06 10:05:25"}
+{"key": "C_retratos2|doctora_calvo_herido|v2", "job_id": "a13856c8-59ad-4245-adc1-593d5db5dc50", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_agotado|v2", "job_id": "38a72d77-3594-40f9-9224-d75df0a75731", "coste": 1, "enviado": "2026-11-06 10:05:34"}
+{"key": "C_retratos2|doctora_calvo_herido|v3", "job_id": "8c656c76-bc72-4eb4-bb94-01f30b41f976", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_agotado|v3", "job_id": "86dc63df-a831-4d79-a712-d0ba15cd48cb", "coste": 1, "enviado": "2026-11-06 10:05:38"}
+{"key": "C_retratos2|doctora_calvo_agotado|v2", "job_id": "38a72d77-3594-40f9-9224-d75df0a75731", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_agotado|v4", "job_id": "d326d58d-e9c7-428e-b1be-a367373038b0", "coste": 1, "enviado": "2026-11-06 10:06:04"}
+{"key": "C_retratos2|doctora_calvo_herido|v4", "job_id": "e7e09a9e-d90a-481f-aac6-cd851f5ad14e", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|doctora_calvo_agotado|v3", "job_id": "86dc63df-a831-4d79-a712-d0ba15cd48cb", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_normal|v1", "job_id": "422ceb41-3930-4c04-b3be-4a4ae7db607f", "coste": 1, "enviado": "2026-11-06 10:06:08"}
+{"key": "C_retratos2|pau_llorens_normal|v2", "job_id": "523392a3-16b9-4cae-a07e-8d4e1ba1aacf", "coste": 1, "enviado": "2026-11-06 10:06:08"}
+{"key": "C_retratos2|doctora_calvo_agotado|v1", "job_id": "fd662ad4-0497-4d7f-b478-30a48e44f21d", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_normal|v3", "job_id": "0a2198b0-bf19-479f-8cba-29fe0cb4a4a2", "coste": 1, "enviado": "2026-11-06 10:06:16"}
+{"key": "C_retratos2|pau_llorens_normal|v1", "job_id": "422ceb41-3930-4c04-b3be-4a4ae7db607f", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_normal|v4", "job_id": "75a03c34-4afa-4a93-8901-45e45a04d977", "coste": 1, "enviado": "2026-11-06 10:06:38"}
+{"key": "C_retratos2|pau_llorens_normal|v2", "job_id": "523392a3-16b9-4cae-a07e-8d4e1ba1aacf", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_normal|v5", "job_id": "21d3925e-c319-4605-8184-56ad878e60d2", "coste": 1, "enviado": "2026-11-06 10:06:55"}
+{"key": "C_retratos2|doctora_calvo_agotado|v4", "job_id": "d326d58d-e9c7-428e-b1be-a367373038b0", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_normal|v6", "job_id": "60c35fe5-9d58-49c2-8ee4-6b57bba45255", "coste": 1, "enviado": "2026-11-06 10:06:59"}
+{"key": "C_retratos2|pau_llorens_normal|v3", "job_id": "0a2198b0-bf19-479f-8cba-29fe0cb4a4a2", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_normal|v7", "job_id": "e3c08de6-7311-4278-a914-dc5e66e4814a", "coste": 1, "enviado": "2026-11-06 10:07:07"}
+{"key": "C_retratos2|pau_llorens_normal|v4", "job_id": "75a03c34-4afa-4a93-8901-45e45a04d977", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_normal|v8", "job_id": "3c83da12-978d-4638-a6b4-459fc197fe9a", "coste": 1, "enviado": "2026-11-06 10:07:21"}
+{"key": "C_retratos2|pau_llorens_normal|v5", "job_id": "21d3925e-c319-4605-8184-56ad878e60d2", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_herido|v1", "job_id": "fdd69831-e2d1-4dd8-ae8e-897e3767f40b", "coste": 1, "enviado": "2026-11-06 10:07:30"}
+{"key": "C_retratos2|pau_llorens_normal|v6", "job_id": "60c35fe5-9d58-49c2-8ee4-6b57bba45255", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_herido|v2", "job_id": "45a3bfeb-8988-4a2a-8d37-65e1d1d8ebe2", "coste": 1, "enviado": "2026-11-06 10:07:34"}
+{"key": "C_retratos2|pau_llorens_normal|v7", "job_id": "e3c08de6-7311-4278-a914-dc5e66e4814a", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_herido|v3", "job_id": "621f1bda-410b-488d-b73b-ce5ba8101e2a", "coste": 1, "enviado": "2026-11-06 10:07:37"}
+{"key": "C_retratos2|pau_llorens_herido|v1", "job_id": "fdd69831-e2d1-4dd8-ae8e-897e3767f40b", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_herido|v4", "job_id": "f5436720-8a83-4fcf-a5cf-090f7408bd6c", "coste": 1, "enviado": "2026-11-06 10:08:00"}
+{"key": "C_retratos2|pau_llorens_normal|v8", "job_id": "3c83da12-978d-4638-a6b4-459fc197fe9a", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_agotado|v1", "job_id": "172a32b6-2563-4970-91c8-38c1332e3880", "coste": 1, "enviado": "2026-11-06 10:08:04"}
+{"key": "C_retratos2|pau_llorens_herido|v2", "job_id": "45a3bfeb-8988-4a2a-8d37-65e1d1d8ebe2", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_agotado|v2", "job_id": "065ccfe5-42c6-4957-a472-bd2e0c612f12", "coste": 1, "enviado": "2026-11-06 10:08:12"}
+{"key": "C_retratos2|pau_llorens_herido|v4", "job_id": "f5436720-8a83-4fcf-a5cf-090f7408bd6c", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_agotado|v3", "job_id": "ec3821d0-5f97-4de1-a632-f559e5c22c36", "coste": 1, "enviado": "2026-11-06 10:08:34"}
+{"key": "C_retratos2|pau_llorens_herido|v3", "job_id": "621f1bda-410b-488d-b73b-ce5ba8101e2a", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|pau_llorens_agotado|v4", "job_id": "53b4e6f7-5510-486a-8220-6388ccfce62f", "coste": 1, "enviado": "2026-11-06 10:08:37"}
+{"key": "C_retratos2|pau_llorens_agotado|v2", "job_id": "065ccfe5-42c6-4957-a472-bd2e0c612f12", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v1", "job_id": "53f4e635-6723-4407-aab4-d0247e802209", "coste": 1, "enviado": "2026-11-06 10:08:47"}
+{"key": "C_retratos2|pau_llorens_agotado|v1", "job_id": "172a32b6-2563-4970-91c8-38c1332e3880", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v2", "job_id": "68f8cb8f-125f-44d5-a9b8-73ee9eaf07be", "coste": 1, "enviado": "2026-11-06 10:08:51"}
+{"key": "C_retratos2|pau_llorens_agotado|v3", "job_id": "ec3821d0-5f97-4de1-a632-f559e5c22c36", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v3", "job_id": "8117d362-db25-49f6-87c7-a6d19c6bf96d", "coste": 1, "enviado": "2026-11-06 10:09:13"}
+{"key": "C_retratos2|pau_llorens_agotado|v4", "job_id": "53b4e6f7-5510-486a-8220-6388ccfce62f", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v4", "job_id": "15c4c7c0-1c89-466d-874f-58ea5c406032", "coste": 1, "enviado": "2026-11-06 10:09:24"}
+{"key": "C_retratos2|nerea_ibarra_normal|v1", "job_id": "53f4e635-6723-4407-aab4-d0247e802209", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v5", "job_id": "a169d7e0-1e77-42b9-8225-16f2147cfc4b", "coste": 1, "enviado": "2026-11-06 10:09:38"}
+{"key": "C_retratos2|nerea_ibarra_normal|v2", "job_id": "68f8cb8f-125f-44d5-a9b8-73ee9eaf07be", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v6", "job_id": "a0f1eeee-4868-49ee-a696-6b758ea608cd", "coste": 1, "enviado": "2026-11-06 10:09:42"}
+{"key": "C_retratos2|nerea_ibarra_normal|v3", "job_id": "8117d362-db25-49f6-87c7-a6d19c6bf96d", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v7", "job_id": "a752b23d-be17-4a19-b8ab-5c17b4c47c25", "coste": 1, "enviado": "2026-11-06 10:10:00"}
+{"key": "C_retratos2|nerea_ibarra_normal|v4", "job_id": "15c4c7c0-1c89-466d-874f-58ea5c406032", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_normal|v8", "job_id": "444b7c44-c154-4719-9e9f-b354373cb230", "coste": 1, "enviado": "2026-11-06 10:10:02"}
+{"key": "C_retratos2|nerea_ibarra_normal|v6", "job_id": "a0f1eeee-4868-49ee-a696-6b758ea608cd", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_herido|v1", "job_id": "25d6ee5e-e58a-416d-b429-11f8d2881192", "coste": 1, "enviado": "2026-11-06 10:10:16"}
+{"key": "C_retratos2|nerea_ibarra_normal|v7", "job_id": "a752b23d-be17-4a19-b8ab-5c17b4c47c25", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_herido|v2", "job_id": "21bc42bd-d32d-4082-8d2a-093ba0785761", "coste": 1, "enviado": "2026-11-06 10:10:34"}
+{"key": "C_retratos2|nerea_ibarra_normal|v5", "job_id": "a169d7e0-1e77-42b9-8225-16f2147cfc4b", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_herido|v3", "job_id": "0cd7bc77-4a84-4d2a-bf8e-cfcd30d5924e", "coste": 1, "enviado": "2026-11-06 10:10:42"}
+{"key": "C_retratos2|nerea_ibarra_normal|v8", "job_id": "444b7c44-c154-4719-9e9f-b354373cb230", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_herido|v4", "job_id": "3bb99909-f8e4-4b20-b9e6-865091ce8bcb", "coste": 1, "enviado": "2026-11-06 10:10:45"}
+{"key": "C_retratos2|nerea_ibarra_herido|v1", "job_id": "25d6ee5e-e58a-416d-b429-11f8d2881192", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v1", "job_id": "88028c61-6487-4e7a-a9b0-296eddd40a13", "coste": 1, "enviado": "2026-11-06 10:10:59"}
+{"key": "C_retratos2|nerea_ibarra_herido|v2", "job_id": "21bc42bd-d32d-4082-8d2a-093ba0785761", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v2", "job_id": "e43430ec-35cb-4083-8d1c-a1f7d1e1b037", "coste": 1, "enviado": "2026-11-06 10:11:05"}
+{"key": "C_retratos2|nerea_ibarra_herido|v3", "job_id": "0cd7bc77-4a84-4d2a-bf8e-cfcd30d5924e", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v3", "job_id": "cfbfc5de-1ca0-44c8-9dd7-8b8c4a7f7ea3", "coste": 1, "enviado": "2026-11-06 10:11:16"}
+{"key": "C_retratos2|nerea_ibarra_herido|v4", "job_id": "3bb99909-f8e4-4b20-b9e6-865091ce8bcb", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v4", "job_id": "9208f09e-c500-42bc-89b7-fcd80e78e3c8", "coste": 1, "enviado": "2026-11-06 10:11:24"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v1", "job_id": "88028c61-6487-4e7a-a9b0-296eddd40a13", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v1", "job_id": "e2687b8a-e77a-40f4-bd4b-579c39074b01", "coste": 1, "enviado": "2026-11-06 10:11:34"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v2", "job_id": "e43430ec-35cb-4083-8d1c-a1f7d1e1b037", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v2", "job_id": "6f11cd81-fcdb-41a0-816e-0ba760de912a", "coste": 1, "enviado": "2026-11-06 10:11:39"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v4", "job_id": "9208f09e-c500-42bc-89b7-fcd80e78e3c8", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v3", "job_id": "4dcfd530-465c-4f29-8399-bfd686e304b2", "coste": 1, "enviado": "2026-11-06 10:12:02"}
+{"key": "C_retratos2|nerea_ibarra_agotado|v3", "job_id": "cfbfc5de-1ca0-44c8-9dd7-8b8c4a7f7ea3", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v4", "job_id": "d55473ac-7c1b-4374-aee0-c393f0bf19dd", "coste": 1, "enviado": "2026-11-06 10:12:03"}
+{"key": "C_retratos2|julian_mora_normal|v2", "job_id": "6f11cd81-fcdb-41a0-816e-0ba760de912a", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v5", "job_id": "1d6ee4d1-ecd7-4cc5-8bc9-1c8a7fb8d397", "coste": 1, "enviado": "2026-11-06 10:12:09"}
+{"key": "C_retratos2|julian_mora_normal|v3", "job_id": "4dcfd530-465c-4f29-8399-bfd686e304b2", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v6", "job_id": "05afc832-12e6-493f-bfd0-97b925691424", "coste": 1, "enviado": "2026-11-06 10:12:41"}
+{"key": "C_retratos2|julian_mora_normal|v4", "job_id": "d55473ac-7c1b-4374-aee0-c393f0bf19dd", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v7", "job_id": "9eee192b-e3e3-4c5d-a130-d766659b48dc", "coste": 1, "enviado": "2026-11-06 10:12:42"}
+{"key": "C_retratos2|julian_mora_normal|v5", "job_id": "1d6ee4d1-ecd7-4cc5-8bc9-1c8a7fb8d397", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_normal|v8", "job_id": "4ba22ed8-d451-4b24-89fd-59ef91969dd4", "coste": 1, "enviado": "2026-11-06 10:12:52"}
+{"key": "C_retratos2|julian_mora_normal|v6", "job_id": "05afc832-12e6-493f-bfd0-97b925691424", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_herido|v1", "job_id": "63a14f07-fd99-45d3-86c0-792371c4d720", "coste": 1, "enviado": "2026-11-06 10:13:23"}
+{"key": "C_retratos2|julian_mora_normal|v8", "job_id": "4ba22ed8-d451-4b24-89fd-59ef91969dd4", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_herido|v2", "job_id": "0196688c-e417-447c-b306-db011ce49593", "coste": 1, "enviado": "2026-11-06 10:13:39"}
+{"key": "C_retratos2|julian_mora_normal|v7", "job_id": "9eee192b-e3e3-4c5d-a130-d766659b48dc", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_herido|v3", "job_id": "520a3262-fd6d-4b88-8fc4-aa46aba2b3db", "coste": 1, "enviado": "2026-11-06 10:13:41"}
+{"key": "C_retratos2|julian_mora_herido|v1", "job_id": "63a14f07-fd99-45d3-86c0-792371c4d720", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_herido|v4", "job_id": "b2eacd8d-5cfa-4efc-a644-2229d4c8903f", "coste": 1, "enviado": "2026-11-06 10:13:58"}
+{"key": "C_retratos2|julian_mora_herido|v3", "job_id": "520a3262-fd6d-4b88-8fc4-aa46aba2b3db", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_agotado|v1", "job_id": "50346261-05cb-4ad0-b3fa-8a42a9e4eff5", "coste": 1, "enviado": "2026-11-06 10:14:24"}
+{"key": "C_retratos2|julian_mora_herido|v2", "job_id": "0196688c-e417-447c-b306-db011ce49593", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_agotado|v2", "job_id": "57e5373e-e6cc-40a7-9e74-3ebaa9af2125", "coste": 1, "enviado": "2026-11-06 10:14:26"}
+{"key": "C_retratos2|julian_mora_normal|v1", "job_id": "e2687b8a-e77a-40f4-bd4b-579c39074b01", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_agotado|v3", "job_id": "a957533a-6047-47ce-ba1f-c272de3e59f8", "coste": 1, "enviado": "2026-11-06 10:14:31"}
+{"key": "C_retratos2|julian_mora_herido|v4", "job_id": "b2eacd8d-5cfa-4efc-a644-2229d4c8903f", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_agotado|v4", "job_id": "3cced224-c6d9-4ba7-aa5a-50889eee78ae", "coste": 1, "enviado": "2026-11-06 10:14:36"}
+{"key": "C_retratos2|julian_mora_agotado|v1", "job_id": "50346261-05cb-4ad0-b3fa-8a42a9e4eff5", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_agotado|v3", "job_id": "a957533a-6047-47ce-ba1f-c272de3e59f8", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_agotado|v2", "job_id": "57e5373e-e6cc-40a7-9e74-3ebaa9af2125", "terminado": true, "transparencia": "ok"}
+{"key": "C_retratos2|julian_mora_agotado|v4", "job_id": "3cced224-c6d9-4ba7-aa5a-50889eee78ae", "terminado": true, "transparencia": "ok"}

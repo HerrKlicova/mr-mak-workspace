@@ -1,0 +1,197 @@
+{
+ "entrada": "D:\\3D ENGINES\\output\\image_20261031_172727.glb",
+ "nombre": "SM_Carretilla",
+ "triangulos_entrada": 97252,
+ "limpiar": {
+  "vertices_fusionados": 11279,
+  "sueltos_quitados": 0,
+  "islas_quitadas": 27,
+  "ngons_triangulados": 0,
+  "triangulos": 93498
+ },
+ "escala": {
+  "factor": 1.19796
+ },
+ "diezmar": {
+  "triangulos_antes": 93498,
+  "tras_planar": 34049,
+  "no_manifold_separadas": 37,
+  "triangulos": 3989,
+  "silueta_iou": {
+   "frente": 0.8893,
+   "izquierda": 0.9212,
+   "arriba": 0.9736,
+   "rts": 0.911
+  },
+  "silueta_iou_min": 0.8893,
+  "silueta_ok": false
+ },
+ "diezmar_intentos": [
+  [
+   2925,
+   0.8782
+  ],
+  [
+   3989,
+   0.8893
+  ],
+  [
+   3989,
+   0.8893
+  ]
+ ],
+ "paleta": {
+  "colores_usados": 6,
+  "hex": [
+   "000000",
+   "4c1008",
+   "283440",
+   "7c181c",
+   "48403c",
+   "6c7874"
+  ],
+  "textura": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\T_Paleta32.png"
+ },
+ "auditoria": {
+  "objeto": "SM_Carretilla",
+  "puntos": [
+   {
+    "nivel": "OK",
+    "clave": "triangulos",
+    "valor": 3989,
+    "nota": "presupuesto 1500-4000"
+   },
+   {
+    "nivel": "OK",
+    "clave": "aristas_no_manifold",
+    "valor": 0,
+    "nota": "aristas con 3 o más caras"
+   },
+   {
+    "nivel": "AVISO",
+    "clave": "aristas_de_borde",
+    "valor": 127,
+    "nota": "agujeros; aceptables en piezas que no se ven por debajo"
+   },
+   {
+    "nivel": "OK",
+    "clave": "geometria_suelta",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "AVISO",
+    "clave": "caras_degeneradas",
+    "valor": 1,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "ngons",
+    "valor": 0,
+    "nota": "Unity triangula; mejor triangular en Blender"
+   },
+   {
+    "nivel": "AVISO",
+    "clave": "vertices_duplicados",
+    "valor": 110,
+    "nota": ""
+   },
+   {
+    "nivel": "AVISO",
+    "clave": "islas_diminutas",
+    "valor": 5,
+    "nota": "trozos flotantes típicos de Hunyuan; quitar con limpiar()"
+   },
+   {
+    "nivel": "OK",
+    "clave": "islas_con_normales_hacia_dentro",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "escala_aplicada",
+    "valor": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "rotacion_aplicada",
+    "valor": 0.0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "altura_real",
+    "valor": 1.2,
+    "nota": "esperada 1.20 m (±15 %)"
+   },
+   {
+    "nivel": "OK",
+    "clave": "origen_en_la_base",
+    "valor": true,
+    "nota": "origen en el centro de la base"
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_fuera_de_0_1",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_caras_sin_area",
+    "valor": 3989,
+    "nota": "normal en el atlas de paleta (cara entera en un color)"
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_solape",
+    "valor": 0.0,
+    "nota": "fracción de UV pisada dos veces; normal en el atlas de paleta"
+   },
+   {
+    "nivel": "OK",
+    "clave": "materiales",
+    "valor": 1,
+    "nota": "1 material por pieza (una llamada de dibujo)"
+   }
+  ],
+  "triangulos": 3989,
+  "vertices": 2015,
+  "islas": [
+   3202,
+   302,
+   254,
+   124,
+   102,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimensiones_m": [
+   0.653,
+   0.496,
+   1.2
+  ],
+  "uv_ocupacion": 0.0,
+  "veredicto": "AVISO"
+ },
+ "vistas": [
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_rts.png",
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_frente.png",
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_izquierda.png"
+ ],
+ "vista_original": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_ORIGINAL_rts.png",
+ "exportado": {
+  "ruta": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla.fbx",
+  "bytes": 152540
+ }
+}

@@ -1,0 +1,50 @@
+48 trabajos, 48 pendientes
+OK  A2_alertas|ataque_32|v1                  ok
+OK  A2_alertas|ataque_32|v2                  ok
+OK  A2_alertas|ataque_32|v3                  ok
+OK  A2_alertas|ataque_32|v4                  ok
+OK  A2_alertas|ataque_32|v5                  FONDO (69% del borde opaco)
+OK  A2_alertas|ataque_32|v8                  FONDO (81% del borde opaco)
+OK  A2_alertas|ataque_32|v6                  FONDO (70% del borde opaco)
+OK  A2_alertas|ataque_32|v7                  ok
+OK  A2_alertas|via_cortada_32|v2             ok
+OK  A2_alertas|via_cortada_32|v3             ok
+OK  A2_alertas|via_cortada_32|v1             ok
+OK  A2_alertas|via_cortada_32|v4             ok
+OK  A2_alertas|via_cortada_32|v5             ok
+OK  A2_alertas|via_cortada_32|v7             ok
+OK  A2_alertas|via_cortada_32|v6             ok
+OK  A2_alertas|via_cortada_32|v8             ok
+OK  A2_alertas|tren_detenido_32|v3           ok
+OK  A2_alertas|tren_detenido_32|v2           ok
+OK  A2_alertas|tren_detenido_32|v1           ok
+OK  A2_alertas|tren_detenido_32|v4           ok
+OK  A2_alertas|tren_detenido_32|v5           ok
+OK  A2_alertas|tren_detenido_32|v8           ok
+OK  A2_alertas|tren_detenido_32|v6           ok
+OK  A2_alertas|sin_municion_32|v1            ok
+OK  A2_alertas|tren_detenido_32|v7           FONDO (52% del borde opaco)
+OK  A2_alertas|sin_municion_32|v3            ok
+OK  A2_alertas|sin_municion_32|v4            ok
+OK  A2_alertas|sin_municion_32|v2            ok
+OK  A2_alertas|sin_municion_32|v5            ok
+OK  A2_alertas|sin_municion_32|v6            ok
+OK  A2_alertas|sin_municion_32|v7            ok
+OK  A2_alertas|sin_municion_32|v8            ok
+OK  A2_alertas|sin_combustible_32|v1         ok
+OK  A2_alertas|sin_combustible_32|v2         ok
+OK  A2_alertas|sin_combustible_32|v4         ok
+OK  A2_alertas|sin_combustible_32|v5         ok
+OK  A2_alertas|sin_combustible_32|v3         ok
+OK  A2_alertas|sin_combustible_32|v6         ok
+OK  A2_alertas|sin_combustible_32|v7         ok
+OK  A2_alertas|sin_combustible_32|v8         ok
+OK  A2_alertas|asedio_32|v1                  ok
+OK  A2_alertas|asedio_32|v2                  FONDO (62% del borde opaco)
+OK  A2_alertas|asedio_32|v4                  ok
+OK  A2_alertas|asedio_32|v3                  ok
+OK  A2_alertas|asedio_32|v5                  FONDO (74% del borde opaco)
+OK  A2_alertas|asedio_32|v7                  FONDO (100% del borde opaco)
+OK  A2_alertas|asedio_32|v6                  ok
+OK  A2_alertas|asedio_32|v8                  ok
+Resumen: 48 correctos, 0 fallos, gasto estimado 48 generaciones

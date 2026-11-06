@@ -1,0 +1,239 @@
+{
+ "entrada": "D:\\3D ENGINES\\output\\image_20261031_172727.glb",
+ "nombre": "SM_Carretilla_v5",
+ "triangulos_entrada": 97252,
+ "limpiar": {
+  "vertices_fusionados": 11279,
+  "sueltos_quitados": 0,
+  "islas_quitadas": 27,
+  "ngons_triangulados": 0,
+  "triangulos": 93498
+ },
+ "escala": {
+  "factor": 1.19796
+ },
+ "remallar": {
+  "voxel_m": 0.0075,
+  "triangulos": 50896
+ },
+ "diezmar": {
+  "triangulos_antes": 50896,
+  "tras_planar": 12522,
+  "no_manifold_separadas": 0,
+  "triangulos": 2934,
+  "silueta_iou": {
+   "frente": 0.9373,
+   "izquierda": 0.9256,
+   "arriba": 0.9869,
+   "rts": 0.9452
+  },
+  "silueta_iou_min": 0.9256,
+  "silueta_1px": {
+   "frente": 1.0,
+   "izquierda": 1.0,
+   "arriba": 1.0,
+   "rts": 0.9998
+  },
+  "silueta_1px_min": 0.9998,
+  "silueta_ok": true
+ },
+ "diezmar_intentos": [
+  [
+   2934,
+   0.9998,
+   0.9256
+  ]
+ ],
+ "paleta": {
+  "colores_usados": 4,
+  "hex": [
+   "000000",
+   "48403c",
+   "50541c",
+   "6c7874"
+  ],
+  "textura": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\T_Paleta32.png"
+ },
+ "valor_partido": {
+  "claro": "b4a080",
+  "costado": "605c48",
+  "caras_arriba": 586,
+  "caras_costado": 1839,
+  "colores_usados": 3,
+  "hex": [
+   "442c0c",
+   "605c48",
+   "b4a080"
+  ],
+  "tipo": "civil"
+ },
+ "faccion": {
+  "tbd_faccion": "neutro",
+  "tbd_rim": 0
+ },
+ "auditoria": {
+  "objeto": "SM_Carretilla_v5",
+  "puntos": [
+   {
+    "nivel": "OK",
+    "clave": "triangulos",
+    "valor": 2934,
+    "nota": "presupuesto 1500-4000"
+   },
+   {
+    "nivel": "OK",
+    "clave": "aristas_no_manifold",
+    "valor": 0,
+    "nota": "aristas con 3 o más caras"
+   },
+   {
+    "nivel": "OK",
+    "clave": "aristas_de_borde",
+    "valor": 0,
+    "nota": "agujeros; aceptables en piezas que no se ven por debajo"
+   },
+   {
+    "nivel": "OK",
+    "clave": "geometria_suelta",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "caras_degeneradas",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "ngons",
+    "valor": 0,
+    "nota": "Unity triangula; mejor triangular en Blender"
+   },
+   {
+    "nivel": "OK",
+    "clave": "vertices_duplicados",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "islas_diminutas",
+    "valor": 0,
+    "nota": "trozos flotantes típicos de Hunyuan; quitar con limpiar()"
+   },
+   {
+    "nivel": "OK",
+    "clave": "islas_con_normales_hacia_dentro",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "escala_aplicada",
+    "valor": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "rotacion_aplicada",
+    "valor": 0.0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "altura_real",
+    "valor": 1.198,
+    "nota": "esperada 1.20 m (±15 %)"
+   },
+   {
+    "nivel": "OK",
+    "clave": "origen_en_la_base",
+    "valor": true,
+    "nota": "origen en el centro de la base"
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_fuera_de_0_1",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_caras_sin_area",
+    "valor": 2934,
+    "nota": "normal en el atlas de paleta (cara entera en un color)"
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_solape",
+    "valor": 0.0,
+    "nota": "fracción de UV pisada dos veces; normal en el atlas de paleta"
+   },
+   {
+    "nivel": "OK",
+    "clave": "materiales",
+    "valor": 1,
+    "nota": "1 material por pieza (una llamada de dibujo)"
+   },
+   {
+    "nivel": "OK",
+    "clave": "legibilidad_D-N57",
+    "valor": {
+     "trinchera": 39.1,
+     "llano_ocre": 42.3
+    },
+    "nota": "ΔL* ≥ 25 contra cada suelo (albedo sin luz)"
+   }
+  ],
+  "triangulos": 2934,
+  "vertices": 1461,
+  "islas": [
+   2934
+  ],
+  "dimensiones_m": [
+   0.653,
+   0.496,
+   1.198
+  ],
+  "uv_ocupacion": 0.0,
+  "veredicto": "OK"
+ },
+ "legibilidad": {
+  "L_top20": 66.8,
+  "L_contorno": 0.0,
+  "suelos": {
+   "trinchera": {
+    "L_suelo": 27.8,
+    "dL_top20": 39.1,
+    "dL_contorno": 27.8,
+    "dL": 39.1,
+    "ok": true,
+    "ok_top20": true
+   },
+   "llano_ocre": {
+    "L_suelo": 42.3,
+    "dL_top20": 24.5,
+    "dL_contorno": 42.3,
+    "dL": 42.3,
+    "ok": true,
+    "ok_top20": false
+   }
+  },
+  "ok": true
+ },
+ "vistas": [
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_v5_rts.png",
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_v5_frente.png",
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_v5_izquierda.png"
+ ],
+ "vista_original": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_v5_ORIGINAL_rts.png",
+ "exportado": {
+  "ruta": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\prueba_hunyuan\\SM_Carretilla_v5.fbx",
+  "bytes": 127692
+ }
+}

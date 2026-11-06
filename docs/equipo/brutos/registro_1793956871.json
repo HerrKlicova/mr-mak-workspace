@@ -1,0 +1,37 @@
+{
+  "nacho": {
+    "id": "Y6xNrXNgCzyy6xuhFdne",
+    "archivo": "bruto_nacho.png",
+    "mime": "image/png"
+  },
+  "iris": {
+    "id": "IWJSG8yvNwwJuHO0QBnX",
+    "archivo": "bruto_iris.png",
+    "mime": "image/png"
+  },
+  "hugo": {
+    "id": "cWW14RyPHG6u9Batn2Wx",
+    "archivo": "bruto_hugo.png",
+    "mime": "image/png"
+  },
+  "sara": {
+    "id": "H5bKcHk0wvlc8qtDz6RD",
+    "archivo": "bruto_sara.png",
+    "mime": "image/png"
+  },
+  "bruno": {
+    "id": "GiTknGbMt00hrBqPyz4x",
+    "archivo": "bruto_bruno.png",
+    "mime": "image/png"
+  },
+  "teo": {
+    "id": "NOZNHPtUlPJOTOf8PDO9",
+    "archivo": "bruto_teo.png",
+    "mime": "image/png"
+  },
+  "paula": {
+    "id": "f0tYeu7WbjwBcmooWuk4",
+    "archivo": "bruto_paula.png",
+    "mime": "image/png"
+  }
+}

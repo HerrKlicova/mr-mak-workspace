@@ -1,0 +1,50 @@
+48 trabajos, 48 pendientes
+OK  A3_ordenes|aguantar_32|v1                ok
+OK  A3_ordenes|aguantar_32|v2                ok
+OK  A3_ordenes|aguantar_32|v4                FONDO (72% del borde opaco)
+OK  A3_ordenes|aguantar_32|v3                ok
+OK  A3_ordenes|aguantar_32|v5                ok
+OK  A3_ordenes|aguantar_32|v6                ok
+OK  A3_ordenes|aguantar_32|v7                ok
+OK  A3_ordenes|aguantar_32|v8                ok
+OK  A3_ordenes|seguir_32|v1                  ok
+OK  A3_ordenes|seguir_32|v2                  ok
+OK  A3_ordenes|seguir_32|v3                  ok
+OK  A3_ordenes|seguir_32|v5                  FONDO (54% del borde opaco)
+OK  A3_ordenes|seguir_32|v4                  ok
+OK  A3_ordenes|seguir_32|v6                  ok
+OK  A3_ordenes|seguir_32|v7                  ok
+OK  A3_ordenes|retirarse_32|v2               ok
+OK  A3_ordenes|retirarse_32|v1               ok
+OK  A3_ordenes|seguir_32|v8                  ok
+OK  A3_ordenes|retirarse_32|v5               ok
+OK  A3_ordenes|retirarse_32|v4               FONDO (63% del borde opaco)
+OK  A3_ordenes|retirarse_32|v3               ok
+OK  A3_ordenes|retirarse_32|v6               ok
+OK  A3_ordenes|retirarse_32|v7               FONDO (57% del borde opaco)
+OK  A3_ordenes|desplegar_32|v2               ok
+OK  A3_ordenes|desplegar_32|v1               ok
+OK  A3_ordenes|retirarse_32|v8               ok
+OK  A3_ordenes|desplegar_32|v3               ok
+OK  A3_ordenes|desplegar_32|v4               ok
+OK  A3_ordenes|desplegar_32|v5               ok
+OK  A3_ordenes|desplegar_32|v6               ok
+OK  A3_ordenes|desplegar_32|v7               ok
+OK  A3_ordenes|embarcar_32|v2                ok
+OK  A3_ordenes|embarcar_32|v1                ok
+OK  A3_ordenes|desplegar_32|v8               ok
+OK  A3_ordenes|embarcar_32|v4                FONDO (98% del borde opaco)
+OK  A3_ordenes|embarcar_32|v5                ok
+OK  A3_ordenes|embarcar_32|v3                ok
+OK  A3_ordenes|embarcar_32|v6                ok
+OK  A3_ordenes|embarcar_32|v7                FONDO (100% del borde opaco)
+OK  A3_ordenes|escoltar_32|v1                ok
+OK  A3_ordenes|escoltar_32|v2                ok
+OK  A3_ordenes|embarcar_32|v8                ok
+OK  A3_ordenes|escoltar_32|v3                ok
+OK  A3_ordenes|escoltar_32|v4                ok
+OK  A3_ordenes|escoltar_32|v5                ok
+OK  A3_ordenes|escoltar_32|v7                ok
+OK  A3_ordenes|escoltar_32|v8                ok
+OK  A3_ordenes|escoltar_32|v6                ok
+Resumen: 48 correctos, 0 fallos, gasto estimado 48 generaciones

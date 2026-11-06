@@ -1,0 +1,18 @@
+{
+  "modelo": "gemini-3-pro-image",
+  "prefijo": "pixel art portrait, head and shoulders bust of one adult person, realistic adult proportions, three-quarter view, muted desaturated palette of olive green, concrete grey, warm beige and deep navy, face brightly lit from upper left, two or three flat shading tones, crisp dark one-pixel outline, chunky visible pixels like a 64x64 sprite, plain flat light grey background, face filling the image, casual modern work clothes, the artwork shows only the person and the flat background, clean unlabelled character art. ",
+  "miembros": {
+    "mak":    "man in his mid forties, calm and attentive producer and studio director, short dark hair greying at the temples, neat short beard, serene listening expression, slight confident smile, dark navy crew-neck sweater, small headset around the neck",
+    "lucia":  "woman aged 38 from Valencia, passionate creative director, thick dark wavy hair tied up loosely with a pencil through it, bright expressive eyes, animated warm smile, mustard scarf, olive canvas jacket",
+    "marcos": "man aged 42, dry sarcastic lead programmer, very short buzzed hair, rectangular black glasses, one eyebrow raised, deadpan look, slight stubble, plain black hoodie",
+    "nacho":  "man aged 36, pragmatic simulation programmer and former stock exchange backend engineer, tidy short brown hair, clean-shaven, focused practical expression, light blue button-up shirt with rolled sleeves",
+    "iris":   "woman aged 29, curious and rigorous AI tools specialist, short black bob haircut, round thin glasses, inquisitive tilted head, attentive eyes, grey knitted cardigan over a dark t-shirt",
+    "hugo":   "man aged 51, methodical skeptical economist and former railway logistics planner, grey hair combed back, thick grey moustache, reading glasses low on the nose, sceptical gaze over the glasses, brown knitted vest over a checked shirt, pencil in shirt pocket",
+    "sara":   "woman aged 33, meticulous and direct QA tester, auburn hair in a high ponytail, freckles, sharp direct gaze, knowing half smirk, faded denim jacket",
+    "elena":  "woman aged 45, observant ironic studio chronicler and former journalist, shoulder-length dark hair with a silver streak, wry knowing half smile, small notebook held near the chin, beige trench coat collar",
+    "bruno":  "man aged 40, calm technical pixel artist and former print technician, full dark beard, kind patient eyes, jeweller's loupe hanging on a cord around the neck, dark grey work apron over an olive shirt",
+    "teo":    "man in his early thirties, quiet focused 3D modeller, messy light brown hair, slight smile, thin wireframe-style headphones around the neck, olive green overshirt",
+    "paula":  "woman in her mid thirties, careful art archivist and reference researcher, straight black hair in a low bun, glasses on a beaded chain, calm studious expression, cream blouse with a dark cardigan, holding a slim folder"
+  },
+  "prueba": ["mak", "lucia", "marcos", "elena"]
+}

@@ -1,0 +1,252 @@
+{
+ "entrada": "D:\\3D ENGINES\\output\\dragon_34_recorte_20261106_104204.glb",
+ "nombre": "SM_VCR_Dragon",
+ "triangulos_entrada": 200000,
+ "limpiar": {
+  "vertices_fusionados": 38749,
+  "sueltos_quitados": 0,
+  "islas_quitadas": 1,
+  "ngons_triangulados": 0,
+  "triangulos": 199367
+ },
+ "escala": {
+  "factor": 4.02652
+ },
+ "alisar": {
+  "iteraciones": 20,
+  "lambda": 1.0
+ },
+ "remallar": {
+  "voxel_m": 0.04983,
+  "triangulos": 113560
+ },
+ "diezmar": {
+  "triangulos_antes": 113560,
+  "tras_planar": 65546,
+  "no_manifold_separadas": 9,
+  "triangulos": 3575,
+  "silueta_iou": {
+   "frente": 0.9864,
+   "izquierda": 0.9704,
+   "arriba": 0.9758,
+   "rts": 0.9841
+  },
+  "silueta_iou_min": 0.9704,
+  "silueta_1px": {
+   "frente": 0.9991,
+   "izquierda": 0.9978,
+   "arriba": 0.9999,
+   "rts": 0.9988
+  },
+  "silueta_1px_min": 0.9978,
+  "silueta_ok": true
+ },
+ "diezmar_intentos": [
+  [
+   3575,
+   0.9978,
+   0.9704
+  ]
+ ],
+ "paleta": {
+  "colores_usados": 10,
+  "hex": [
+   "000000",
+   "1c200c",
+   "303424",
+   "543820",
+   "48403c",
+   "50541c",
+   "605c48",
+   "70784c",
+   "88885c",
+   "b4a080"
+  ],
+  "textura": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\dragon\\v3\\T_Paleta32.png"
+ },
+ "valor_partido": {
+  "claro": "b4a080",
+  "costado": "50541c",
+  "caras_arriba": 602,
+  "caras_costado": 1893,
+  "colores_usados": 3,
+  "hex": [
+   "442c0c",
+   "50541c",
+   "b4a080"
+  ],
+  "tipo": "militar"
+ },
+ "faccion": {
+  "tbd_faccion": "propio",
+  "tbd_rim": 1
+ },
+ "auditoria": {
+  "objeto": "SM_VCR_Dragon",
+  "puntos": [
+   {
+    "nivel": "OK",
+    "clave": "triangulos",
+    "valor": 3575,
+    "nota": "presupuesto 1500-4000"
+   },
+   {
+    "nivel": "OK",
+    "clave": "aristas_no_manifold",
+    "valor": 0,
+    "nota": "aristas con 3 o más caras"
+   },
+   {
+    "nivel": "AVISO",
+    "clave": "aristas_de_borde",
+    "valor": 27,
+    "nota": "agujeros; aceptables en piezas que no se ven por debajo"
+   },
+   {
+    "nivel": "OK",
+    "clave": "geometria_suelta",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "caras_degeneradas",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "ngons",
+    "valor": 0,
+    "nota": "Unity triangula; mejor triangular en Blender"
+   },
+   {
+    "nivel": "OK",
+    "clave": "vertices_duplicados",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "AVISO",
+    "clave": "islas_diminutas",
+    "valor": 12,
+    "nota": "trozos flotantes típicos de Hunyuan; quitar con limpiar()"
+   },
+   {
+    "nivel": "OK",
+    "clave": "islas_con_normales_hacia_dentro",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "escala_aplicada",
+    "valor": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "rotacion_aplicada",
+    "valor": 0.0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "origen_en_la_base",
+    "valor": true,
+    "nota": "origen en el centro de la base"
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_fuera_de_0_1",
+    "valor": 0,
+    "nota": ""
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_caras_sin_area",
+    "valor": 3575,
+    "nota": "normal en el atlas de paleta (cara entera en un color)"
+   },
+   {
+    "nivel": "OK",
+    "clave": "uv_solape",
+    "valor": 0.0,
+    "nota": "fracción de UV pisada dos veces; normal en el atlas de paleta"
+   },
+   {
+    "nivel": "OK",
+    "clave": "materiales",
+    "valor": 1,
+    "nota": "1 material por pieza (una llamada de dibujo)"
+   },
+   {
+    "nivel": "OK",
+    "clave": "legibilidad_D-N57",
+    "valor": {
+     "trinchera": 39.1,
+     "llano_ocre": 42.3
+    },
+    "nota": "ΔL* ≥ 25 contra cada suelo (albedo sin luz)"
+   }
+  ],
+  "triangulos": 3575,
+  "vertices": 1808,
+  "islas": [
+   3544,
+   10,
+   8,
+   4,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "dimensiones_m": [
+   3.225,
+   7.957,
+   3.541
+  ],
+  "uv_ocupacion": 0.0,
+  "veredicto": "AVISO"
+ },
+ "legibilidad": {
+  "L_top20": 66.8,
+  "L_contorno": 0.0,
+  "suelos": {
+   "trinchera": {
+    "L_suelo": 27.8,
+    "dL_top20": 39.1,
+    "dL_contorno": 27.8,
+    "dL": 39.1,
+    "ok": true,
+    "ok_top20": true
+   },
+   "llano_ocre": {
+    "L_suelo": 42.3,
+    "dL_top20": 24.5,
+    "dL_contorno": 42.3,
+    "dL": 42.3,
+    "ok": true,
+    "ok_top20": false
+   }
+  },
+  "ok": true
+ },
+ "vistas": [
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\dragon\\v3\\SM_VCR_Dragon_rts.png",
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\dragon\\v3\\SM_VCR_Dragon_frente.png",
+  "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\dragon\\v3\\SM_VCR_Dragon_izquierda.png"
+ ],
+ "vista_original": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\dragon\\v3\\SM_VCR_Dragon_ORIGINAL_rts.png",
+ "exportado": {
+  "ruta": "C:\\Dev\\mr-mak-workspace\\herramientas\\modelado-3d\\dragon\\v3\\SM_VCR_Dragon.fbx",
+  "bytes": 150428
+ }
+}

@@ -1,0 +1,859 @@
+{
+ "frames": [
+  {
+   "filename": "vm-vfx-rafaga 0.png",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 1.png",
+   "frame": {
+    "x": 112,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 2.png",
+   "frame": {
+    "x": 224,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 3.png",
+   "frame": {
+    "x": 336,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 4.png",
+   "frame": {
+    "x": 448,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 5.png",
+   "frame": {
+    "x": 560,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 6.png",
+   "frame": {
+    "x": 0,
+    "y": 60,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 7.png",
+   "frame": {
+    "x": 112,
+    "y": 60,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 8.png",
+   "frame": {
+    "x": 224,
+    "y": 60,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 9.png",
+   "frame": {
+    "x": 336,
+    "y": 60,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 10.png",
+   "frame": {
+    "x": 448,
+    "y": 60,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 11.png",
+   "frame": {
+    "x": 560,
+    "y": 60,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 12.png",
+   "frame": {
+    "x": 0,
+    "y": 120,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 13.png",
+   "frame": {
+    "x": 112,
+    "y": 120,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 14.png",
+   "frame": {
+    "x": 224,
+    "y": 120,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 15.png",
+   "frame": {
+    "x": 336,
+    "y": 120,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 16.png",
+   "frame": {
+    "x": 448,
+    "y": 120,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 17.png",
+   "frame": {
+    "x": 560,
+    "y": 120,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 18.png",
+   "frame": {
+    "x": 0,
+    "y": 180,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 19.png",
+   "frame": {
+    "x": 112,
+    "y": 180,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 20.png",
+   "frame": {
+    "x": 224,
+    "y": 180,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 21.png",
+   "frame": {
+    "x": 336,
+    "y": 180,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 22.png",
+   "frame": {
+    "x": 448,
+    "y": 180,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 23.png",
+   "frame": {
+    "x": 560,
+    "y": 180,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 24.png",
+   "frame": {
+    "x": 0,
+    "y": 240,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 25.png",
+   "frame": {
+    "x": 112,
+    "y": 240,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 26.png",
+   "frame": {
+    "x": 224,
+    "y": 240,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 27.png",
+   "frame": {
+    "x": 336,
+    "y": 240,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 28.png",
+   "frame": {
+    "x": 448,
+    "y": 240,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 29.png",
+   "frame": {
+    "x": 560,
+    "y": 240,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 30.png",
+   "frame": {
+    "x": 0,
+    "y": 300,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  },
+  {
+   "filename": "vm-vfx-rafaga 31.png",
+   "frame": {
+    "x": 112,
+    "y": 300,
+    "w": 112,
+    "h": 60
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 112,
+    "h": 60
+   },
+   "sourceSize": {
+    "w": 112,
+    "h": 60
+   },
+   "pivot": {
+    "x": 0.39285714285714285,
+    "y": 0.5
+   },
+   "duration": 33
+  }
+ ],
+ "meta": {
+  "app": "PixelLab VFX Creator",
+  "image": "vm-vfx-rafaga.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 672,
+   "h": 360
+  },
+  "scale": "1",
+  "anchor": {
+   "kind": "origin",
+   "x": 44,
+   "y": 30
+  },
+  "frameTags": [
+   {
+    "name": "vm-vfx-rafaga",
+    "from": 0,
+    "to": 31,
+    "direction": "forward"
+   }
+  ]
+ }
+}
