@@ -126,3 +126,10 @@ Añadir `TBD_SEEDS=20` mide además 20 partidas completas contra la referencia d
 - Hecho tambien: noche persistente, trazadoras que viajan, fogonazos, soldados armados, vehiculos con textura de Teo y fuego libre (G alto el fuego, A fuego libre, T recarga), puertas con muro, titular de derrota D-N133.
 - Luz de noche: la v3 de Bruno (la E queda descartada hasta que Lucia elija entre G1-G5 en docs/capturas/qa29).
 - Pruebas: -gradsweep (5 gradaciones en el mismo fotograma), -capdirecta.
+
+## Control de unidades (Noche38 en adelante)
+- Seleccion: clic o arrastre con el boton izquierdo; se ve un anillo bajo el pelotón y un punto bajo cada soldado (vehiculo: doble anillo con proa).
+- Mover: clic derecho; la marca y la ruta se quedan hasta que llegan.
+- Frente: clic derecho y ARRASTRAR dibuja el frente (el pelotón mira a la izquierda del arrastre; varios pelotones se reparten por la linea); se ve la silueta fantasma; aspa si el hueco cae fuera del recinto.
+- Formacion: F1 linea, F2 cuña, F3 columna, F4 circulo. A+orden = atacar moviendose, S mantener, D emplazar, G alto el fuego, T recargar.
+- Camara: flechas o bordes, Z/X zoom, y GIRA con el boton CENTRAL del raton si hay unidades elegidas (sin seleccion, con el derecho). La depuracion pasa de F2 a F12.
