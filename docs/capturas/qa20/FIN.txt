@@ -1,0 +1,4 @@
+FIN normal
+FIN dificil
+FIN facil
+FIN vehiculos
