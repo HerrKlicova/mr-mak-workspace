@@ -68,6 +68,6 @@ Capturas: `docs/capturas/qa22/normal_captura_*.png` (960x540, solo partida; no h
 - Sospechoso principal (sin verificar): `_lowRt` creada como `new RenderTexture(w, h, 24, RenderTextureFormat.ARGB32)`. Prueba: descriptor con `sRGB = true` o `GraphicsFormat.R8G8B8A8_SRGB`. Lo que debería verse: `/mnt/project-files/docs/arte/pixel-codigo/noche-prototipo/color-noche/qa22_ahora_vs_sin_doble_srgb.png`.
 
 **Integración:**
-- D-N118 (tarjetas de vehículo con «alto» y «tierra»): **integrada**.
+- D-N118: **sigue sin integrar**. Las tarjetas de vehículo son las de antes: llevan las etiquetas «alto» y «tierra» encima y el «94» repetido, igual que en el §6.
 - D-N122 (muro en el HUD), retoque D del menú y botón C del parte: **no se pueden comprobar**, porque no salen en estas capturas. Hacen falta capturas del menú, del parte y del HUD con el muro dañado.
 - Trazadoras: salen como líneas largas de arma a blanco (los «láseres» de Eugenio). Ver §4 de docs/encargo-control-disparos-noche.md.
