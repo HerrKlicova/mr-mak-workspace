@@ -1,3 +1,6 @@
 FIN colorcasos
 FIN v3_horda
 FIN normal_recarga
+FIN normal_sinrecarga
+FIN dificil_recarga
+FIN dificil_sinrecarga
