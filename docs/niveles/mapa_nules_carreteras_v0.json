@@ -1,10 +1,89 @@
 {
- "nota": "Nules v0 (Álvaro, 7-nov; nules-nivel.md). Coordenadas locales de la zona de 256 × 128 m, vía en Z 64,5. Solo papel, SIN VERIFICAR (sin fotos de Nules).",
+ "nota": "Nules v0.1 (Álvaro, 7-nov; nules-nivel.md §0c): el pueblo al norte, la huerta y el canal al sur. Coordenadas locales de la zona de 256 × 128 m, vía en Z 64,5. Solo papel.",
  "carreteras": [
-  {"id": "avenida_estacion", "nombre": "Avenida de la Estación", "tramo": [[80, 0], [80, 64.5]], "habilitada": true},
-  {"id": "camino_vilavella", "nombre": "Camino de la Vilavella", "tramo": [[80, 64.5], [80, 128]], "habilitada": true},
-  {"id": "ramal_cooperativa", "nombre": "Ramal de la cooperativa", "tramo": [[80, 31], [160, 31]], "habilitada": true}
+  {
+   "id": "avenida_estacion",
+   "nombre": "Camino de la huerta (puente sobre el canal en Z 14-21)",
+   "tramo": [
+    [
+     80,
+     0
+    ],
+    [
+     80,
+     64.5
+    ]
+   ],
+   "habilitada": true
+  },
+  {
+   "id": "camino_vilavella",
+   "nombre": "Avenida al centro de Nules",
+   "tramo": [
+    [
+     80,
+     64.5
+    ],
+    [
+     80,
+     128
+    ]
+   ],
+   "habilitada": true
+  },
+  {
+   "id": "ramal_cooperativa",
+   "nombre": "Ramal de la cooperativa",
+   "tramo": [
+    [
+     80,
+     31
+    ],
+    [
+     160,
+     31
+    ]
+   ],
+   "habilitada": true
+  },
+  {
+   "id": "calle_estacion",
+   "nombre": "Calle de la Estación (borde del pueblo)",
+   "tramo": [
+    [
+     0,
+     95
+    ],
+    [
+     256,
+     95
+    ]
+   ],
+   "habilitada": true
+  }
  ],
- "via": [[0, 64.5], [256, 64.5]],
- "sitios": {"estacion": [130, 78], "cooperativa": [158, 44], "paso_nivel": [80, 64.5]}
+ "via": [
+  [
+   0,
+   64.5
+  ],
+  [
+   256,
+   64.5
+  ]
+ ],
+ "sitios": {
+  "estacion": [
+   130,
+   78
+  ],
+  "cooperativa": [
+   158,
+   44
+  ],
+  "paso_nivel": [
+   80,
+   64.5
+  ]
+ }
 }
