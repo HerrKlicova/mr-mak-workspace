@@ -39,7 +39,7 @@ def fondo_por_relleno(im, tol):
     return im
 
 
-ORDEN = ["mak", "lucia", "marcos", "nacho", "iris", "hugo", "sara", "elena", "bruno", "teo", "paula"]
+ORDEN = ["mak", "lucia", "marcos", "nacho", "iris", "hugo", "sara", "elena", "bruno", "teo", "paula", "alvaro"]
 
 
 def main():

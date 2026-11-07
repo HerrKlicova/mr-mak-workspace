@@ -18,6 +18,7 @@ entorno, y pasados a pixel art de 64 px con la paleta de 32, contorno de 1 px y 
 | Bruno | Arte técnico, pixel art por código | retrato_bruno_64.png | retrato_bruno_64_x4.png |
 | Teo | Modelado 3D | retrato_teo_64.png | retrato_teo_64_x4.png |
 | Paula | Documentación de arte | retrato_paula_64.png | retrato_paula_64_x4.png |
+| Álvaro | Diseño de niveles (fichado el 6-nov tarde) | retrato_alvaro_64.png | retrato_alvaro_64_x4.png |
 
 Hoja de todos: `contacto_equipo_64.png`. Brutos de ElevenLabs en `brutos/`. Prompts en
 `herramientas/retratos_equipo.json` (solo en positivo: la primera versión del prefijo hizo que el
