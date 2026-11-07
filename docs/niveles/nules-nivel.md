@@ -26,7 +26,7 @@ Además, lo que produce tiene edificio: la **cooperativa citrícola** junto a la
 
 ## 2. Fortificación sugerida (lo construye el jugador; el plano solo lo propone)
 - **Trazado de 150 m de HESCO**, 44 × 31 m (X 108–152, Z 56–87), alrededor del andén y del edificio de viajeros. Es la cifra del ejemplo de la D-N44 (150 m de HESCO, una puerta, dos nidos y tres focos: 118 u). Todo queda a 60 m o menos del centro del andén.
-- Al cruzar la vía, el recinto necesita **dos puertas de vía** (oeste y este), igual que el de Sagunto, además de **una puerta de vehículos** al sur, hacia el ramal y la cooperativa. Son dos puertas más que en el ejemplo de la D-N44 (+12 u si cuestan 6 cada una). **Hugo** tiene que decir si el nivel de estación sigue saliendo el día que toca.
+- Al cruzar la vía, el recinto necesita **dos puertas de vía** (oeste y este), igual que el de Sagunto, además de **una puerta de vehículos** al sur, hacia el ramal y la cooperativa. Son dos puertas más que en el ejemplo de la D-N44. **Hugo (docs/economia/nules-recinto-v0.md): 127,2 u y 90,8 obrero·h** (cada puerta de vía cuesta 8 u, D-N59), con un mantenimiento de ~1,27 u al día y 0,6 u de combustible por noche. Criterio de Hugo: en la primera noche, la descarga con las dos puertas abiertas no debe coincidir con una oleada.
 - La cooperativa queda **fuera del recinto**, a 15 m de la puerta de vehículos. Es a propósito: es lo que la horda ataca y obliga a elegir entre ampliar el muro o defenderla con un puesto. Es un frente del mundo persistente (D-N96) desde el primer día.
 
 ### 2b. Recinto v0 tramo a tramo (para Hugo, `docs/economia/nules-recinto-v0.md`)
