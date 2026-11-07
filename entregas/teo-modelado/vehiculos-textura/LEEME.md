@@ -17,6 +17,7 @@ El exportador FBX de Blender, con bake_space_transform, escribía mal el segundo
 ## Comprobado
 - Presupuesto y auditoría OK en LOD0 y LOD1 de los 15. Quedan los mismos avisos de antes: el VAMTAC LOD0 tiene 1202 triángulos y el disco del rotor del NH90 tiene 16 aristas de borde.
 - Los colores de la textura están cuantizados a la paleta, sin tramado, sin violetas de la horda y sin el llano 845c28. Nada queda por debajo de L* 28.
+- Los cristales son 48403c, de la familia oscura 303424: el 60546c salía de noche como una raya azul viva (Lucía, 09:40).
 - Hay una prueba de noche con la luz v3 a la escala de la captura (hoja_noche_escala_captura.png). **SIN VERIFICAR:** es una aproximación con mi render, no la build, y lo que vale es la captura de la Noche24 con el color de D-N129 ya corregido.
 
 Código: TBD `claude/modelado-3d-skill`, `textura_real.py` y el arreglo del FBX en `malla3d.py` (924a82c y a8fe988).
