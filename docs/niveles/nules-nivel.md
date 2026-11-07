@@ -12,11 +12,18 @@ Además, lo que produce tiene edificio: la **cooperativa citrícola** junto a la
 
 **Aviso de realidad:** Nules sí tiene estación real en la línea de la costa (Nules–La Vilavella, SIN VERIFICAR con fuente). En el juego se lee como «estación abandonada que se vuelve a abrir», no como un descampado. Paula todavía no tiene fotos de Nules, así que la disposición es genérica de la Plana y va **SIN VERIFICAR** entera.
 
+## 0b. Ajuste con las fotos reales (7-nov, 09:20; E1_1 y E1_3 de Paula, `referencias-reales/ambientacion/`)
+Las fotos E1_1 y E1_3 son de **Nules–La Vilavella** (el cartel de Adif se lee). Con ellas cambian tres cosas:
+- **El edificio de viajeros tiene dos plantas y no una**: fachada encalada con zócalo y bandas grises, **5 huecos por planta** con recercos grises de arco rebajado, tejado de teja a dos aguas y, en el testero, un **piñón escalonado con óculo**, que es el rasgo que lo distingue. Lo dejo en 18 × 8 m (X 121–139, Z 74–82), unos 8–9 m de alto (cuenta a ojo con la puerta de ~2,4 m; SIN VERIFICAR). Teo lo monta con dos plantas de módulos de 4 m y el testero escalonado como remate.
+- **Marquesina de celosía metálica adosada** al edificio por el lado de la vía (E1_3). Es el mismo lenguaje que la marquesina del kit de Sagunto: **reutilización directa**. Unos 20 m sobre el andén, de X 115 a 135 (a ojo).
+- **El edificio está en uso** en la foto (cartel de Adif, taxis y aparcamiento). En el juego se mantiene como «estación abandonada que se vuelve a abrir», con las ventanas cegadas por persianas rojizas que ya salen en la foto. La paleta no admite ese rojo, así que va en a86c50. Valla de malla en el andén (E1_3).
+- Lo que sigue pendiente de las fotos de Paula (N1–N3, todavía sin subir): la cooperativa (de Nules no hay fotos libres; las sustitutas son una de La Vilavella y un almacén de Alcàsser), el canal de Nules y el Bovalar (para la acequia y el paisaje). Del paso a nivel no hay fuente libre, así que se usa P1–P4. **Que este edificio sea el original de la estación queda SIN VERIFICAR.**
+
 ## 1. Disposición (coordenadas locales de la zona, 256 × 128 m, vía en Z 64,5)
 | Elemento | Dónde | Por qué existe | Qué hace en el juego |
 |---|---|---|---|
 | **Andén de 60 m** | X 100–160, Z 67,5–71,5 | La estación vieja | Donde para el tren de fundación (`fundar_radio_tren_mm` 5000). Es el centro de los 60 m que cuentan para la fortificación (D-N44) |
-| **Edificio de viajeros abandonado** | X 121–139, Z 74–82 | La estación vieja | Primer refugio. Sitio N1 |
+| **Edificio de viajeros** (dos plantas, piñón escalonado; 0b) | X 121–139, Z 74–82 | La estación vieja | Primer refugio. Sitio N1. Lleva la marquesina de celosía del kit adosada (X 115–135) |
 | **Cooperativa citrícola** con muelle a la vía | X 140–176, Z 34–55 | En la Plana, las cooperativas se pusieron junto a la vía para cargar la naranja | **La producción de víveres.** Sitio N2, a unos 40 m del centro del andén: entra en el perímetro de 60 m |
 | **Naranjal en hileras** cada 5 m | Norte (Z 92–126) y esquinas del sur | La huerta | Lo que se protege. Tapa la vista: la horda Nc sale de entre los árboles a menos de 30 m |
 | **Acequia y pozo con motor** | Acequia en Z 100; caseta en X 196–204 | El agua que hace fundable el sitio | Línea de lectura de noche y punto de referencia. Más adelante podría ser un objetivo (sin agua, no hay víveres) |
