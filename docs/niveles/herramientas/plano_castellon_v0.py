@@ -50,15 +50,18 @@ for z in (14,22,30):
     for x in range(150,212,12): rot(x+6,z,11,2.8,0,"#283440")
 R(144,6,216,33,outline="#88885c",w=4)
 # naves de logística al suroeste (almacén de naranjas del kit, otra orientación)
-for x in (52,80,108): R(x,14,x+22,32,fill="#a86c50",outline="#1c1812")
-T(52,11,"naves (almacén de naranjas del kit, girado 90°)","#1c1812",FS,"#c4ac84")
+for x in (68,92,116): R(x,6,x+20,22,fill="#a86c50",outline="#1c1812")
+R(68,6,88,22,fill="#a86c50",outline="#f0dc9c",w=3); T(69,20,"cuartel","#1c1812",FS)
+T(92,2.5,"naves (almacén de naranjas del kit, girado 90°)","#1c1812",FS,"#c4ac84")
+R(42,26,144,32,fill="#c8b490")
+L([(206,76),(206,88)],"#d4d0cc",3); d.ellipse([P(203,85),P(209,79)],outline="#d4d0cc",width=2); T(186,90.5,"radar (206; 82)","#1c1812",FS,"#d4d0cc")
 # recinto: HESCO de 2,1 m alrededor de estación + cargadero; puertas de vía O/E y de vehículos
 R(64,4,222,90,outline="#70784c",w=6)
 for x in (64,222):
     L([(x,55.5),(x,59.5)],"#7c3c18",7); L([(x,64.5),(x,68.5)],"#7c3c18",7)
 L([(222,42),(222,46)],"#7c3c18",7)
-L([(64,20),(64,28)],"#f0dc9c",6); T(44,30,"puerta de\nvehículos","#1c1812",FS,"#f0dc9c")
-T(196,86.5,"recinto HESCO","#1c1812",FS,"#70784c")
+L([(64,25),(64,33)],"#f0dc9c",6); T(44,36,"puerta de\nvehículos","#1c1812",FS,"#f0dc9c")
+T(66,86.5,"recinto HESCO","#1c1812",FS,"#70784c")
 # puesto de frente en la cabeza del ramal y sitios
 rot(238,26,14.3,16.4,0,"#70784c"); T(230,16,"puesto v2","#1c1812",FS,"#70784c")
 def sitio(x,z,n,txt,dx,dz):
@@ -68,12 +71,12 @@ def flecha(x0,z0,x1,z1,lab):
     L([(x0,z0),(x1,z1)],"#982420",4); a=np.arctan2(z1-z0,x1-x0)
     for s in (2.6,-2.6): L([(x1,z1),(x1-4*np.cos(a+s*0.3),z1-4*np.sin(a+s*0.3))],"#982420",4)
     T(x0+1,z0+3,lab,"#d4d0cc",FB,"#1c1812")
-flecha(-4,62,24,62,"Ca"); flecha(260,66,232,66,"Cb"); flecha(150,131,150,107,"Cc"); flecha(90,131,90,107,"Cc"); flecha(260,30,250,30,"Cd")
+flecha(-4,62,24,62,"Ca"); T(0,38,"◄ parada de asalto\n(−170; 57,5)","#d4d0cc",FS,"#1c1812"); T(214,76,"parada de asalto ►\n(430; 66,5) y (430; 44)","#d4d0cc",FS,"#1c1812"); flecha(260,66,232,66,"Cb"); flecha(150,131,150,107,"Cc"); flecha(90,131,90,107,"Cc"); flecha(260,30,250,30,"Cd")
 R(0,0,256,128,outline="#d4d0cc",w=2)
 T(-4,133,"Castellón v0 · planta 4 px/m · zona local 256 × 128 m · plano, no build","#d4d0cc",FS,"#1c1812")
 T(-4,-2,"← Nules y Sagunto","#d4d0cc",FS,"#1c1812"); T(200,133,"Vinaròs (línea cerrada) →","#d4d0cc",FS,"#1c1812")
 ly=H+10
-items=[("#b4a080","kit de Sagunto: bloques B1–B5, viajeros ×2, marquesina ×5, paso superior, almacén"),("#283440","nuevo: vagón cisterna (5 variantes)"),("#94948c","vías muertas del depósito (kit)"),("#70784c","recinto HESCO y puesto v2 (kit)"),("#7c3c18","puertas de vía (8 u, D-N59)"),("#f0dc9c","puerta de vehículos (D-N111)"),("#d4d0cc","sitios del mapa de frentes C1–C4"),("#982420","entradas de la horda Ca–Cd (solo en el plano)")]
+items=[("#b4a080","kit de Sagunto: bloques B1–B5, viajeros ×2, marquesina ×5, paso superior, almacén"),("#283440","nuevo: vagón cisterna (5 variantes)"),("#94948c","vías muertas del depósito (kit)"),("#70784c","recinto HESCO y puesto v2 (kit)"),("#7c3c18","puertas de vía (8 u, D-N59)"),("#f0dc9c","puerta de vehículos (D-N111)"),("#d4d0cc","sitios C1–C4, radar y paradas del tren de asalto (D-N124)"),("#982420","entradas de la horda Ca–Cd (solo en el plano)")]
 for i,(c,t) in enumerate(items):
     x=20+(i%2)*W//2; y=ly+(i//2)*26
     d.rectangle([x,y,x+18,y+16],fill=c,outline="#d4d0cc"); d.text((x+26,y),t,fill="#d4d0cc",font=FS)

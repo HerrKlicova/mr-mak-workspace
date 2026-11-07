@@ -1,12 +1,98 @@
 {
  "nota": "Castellón v0 (Álvaro, 7-nov; castellon-nivel.md). Coordenadas locales de la zona de 256 × 128 m. Solo papel, SIN VERIFICAR con la estación real.",
  "carreteras": [
-  {"id": "ronda", "nombre": "Ronda (paso superior sobre las vías)", "tramo": [[38, 0], [38, 128]], "habilitada": true},
-  {"id": "avenida_estacion", "nombre": "Avenida de la Estación", "tramo": [[38, 98], [256, 98]], "habilitada": true},
-  {"id": "acceso_naves", "nombre": "Acceso a las naves y puerta de vehículos", "tramo": [[38, 24], [64, 24]], "habilitada": true}
+  {
+   "id": "ronda",
+   "nombre": "Ronda (paso superior sobre las vías)",
+   "tramo": [
+    [
+     38,
+     0
+    ],
+    [
+     38,
+     128
+    ]
+   ],
+   "habilitada": true
+  },
+  {
+   "id": "avenida_estacion",
+   "nombre": "Avenida de la Estación",
+   "tramo": [
+    [
+     38,
+     98
+    ],
+    [
+     256,
+     98
+    ]
+   ],
+   "habilitada": true
+  },
+  {
+   "id": "acceso_naves",
+   "nombre": "Acceso de vehículos por la puerta oeste hasta el depósito",
+   "tramo": [
+    [
+     38,
+     29
+    ],
+    [
+     144,
+     29
+    ]
+   ],
+   "habilitada": true
+  }
  ],
- "via": [[0, 57.5], [256, 57.5]],
- "via_2": [[0, 66.5], [256, 66.5]],
- "ramal": [[230, 44], [256, 44]],
- "sitios": {"estacion": [130, 79], "deposito_combustible": [178, 22], "ronda": [38, 56], "ramal": [244, 44]}
+ "via": [
+  [
+   0,
+   57.5
+  ],
+  [
+   256,
+   57.5
+  ]
+ ],
+ "via_2": [
+  [
+   0,
+   66.5
+  ],
+  [
+   256,
+   66.5
+  ]
+ ],
+ "ramal": [
+  [
+   230,
+   44
+  ],
+  [
+   256,
+   44
+  ]
+ ],
+ "sitios": {
+  "estacion": [
+   130,
+   79
+  ],
+  "deposito_combustible": [
+   178,
+   22
+  ],
+  "ronda": [
+   38,
+   56
+  ],
+  "ramal": [
+   244,
+   44
+  ]
+ }
 }
