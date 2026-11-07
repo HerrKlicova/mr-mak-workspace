@@ -39,7 +39,7 @@ for z in (44,48,52): L([(46,z),(230,z)],"#94948c",2)
 L([(46,52),(30,57.5)],"#94948c",2); L([(230,44),(X1,44)],"#94948c",3); T(232,40,"ramal del Grau\n→ refinería","#1c1812",FS,"#94948c")
 for x in range(0,257,40): d.ellipse([P(x-0.8,70.3),P(x+0.8,68.7)],fill="#283440"); d.ellipse([P(x-0.8,55.3),P(x+0.8,53.7)],fill="#283440")
 # edificio de viajeros: dos edificios del kit en espejo unidos por un cuerpo central
-R(98,75,116,84,fill="#b4a080",outline="#1c1812"); R(144,75,162,84,fill="#b4a080",outline="#1c1812"); R(116,75,144,88,fill="#a86c50",outline="#1c1812")
+R(96,75,114,84,fill="#b4a080",outline="#1c1812"); R(146,75,164,84,fill="#b4a080",outline="#1c1812"); R(114,75,146,88,fill="#a86c50",outline="#1c1812")
 T(117,86,"Viajeros: 2 del kit\nen espejo + cuerpo central","#1c1812",FS)
 # cargadero de cisternas y depósito de combustible (nuevo: vagón cisterna y depósito flexible)
 for x in (150,169,188): rot(x+9,44,18,3,0,"#283440")

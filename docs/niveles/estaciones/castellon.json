@@ -171,7 +171,7 @@
   {
    "pieza": "sagunto/edificio_viajeros",
    "pos": [
-    107,
+    105,
     0,
     79.5
    ],
@@ -181,25 +181,12 @@
   {
    "pieza": "sagunto/edificio_viajeros",
    "pos": [
-    153,
+    155,
     0,
     79.5
    ],
    "yaw": 180,
    "variante": 4
-  },
-  {
-   "pieza": "kit_cuerpo",
-   "pos": [
-    130,
-    0,
-    81.5
-   ],
-   "yaw": 0,
-   "variante": 3,
-   "fondo": 13,
-   "fachada": 28,
-   "remate": "frontón con reloj"
   },
   {
    "pieza": "sagunto/marquesina",
@@ -1014,6 +1001,83 @@
     25
    ],
    "yaw": 0
+  },
+  {
+   "pieza": "kit_remate",
+   "variante": 2,
+   "pos": [
+    116,
+    0,
+    81.5
+   ],
+   "yaw": 180,
+   "fondo": 13
+  },
+  {
+   "pieza": "kit_cuerpo",
+   "variante": 6,
+   "pos": [
+    120,
+    0,
+    81.5
+   ],
+   "yaw": 180,
+   "fondo": 13
+  },
+  {
+   "pieza": "kit_cuerpo",
+   "variante": 6,
+   "pos": [
+    124,
+    0,
+    81.5
+   ],
+   "yaw": 180,
+   "fondo": 13
+  },
+  {
+   "pieza": "kit_remate",
+   "variante": 0,
+   "pos": [
+    130,
+    0,
+    81.5
+   ],
+   "yaw": 180,
+   "fondo": 13
+  },
+  {
+   "pieza": "kit_cuerpo",
+   "variante": 6,
+   "pos": [
+    136,
+    0,
+    81.5
+   ],
+   "yaw": 180,
+   "fondo": 13
+  },
+  {
+   "pieza": "kit_cuerpo",
+   "variante": 6,
+   "pos": [
+    140,
+    0,
+    81.5
+   ],
+   "yaw": 180,
+   "fondo": 13
+  },
+  {
+   "pieza": "kit_remate",
+   "variante": 2,
+   "pos": [
+    144,
+    0,
+    81.5
+   ],
+   "yaw": 180,
+   "fondo": 13
   }
  ],
  "carreteras": [
