@@ -1,0 +1,10 @@
+{
+ "nota": "Nules v0 (Álvaro, 7-nov; nules-nivel.md). Coordenadas locales de la zona de 256 × 128 m, vía en Z 64,5. Solo papel, SIN VERIFICAR (sin fotos de Nules).",
+ "carreteras": [
+  {"id": "avenida_estacion", "nombre": "Avenida de la Estación", "tramo": [[80, 0], [80, 64.5]], "habilitada": true},
+  {"id": "camino_vilavella", "nombre": "Camino de la Vilavella", "tramo": [[80, 64.5], [80, 128]], "habilitada": true},
+  {"id": "ramal_cooperativa", "nombre": "Ramal de la cooperativa", "tramo": [[80, 31], [160, 31]], "habilitada": true}
+ ],
+ "via": [[0, 64.5], [256, 64.5]],
+ "sitios": {"estacion": [130, 78], "cooperativa": [158, 44], "paso_nivel": [80, 64.5]}
+}

@@ -40,6 +40,9 @@ R(268,Z0,272,Z1,fill="#c8b490"); T(273,124,"senda del cauce\n(a pie)","#1c1812",
 L([(X0,64.5),(X1,64.5)],"#94948c",3); R(X0,62,X1,67,fill="#48403c"); L([(X0,64.5),(X1,64.5)],"#94948c",3)
 R(262,60,344.4,69,outline="#1c1812",w=2)
 for x in (280.6,295.6,310.6,325.6): R(x-1,60.5,x+1,68.5,fill="#6c7874",outline="#1c1812")
+for x0 in (262,340.8): R(x0,58,x0+3.6,71,fill="#b8b8b8",outline="#1c1812",w=2)
+T(318,56,"estribo macizo 4,5 m: aquí\nsube la pila (v0, 12 capas)","#1c1812",FS,"#b8b8b8")
+T(236,56,"estribo macizo\n(nuestra orilla)","#1c1812",FS,"#b8b8b8")
 T(282,74,"viaducto ferroviario (Teo v3): 5 vanos de 15 m, carril a +4,5 m sobre el lecho","#1c1812",FS,"#94948c")
 for x in range(262,346,20): d.ellipse([P(x-0.8,70.3),P(x+0.8,68.7)],fill="#283440")   # postes de catenaria
 # carretera vieja y su tablero paralelo (Z 23), atasco y camión cruzado
@@ -74,7 +77,7 @@ for z0,z1,lab in ((17,29,"carretera (atasco)"),(60,69,"vía (tren)")):
     d.rectangle([Q(z0,0.6),Q(z1,0)],fill="#6c7874",outline="#1c1812"); p=Q(z0,3.5); d.text(p,lab,fill="#d4d0cc",font=FS)
 d.rectangle([Q(62.3,4.6),Q(66.7,0.6)],fill="#50541c",outline="#1c1812")
 for z in (20,26,63,66): d.rectangle([Q(z-0.7,0),Q(z+0.7,-4.5)],fill="#6c7874")
-d.text(Q(80,-1.5),"la horda cruza el lecho, se amontona en las pilas y sube por su pila (§5.7)",fill="#d4d0cc",font=FS)
+d.text(Q(80,-1.5),"v0: la horda pasa por debajo y sube por los estribos; las pilas, después del MVP",fill="#d4d0cc",font=FS)
 for z in (0,23,64.5,128): p=Q(z,-7); d.text((p[0]-6,p[1]+4),f"Z {z}",fill="#d4d0cc",font=FS)
 ly=H+SEC+10
 items=[("#94948c","cauce seco: grava, hierba rala, matorral"),("#6c7874","escollera de las orillas, pilas"),("#88885c","cañas, solo al pie de las orillas"),("#c8b490","senda del cauce (solo a pie)"),("#70784c","puesto del estribo oeste (v2 HESCO)"),("#605c48","naranjos (este)"),("#f0dc9c","salida atrás hacia Sagunto"),("#982420","entradas de la horda P1–P3 (solo en el plano)")]
