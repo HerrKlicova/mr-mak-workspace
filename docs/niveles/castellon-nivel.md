@@ -15,6 +15,7 @@ Encargo de Eugenio (7-nov, 09:03): «manda a alguien a diseñar otra estación i
 | Elemento | Dónde | Por qué existe | Kit |
 |---|---|---|---|
 | **Dos vías generales** (Z 57,5 y 66,5) con andén central de 120 m y andén lateral | X 70–190 | La línea de la costa es de doble vía, y una capital tiene andenes largos | Vía, andén y catenaria de Sagunto. Marquesina ×5 (v1–v5 por semilla) |
+| **Paso entre andenes** (`kit_paso` de Teo, luz 9 m) | Origen en (120; 66,5), entre los ejes de los andenes (Z 62 y 71); escaleras hacia +X hasta X ≈ 129,5 | Con dos vías generales no se cruza a nivel en una capital | Por defecto, la v0 (paso inferior), que no tapa la vista cenital del andén; las otras 4 variantes, por semilla en otras principales. Las escaleras desembocan frente a la puerta del cuerpo central (X 130) |
 | **Edificio de viajeros** | X 98–162, Z 75–88 | Estación de capital: más grande que la de pueblo | **Dos edificios de viajeros de Sagunto en espejo** (variantes distintas) unidos por un cuerpo central de ladrillo, que es la única extrusión nueva. SIN VERIFICAR: la estación real de Castellón es moderna y no se parece; la lectura es genérica |
 | **Plaza y avenida de la Estación** con coches abandonados | Z 92–104 | La salida a la ciudad | `coche_2000` y la ambulancia del kit |
 | **Manzanas de bloques de pisos** | Z 108–124, en toda la X | Es una ciudad: aquí casi no hay casas bajas | `bloque_pisos` v1–v5. En Sagunto había uno solo; aquí son la mayoría |

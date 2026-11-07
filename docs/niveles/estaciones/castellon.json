@@ -967,6 +967,17 @@
    ],
    "yaw": 90,
    "variante": 1
+  },
+  {
+   "pieza": "kit_paso",
+   "pos": [
+    120,
+    0,
+    66.5
+   ],
+   "yaw": 0,
+   "variante": 0,
+   "luz": 9
   }
  ],
  "carreteras": [
