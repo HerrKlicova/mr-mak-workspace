@@ -17,13 +17,19 @@ z[box(40,51,30,51)]=6
 # recinto
 z[box(70,156,44,85)]=1
 # pueblo, calle del pueblo y solares
-z[box(72,150,98,125)]=7
-z[box(72,150,108,115)]=4
+z[box(72,150,98,127)]=7
+z[box(72,150,108,117)]=4               # E3 (v1.2): calle del pueblo de 9 m, hilera trasera en Z 122
 for gi in (4,8): z[box(75+gi*6-3,75+gi*6+3,98,108)]=10   # 5.ª y 9.ª casa de la hilera de delante
 # calles y carreteras
-z[box(X0,X1,20,26)]=4                 # carretera vieja
-z[box(56,62,Z0,286)]=4                 # calle de la Estación (sube hasta el pie del cerro, x+z = 345)
+z[box(X0,X1,18,28)]=4                 # E1 (v1.2): carretera vieja de 10 m
+z[box(54,64,Z0,286)]=4                 # E2 (v1.2): calle de la Estación de 10 m (sube hasta el pie del cerro, x+z = 345)
 z[box(-24,-16,-22,150)]=4             # carretera del paso superior (sobre los terraplenes)
+# v1.2: frentes de la D-N113 y nivel 1 de la escala
+z[box(95,103,28,44)]=6                # E4: camino de la puerta de vehículos a la carretera (tierra pisada)
+z[box(164.8,196.6,28.8,59.2)]=4       # E6: helipuerto de Teo (losa; la zona queda debajo del modelo)
+z[box(35.9,52.2,74.9,89.1)]=6         # F2: puesto de frente del paso a nivel (v2 HESCO, centro (43;82), yaw 90)
+z[box(197.8,214.1,43.9,58.1)]=6       # F3: puesto de frente del helipuerto (v2 HESCO, centro (207;51), yaw 270)
+z[box(159,164,31,41)]=6               # F3: set de rearme entre el muro este y el helipuerto
 # acequias (solo en la huerta sur; madre a Z 10, ramales N-S cada 40 m al sur de Z 10)
 z[box(X0,X1,9,11)&(z==5)]=9
 for x in range(-230,500,40): z[box(x,x+2,Z0,10)&(z==5)]=9
@@ -49,7 +55,12 @@ m[box(96,116,74,85)]=255                      # edificio de viajeros
 m[box(126,144,49,61)]=255                     # almacén y muelle
 m[box(40,51,30,51)]=255                       # almacén de naranjas
 m[box(169,179,76,88)]=255                     # bloque de pisos
-m[box(72,150,98,108)&(z!=10)]=255; m[box(72,150,115,125)]=255   # casas (huellas)
+m[box(72,150,98,108)&(z!=10)]=255; m[box(72,150,117,127)]=255   # casas (huellas; hilera trasera en Z 122, E3)
+m[box(95,103,28,46)]=255                      # E4: puerta de vehículos y camino
+m[box(72,124,46,60)]=255                      # E5: parque de vehículos
+m[box(164.8,196.6,28.8,59.2)]=255             # E6: helipuerto
+m[box(35.9,52.2,74.9,89.1)|box(197.8,214.1,43.9,58.1)]=255   # F2 y F3: puestos de frente
+m[box(159,164,31,41)]=255                     # F3: rearme
 m[box(-30,-10,-22,150)]=255                   # paso superior y terraplenes
 m[box(68,72,44,85)|box(154,158,44,85)|box(70,156,42,46)|box(70,156,83,87)]=255  # muros (por si cambian, ver §8.3)
 m[z==11]=255
@@ -71,7 +82,7 @@ for i,(k,n) in enumerate(ZON.items()):
   x=10+(i%6)*250; y=10+(i//6)*40
   dl.rectangle([x,y,x+26,y+26],fill=col[k]); dl.text((x+34,y+3),f"{k} {n}",fill="#d4d0cc",font=F)
 dl.text((10,100+0),"Oscurecido: sin vegetación. Marco blanco: zona simulada (0-256 × 0-128 m). 1 px del PNG = 1 m; aquí ×2. Norte arriba.",fill="#d4d0cc",font=F)
-dl.text((10,130),"Sagunto · mapa de zonas del suelo v1 (Álvaro, 6-nov) · faldón X −250..506, Z −200..480",fill="#d4d0cc",font=F)
+dl.text((10,130),"Sagunto · mapa de zonas del suelo v1.2 (Álvaro, 7-nov: calles de 10 m, puerta sur, parque, helipuerto y puestos de frente) · faldón X −250..506, Z −200..480",fill="#d4d0cc",font=F)
 out=Image.new("RGB",(W*2,H*2+170)); out.paste(im,(0,0)); out.paste(leg,(0,H*2)); out.save("/mnt/project-files/docs/niveles/sagunto_zonas_vista.png")
 json.dump({"origen_px00":"esquina noroeste: X=-250, Z=480","px_m":1,"ancho":W,"alto":H,"X":[X0,X1],"Z":[Z0,Z1],
   "uv_unity":"u=(X+250)/756, v=(Z+200)/680 (Unity carga la fila 0 del PNG arriba, como v=1)","zonas":ZON,

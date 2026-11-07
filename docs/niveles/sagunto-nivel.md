@@ -1,8 +1,9 @@
-# Sagunto · diseño del nivel (v1.1, aprobado por Lucía)
+# Sagunto · diseño del nivel (v1.2: frentes de la D-N113 con el nivel 1 de la escala; la v1.1 la aprobó Lucía)
 
 Autor: Álvaro (Niveles) · 6-nov-2026 · Origen: Eugenio, 17:20: «¿es normal que la vía esté cortada? […] que tenga sentido, que sea realista, que se sienta vivo».
 Revisión de cohesión: **Lucía** (última palabra). **Aprobado el 6-nov a las 18:27** con las correcciones de color y contenido de la v1.1 (abajo). Modelos: **Teo**. Integración: **Marcos** (vía Mak).
 Plano: `docs/niveles/sagunto_plano_v1.png` (vista cenital de la zona de 256 × 128 m con lo que hay hoy y lo que propongo).
+**Plano vigente (v1.2, 7-nov): `docs/niveles/sagunto_plano_v1_2.png`**, con los frentes, las calles de 10 m, la puerta sur, el parque y el helipuerto. Lo nuevo está en el **§10**, al final.
 
 > Regla de la casa: cada vía, calle y muro tiene que tener una razón de existir. Si no sabemos contar por qué está ahí, sobra o está mal puesto.
 
@@ -343,3 +344,96 @@ Las fotos F2 de Paula muestran que el puente ferroviario sobre el Palancia es un
 - **Almacén de naranjas** (`sagunto\almacen_naranjas`, v0-v5, pendiente de Lucía): 11 × 21 m, justo la planta del tejado de pruebas (X 40-51, Z 30-51). Centro en **(45,5; 40,5)**, con la fachada al sur, hacia la carretera vieja (girado 180°). **Ojo con la simulación**: el sólido del tejado es plano a 4 m (`Level.RoofH`) y ahí aparecen los zombis del «1 tejado». Hace falta el alero a ~4 m y la variante de cubierta más plana, o los zombis flotarán sobre los faldones. Marcos decide si se ajusta el sólido o se elige la variante.
 - (18:58) Altura: la colisión del tejado es una caja plana de **4,0 m** (`Level.RoofH`). Lucía pidió alero a 5,5 m y cumbrera a 7,5 m, y he recomendado a Teo **ajustar el modelo**: alero a 4,0 m, cubierta de ≤ 5° o azotea con pretil, y cumbrera a ≤ 4,5 m. Cambiar RoofH obliga a recalibrar las caídas y los goldens de zona. Si Lucía prefiere la cubierta a dos aguas de verdad, Marcos sube RoofH a 5,5 m y vuelve a pasar las pruebas de caídas.
 - (19:01) **Decisión de Marcos**: el sólido del tejado sube a 6,5 m y el almacén se queda a dos aguas. Por tanto, hay que recalibrar las caídas y regenerar los goldens de zona. Aviso de nivel: un sólido plano a 6,5 m bajo una cubierta de 5,5 a 7,5 m hace que los zombis floten 1 m sobre el alero y se hundan 1 m junto a la cumbrera. Desde arriba y en pixelado apenas se nota, pero conviene mirarlo en la captura. Si no convence, Teo tiene preparada una variante con azotea a 4,0 m que cuadra con RoofH = 4.
+
+---
+
+## 10. v1.2: los frentes de la D-N113 dentro de Sagunto, con el nivel 1 de la escala (Álvaro, 7-nov)
+
+Encargo (plan-dia-7nov.md): llevar el nivel 1 de §9 (calles de 10 m, puerta de vehículos sur, parque y helipuerto anexo) a los frentes de la D-N113 (estación, paso a nivel y helipuerto dentro de Sagunto) y revisar C1–C9 en la build de Marcos.
+Plano: **`sagunto_plano_v1_2.png`** (script `herramientas/plano_v1_2.py`). Mapa de zonas y máscara regenerados con la v1.2 (`zonas.py`). Dato de carreteras propuesto: **`mapa_sagunto_carreteras_v1_2.json`**.
+
+**En una frase**: cada frente tiene ya un sitio con razón de ser, un puesto que lo defiende, un camino de vehículos que se puede contar («el ejército abrió un carril a empujones») y un corte visible donde el dato dice «no habilitada».
+
+### 10.1 Revisión de la build de Marcos (rama `marcos/noche-prototipo`, 5188f83, leída en el código, sin Unity)
+| # | Estado | Qué hay (archivo de `Assets/TBD/Scripts/`) |
+|---|---|---|
+| C1 | ✅ | Vía 2 de X −250 a 50 y desvío de 50 a 64 (`View/PrototypeBootstrap.cs:1450`) |
+| C2 | ✅ | Tolvas de Teo v0, v2 y v3 en X 35, 20 y 5, con yaw 0, +8 y −12 (`:1459`) |
+| C3 | ✅ ⚠️ | Paso superior con terraplenes al 12 % y losa sobre la carretera (`:1394`). **Pero** el dato lo da por no habilitado con «coches abandonados encima» y encima no hay ningún coche: ver 10.6, punto 8 |
+| C4 | ✅ | Tablero de la carretera sobre el cauce y camión cruzado en X 258 (`:1409`) |
+| C5 | ✅ | Atasco irregular (`:1437`). Con la carretera de 10 m hay que mover los carriles: ver 10.4 |
+| C6 | ✅ | Cauce a −4,5 m con orillas y cañas (v1.3) |
+| C7 | ✅ | Hileras en Z 103 (0°) y Z 120 (180°) (`:1345`). E3 pide la trasera en Z 122 |
+| C8 | ✅ | Variantes de casa por hash y alero de distinta altura |
+| C9 | ✅ | Postes de X −240 a 500 (`:1340`) |
+| E1 | ❌ | Carretera vieja todavía de 6 m, Z 20-26 (`:1435`) |
+| E2 | ❌ | Calle de la Estación todavía de 6 m, X 56-62 (`:1423`), y el paso a nivel igual (`:1425`) |
+| E3 | ⚠️ | Calle del pueblo de 7 m (falta mover la hilera trasera a Z 122) |
+| E4 | ✅ sim · ❓ vista | La simulación ya tiene la puerta de 8 m (D-N111, G3) y los vehículos cruzan el muro sur por X 95-103 (`View/PrototypeBootstrap.Vehicles.cs:106`). No encuentro dónde se dibuja la hoja doble, y el modelo de Teo (`SM_PuertaVehiculos`) no está en `Resources/Models` |
+| E5 | ✅ | Dragón en (99; 53) y VAMTAC en (88; 53) y (80; 53), yaw 180 (`Vehicles.cs:56`) |
+| E6 | ⚠️ | El NH90 está en (180; 44) con yaw 270, pero **el helipuerto de Teo no está importado**: hoy el helicóptero se posa sobre la tierra, sin losa ni balizas |
+
+Además, el dato `StreamingAssets/Noche/mapa_sagunto_carreteras.json` tiene dos incoherencias de lugar: (1) la calle de la Estación está habilitada hasta Z 160 y atraviesa el autobús cruzado y la barricada de Z 88-97, y (2) la carretera vieja se corta en X 222, donde no hay nada que lo explique (el camión está en 258). Las corrijo en 10.3.
+
+Lo visual (colores con la luz de noche y lectura a ortho 12) queda ❓ hasta las capturas de Marcos.
+
+### 10.2 Los frentes
+Todo dentro de la zona simulada (0–256 × 0–128 m), así que todo se ve desde la cámara de juego. Las ETA son **cuentas mías** con la fórmula de la D-N120 (5 s + 4 s por giro + metros ÷ velocidad; Dragón a 80 km/h y accesos al 60 %), **no medidas**.
+
+| Frente | Sitio del dato | Qué se defiende y por qué ahí | Puesto | Camino desde el parque | Le amenaza |
+|---|---|---|---|---|---|
+| **F1 Estación** | (112; 78) | El edificio de viajeros y el tren en el andén: es lo que pierde la noche (D-N104) | El recinto entero; no lleva puesto | Dentro del recinto, en línea recta | O1 por la puerta oeste, O2 por el muro sur y la puerta de vehículos, O3 por el muro norte |
+| **F2 Paso a nivel** | (59; 62) | El cruce de la calle con las vías, a 11 m de la puerta oeste. Es donde se juntan O1 (la vía) y O3 (el pueblo) antes del muro. Si cae, la horda llega a la puerta de vía y los vehículos pierden la calle | **v2 HESCO en (43; 0; 82), yaw 90**: en el glacis, al noroeste del cruce, con la entrada al este, hacia la calle. Ve la vía hacia el oeste (35 m hasta O1) y la calle hacia el pueblo | Puerta sur, carretera hacia el oeste y calle hacia el norte: **109 m, ≈ 19 s** | O1 y O3 desde el principio |
+| **F3 Helipuerto** | (180; 44) | El NH90 y su rearme. Al principio es retaguardia; cuando se abre O4 (la Colmena entra por el puente, «por donde no miras»), pasa a ser frente. Es el frente que cambia a lo largo de la noche | **v2 HESCO en (207; 0; 51), yaw 270**: al este del helipuerto, entre la losa y el puente, con la entrada al oeste, hacia la losa. Ve la vía y el puente (O4, a 41 m) | Puerta sur, carretera hacia el este y acceso al norte: **132 m, ≈ 21 s** | O4; O2 si rebasa el muro sur |
+| **F4 Tren** | (−68; 64,5) | El tren llegando por la vía 1 hasta el andén (D-N91, unos 320 m de vía de entrada) | No lleva: es un muro móvil (D-N27) | Por la vía | O1 mientras llega |
+
+Sobre F4: en el dato es un punto fijo, pero el tren se mueve. Lo lógico es que el sitio siga al tren y se quede en el andén al parar (X 135-151,5). Lo decide Nacho; no lo he tocado.
+
+Medidas de los puestos (sacadas de los FBX de Teo): la v2 ocupa 14,3 × 16,4 m con la chicane, y su entrada mira a +Z con yaw 0. F2 queda en X 35,9-52,2 y Z 74,9-89,1: a 1,8 m de la calle de 10 m, a 1 m de la caseta del paso a nivel y fuera del autobús y la barricada. F3 queda en X 197,8-214,1 y Z 43,9-58,1: a 1,2 m de la losa del helipuerto v4 (que sobresale hasta X 196,6), a 2,8 m del poste de catenaria de X 210 y fuera de la senda de aproximación (sureste).
+
+### 10.3 Carreteras habilitadas y cómo se ven
+El dato manda (D-N113), pero en el suelo tiene que verse lo mismo que en el mapa. Propuesta de dato en `mapa_sagunto_carreteras_v1_2.json`, con los sitios igual que ahora:
+- **`calle_estacion`**: habilitada de Z 20 a **86**. Nuevo **`calle_estacion_norte`**, de Z 86 a 160, **no habilitada**: «autobús cruzado y barricada a la entrada del pueblo».
+- **`carretera_vieja`**: habilitada de X −250 a **200**. **`carretera_vieja_este`**, de 200 a 320, no habilitada: «atasco cerrado hasta el camión cruzado en el puente».
+- `paso_superior`: sin cambios (no habilitado). Aviso para cuando se habilite: el grafo cruza tramos perpendiculares, así que crearía un cruce falso con la vía en (−20; 64,5) y con la carretera en (−20; 23), y los dos son a distinto nivel. Hará falta una marca de «sin cruce».
+
+**Cortes de carretera de Teo** (aprobados, 03:28) donde el dato dice «no habilitada»:
+- **K1**: `SM_CorteCarretera` en **(201,5; 0; 23), yaw 90**, atravesado en la carretera (8,8 m de 10).
+- **K2**: en **(59; 0; 86), yaw 0**, delante de la barricada civil: el ejército cerró la calle detrás de lo que dejaron los vecinos.
+
+**Balizas de ruta de Teo** en lo habilitado (14, luces f0dc9c; el modelo mide 4,2 m a lo largo de su Z):
+- Borde norte de la carretera, Z 28,8, yaw 90: X 70, 86, 110, 126, 142, 158, y 174 y 186 a los lados del acceso al helipuerto.
+- Camino de la puerta sur, Z 36, yaw 0: X 94,2 y 103,8.
+- Calle de la Estación, yaw 0: (53,2; 40), (64,8; 40), (53,2; 52) y (64,8; 52).
+
+### 10.4 El atasco con la carretera de 10 m: carril norte abierto
+Con E1 la carretera va de Z 18 a 28. Para que el camino de los vehículos tenga sentido (y no atraviesen coches), la historia es: **el ejército abrió el carril norte a empujones** desde la calle de la Estación hasta el helipuerto.
+- De **X 64 a 200**: carril norte (Z 23-28) libre. Los coches van al carril sur (Z 19-22) o a la cuneta sur (Z 15-17, en la huerta), y uno de cada tres girado unos 60°, como empujado de lado.
+- De **X 200 a 250**: atasco cerrado en los dos carriles, más junto (4,5-6,5 m), hasta el camión de X 258. Ahí va K1.
+- Los «fuera del asfalto» del código (Z 25,2 y 17,8) ya caen dentro de la carretera de 10 m: pasan a **Z 16 y Z 30**.
+
+### 10.5 Helipuerto (cambia algo respecto a E6)
+- **Modelo de Teo v4** (de noche con torre de focos, con su luz real), en **(180; 0; 44), yaw 0**. Con yaw 0 la torre y la manga quedan al este, lejos del muro. Si cuesta FPS, la v0 (losa). Lo elige Lucía o Mak; yo recomiendo la v4 porque la partida es de noche.
+- La losa del modelo ya mide unos 30 × 30 m con sus balizas. **Quito el anillo de HESCO de E6**: tapaba el paso de los soldados a la losa y sumaba instancias. Ahora defiende el helipuerto el puesto F3.
+- **Set de rearme** de Teo, entre el muro este y la losa: en la franja **X 159-164, Z 31-41**, que es por donde llega la munición desde el recinto. Queda a más de 7 m del disco del rotor (NH90 de 16,3 m de rotor, SIN VERIFICAR).
+- Aproximación y salida por el **sureste**, sobre la huerta. El poste de X 160 queda a 5 m de la esquina noroeste y el bloque de pisos, 16 m al norte: los dos están fuera de esa senda.
+
+### 10.6 Lista para Marcos (vía Mak), por prioridad
+1. **E1 y E2**: carretera vieja de 10 m (centro Z 23, ancho 10) con línea central discontinua en b8b8b8 (0,15 × 3 m cada 6 m) y arcenes de 1,5 m en 94948c; calle de la Estación de X 54 a 64 y paso a nivel de 10 m de ancho. Subir el `sagunto_zonas_1m.png` y el `sagunto_sin_vegetacion_1m.png` v1.2 a `Resources/Suelo` (con la misma vuelta en Z que ya les das).
+2. **Helipuerto de Teo v4** en (180; 0; 44), yaw 0.
+3. **Puerta de vehículos** de Teo en (99; 0; 45), yaw 0, o la hoja doble a partir de `Works` (lo que tengas previsto para la D-N111).
+4. **Puestos de frente v2**: F2 en (43; 0; 82) con yaw 90 y F3 en (207; 0; 51) con yaw 270, con el hijo `Luces` según el IMPORTAR.md de Teo.
+5. **Atasco con el carril norte abierto** (10.4) y los cortes K1 y K2.
+6. **Dato de carreteras v1.2**: copiar `mapa_sagunto_carreteras_v1_2.json` sobre los dos `mapa_sagunto_carreteras.json` (Data y StreamingAssets).
+7. **Balizas de ruta** (10.3) y **set de rearme** (10.5).
+8. **Tres coches sobre el paso superior**, a la cota del tablero (8,3 m), en Z 56, 66 y 74, con giros distintos. Así se ve por qué el dato lo da por cortado.
+9. **E3**: hilera trasera de Z 120 a 122.
+
+Coste: unas 30 piezas nuevas (14 balizas, 2 cortes, 2 puestos, el helipuerto, la puerta, 3 coches y el rearme). Con el margen de 32 FPS, se mide antes de darlo por bueno (regla de D-N70).
+
+### 10.7 Pendiente de otros
+- **Nacho**: si el sitio del tren sigue al tren (10.2, F4) y la marca de «sin cruce» para el paso superior (10.3).
+- **Lucía o Mak**: helipuerto v4 o v0.
+- **Nivel 2** (512 × 256) sigue en P2, pendiente de las medidas de FPS de Nacho y Marcos (§9.3).
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

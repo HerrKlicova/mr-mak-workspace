@@ -1,0 +1,13 @@
+{
+ "nota": "Dato que lee el mapa de frentes (D-N113): qué carreteras puede usar un vehículo de tierra. Propuesta v1.2 de Álvaro (sagunto-nivel.md §10.3), 7-nov: la calle de la Estación se corta en Z 86 (autobús y barricada a la entrada del pueblo) y la carretera vieja en X 200 (atasco cerrado y corte K1). Coordenadas del mundo en metros; cada tramo va a lo largo de X o de Z. Sitios sin cambios.",
+ "carreteras": [
+  {"id": "calle_estacion", "nombre": "Calle de la Estación", "tramo": [[59, 20], [59, 86]], "habilitada": true},
+  {"id": "calle_estacion_norte", "nombre": "Calle de la Estación (entrada del pueblo)", "tramo": [[59, 86], [59, 160]], "habilitada": false, "motivo": "autobús cruzado y barricada a la entrada del pueblo"},
+  {"id": "carretera_vieja", "nombre": "Carretera vieja", "tramo": [[-250, 23], [200, 23]], "habilitada": true},
+  {"id": "carretera_vieja_este", "nombre": "Carretera vieja (hacia el Palancia)", "tramo": [[200, 23], [320, 23]], "habilitada": false, "motivo": "atasco cerrado hasta el camión cruzado en el puente"},
+  {"id": "paso_superior", "nombre": "Paso superior", "tramo": [[-20, -22], [-20, 150]], "habilitada": false, "motivo": "coches abandonados encima"}
+ ],
+ "via": [[-250, 64.5], [330, 64.5]],
+ "recinto": [[68, 43], [157, 43], [157, 87], [68, 87]],
+ "sitios": {"estacion": [112, 78], "tren": [-68, 64.5], "paso_nivel": [59, 62], "helipuerto": [180, 44]}
+}
