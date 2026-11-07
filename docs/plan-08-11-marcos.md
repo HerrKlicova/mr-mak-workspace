@@ -1,6 +1,6 @@
 # Plan del 8-nov para Marcos (Programación), pendiente al parar el 7-nov
 
-Última build entregada: C:/Dev/TBD/Builds/Noche55/TBD.exe (rama marcos/noche-prototipo, 4f0ea7b). Todo lo de abajo está SIN HACER en la rama, salvo lo indicado.
+Última build entregada: C:/Dev/TBD/Builds/Noche56/TBD.exe (rama marcos/noche-prototipo, 4f0ea7b). Todo lo de abajo está SIN HACER en la rama, salvo lo indicado.
 La corrida automática larga de la Noche55 (horda final de Hugo, 7310 en normal) estaba en marcha al parar: mirar docs/capturas/qa39 (log_final.log, traza_noche.csv).
 El -inputtest de la Noche55 movió la cámara bien (D/W/A/S «MUEVE»), pero la parte de selección salió «fuera de pantalla» porque el foco ya se había movido: hay que hacerla antes de mover la cámara.
 

@@ -121,7 +121,7 @@ Añadir `TBD_SEEDS=20` mide además 20 partidas completas contra la referencia d
 - Pendiente (no hecho): marca de seleccion, destino y formaciones al estilo Total War; pose de apuntar; parches del suelo; color del HUD (doble sRGB sin resolver); boton del parte; D-N118 de las tarjetas.
 
 ## Noche54: build P0 + horda única de esta noche (7-nov)
-- Ejecutable: C:/Dev/TBD/Builds/Noche55/TBD.exe (Jugar en el menu). Rama marcos/noche-prototipo.
+- Ejecutable: C:/Dev/TBD/Builds/Noche56/TBD.exe (Jugar en el menu). Rama marcos/noche-prototipo.
 - Incluye el sonido de Nuria (449 MP3 con la mezcla por distancia segun el zoom: fusil, ametralladora, granada, canon, tirador; lecho de horda, ambiente, viento, motores, rotor, tren, alarma de ataque, impactos). Sin AudioMixer: volumenes directos.
 - Hecho tambien: noche persistente, trazadoras que viajan, fogonazos, soldados armados, vehiculos con textura de Teo y fuego libre (G alto el fuego, A fuego libre, T recarga), puertas con muro, titular de derrota D-N133.
 - Luz de noche: la v3 de Bruno (la E queda descartada hasta que Lucia elija entre G1-G5 en docs/capturas/qa29).
