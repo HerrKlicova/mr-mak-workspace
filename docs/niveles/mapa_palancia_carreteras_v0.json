@@ -1,0 +1,8 @@
+{
+ "nota": "Puente del Palancia v0 (Álvaro, 7-nov; palancia-nivel.md). Coordenadas del mundo, zona X 240-496, Z 0-128, al este de Sagunto. Solo papel. Ningún vehículo de tierra llega: la carretera está cerrada en K1 y por el atasco.",
+ "carreteras": [
+  {"id": "carretera_vieja_este", "nombre": "Carretera vieja (hacia el Palancia)", "tramo": [[200, 23], [496, 23]], "habilitada": false, "motivo": "atasco cerrado hasta el camión cruzado y sobre el tablero"}
+ ],
+ "via": [[240, 64.5], [496, 64.5]],
+ "sitios": {"puente_palancia": [342, 64.5], "estribo_oeste": [251, 86]}
+}
