@@ -60,7 +60,7 @@ Castellón cumple todo lo obligatorio de una **principal** (§2.1): doble vía y
 
 ### 6b. Recinto heredado (Hugo, `docs/economia/castellon-bucle.md` §5)
 - **Infestada, confirmado**: con 1000 partidas, el jugador equilibrado la toma el día 1 en todas (asalto abstracto: 760 zombis, tropa de 30 y 1,9 u). Un asalto jugado en la zona está sin medir.
-- **Se hereda muy dañado: al 15 % de la vida media y con brechas** (≈ 44 u efectivas, nivel 1). Repararlo entero cuesta unas 245 u y 146 h con el tren de obras: es el motivo para volver con trenes.
+- **Se hereda muy dañado: al 15 % de la vida media y con brechas** (con 482,1 m: 289,3 u nominales y 43,4 u efectivas, nivel 1). Repararlo entero cuesta unas 241 u y 145 h con el tren de obras: es el motivo para volver con trenes.
 - **Regla de los 60 m (D-N44: el punto medio de cada módulo, a ≤ 60 m del andén).** Medido contra el rectángulo de los andenes (X 70–190, Z 60–73), con módulos de 10 m, solo quedaban fuera ~19 m de la esquina sureste, junto al depósito. **Arreglo: chaflán en esa esquina, de (212; 4) a (222; 14).** Así todo el recinto cuenta para el nivel y nada se desgasta sin mantenimiento. El perímetro queda en **≈ 482 m** (488 − 20 + 14,1 = 482,1 m). Las cisternas del depósito siguen dentro.
 - Aviso para Hugo y Lucía: si los 60 m se miden **desde el centro del andén** (130; 66,5) y no desde el andén, se quedan fuera unos 380 m de los 488, porque la estación es más larga que el radio. Para una principal, la lectura correcta es «desde el andén». En Nules las dos lecturas dan lo mismo.
 
