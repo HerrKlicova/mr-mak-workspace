@@ -1,0 +1,7 @@
+ortho 12 run 1: FPS medio 414,8 fotograma p99 6,39 ms peor 19,29 ms 
+ortho 12 run 2: FPS medio 420,9 fotograma p99 6,31 ms peor 15,83 ms 
+ortho 12 run 3: FPS medio 421,9 fotograma p99 6,34 ms peor 15,14 ms 
+ortho 70 run 1: FPS medio 346,4 fotograma p99 10,76 ms peor 20,94 ms 
+ortho 70 run 2: FPS medio 351,7 fotograma p99 10,71 ms peor 13,93 ms 
+ortho 70 run 3: FPS medio 350,6 fotograma p99 10,73 ms peor 20,48 ms 
+FIN
