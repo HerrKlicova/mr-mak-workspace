@@ -120,8 +120,8 @@ Añadir `TBD_SEEDS=20` mide además 20 partidas completas contra la referencia d
 - Banderas nuevas de QA: -leaveat N / -returnafter N (salir y volver), -shotsat 236,242, -sinrecarga, -luz luna|ambiente|focos, -colorcasos, -capdirecta, -lowrtsrgb, -vehfuego.
 - Pendiente (no hecho): marca de seleccion, destino y formaciones al estilo Total War; pose de apuntar; parches del suelo; color del HUD (doble sRGB sin resolver); boton del parte; D-N118 de las tarjetas.
 
-## Noche46: build final de esta noche (7-nov)
-- Ejecutable: C:/Dev/TBD/Builds/Noche46/TBD.exe (Jugar en el menu). Rama marcos/noche-prototipo.
+## Noche50: build P0 de esta noche (7-nov)
+- Ejecutable: C:/Dev/TBD/Builds/Noche50/TBD.exe (Jugar en el menu). Rama marcos/noche-prototipo.
 - Incluye el sonido de Nuria (449 MP3 con la mezcla por distancia segun el zoom: fusil, ametralladora, granada, canon, tirador; lecho de horda, ambiente, viento, motores, rotor, tren, alarma de ataque, impactos). Sin AudioMixer: volumenes directos.
 - Hecho tambien: noche persistente, trazadoras que viajan, fogonazos, soldados armados, vehiculos con textura de Teo y fuego libre (G alto el fuego, A fuego libre, T recarga), puertas con muro, titular de derrota D-N133.
 - Luz de noche: la v3 de Bruno (la E queda descartada hasta que Lucia elija entre G1-G5 en docs/capturas/qa29).
@@ -133,3 +133,9 @@ Añadir `TBD_SEEDS=20` mide además 20 partidas completas contra la referencia d
 - Frente: clic derecho y ARRASTRAR dibuja el frente (el pelotón mira a la izquierda del arrastre; varios pelotones se reparten por la linea); se ve la silueta fantasma; aspa si el hueco cae fuera del recinto.
 - Formacion: F1 línea, F2 cuña, F3 columna, F4 bloque. A+orden = atacar moviendose, S mantener, D emplazar, G alto el fuego, T recargar.
 - Camara: flechas o bordes, Z/X zoom, y GIRA con el boton CENTRAL del raton si hay unidades elegidas (sin seleccion, con el derecho). La depuracion pasa de F2 a F12.
+
+## Controles de la Noche50 (P0 de Eugenio)
+- Camara: W A S D o flechas, Z/X zoom, rueda, boton central gira. Esc = pausa (Continuar / Salir al mapa / Menu principal). M = salir al mapa (la noche sigue).
+- Seleccion: 1-5 pelotones (Mayus suma; doble pulsacion centra), 6-8 vehiculos, clic y rectangulo; clic derecho mueve, clic derecho + arrastrar dibuja el frente; F1-F4 formacion.
+- Vehiculos: G alterna fuego libre / alto el fuego de todos; T recarga. El NH90 despega solo cuando hay horda.
+- Las teclas de depuracion (4 zombis, 7-9 gradacion, B, H, N...) solo con -debug. Panel de iconos retirado. Al ganar, Seguir sigue en el mundo sin reiniciar.
