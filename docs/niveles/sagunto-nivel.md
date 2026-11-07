@@ -428,11 +428,38 @@ Con E1 la carretera va de Z 18 a 28. Para que el camino de los vehículos tenga 
 7. **Balizas de ruta** (10.3) y **set de rearme** (10.5).
 8. **Tres coches sobre el paso superior**, a la cota del tablero (8,3 m), en Z 56, 66 y 74, con giros distintos. Así se ve por qué el dato lo da por cortado.
 9. **E3**: hilera trasera de Z 120 a 122.
+10. **Después del P0** (10.8): puerta oeste-sur en (69; 0; 53), yaw 90; los VAMTAC pasan a (110; 53) y (118; 53); dato v1.3 con `acceso_oeste` y `acceso_sur`; armario de Adif en lugar de la caseta del paso a nivel.
 
 Coste: unas 30 piezas nuevas (14 balizas, 2 cortes, 2 puestos, el helipuerto, la puerta, 3 coches y el rearme). Con el margen de 32 FPS, se mide antes de darlo por bueno (regla de D-N70).
 
+### 10.8 Añadidos a la v1.2 (Álvaro, 7-nov, 08:55): F4 móvil, ETA medidas y acceso oeste para F2
+**F4 Tren, decisión de Mak:** el sitio sigue al tren. La ETA se calcula en el momento de la orden con la posición que tiene el tren entonces, y la unidad que ya va de camino mantiene su destino aunque el tren siga avanzando. Al parar, el sitio queda en el andén (X 135-151,5). Hoy `Units/Transporte.cs` lo tiene fijo en (−68; 64,5): el cambio es de Nacho.
+
+**ETA medidas por Nacho** (`TransportDirector.Estimate` sobre el `mapa_sagunto_carreteras.json` actual, pelotón de fusileros, salida desde el parque (99; 53); el total incluye subir, salir, giros y bajar, y entre paréntesis va solo el trayecto). Sustituyen a mis cuentas del 10.2 (19 s y 21 s), que eran casi en línea recta:
+
+| Destino | Dragón | Pizarro | A pie | Recorrido en vehículo |
+|---|---|---|---|---|
+| F2 puesto (43; 82) | 36 s (32) | 34 s (30) | 37 s | 145 m: puerta sur, carretera vieja y calle de la Estación |
+| F3 helipuerto (180; 44) | 31 s (27) | 29 s (25) | 47 s | 132 m |
+| F3 puesto (207; 51) | 35 s (31) | 32 s (28) | 62 s | 166 m |
+
+**F2: a pie se llega igual que en Dragón.** Mak pide que el vehículo compense. Lo he mirado de las dos formas que propuso:
+- *Acercar el puesto a la calle* no arregla nada. El puesto ya está a 1,8 m de la calle de 10 m, y lo que alarga el viaje en vehículo es el rodeo por la puerta sur (salir hacia el sur, ir 40 m al oeste y subir 60 m por la calle), no los últimos metros. Pasarlo al otro lado de la calle, entre la calle y el muro oeste, acortaría todavía más el camino a pie (sale por la puerta oeste) y lo metería en el embudo de O1.
+- **Elijo el acceso: una segunda puerta de vehículos en el muro oeste**, la **puerta oeste-sur**, al sur de la vía. Es el mismo modelo de la D-N111 (8 m, dos hojas de 4 m) en **(69; 0; 53), yaw 90**, abierta en Z 49-57. La historia: el ejército abrió el muro por el lado del parque para llegar al paso a nivel sin dar la vuelta por la carretera.
+  - **ETA medida por Nacho con la v1.3** (desde el parque): F2 **Dragón 25 s (21 de trayecto, 85 m), Pizarro 24 s, a pie 37 s**. El vehículo gana por 12 s. Helipuerto F3: Dragón 30 s, Pizarro 28 s. Puesto F3: Dragón 32 s, Pizarro 30 s. Las dos de F3 mejoran un poco respecto a la tabla de arriba.
+  - **Hace falta también `acceso_sur`** (de (99; 53) a (99; 23), por la puerta de vehículos hasta la carretera vieja). Sin él, la ruta enganchaba el parque al `acceso_oeste` y todo salía por el oeste, de modo que F3 subía a 40 y 43 s. Lo encontró Nacho y lo dejó probado.
+  - Recorrido (mi cuenta previa, solo trayecto): parque (99; 53) → hacia el oeste por Z 53 hasta la puerta (30 m) → calle de la Estación en (59; 53) (10 m) → hacia el norte cruzando el paso a nivel hasta (59; 82) (29 m). Son unos **69 m y 2 giros**. Con la fórmula de la D-N120 salen **≈ 18 s de trayecto y ≈ 22 s en total en Dragón, frente a 37 s a pie**. Es una cuenta mía: la medida la saca Nacho con el dato v1.3.
+  - Coincide con las balizas que ya estaban en (53,2; 52) y (64,8; 52): la calle ya tenía marcado ese cruce.
+  - **Para que el carril quede libre, los dos VAMTAC del parque pasan de (80; 53) y (88; 53) a (110; 53) y (118; 53)**, con yaw 180. Siguen en el parque (X 72-124) y fuera del paso de la puerta sur (X 95-103). El Dragón no se mueve.
+  - **No rompe la defensa del paso, pero añade un punto débil**: la puerta queda a 6 m de la puerta de vía y mira hacia O1. La cubre el propio puesto F2 (desde X 36-52 y Z 75-89 ve la calle hasta Z 53) y, cerrada, aguanta como la puerta sur (misma vida que en la D-N111). La horda de O1 ya va hacia la puerta de vía, así que no se abre un camino nuevo; se suma un segundo blanco al mismo frente. Hay que confirmarlo con una corrida de Sara.
+  - **Entra después del P0.** Tocar los muros del recinto mientras Marcos y Nacho cierran el pasillo de qa20 sería mezclar dos cambios en la misma prueba. Primero Sara gana la normal y después se abre la puerta.
+- Dato: `mapa_sagunto_carreteras_v1_3.json` = v1.2 + los tramos **`acceso_oeste`** de (99; 53) a (59; 53) y **`acceso_sur`** de (99; 53) a (99; 23), los dos habilitados.
+- F4 que sigue al tren: Nacho lo mete en `Transporte.cs` cuando se cierre el P0 (ahora solo se toca la calibración). Hasta entonces sigue fijo en (−68; 64,5).
+
+**Referencias de Paula para F2** (`referencias-reales/entorno/P1`–`P4`, Adif, ancho ibérico): semibarreras con luces y armario, cruz de San Andrés con STOP, señal de «paso a nivel a 20 m», vista por el eje y placas entre carriles. **Cambio:** la «caseta» del paso a nivel (§2 y 10.2) pasa a ser **un armario de Adif**, porque en las fotos actuales lo que hay junto a la barrera es un armario y no una caseta de guardabarrera (de esas Paula no ha encontrado ninguna). Además deja más hueco al puesto F2, que antes estaba a 1 m. El resto del paso a nivel (barreras rotas, placas entre carriles y señal de 20 m en la calle, en el lado del pueblo) se viste con estas fotos. SIN VERIFICAR: la línea Valencia–Sagunto, las P-8 y P-9 de cerca y las cotas.
+
 ### 10.7 Pendiente de otros
-- **Nacho**: si el sitio del tren sigue al tren (10.2, F4) y la marca de «sin cruce» para el paso superior (10.3).
+- ~~Nacho: si el sitio del tren sigue al tren~~ Decidido por Mak: lo sigue (10.8). **Nacho**: la ETA de F2 con el dato v1.3 y la marca de «sin cruce» para el paso superior (10.3).
 - **Lucía o Mak**: helipuerto v4 o v0.
 - **Nivel 2** (512 × 256) sigue en P2, pendiente de las medidas de FPS de Nacho y Marcos (§9.3).
 

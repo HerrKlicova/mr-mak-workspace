@@ -1,0 +1,9 @@
+{
+ "nota": "Desmonte v0 (Álvaro, 7-nov; desmonte-nivel.md). Zona de emboscada de 256 × 128 m, vía en Z 64. Solo papel. Coordenadas en metros; cada tramo va a lo largo de X o de Z.",
+ "carreteras": [
+  {"id": "camino_mas", "nombre": "Camino del Mas (con el paso superior de Z 48 a 83)", "tramo": [[120, 0], [120, 128]], "habilitada": true},
+  {"id": "camino_servicio", "nombre": "Camino de servicio de Adif", "tramo": [[62, 88], [200, 88]], "habilitada": true}
+ ],
+ "via": [[0, 64], [256, 64]],
+ "sitios": {"desmonte": [180, 64], "obra": [183.5, 95.5]}
+}
