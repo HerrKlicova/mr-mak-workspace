@@ -45,10 +45,10 @@ T(117,86,"Viajeros: 2 del kit\nen espejo + cuerpo central","#1c1812",FS)
 for x in (150,169,188): rot(x+9,44,18,3,0,"#283440")
 T(92,37.8,"cargadero de cisternas →","#1c1812",FS,"#c4ac84")
 R(148,34,214,37,fill="#94948c")
-for z in (14,22,30):
+for z in (12,17,22):
     L([(146,z),(214,z)],"#94948c",2)
     for x in (150,169,188): rot(x+9,z,18,3,0,"#283440")
-R(144,6,216,33,outline="#88885c",w=4)
+R(144,25,214,31,fill="#88885c"); R(214,12,220,29,fill="#88885c")
 # naves de logística al suroeste (almacén de naranjas del kit, otra orientación)
 for x in (68,92,116): R(x,6,x+20,22,fill="#a86c50",outline="#1c1812")
 R(68,6,88,22,fill="#a86c50",outline="#f0dc9c",w=3); T(69,20,"cuartel","#1c1812",FS)

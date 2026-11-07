@@ -59,11 +59,21 @@
   [
    [
     146,
-    14
+    12
    ],
    [
     214,
-    14
+    12
+   ]
+  ],
+  [
+   [
+    146,
+    17
+   ],
+   [
+    214,
+    17
    ]
   ],
   [
@@ -74,16 +84,6 @@
    [
     214,
     22
-   ]
-  ],
-  [
-   [
-    146,
-    30
-   ],
-   [
-    214,
-    30
    ]
   ]
  ],
@@ -757,7 +757,7 @@
    "pos": [
     159,
     0,
-    14
+    12
    ],
    "yaw": 0,
    "variante": 2
@@ -767,7 +767,7 @@
    "pos": [
     159,
     0,
-    22
+    17
    ],
    "yaw": 0,
    "variante": 0
@@ -777,7 +777,7 @@
    "pos": [
     159,
     0,
-    30
+    22
    ],
    "yaw": 0,
    "variante": 3
@@ -797,7 +797,7 @@
    "pos": [
     178,
     0,
-    14
+    12
    ],
    "yaw": 0,
    "variante": 0
@@ -807,7 +807,7 @@
    "pos": [
     178,
     0,
-    22
+    17
    ],
    "yaw": 0,
    "variante": 3
@@ -817,7 +817,7 @@
    "pos": [
     178,
     0,
-    30
+    22
    ],
    "yaw": 0,
    "variante": 1
@@ -837,7 +837,7 @@
    "pos": [
     197,
     0,
-    14
+    12
    ],
    "yaw": 0,
    "variante": 3
@@ -847,7 +847,7 @@
    "pos": [
     197,
     0,
-    22
+    17
    ],
    "yaw": 0,
    "variante": 1
@@ -857,7 +857,7 @@
    "pos": [
     197,
     0,
-    30
+    22
    ],
    "yaw": 0,
    "variante": 4
@@ -871,7 +871,8 @@
    ],
    "yaw": 315,
    "variante_por_estado": "Caída: vacía; Liberada: andamio",
-   "nota": "recinto heredado"
+   "nota": "recinto heredado",
+   "variante": 2
   },
   {
    "pieza": "kit/torreta_vigilancia",
@@ -882,7 +883,8 @@
    ],
    "yaw": 45,
    "variante_por_estado": "Caída: vacía; Liberada: andamio",
-   "nota": "recinto heredado"
+   "nota": "recinto heredado",
+   "variante": 2
   },
   {
    "pieza": "kit/torreta_vigilancia",
@@ -893,7 +895,8 @@
    ],
    "yaw": 135,
    "variante_por_estado": "Caída: vacía; Liberada: andamio",
-   "nota": "recinto heredado"
+   "nota": "recinto heredado",
+   "variante": 2
   },
   {
    "pieza": "kit/torreta_vigilancia",
@@ -904,7 +907,8 @@
    ],
    "yaw": 225,
    "variante_por_estado": "Caída: vacía; Liberada: andamio",
-   "nota": "recinto heredado"
+   "nota": "recinto heredado",
+   "variante": 2
   },
   {
    "pieza": "kit/torreta_vigilancia",
@@ -915,7 +919,8 @@
    ],
    "yaw": 90,
    "variante_por_estado": "Caída: vacía; Liberada: andamio",
-   "nota": "recinto heredado"
+   "nota": "recinto heredado",
+   "variante": 1
   },
   {
    "pieza": "kit/torreta_vigilancia",
@@ -926,106 +931,89 @@
    ],
    "yaw": 270,
    "variante_por_estado": "Caída: vacía; Liberada: andamio",
-   "nota": "recinto heredado"
+   "nota": "recinto heredado",
+   "variante": 1
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
     149,
     0,
-    33
+    28
    ],
-   "yaw": 0
+   "yaw": 90
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
     159,
     0,
-    33
+    28
    ],
-   "yaw": 0
+   "yaw": 90
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
     169,
     0,
-    33
+    28
    ],
-   "yaw": 0
+   "yaw": 90
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
     179,
     0,
-    33
+    28
    ],
-   "yaw": 0
+   "yaw": 90
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
     189,
     0,
-    33
+    28
    ],
-   "yaw": 0
+   "yaw": 90
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
     199,
     0,
-    33
+    28
    ],
-   "yaw": 0
+   "yaw": 90
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
     209,
     0,
-    33
+    28
+   ],
+   "yaw": 90
+  },
+  {
+   "pieza": "castellon/talud_tierra_10m",
+   "pos": [
+    217,
+    0,
+    17
    ],
    "yaw": 0
   },
   {
-   "pieza": "kit/talud_tierra_10m",
+   "pieza": "castellon/talud_tierra_10m",
    "pos": [
-    219,
+    217,
     0,
-    33
+    25
    ],
    "yaw": 0
-  },
-  {
-   "pieza": "kit/talud_tierra_10m",
-   "pos": [
-    216,
-    0,
-    11
-   ],
-   "yaw": 90
-  },
-  {
-   "pieza": "kit/talud_tierra_10m",
-   "pos": [
-    216,
-    0,
-    21
-   ],
-   "yaw": 90
-  },
-  {
-   "pieza": "kit/talud_tierra_10m",
-   "pos": [
-    216,
-    0,
-    30.5
-   ],
-   "yaw": 90
   }
  ],
  "carreteras": [
