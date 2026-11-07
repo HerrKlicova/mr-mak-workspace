@@ -8,7 +8,7 @@ Encargo de Eugenio (7-nov, 09:03): «manda a alguien a diseñar otra estación i
   - es la **única fuente de combustible** (60 u al día, la refinería; economía §2), y sin combustible no se mueve ningún tren;
   - es **el talón de Aquiles**: la Colmena va a por ella el día 7 (D-N, idea de Hugo, ya en el guion).
   - Valencia-Nord no sirve como segunda estación, porque es un nido y nunca es segura (D-N14). Teruel llega el día 5 y queda lejos, en el interior.
-- **Castellón se monta casi entera con el kit de Sagunto, combinado de otra manera**, y solo lleva **dos piezas nuevas**: el vagón cisterna y el depósito flexible de combustible. Lo propio de cada estación sale de lo que produce, no de un arte distinto.
+- **Castellón se monta casi entera con el kit de Sagunto, combinado de otra manera**, y solo lleva **una pieza nueva**: el vagón cisterna. Lo propio de cada estación sale de lo que produce, no de un arte distinto.
 - **Toda estación reclamada se visita igual que Sagunto**: desde el mapa, se entra en su zona de 256 × 128 m. Se propone un bucle de trenes (§4) que da a cada visita algo que hacer.
 
 ## 1. Disposición (coordenadas locales de la zona, vía principal a lo largo de X)
@@ -22,14 +22,12 @@ Encargo de Eugenio (7-nov, 09:03): «manda a alguien a diseñar otra estación i
 | **Haz de mercancías** de 3 vías | Z 44 / 48 / 52, X 46–230 | Donde se forman los trenes de cisternas | Vía del kit |
 | **Ramal del Grau** | Sale por el este en Z 44 | Une la estación con la refinería y el puerto (SIN VERIFICAR con el trazado real) | Vía del kit. Por aquí llega el combustible |
 | **Cargadero de cisternas** | X 148–214, Z 34–37 | Donde se llenan los trenes de combustible | `muelle_mercancias` de Sagunto (v0–v5), puesto en otra función |
-| **Depósito de combustible del ejército** | X 144–216, Z 6–33 | El ejército guarda en la estación lo que manda la refinería, para no depender del ramal cada día | **Nuevo**: depósitos flexibles con muro de tierra, como los de las fotos H8 (FARP) de Paula |
+| **Depósito de combustible** | X 144–216, Z 6–33 | El ejército guarda en la estación lo que manda la refinería, aparcando cisternas llenas en tres vías muertas rodeadas de un muro de tierra | Vía del kit y vagones cisterna. **Castellón empieza con 1 depósito hecho: 100 + 200 = 300 u**, que son 5 días de producción (Hugo, `docs/economia/castellon-bucle.md`). Cada cisterna representa unas 15 u (21 cisternas = 300 u), y las que se ven llenas o vacías dicen el stock |
 | **Naves de logística** | X 52–130, Z 14–32 | Polígono junto a la estación | `almacen_naranjas` de Sagunto girado 90° |
 | **Recinto de HESCO** | X 64–222, Z 4–90 | **Lo levantaron los supervivientes de la ciudad.** Al reclamar Castellón se hereda dañado | HESCO y puertas del kit (dos de vía en cada extremo, una de vía para el ramal y la puerta de vehículos D-N111 al oeste) |
 | **Puesto v2** | (238; 26), fuera del recinto | Cubre la cabeza del ramal, por donde entra el combustible | `puesto_frente` |
 
-Recuento: **unas 14 piezas del kit y 2 nuevas.** De cada pieza nueva hacen falta 5 variantes (regla de Eugenio):
-- **Vagón cisterna**: limpio, oxidado, con la escalera arrancada, con la chapa abollada y quemado (este último como resto).
-- **Depósito flexible**: lleno, a medias, vacío y arrugado, con una lona encima y roto en un charco seco.
+Recuento: **unas 14 piezas del kit y 1 nueva.** Hacen falta 5 variantes del **vagón cisterna** (regla de Eugenio): limpio, oxidado, con la escalera arrancada, con la chapa abollada y quemado. Además, un decal de lleno o vacío, para que el stock se lea en el depósito. Hugo confirmó que el depósito no necesita una pieza nueva.
 
 ## 2. Sitios del mapa de frentes y entradas de la horda
 - **C1 Estación** (130; 79): el recinto.
@@ -46,18 +44,18 @@ Recuento: **unas 14 piezas del kit y 2 nuevas.** De cada pieza nueva hacen falta
 ## 4. Bucle entre estaciones (lo que se ve dentro; los números son de Hugo)
 1. **Cargar en origen.** En Sagunto, el tren se carga de materiales (80 al día, la acería), munición y personas. En el andén se ven los palés y la gente esperando.
 2. **Viajar.** Por el mapa, con la ETA y el riesgo de emboscada (desmonte, Palancia y Mijares están por el camino).
-3. **Descargar en destino.** En Castellón, el tren para en el andén central. Los palés pasan al almacén, y se ve el montón crecer junto a las naves. Las personas bajan y van al edificio de viajeros, que hace de cuartel. La carga y la descarga duran 4 h por viaje (economía §3).
+3. **Descargar en destino.** En Castellón, el tren para en el andén central. **Un tren lleva 100 u en 5 vagones de 20, y cada vagón deja un montón visible** en el andén y después junto a las naves (Hugo; solo visual, SIN VERIFICAR). Caben unas 30 personas por tren (Hugo, SIN VERIFICAR: el R2 no tiene capacidad en ningún CSV). Las personas bajan y van al edificio de viajeros, que hace de cuartel. La carga y la descarga duran 4 h por viaje (economía §3), fijas: solo el andén de Sagunto las rebaja un 25 %. Las grúas y el muelle de Castellón son decorado.
 4. **Construir.** Con los materiales que han llegado se repara el recinto heredado tramo a tramo (D-N123: 1 u repara 5.000), o se amplía. Lo hacen los obreros de la guarnición, y la obra se ve con el estado «en reparación» del muro de Teo.
-5. **Producir.** Con la plantilla completa (30 personas), Castellón rinde el 100 %. Con más gente, hasta el doble (economía §2). El combustible llega por el ramal y llena el depósito C2: los depósitos flexibles se ven llenos, a medias o vacíos según el stock. Esto es una de las 5 variantes, y aquí sirve para dar información.
-6. **Volver cargado.** El tren se llena en el cargadero de cisternas y vuelve a Sagunto con combustible. Con eso se cierra el bucle: Sagunto pone materiales y gente, y Castellón pone combustible.
+5. **Producir.** Con 30 personas, Castellón rinde el 100 %, y con 90 el ×2 (tope de 250 y mínimo de 24; Hugo). El combustible llega por el ramal y llena el depósito C2: las cisternas llenas o vacías dicen el stock. Qué pasa al llenarse los 300 u está SIN VERIFICAR (Hugo se lo pregunta a Nacho).
+6. **Volver cargado.** El tren se llena en el cargadero de cisternas y vuelve a Sagunto con combustible. Con eso se cierra el bucle: Sagunto pone materiales y gente, y Castellón pone combustible. **Hugo**: un viaje redondo dura ~7,3 h, así que salen 2 viajes al día con un tren (hasta 200 u de combustible, gastando 16). Si carga en los dos sentidos, ~1,5 viajes al día, que también cuadra pero está sin medir. Castellón pesa ×1,5 para la Colmena (D-N34).
 - Nules (`nules-nivel.md`) es el mismo bucle con víveres, y empieza con la fundación.
-- **Pendiente de Hugo** (se lo he pedido): cuánto ocupa una descarga en el andén, cuántas personas caben en un tren, dónde y cuánto se almacena el combustible (300 u se llenan en 5 días) y si el bucle mínimo le cuadra.
+- Las cifras del bucle son de Hugo (`docs/economia/castellon-bucle.md`). Cómo se entra en cada estación y la plantilla por tamaño las define Lucía en `docs/diseno-red-estaciones.md`, y mi §3 se ajusta a lo que ella decida.
 
 ## 5. Pendiente
-- **Hugo**: lo del §4, más el coste del recinto heredado (488 m de perímetro) y en qué estado se hereda.
-- **Teo**: vagón cisterna y depósito flexible, con 5 variantes cada uno, y el cuerpo central del edificio de viajeros.
+- **Hugo**: el coste del recinto heredado (488 m de perímetro) y en qué estado se hereda.
+- **Teo**: el vagón cisterna (5 variantes y el decal de lleno o vacío) y el cuerpo central del edificio de viajeros.
 - **Paula**: la estación de Castellón y el ramal del Grau, si hay fotos libres.
 - **Nacho y Marcos**: el dato por estación (§3), después del MVP.
-- **FPS**: 12 bloques, 2 edificios de viajeros, 5 marquesinas, unos 20 coches, 6 cisternas, 7 depósitos y el recinto. Menos vegetación que Sagunto. Hay que medirlo (D-N70).
+- **FPS**: 12 bloques, 2 edificios de viajeros, 5 marquesinas, unos 20 coches, unas 27 cisternas y el recinto. Menos vegetación que Sagunto. Hay que medirlo (D-N70).
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

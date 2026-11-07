@@ -45,8 +45,9 @@ T(117,86,"Viajeros: 2 del kit\nen espejo + cuerpo central","#1c1812",FS)
 for x in range(150,212,12): rot(x+6,44,11,2.8,0,"#283440")
 T(92,37.8,"cargadero de cisternas →","#1c1812",FS,"#c4ac84")
 R(148,34,214,37,fill="#94948c")
-for i,(x,z) in enumerate([(154,26),(170,26),(186,26),(202,26),(162,16),(178,16),(194,16)]):
-    d.ellipse([P(x-6,z+3.5),P(x+6,z-3.5)],fill="#50541c",outline="#1c1812")
+for z in (14,22,30):
+    L([(146,z),(214,z)],"#94948c",2)
+    for x in range(150,212,12): rot(x+6,z,11,2.8,0,"#283440")
 R(144,6,216,33,outline="#88885c",w=4)
 # naves de logística al suroeste (almacén de naranjas del kit, otra orientación)
 for x in (52,80,108): R(x,14,x+22,32,fill="#a86c50",outline="#1c1812")
@@ -62,7 +63,7 @@ T(196,86.5,"recinto HESCO","#1c1812",FS,"#70784c")
 rot(238,26,14.3,16.4,0,"#70784c"); T(230,16,"puesto v2","#1c1812",FS,"#70784c")
 def sitio(x,z,n,txt,dx,dz):
     d.ellipse([P(x-3.2,z+3.2),P(x+3.2,z-3.2)],outline="#d4d0cc",width=3); T(x-2.4,z+2.2,n,"#d4d0cc",FB); T(x+dx,z+dz,txt,"#d4d0cc",F,"#1c1812")
-sitio(130,79,"C1","C1 Estación",8,14); sitio(178,22,"C2","C2 Depósito de combustible (flexibles con muro de tierra)",-62,-12); sitio(38,56,"C3","C3 Ronda",-40,-6); sitio(244,44,"C4","C4 Ramal",-60,8)
+sitio(130,79,"C1","C1 Estación",8,14); sitio(178,22,"C2","C2 Depósito: cisternas en vías muertas con muro de tierra (300 u)",-70,-12); sitio(38,56,"C3","C3 Ronda",-40,-6); sitio(244,44,"C4","C4 Ramal",-60,8)
 def flecha(x0,z0,x1,z1,lab):
     L([(x0,z0),(x1,z1)],"#982420",4); a=np.arctan2(z1-z0,x1-x0)
     for s in (2.6,-2.6): L([(x1,z1),(x1-4*np.cos(a+s*0.3),z1-4*np.sin(a+s*0.3))],"#982420",4)
@@ -72,7 +73,7 @@ R(0,0,256,128,outline="#d4d0cc",w=2)
 T(-4,133,"Castellón v0 · planta 4 px/m · zona local 256 × 128 m · plano, no build","#d4d0cc",FS,"#1c1812")
 T(-4,-2,"← Nules y Sagunto","#d4d0cc",FS,"#1c1812"); T(200,133,"Vinaròs (línea cerrada) →","#d4d0cc",FS,"#1c1812")
 ly=H+10
-items=[("#b4a080","kit de Sagunto: bloques B1–B5, viajeros ×2, marquesina ×5, paso superior, almacén"),("#283440","nuevo: vagón cisterna (5 variantes)"),("#50541c","nuevo: depósito flexible de combustible (5 variantes)"),("#70784c","recinto HESCO y puesto v2 (kit)"),("#7c3c18","puertas de vía (8 u, D-N59)"),("#f0dc9c","puerta de vehículos (D-N111)"),("#d4d0cc","sitios del mapa de frentes C1–C4"),("#982420","entradas de la horda Ca–Cd (solo en el plano)")]
+items=[("#b4a080","kit de Sagunto: bloques B1–B5, viajeros ×2, marquesina ×5, paso superior, almacén"),("#283440","nuevo: vagón cisterna (5 variantes)"),("#94948c","vías muertas del depósito (kit)"),("#70784c","recinto HESCO y puesto v2 (kit)"),("#7c3c18","puertas de vía (8 u, D-N59)"),("#f0dc9c","puerta de vehículos (D-N111)"),("#d4d0cc","sitios del mapa de frentes C1–C4"),("#982420","entradas de la horda Ca–Cd (solo en el plano)")]
 for i,(c,t) in enumerate(items):
     x=20+(i%2)*W//2; y=ly+(i//2)*26
     d.rectangle([x,y,x+18,y+16],fill=c,outline="#d4d0cc"); d.text((x+26,y),t,fill="#d4d0cc",font=FS)
