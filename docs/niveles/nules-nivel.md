@@ -29,6 +29,18 @@ Además, lo que produce tiene edificio: la **cooperativa citrícola** junto a la
 - Al cruzar la vía, el recinto necesita **dos puertas de vía** (oeste y este), igual que el de Sagunto, además de **una puerta de vehículos** al sur, hacia el ramal y la cooperativa. Son dos puertas más que en el ejemplo de la D-N44 (+12 u si cuestan 6 cada una). **Hugo** tiene que decir si el nivel de estación sigue saliendo el día que toca.
 - La cooperativa queda **fuera del recinto**, a 15 m de la puerta de vehículos. Es a propósito: es lo que la horda ataca y obliga a elegir entre ampliar el muro o defenderla con un puesto. Es un frente del mundo persistente (D-N96) desde el primer día.
 
+### 2b. Recinto v0 tramo a tramo (para Hugo, `docs/economia/nules-recinto-v0.md`)
+Rectángulo X 108–152 × Z 56–87: **150 m de perímetro**, de los que **132 m son de HESCO y 18 m son puertas**.
+| Tramo | Longitud | HESCO | Puerta |
+|---|---|---|---|
+| Sur (Z 56, de X 108 a 152) | 44 m | 36 m (X 108–126 y 134–152) | **De vehículos**, 8 m, en X 126–134 (modelo de la D-N111) |
+| Oeste (X 108, de Z 56 a 87) | 31 m | 26 m (Z 56–62 y 67–87) | **De vía oeste**, 5 m, en Z 62–67 |
+| Norte (Z 87, de X 108 a 152) | 44 m | 44 m | — |
+| Este (X 152, de Z 56 a 87) | 31 m | 26 m (Z 56–62 y 67–87) | **De vía este**, 5 m, en Z 62–67 |
+- Módulos de 10 m como máximo (D-N44, regla 1): sur 2 × 18 m, oeste y este 6 + 20 m, norte 44 m. Todo cae a 60 m o menos del centro del andén (130; 69,5); la esquina más lejana queda a unos 27 m.
+- Propuesta de nidos y focos, que no cambian el perímetro: nidos en las esquinas noroeste (108; 87), hacia el naranjal (Nc) y la vía oeste, y sureste (152; 56), hacia la cooperativa y la avenida. Focos en el centro del muro norte, sobre la puerta de vehículos y sobre la puerta de vía este.
+- **El tren no queda dentro.** El andén mide 60 m (X 100–160) y el recinto solo 44 m, y el tren de fundación, de unos 70–100 m, sobresale por las dos puertas de vía. Meterlo entero obligaría a un recinto de unos 104 × 31 m, con 270 m de perímetro: casi el doble de material. Mi recomendación es dejarlo fuera. Mientras descarga, el tren queda parado con **las dos puertas de vía abiertas**, y ese es el momento débil de la fundación. Después se va y las puertas se cierran. El tren es un muro móvil (D-N27), así que mientras está parado tapa él mismo los huecos.
+
 ## 3. Sitios del mapa de frentes
 - **N1 Estación** (130; 78): el recinto.
 - **N2 Cooperativa** (158; 44): la producción. Puesto v2 opcional.
