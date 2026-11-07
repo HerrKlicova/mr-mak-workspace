@@ -1,3 +1,25 @@
+# Cómo probar «La primera noche en Sagunto» (build de la noche del 6 al 7 de noviembre)
+
+Marcos (Programación). Build: `C:\Dev\TBD\Builds\Noche13\TBD.exe` (o la última `Noche##`). Código: rama `marcos/noche-prototipo` del repositorio TBD (incluye el PR #24 de Nacho). Datos de Hugo: `StreamingAssets/Noche` (noche_sagunto.json, balance_noche.csv, balance_unidades.csv).
+
+## Jugar
+1. Abre `TBD.exe`. Menú: **Jugar** (entra directo a la zona de Sagunto de noche), Continuar (si hay partida guardada con F5), Cómo se juega, Opciones (volumen general, música, efectos, pantalla completa), Salir.
+2. Empiezas a las 22:00 con 5 pelotones (fusileros, ametralladores, granaderos, tiradores, zapadores), el Dragón, 2 VAMTAC y el NH90 en el helipuerto. La Colmena llega por O1–O4 en 6 oleadas. Ganas si al amanecer siguen en pie la estación y el tren; si no, pierdes. Reloj ×28 (17 minutos).
+3. Controles de noche: clic o arrastre = elegir pelotones; clic derecho (sin arrastrar) = mover; **A** + clic = atacar moviéndose; **S** mantener; **D** emplazar hacia el cursor; **G** alto el fuego; **T** reabastecer; clic en una tarjeta de vehículo = elegirlo (clic derecho: mover; el NH90 despega con la primera orden y aterriza si lo mandas al helipuerto). Cámara: flechas o bordes de pantalla (WASD NO), **Z** acerca, **X** aleja, rueda (15 % por muesca, centrada en el cursor), botón derecho arrastrando gira, **R/F** inclina. **F2** muestra la depuración, **F5** guarda, **F9** captura. Alejar del todo y una muesca más avisa; otra seguida sale al mapa.
+4. Al amanecer sale el parte de la noche (sin velo) con **Seguir** (abre la noche siguiente +10 %). La derrota para el mundo y ofrece Volver a empezar o Menú principal.
+5. **Vista cercana del tren**: en el mapa (escena Union, sin entrar en la zona) pulsa **V**; **V o Esc** vuelve. Z/X o rueda cambian el zoom.
+
+## Banderas de línea de comandos (QA)
+`-menu-auto` (salta el menú y juega) · `-nightclock N` (reloj ×N; 28 normal, 200 para ver el final en 2:24) · `-nightshots` (capturas a 12/40/90/150 s en `Captures`) · `-nightlose` (cae la estación a los 15 s) · `-vehdemo` (VAMTAC contra el muro oeste y NH90 despegando, con capturas) · `-trainview` (entra y sale tres veces de la vista cercana y captura el mapa al volver) · `-stress10k-sagunto -ortho N` (prueba de rendimiento, escribe `Captures/stress_10k_fps.txt` con FPS, p99 y peor fotograma) · `-escala 1.0` (quita el ×1,3 del dibujo) · `-logFile ruta` (log de la build).
+
+## Log
+Líneas `[NOCHE]` para Hugo y Sara: inicio, una por oleada y el resultado final; y `[NOCHE-FPS]` cada 20 s.
+
+## Conocido (honesto)
+Munición de vehículos y combustible no se descuentan; los vehículos atraviesan muros (la puerta E4 de Nacho no está integrada); no hay embarcar ni desembarcar; el HUD aún usa texto sobre cajas, solo con parte del arte de Bruno; zona y mapa son escenas distintas (D-N91 pide una sola: deuda); el sonido está generado pero sin pulir.
+
+---
+
 # Cómo probar el juego (H3 y H4), en 5–10 minutos
 
 Marcos (Programación), noche del 5 al 6 de noviembre. Todo lo de aquí lo he comprobado yo en el Editor, y también desde una copia limpia del repositorio (clon nuevo, importado desde cero en 2 min 18 s, sin errores de compilación).
