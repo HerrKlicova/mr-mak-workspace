@@ -23,7 +23,7 @@ Encargo de Eugenio (7-nov, 09:03): «manda a alguien a diseñar otra estación i
 | **Haz de mercancías** de 3 vías | Z 44 / 48 / 52, X 46–230 | Donde se forman los trenes de cisternas | Vía del kit |
 | **Ramal del Grau** | Sale por el este en Z 44 | Une la estación con la refinería y el puerto (SIN VERIFICAR con el trazado real) | Vía del kit. Por aquí llega el combustible |
 | **Cargadero de cisternas** | X 148–214, Z 34–37 | Donde se llenan los trenes de combustible | `muelle_mercancias` de Sagunto (v0–v5), puesto en otra función |
-| **Depósito de combustible** | X 144–216, Z 6–33 | El ejército guarda en la estación lo que manda la refinería, aparcando cisternas llenas en tres vías muertas rodeadas de un muro de tierra | Vía del kit y vagones cisterna. **Castellón empieza con 1 depósito hecho: 100 + 200 = 300 u**, que son 5 días de producción (Hugo, `docs/economia/castellon-bucle.md`). Cada cisterna representa unas 17 u (18 cisternas ≈ 300 u), y las que se ven llenas o vacías dicen el stock |
+| **Depósito de combustible** | X 144–216, Z 6–33 | El ejército guarda en la estación lo que manda la refinería, aparcando cisternas llenas en tres vías muertas rodeadas de un muro de tierra | Vía del kit y vagones cisterna. **Castellón empieza con 1 depósito hecho: 100 + 200 = 300 u**, que son 5 días de producción (Hugo, `docs/economia/castellon-bucle.md`). Con el vagón de Teo (18 m entre topes y cuba de Ø 3 m, SIN VERIFICAR), en cada vía muerta de 68 m caben 3: **9 cisternas, cada una de unas 33 u (9 × 33 ≈ 300 u)**, y las que se ven llenas o vacías dicen el stock |
 | **Naves de logística y cuartel** | X 68–136, Z 6–22 (tres naves de 20 m) | Polígono junto a la estación. **La primera nave (X 68–88) es el cuartel**: en una principal crea tropas (D-N124 §1) | `almacen_naranjas` de Sagunto girado 90°. Un camino interior (Z 26–32) va de la puerta de vehículos (X 64, Z 25–33) al depósito |
 | **Recinto de HESCO** | X 64–222, Z 4–90 | **Lo levantaron los supervivientes de la ciudad.** Al reclamar Castellón se hereda dañado | HESCO y puertas del kit (dos de vía en cada extremo, una de vía para el ramal y la puerta de vehículos D-N111 al oeste) |
 | **Puesto v2** | (238; 26), fuera del recinto | Cubre la cabeza del ramal, por donde entra el combustible | `puesto_frente` |
@@ -70,6 +70,6 @@ Castellón cumple todo lo obligatorio de una **principal** (§2.1): doble vía y
 - **Teo**: el vagón cisterna (5 variantes y el decal de lleno o vacío) y el cuerpo central del edificio de viajeros.
 - **Paula**: la estación de Castellón y el ramal del Grau, si hay fotos libres.
 - **Nacho y Marcos**: el dato por estación (§3), después del MVP.
-- **FPS**: 12 bloques, 2 edificios de viajeros, 5 marquesinas, unos 20 coches, 24 cisternas (18 en el depósito y 6 en el cargadero) y el recinto. Menos vegetación que Sagunto. Hay que medirlo (D-N70).
+- **FPS**: 12 bloques, 2 edificios de viajeros, 5 marquesinas, unos 20 coches, 12 cisternas (9 en el depósito y 3 en el cargadero) y el recinto. Menos vegetación que Sagunto. Hay que medirlo (D-N70).
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
