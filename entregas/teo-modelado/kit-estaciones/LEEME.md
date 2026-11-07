@@ -12,6 +12,9 @@ El origen es el centro de la planta, en el suelo, y el frente mira a la vía (+Z
 
 **Ojo con el fondo:** Nules usa cuerpos y remates de 8 m de fondo y Castellón de 13 m, y los FBX sueltos tienen 9 m. Para esos dos, o escalas el módulo en Z de Unity (fondo/9) o usas el FBX del montaje. Si prefieres FBX por fondo, te los saco.
 
+- **SM_KitPaso_v0–v4** (aprobado por Lucía a las 08:42): paso entre andenes. El origen está entre los dos andenes, a la cota del carril, con luz de 9 m entre ejes de andén y las escaleras bajando hacia +X de Blender (-X de Unity, ver la convención de abajo). Variantes: 0 paso inferior (**el de Castellón por defecto**, con origen en X 120 / Z 66,5 de Álvaro); 1 pasarela de celosía; 2 de hormigón; 3 cubierta; 4 hundida.
+- **SM_KitVia_v0–v1**: vía auxiliar de 10 m (sana o con un carril levantado), solo para las capturas. La vía de juego es la tuya.
+
 ## Montajes de prueba (`montajes/`, una sola malla por estado)
 Estados de la D-N124:
 - **Nules** (apeadero): v0 abandonada (estado inicial), v1 Segura, v2 En liberación, v3 Caída, v4 Liberada.
