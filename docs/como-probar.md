@@ -112,3 +112,10 @@ Añadir `TBD_SEEDS=20` mide además 20 partidas completas contra la referencia d
 - **Una sola zona a la vez** y un solo encuentro de emboscada a la vez.
 - **La tropa a pie** que se queda en la zona al salir se pierde (aún no es guarnición del nodo).
 - **Coop** no existe todavía: lo que hay es lockstep con dos mundos en una misma máquina, y su prueba de desincronización.
+
+## Novedades de la Noche29 (7-nov)
+- La noche es persistente: M (o alejar la rueda al tope) sale al mapa y la noche SIGUE fuera de pantalla (NightSim de Nacho); al volver a Sagunto se recrean los zombis donde van. Solo Volver a empezar o Menu reinician.
+- Vehiculos: disparan solos (fuego libre); con un vehiculo seleccionado, G = alto el fuego, A = fuego libre, T = recargar del almacen (parado junto al tren; el NH90 en su plataforma).
+- Trazadoras que viajan (no laseres) y fogonazos; soldados con el arma en la mano (SoldadoArmado de Teo); noche azul v3; texturas nuevas de los vehiculos.
+- Banderas nuevas de QA: -leaveat N / -returnafter N (salir y volver), -shotsat 236,242, -sinrecarga, -luz luna|ambiente|focos, -colorcasos, -capdirecta, -lowrtsrgb, -vehfuego.
+- Pendiente (no hecho): marca de seleccion, destino y formaciones al estilo Total War; pose de apuntar; parches del suelo; color del HUD (doble sRGB sin resolver); boton del parte; D-N118 de las tarjetas.
