@@ -10,7 +10,7 @@ Marcos (Programación). Build: `C:\Dev\TBD\Builds\Noche13\TBD.exe` (o la última
 5. **Vista cercana del tren**: en el mapa (escena Union, sin entrar en la zona) pulsa **V**; **V o Esc** vuelve. Z/X o rueda cambian el zoom.
 
 ## Banderas de línea de comandos (QA)
-`-menu-auto` (salta el menú y juega) · `-nightclock N` (reloj ×N; 28 normal, 200 para ver el final en 2:24) · `-nightshots` (capturas a 12/40/90/150 s en `Captures`) · `-nightlose` (cae la estación a los 15 s) · `-vehdemo` (VAMTAC contra el muro oeste y NH90 despegando, con capturas) · `-trainview` (entra y sale tres veces de la vista cercana y captura el mapa al volver) · `-stress10k-sagunto -ortho N` (prueba de rendimiento, escribe `Captures/stress_10k_fps.txt` con FPS, p99 y peor fotograma) · `-escala 1.0` (quita el ×1,3 del dibujo) · `-logFile ruta` (log de la build).
+`-menu-auto` (salta el menú y juega) · `-nightclock N` (reloj ×N; 28 normal, 200 para ver el final en 2:24) · `-nightshots` (capturas a 12/40/90/150 s en `Captures`) · `-nightlose` (cae la estación a los 15 s) · `-vehdemo` (VAMTAC contra el muro oeste y NH90 despegando, con capturas) · `-trainview` (entra y sale tres veces de la vista cercana y captura el mapa al volver) · `-stress10k-sagunto -ortho N` (prueba de rendimiento, escribe `Captures/stress_10k_fps.txt` con FPS, p99 y peor fotograma) · `-nightwin` (estación y tren inmortales: sale el parte de victoria con «Seguir») · `-nightdense` (10.000 zombis a los 20 s) · `-menu-shot` (capturas del menú y de Opciones) · `-escala 1.0` (quita el ×1,3 del dibujo) · `-logFile ruta` (log de la build).
 
 ## Log
 Líneas `[NOCHE]` para Hugo y Sara: inicio, una por oleada y el resultado final; y `[NOCHE-FPS]` cada 20 s.
