@@ -57,3 +57,6 @@
 - Pixelab: solo `create_image_pixen`; nunca gastar sin «sí» directo de Eugenio. ElevenLabs: clave en variable de entorno, nunca en el repo.
 - Las capturas supersize (×4) salen más oscuras: mide siempre en captura normal.
 - Los goldens y `Level`/obras: Nacho y tú no tocáis `Level` a la vez; avisa a Mak al empezar y al acabar.
+
+## Límite conocido: fuego de vehículos fuera del hash (7-nov)
+El fuego de vehículos es local, no pasa por la cola única, así que no entra en el hash. La 4ª corrida de qa20 (`-nightbot -vehfuego`, Noche21) mide el techo, pero su «hash idéntico en los dos mundos» no prueba determinismo del fuego de vehículos. Decisión de Mak: fuera de P1; no tocar antes de la congelación. Para después: pedir a Nacho el CmdType vehículo+objetivo.
