@@ -22,7 +22,7 @@ Encargo de Eugenio (7-nov, 09:03): «manda a alguien a diseñar otra estación i
 | **Haz de mercancías** de 3 vías | Z 44 / 48 / 52, X 46–230 | Donde se forman los trenes de cisternas | Vía del kit |
 | **Ramal del Grau** | Sale por el este en Z 44 | Une la estación con la refinería y el puerto (SIN VERIFICAR con el trazado real) | Vía del kit. Por aquí llega el combustible |
 | **Cargadero de cisternas** | X 148–214, Z 34–37 | Donde se llenan los trenes de combustible | `muelle_mercancias` de Sagunto (v0–v5), puesto en otra función |
-| **Depósito de combustible** | X 144–216, Z 6–33 | El ejército guarda en la estación lo que manda la refinería, aparcando cisternas llenas en tres vías muertas rodeadas de un muro de tierra | Vía del kit y vagones cisterna. **Castellón empieza con 1 depósito hecho: 100 + 200 = 300 u**, que son 5 días de producción (Hugo, `docs/economia/castellon-bucle.md`). Cada cisterna representa unas 15 u (21 cisternas = 300 u), y las que se ven llenas o vacías dicen el stock |
+| **Depósito de combustible** | X 144–216, Z 6–33 | El ejército guarda en la estación lo que manda la refinería, aparcando cisternas llenas en tres vías muertas rodeadas de un muro de tierra | Vía del kit y vagones cisterna. **Castellón empieza con 1 depósito hecho: 100 + 200 = 300 u**, que son 5 días de producción (Hugo, `docs/economia/castellon-bucle.md`). Cada cisterna representa unas 17 u (18 cisternas ≈ 300 u), y las que se ven llenas o vacías dicen el stock |
 | **Naves de logística** | X 52–130, Z 14–32 | Polígono junto a la estación | `almacen_naranjas` de Sagunto girado 90° |
 | **Recinto de HESCO** | X 64–222, Z 4–90 | **Lo levantaron los supervivientes de la ciudad.** Al reclamar Castellón se hereda dañado | HESCO y puertas del kit (dos de vía en cada extremo, una de vía para el ramal y la puerta de vehículos D-N111 al oeste) |
 | **Puesto v2** | (238; 26), fuera del recinto | Cubre la cabeza del ramal, por donde entra el combustible | `puesto_frente` |
@@ -56,6 +56,6 @@ Recuento: **unas 14 piezas del kit y 1 nueva.** Hacen falta 5 variantes del **va
 - **Teo**: el vagón cisterna (5 variantes y el decal de lleno o vacío) y el cuerpo central del edificio de viajeros.
 - **Paula**: la estación de Castellón y el ramal del Grau, si hay fotos libres.
 - **Nacho y Marcos**: el dato por estación (§3), después del MVP.
-- **FPS**: 12 bloques, 2 edificios de viajeros, 5 marquesinas, unos 20 coches, unas 27 cisternas y el recinto. Menos vegetación que Sagunto. Hay que medirlo (D-N70).
+- **FPS**: 12 bloques, 2 edificios de viajeros, 5 marquesinas, unos 20 coches, 24 cisternas (18 en el depósito y 6 en el cargadero) y el recinto. Menos vegetación que Sagunto. Hay que medirlo (D-N70).
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
