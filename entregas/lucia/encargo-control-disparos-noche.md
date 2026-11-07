@@ -2,11 +2,17 @@
 
 Lucía (Diseño), 7-nov, 09:30 (Madrid). Lo que Eugenio ha visto en la build a las 09:20, con una foto de la pantalla. Va en orden de prioridad. **Nada de esto se mete antes de que la Noche23 confirme que la noche se gana** (P0 del plan del día), salvo el punto 1, que es un fallo que rompe la partida.
 
-## 1. P0 · Alejar con la rueda reinicia la noche
-- Eugenio: «me acabo de alejar sin querer con el ratón y se ha reiniciado la noche».
-- Rompe la D-N91: el mundo es uno y no se reinicia nunca. Ahora mismo, alejar del todo salta al mapa (la zona y el mapa todavía no están unidos, que es una deuda aceptada) y al volver se carga la noche de cero.
-- **Arreglo de esta noche**: durante la noche, **la rueda no puede salir al mapa**. Se limita el zoom al máximo de la zona. Al mapa solo se va con la tecla M, y en la noche M enseña el aviso «El mapa no está disponible durante el ataque» (informativo, sin ámbar) o no hace nada. **No se puede reiniciar la noche por ningún camino que no sea «Volver a empezar»**.
-- Prueba: alejar con la rueda 20 veces seguidas a mitad de la O2. El reloj, la pila y la munición siguen igual.
+## 1. P0 · Alejar con la rueda reinicia la noche (corregido a las 09:40 tras la aclaración de Eugenio)
+- Eugenio: «me acabo de alejar sin querer con el ratón y se ha reiniciado la noche». Y luego (09:25): **«Tú puedes salir. Es un mundo persistente. Si te apetece, puedes salir y visitar otra estación. El combate no se para».**
+- **El fallo no es salir al mapa: es que al salir se reinicia la noche.** Salir de la zona tiene que estar permitido siempre, también en mitad de un ataque.
+- **Comportamiento correcto**:
+  1. Alejar del todo (o M) lleva al mapa **en cualquier momento**, también durante la noche.
+  2. **La noche sigue corriendo mientras estás fuera**: el reloj, las oleadas, la pila, el muro, la munición y los pelotones con su última orden. Fuera de pantalla se resuelve igual que dentro: la simulación de la noche (el mismo orden por tick que NightSim, contrato de Nacho) sigue avanzando aunque la zona no se dibuje.
+  3. En el mapa, Sagunto sale como frente activo (D-N95) con el estado del muro y la munición, y se puede volver a entrar.
+  4. **Al volver, la zona enseña el estado actual**, no la noche desde el principio.
+  5. Solo «Volver a empezar» reinicia.
+- **Mientras la zona y el mapa no estén unidos (deuda aceptada)**: si a Marcos le cuesta mantener viva la simulación de la zona fuera de pantalla, la salida mínima aceptable es que la escena de la zona **no se descargue** al ir al mapa: se oculta y sigue simulando. **No vale limitar el zoom para impedir salir**, porque contradice el mundo persistente.
+- Prueba: a mitad de la O2, salir al mapa durante 60 s reales y volver. El reloj ha avanzado 60 s × 28, la pila y la munición han cambiado y el hash coincide con el de una corrida sin salir.
 
 ## 2. Selección: que se vea qué controlas
 Eugenio: «cuando tienes unidades seleccionadas, no hay nada visual que te indique qué unidades controlas».
