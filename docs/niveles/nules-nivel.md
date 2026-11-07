@@ -40,7 +40,7 @@ Además, lo que produce tiene edificio: la **cooperativa citrícola** junto a la
 - **Nd**: por la avenida, desde el pueblo (sur). Es la entrada de los asedios grandes, porque el pueblo es donde estaba la gente.
 
 ## 5. Vehículos (D-N96)
-Los vehículos llegan en el tren (D-N18: el blindado viaja en el tren y se despliega). Desde el andén salen por la puerta de vehículos al ramal. **Habilitados**: la avenida (de Z 0 al paso a nivel), el camino de la Vilavella (del paso a nivel a Z 128) y el ramal de la cooperativa.
+Los vehículos llegan en el tren (GDD, contenido del MVP: el blindado viaja en el tren y se despliega). Desde el andén salen por la puerta de vehículos al ramal. **Habilitados**: la avenida (de Z 0 al paso a nivel), el camino de la Vilavella (del paso a nivel a Z 128) y el ramal de la cooperativa.
 
 ## 6. Pendiente
 - **Paula**: fotos de la estación de Nules–La Vilavella, de una cooperativa citrícola de la Plana con muelle de vía, de una acequia y de una caseta de pozo con motor.
