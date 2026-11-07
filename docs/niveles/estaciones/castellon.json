@@ -933,8 +933,17 @@
   "tipo": "radar",
   "pos": [
    206,
+   0,
    82
-  ]
+  ],
+  "yaw": 180,
+  "parcela": "X 201,5–210,5 y Z 78,5–85,5 con la v1/v2 (9 × 7 m); 5 m al andén lateral y 4,5 m al muro norte",
+  "variante_por_estado": {
+   "en_construccion": 3,
+   "Segura": 1,
+   "Caida": 4
+  },
+  "nota": "No existe al empezar (Castellón empieza infestada): se construye. Modelo de Teo, docs/arte/modelado-3d/radar/."
  },
  "paradas_asalto": [
   {
