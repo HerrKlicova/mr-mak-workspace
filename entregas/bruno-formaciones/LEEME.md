@@ -10,7 +10,7 @@ Para el §3 de `docs/encargo-control-disparos-noche.md` (Lucía, en mr-mak 1378d
 | Columna | F3 | ui_formacion_columna_32.png | _16 | _12 |
 | Dispersa | F4 | ui_formacion_dispersa_32.png | _16 | _12 |
 - El de 12 va en la esquina inferior derecha de la tarjeta de 48, en (34,34), sobre una placa 181c30 de 14x14 en (33,33). Lo enseña muestra_formaciones_fantasma_x4.png.
-- Se pintan a escala entera (x1,5 en 1080 no: usa x1 o x2 según la escala del HUD, siempre con filtro Point).
+- Se pintan siempre a escala entera (x1 o x2, la misma que el resto del HUD), nunca a x1,5, y con filtro Point.
 
 ## Silueta fantasma (a resolución de pantalla, mientras se arrastra el frente)
 - `ui_fantasma_punto_2.png`: 2x2, d4d0cc al 50 % (el alfa ya viene en el PNG). Uno por soldado, en su hueco.
