@@ -1,4 +1,4 @@
-# QA13–QA15: diferencias entre la build y las maquetas
+# QA13–QA20: diferencias entre la build y las maquetas
 
 Bruno (Arte técnico), 07-11 ~07:50. Para Marcos. He comparado las capturas de la Galería (7) con las maquetas (`uidemo-referencia/`, `contraste/final_D/` y la D-N118). Los colores están medidos en las PNG de `mr-mak-workspace/docs/capturas/qa13…15`.
 
@@ -48,3 +48,12 @@ El proyecto está en espacio de color Linear (`m_ActiveColorSpace: 1`) y los PNG
 - Las capturas «victoria_*» de QA13 y QA14 muestran derrotas («Sagunto ha caído», integridad 0 %). Es del guion de la prueba, no del arte. Se lo comento a Sara.
 - Mapa de red (QA13, `vista_mapa_tras_vista`): las unidades en tránsito no llevan las piezas del ETA (D-N113: ficha de 13 con muesca, placa ETA y barra). Están en `entregas/bruno-mapa/final/`. Ahora solo se ven el icono y el nombre.
 - Vista del tren (QA13): no se ven el humo diésel ni el destello del faro (D-N84, `noche-prototipo/tren/`). Comprobad si estaban apagados en esa prueba.
+
+## 6. QA20 (07-11, de 04:33 a 05:41; corridas normal, difícil, fácil y vehículos)
+Mismo estado que la QA15. No he visto ninguna pieza nueva integrada ni ningún cambio de color:
+- El reloj y las placas siguen en **565d78** en las cuatro corridas (deberían ser 181c30). El texto del parte sale gris claro sobre el azul lavado. Es el punto 1.
+- Las tarjetas de vehículo siguen siendo las de antes de la D-N118: el VAMTAC con lanzador, el «94» repetido y las etiquetas «alto» y «tierra» encima.
+- Sin la fila del muro (D-N122) ni el retoque D del menú.
+- La derrota tiene el botón **«Volver a empezar» casi ilegible**: el texto (≈ c1c1a2) sobre la placa clara (b1b694) da menos de 1,2:1. Al corregir el punto 1 debería mejorar; si no, ese botón tiene que usar la placa normal y no la de encima.
+- Las capturas siguen saliendo a 960x540 (x1,5).
+- Lo bueno: la composición del HUD, del parte y del velo de derrota sigue coincidiendo con las maquetas, y la horda se lee como masa oscura en la corrida difícil.
