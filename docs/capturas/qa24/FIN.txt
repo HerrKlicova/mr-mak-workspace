@@ -1,0 +1,5 @@
+FIN actual
+FIN actual_srgb
+FIN luna
+FIN ambiente
+FIN focos

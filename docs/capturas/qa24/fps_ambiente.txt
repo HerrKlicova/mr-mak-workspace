@@ -1,0 +1,8 @@
+[NOCHE-FPS] hora=22:07 fps=502 zombis=0 abatidos=0 bajas=0 pila=0 muro_permil=1000 desync=False
+[NOCHE-FPS] hora=22:17 fps=158 zombis=9908 abatidos=93 bajas=0 pila=0 muro_permil=1000 desync=False
+[NOCHE-FPS] hora=22:26 fps=146 zombis=10038 abatidos=473 bajas=0 pila=1033 muro_permil=996 desync=False
+[NOCHE-FPS] hora=22:28 fps=322 zombis=9977 abatidos=593 bajas=0 pila=1290 muro_permil=993 desync=False
+[NOCHE-FPS] hora=22:28 fps=328 zombis=9977 abatidos=593 bajas=0 pila=1290 muro_permil=993 desync=False
+[NOCHE-FPS] hora=22:28 fps=289 zombis=9977 abatidos=593 bajas=0 pila=1290 muro_permil=993 desync=False
+[NOCHE-FPS] hora=22:28 fps=281 zombis=9977 abatidos=593 bajas=0 pila=1290 muro_permil=993 desync=False
+[NOCHE-FPS] hora=22:28 fps=326 zombis=9977 abatidos=593 bajas=0 pila=1290 muro_permil=993 desync=False
