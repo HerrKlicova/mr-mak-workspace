@@ -56,7 +56,8 @@ T(92,2.5,"naves (almacén de naranjas del kit, girado 90°)","#1c1812",FS,"#c4ac
 R(42,26,144,32,fill="#c8b490")
 L([(206,76),(206,88)],"#d4d0cc",3); d.ellipse([P(203,85),P(209,79)],outline="#d4d0cc",width=2); T(186,90.5,"radar (206; 82)","#1c1812",FS,"#d4d0cc")
 # recinto: HESCO de 2,1 m alrededor de estación + cargadero; puertas de vía O/E y de vehículos
-R(64,4,222,90,outline="#70784c",w=6)
+L([(64,4),(212,4),(222,14),(222,90),(64,90),(64,4)],"#70784c",6)
+T(206,0.5,"chaflán (60 m)","#1c1812",FS,"#70784c")
 for x in (64,222):
     L([(x,55.5),(x,59.5)],"#7c3c18",7); L([(x,64.5),(x,68.5)],"#7c3c18",7)
 L([(222,42),(222,46)],"#7c3c18",7)
