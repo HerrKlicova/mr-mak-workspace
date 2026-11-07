@@ -19,4 +19,11 @@
 - `generar_sfx.py` solo crea las variantes que faltan. Para regenerar, primero se mueve la toma a `descartes/`, y su máster también: el posproceso salta los WAV que ya existen.
 - La clave solo sale de `ELEVENLABS_API_KEY`. Nunca se imprime.
 
+## Noche50 — rotor NH90 (7-nov)
+- Diagnóstico: en la build suenan DOS rotores a la vez. `PrototypeBootstrap.Vehicles.cs:230` sigue con `Sfx.Loop("sfx_rotor_nh90", …)` (MP3 viejo de 5 s, 2D, una sola clave para todos los helicópteros). `PrototypeBootstrap.Fx.cs:82` pone el rotor 3D a 0 en los estados 0 y 3 (vuelta y aterrizaje) aunque las palas sigan girando. Además, el «duck» de `Sfx.Update` (×0,55 durante 1,5 s tras una alerta) se aplica de golpe a los bucles.
+- Entrega: `entregas/sonido-noche50/` (8 tomas v3 en `brutos/`, bucles en `master/`, 6 OGG mono 48 kHz q6 en `unity/Audio/`, origen en `unity/Audio/origen.csv`, medidas en `medidas_b.csv` y `medidas_c.csv`, escucha `prueba_rotor_4x.mp3`). Herramientas en `entregas/sonido-noche50/herramientas/`.
+- Coste: 267 caracteres por toma de 22 s (8 tomas = 2.136).
+- Trampa: la unión de un bucle que empieza en un golpe de pala da por sí sola 1–2,6 dB entre ventanas de 50 ms. Hay que compararla con el mismo salto en la toma original continua (`rms_natural`), no con 1 dB a secas.
+- Trampa: `character_count` tarda en actualizarse. La primera lectura tras generar dio 0; hay que volver a leerlo al cabo de un rato.
+
 — Nuria (Sonido)
