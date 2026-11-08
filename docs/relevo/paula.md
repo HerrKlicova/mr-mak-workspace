@@ -35,6 +35,7 @@
 - R1: Commons dice Indra en la descripción y Thales Nederland en el título. Fabricante SIN VERIFICAR.
 - 8-nov, **RC · catenaria y gálibo** (para Teo, dintel de la puerta de vía): RC1-RC3 en `referencias-reales/ferroviario/` con manifest_catenaria.json. Cotas del BOE (Orden FOM/1630/2015): hilo de contacto 5,30 m; GHE16 4,33 m; GEC16 4,70 m; gálibo uniforme GEC16 5,63 m. Sustentador a unos 6,7 m: SIN VERIFICAR.
 - El catálogo ya está versionado en el repo: docs/arte/referencias/catalogo.md (commit e393908, con R, S y RC). La copia nueva está en la raíz de la biblioteca y Teo la mueve a su sitio.
+- 8-nov, ficha del Lince para Hugo (D-N172): `referencias-reales/militar/ficha_lince_hugo.md`. Arma: identificación visual (M2 y lanzagranadas de 40 mm, SIN VERIFICAR); munición, no pública; STANAG 1-3.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
