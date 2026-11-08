@@ -8,6 +8,22 @@ Queja de Eugenio con la Noche55: «las balas no salen de sus cañones, no tienen
 - La trazadora del VAMTAC mide 0,07 m de ancho, menos de un píxel del mundo a 1/3, así que parpadea o no sale.
 - No hay impacto, ni luz, ni humo, ni casquillos. Las explosiones de la simulación (`StepResult.Blasts`: granadas y C90) no se dibujan en ningún sitio de la vista.
 
+
+## REVISIÓN 8-nov (Bruno 3) sobre marcos/noche-prototipo fa66281: lee esto antes de los 4 cambios
+Revisado a mano contra fa66281 (sin Unity). Todos los símbolos que usa el archivo existen con la misma firma: WeaponId (los 13 valores), WeaponCatalog.Get(w).RadiusMm (canon_30 = 2500 mm), Veh (Name, Heli, Go, Pos, Alt, Heading, Gun, Turret), Find, _fxMat, LayerFx, _tracerLive[].Lr, SpawnTracer(a, b, speed, width, tail), Sfx.PlayDistAt, _gradeIndex, StepResult.Blasts (X, Y, RadiusMm, Weapon) y FireEvent (Weapon, Hit, Splash). Ningún nombre choca con otro partial. TBD/FxAdditive multiplica por el color de vértice, así que el color de las partículas llega bien.
+
+Cambios respecto a la lista de abajo:
+- **Cambio 2, línea 193**: en fa66281 ya no es `Sfx.Play("impacto_30mm", Vector3.zero...)`, sino `Sfx.PlayAt("impacto_30mm", new Vector3(tp.x, 0.5f, tp.y), 0.7f, 0.5f);` dentro de `if (dragon) { ... }`. Quita solo esa llamada y deja `cola_urbana`. Las líneas 191 y 192 siguen siendo las del SpawnTracer y el SpawnFlash.
+- **Cambio 5, nuevo (una línea)**: en `PrototypeBootstrap.Fx.cs`, SpawnTracer, justo antes de `_tracerLive.Add(t);`, añade `t.Lr.gameObject.layer = 0;`. Las trazadoras se reutilizan de un pool: sin esto, una que haya pasado por VFX_HD se queda en esa capa cuando la vuelve a usar la infantería.
+- Arreglado en el archivo: la marca de `-vfxboca` iba en el sistema de cascotes, que tiene gravedad, y se caía al momento. Ahora tiene su propio sistema sin gravedad.
+- Los vehículos no meten nada en StepResult.Blasts (solo la infantería, Infanteria.cs:594), así que el 30 mm no explota dos veces.
+
+Prueba que pido (Marcos):
+1. Que compile con los 5 cambios. Si da error, pásame el texto exacto del error.
+2. `-vfxboca` de noche con el Dragón, el VAMTAC y el NH90 disparando: una captura directa de cada uno, a zoom máximo, con la marca crema visible. Si la marca no cae en la punta del cañón, dime cuánto se aleja y lo corrijo.
+3. `-nightbot` con la horda que lleva la build, para ver que los fps no bajan (unas 15 partículas por disparo de ametralladora y unas 50 por explosión).
+4. Una captura directa de noche con la horda y un Dragón disparando, para ver el bloom de VFX_HD con Lucía. Si los fogonazos no derraman luz, subo `_Intensity`.
+
 ## Qué entrego
 `PrototypeBootstrap.VfxArmas.cs` (partial de PrototypeBootstrap, solo vista; no toca la simulación ni el hash):
 - **Fogonazo según el arma**: estrella crema en la boca, lengua ámbar hacia delante y destello de luz puntual (pool de 8 luces, de 0,05 a 0,1 s). Tamaños por arma:
