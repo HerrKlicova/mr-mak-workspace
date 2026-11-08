@@ -46,6 +46,7 @@
 - 8-nov, pelotón (Hugo y Nacho): referencias-reales/peloton_datos.md. Pelotón de 9 y sección de unos 30 (fuentes secundarias; ME4-102 y MI4-104 no son públicos). G36E 600 m, MG4E 1.000 m, AG36 unos 350 m (analogía). El G28 solo en el MOE. Munición y cadencias: ESTIMACIÓN o analogía con EE. UU.
 - 8-nov, línea para Iker: referencias-reales/linea_valencia_castellon.md (PK del C-6 según Wikipedia, comprobados con la relación OSM 2184632, 73,8 km; ramal a Segorbe de 33 km; Bétera–Sagunto 29,7 km por OSRM). Nules: la marquesina va adosada al edificio (revisión para Álvaro); la versión buena de nules_planta.md quedó en la biblioteca como nules_planta-20261108T133708-5513.md.
 - SendUserFile no sobrescribe: si el archivo ya existe en la raíz, lo guarda con sufijo de fecha. Hay que avisar para que lo sustituyan.
+- 8-nov, Sagunt (azotea, D-N174): referencias-reales/sagunto/ (SG1 ×3 y la ortofoto SG2). Alas de 1 planta con azotea balaustrada; OSM da 32 × 11 m. Castelló: referencias-reales/castellon/ (CS1-CS6). Nave de unos 140 × 45 m (ESTIMACIÓN), porque OSM estaba caído: pendiente medir con OSM.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
