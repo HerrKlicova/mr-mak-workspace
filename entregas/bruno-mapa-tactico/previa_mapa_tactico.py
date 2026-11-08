@@ -91,8 +91,8 @@ def X(h): return (h >> 16 & 255, h >> 8 & 255, h & 255)
 
 NAVY, SOMBRA, GP, OG, HOR, HORC, OLO, OLC, ROJO = (X(0x181c30), X(0x303424), X(0x48403c), X(0x605c48), X(0x6c7874), X(0x94948c),
                                                    X(0x50541c), X(0x88885c), X(0x982420))
-BANDAS = [SOMBRA, GP, OG, HOR, HORC]
-CORTES = [150, 500, 1000, 1500]
+BANDAS = [SOMBRA, GP, OG]
+CORTES = [200, 800]
 BAYER = [[0, 8, 2, 10], [12, 4, 14, 6], [3, 11, 1, 9], [15, 7, 13, 5]]
 
 
@@ -127,10 +127,10 @@ def pintar(mx0, dmx, my0, dmy, w, h, detalle):
             gx, gy = (hE - hW) / (2 * mTx), (hS - hN) / (2 * mTy)
             sol = .7 * (gx + gy); pend = math.hypot(gx, gy)
             if sol > .04 and min(1, sol / .25) * 16 > b: k += 1
-            c = BANDAS[min(k, 4)]
+            c = BANDAS[min(k, 2)]
             if math.floor(hc / paso) != math.floor(hE / paso) or math.floor(hc / paso) != math.floor(hS / paso):
                 fuerte = math.floor(hc / pf) != math.floor(hE / pf) or math.floor(hc / pf) != math.floor(hS / pf)
-                if fuerte or pend < .5: c = BANDAS[min(k + (2 if fuerte else 1), 4)]
+                if fuerte or pend < .5: c = HOR if fuerte else BANDAS[min(k + 1, 2)]
             pxm, pym = mx * K * 1000, my * K * 1000
             if detalle and hc < 150 and coast_x(my) - mx < 8:
                 fila = math.floor(pym / 260.0); ancho = 220 + 260 * h01(fila, 0, 71); u = pxm + fila * 37.0
