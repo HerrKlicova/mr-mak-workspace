@@ -16,7 +16,7 @@
 | **Teo** | Teo · Modelado 3D (relevo) | Opus 5.5, medio | Modelado 3D en FBX; no tiene acceso al PC | Modelos 3D | Puntos de boca entregados. Aparece como bloqueado: espera la revisión de Lucía | Lo que salga de esa revisión | Ninguna para Eugenio |
 | **Álvaro** | Álvaro · Diseño de niveles (2) | Opus 5.5, alto | Diseño de niveles y medidas | Niveles y recintos | Sin tarea activa | Medir el muro de Nules con Nacho (el recinto mide 124,3 u) | Ninguna |
 | **Paula** | Paula · Referencias reales (3) | Sin comprobar (Remote Control) | Busca referencias reales de material y vehículos | Referencias reales | Terminado: 21 símbolos APP-6 entregados. Hilo resuelto | Nada | Ninguna |
-| **Nuria** | Sonido (2) | Opus 5.5, medio | Sonido con ElevenLabs v3; la clave va solo en variable de entorno | Sonido completo en 3D, con silencio al pausar | Terminado: sonidos de FARP, Nules y avisos entregados (4.924 créditos) | Nada asignado | Volumen de la bocina del tren: lleva tiempo sin respuesta. Puede decidirlo el equipo (Lucía) |
+| **Nuria** | Sonido (2) | Opus 5.5, medio | Sonido con ElevenLabs v3; la clave va solo en variable de entorno | Sonido completo en 3D, con silencio al pausar | Terminado: sonidos de FARP, Nules y avisos entregados (4.924 créditos) | Nada asignado | Ninguna (Lucía decidió el volumen de la bocina en D-N170) |
 | **Elena** | Elena · Crónica del estudio (2) | Opus 5.5 (comprobado) | Redacción con citas literales; no hace falta más | Crónica del estudio | Crónica v25 publicada con el panel del MVP. Este documento | Siguiente capítulo: 66 | Ninguna |
 | **Iris** | Iris · Herramientas de IA (por renovar) | Opus 5.5, medio | Herramientas de IA (PixelLab) | Generación con IA | **Bloqueada desde el 06-11** | Muestras de PixelLab el 09-11. **El saldo caduca el 17-11.** Hilo por renovar | Lo que la bloquea sigue sin respuesta; hay que revisarlo antes de que caduque el saldo |
 | **Galería** | Galería · Capturas (14) | Opus 5.5, medio | Recopila y publica capturas | Galería de capturas para Eugenio | Esperando capturas nuevas (aparece como bloqueada). La página (9) tiene 44 imágenes | Añadir las capturas de la Noche71/72 cuando las haya (las de GPU dependen de la regla de permisos) | Ninguna |
@@ -26,6 +26,7 @@
 1. Si se ha caído una sesión de Remote Control (Marcos o Iker), solo Eugenio puede reabrirla. Los relevos al día están en `docs/relevo/marcos.md` e `iker.md`.
 2. La regla de permisos para las capturas con GPU sigue pendiente. Iker tiene los pasos.
 3. El saldo de PixelLab de Iris caduca el 17-11.
+4. Iker borró por error dos archivos de qa46 en mr-mak que no estaban en git, `log_input.log` y `log_nb.log`. No se pueden recuperar.
 
 ---
 
