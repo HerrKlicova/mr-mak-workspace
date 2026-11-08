@@ -522,6 +522,16 @@ Sagunto no tiene NH90 propio (D-N173). El de Bétera llega volando y se posa en 
 - **S2, en la huerta al noreste, en (215; 97)**: X 202,5–227,5 y Z 84,5–109,5. Hoy es huerta, así que hay que **marcar ese cuadrado como sin vegetación** (255) en `sagunto_sin_vegetacion_1m.png`, como una parcela arrasada. No choca con ningún sólido ni coche. Sirve de alternativa cuando S1 está bajo fuego (O4 entra por el puente).
 - **Dentro del fuerte no cabe ninguno**: el parque solo tiene 14 m de fondo. Los claros del oeste quedan en la llegada de O1, así que los descarto.
 - Dato para Marcos e Iker: `claros: {"S1": [180, 44], "S2": [215, 97]}`, con lado de 25 m.
+- **Revisado con la azotea y la banqueta nuevas (8-nov, ~18:00; plano [`sagunto_claros_nh90.png`](sagunto_claros_nh90.png))**:
+  - **Dentro del muro sigue sin caber ninguno.** El tren de noche (X 81–145) parte el recinto en dos franjas de unos 19 m de fondo (Z 44–63 y Z 66–85). Ninguna llega a 25 m, y la azotea, la escalera y la banqueta ocupan todavía más.
+  - **Fuera del muro: S1 y S2**, sin cambios. Ninguno choca con la azotea, la escalera, la banqueta, los coches ni el spawn del asedio (X 54–67,5).
+  - **Para el capítulo 4 recomiendo S1 (180; 44)**:
+    - Es el que queda más cerca del fuerte: a unos 75 m de la puerta sur (X 95–103), por la carretera vieja.
+    - Ya está sin vegetación.
+    - La aproximación entra por el sureste, sobre la huerta, sin cruzar la catenaria ni la horda, que llega por el oeste.
+    - La tropa que baja va al muro oeste por la puerta sur.
+  - Si el tren de Nules está parado al mismo tiempo, su punto de bajada (192; 60) queda fuera del claro y el rotor no llega a la vía (Z 52,2).
+  - S2 es la alternativa cuando S1 está bajo fuego.
 
 
 ### 10.14 Banqueta del muro oeste por módulos (kit de defensas de Teo, 8-nov, ~13:55)
