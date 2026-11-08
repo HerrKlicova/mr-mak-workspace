@@ -2,6 +2,7 @@
 
 Todo decidido y medido en NightSim. Va en este orden, de lo que más pesa en el balance a lo que menos. Cada punto remite a su línea de `decisiones-noche.md`.
 
+0. **IMPRESCINDIBLE ANTES QUE NADA: muro por tramos activo por defecto** (punto 8), sin -tramos. Sara (200 semillas): las hordas nuevas solo dan 100/100/79,5 % con tramos; sin tramos, la difícil sale al 100 %.
 1. **Hordas sin aire** (D-N169 ampliada): fácil 4.480, normal 5.250 y difícil 5.700. Paquete en `economia/entregas/noche-sin-aire/` (permil 853/1000/1086).
 2. **Quitar el NH90 y el helipuerto de Sagunto** (D-N173). El plantel de Sagunto es de 5 pelotones, 1 Dragón y 2 VAMTAC. El aire sale de Bétera (Iker c73a83e).
 3. **Reloj ×103** (D-N161): 25.200 ticks por día en la red y en la zona. Lo cambia Nacho.
