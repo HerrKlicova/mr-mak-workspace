@@ -13,6 +13,8 @@ Firma «— Nuria (Sonido)». Sin retrato todavía (pendiente). Hilo viejo: cmsg
   - oído a 22 m como mínimo.
 - Antes: el rotor NH90 nuevo, en `entregas\sonido-noche50` (6 OGG de 8 s; quitar el rotor 2D duplicado de Vehicles.cs:230; volumen = 0,5 × Rpm). La Noche46 trajo bucles OGG y el cañón del Dragón nuevo (`entregas\sonido-noche46`).
 
+- 8-nov: máquina de escribir de la intro «Día 41» y del tutorial entregada en `entregas\sonido-maquina-escribir\` (8 teclas, retorno, campanilla, prueba_tecleo.mp3 y LEEME con la integración para Iker). Herramienta: `herramientas\sonido\maquina_escribir.py`. Gasto: 144 créditos.
+
 ## Decisiones vigentes
 - ElevenLabs **eleven_text_to_sound_v3** siempre. El v3 no hace bucles: se hacen en el posproceso con fundido cruzado y se exportan en **OGG** (el MP3 deja hueco en la costura). La clave solo se lee de `ELEVENLABS_API_KEY`, en el PC por Remote Control. Desde la nube no se llega a elevenlabs.io.
 - D-N134 (Lucía): mezcla horneada en los archivos (fusil −18/−24/−31 LUFS, cañón −14/−19/−25, ≤ −1 dBTP). Un solo filtro: el paso bajo de la distancia va dentro del archivo y el único en tiempo real es el de 800 Hz del snapshot Mapa.
