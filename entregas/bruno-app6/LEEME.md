@@ -38,8 +38,7 @@ Retocado:
 - **Ala rotatoria**: la pajarita lleva un mástil vertical hacia abajo. Añadido. Se mantiene la cúpula de aire que eligió Lucía;
   Commons solo trae el helicóptero dentro del marco de tierra (APP-6A), que queda como alternativa si se prefiere.
 - **Tamaño de unidad**: en la equivalencia española, ● = escuadra, ●● = pelotón, ●●● = sección, I = compañía. Yo tenía ● = pelotón, y estaba mal.
-  `app6_amigo_*_peloton_*.png` lleva ahora **●●** (mismo nombre de archivo, cambia el dibujo). **Pregunta para Lucía**: el pelotón del juego
-  tiene unos 21 hombres, que por tamaño es una sección OTAN (●●●). Si se prefiere el tamaño real al nombre, basta con usar los `_seccion_`.
+  `app6_amigo_*_peloton_*.png` lleva ahora **●●** (mismo nombre de archivo, cambia el dibujo). **Decidido ●● (Lucía, 9-nov 00:10)**: los pelotones del juego son de 5 a 8 hombres (docs/economia/escala-existencias.md, D-N177), así que ●● cuadra con el nombre y con el tamaño. Los `_seccion_` quedan guardados y sin usar. (El «unos 21 hombres» que puse antes no tenía fuente: era un error mío.)
 - **Nuevos**: `app6_amigo_motorizado_peloton_16/24.png` (X + trazo vertical; p. ej. VAMTAC) y `app6_amigo_ruedas_peloton_24.png`
   (X + dos ruedas, blindado de ruedas como el Dragón). Las ruedas **solo existen a 24 px**: a 16 px se comen la X (en la muestra se ve).
 Coincide sin cambios: la X del hostil (va a los puntos medios de los lados del rombo) y los marcos. Commons no trae marcos vacíos.
