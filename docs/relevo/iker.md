@@ -70,6 +70,22 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
    - Bétera: el ambiente (51 piezas) en Models/Betera/ambiente, a través de `AerodromoNivel.Ambiente`. El rearme (`RearmeBetera`, Models/Betera/rearme) cambia de malla con `AerodromoZona.Actualizar(res, estado)`.
    - Mapa táctico de Bruno: MapaTactico.cs y 4 cambios en OperationsMap3D. El parche de cerca tiene 512 téxeles y se calcula en segundo plano (Task). Las capturas salen con `Editor/MapaCaptura`, que no pinta OnGUI. El fundido a navy es de Marcos (NetSession).
    - Pruebas: 1194 de 1194.
+8. **PAUSA del 8-nov a las 20:18 (Eugenio juega).** El punto para retomar es iker/escenario-inicio bbb29ad, subido. Ya lleva fusionadas marcos/noche-prototipo 2643f16 y nacho/tren-puertas d091856. Suite: 1237 de 1237. Compila en Unity por lotes. No hay ningún Unity mío abierto.
+   - Hecho desde el punto 7:
+     - D-N173: plantel por estación en la zona (Plantel.Pelotones y Plantel.Vehiculos) y `-zona <nombre>` para Sara.
+     - D-N152: regla de red de Nacho; `Puertas` solo la lee.
+     - D-N177: aviso ámbar «Sin escolta: X está sitiada».
+     - D-N157: fuera la barra de la noche y el contador de oleadas.
+     - Las 4 señales del tutorial en la zona (`SenalesZona` y `TutorialHud.Zona`).
+     - D-N156: Nules sin asedio la 1.ª noche (`HiveDirector.SinAsedioNodo`, no se guarda). NetSession.Ensure ya usaba Inicio().
+     - Parche del mapa en segundo plano.
+   - Pendiente al volver:
+     - D-N91: revisar que el tiempo real no se pare ni salte al cambiar de vista.
+     - Comprobar la corrida de Sara (qa45) con -zona.
+     - Plazas: Lucía dice que solo tienen plaza Sagunto, Nules y Bétera, y que Teruel y Zaragoza van a 0. Está en NetWorld.TrainSlots, que es de Nacho. Bétera no es nodo de la red.
+     - D-N160, el informe de inteligencia, va después del tutorial.
+     - El FARP de Bétera y el huerto de Nules los integra Marcos.
+   - Trampa: un -nographics deja las capturas en blanco y vuelve a guardar las escenas. Hay que hacer `git checkout` de Assets/Scenes después de compilar así, y las capturas se sacan solo con -batchmode.
 
 ## Pendiente
 ### Nuevo encargo (D-N154, D-N158 y D-N163; Lucía, 8-nov)
