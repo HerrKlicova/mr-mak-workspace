@@ -15,7 +15,8 @@ namespace TBD.View
     ///   - los pueblos alrededor de cada nodo: manzanas en 605c48 y calles en 303424, con el borde irregular;
     ///   - la huerta del llano litoral (solo de cerca): parcelas con lindes en 50541c;
     ///   - las carreteras (PROTOTIPO, como el relieve: no son datos reales), paralelas a la vía, en 6c7874.
-    /// Sin colores de la horda (1c200c, 442c0c ni la banda L* 9–13) y sin ámbar. El rojo, solo en la mancha de horda (982420 tramado).
+    /// El terreno no usa colores de la horda (1c200c, 442c0c ni la banda L* 9–13) ni ámbar: 1c200c es solo la mancha de horda,
+    /// y el rojo 982420, solo donde la horda ataca un nodo o un tren (Lucía, 8-nov).
     /// Rendimiento: las alturas se muestrean una vez por téxel (con un borde de 1), no cinco.
     /// </summary>
     public static class MapaTactico
@@ -136,13 +137,40 @@ namespace TBD.View
             return o;
         }
 
-        /// <summary>La mancha de horda encima, tramada en la paleta (sustituye al Lerp hacia 150,22,26). dens en 0..1.</summary>
-        public static Color32 Mancha(Color32 baseC, float dens, int x, int y, bool punto)
+        static readonly Color32 Horda = Hex(0x1c200c);
+
+        /// <summary>
+        /// La mancha de horda encima (sustituye al Lerp hacia 150,22,26). Lucía (8-nov), como el minimapa de la D-N147: la mancha va
+        /// OSCURA y tramada, en el valor de la horda 1c200c; solo pasa a rojo 982420 donde ataca un nodo o un tren (ataque = true).
+        /// Si siempre fuera roja, el rojo dejaría de avisar. dens en 0..1; punto = de cerca, uno de los puntos de horda.
+        /// </summary>
+        public static Color32 Mancha(Color32 baseC, float dens, int x, int y, bool punto, bool ataque)
         {
             float a = Mathf.Clamp01((dens - 0.08f) * 1.6f) * 0.85f;
             if (a <= 0f) return baseC;
-            if (punto) return Vino;                                            // de cerca, los puntos de horda
-            return a * 16f > Bayer[y & 3, x & 3] ? Rojo : baseC;
+            if (punto) return ataque ? Rojo : Horda;
+            return a * 16f > Bayer[y & 3, x & 3] ? (ataque ? Rojo : Horda) : baseC;
+        }
+
+        /// <summary>
+        /// ¿Está este punto del mapa en un ataque? Sí, si está a menos del casco + 1,5 km de un nodo asediado, o a menos de 2 km de un
+        /// tren atacado (trenesAtacados en unidades de mapa; lo rellena la vista, ver LEEME). Se llama por téxel: es barato.
+        /// </summary>
+        public static bool EnAtaque(RailGraph g, double mx, double my, System.Collections.Generic.List<Vector2> trenesAtacados)
+        {
+            foreach (var n in g.Nodes)
+            {
+                if (n.State != NodeState.Asediada) continue;
+                double dx = (mx - n.XMeters) * MapGeo.KmPerUnit * 1000, dy = (my - n.YMeters) * MapGeo.KmPerUnit * 1000, r = RadioPueblo(n.Name) + 1500;
+                if (dx * dx + dy * dy < r * r) return true;
+            }
+            if (trenesAtacados != null)
+                foreach (var t in trenesAtacados)
+                {
+                    double dx = (mx - t.x) * MapGeo.KmPerUnit * 1000, dy = (my - t.y) * MapGeo.KmPerUnit * 1000;
+                    if (dx * dx + dy * dy < 2000.0 * 2000.0) return true;
+                }
+            return false;
         }
     }
 }
