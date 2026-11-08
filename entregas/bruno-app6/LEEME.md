@@ -29,4 +29,18 @@ Generador: TBD `claude/sprites-importar`, `.claude/skills/pixel-art-codigo/ejemp
 - Horda frente a hostil (`muestra/comparacion_horda_hostil.png`): a 16 px y sobre las 4 bandas, el hostil lleva la X y el relleno oscuro,
   y la horda va vacía, así que no se confunden. Por si en el juego sí se confunden, queda preparada la opción **tramada** (`app6_horda_tramado_16/24.png`,
   con el contorno a píxeles alternos).
-- Sigue pendiente comparar con los SVG de Commons cuando Paula los baje.
+- Comparación con los SVG de Commons: hecha el 8-nov (sección siguiente).
+
+## Cotejo con los SVG de Commons de Paula (8-nov, 23:50; `referencias-reales/informe-inteligencia/app6/`)
+Retocado:
+- **Coraza** (acorazado y mecanizado): en APP-6 es un «estadio», un rectángulo con los extremos redondos de ~64 % del ancho y 50 % del alto
+  del marco. Yo había dibujado una elipse. Cambiado.
+- **Ala rotatoria**: la pajarita lleva un mástil vertical hacia abajo. Añadido. Se mantiene la cúpula de aire que eligió Lucía;
+  Commons solo trae el helicóptero dentro del marco de tierra (APP-6A), que queda como alternativa si se prefiere.
+- **Tamaño de unidad**: en la equivalencia española, ● = escuadra, ●● = pelotón, ●●● = sección, I = compañía. Yo tenía ● = pelotón, y estaba mal.
+  `app6_amigo_*_peloton_*.png` lleva ahora **●●** (mismo nombre de archivo, cambia el dibujo). **Pregunta para Lucía**: el pelotón del juego
+  tiene unos 21 hombres, que por tamaño es una sección OTAN (●●●). Si se prefiere el tamaño real al nombre, basta con usar los `_seccion_`.
+- **Nuevos**: `app6_amigo_motorizado_peloton_16/24.png` (X + trazo vertical; p. ej. VAMTAC) y `app6_amigo_ruedas_peloton_24.png`
+  (X + dos ruedas, blindado de ruedas como el Dragón). Las ruedas **solo existen a 24 px**: a 16 px se comen la X (en la muestra se ve).
+Coincide sin cambios: la X del hostil (va a los puntos medios de los lados del rombo) y los marcos. Commons no trae marcos vacíos.
+Las metas nuevas llevan GUID nuevo; las de los archivos que ya existían no cambian.
