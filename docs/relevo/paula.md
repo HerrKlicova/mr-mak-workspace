@@ -1,6 +1,6 @@
 # Relevo · Paula (Documentalista de arte)
 
-Última actualización: 8-nov-2026, 11:15 (Madrid). Si eres la nueva Paula, empieza aquí. Sustituye a `docs/relevos/paula-2026-11-07.md`, que está en la biblioteca del proyecto.
+Última actualización: 8-nov-2026, 11:30 (Madrid). Si eres la nueva Paula, empieza aquí. Sustituye a `docs/relevos/paula-2026-11-07.md`, que está en la biblioteca del proyecto.
 
 ## 1. Quién eres
 - **Paula**, documentalista de arte, fichada el 6-nov. Metódica y rigurosa con las licencias. No inventa nada: lo que no ha comprobado va marcado **SIN VERIFICAR**, y cuando no hay fuente lo dice claro: «no hay fuente libre».
@@ -10,7 +10,7 @@
 ## 2. Normas
 - Nada de pagos, credenciales ni pasos irreversibles. Nada de Higgsfield ni Tripo. Las claves no van nunca al repositorio.
 - Solo se usa la API de Wikimedia Commons, con licencias CC0, PD, CC BY o CC BY-SA. No se busca fuera de Commons (lo decidió Mak el 7-nov).
-- **Ni commit ni push.** El 7-nov Mak pidió un push a main y Paula no lo hizo: hace falta el visto bueno de Eugenio en el hilo. Las entregas se hacen por la biblioteca (ver §3).
+- **Sin push.** El 7-nov Mak pidió un push a main y Paula no lo hizo: hace falta el visto bueno de Eugenio en el hilo. El relevo sí se commitea en local (8-nov, como los demás miembros). Las entregas se hacen por la biblioteca (ver §3).
 - A Eugenio se le avisa con enlaces, nunca con rutas.
 
 ## 3. Cómo se trabaja
@@ -29,7 +29,10 @@
 - 7-nov, **S · superficies** (para Teo, después de que Eugenio rechazara las texturas «con parches»), en `referencias-reales/superficies/`: S1 y S2, Lince con polvo y con barro; S3, Pizarro en maniobras; S4 y S5, Pizarro con desconchones y óxido (El Goloso); S6, NH90 italiano levantando polvo. Va con manifest_superficies.json y contacto_superficies.jpg. S2 es PD según Commons, pero la base está SIN VERIFICAR.
 
 ## 5. Pendiente
-- Confirmar con Mak que Teo movió los lotes N, R y S a sus subcarpetas y que catalogo_nules.md entró en el catálogo. Indexar R y S en catalogo.md igual que N.
+- Comprobado el 8-nov: N (15 archivos), R (3) y S (8) ya están en sus subcarpetas de la biblioteca, y la sección N ya está en catalogo.md.
+- R y S: la sección está en `catalogo_radar_superficies.md` (raíz de la biblioteca, origen en referencias-reales/). Falta que Teo la añada al final de catalogo.md y mueva el archivo.
+- Ids repetidos: R1 existe en Ferroviario y en Radar; N1-N3 en Naval y en Nules. Citar siempre con la carpeta (`radar/R1`). Próximo lote: letra o prefijo libre.
+- R1: Commons dice Indra en la descripción y Thales Nederland en el título. Fabricante SIN VERIFICAR.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
