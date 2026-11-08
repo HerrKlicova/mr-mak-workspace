@@ -3,3 +3,8 @@ n70_normal_s2: fin, 65 s
 n70_normal_s3: fin, 69 s
 n70_inputtest: salio, 242 s
 n70_tutorial_auto: fin, 118 s
+n70_trenpanel_auto: salio, 904 s
+n70_refuerzos_auto: salio, 903 s
+n70_zona_sagunto: fin, 9 s
+n70_zona_nules: fin, 9 s
+n70_zona_nules_tutorial: fin, 9 s
