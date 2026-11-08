@@ -46,16 +46,16 @@
   - HESCO: v0 malla limpia, v1 geotextil a la vista, v2 doble escalonado, v3 remate de sacos, v4 red de camuflaje.
   - Puerta: v0 tubo y chapa, v1 chapa ondulada, v2 tablones y flejes, v3 malla con espino, v4 blindada con pórtico.
   - Paleta: saco 88885c, relleno b4a080, HESCO 70784c/50541c, malla b8b8b8, suelo c4ac84, chapa 94948c, madera a86c50.
-- **Pendiente de Lucía**: aprobarla y decidir si el tramo de sacos es de 8 m (dos módulos de 4 m de Teo, lo que yo propongo) o de 10 m como dice D-N163. Los muro_sacos v0–v4 de Teo (aprobados 04:45) son estados de la variante v0; las otras 4 variantes son nuevas. Teo modela solo tras la aprobación. Avisados Lucía, Teo, Galería y Mak.
+- **Aprobada por Lucía (3) el 8-nov ~10:00** con dos cambios ya aplicados (commit 236586a): sacos en **605c48** (no 88885c, que es la hierba; ΔL* 16,8), sombra/escombro 48403c, red de v4 303424, sacos claros de v2 847c34; v1 talud de 5 hiladas con 0,5 m de retranqueo por lado; v2 renombrada «irregular, aspilleras» (0,9–1,8 m, dos huecos de tirador). Tramo de sacos: **8 m** (confirmado). Teo avisado para modelar. Los muro_sacos v0–v4 de Teo son los estados de la v0.
 
 ## 5. Pendientes, por orden
 1. Noche57 (~13:30): capturas en la galería contra §10.6–10.8 de sagunto-nivel.md. Informe a Mak con lo hecho, lo que falta y lo que no se ve en captura (❓).
-2. Respuesta de Lucía a la muestra del muro; si cambia el tramo a 10 m, regenerar la muestra.
+2. Cuando Teo entregue los modelos del muro, comprobar que siguen la muestra (colores y siluetas).
 3. Nivel 2 de Sagunto (512 × 256 m, §9.4, `sagunto_plano_v2_boceto.png`): en P2, pendiente de FPS.
 4. Siguientes estaciones con la misma plantilla cuando Mak lo pida.
 
 ## 6. Hilos útiles
-- Lucía (Diseño): cmsg_014mgaTqwTDTmezhB3g3Rs8BSZDYcz7acLVfZhyx8TSa9Z
+- Lucía (3) (Diseño): cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va (el hilo (2) está cerrado)
 - Teo (modelado): cmsg_014mgaTqwTDTmezhB3g3Rs8BQBMQ2t9Dd6zTKHvAJDPgmp
 - Galería: cmsg_014mgaTqwTDTmezhB3g3Rs8BF41b4Axbvz2cmCkE5RzXUu
 - Hugo (economía): cmsg_014mgaTqwTDTmezhB3g3Rs8BWGk2rnnayJGk4VrTFCj9Y2 (ojo: la puerta de vía cuesta 8 u, no 6)
