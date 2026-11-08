@@ -62,6 +62,14 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
    - Piezas: Resources/Models/Betera (Teo r2 + helipuerto + rearme_set) y Resources/Models/Nules (148 FBX).
    - Pruebas: sección [30] 190 de 190; suite entera 1043 de 1043 (antes de la zona de Bétera).
    - Mañana: lote de PixelLab (`/mnt/project-files/pixellab-lote-0911.md`, 30 generaciones; saldo 8.228,05 el 8-nov).
+7. **Tarde del 8-nov** (iker/escenario-inicio hasta 302d22a; ya lleva fusionadas nacho/sombra-reloj y marcos/noche-prototipo):
+   - Víveres (Res.Viveres = 4 de Nacho): Sagunto con 80 u en Inicio y sin horarios de víveres (Lucía). Bétera con 20 u y `Consume = false` (lista «no_consumen_en_mvp» de existencias_red.json de Hugo).
+   - Reloj ×103: ya no existe NetConst.GameMsPerTick; se usan HourTicks y GameMs.
+   - Castellón v0.4: kit subterráneo de Teo en Resources/Models/Castellon/<carpeta>, con 150 piezas y el mobiliario urbano en Models/Urbano. `CastellonKit.Archivo` lleva de la pieza al fichero. `BajadaSubterranea` da la tropa por el vestíbulo, los vehículos en (144; 38), la escalera de 7,1 m y la subida de 30 s. La captura tiene una toma bajo losa (oculta los hijos Losa y Cubierta).
+   - Carga visible (`CargaVisible`, 20 u por plataforma, Dañado por debajo del 70 % y Destrozado por debajo del 30 %) y `CargaVagonVista`. Acopio de Nules (`AcopioViveres`, 30 u de referencia) y `AcopioVista` con Data/nules_instancias.csv. Marcos los engancha en su zona.
+   - Bétera: el ambiente (51 piezas) en Models/Betera/ambiente, a través de `AerodromoNivel.Ambiente`. El rearme (`RearmeBetera`, Models/Betera/rearme) cambia de malla con `AerodromoZona.Actualizar(res, estado)`.
+   - Mapa táctico de Bruno: MapaTactico.cs y 4 cambios en OperationsMap3D. El parche de cerca tiene 512 téxeles y se calcula en segundo plano (Task). Las capturas salen con `Editor/MapaCaptura`, que no pinta OnGUI. El fundido a navy es de Marcos (NetSession).
+   - Pruebas: 1194 de 1194.
 
 ## Pendiente
 ### Nuevo encargo (D-N154, D-N158 y D-N163; Lucía, 8-nov)
