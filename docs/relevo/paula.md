@@ -33,6 +33,8 @@
 - R y S: la sección está en `catalogo_radar_superficies.md` (raíz de la biblioteca, origen en referencias-reales/). Falta que Teo la añada al final de catalogo.md y mueva el archivo.
 - Ids repetidos: R1 existe en Ferroviario y en Radar; N1-N3 en Naval y en Nules. Citar siempre con la carpeta (`radar/R1`). Próximo lote: letra o prefijo libre.
 - R1: Commons dice Indra en la descripción y Thales Nederland en el título. Fabricante SIN VERIFICAR.
+- 8-nov, **RC · catenaria y gálibo** (para Teo, dintel de la puerta de vía): RC1-RC3 en `referencias-reales/ferroviario/` con manifest_catenaria.json. Cotas del BOE (Orden FOM/1630/2015): hilo de contacto 5,30 m; GHE16 4,33 m; GEC16 4,70 m; gálibo uniforme GEC16 5,63 m. Sustentador a unos 6,7 m: SIN VERIFICAR.
+- El catálogo ya está versionado en el repo: docs/arte/referencias/catalogo.md (commit e393908, con R, S y RC). La copia nueva está en la raíz de la biblioteca y Teo la mueve a su sitio.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
@@ -45,6 +47,8 @@
 - Dotación de munición del ET: no es pública. Las fotos MV3 del Chinook son de un CH-47D, pero las cotas son del F.
 
 ## 7. Trampas
+- Las figuras del BOE son imágenes y pdftotext no las saca. Hay que renderizar la página con `uv run --with pypdfium2 --with pillow` (no hay pdftoppm) y mirarla.
+- No abrir PDFs del BOE en el navegador del panel: los descarga y al usuario le salta el diálogo de guardar.
 - `python -I` impide importar módulos de la carpeta del propio script. Para los scripts propios del scratchpad, ejecutarlo sin -I.
 - `rm -rf` en el comando lo deniega el clasificador de permisos. No hace falta: basta con usar carpetas nuevas.
 - Las búsquedas de Commons devuelven muchos PDF; hay que filtrarlos. Las categorías («Category:… in Spanish Army service») dan mejores resultados que la búsqueda de texto.
