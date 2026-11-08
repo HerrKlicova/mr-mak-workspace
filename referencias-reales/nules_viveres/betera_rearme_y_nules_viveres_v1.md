@@ -4,6 +4,8 @@
 
 > **Nota sobre la v0.** No he podido abrir la v0 (`betera_rearme_y_nules_viveres.md`) porque en esta máquina no tengo acceso a la biblioteca del proyecto. Así que esta v1 no corrige la v0 línea a línea: recoge las cifras que he podido comprobar o que ya estaban comprobadas en `referencias-reales/` y marca el resto. Quien tenga la v0 debe cotejarla con esta tabla.
 
+**Tercera pasada (8-nov, noche):** NV7–NV12, 15 fotos (al final del lote NV).
+
 **Entregado (segunda pasada, 8-nov 19:20):** el lote RA completo (8 fotos) y el lote NV completo (9 fotos). De Nules quedan comprobadas la superficie, la Clemenules de 1953 y el cierre de Cítrics de Nules; las hectáreas de cítricos siguen SIN VERIFICAR.
 
 Todas las fotos vienen de Wikimedia Commons (por su API), con licencia PD o CC BY-SA, y las he mirado una a una antes de aceptarlas. Están reducidas a 3840 px como máximo.
@@ -81,5 +83,45 @@ Carpeta `referencias-reales/nules_viveres/`, con `manifest_nules_viveres.json` y
 - **Recolección de cítricos**: no hay fuente libre localizada.
 - **Tractor de huerto**: no hay fuente libre española. En Commons solo hay tractores de huerto antiguos de museos de EE. UU., y no los he incluido.
 - **Pozo de riego de La Plana**: no hay fuente libre localizada.
+
+### Tercera pasada · NV7–NV12 (8-nov, noche)
+
+15 fotos más, todas miradas, verificadas con Pillow y reducidas a 3840 px como máximo. Licencias: CC BY 2.0/3.0, CC BY-SA 3.0/4.0 y dominio público. No repiten NV1–NV6, N2 ni N3. La hoja `contacto_nules_viveres.jpg` ya trae las 24.
+
+Por primera vez hay fotos **de La Plana** (Onda, Almassora–Vila-real, Borriana y Vila-real). El almacén, los palots y el tractor siguen siendo sustitutos de fuera.
+
+| id | archivo | qué muestra · lugar | autor | licencia | Commons |
+|---|---|---|---|---|---|
+| NV7 | NV7_huerto_plana_onda.jpg | Naranjales de la llanura con la sierra al fondo, desde Onda. Onda (La Plana Baixa) | Pau Aragó Galindo | CC BY-SA 3.0 | [enlace](https://commons.wikimedia.org/wiki/File:Vista_d%27Onda_-_panoramio.jpg) |
+| NV7 | NV7_aerea_almassora_vilareal.jpg | Vista aérea del mosaico de parcelas de cítricos entre Almassora y Vila-real. Almassora–Vila-real (La Plana) | Enrique Íñiguez Rodríguez (Qoan) | CC BY-SA 3.0 | [enlace](https://commons.wikimedia.org/wiki/File:A%C3%A8ria._Almassora-Vila-real.jpg) |
+| NV7 | NV7_aerea_borriana.jpg | Borriana desde el aire: casco y huertos alrededor (pequeña, 640 px). Borriana (La Plana Baixa) | Xacòina | CC BY 3.0 | [enlace](https://commons.wikimedia.org/wiki/File:Borrianadesdelaire.jpg) |
+| NV8 | NV8_caseta_huerta_vilareal_1.jpg | Caseta de huerta encalada en campo abierto, con torres eléctricas. Vila-real (La Plana Baixa) | Martin Cox from Benicasim, España | CC BY 2.0 | [enlace](https://commons.wikimedia.org/wiki/File:Caseta_de_huerta_(7029600613).jpg) |
+| NV8 | NV8_caseta_huerta_vilareal_2.jpg | Caseta de huerta de frente, a contraluz (atardecer). Vila-real (La Plana Baixa) | Martin Cox from Benicasim, España | CC BY 2.0 | [enlace](https://commons.wikimedia.org/wiki/File:Caseta_de_huerta_frontal_(6883498088).jpg) |
+| NV9 | NV9_magatzem_carcaixent_1.jpg | SUSTITUTO fuera de La Plana: fachada de ladrillo del almacén modernista de José Ribera. Carcaixent (La Ribera Alta; no es La Plana) | 19Tarrestnom65 | CC BY-SA 4.0 | [enlace](https://commons.wikimedia.org/wiki/File:Edifico_modernista_del_almac%C3%A9n_de_naranjas_de_Jos%C3%A9_Ribera_en_Carcaixent_01.jpg) |
+| NV9 | NV9_magatzem_carcaixent_2.jpg | SUSTITUTO: fachada completa a la calle con portón. Carcaixent (La Ribera Alta) | 19Tarrestnom65 | CC BY-SA 4.0 | [enlace](https://commons.wikimedia.org/wiki/File:Edifico_modernista_del_almac%C3%A9n_de_naranjas_de_Jos%C3%A9_Ribera_en_Carcaixent_08.jpg) |
+| NV9 | NV9_magatzem_carcaixent_3.jpg | SUSTITUTO: interior de la nave con pasarela de hierro y cubierta de madera. Carcaixent (La Ribera Alta) | 19Tarrestnom65 | CC BY-SA 4.0 | [enlace](https://commons.wikimedia.org/wiki/File:Edifico_modernista_del_almac%C3%A9n_de_naranjas_de_Jos%C3%A9_Ribera_en_Carcaixent_14.jpg) |
+| NV9 | NV9_magatzem_carcaixent_4.jpg | SUSTITUTO: nave entera desde la pasarela, con una exposición de naranjas sobre paja (feria de 2016). Carcaixent (La Ribera Alta) | Vicenç Salvador Torres Guerola | CC BY-SA 3.0 | [enlace](https://commons.wikimedia.org/wiki/File:Fira_Modernista_de_Carcaixent_2016,_Magatzem_de_Ribera-7_(Pa%C3%ADs_Valenci%C3%A0).jpg) |
+| NV9 | NV9_magatzem_tabla_cajas.jpg | Cartel del almacén con los formatos de caja: «americanas» de 30 kg y «medias» de 15 kg de naranja, bandejas de 12 kg de mandarina, con calibres y colocación. Carcaixent (La Ribera Alta) | Vicenç Salvador Torres Guerola | CC BY-SA 3.0 | [enlace](https://commons.wikimedia.org/wiki/File:Fira_Modernista_de_Carcaixent_2016,_Magatzem_de_Ribera-12_(Pa%C3%ADs_Valenci%C3%A0).jpg) |
+| NV10 | NV10_palot_citricos_1.jpg | SUSTITUTO: palot de plástico lleno de pomelos en el campo. Lower Rio Grande Valley, Texas (EE. UU.) | USDAgov | Public domain | [enlace](https://commons.wikimedia.org/wiki/File:Citrus_Operations_(20100217-APHIS-DB-0085).jpg) |
+| NV10 | NV10_palot_citricos_2.jpg | SUSTITUTO: pared de un palot de plástico con rejillas y número, con pomelos dentro. Lower Rio Grande Valley, Texas (EE. UU.) | USDAgov | Public domain | [enlace](https://commons.wikimedia.org/wiki/File:Citrus_Operations_(20100217-APHIS-DB-0084).jpg) |
+| NV10 | NV10_palot_entero_manzana.jpg | SUSTITUTO: palot de plástico verde entero, lleno de manzanas, en la calle de un frutal. Vinschgau (Italia) | Erwin Lindemann | Public domain | [enlace](https://commons.wikimedia.org/wiki/File:Apfelkiste.jpg) |
+| NV11 | NV11_tractor_remolque_naranjas.jpg | Tractor pequeño con remolque basculante descargando naranjas de destrío. Llombai (Valencia; no es La Plana) | Fev | Public domain | [enlace](https://commons.wikimedia.org/wiki/File:Superproducci%C3%B3n_de_naranjas.JPG) |
+| NV12 | NV12_sequia_major_vilareal.jpg | Séquia Major de Vila-real: canal de obra con barandilla, a su paso por el casco. Vila-real (La Plana Baixa) | B25es | CC BY-SA 3.0 | [enlace](https://commons.wikimedia.org/wiki/File:S%C3%A9quia_Major_de_Vila-real_02.JPG) |
+
+Notas:
+- NV7_aerea_borriana es pequeña (640 × 480): solo sirve para ver el mosaico de parcelas alrededor del casco.
+- NV8: las casetas son de Vila-real, pero el campo de las fotos es herbáceo, no de naranjos.
+- NV9: el almacén de José Ribera es de Carcaixent (La Ribera Alta), no de La Plana. Es modernista (finales del XIX y principios del XX) y más monumental que un magatzem corriente. NV9_magatzem_carcaixent_4 es de una feria: la naranja sobre paja es decorado. El cartel NV9_magatzem_tabla_cajas da los formatos de caja del almacén: «americanas» de 30 kg, «medias americanas» de 15 kg y bandejas de 12 kg para mandarina, con calibres y colocación. Las **medidas de las cajas en cm no salen: SIN VERIFICAR**.
+- NV10: los palots de cítricos son de pomelo, en Texas (USDA). El palot entero es de manzana, en el Vinschgau. No he encontrado ningún palot de cítricos español con licencia libre.
+- NV11: tractor con remolque en Llombai (Valencia), descargando naranja de destrío.
+- NV12: la Séquia Major de Vila-real a su paso por el casco (canal de obra). No es una acequia de huerta pequeña.
+
+### Sin fuente libre (después de la tercera pasada)
+- **Huertos de Nules**: siguen sin aparecer. Para La Plana están NV7 (Onda, Almassora–Vila-real y Borriana).
+- **Almacén de naranja de La Plana**: no hay ninguno con licencia libre. En Commons solo hay de Alcàsser (N2), Meliana (descartado) y Carcaixent (NV9). Commons tiene el Museu de la Taronja de Borriana (casa burguesa, no almacén) y el Círcul Fruiter Borrianenc (casino de comerciantes), y los he descartado.
+- **Palots y cajas de cítricos españoles**: no hay fuente libre. Los sustitutos son NV10 (Texas e Italia) y el cartel de NV9.
+- **Recolección de cítricos (collidors)**: no hay fuente libre localizada.
+- **Acequia pequeña de huerta y pozo de riego de La Plana**: no hay fuente libre localizada. NV12 es la acequia mayor, en el casco.
+- Las categorías que pedía el encargo no existen con esos nombres: «Citrus in the Valencian Community», «Magatzems de taronja», «Orange packing houses» y «Agriculture in the Province of Castellón» devuelven 0 resultados. He usado «Citrus orchards in the Land of Valencia», «Orange trees in the Land of Valencia», «Citrus in the Land of Valencia», «Plana Baixa», «Burriana», «Vila-real», «Nules», «Buildings in …» y búsquedas de texto.
 
 — Paula
