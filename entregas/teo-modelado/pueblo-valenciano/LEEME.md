@@ -13,7 +13,8 @@ Las cuatro tienen **la misma huella (6 × 10 m) y la misma colisión que casa_pu
 | TresAlturas | Cal, Ocre, Gris, Ropa, Ruina | Repartidas por las hileras |
 | CasaPatio | Porton, Abierto, Parra, Naranjo, Derruida | En el borde del pueblo, hacia la huerta |
 
-## Campanario (hito; NO colocar hasta que Álvaro diga dónde)
+## Campanario (hito)
+- **Colocado por Álvaro (19:16): (118; 0; 128), v2 Reloj, yaw 180** (mira al fuerte). Queda detrás de la hilera trasera, que es continua en X 96,5–143,5, así que no cruza ninguna línea de tiro hacia los accesos. Las instancias de las casas están en docs/niveles/sagunto_pueblo_instancias_v1.csv (§10.19).
 - Mide 25 m de alto, con una huella de 5 × 5 y zócalo de 5,6. Variantes: Ladrillo, Piedra, Reloj (reloj en −Y), Danado (remate caído al pie, en +X) y Andamio (en −Y).
 - Condiciones de Lucía:
   - Álvaro lo coloca fuera de las líneas de tiro hacia los accesos del muro (D-N174). Si se cruza con alguna, Nacho mide antes de que entre.
