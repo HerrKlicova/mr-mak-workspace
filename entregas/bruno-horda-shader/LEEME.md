@@ -28,7 +28,18 @@ Bruno (Arte técnico), 8-nov, 22:45. Esto está **SIN COMPILAR**: lo he escrito 
 | `Assets/TBD/Scripts/View/ZombiePaleta.cs` (+ .meta) | Componente `[MaterialProperty("_HordaPack")]` y `HordaPaleta.Elige(id)`, la regla de mezcla de build_horda_color.py portada tal cual, con los vectores de prueba en el comentario |
 | `Assets/TBD/Resources/Icons/noche/sangre_rampa.png` (+ .meta) | Rampa de sangre 16×1, en Point y sin mipmaps. `horda_paleta_lut.png` ya está en el proyecto |
 
-## Cómo conectarlo (Marcos)
+## ACTUALIZACIÓN 8-nov, 23:15: código ya conectado en TBD, rama `claude/horda-dn80` (896b197, sobre marcos/noche-prototipo ae93063)
+
+El código ya está en esa rama. Con Unity abierto, a Marcos solo le queda copiar los binarios (desde la nube no se pueden subir por LFS):
+1. Los 5 FBX LOD1 de `entregas/teo-modelado/zombis-dn80/` van en `Assets/TBD/Resources/Models/ZombiDN80/`, con el mismo nombre
+   (`SM_Zombi_v3_Civil_LOD1.fbx`, etc.). En el import, *Vertex Colors* tiene que quedar en Import, que es lo normal, y *Mesh Compression* en Off.
+2. `sangre_rampa.png` de esta entrega va en `Assets/TBD/Resources/Icons/noche/`, con su .meta.
+3. Fusionar `claude/horda-dn80`. Al arrancar, la consola dice `[D-N80] horda con TBD/Horda: 5 siluetas, 1 material`.
+   Si falta alguna malla, avisa con `[D-N80] falta …` y sigue con los zombis de antes, así que no rompe nada.
+4. El shader ya está en *Always Included Shaders*, en GraphicsSettings.
+5. Para cerrar la D-N80, Lucía pide una captura de noche con `-nightdense`.
+
+## Cómo conectarlo a mano (referencia; la rama ya lo hace)
 
 1. Crear el material `Horda.mat` con el shader `TBD/Horda`, poniendo `_HordaLut` = horda_paleta_lut y `_SangreRampa` = sangre_rampa.
    Tiene que estar marcado *Enable GPU Instancing*, aunque con Entities Graphics no hace falta.
