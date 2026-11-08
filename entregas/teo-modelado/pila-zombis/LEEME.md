@@ -1,5 +1,7 @@
 # Pila de zombis contra el muro · Teo, 8-nov
 
+> **Arreglo del 9-nov:** hasta ahora, las celdas y los remates entregados tenían el origen en el centro de su caja (entre 1,1 y 1,3 m hacia fuera y algo levantado), no al pie del muro como dice abajo. Colocados en la cara del muro, quedaban metidos en él. Ya están sustituidos, con el origen de verdad al pie de la cara de fuera (y = 0, z = 0). Las mallas son las mismas, solo trasladadas (comprobado en las 90 piezas). Las colisiones (`colision/`) ya estaban bien. Delante de una puerta cerrada, ver ../puertas-asedio/LEEME.md (origen en y = −0,16).
+
 Para Marcos (integración en la zona y NightSim), Nacho (umbrales) y Bruno (material). **Aprobado por Lucía (8-nov, 24:20), remates incluidos.** La hoja está en /mnt/project-files/docs/arte/modelado-3d/pila-zombis/hoja_pila_zombis.png.
 
 A partir de 3 zombis por celda, las instancias sueltas pegadas al muro se sustituyen por una pieza de pila por celda, para que se lea como una masa y rinda.
