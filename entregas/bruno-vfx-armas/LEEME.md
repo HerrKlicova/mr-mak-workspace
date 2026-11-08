@@ -71,3 +71,24 @@ No tengo Unity aquí: el código no está compilado ni probado. Lo he escrito so
 - El brillo HDR depende de que la cámara VFX_HD siga teniendo bloom. Si tras quitar su post (QA29) ya no lo tiene, los fogonazos se ven pero no derraman luz; habrá que subir `_Intensity`.
 - Las luces puntuales necesitan las luces adicionales de URP, como los focos.
 - Coste: 8 sistemas de partículas compartidos, con Emit por evento. Unas 15 partículas por disparo de ametralladora y unas 50 por explosión. Nada se crea en cada disparo.
+
+## ACTUALIZACIÓN 8-nov, 23:55: el disparo sale de Muzzle_n (puntos de Teo, mr-mak 1e8c0d5)
+Código en TBD, rama `claude/bocas-arma` (00251ff, sobre marcos/noche-prototipo ae93063). **SIN COMPILAR.**
+- **Vehículos** (`VxMuzzle`): busca `Muzzle_0`, y si no lo encuentra el «Boca» de antes. En el NH90 usa `Muzzle_0` (puerta derecha) o `Muzzle_1` (izquierda),
+  según el costado que mire al blanco. Si el modelo no trae el punto, usa los desplazamientos de antes.
+- **Soldados** (`NightShotFx`): `Muzzle_0` del modelo, o `Muzzle_1` (AG36) para la granada. Pasan de SpawnTracer+SpawnFlash a `VfxShot`:
+  fogonazo, humo, casquillo y trazadora en la capa de efectos con bloom. No tienen impacto propio, porque la granada y la sangre ya llegan
+  por la simulación. Si el modelo no trae Muzzle, se queda lo de antes.
+- **Dirección**: se usa la **posición** del punto y la dirección **hacia el blanco**, no su +Z, porque el fusil del modelo apunta unos 35° a la derecha.
+- **-vfxboca**: marca crema 2 s en la boca y, en la vista de escena del Editor (con Gizmos), dos rayos de 1 s: **amarillo** = disparo real hacia el blanco,
+  **cian** = +Z del punto tal como está modelado. Sirve para comprobar la orientación que Teo dejó SIN VERIFICAR en Unity.
+
+### Pasos del Editor (Marcos)
+1. Sustituir en el proyecto los FBX que Teo cambió en 1e8c0d5, con los mismos nombres y en sus carpetas de siempre:
+   `entregas/teo-modelado/soldado-armado/` (36) → `Assets/TBD/Resources/Models/Infanteria/`, y
+   `entregas/teo-modelado/vehiculos-textura/{dragon,vamtac,nh90}/` (+ `usos/v0..v4`) → donde estén hoy el Dragón, el VAMTAC y el NH90.
+   Las mallas, los UV y los huesos son idénticos (Teo lo ha comprobado), así que los .meta se conservan.
+2. En el rig de SoldadoArmado: si el Avatar o la máscara filtran huesos, que `Muzzle_0` y `Muzzle_1` no queden fuera
+   (son hojas sin pesos, hijas de `brazos`). Si se quedan fuera, `Find` no los encuentra y el disparo sale como antes.
+3. Fusionar `claude/bocas-arma`. Una partida con `-vfxboca`: la marca crema tiene que quedar en el extremo del cañón en reposo, al andar y al disparar.
+4. Pasarme una captura directa de cerca de un soldado y del Dragón disparando, para ajustar el fogonazo y el bloom con Lucía.
