@@ -1,6 +1,6 @@
 # Relevo · Iker (Programación, 2.º ingeniero de Unity)
 
-Última actualización: 8-nov-2026, 12:45 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
+Última actualización: 8-nov-2026, 14:15 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
 
 ## Quién eres
 - Iker, segundo ingeniero de Unity junto a Marcos. Trabajas con Remote Control en el PC de Eugenio (DESKTOP-1BLD8V4). Siempre en español.
@@ -47,6 +47,14 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
    - `Net/TrenPreparar.cs`: Envio, Descarga, **Aparcar** (horario de una parada: SetSchedule es cíclico), ETA. `View/TrenPanel.cs`: panel en el mapa contra `IEmbarque` con `EmbarqueStub` (1 pelotón y 1 vehículo por tren) hasta nacho/tren-embarque (TrainLoad/TrainUnload, ids ATren=2000+tren y EnEstacion=3000+nodo, D-N166). Corrida: `TBD.exe -menu-auto -sinintro -sintutorial -leaveat 15 -trenpanel-auto` → Captures/tren/.
    - `Tutorial/Maquina.cs`: letra a letra con sfx_ui_tecla_1..8 de Nuria (±3 %), retorno 0,4 y campanilla; al saltar el texto no suena nada. Intro y tarjetas del tutorial en negrita y más grandes (Eugenio). Fondos de Bruno por tarjeta: D, A, B, C, C (`Resources/Intro/`).
    - Embarque ya real (iker/red-estaciones con nacho/tren-embarque fusionada): `EmbarqueRed` en TrenPanel. PROTOTIPO: desde el mapa, dentroRecinto = true y sin mirar zombis a 3 m; noche de 21:00 a 7:00 a ojo; ids de vehículo = índice en NightRun.Session.Sim.Vehicles (hay que confirmar que coincide con la lista de la zona). Pendiente: los 7 enganches de Marcos y bajar en Sagunto dentro de la zona (BajarPeloton con posición).
+
+7. **Tarde del 8-nov** (todo en iker/red-estaciones; último c73a83e):
+   - **NO lanzar TBD.exe en el PC de Eugenio** (abre ventana; se enfadó). Solo dotnet y Unity -batchmode (TutorialBuild.Construir compila; no ejecutar la build).
+   - Capítulo 3 = D-N172 revisada: rescate en la primera noche. Salta con Senal(Pila150) o 60 s después de Senal(ContactoMuro) (3.1b), la horda no espera, Nules manda 1 pelotón (Destacamento: tren parado en Nules + pasajero EnEstacion). TrenAnden (zona) descarga en Sagunto: con asedio solo tropa; si no, CmdCargo baja la carga. Objetivo después de la noche: «Lleva el tren a Nules con munición».
+   - Bétera (D-N173): AerodromoEstado (puro, lee Data/estacion_betera.json de Álvaro) + AerodromoVista (nodo y panel en el mapa, Llegadas para la zona, VolverARearmar). Capítulo 4 al abrir el aeródromo (textos míos, pendientes de Lucía). Plantel por estación en Aerodromo.cs. Zona de Bétera: elegido el encuadre de reserva 256 × 128 (no hecha).
+   - El vuelo sale ~3,5 s porque NetConst sigue en ×72 (el ×103 de la D-N161 aún no está en la red).
+   - Enganches pendientes de Marcos: RegistrarDestacamento, Senal(Pila150/ContactoMuro/OrdenAtacar), TrenAnden.PuntoBajada (costado sur, puerta este), anillo «pila» en (100;34), ComprobarC90 con recinto, ocultar Vehs Embarcado, consumir AerodromoVista.Llegadas y llamar VolverARearmar/PelotonEnTierra, señales nh90_posado/nh90_descargado.
+   - Mañana 09-11: 5 muestras de interfaz con PixelLab (brief docs/relevo/iris.md, prefijo docs/arte/pixellab-prefijo-validado.md), saldo antes/después, ≤ 20 %, clave solo por variable de entorno.
 
 ## Pendiente
 ### Nuevo encargo (D-N154, D-N158 y D-N163; Lucía, 8-nov)
