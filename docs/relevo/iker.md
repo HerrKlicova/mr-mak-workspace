@@ -1,6 +1,6 @@
 # Relevo · Iker (Programación, 2.º ingeniero de Unity)
 
-Última actualización: 8-nov-2026, 14:15 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
+Última actualización: 8-nov-2026, 15:00 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
 
 ## Quién eres
 - Iker, segundo ingeniero de Unity junto a Marcos. Trabajas con Remote Control en el PC de Eugenio (DESKTOP-1BLD8V4). Siempre en español.
@@ -55,6 +55,13 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
    - El vuelo sale ~3,5 s porque NetConst sigue en ×72 (el ×103 de la D-N161 aún no está en la red).
    - Enganches pendientes de Marcos: RegistrarDestacamento, Senal(Pila150/ContactoMuro/OrdenAtacar), TrenAnden.PuntoBajada (costado sur, puerta este), anillo «pila» en (100;34), ComprobarC90 con recinto, ocultar Vehs Embarcado, consumir AerodromoVista.Llegadas y llamar VolverARearmar/PelotonEnTierra, señales nh90_posado/nh90_descargado.
    - Mañana 09-11: 5 muestras de interfaz con PixelLab (brief docs/relevo/iris.md, prefijo docs/arte/pixellab-prefijo-validado.md), saldo antes/después, ≤ 20 %, clave solo por variable de entorno.
+
+8. **Rama nueva `iker/escenario-inicio`** (desde la tarde del 8-nov: lo que no debe entrar antes de la build de las 18:30; Marcos ya fusiona `iker/red-estaciones`). Último 2683fa3. Lleva todo lo de iker/red-estaciones más:
+   - `NetScenario.Inicio()` (D-N156): Valencia/Teruel a 0, trenes sin horario en Sagunto, reserva de Sagunto en u 150/140/100/80, Nules propia con 0 de munición. Mvp() intacto (pruebas y goldens). Para estrenarlo, NetSession.Ensure → Inicio() (Marcos). Pendiente: víveres (Res no los tiene), Nules sin asedio la 1.ª noche (director), recinto de Nules (Obras).
+   - `AlmacenZona` (regla de Hugo), `ObjetivoViaje` («Lleva munición a Nules», textos de Lucía), `AndenPuntos` (Nules v0.1), `SalidaTren` + `SalidaTrenSonido` (25 OGG de Nuria), `MapaGestos` (doble clic, D-N170), `AerodromoNivel` + `VueloLocal` + `AerodromoZona` + `Editor/AerodromoCaptura` (escena Assets/Scenes/Betera.unity, encuadre 256 × 128), `SonidoNH90` (OGG pendientes).
+   - Piezas: Resources/Models/Betera (Teo r2 + helipuerto + rearme_set) y Resources/Models/Nules (148 FBX).
+   - Pruebas: sección [30] 190 de 190; suite entera 1043 de 1043 (antes de la zona de Bétera).
+   - Mañana: lote de PixelLab (`/mnt/project-files/pixellab-lote-0911.md`, 30 generaciones; saldo 8.228,05 el 8-nov).
 
 ## Pendiente
 ### Nuevo encargo (D-N154, D-N158 y D-N163; Lucía, 8-nov)
