@@ -3,6 +3,8 @@
 > **Segunda pasada (23:44).** Bruno midió en pantalla 7,9 con #70784c (en la E, lateral contra el balasto D) y 14,5 con #88885c. Lucía elige **#88885c para el lateral**. El techo del vagón v2 y el canto del parapeto de la R2 pasan a **#b8b8b8**, como los demás techos. Por encima de #b8b8b8 solo está el hueso #d4d0cc, reservado para la interfaz. Lo que sigue describe la primera pasada (#70784c), que queda sustituida por esta. Mallas y pivotes, otra vez idénticos en las 18 parejas.
 >
 > **Carga (23:45, Lucía).** La carga visible pasa de #88885c a **#847c34**: las cajas de munición de la R2 y la carga del vagón cercano v2. Solo cambian esas dos piezas. Por albedo queda a ΔL* 4,4 del lateral (51,3 frente a 55,7), aunque se distingue también por el croma (40 frente a 25). Frente al techo #b8b8b8 da 23,5, y del ámbar #e08c30 está lejos (L* 65,6 y tono 67° frente a 100°). **Bruno tiene que medirlo en pantalla.**
+>
+> **Carga definitiva (23:48): #845c28.** Bruno midió en pantalla, con la luz E, que #847c34 quedaba a ΔL* 3,1 del lateral. Con #845c28 da 11,4 (31 frente al techo; de noche, 6,3 según su modelo). Por la regla de Lucía (si da menos de 8, #845c28 sin volver a consultar), la carga queda en #845c28. Solo cambian el vagón cercano v2 y la R2.
 
 Lo pidió Lucía el 8-nov a las 24:33. El lateral oliva de los vagones (#50541c, L* 34,3) quedaba a ΔL* 5,6 del balasto D con la luz de día, y Sara pide 8 o más.
 
@@ -25,4 +27,4 @@ T_Paleta32.png es la de siempre. Los vagones abandonados, la cisterna, la locomo
 
 **Para Bruno:** volver a medir de día y de noche contra el balasto D.
 
-Código: TBD `claude/modelado-3d-skill` 36a2410, db95b64 y b12ca52 (vagon_cercano.py, locomotora_cercana.py, locomotora_r1.py, vagon_tropa_r2.py). Se entrega con `--costado 88885c` y `--claro b8b8b8`.
+Código: TBD `claude/modelado-3d-skill` 36a2410, db95b64, b12ca52 y cf42730 (vagon_cercano.py, locomotora_cercana.py, locomotora_r1.py, vagon_tropa_r2.py). Se entrega con `--costado 88885c` y `--claro b8b8b8`.
