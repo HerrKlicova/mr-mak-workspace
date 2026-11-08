@@ -85,6 +85,24 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
      - Plazas: Lucía dice que solo tienen plaza Sagunto, Nules y Bétera, y que Teruel y Zaragoza van a 0. Está en NetWorld.TrainSlots, que es de Nacho. Bétera no es nodo de la red.
      - D-N160, el informe de inteligencia, va después del tutorial.
      - El FARP de Bétera y el huerto de Nules los integra Marcos.
+9. **Integrador desde el 8-nov a las 22:10** (encargo del coordinador: descargar a Marcos). Las builds de integración salen de iker/escenario-inicio a `C:\Dev\TBD-2\Builds\NocheNN` con `TutorialBuild.ConstruirNoche -noche NN`.
+   - **Noche70** (3e265e2): plantel, puertas, víveres, avisos ámbar, capítulo 3 y sonidos de Nuria.
+     - Le falta existencias_red.json, porque BalanceBuildCopy solo copiaba estacion_*.json. Arreglado en cf4f0db.
+   - **Noche71** (cf4f0db):
+     - horda de Nules de Nacho;
+     - fracción de las puertas: Sagunto 0 %, Nules 10 %;
+     - capítulo 3 con la 3.8 simple y la 3.8b condicional;
+     - arte de Bruno: D-N80, pila, vías, fantasma y bocas de arma;
+     - bocas de Teo f42c931;
+     - NOCHE-ARMAS;
+     - CapturaLotes (captura por RenderTexture).
+   - **Noche72** (edd7645): D-N179 (ObjetivoDefensa), los 24 iconos APP-6, nacho/asedio-nules 1d426cf y claude/informe-app6 f438db8 (tecla I).
+   - **QA**:
+     - Scripts en el scratchpad: qa70.sh y qa46.sh. Siempre con `-menu-auto`: sin él, -nightbot se queda en el menú.
+     - Los logs van a docs/capturas/qa70 y qa46.
+     - qa46 hecha: unos 390 zombis por u y pila_max entre 0 y 19.
+   - **Capturas**: el clasificador de permisos bloquea el player sin -nographics. Hace falta la regla en `.claude/settings.local.json` (ver memoria no-ventanas-en-el-pc).
+   - **Si Marcos se corta**: sigo desde docs/relevo/marcos.md, con el turbo por SimId y las semillas de la Noche75.
    - Trampa: un -nographics deja las capturas en blanco y vuelve a guardar las escenas. Hay que hacer `git checkout` de Assets/Scenes después de compilar así, y las capturas se sacan solo con -batchmode.
 
 ## Pendiente

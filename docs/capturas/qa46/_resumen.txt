@@ -1,0 +1,6 @@
+n71_armas_normal_s1: 70 s, 1 líneas [NOCHE-ARMAS], resultado=victoria
+n71_armas_normal_s2: 73 s, 1 líneas [NOCHE-ARMAS], resultado=victoria
+n71_armas_normal_s3: 73 s, 1 líneas [NOCHE-ARMAS], resultado=victoria
+n71_armas_normal_s4: 78 s, 1 líneas [NOCHE-ARMAS], resultado=victoria
+n71_armas_normal_s5: 61 s, 1 líneas [NOCHE-ARMAS], resultado=victoria
+HECHO
