@@ -37,6 +37,7 @@
 - El catálogo ya está versionado en el repo: docs/arte/referencias/catalogo.md (commit e393908, con R, S y RC). La copia nueva está en la raíz de la biblioteca y Teo la mueve a su sitio.
 - 8-nov, ficha del Lince para Hugo (D-N172): `referencias-reales/militar/ficha_lince_hugo.md`. Arma: identificación visual (M2 y lanzagranadas de 40 mm, SIN VERIFICAR); munición, no pública; STANAG 1-3.
 - 8-nov, **AE · aeródromos** (Eugenio y Lucía, D-N173): docs/arte/referencias/aerodromos.md (commit 922fa6a). Recomendado: Base Jaime I de Bétera (BHELEME II); alternativa: El Pinar (LECN); Manises descartado por el lore. Fotos AE1-AE2 en referencias-reales/aerodromos/. Norma de Eugenio: todo vehículo aéreo sale de un aeródromo del mapa global, no de la estación.
+- 8-nov, planta de Bétera para Álvaro: referencias-reales/aerodromos/betera_planta_*.jpg y betera_planta.md. Ortofoto PNOA por WMS (ign.es/wms-inspire/pnoa-ma; el interior de la base viene difuminado) y OSM por Overpass (pista de 275 m, plataforma de 277 × 99 m, torre). Mapas y ortofotos de OSM o el IGN se aceptan para planos (Mak lo pidió); las fotos siguen siendo solo de Commons.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
