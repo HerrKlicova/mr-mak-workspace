@@ -1,5 +1,7 @@
 # Azotea del edificio de viajeros de Sagunto · Teo, 8-nov
 
+> **ANULADO (8-nov 18:03, Lucía y Álvaro):** la azotea real está en las alas, a 4,75 m. Usa `edificio-viajeros-sagunto/` en lugar de estas piezas.
+
 Para Marcos. Sale de sagunto-nivel.md §10.15 (Álvaro): Lucía aprobó la azotea, que sustituye a las atalayas, y **estas piezas, el 8-nov a las 14:22**. Medido sobre el LOD1 a tamaño de juego, el 0 % de los píxeles cae en la banda de la horda. Las hojas están en /mnt/project-files/docs/arte/modelado-3d/azotea/. Todas las carpetas comparten la misma `T_Paleta32.png`. Medidas SIN VERIFICAR.
 
 | Carpeta | Piezas | Origen y montaje |
