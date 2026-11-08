@@ -4,9 +4,9 @@ from PIL import Image, ImageDraw, ImageFont
 K=14; CW,CH=170,92; LX=150; TOP=40
 Fp="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"; Fb="/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 F=ImageFont.truetype(Fp,11); FB=ImageFont.truetype(Fb,13); FT=ImageFont.truetype(Fb,16)
-SACO="#88885c"; SACOS="#605c48"; REL="#b4a080"; HES="#70784c"; HESS="#50541c"; MAL="#b8b8b8"; SUELO="#c4ac84"; OSC="#1c1812"; CHAPA="#94948c"; MAD="#a86c50"; CAM="#605c48"
+SACO="#605c48"; SACOS="#48403c"; REL="#b4a080"; HES="#70784c"; HESS="#50541c"; MAL="#b8b8b8"; SUELO="#c4ac84"; OSC="#1c1812"; CHAPA="#94948c"; MAD="#a86c50"; CAM="#303424"; SACOM="#847c34"
 ESTADOS=["Sano ≥ 70 %","Dañado 30–70 %","Muy dañado 1–30 %","Brecha 0 (no bloquea)"]
-bloques=[("SACOS TERREROS · tramo de 8 m = 2 módulos de Teo (1,2 m de alto)",["v0 hiladas rectas","v1 en talud","v2 sacos mezclados","v3 con tablón","v4 con red"]),
+bloques=[("SACOS TERREROS · tramo de 8 m = 2 módulos de Teo (1,2 m de alto)",["v0 hiladas rectas","v1 en talud","v2 irregular, aspilleras","v3 con tablón","v4 con red"]),
          ("HESCO · módulo de 10 m, 2,1 m de alto (D-N59)",["v0 malla limpia","v1 geotextil a la vista","v2 doble escalonado","v3 remate de sacos","v4 red de camuflaje"]),
          ("PUERTA DE VEHÍCULOS · 8 m, dos hojas de 4 m (D-N111)",["v0 tubo y chapa","v1 chapa ondulada","v2 tablones y flejes","v3 malla con espino","v4 blindada con pórtico"])]
 W=LX+4*CW+20; H=2000
@@ -18,15 +18,23 @@ def cell(ox,oy,mat,v,e,rnd):
     x0=ox+10; L=(8 if mat==0 else 10 if mat==1 else 8)*K*1.0; L=min(L,CW-26)
     if mat==0:   # sacos: hiladas de 0,6 × 0,3 m
         filas=4; hl=0.3*K; sl=0.6*K
+        if v==1: filas=5                                   # talud: base más ancha y una hilada más
+        if v==2: filas=6                                   # parapeto irregular: de 0,9 a 1,8 m
         alt={0:filas,1:filas,2:2,3:0}[e]
+        perfil=[4,4,6,6,6,6,4,3,3,5,6,6,6,6,4]             # v2: altura irregular por columna
         for f in range(alt):
-            off=(sl/2 if f%2 else 0)+ (f*0.15*K if v==1 else 0)
-            n=int((L-off- (f*0.3*K if v==1 else 0))//sl)
+            if v==1: off=f*0.5*K+(sl/2 if f%2 else 0); fin=L-f*0.5*K   # 0,5 m de retranqueo por hilada a cada lado
+            else:    off=(sl/2 if f%2 else 0); fin=L
+            n=int((fin-off)//sl)
             for i in range(n):
-                if e==1 and f==filas-1 and 3<=i<=5: continue          # muesca en la fila de arriba
+                if v==2 and f>=perfil[i%len(perfil)]: continue
+                if v==2 and f==3 and i in (4,11) and e==0: continue        # huecos de tirador (aspilleras)
+                if e==1 and f==alt-1 and 3<=i<=5: continue          # muesca en la fila de arriba
                 if e==2 and rnd.random()<0.25: continue
-                c=SACO if not (v==2 and rnd.random()<0.35) else "#a89470"
+                c=SACO if not (v==2 and rnd.random()<0.35) else SACOM
                 R(x0+off+i*sl,gy-(f+1)*hl,x0+off+(i+1)*sl-1,gy-f*hl-1,c)
+        if v==2 and e==0:
+            for i in (4,11): R(x0+i*sl,gy-4*hl,x0+(i+1)*sl-1,gy-3*hl-1,"#000000",REL)
         if v==3 and e<2: R(x0,gy-filas*hl-3,x0+L,gy-filas*hl,MAD)
         if v==4 and e<2:
             for i in range(0,int(L),6): d.line([x0+i,gy-filas*hl,x0+i+4,gy-filas*hl+8],fill=CAM)
