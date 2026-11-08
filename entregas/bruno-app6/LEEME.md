@@ -23,3 +23,10 @@ En el mapa significa lo mismo (lo propio), así que lo uso como relleno de lo am
 Los PNG de `Assets/TBD/Resources/Icons/app6/` son de la variante D. El dibujo exacto está **SIN VERIFICAR** frente a los SVG de Commons:
 cuando Paula los baje a referencias-reales/informe-inteligencia/app6/, los comparo y retoco.
 Generador: TBD `claude/sprites-importar`, `.claude/skills/pixel-art-codigo/ejemplos/build_app6.py`.
+
+## ELEGIDA la D (Lucía, 8-nov, 24:45). Retoques posteriores
+- Trébol desconocido **dibujado a mano**, por filas (`TREBOL` en build_app6.py). Tiene una muesca de 2 px en cada diagonal y a 16 px ya no se lee como un octógono.
+- Horda frente a hostil (`muestra/comparacion_horda_hostil.png`): a 16 px y sobre las 4 bandas, el hostil lleva la X y el relleno oscuro,
+  y la horda va vacía, así que no se confunden. Por si en el juego sí se confunden, queda preparada la opción **tramada** (`app6_horda_tramado_16/24.png`,
+  con el contorno a píxeles alternos).
+- Sigue pendiente comparar con los SVG de Commons cuando Paula los baje.
