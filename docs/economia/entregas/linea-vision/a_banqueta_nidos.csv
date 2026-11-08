@@ -1,0 +1,4 @@
+# tramos de Works.Snapshot(Sagunto): 31, vida total 1200018 a 11924 por u
+dificultad;vehiculos;partidas;victorias;municion_p10_u;muro_medio_pct;pila_max_media;abatidos_vehiculos_medio;recargas_vehiculos_medio;municion_final_media_u;bajas_medias;derrotas_tren;derrotas_estacion;tren_final_medio_pct;estacion_final_media_pct;trepan_medio;muro_p50_pct;sin_acabar;con_brecha;brecha_min_p50;brecha_hora_p50;brecha_tramo_moda;brecha_tramo_moda_n;reparados_medio;reconstruidos_medio;vida_reparada_media;tren_cae_min_p50;pila_max_p50;pila_max_p90;al_tren_pico_medio;al_tren_distintos_p50;nh90_vueltas_medio
+# LOS normal: 5602 comprobaciones de sólido por tick de media
+normal;si;500;118;40.3;97;385;1232;0.4;43.3;20.6;324;0;32;98;2452;98;58;0;-;-;-;0;0.2;0.0;3384;2.6;387;406;173;363;0.0

@@ -330,7 +330,6 @@ Plano: `sagunto_plano_v2_boceto.png` (script en `herramientas/plano_v2.py`). Mis
 - **Huerta** al sur con su acequia madre, ramales y 3 alquerías sueltas, y **huerta este** detrás del bloque de pisos.
 - Para el tamaño del perímetro (440 m frente a los 254 de hoy) habría que recalcular el muro de partida de D-N63 con Hugo.
 
-— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
 
 ### 7d. Puente real del Palancia (6-nov, 18:45)
 Las fotos F2 de Paula muestran que el puente ferroviario sobre el Palancia es un **viaducto de vigas de hormigón con pilas bajas y muchos vanos**, no una celosía. Decisión (Álvaro, a falta del visto bueno de Lucía a la v3 de Teo): viaducto fiel a la foto, de 4 o 5 vanos de unos 15 m, con el **estribo oeste en X = 262** y creciendo hacia el este por el faldón. La profundidad del cauce la fija Teo según las pilas de la foto. El paso superior se queda **sin pila central** (las vías están a 5 m entre ejes); como mucho, con pilas laterales.
@@ -421,14 +420,14 @@ Con E1 la carretera va de Z 18 a 28. Para que el camino de los vehículos tenga 
 ### 10.6 Lista para Marcos (vía Mak), por prioridad
 1. **E1 y E2**: carretera vieja de 10 m (centro Z 23, ancho 10) con línea central discontinua en b8b8b8 (0,15 × 3 m cada 6 m) y arcenes de 1,5 m en 94948c; calle de la Estación de X 54 a 64 y paso a nivel de 10 m de ancho. Subir el `sagunto_zonas_1m.png` y el `sagunto_sin_vegetacion_1m.png` v1.2 a `Resources/Suelo` (con la misma vuelta en Z que ya les das).
 2. **Helipuerto de Teo v4** en (180; 0; 44), yaw 0.
-3. **Puerta de vehículos** de Teo en (99; 0; 45), yaw 0, o la hoja doble a partir de `Works` (lo que tengas previsto para la D-N111).
+3. **Puerta de vehículos** de Teo en (99; 0; 45), yaw 180 (corregido el 8-nov, §10.9), o la hoja doble a partir de `Works` (lo que tengas previsto para la D-N111).
 4. **Puestos de frente v2**: F2 en (43; 0; 82) con yaw 90 y F3 en (207; 0; 51) con yaw 270, con el hijo `Luces` según el IMPORTAR.md de Teo.
 5. **Atasco con el carril norte abierto** (10.4) y los cortes K1 y K2.
 6. **Dato de carreteras v1.2**: copiar `mapa_sagunto_carreteras_v1_2.json` sobre los dos `mapa_sagunto_carreteras.json` (Data y StreamingAssets).
 7. **Balizas de ruta** (10.3) y **set de rearme** (10.5).
 8. **Tres coches sobre el paso superior**, a la cota del tablero (8,3 m), en Z 56, 66 y 74, con giros distintos. Así se ve por qué el dato lo da por cortado.
 9. **E3**: hilera trasera de Z 120 a 122.
-10. **Después del P0** (10.8): puerta oeste-sur en (69; 0; 53), yaw 90; los VAMTAC pasan a (110; 53) y (118; 53); dato v1.3 con `acceso_oeste` y `acceso_sur`; armario de Adif en lugar de la caseta del paso a nivel.
+10. **Después del P0** (10.8): puerta oeste-sur en (70; 0; 53), yaw 270 (corregido el 8-nov, §10.9); los VAMTAC pasan a (110; 53) y (118; 53); dato v1.3 con `acceso_oeste` y `acceso_sur`; armario de Adif en lugar de la caseta del paso a nivel.
 
 Coste: unas 30 piezas nuevas (14 balizas, 2 cortes, 2 puestos, el helipuerto, la puerta, 3 coches y el rearme). Con el margen de 32 FPS, se mide antes de darlo por bueno (regla de D-N70).
 
@@ -445,7 +444,7 @@ Coste: unas 30 piezas nuevas (14 balizas, 2 cortes, 2 puestos, el helipuerto, la
 
 **F2: a pie se llega igual que en Dragón.** Mak pide que el vehículo compense. Lo he mirado de las dos formas que propuso:
 - *Acercar el puesto a la calle* no arregla nada. El puesto ya está a 1,8 m de la calle de 10 m, y lo que alarga el viaje en vehículo es el rodeo por la puerta sur (salir hacia el sur, ir 40 m al oeste y subir 60 m por la calle), no los últimos metros. Pasarlo al otro lado de la calle, entre la calle y el muro oeste, acortaría todavía más el camino a pie (sale por la puerta oeste) y lo metería en el embudo de O1.
-- **Elijo el acceso: una segunda puerta de vehículos en el muro oeste**, la **puerta oeste-sur**, al sur de la vía. Es el mismo modelo de la D-N111 (8 m, dos hojas de 4 m) en **(69; 0; 53), yaw 90**, abierta en Z 49-57. La historia: el ejército abrió el muro por el lado del parque para llegar al paso a nivel sin dar la vuelta por la carretera.
+- **Elijo el acceso: una segunda puerta de vehículos en el muro oeste**, la **puerta oeste-sur**, al sur de la vía. Es el mismo modelo de la D-N111 (8 m, dos hojas de 4 m) en **(70; 0; 53), yaw 270** (corregido el 8-nov, §10.9), abierta en Z 49-57. La historia: el ejército abrió el muro por el lado del parque para llegar al paso a nivel sin dar la vuelta por la carretera.
   - **ETA medida por Nacho con la v1.3** (desde el parque): F2 **Dragón 25 s (21 de trayecto, 85 m), Pizarro 24 s, a pie 37 s**. El vehículo gana por 12 s. Helipuerto F3: Dragón 30 s, Pizarro 28 s. Puesto F3: Dragón 32 s, Pizarro 30 s. Las dos de F3 mejoran un poco respecto a la tabla de arriba.
   - **Hace falta también `acceso_sur`** (de (99; 53) a (99; 23), por la puerta de vehículos hasta la carretera vieja). Sin él, la ruta enganchaba el parque al `acceso_oeste` y todo salía por el oeste, de modo que F3 subía a 40 y 43 s. Lo encontró Nacho y lo dejó probado.
   - Recorrido (mi cuenta previa, solo trayecto): parque (99; 53) → hacia el oeste por Z 53 hasta la puerta (30 m) → calle de la Estación en (59; 53) (10 m) → hacia el norte cruzando el paso a nivel hasta (59; 82) (29 m). Son unos **69 m y 2 giros**. Con la fórmula de la D-N120 salen **≈ 18 s de trayecto y ≈ 22 s en total en Dragón, frente a 37 s a pie**. Es una cuenta mía: la medida la saca Nacho con el dato v1.3.
@@ -462,5 +461,103 @@ Coste: unas 30 piezas nuevas (14 balizas, 2 cortes, 2 puestos, el helipuerto, la
 - ~~Nacho: si el sitio del tren sigue al tren~~ Decidido por Mak: lo sigue (10.8). **Nacho**: la ETA de F2 con el dato v1.3 y la marca de «sin cruce» para el paso superior (10.3).
 - **Lucía o Mak**: helipuerto v4 o v0.
 - **Nivel 2** (512 × 256) sigue en P2, pendiente de las medidas de FPS de Nacho y Marcos (§9.3).
+
+### 10.9 Puerta de vía y yaw de las puertas (Álvaro (3), 8-nov, 10:25)
+**Criterio de yaw para puertas y muros (lo ha preguntado Teo).** En las piezas de Teo, el lado de fuera es +Z de Unity con yaw 0, y el yaw gira +Z hacia +X. El lado de fuera tiene que mirar fuera del recinto, de modo que:
+- En el muro oeste (fuera = −X), **yaw 270**.
+- En el muro sur (fuera = −Z, hacia la carretera vieja), **yaw 180**.
+- En el muro este (fuera = +X), yaw 90. En el muro norte, yaw 0.
+
+Con esto quedan corregidas la **puerta oeste-sur, de yaw 90 a 270**, y la **puerta sur, de yaw 0 a 180**. En el código, la hoja doble de la puerta sur todavía no se dibuja (§10.1 E4), así que no hay nada colocado que mover; SIN VERIFICAR hasta revisar la Noche57. Los puestos de frente no cambian, porque su yaw indica hacia dónde mira la entrada y no un lado de fuera.
+
+**Puerta de vía (Bloque 2, D-N151; modelo de Teo en mr-mak 465da15, aprobado por Lucía; `entregas/teo-modelado/puerta-via/`):** va en **(70; 0; 64,5), yaw 270**. El hueco es de 5 m, en Z 62-67, y por él solo pasa la vía 1. Lleva dos hojas batientes de 2,5 m que abren hacia dentro y miden 2,1 m de alto. Al lado está el **tramo HESCO del tutorial**, al norte, en **(70; 0; 72,9), yaw 270**, en Z 67,9-77,9, a tope con la jamba norte de la puerta (Z 67,0-67,9; propuesta de Teo); empieza al 45 % (tutorial-textos.md:41). Al sur no cabe, porque entre Z 57 y 62 solo hay 5 m.
+- **Datos de Marcos leídos en el código (8-nov, 10:33).** El muro oeste está en `Level.FortX0` = 70, con el sólido de X 70 a 72 y las piezas visibles de Obras centradas en X 70,0. Por eso todo lo de esta sección va en **X = 70**, no en 69: el 69 era el borde del hueco en mi croquis. El sólido mide `Level.WallH` = 2,5 m y las puertas se cierran con BuildWall de 2500 mm. La pieza visible de HESCO mide 2,1 m (D-N59 habla de la pieza) y los sacos bajos del sur, 1,2 m (de ahí la cifra de §9 E6). Los muros de la escena no tienen yaw; el 270 vale para los modelos de Teo.
+- **Hueco:** hoy va de Z 62,9 a 66,1 (3,2 m). En el Bloque 2, Marcos lo amplía a **5 m, de Z 62,0 a 67,0**, centrado en la vía (64,5). Las jambas de Teo quedan en Z 61,1-62,0 y Z 67,0-67,9, y el HESCO del tutorial a tope desde 67,9.
+- Las hojas de 2,1 m quedan 0,4 m por debajo del sólido de 2,5 m. Visualmente enrasan con el HESCO, que es lo que se ve; la colisión la pone el sólido. No hay nada que cambiar.
+
+### 10.10 El tren de refuerzo de Nules en plena noche (Álvaro (3), 8-nov, ~13:05; retoque de la D-N172 y D-N166)
+**Conclusión: el tren para fuera de la puerta este y la tropa baja por el lado sur.** Lo he comprobado en el código de marcos/noche-prototipo (8181db0):
+- **El tren viene del este.** Nules está en la línea hacia Castellón, que en esta zona sale por el este, cruzando el Palancia (§1). Pararlo junto a la puerta oeste lo obligaría a atravesar O1, por donde entra la mitad de la horda, y allí quedaría tapado del todo.
+- **Parada**: la cabeza de la locomotora en **X 162** (6 m fuera de la cara del muro este, en X 156, para que no pise las hojas de la puerta este) y la cola en **X 226**, sobre la vía 1 (Z 64,5). Son 64 m: R1 (24 m) y dos R2 (19,9 m cada uno), en el sentido de la marcha hacia el oeste. Queda a 33 m del estribo del viaducto del Palancia (X 259,5). **En mm: cabeza en (162000; 64500), cola en (226000; 64500).**
+- **TrenAnden.PuntoBajada = (192000; 60000) mm**: el costado sur del primer R2, a 4,5 m del eje de la vía.
+- **Hay sitio.** Al sur de la vía, entre X 162 y 226 y Z 47 y 61, solo hay postes de catenaria en X 160 y 210 (Z 60,9, sin colisión). El helipuerto y el rearme ya no van (D-N173). El puesto F3 (cuando entre, en (207; 51)) queda a 15 m del punto de bajada. Al norte de la vía, el bloque de pisos ocupa X 170–178 y Z 76–88: por eso bajan por el sur.
+- **La horda no lo tapa.** En las tres dificultades de `noche_sagunto.json`, O4 (el puente, el este) trae **0 zombis**, y el asedio se coloca contra el muro oeste (X 54–67,5, Z 40–89, `SimWorldSetup.cs:117`). El punto de bajada queda a **unos 125 m** de la horda. Solo cambiaría cuando la Colmena abra O4, que es después del MVP; entonces hay que moverlo.
+- **«Por la espalda» es, en Sagunto, un flanco por el sur.** Desde la puerta este, la tropa no ve a la horda: el muro tapa (D-N174) y el oeste queda a 86 m o más, fuera de los 60 m del fusil. **Posición de ataque recomendada: (100; 34)**, al sur del recinto, a unos 100 m de andar desde el punto de bajada. Desde ahí, la esquina suroeste de la horda (X 60–68, Z 40–48) queda a 35–45 m, y la línea de tiro pasa por fuera del muro (en X 70 va por Z 42,9, por debajo del muro sur en Z 44). El norte no sirve: entre el muro (Z 85) y las casas (Z 98) solo hay un pasillo de 13 m, y las casas tapan.
+- **Riesgo, como pide la D-N166**: cuando la tropa empieza a disparar desde (100; 34), queda en campo abierto, al alcance de la parte de O2 que llega por la carretera (Z 14–31). Que la horda se dé la vuelta hacia ella lo tiene que medir Nacho en la versión del rescate.
+- Para el tutorial (capítulo 3): la flecha de la D-N147 entra por el borde este, sobre la vía.
+
+### 10.11 Tiro por encima del muro oeste con la D-N174 (Álvaro (3), 8-nov, ~13:20; decide Lucía, mide Nacho)
+**El problema**: el HESCO del oeste mide 2,1 m, y la boca de un fusil está a 1,6 m. Con la D-N174, solo dispara a la pila quien está a 2 m o menos de la cara interior del muro (X 70,5–72,5). Sagunto no tiene NH90 (D-N173). Inventario: `sagunto-linea-vision.md`.
+
+**Propuesta, por orden (lo que ya ha decidido Lucía va marcado):**
+1. **La banqueta: dibujar la regla que ya existe. Coste 0 u.** Es una franja de 2 m pegada a la cara interior del HESCO del oeste, en **X 70,5–72,5, de Z 44,5 a 84,5**, sin el hueco de la puerta de vía. Desde Z 62,0 a 67,0 en el Bloque 2 quedan unos **35 m útiles**, que dan para **unos 35 tiradores a 1 m** (la tropa de dentro son 28 hombres en 5 pelotones). A la vista es un escalón de 0,4 m de palés y sacos, para que se entienda por qué se puede disparar por encima. La simulación ya lo hace con la regla de los 2 m. **Decidido por Lucía:** la excepción de los 2 m es lo que sostiene la defensa.
+2. **Los nidos de la puerta de vía, a 1,5 m de la cara del muro (X 72,0).** **Decidido por Lucía.** El cambio está en `NetWorld.cs:1439`: el −X + 3.500 pasa a −X + 2.000, con Z ±7.000 (Z 57,5 y 71,5). Pasan a contar dentro de la banqueta.
+3. **Dos atalayas en las esquinas interiores del frente oeste (propuesta nueva).** Son plataformas de 4 m (andamio con sacos), con la boca a unos 5,6 m, en **(73,5; 0; 47,5) y (73,5; 0; 81,5)**, de 3 × 3 m. Tiran **en enfilada a lo largo del pie del muro**:
+   - desde la atalaya norte hasta el pie de la puerta, (68; 64,5), el rayo cruza el muro a 3,1 m de altura, por encima de los 2,1 del HESCO, y hasta la esquina sur (68; 47) hay 35 m, dentro de los 60 del fusil;
+   - la sur, igual, en el otro sentido.
+   Es la solución clásica del baluarte: el flanqueo cubre el pie del muro sin asomarse.
+   - **No estorban**: la sur queda al sur del hueco de la puerta oeste-sur (Z 49–57, después del P0), y la norte, a 10 m del nido norte. La cola del tren (X 81) queda libre.
+   - **Coste propuesto, para Hugo**: 10 u y 8 obrero·h cada una, entre un nido (8 u, 6 h) y una puerta de vía (8 u, 6 h), porque llevan más estructura. Dos dan 20 u.
+   - Caben 2 tiradores por atalaya: el pelotón de tiradores (2 hombres, con 160 m de alcance) cabe entero en una.
+   - **Pieza nueva para Teo**: `atalaya`, en 5 variantes (andamio con sacos, tablones, chapa, HESCO doble y una con foco).
+4. **Lo que no recomiendo:**
+   - **Una pasarela elevada detrás del muro** (1,2 m de alto y 3 m de ancho): con la boca a 2,8 m, a 3 m del muro solo ve lo que está a más de 4,7 m fuera. Añade una segunda fila, pero no ve la pila, y cuesta lo mismo que una atalaya.
+   - **Troneras en el HESCO**: la regla ya deja disparar por encima a 2 m o menos, así que no añaden tiro. Solo tendrían sentido como protección, y eso hoy no se modela.
+   - **La azotea del edificio de viajeros** (11 m, a 26 m del muro) queda **de reserva, como decidió Lucía**, por si la banqueta y las atalayas no dan.
+- **Decisión de Lucía (8-nov, 13:08)**: aprueba la banqueta (coste 0) y los nidos a 1,5 m. Las atalayas entran solo si la banqueta sola no cumple la D-N169 **sin aire**; si la cumple, quedan para después del MVP. Fuera la pasarela y las troneras; la azotea, de reserva. El lanzagranadas AG36 es tiro curvo y el C90 sigue siendo fuego directo.
+5. **Para Nacho (medir), sin el NH90 en Sagunto (D-N173)**: la normal con la horda vigente en tres casos: (a) solo banqueta y nidos a 1,5 m; (b) lo mismo con las dos atalayas; (c) lo mismo, con la mitad de la tropa en la cola del tren (D-N168). Si (a) cumple la D-N169, las atalayas sobran en el MVP.
+
+### 10.12 Coches del atasco y del paso superior con el kit de Teo (Álvaro (3), 8-nov, ~13:25)
+Teo (3) tiene un kit de coches civiles: `SM_CocheCivil_<Tipo>_v0..v4`, en cinco tipos (Utilitario, Berlina, Furgoneta, Todoterreno y Camion) y cinco variantes (intacto, puerta abierta, pinchado, accidentado y quemado). El morro mira a +Z con yaw 0, el origen está en el suelo y no llevan colisión. **Lista de instancias: `sagunto_coches_v1.csv`** (30 filas: grupo, tipo, variante, x, y, z y yaw), hecha con semilla fija y siguiendo §10.4. Sustituye al atasco de `AddCar` (`PrototypeBootstrap.cs:1455-1466`).
+- **Tramo abierto, X 64–200** (11 coches): el carril norte (Z 23–28) queda libre. Los coches van en el carril sur (Z 19,5–21,5) o en la cuneta sur (Z 15–17). Uno de cada tres está girado unos 60°, como empujado de lado, y alguno está al revés. Ninguno pisa el carril norte, ya contando su largo girado. **X 93–106 queda libre**, para el acceso a la puerta sur.
+- **Tramo cerrado, X 206–250** (15 coches): los dos carriles, a 0,8–2,2 m de parachoques a parachoques, mirando al este, con K1 delante, en (201,5; 23).
+- **Cabeza**: un camión cruzado en (258; 0; 23), yaw 78, variante v3 (accidentado), en la entrada del tablero del Palancia. Ocupa el sitio del `AddTruck` actual.
+- **Paso superior**: tres coches sobre el tablero, a **y = 8,3 m**, en Z 56, 66 y 74, con X y giro distintos: una berlina con la puerta abierta, una furgoneta al revés y un utilitario quemado.
+- Más tarde, la ambulancia de Teo se puede poner en el lugar de una berlina del tramo cerrado. Kit aprobado por Lucía y entregado (mr-mak 5d04a19); Teo enlazó este CSV en su LEEME (mr-mak 185be31) y confirmó que existen todos los tipos y variantes, con el orden 0 intacto, 1 puerta abierta, 2 pinchado, 3 accidentado y 4 quemado.
+
+
+### 10.13 Claros para el NH90 de Bétera, de 25 × 25 m (Álvaro (3), 8-nov, ~13:35)
+Sagunto no tiene NH90 propio (D-N173). El de Bétera llega volando y se posa en un claro de **25 × 25 m** (Lucía, 8-nov; antes eran 20 × 20). Lo he comprobado contra `sagunto_obstaculos_v1.csv`, `sagunto_coches_v1.csv`, la vía, la zona de spawn del asedio y el mapa de zonas.
+- **S1, la antigua explanada del helipuerto, en (180; 44)**: X 167,5–192,5 y Z 31,5–56,5. En el mapa de zonas es calle y está entera sin vegetación. Quedan 2,7 m hasta el borde norte de la carretera (Z 28,8), 5,3 m hasta el puesto F3 (X 197,8), 6,5 m hasta un tren parado en la vía (Z 63) y la catenaria queda fuera (postes en X 160 y 210). La punta del rotor (16,3 m de diámetro) llega a Z 52,2. El punto de bajada del tren de Nules (192; 60) queda fuera del claro, a 3,5 m de su borde norte. **Es el claro principal.** Se aproxima por el sureste, sobre la huerta.
+- **S2, en la huerta al noreste, en (215; 97)**: X 202,5–227,5 y Z 84,5–109,5. Hoy es huerta, así que hay que **marcar ese cuadrado como sin vegetación** (255) en `sagunto_sin_vegetacion_1m.png`, como una parcela arrasada. No choca con ningún sólido ni coche. Sirve de alternativa cuando S1 está bajo fuego (O4 entra por el puente).
+- **Dentro del fuerte no cabe ninguno**: el parque solo tiene 14 m de fondo. Los claros del oeste quedan en la llegada de O1, así que los descarto.
+- Dato para Marcos e Iker: `claros: {"S1": [180, 44], "S2": [215, 97]}`, con lado de 25 m.
+
+
+### 10.14 Banqueta del muro oeste por módulos (kit de defensas de Teo, 8-nov, ~13:55)
+- La franja va de X 70,5 a 72,5 y de Z 44,5 a 84,5. Se corta en el hueco de la puerta de vía (Z 62–67) y en los dos **nidos movidos a X 72,0**. Los nidos son plataformas de 3 × 2,4 m con el lado largo a lo largo de Z, y ocupan X 70,8–73,2 y Z 56–59 y Z 70–73.
+- Quedan cuatro tramos: Z 44,5–56 (11,5 m), Z 59–62 (3 m), Z 67–70 (3 m) y Z 73–84,5 (11,5 m).
+- **Módulos de 5 m y de 2,5 m**:
+  - En Z 45–55 y Z 74–84 van dos módulos de 5 m cada uno, con un hueco de 0,5–1 m en los extremos.
+  - En Z 59,25–61,75 y Z 67,25–69,75 va un módulo de 2,5 m.
+  - En total, **4 módulos de 5 m y 2 de 2,5 m**: 25 m de banqueta. Caben unos 25 tiradores, menos que los ~35 de la §10.11, porque los nidos ocupan su sitio (y ellos también disparan).
+- Si entran las atalayas (§10.11), se quita el módulo de 5 m del extremo correspondiente (Z 45–50 o Z 79–84).
+
+
+### 10.15 Medida de Nacho (D-N174) y azotea del edificio de viajeros (Álvaro (3), 8-nov, ~14:20)
+**Medida de Nacho**: noche normal de 5520, sin NH90, con `sagunto_obstaculos_v1.csv` y 500 semillas por caso. Los CSV están en `docs/economia/entregas/linea-vision/`.
+
+| Caso | Victorias |
+|---|---|
+| Sin línea de visión | 67,5 % |
+| (a) Banqueta y nidos a X 72 | **23,6 %**: no cumple la D-N169 |
+| (b) Con atalayas | 89,2 % |
+| (c) Media tropa en la cola del tren | 9,6 % |
+| **Azotea del edificio de viajeros** (2 pelotones de tiradores a 11 m) | **95,8 %**: cumple la D-N169 (≥95 %) |
+
+Nacho propone la azotea en lugar de las atalayas, y estoy de acuerdo: da más, no hay que construir nada nuevo en el patio y no quita banqueta. **Lucía, 8-nov ~14:18: la azotea entra en el MVP y las atalayas se quedan fuera** (apuntado bajo la D-N174).
+
+**Cómo queda la azotea** (sólido `edificio_viajeros`: X 96,5–115,5, Z 75–83,8, 11 m de alto):
+- **Superficie útil**: 19 × 8,8 m (unos 167 m²), de sobra para 2 pelotones. Lleva un pretil de sacos de 1,2 m por los cuatro lados. Es una pieza nueva de Teo, de sacos del kit sobre la cornisa.
+- **Lo que se ve**: con la boca a 12,6 m (11 + 1,6) y el muro de 2,1 m a 26 m (cara interior en X 70,5), se ve a un zombi de 1 m de blanco **desde 2,7 m fuera del muro**: 1,1 · (26 + d) < 11,6 · d, así que d > 2,7 m. La pila (X 54–68) queda a entre 28,5 y 42,5 m del borde oeste de la azotea, dentro del alcance del fusil (60 m) y del tirador selecto (160 m). Lo que no ve son los que trepan, pegados al muro, pero de esos se encarga la banqueta.
+- **Acceso**: una escalera exterior de obra o metálica en el testero este (X 115,5–117,5, Z 76–82), dentro del recinto y lejos del muro oeste. Es ficción nuestra. Si Teo prefiere la escalera dentro del edificio, vale igual, porque en la simulación solo cuenta el tiempo de subida (lo pone Nacho).
+- **Los 2 pelotones de tiradores empiezan arriba, pero son libres** (Lucía). Posiciones de partida, en el borde oeste y mirando al oeste (yaw 270): **(98,5; 11; 77,4)** y **(98,5; 11; 81,4)**, es decir, (98500; 77400) y (98500; 81400) mm sobre la cota 11.000. Así quedan pegados al pretil que da al muro.
+- **Atalayas**: fuera del MVP (Lucía). Se quedan en el papel.
+- **El pretil viene construido al empezar** (Lucía). Hugo lo confirmó: 11,2 u, y el muro de partida pasa de 120 a 131,2 u (nivel 4,37, 1,31 u al día de mantenimiento; entra en el paquete de las 18:30). Él dice también si subir a la azotea cuesta tiempo.
+- **Teo**: pretil de sacos sobre la cornisa y escalera exterior en el testero este (5 variantes cada una). Montaje con sus piezas (8-nov, ~14:25), todo a la cota 11 m y con la convención de fuera = +Z con yaw 0:
+  - **Esquinas** (4,4 m por brazo): el origen está en el centro del bloque de dentro (Teo). NE en (115; 83,3) con yaw 0, SE en (115; 75,5) con yaw 90 (la «esquina con paso»), SO en (97; 75,5) con yaw 180 y NO en (97; 83,3) con yaw 270.
+  - **Tramos de 5,1 m**: en el lado norte, centrados en X 103,45 y 108,55 sobre Z 83,8, con yaw 0. En el lado sur, en las mismas X sobre Z 75, con yaw 180. Los lados cortos solo llevan las dos esquinas.
+  - **Hueco del pretil**: en el lado este, Z 78,2–79,4, entre el brazo de 2,2 m de la esquina con paso y el de la esquina NE.
+  - **Escalera**: centro de la planta en (116,5; 0; 79), 2 × 6 m (X 115,5–117,5, Z 76–82), con la plataforma de arriba frente al hueco. El «−X local» de Teo es el de Blender. Según el exportador (pos_unity = (−x, z, −y)), ese lado sale a +X de Unity, así que **va con yaw 180** para que el edificio quede al oeste. **Lo confirma Marcos al colocar la primera pieza**: si la plataforma de la escalera no queda contra el edificio, se gira 180°, y si los brazos de una esquina salen hacia fuera de la azotea, se gira 90° (apuntado en el LEEME de Teo).
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

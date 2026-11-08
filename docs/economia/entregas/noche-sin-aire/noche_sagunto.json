@@ -1,0 +1,264 @@
+{
+  "_nota": "D-N74 (Hugo): la noche de Sagunto. Generado por docs/economia/unidades/unidades.py; no editar a mano. Las cifras de unidades están en csv/balance_unidades.csv.",
+  "reloj_x": 103,
+  "hora_inicio": "22:00",
+  "hora_fin": "06:00",
+  "duracion_s_reales": 279,
+  "victoria": "acabar con la horda con el edificio de viajeros y el tren en pie (D-N164: el amanecer ya no da la victoria)",
+  "derrota": "la horda destruye el edificio de viajeros o la locomotora",
+  "entradas": {
+    "O1": "vía",
+    "O2": "carretera",
+    "O3": "pueblo",
+    "O4": "puente"
+  },
+  "dificultad_por_defecto": "normal",
+  "escala_oleadas_permil": {
+    "facil": 853,
+    "normal": 1000,
+    "dificil": 1086
+  },
+  "recursos_iniciales": {
+    "municion_u": 47,
+    "materiales_u": 40,
+    "combustible_u": 30,
+    "nota": "en el almacén de Sagunto; aparte, cada pelotón, el Dragón y el NH90 llevan su dotación (unas 10 u en total); el muro de partida (D-N63) ya está construido"
+  },
+  "fuerza": {
+    "pelotones": [
+      "fusileros",
+      "ametralladores",
+      "granaderos",
+      "tiradores",
+      "zapadores"
+    ],
+    "vehiculos": [
+      "dragon"
+    ],
+    "helicopteros": []
+  },
+  "oleadas": {
+    "facil": [
+      {
+        "n": 1,
+        "hora": "22:00",
+        "minuto_juego": 0,
+        "llegada_s_reales": 180,
+        "total": 4480,
+        "por_entrada": {
+          "O1": 2240,
+          "O2": 1344,
+          "O3": 896,
+          "O4": 0
+        }
+      }
+    ],
+    "normal": [
+      {
+        "n": 1,
+        "hora": "22:00",
+        "minuto_juego": 0,
+        "llegada_s_reales": 180,
+        "total": 5250,
+        "por_entrada": {
+          "O1": 2625,
+          "O2": 1575,
+          "O3": 1050,
+          "O4": 0
+        }
+      }
+    ],
+    "dificil": [
+      {
+        "n": 1,
+        "hora": "22:00",
+        "minuto_juego": 0,
+        "llegada_s_reales": 180,
+        "total": 5700,
+        "por_entrada": {
+          "O1": 2850,
+          "O2": 1710,
+          "O3": 1140,
+          "O4": 0
+        }
+      }
+    ]
+  },
+  "municion_hud": [
+    {
+      "unidad": "fusileros",
+      "dotacion_mil_u": 1500,
+      "fuego_continuo_s": 58,
+      "recarga_s": 10,
+      "recarga_u_mil": 1500,
+      "donde": "junto al tren o al depósito de la estación",
+      "disparos": {
+        "fusil": 467,
+        "ametralladora_ligera": 1753,
+        "lanzagranadas": 19
+      }
+    },
+    {
+      "unidad": "ametralladores",
+      "dotacion_mil_u": 2000,
+      "fuego_continuo_s": 66,
+      "recarga_s": 10,
+      "recarga_u_mil": 2000,
+      "donde": "junto al tren o al depósito de la estación",
+      "disparos": {
+        "ametralladora_emplazada": 2000
+      }
+    },
+    {
+      "unidad": "granaderos",
+      "dotacion_mil_u": 2000,
+      "fuego_continuo_s": 100,
+      "recarga_s": 10,
+      "recarga_u_mil": 2000,
+      "donde": "junto al tren o al depósito de la estación",
+      "disparos": {
+        "lanzagranadas": 100
+      }
+    },
+    {
+      "unidad": "tiradores",
+      "dotacion_mil_u": 300,
+      "fuego_continuo_s": 171,
+      "recarga_s": 10,
+      "recarga_u_mil": 300,
+      "donde": "junto al tren o al depósito de la estación",
+      "disparos": {
+        "fusil_precision": 85,
+        "fusil": 342
+      }
+    },
+    {
+      "unidad": "zapadores",
+      "dotacion_mil_u": 1500,
+      "fuego_continuo_s": 118,
+      "recarga_s": 10,
+      "recarga_u_mil": 1500,
+      "donde": "junto al tren o al depósito de la estación",
+      "disparos": {
+        "fusil": 1421,
+        "carga_zapador": 7
+      }
+    },
+    {
+      "unidad": "dragon",
+      "dotacion_mil_u": 2000,
+      "fuego_continuo_s": 66,
+      "recarga_s": 20,
+      "recarga_u_mil": 1200,
+      "donde": "junto al tren o al depósito",
+      "disparos": {
+        "canon_30": 200,
+        "ametralladora_ligera": 1000
+      }
+    },
+    {
+      "unidad": "vamtac",
+      "dotacion_mil_u": 3000,
+      "fuego_continuo_s": 200,
+      "recarga_s": 20,
+      "recarga_u_mil": 1800,
+      "donde": "junto al tren o al depósito",
+      "disparos": {
+        "ametralladora_pesada": 2000
+      }
+    },
+    {
+      "unidad": "nh90",
+      "dotacion_mil_u": 3000,
+      "fuego_continuo_s": 300,
+      "recarga_s": 30,
+      "recarga_u_mil": 1800,
+      "donde": "posado en el helipuerto (también repone 4 u de combustible)",
+      "disparos": {
+        "ametralladora_puerta": 6000
+      }
+    }
+  ],
+  "combustible": {
+    "_nota": "D-N76 (Hugo). Consumo en E4 de u (1 u = 10.000) por segundo REAL; se cobra cada 30 ticks. Los 30 u de la noche incluyen los depósitos llenos.",
+    "total_noche_u": 30,
+    "almacen_inicial_u": 16,
+    "dragon": {
+      "deposito_u": 8,
+      "marcha_e4_s": 200,
+      "ralenti_e4_s": 60,
+      "apagado_e4_s": 0,
+      "repostar_s_por_u": 2,
+      "repostar_donde": "junto al depósito de la estación o al tren, del almacén de Sagunto",
+      "bidon_zapador_u": 2,
+      "bidon_zapador_s": 20,
+      "a_cero": "queda inmóvil; la torre y la coaxial siguen disparando con la batería; lo rescata un zapador con un bidón de 2 u (20 s) o se repone junto al tren",
+      "aviso_permil": 200
+    },
+    "nh90": {
+      "deposito_u": 6,
+      "vuelo_e4_s": 270,
+      "suelo_rotor_e4_s": 90,
+      "apagado_e4_s": 0,
+      "repostar_s_por_u": 2,
+      "repostar_donde": "solo posado en el helipuerto",
+      "a_cero": "baja en autorrotación a 4 m/s donde esté y queda posado; por debajo de 3 m la horda puede alcanzarlo",
+      "aviso_permil": 200
+    },
+    "comprobacion": {
+      "siempre_en_marcha_u": 13.1,
+      "racionado_u": 20.0,
+      "racionado_es": "el Dragón en marcha el 40 % de la noche y al ralentí el 30 %; el NH90, 10 min de vuelo en 4 salidas y 2 min posado con los rotores girando"
+    }
+  },
+  "resultados": {
+    "_nota": "D-N77 (Hugo). Pantalla al acabar la noche, con victoria o con derrota. Todo sale de contadores que ya existen (ZoneAmmo) o que añade D-N76 (combustible).",
+    "soldados_iniciales": 26,
+    "estadisticas": [
+      {
+        "id": "abatidos",
+        "texto": "Zombis abatidos",
+        "formato": "{abatidos} de {llegados}",
+        "calculo": "abatidos = suma de ZoneAmmo.Kills; llegados = zombis generados en la noche hasta el final (13.090 en normal si se llega a las 06:00)"
+      },
+      {
+        "id": "bajas",
+        "texto": "Bajas propias",
+        "formato": "{bajas} de {soldados} soldados{vehiculos}",
+        "calculo": "bajas = suma de ZoneAmmo.SoldiersLost; vehiculos = ' · Dragón perdido' y/o ' · NH90 perdido' si su vida llegó a 0"
+      },
+      {
+        "id": "municion",
+        "texto": "Munición gastada",
+        "formato": "{gastada} u · {zpu} zombis por u",
+        "calculo": "gastada = ZoneAmmo.ShotsFired / 2000 (una cifra decimal); zpu = Kills * 2000 / ShotsFired (entero; la referencia de la economía es 400)"
+      },
+      {
+        "id": "municion_restante",
+        "texto": "Munición restante",
+        "formato": "{restante} u",
+        "calculo": "restante = almacén de Sagunto + dotaciones de los pelotones vivos + munición a bordo del Dragón y del NH90, en u con una cifra decimal"
+      },
+      {
+        "id": "combustible",
+        "texto": "Combustible gastado",
+        "formato": "{gastado} de {total} u",
+        "calculo": "gastado = suma de lo cobrado por D-N76 (E4 / 10000); total = 30"
+      },
+      {
+        "id": "hora",
+        "texto": "Fin de la noche",
+        "formato_victoria": "Amanecer, 06:00",
+        "formato_derrota": "Cayó a las {hh:mm}, en la oleada {n}",
+        "calculo": "hora del reloj de la noche en el tick en que se cumplió la derrota; n = última oleada que había empezado a entrar"
+      }
+    ],
+    "_nota_estrellas": "D-N149 (Lucía, 7-nov): sin estrellas; quitados resultados.nota y resultados.estrellas (D-N104). Los criterios de calibración son internos.",
+    "textos": {
+      "victoria": "Sagunto resiste",
+      "derrota": "Sagunto ha caído",
+      "boton_repetir": "Repetir la noche",
+      "boton_menu": "Menú principal"
+    }
+  }
+}
