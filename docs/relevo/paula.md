@@ -38,6 +38,7 @@
 - 8-nov, ficha del Lince para Hugo (D-N172): `referencias-reales/militar/ficha_lince_hugo.md`. Arma: identificación visual (M2 y lanzagranadas de 40 mm, SIN VERIFICAR); munición, no pública; STANAG 1-3.
 - 8-nov, **AE · aeródromos** (Eugenio y Lucía, D-N173): docs/arte/referencias/aerodromos.md (commit 922fa6a). Recomendado: Base Jaime I de Bétera (BHELEME II); alternativa: El Pinar (LECN); Manises descartado por el lore. Fotos AE1-AE2 en referencias-reales/aerodromos/. Norma de Eugenio: todo vehículo aéreo sale de un aeródromo del mapa global, no de la estación.
 - 8-nov, planta de Bétera para Álvaro: referencias-reales/aerodromos/betera_planta_*.jpg y betera_planta.md. Ortofoto PNOA por WMS (ign.es/wms-inspire/pnoa-ma; el interior de la base viene difuminado) y OSM por Overpass (pista de 275 m, plataforma de 277 × 99 m, torre). Mapas y ortofotos de OSM o el IGN se aceptan para planos (Mak lo pidió); las fotos siguen siendo solo de Commons.
+- 8-nov, **BT · piezas de Bétera** (Teo): 15 fotos BT1-BT7 en referencias-reales/betera/, con manifest_betera.json, contacto_betera.jpg y referencias_betera_teo.md. Hueco: no hay foto de un depósito fijo de combustible de aviación (se usan cisternas).
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
@@ -50,6 +51,7 @@
 - Dotación de munición del ET: no es pública. Las fotos MV3 del Chinook son de un CH-47D, pero las cotas son del F.
 
 ## 7. Trampas
+- SendUserFile con muchos archivos de golpe: la carpeta devuelve 429 en algunos. Hay que mirar el resultado y reenviar los que fallan.
 - Las figuras del BOE son imágenes y pdftotext no las saca. Hay que renderizar la página con `uv run --with pypdfium2 --with pillow` (no hay pdftoppm) y mirarla.
 - No abrir PDFs del BOE en el navegador del panel: los descarga y al usuario le salta el diálogo de guardar.
 - `python -I` impide importar módulos de la carpeta del propio script. Para los scripts propios del scratchpad, ejecutarlo sin -I.
