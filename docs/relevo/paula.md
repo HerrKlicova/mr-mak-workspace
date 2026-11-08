@@ -39,6 +39,7 @@
 - 8-nov, **AE · aeródromos** (Eugenio y Lucía, D-N173): docs/arte/referencias/aerodromos.md (commit 922fa6a). Recomendado: Base Jaime I de Bétera (BHELEME II); alternativa: El Pinar (LECN); Manises descartado por el lore. Fotos AE1-AE2 en referencias-reales/aerodromos/. Norma de Eugenio: todo vehículo aéreo sale de un aeródromo del mapa global, no de la estación.
 - 8-nov, planta de Bétera para Álvaro: referencias-reales/aerodromos/betera_planta_*.jpg y betera_planta.md. Ortofoto PNOA por WMS (ign.es/wms-inspire/pnoa-ma; el interior de la base viene difuminado) y OSM por Overpass (pista de 275 m, plataforma de 277 × 99 m, torre). Mapas y ortofotos de OSM o el IGN se aceptan para planos (Mak lo pidió); las fotos siguen siendo solo de Commons.
 - 8-nov, **BT · piezas de Bétera** (Teo): 15 fotos BT1-BT7 en referencias-reales/betera/, con manifest_betera.json, contacto_betera.jpg y referencias_betera_teo.md. Hueco: no hay foto de un depósito fijo de combustible de aviación (se usan cisternas).
+- 8-nov, salida de tren (Iker y Nuria): referencias-reales/salida-tren-referencias.md. RCF art. 2.1.6.2 (marche el tren), aviso de puertas ≥3 s (EN 14752 según BSI), Civia 465 0,59 m/s² de media (ficha de Renfe), tiempos de la 447 y la 333.3 estimados con un modelo de potencia.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
