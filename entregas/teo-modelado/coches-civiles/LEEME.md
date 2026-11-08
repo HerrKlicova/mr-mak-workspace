@@ -8,7 +8,7 @@ Para Marcos, a través de Mak. Corresponde a los puntos 6 y 9 de la revisión de
 - Delante es −Y de Blender, que en Unity es +Z con yaw 0. El origen está en el suelo, en el centro. **Sin colisión** en el MVP (sagunto-nivel.md §8).
 - La pintura va fija por modelo. Repartiendo las variantes v0–v3 al azar, el verde y el ocre salen en 4 de cada 20 (Lucía: ≤ 20 %). El resto es gris, beige o blanco. No hay negro, azul ni rojo.
 - Banda de la horda (L* 9–13): 0 % en el LOD1 de las 25. Sustituye a sagunto/coche_2000, que llevaba 283440. La ambulancia sigue como estaba.
-- **Dónde van:** se lo he pedido a Álvaro, con posición, yaw, tipo y variante. Será el atasco con el carril norte abierto y el camión cruzado en cabeza, en el puente (C4 y C5, §10.6.5), y tres coches sobre el tablero del paso superior (cota 8,3 m), en Z 56, 66 y 74, con giros distintos (§10.6.8). La lista irá en este LEEME o en sagunto-nivel.md.
+- **Dónde van:** lista de Álvaro en `docs/niveles/sagunto_coches_v1.csv` (30 filas: grupo, tipo, variante, x, y, z y yaw; morro a +Z con yaw 0; explicada en sagunto-nivel.md §10.12). Son 11 coches en el tramo abierto (X 64–200), 15 en el cerrado (X 206–250), el Camion v3 cruzado en cabeza en (258; 0; 23) con yaw 78, y 3 en el paso superior a y = 8,3 m. Todos los tipos y variantes del CSV existen en el kit. Con ese reparto, el verde y el ocre son 3 de 30 (10 %).
 - Auditoría y presupuesto OK en las 50 mallas. Medidas SIN VERIFICAR, típicas de cada clase.
 
 Código: TBD `claude/modelado-3d-skill`, 3c3aa94 y 0cdc40a (`bloques/coche_civil.py`, TBD_VARIANTE = 5 · tipo + variante).
