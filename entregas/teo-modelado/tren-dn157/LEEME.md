@@ -1,4 +1,6 @@
-# Lateral del tren un escalón más claro (D-N157) · Teo, 8-nov
+# Lateral del tren más claro (D-N157) · Teo, 8-nov
+
+> **Segunda pasada (23:44).** Bruno midió en pantalla 7,9 con #70784c (en la E, lateral contra el balasto D) y 14,5 con #88885c. Lucía elige **#88885c para el lateral**. El techo del vagón v2 y el canto del parapeto de la R2 pasan a **#b8b8b8**, como los demás techos. Por encima de #b8b8b8 solo está el hueso #d4d0cc, reservado para la interfaz. Lo que sigue describe la primera pasada (#70784c), que queda sustituida por esta. Mallas y pivotes, otra vez idénticos en las 18 parejas.
 
 Lo pidió Lucía el 8-nov a las 24:33. El lateral oliva de los vagones (#50541c, L* 34,3) quedaba a ΔL* 5,6 del balasto D con la luz de día, y Sara pide 8 o más.
 
@@ -21,4 +23,4 @@ T_Paleta32.png es la de siempre. Los vagones abandonados, la cisterna, la locomo
 
 **Para Bruno:** volver a medir de día y de noche contra el balasto D.
 
-Código: TBD `claude/modelado-3d-skill` 36a2410 (vagon_cercano.py, locomotora_cercana.py, locomotora_r1.py, vagon_tropa_r2.py). Se entrega con `--costado 70784c`; el R2, además, con `--claro 88885c`.
+Código: TBD `claude/modelado-3d-skill` 36a2410 y db95b64 (vagon_cercano.py, locomotora_cercana.py, locomotora_r1.py, vagon_tropa_r2.py). Se entrega con `--costado 88885c` y `--claro b8b8b8`.
