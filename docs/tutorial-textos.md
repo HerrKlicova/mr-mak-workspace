@@ -90,7 +90,7 @@ Sale al amanecer, después de la primera noche. **También sale si el tutorial s
 | 2 | «Sube tropa o un vehículo en plataforma: protegerán la carga.» (Es opcional: se salta solo si el jugador envía el tren sin escolta.) | Escolta a bordo o tren enviado |
 | 3 | «Destino: Nules. Mira el ETA y envíalo.» | Tren en marcha |
 | 4 | «El tren va hacia Nules. Llega en {eta}.» | Tren en Nules |
-| 5 | «Tren en Nules. Descarga la munición.» | Munición en el almacén de Nules |
+| 5 | «Tren en Nules. Descarga la munición.» | ≥ 20 u de munición en el almacén de Nules |
 | 5b | (Si Nules está sitiada:) «Nules está sitiada: la carga se queda a bordo hasta que se despeje.» | Asedio levantado (vuelve al 5) |
 | 6 | «Devuelve el tren a Sagunto.» | Tren en Sagunto |
 | Fin | «Cumplido. Nules tiene munición para aguantar.» | — |

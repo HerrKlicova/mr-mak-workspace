@@ -147,6 +147,34 @@ def filas():
     add("heli_mvp_recomendado_nh90", 1, 1, "1 = NH90; Lucía decide")
     return out
 
+FUERZA = {"pelotones": list(PELOTONES), "vehiculos": ["dragon"], "helicopteros": [],  # D-N173: Sagunto sin NH90 (los NH90 están en Bétera)
+          "_nota": "plantel de partida: 5 pelotones, 1 Dragón y 2 VAMTAC (los VAMTAC los pone AddDefaultVehicles en (88;53) y (80;53); están en vehiculos_tierra.json)"}
+
+# Existencias (Hugo (3), 8-nov, docs/economia/escala-existencias.md). Una sola unidad: u. Reserva de la red (Stock de la estación) y almacén de la zona (tope).
+EXISTENCIAS_RED = [
+    # id, municion, combustible, materiales, viveres, personas, repone, nota
+    ("sagunto", 150, 140, 100, 80, 80, True, "STOCK_INICIAL de sim_economia.py (equilibrado 14,2 %)"),
+    ("nules", 0, 0, 0, 0, 0, True, "0 u de munición (Lucía); la guarnición lleva su dotación; víveres solo de su producción; recinto de partida 124,3 u ya construido"),
+    ("betera", 50, 70, 0, 0, 0, False, "D-N173: base del aire; no se repone en el MVP; NH90: 1,8 u por rearme y unas 3 u de combustible por salida"),
+    ("castellon", 0, 300, 0, 0, 0, True, "hereda el depósito de 300 u de combustible"),
+]
+TOPE_ZONA = {"municion_u": 47, "combustible_u": 30, "materiales_u": 40}  # Sagunto; las demás usan el mismo hasta tener uno propio
+
+def json_existencias():
+    est = []
+    for i, m, c, ma, v, per, rep, nota in EXISTENCIAS_RED:
+        est.append({"id": i, "reserva": {"municion_u": m, "combustible_u": c, "materiales_u": ma, "viveres_u": v}, "personas": per,
+                    "tope_zona": dict(TOPE_ZONA), "se_repone": rep, "nota": nota})
+    return {"_nota": "Existencias de partida de la red y topes del almacén de zona (Hugo (3), 8-nov; regla en docs/economia/escala-existencias.md). Generado por unidades.py; no editar a mano. Los id tienen que coincidir con los de RailNet.",
+            "unidad": "u", "u_municion_zombis": 400,
+            "reglas": {"llenado": ["inicio_partida", "inicio_ataque"],
+                       "toma": "min(tope_zona, reserva) por recurso",
+                       "fin_ataque": "lo que sobra en la zona vuelve a la reserva; lo gastado se pierde",
+                       "durante_ataque": "no se repone de la reserva; la munición que llega en tren entra al almacén aunque pase del tope",
+                       "entre_ataques": "el jugador puede reponer a mano desde la reserva hasta el tope",
+                       "dotaciones": "la de los pelotones y vehículos (unas 10 u) va con ellos, no con el almacén"},
+            "estaciones": est}
+
 if __name__ == "__main__":
     base = os.path.dirname(os.path.abspath(__file__))
     rows = filas()
@@ -267,7 +295,7 @@ def combustible():
     siempre = g(d["comb_marcha_e4_s"], 1) + g(h["comb_vuelo_e4_s"], 1)
     racion = g(d["comb_marcha_e4_s"], 0.4) + g(d["comb_ralenti_e4_s"], 0.3) + h["comb_vuelo_e4_s"] * 60 / 10000 * 10 + h["comb_suelo_e4_s"] * 60 / 10000 * 2
     return {"_nota": "D-N76 (Hugo). Consumo en E4 de u (1 u = 10.000) por segundo REAL; se cobra cada 30 ticks. Los 30 u de la noche incluyen los depósitos llenos.",
-            "total_noche_u": NOCHE["combustible_u"], "almacen_inicial_u": NOCHE["combustible_u"] - d["deposito_u"] - h["deposito_u"],
+            "total_noche_u": NOCHE["combustible_u"], "almacen_inicial_u": NOCHE["combustible_u"] - d["deposito_u"] - (h["deposito_u"] if "nh90" in FUERZA["helicopteros"] else 0),
             "dragon": {"deposito_u": d["deposito_u"], "marcha_e4_s": d["comb_marcha_e4_s"], "ralenti_e4_s": d["comb_ralenti_e4_s"], "apagado_e4_s": 0,
                        "repostar_s_por_u": d["repostar_s_por_u"], "repostar_donde": "junto al depósito de la estación o al tren, del almacén de Sagunto",
                        "bidon_zapador_u": 2, "bidon_zapador_s": 20,
@@ -318,13 +346,14 @@ if __name__ == "__main__":
            "victoria": "acabar con la horda con el edificio de viajeros y el tren en pie (D-N164: el amanecer ya no da la victoria)", "derrota": "la horda destruye el edificio de viajeros o la locomotora",
            "entradas": ENTRADAS, "dificultad_por_defecto": "normal", "escala_oleadas_permil": DIFICULTAD_NOCHE,
            "recursos_iniciales": {"municion_u": NOCHE["municion_sagunto_u"], "materiales_u": NOCHE["materiales_u"], "combustible_u": NOCHE["combustible_u"],
-                                   "nota": "en el almacén de Sagunto; aparte, cada pelotón, el Dragón y el NH90 llevan su dotación (unas 10 u en total); el muro de partida (D-N63) ya está construido"},
-           "fuerza": {"pelotones": list(PELOTONES), "vehiculos": ["dragon"], "helicopteros": []},
+                                   "nota": "TOPES del almacén de zona de Sagunto; se llenan con min(tope, reserva) al empezar la partida y cada ataque (ver existencias_red.json). Aparte, los pelotones y vehículos llevan su dotación (unas 10 u en total). El muro de partida (D-N63) y el pretil de la azotea ya están construidos"},
+           "fuerza": FUERZA,
            "oleadas": {d: json_noche(v) for d, v in DIFICULTAD_NOCHE.items()},
            "municion_hud": municion_hud(),
            "combustible": combustible(),
            "resultados": resultados()}
     with open(os.path.join(jd, "noche_sagunto.json"), "w", encoding="utf-8", newline="\n") as f: json.dump(doc, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(jd, "existencias_red.json"), "w", encoding="utf-8", newline="\n") as f: json.dump(json_existencias(), f, ensure_ascii=False, indent=2)
     with open(os.path.join(base, "..", "csv", "hud_municion.csv"), "w", encoding="utf-8", newline="\n") as f:
         f.write("unidad;dotacion_permil_u;fuego_continuo_s;recarga_s;recarga_permil_u;donde\n")
         for r in municion_hud(): f.write(f"{r['unidad']};{r['dotacion_mil_u']};{r['fuego_continuo_s']};{r['recarga_s']};{r['recarga_u_mil']};{r['donde']}\n")
