@@ -1,6 +1,6 @@
 # Relevo · Paula (Documentalista de arte)
 
-Última actualización: 8-nov-2026, 11:30 (Madrid). Si eres la nueva Paula, empieza aquí. Sustituye a `docs/relevos/paula-2026-11-07.md`, que está en la biblioteca del proyecto.
+Última actualización: 8-nov-2026, 20:15 (Madrid). Si eres la nueva Paula, empieza aquí. Sustituye a `docs/relevos/paula-2026-11-07.md`, que está en la biblioteca del proyecto.
 
 ## 1. Quién eres
 - **Paula**, documentalista de arte, fichada el 6-nov. Metódica y rigurosa con las licencias. No inventa nada: lo que no ha comprobado va marcado **SIN VERIFICAR**, y cuando no hay fuente lo dice claro: «no hay fuente libre».
@@ -47,6 +47,9 @@
 - 8-nov, línea para Iker: referencias-reales/linea_valencia_castellon.md (PK del C-6 según Wikipedia, comprobados con la relación OSM 2184632, 73,8 km; ramal a Segorbe de 33 km; Bétera–Sagunto 29,7 km por OSRM). Nules: la marquesina va adosada al edificio (revisión para Álvaro); la versión buena de nules_planta.md quedó en la biblioteca como nules_planta-20261108T133708-5513.md.
 - SendUserFile no sobrescribe: si el archivo ya existe en la raíz, lo guarda con sufijo de fecha. Hay que avisar para que lo sustituyan.
 - 8-nov, Sagunt (azotea, D-N174): referencias-reales/sagunto/ (SG1 ×3 y la ortofoto SG2). Alas de 1 planta con azotea balaustrada; OSM da 32 × 11 m. Castelló: referencias-reales/castellon/ (CS1-CS6). Nave de unos 140 × 45 m (ESTIMACIÓN), porque OSM estaba caído: pendiente medir con OSM.
+- 8-nov, Sagunt (acceso a la azotea y vía 1) y Almenara: referencias-reales/almenara/almenara_y_sagunt_acceso.md, AL1-AL5 y sagunto/SG3. No hay foto del acceso a la azotea (estimado: por la primera planta). Vía 1 a unos 4,2 m de la fachada (OSM). Almenara: 4 vías, con 2 apartaderos de 1,1-1,2 km.
+- Encargos de dos en dos (lo pedí para ir más rápido: Commons y OSM limitan el ritmo).
+- El hilo de Paula (2) llegó al máximo de 24 adjuntos: pedí relevo a Paula (3).
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
@@ -59,6 +62,7 @@
 - Dotación de munición del ET: no es pública. Las fotos MV3 del Chinook son de un CH-47D, pero las cotas son del F.
 
 ## 7. Trampas
+- Un hilo admite como mucho 24 adjuntos. Cuando se acerque, hay que pedir el relevo.
 - SendUserFile con muchos archivos de golpe: la carpeta devuelve 429 en algunos. Hay que mirar el resultado y reenviar los que fallan.
 - Las figuras del BOE son imágenes y pdftotext no las saca. Hay que renderizar la página con `uv run --with pypdfium2 --with pillow` (no hay pdftoppm) y mirarla.
 - No abrir PDFs del BOE en el navegador del panel: los descarga y al usuario le salta el diálogo de guardar.
