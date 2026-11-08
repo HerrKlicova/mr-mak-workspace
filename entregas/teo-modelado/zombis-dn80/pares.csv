@@ -1,0 +1,11 @@
+par,iou_media,iou_max,peor_caso,apto
+civil / gordo,0.49,0.65,andar2/base a 225°,APTO
+civil / huerta,0.61,0.7,andar1/andar1 a 315°,APTO
+civil / rapido,0.46,0.73,andar2/andar2 a 0°,APTO
+civil / uniformado,0.68,0.79,trepar/base a 45°,APTO
+gordo / huerta,0.43,0.67,trepar/andar2 a 0°,APTO
+gordo / rapido,0.29,0.49,trepar/andar2 a 45°,APTO
+gordo / uniformado,0.63,0.76,andar2/andar2 a 225°,APTO
+huerta / rapido,0.34,0.67,andar2/andar2 a 0°,APTO
+huerta / uniformado,0.58,0.68,base/base a 0°,APTO
+rapido / uniformado,0.35,0.59,andar2/andar2 a 0°,APTO
