@@ -1,29 +1,34 @@
-# Relevo de Nuria (dirección de sonido) · 7-nov-2026
+# Relevo · Nuria (Dirección de sonido) · 8-nov
+
+Firma «— Nuria (Sonido)». Sin retrato todavía (pendiente). Hilo viejo: cmsg_014mgaTqwTDTmezhB3g3Rs8BSxBRmwn4wSs3eNt85sEQ2u.
 
 ## Estado
-- Efectos de la Noche26 terminados: 402 tomas de ElevenLabs (SFX v3) en `entregas/sonido-noche26/brutos/`, másteres WAV en `master/` (398 MB), 450 MP3 para Unity en `unity/Audio/` (69 eventos, 68 MB), con `manifiesto.csv`.
-- Demo para Lucía: `entregas/sonido-noche26/demo/demo_lucia.mp3`.
-- Falta que Marcos lo integre en `C:\Dev\TBD\Assets\TBD\Resources\Audio\` (Unity tenía TBD abierto; no lo toqué). La guía para él es `docs/sonido/integracion-noche26.md`.
+- El sonido está hecho y entregado. Pendiente: que Marcos aplique el paquete de la Noche55 y que Eugenio lo juegue.
+- En la build está Sfx.cs v2 (oído RTS + 3D). Lo último que hay que aplicar está en `C:\Dev\mr-mak-workspace\entregas\sonido-noche55\` (LEEME + `codigo\Sfx.cs`):
+  - quitar Night.cs:332, el `sfx_zombi_muerte` viejo en 2D, que era la «voz» ridícula;
+  - quitar Night.cs:322;
+  - pasar a 3D explosion_granada, cola_urbana e impacto_30mm;
+  - bajar los bucles de fondo a la mitad;
+  - GlobalGain 0,45;
+  - oído a 22 m como mínimo.
+- Antes: el rotor NH90 nuevo, en `entregas\sonido-noche50` (6 OGG de 8 s; quitar el rotor 2D duplicado de Vehicles.cs:230; volumen = 0,5 × Rpm). La Noche46 trajo bucles OGG y el cañón del Dragón nuevo (`entregas\sonido-noche46`).
 
 ## Decisiones vigentes
-- Nombres para `Sfx.cs`: `sfx_<evento>_<cerca|media|lejos>_<n>` con distancia y `sfx_<evento>_<n>` sin ella. Lo que falta de una distancia se deriva con paso bajo y eco.
-- Sonoridad por grupo y picos: tablas `LUFS` y `PICO` de `herramientas/sonido/postproceso_sfx.py`.
-- `impacto_hormigon` e `impacto_metal` llevan un prompt nuevo (golpe único con ataque fuerte). El anterior daba un siseo plano.
+- ElevenLabs **eleven_text_to_sound_v3** siempre. El v3 no hace bucles: se hacen en el posproceso con fundido cruzado y se exportan en **OGG** (el MP3 deja hueco en la costura). La clave solo se lee de `ELEVENLABS_API_KEY`, en el PC por Remote Control. Desde la nube no se llega a elevenlabs.io.
+- D-N134 (Lucía): mezcla horneada en los archivos (fusil −18/−24/−31 LUFS, cañón −14/−19/−25, ≤ −1 dBTP). Un solo filtro: el paso bajo de la distancia va dentro del archivo y el único en tiempo real es el de 800 Hz del snapshot Mapa.
+- Oído RTS: AudioListener en el foco de la cámara, a una altura = ortho × 1,6 (entre 22 y 140). Todo con posición va en 3D con curva propia. Importación sin Normalize (AudioImportRules.cs).
+- La horda solo se oye de cerca y bajita. Sin música en la noche. Las alertas, en 2D.
+- closeGain apagado (si se encendiera, el sonido subiría y bajaría al alejar).
+
+## Trampas
+- El v3 devuelve a veces tomas mudas o impactos sin golpe con HTTP 200: hay que revisar la envolvente y regenerar.
+- Los `zombi_muerte` nuevos llevan un chillido de 600 a 840 Hz: no usarlos en masa.
+- Los volúmenes del menú se guardan en PlayerPrefs, así que para bajar el volumen hay que hacerlo en Sfx.cs.
+- No puedo escuchar: todo se ha comprobado midiendo. Pedir a Eugenio que escuche las pruebas (`prueba_rotor_4x.mp3`, `demo_lucia.mp3`).
+- Las llamadas viejas a Sfx con nombre fijo o con `Vector3.zero` suenan en 2D: son las sospechosas cuando algo «no baja con el zoom».
 
 ## Rutas
-- Herramientas: `herramientas/sonido/` (`generar_sfx.py`, `postproceso_sfx.py`, `catalogo_sfx.json`).
-- Descartes: `entregas/sonido-noche26/descartes/` (rondas 1 a 3) y `descartes_mudos/` (de antes).
-
-## Trampas conocidas
-- El pico no separa las tomas malas de las buenas. Hay que mirar la envolvente: un impacto bueno da más de 25 dB de rango y uno malo, menos de 15 dB y plano. Los sostenidos (gemidos, sirenas, rotor) son planos por naturaleza.
-- `generar_sfx.py` solo crea las variantes que faltan. Para regenerar, primero se mueve la toma a `descartes/`, y su máster también: el posproceso salta los WAV que ya existen.
-- La clave solo sale de `ELEVENLABS_API_KEY`. Nunca se imprime.
-
-## Noche50 — rotor NH90 (7-nov)
-- Diagnóstico: en la build suenan DOS rotores a la vez. `PrototypeBootstrap.Vehicles.cs:230` sigue con `Sfx.Loop("sfx_rotor_nh90", …)` (MP3 viejo de 5 s, 2D, una sola clave para todos los helicópteros). `PrototypeBootstrap.Fx.cs:82` pone el rotor 3D a 0 en los estados 0 y 3 (vuelta y aterrizaje) aunque las palas sigan girando. Además, el «duck» de `Sfx.Update` (×0,55 durante 1,5 s tras una alerta) se aplica de golpe a los bucles.
-- Entrega: `entregas/sonido-noche50/` (8 tomas v3 en `brutos/`, bucles en `master/`, 6 OGG mono 48 kHz q6 en `unity/Audio/`, origen en `unity/Audio/origen.csv`, medidas en `medidas_b.csv` y `medidas_c.csv`, escucha `prueba_rotor_4x.mp3`). Herramientas en `entregas/sonido-noche50/herramientas/`.
-- Coste: 267 caracteres por toma de 22 s (8 tomas = 2.136).
-- Trampa: la unión de un bucle que empieza en un golpe de pala da por sí sola 1–2,6 dB entre ventanas de 50 ms. Hay que compararla con el mismo salto en la toma original continua (`rms_natural`), no con 1 dB a secas.
-- Trampa: `character_count` tarda en actualizarse. La primera lectura tras generar dio 0; hay que volver a leerlo al cabo de un rato.
-
-— Nuria (Sonido)
+- Docs: `docs\sonido\diseno-sonoro.md`, `integracion-noche26.md`, `plan-arreglo-sonido-noche46.md` y `criterio-diseno-lucia.md`.
+- Herramientas: `herramientas\sonido\` (generar_sfx.py, catalogo_sfx.json, postproceso_sfx.py, medir_dn134.py; `n46\` y las de sonido-noche50).
+- Páginas: documentación https://claude.ai/artifact/9B2nAQfe5ZzfQtvbmdxXad · escucha https://claude.ai/artifact/3KbwkaZwbeDWnzxqSPJWnU
+- Créditos: unos 43.000 gastados en total (contador 62.481 de 814.102; se reinicia el 5-dic).
