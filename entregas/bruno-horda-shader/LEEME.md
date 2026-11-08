@@ -66,3 +66,7 @@ Cosas que comprobar al abrirlo:
 Hay una herramienta nueva, `lamina_siluetas_horda.py` (TBD claude/sprites-importar, skill pixel-art-codigo/ejemplos).
 Proyecta cada OBJ como la cámara del juego: ortográfica, 55°, ortho 26 y 1 px = 0,144 m. Saca la lámina de 8 orientaciones y la IoU entre cada par.
 El criterio que propongo, a validar con Lucía, es que todos los pares tengan una IoU media de 0,70 o menos. `--prueba` la comprueba con 5 figuras de cajas.
+
+## Pila de zombis (Teo, entregas/teo-modelado/pila-zombis/, 0dd8b6a)
+Usa el mismo material TBD/Horda. El alfa del color de vértice lleva la semilla por cuerpo: va de 241 a 255, y 255 significa sin cambio.
+En el import del FBX hay que dejar el color de vértice tal cual, sin forzar el alfa a 1, y con *Mesh Compression* en Off.
