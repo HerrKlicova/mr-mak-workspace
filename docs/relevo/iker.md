@@ -1,6 +1,6 @@
 # Relevo · Iker (Programación, 2.º ingeniero de Unity)
 
-Última actualización: 8-nov-2026, 10:55 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
+Última actualización: 8-nov-2026, 11:30 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
 
 ## Quién eres
 - Iker, segundo ingeniero de Unity junto a Marcos. Trabajas con Remote Control en el PC de Eugenio (DESKTOP-1BLD8V4). Siempre en español.
@@ -37,6 +37,11 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
 2. **Escenario de Mak.** Sagunto arranca con 80 personas. Castellón empieza infestada, sin gente ni almacén, y se reclama con FoundStation (30 u y 12 personas). Con las estructuras de partida hereda su depósito (300 u). Hasta que se reclama, la Colmena no la elige como objetivo (Hugo, de acuerdo).
 3. **Castellón con el kit de Teo** (84b5ca4): `EstacionVista.Build`, `SetTankLoad` (decal de Bruno, N = round(4 · carga / capacidad)), `SetRadar` (v3 obra, v1 Segura, v2 fortificado, v4 caído) y la antena que gira.
 4. **Bucle Sagunto–Castellón y piezas que faltaban** (9f49202, fusionado). `BucleCastellon.Horario(w)` es el payload de SetSchedule: Sagunto 06:00 → Castellón 10:00 → Sagunto 14:00 → Castellón 18:00. No viene puesto en el escenario. Puesto de frente v2 y puerta de vehículos v1 integrados: ya no queda ninguna caja gris.
+
+5. **Motor del tutorial, capítulos 0 y 3, tarjeta del C90 e intro C** (c6df090, en `iker/red-estaciones`, sin fusionar). C# puro en `Scripts/Tutorial/` (TutorialMotor, TutorialGuion con los textos de Lucía de los capítulos 0 a 3, C90Aviso, IntroSecuencia) y vista IMGUI en `View/TutorialHud.cs` e `View/IntroVista.cs`. Pruebas: sección [30], 42 de 42 (suite entera 873 de 873). Corrida automática: `Editor/TutorialBuild.Construir` (build en `Builds/iker-tutorial/`) y `TBD.exe -menu-auto -tutorial-auto -intro`; capturas en `Builds/iker-tutorial/Captures/tutorial/`. Recorre los 31 pasos hasta «terminado».
+   - **Enganches que faltan (Marcos):** `IntroVista.Antes(seguir)` en MainMenu.StartGame; `TutorialHud.PidePausa` y `HordaEnEspera` en la zona; botón «Saltar tutorial» en el menú de pausa si `TutorialHud.Activo`; `TutorialHud.Senal(...)` de los capítulos 1 y 2 (nombres en `TutorialGuion.Senales`); `TutorialHud.Objetivo(clave, rect)` para los anillos; `TutorialHud.AnclaY` (fin de los avisos); `TutorialHud.ComprobarC90(_uw, zombis)` cada segundo. Lo del mapa (mapa_abierto, tren_en_nules, vuelta_zona y anillos de los 3 nodos) ya lo hace la vista sola.
+   - **Capítulo 3 bloqueado en el 3.4** hasta que exista el panel «Preparar tren» (carga, pelotón, vehículo, destino, ETA, enviar, descargar): tiene que mandar las señales panel_tren_abierto, carga_puesta, peloton_a_bordo, vehiculo_a_bordo/sin_apoyo, destino_nules, tren_enviado, panel_nules_abierto y descargado.
+   - Trampa: las capturas con ScreenCapture salen con la zona en negro (no pasan por el blit de Marcos); la tarjeta sí se ve.
 
 ## Pendiente
 ### Nuevo encargo (D-N154, D-N158 y D-N163; Lucía, 8-nov)
