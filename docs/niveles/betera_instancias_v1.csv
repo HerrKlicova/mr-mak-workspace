@@ -24,8 +24,8 @@ reducto;SM_MuroHesco;-1;1.892;0;124;0;1;no;tramo de 56.90 m: 5 de 10 m + 6 celda
 reducto;SM_MuroHesco;-1;11.892;0;124;0;1;no;tramo de 56.90 m: 5 de 10 m + 6 celdas
 reducto;SM_HescoCorto4;-1;19.112;0;124;0;1;no;resto del tramo de 56.90 m
 reducto;SM_HescoCorto2;-1;22.442;0;124;0;1;no;resto del tramo de 56.90 m
-reducto;SM_HescoRemate;-1;26.445;0;124;0;1;si;"remate contra puerta de vehículos R1; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-reducto;SM_HescoRemate;-1;35.555;0;124;0;-1;si;"remate contra puerta de vehículos R1; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+reducto;SM_HescoRemate;-1;26.445;0;124;0;1;si;"remate contra puerta de vehículos R1; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+reducto;SM_HescoRemateEspejo;-1;35.555;0;124;0;1;si;"remate contra puerta de vehículos R1; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 reducto;SM_MuroHesco;-1;43.39;0;124;0;1;si;tramo de 82.34 m: 8 de 10 m + 2 celdas
 reducto;SM_MuroHesco;-1;53.39;0;124;0;1;si;tramo de 82.34 m: 8 de 10 m + 2 celdas
 reducto;SM_MuroHesco;-1;63.39;0;124;0;1;si;tramo de 82.34 m: 8 de 10 m + 2 celdas
@@ -35,8 +35,8 @@ reducto;SM_MuroHesco;-1;93.39;0;124;0;1;si;tramo de 82.34 m: 8 de 10 m + 2 celda
 reducto;SM_MuroHesco;-1;103.39;0;124;0;1;si;tramo de 82.34 m: 8 de 10 m + 2 celdas
 reducto;SM_MuroHesco;-1;113.39;0;124;0;1;si;tramo de 82.34 m: 8 de 10 m + 2 celdas
 reducto;SM_HescoCorto2;-1;119.5;0;124;0;1;si;resto del tramo de 82.34 m
-reducto;SM_HescoRemate;-1;123.445;0;124;0;1;si;"remate contra puerta de vehículos R2; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-reducto;SM_HescoRemate;-1;132.555;0;124;0;-1;si;"remate contra puerta de vehículos R2; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+reducto;SM_HescoRemate;-1;123.445;0;124;0;1;si;"remate contra puerta de vehículos R2; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+reducto;SM_HescoRemateEspejo;-1;132.555;0;124;0;1;si;"remate contra puerta de vehículos R2; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 reducto;SM_MuroHesco;-1;140.335;0;124;0;1;si;tramo de 83.34 m: 8 de 10 m + 3 celdas
 reducto;SM_MuroHesco;-1;150.335;0;124;0;1;si;tramo de 83.34 m: 8 de 10 m + 3 celdas
 reducto;SM_MuroHesco;-1;160.335;0;124;0;1;si;tramo de 83.34 m: 8 de 10 m + 3 celdas
@@ -46,8 +46,8 @@ reducto;SM_MuroHesco;-1;190.335;0;124;0;1;si;tramo de 83.34 m: 8 de 10 m + 3 cel
 reducto;SM_MuroHesco;-1;200.335;0;124;0;1;si;tramo de 83.34 m: 8 de 10 m + 3 celdas
 reducto;SM_MuroHesco;-1;210.335;0;124;0;1;si;tramo de 83.34 m: 8 de 10 m + 3 celdas
 reducto;SM_HescoCorto3;-1;217.0;0;124;0;1;si;resto del tramo de 83.34 m
-reducto;SM_HescoRemate;-1;221.445;0;124;0;1;si;"remate contra puerta de vehículos R3; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-reducto;SM_HescoRemate;-1;230.555;0;124;0;-1;si;"remate contra puerta de vehículos R3; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+reducto;SM_HescoRemate;-1;221.445;0;124;0;1;si;"remate contra puerta de vehículos R3; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+reducto;SM_HescoRemateEspejo;-1;230.555;0;124;0;1;si;"remate contra puerta de vehículos R3; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 reducto;SM_MuroHesco;-1;238.283;0;124;0;1;si;tramo de 39.90 m: 3 de 10 m + 9 celdas
 reducto;SM_MuroHesco;-1;248.283;0;124;0;1;si;tramo de 39.90 m: 3 de 10 m + 9 celdas
 reducto;SM_MuroHesco;-1;258.283;0;124;0;1;si;tramo de 39.90 m: 3 de 10 m + 9 celdas
@@ -61,8 +61,8 @@ reducto;SM_MuroHesco;-1;1.612;0;-36;180;1;no;tramo de 61.90 m: 6 de 10 m + 2 cel
 reducto;SM_MuroHesco;-1;11.612;0;-36;180;1;no;tramo de 61.90 m: 6 de 10 m + 2 celdas
 reducto;SM_MuroHesco;-1;21.612;0;-36;180;1;no;tramo de 61.90 m: 6 de 10 m + 2 celdas
 reducto;SM_HescoCorto2;-1;27.722;0;-36;180;1;no;resto del tramo de 61.90 m
-reducto;SM_HescoRemate;-1;31.445;0;-36;180;1;no;"remate contra puerta de vehículos del vial oeste; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-reducto;SM_HescoRemate;-1;40.555;0;-36;180;-1;no;"remate contra puerta de vehículos del vial oeste; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+reducto;SM_HescoRemate;-1;31.445;0;-36;180;1;no;"remate contra puerta de vehículos del vial oeste; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+reducto;SM_HescoRemateEspejo;-1;40.555;0;-36;180;1;no;"remate contra puerta de vehículos del vial oeste; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 reducto;SM_MuroHesco;-1;48.39;0;-36;180;1;no;tramo de 162.34 m: 16 de 10 m + 2 celdas
 reducto;SM_MuroHesco;-1;58.39;0;-36;180;1;no;tramo de 162.34 m: 16 de 10 m + 2 celdas
 reducto;SM_MuroHesco;-1;68.39;0;-36;180;1;no;tramo de 162.34 m: 16 de 10 m + 2 celdas
@@ -80,8 +80,8 @@ reducto;SM_MuroHesco;-1;178.39;0;-36;180;1;no;tramo de 162.34 m: 16 de 10 m + 2 
 reducto;SM_MuroHesco;-1;188.39;0;-36;180;1;no;tramo de 162.34 m: 16 de 10 m + 2 celdas
 reducto;SM_MuroHesco;-1;198.39;0;-36;180;1;no;tramo de 162.34 m: 16 de 10 m + 2 celdas
 reducto;SM_HescoCorto2;-1;204.5;0;-36;180;1;no;resto del tramo de 162.34 m
-reducto;SM_HescoRemate;-1;208.445;0;-36;180;1;no;"remate contra puerta de vehículos del vial este; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-reducto;SM_HescoRemate;-1;217.555;0;-36;180;-1;no;"remate contra puerta de vehículos del vial este; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+reducto;SM_HescoRemate;-1;208.445;0;-36;180;1;no;"remate contra puerta de vehículos del vial este; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+reducto;SM_HescoRemateEspejo;-1;217.555;0;-36;180;1;no;"remate contra puerta de vehículos del vial este; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 reducto;SM_MuroHesco;-1;225.113;0;-36;180;1;no;tramo de 52.90 m: 5 de 10 m + 3 celdas
 reducto;SM_MuroHesco;-1;235.113;0;-36;180;1;no;tramo de 52.90 m: 5 de 10 m + 3 celdas
 reducto;SM_MuroHesco;-1;245.113;0;-36;180;1;no;tramo de 52.90 m: 5 de 10 m + 3 celdas

@@ -207,8 +207,8 @@ recinto;SM_HescoEsquina;-1;85;0;40;180;1;si;"esquina exterior; el origen en la c
 recinto;SM_HescoEsquina;-1;85;0;96;270;1;si;"esquina exterior; el origen en la celda de esquina"
 recinto;SM_MuroHesco;-1;92.808;0;96;0;1;si;tramo de 13.39 m: 1 de 10 m + 3 celdas
 recinto;SM_HescoCorto3;-1;99.473;0;96;0;1;si;resto del tramo de 13.39 m
-recinto;SM_HescoRemate;-1;103.945;0;96;0;1;si;"remate contra edificio de viajeros; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-recinto;SM_HescoRemate;-1;126.055;0;96;0;-1;si;"remate contra edificio de viajeros; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+recinto;SM_HescoRemate;-1;103.945;0;96;0;1;si;"remate contra edificio de viajeros; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+recinto;SM_HescoRemateEspejo;-1;126.055;0;96;0;1;si;"remate contra edificio de viajeros; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 recinto;SM_MuroHesco;-1;133.697;0;96;0;1;si;tramo de 56.39 m: 5 de 10 m + 6 celdas
 recinto;SM_MuroHesco;-1;143.697;0;96;0;1;si;tramo de 56.39 m: 5 de 10 m + 6 celdas
 recinto;SM_MuroHesco;-1;153.697;0;96;0;1;si;tramo de 56.39 m: 5 de 10 m + 6 celdas
@@ -226,19 +226,19 @@ recinto;SM_MuroHesco;-1;152.502;0;40;180;1;si;tramo de 86.11 m: 8 de 10 m + 6 ce
 recinto;SM_MuroHesco;-1;162.502;0;40;180;1;si;tramo de 86.11 m: 8 de 10 m + 6 celdas
 recinto;SM_HescoCorto4;-1;169.722;0;40;180;1;si;resto del tramo de 86.11 m
 recinto;SM_HescoCorto2;-1;173.053;0;40;180;1;si;resto del tramo de 86.11 m
-recinto;SM_HescoRemate;-1;176.665;0;40;180;1;si;"remate contra puerta de vehículos; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-recinto;SM_HescoRemate;-1;85;0;45.945;270;1;si;"remate contra puerta de vía del apartado; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-recinto;SM_HescoRemate;-1;85;0;52.055;270;-1;si;"remate contra puerta de vía del apartado; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+recinto;SM_HescoRemate;-1;176.665;0;40;180;1;si;"remate contra puerta de vehículos; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+recinto;SM_HescoRemate;-1;85;0;45.945;270;1;si;"remate contra puerta de vía del apartado; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+recinto;SM_HescoRemateEspejo;-1;85;0;52.055;270;1;si;"remate contra puerta de vía del apartado; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 recinto;SM_HescoCorto2;-1;85;0;56.15;270;1;si;resto del tramo de 2.64 m
-recinto;SM_HescoRemate;-1;85;0;60.245;270;1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-recinto;SM_HescoRemate;-1;85;0;68.755;270;-1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+recinto;SM_HescoRemate;-1;85;0;60.245;270;1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+recinto;SM_HescoRemateEspejo;-1;85;0;68.755;270;1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 recinto;SM_MuroHesco;-1;85;0;76.267;270;1;si;tramo de 21.69 m: 2 de 10 m + 2 celdas
 recinto;SM_MuroHesco;-1;85;0;86.267;270;1;si;tramo de 21.69 m: 2 de 10 m + 2 celdas
 recinto;SM_HescoCorto2;-1;85;0;92.377;270;1;si;resto del tramo de 21.69 m
 recinto;SM_MuroHesco;-1;188;0;47.902;90;1;si;tramo de 14.70 m: 1 de 10 m + 4 celdas
 recinto;SM_HescoCorto4;-1;188;0;55.122;90;1;si;resto del tramo de 14.70 m
-recinto;SM_HescoRemate;-1;188;0;60.245;90;1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda: si el brazo sale hacia el hueco, escala X −1)"
-recinto;SM_HescoRemate;-1;188;0;68.755;90;-1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: si el brazo sale hacia el hueco, escala X −1)"
+recinto;SM_HescoRemate;-1;188;0;60.245;90;1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (izquierda)"
+recinto;SM_HescoRemateEspejo;-1;188;0;68.755;90;1;si;"remate contra puerta de vía doble; celda de esquina pegada a la jamba, brazo alejándose del hueco (derecha: versión espejo de Teo)"
 recinto;SM_MuroHesco;-1;188;0;76.267;90;1;si;tramo de 21.69 m: 2 de 10 m + 2 celdas
 recinto;SM_MuroHesco;-1;188;0;86.267;90;1;si;tramo de 21.69 m: 2 de 10 m + 2 celdas
 recinto;SM_HescoCorto2;-1;188;0;92.377;90;1;si;resto del tramo de 21.69 m
