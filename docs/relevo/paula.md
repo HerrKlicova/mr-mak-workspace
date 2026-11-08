@@ -43,6 +43,7 @@
 - 8-nov, planta de Nules (Álvaro y Teo): referencias-reales/nules/nules_planta.md y 3 imágenes. 2 vías (una con tercer carril), andenes de unos 205 m, edificio de 17 × 21 m, sin pasos a nivel; paso inferior a unos 330 m al noreste; polígono industrial al este.
 - Overpass da a veces 502: reintentar o usar un espejo (ov2.py prueba tres).
 - 8-nov, NH90 (Nacho, Hugo e Iker): referencias-reales/nh90_datos.md. 260 km/h VERIFICADOS (ficha del ET); 982 km; 2.035 kg de combustible; consumo de unos 450 kg/h, arranque de 5-10 min y zona de aterrizaje de 50 m, todo ESTIMACIÓN; armas M3M y MAG-58.
+- 8-nov, pelotón (Hugo y Nacho): referencias-reales/peloton_datos.md. Pelotón de 9 y sección de unos 30 (fuentes secundarias; ME4-102 y MI4-104 no son públicos). G36E 600 m, MG4E 1.000 m, AG36 unos 350 m (analogía). El G28 solo en el MOE. Munición y cadencias: ESTIMACIÓN o analogía con EE. UU.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
