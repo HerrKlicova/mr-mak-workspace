@@ -529,7 +529,7 @@ Sagunto no tiene NH90 propio (D-N173). El de Bétera llega volando y se posa en 
     - Es el que queda más cerca del fuerte: a unos 75 m de la puerta sur (X 95–103), por la carretera vieja.
     - Ya está sin vegetación.
     - La aproximación entra por el sureste, sobre la huerta, sin cruzar la catenaria ni la horda, que llega por el oeste.
-    - La tropa que baja va al muro oeste por la puerta sur.
+    - **Con la estación sitiada, las puertas siguen cerradas (D-N151; Lucía):** la tropa que baja en S1 combate desde fuera, como la del tren, y no entra por la puerta sur. Aprobado por Lucía (mr-mak 9163dcc).
   - Si el tren de Nules está parado al mismo tiempo, su punto de bajada (192; 60) queda fuera del claro y el rotor no llega a la vía (Z 52,2).
   - S2 es la alternativa cuando S1 está bajo fuego.
 
@@ -544,7 +544,7 @@ Sagunto no tiene NH90 propio (D-N173). El de Bétera llega volando y se posa en 
 - Si entran las atalayas (§10.11), se quita el módulo de 5 m del extremo correspondiente (Z 45–50 o Z 79–84).
 
 
-### 10.15 Medida de Nacho (D-N174) y azotea del edificio de viajeros (Álvaro (3), 8-nov, ~14:20)
+### 10.15 Medida de Nacho (D-N174) y azotea del edificio de viajeros (Álvaro (3), 8-nov, ~14:20; rehecha con las alas reales a las ~18:20)
 **Medida de Nacho**: noche normal de 5520, sin NH90, con `sagunto_obstaculos_v1.csv` y 500 semillas por caso. Los CSV están en `docs/economia/entregas/linea-vision/`.
 
 | Caso | Victorias |
@@ -557,17 +557,45 @@ Sagunto no tiene NH90 propio (D-N173). El de Bétera llega volando y se posa en 
 
 Nacho propone la azotea en lugar de las atalayas, y estoy de acuerdo: da más, no hay que construir nada nuevo en el patio y no quita banqueta. **Lucía, 8-nov ~14:18: la azotea entra en el MVP y las atalayas se quedan fuera** (apuntado bajo la D-N174).
 
-**Cómo queda la azotea** (sólido `edificio_viajeros`: X 96,5–115,5, Z 75–83,8, 11 m de alto):
-- **Superficie útil**: 19 × 8,8 m (unos 167 m²), de sobra para 2 pelotones. Lleva un pretil de sacos de 1,2 m por los cuatro lados. Es una pieza nueva de Teo, de sacos del kit sobre la cornisa.
-- **Lo que se ve**: con la boca a 12,6 m (11 + 1,6) y el muro de 2,1 m a 26 m (cara interior en X 70,5), se ve a un zombi de 1 m de blanco **desde 2,7 m fuera del muro**: 1,1 · (26 + d) < 11,6 · d, así que d > 2,7 m. La pila (X 54–68) queda a entre 28,5 y 42,5 m del borde oeste de la azotea, dentro del alcance del fusil (60 m) y del tirador selecto (160 m). Lo que no ve son los que trepan, pegados al muro, pero de esos se encarga la banqueta.
-- **Acceso**: una escalera exterior de obra o metálica en el testero este (X 115,5–117,5, Z 76–82), dentro del recinto y lejos del muro oeste. Es ficción nuestra. Si Teo prefiere la escalera dentro del edificio, vale igual, porque en la simulación solo cuenta el tiempo de subida (lo pone Nacho).
-- **Los 2 pelotones de tiradores empiezan arriba, pero son libres** (Lucía). Posiciones de partida, en el borde oeste y mirando al oeste (yaw 270): **(98,5; 11; 77,4)** y **(98,5; 11; 81,4)**, es decir, (98500; 77400) y (98500; 81400) mm sobre la cota 11.000. Así quedan pegados al pretil que da al muro.
-- **Atalayas**: fuera del MVP (Lucía). Se quedan en el papel.
-- **El pretil viene construido al empezar** (Lucía). Hugo lo confirmó: 11,2 u, y el muro de partida pasa de 120 a 131,2 u (nivel 4,37, 1,31 u al día de mantenimiento; entra en el paquete de las 18:30). Él dice también si subir a la azotea cuesta tiempo.
-- **Teo**: pretil de sacos sobre la cornisa y escalera exterior en el testero este (5 variantes cada una). Montaje con sus piezas (8-nov, ~14:25), todo a la cota 11 m y con la convención de fuera = +Z con yaw 0:
-  - **Esquinas** (4,4 m por brazo): el origen está en el centro del bloque de dentro (Teo). NE en (115; 83,3) con yaw 0, SE en (115; 75,5) con yaw 90 (la «esquina con paso»), SO en (97; 75,5) con yaw 180 y NO en (97; 83,3) con yaw 270.
-  - **Tramos de 5,1 m**: en el lado norte, centrados en X 103,45 y 108,55 sobre Z 83,8, con yaw 0. En el lado sur, en las mismas X sobre Z 75, con yaw 180. Los lados cortos solo llevan las dos esquinas.
-  - **Hueco del pretil**: en el lado este, Z 78,2–79,4, entre el brazo de 2,2 m de la esquina con paso y el de la esquina NE.
-  - **Escalera**: centro de la planta en (116,5; 0; 79), 2 × 6 m (X 115,5–117,5, Z 76–82), con la plataforma de arriba frente al hueco. El «−X local» de Teo es el de Blender. Según el exportador (pos_unity = (−x, z, −y)), ese lado sale a +X de Unity, así que **va con yaw 180** para que el edificio quede al oeste. **Lo confirma Marcos al colocar la primera pieza**: si la plataforma de la escalera no queda contra el edificio, se gira 180°, y si los brazos de una esquina salen hacia fuera de la azotea, se gira 90° (apuntado en el LEEME de Teo).
+**Azotea reabierta (Lucía, 8-nov 18:03).** Paula (`sagunto_azotea.md`) muestra que la estación real (OSM 419847974, unos 32 × 11 m) tiene **dos alas de 1 planta con azotea a ~4,5–5 m** y balaustrada de ~1 m, y un **cuerpo central de 2 plantas con teja** (~9–10 m al alero). La azotea de 11 m sobre el sólido actual no existe: **queda anulada**, y con ella el pretil de sacos, la escalera exterior y las posiciones a 11 m de la versión de las 14:20. Los 95,8 % de Nacho eran con 11 m: **hay que volver a medir**.
+
+**El edificio, como el real y movido al oeste** (la planta del recinto es nuestra). Sustituye al sólido `edificio_viajeros` (X 96,5–115,5, Z 75–83,8, 11 m). **Ajuste de las 18:12 (Paula, `almenara_y_sagunt_acceso.md`; Lucía)**: las terrazas miden ~9 × 9 m y el andén 1 va adosado a la fachada. Así que el edificio tiene **9 m de fondo, Z 71,8–80,8**, con la fachada sur pegada al andén, y el andén se ensancha hasta la fachada: hoy acaba en Z 70,7 y pasa a acabar en **Z 71,8** (pz1 = TrackY + 7,3), que es justo el borde de atrás de la marquesina. Del eje de la vía 1 (Z 64,5) a la fachada hay 7,3 m: 2,2 hasta el borde del andén y 5,1 de andén. En la real son ~4,2 m a la vía de estación y ~8,6 m a la primera general, con un andén de ~5–6 m, así que encaja con una vía general junto al andén. Detrás quedan 3,7 m libres hasta el muro norte (cara interior Z 84,5). Para la caja X 82,5–115,5, Z 71,3–81,3 he comprobado el solape con `sagunto_obstaculos_v1.csv` y con el código, y solo sale el propio edificio de viajeros. 
+
+| Cuerpo | X | Z | Alto | Del muro oeste (cara interior X 70,5) |
+|---|---|---|---|---|
+| **Ala oeste**, azotea | 83–92 (9 m) | 71,8–80,8 (9 m) | **4,75 m** de suelo de azotea, balaustrada de 1 m | **12,5 m** (13,5 m a la cara exterior) |
+| Cuerpo central, 2 plantas y teja | 92–106 (14 m) | 71,8–80,8 | 10 m (alero ~9,5) | 21,5 m |
+| **Ala este**, azotea | 106–115 (9 m) | 71,8–80,8 | 4,75 m, balaustrada de 1 m | **35,5 m** |
+
+**Zona ciega** (D-N174: muro de 2,1 m, blanco a 1 m, boca a 4,75 + 1,6 = 6,35 m; no se ve si d < 1,1 · D / 4,25):
+
+| Borde del ala oeste a… | Zona ciega fuera del muro |
+|---|---|
+| 10 m del muro (X 80,5) | 2,6 m |
+| **12,5 m (X 83, la propuesta)** | **3,2 m** (3,5 m contando a la cara exterior) |
+| 15 m (X 85,5) | 3,9 m |
+| Sin mover, borde en X 96,5 (26 m) | 6,7 m |
+
+*Nota (aclarado con Lucía, 18:10)*: estas cifras siguen la regla de la D-N174, que apunta al blanco a 1 m. Si se apunta a los pies (blanco a 0 m, la sombra del muro en el suelo), la zona ciega sale de 2,1 · D / 4,25: **6,2 m para el ala a 12,5 m**. Entre 3,2 y 6,2 m se ve al zombi de cintura para arriba, pero no los pies. La simulación usa la regla de la D-N174.
+
+La pila (X 54–68) queda a entre 15 y 29 m del borde del ala, dentro del alcance del fusil. Con un ala más baja la zona ciega sale **más corta** que la de 11 m a 26 m (2,7 m), porque el ala está mucho más cerca del muro. Elijo X 83: deja 12,5 m de patio para la banqueta (X 70,5–72 con los nidos en X 72) y para moverse por detrás.
+
+**El ala este no sirve hacia el oeste**: el cuerpo central de 10 m le tapa todo lo que hay al oeste. Solo ve el norte y el este (el muro norte está 3,7 m por detrás). La dejo como posición de reserva y para cubrir la puerta este, no como frente oeste.
+
+**Pelotones**: los 2 pelotones de tiradores empiezan en el **ala oeste**, en el borde oeste y con yaw 270: **(84,5; 4,75; 74,3)** y **(84,5; 4,75; 78,3)**, es decir, (84500; 74300) y (84500; 78300) mm sobre la cota 4750. El ala tiene 9 × 9 m (81 m²) y 9 m de borde oeste: caben los 2, pero apretados. **Nacho, que mida dos casos**: los 2 pelotones en el ala oeste, y 1 en el ala oeste más 1 en el ala este.
+
+**Acceso**: por dentro, desde la primera planta del cuerpo central, con una puerta o ventanal a cada ala (Paula: ESTIMACIÓN, no hay foto; en la ortofoto no se ve escalera exterior). **Sin pieza nueva** (Lucía) y sin escalera exterior; en la simulación solo cuenta el tiempo de subida. **Nacho (18:31), SUPUESTO: 25 s por pelotón para subir, y otros 25 para bajar; mientras sube no dispara.**
+
+**Lo que cambia para cada uno**:
+- **Marcos (vía Mak)**: quitar el sólido `edificio_viajeros` y poner tres cajas: ala oeste X 83–92, Z 71,8–80,8, 4750 mm; cuerpo central X 92–106, Z 71,8–80,8, 10 000 mm; ala este X 106–115, Z 71,8–80,8, 4750 mm. Andén: pz1 de TrackY + 6,2 a TrackY + 7,3 (Z 71,8). La placa y el reloj de la fachada pasan del centro X 106 al del cuerpo central, X 99, sobre la fachada sur (Z 71,8). Mientras no haya modelo, primitivas con estas medidas.
+- **Teo**: un edificio de viajeros nuevo como el real (32 × 9 m, alas de 9 × 9 m con azotea y balaustrada, cuerpo central con teja en el color a86c50), con 5 variantes. Origen en el centro de la planta (99; 0; 76,3) y la fachada del andén al sur, pegada al andén. La subida es por dentro: no hay pieza nueva de escalera. **El pretil de sacos y la escalera exterior quedan anulados**, así que la balaustrada va en el propio modelo.
+- **Hugo**: el pretil de 11,2 u ya no existe. Si la balaustrada viene con el edificio, el muro de partida vuelve a 120 u; él dice si la balaustrada cuenta como muro y lo que cuesta. **Hugo (18:08): confirmado, el muro de partida vuelve a 120 u.** La balaustrada viene con el modelo y no es muro: no tiene vida, coste ni mantenimiento. Medido con sim_economia.py en 1000 partidas: equilibrado 13,9 %, prisa 44,8 %. Si Nacho pide sacos en las alas, se costean a 1,6 u por cada 8 m.
+- **§10.13 (claros)**: S1 (180; 44) y S2 (215; 97) no se tocan; el edificio no se acerca a ninguno de los dos.
+- **Atalayas**: siguen fuera del MVP.
+
+<details><summary>Versión anterior (8-nov, ~14:20–14:25), anulada: azotea a 11 m sobre el sólido actual</summary>
+
+Superficie de 19 × 8,8 m con pretil de sacos de 1,2 m (11,2 u, muro de partida a 131,2 u). Zona ciega de 2,7 m con la boca a 12,6 m y el muro a 26 m. Escalera exterior en el testero este (X 115,5–117,5, Z 76–82, centro (116,5; 0; 79), yaw 180). Esquinas del pretil: NE (115; 83,3) yaw 0, SE (115; 75,5) yaw 90, SO (97; 75,5) yaw 180, NO (97; 83,3) yaw 270. Tramos de 5,1 m en X 103,45 y 108,55 sobre Z 83,8 (yaw 0) y Z 75 (yaw 180). Hueco en Z 78,2–79,4. Pelotones en (98500; 77400) y (98500; 81400) mm a la cota 11 000, yaw 270.
+</details>
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

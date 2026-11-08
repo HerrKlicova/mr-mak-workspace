@@ -13,7 +13,7 @@ Todo decidido y medido en NightSim. Va en este orden, de lo que más pesa en el 
 5. **Muro oeste y azotea** (`niveles/sagunto-nivel.md` §10.11 y §10.15):
    - banqueta X 70,5–72,5 con palés de 0,4 m;
    - nidos de la puerta de la vía a 1,5 m (NetWorld.cs:1439);
-   - ~~azotea a 11 m~~ **AZOTEA EN SUSPENSO** (8-nov 19:05): la azotea real está a ~5 m, en las alas. Nacho vuelve a medir; hasta entonces no se integra.
+   - **azotea real (medida, 8-nov 20:12):** edificio de viajeros nuevo de Teo (mr-mak e7bc5d5) en (99; 0; 76,3), yaw 180, comprobando que el ala de +x local queda al oeste. Alas de 9 × 9 m con azotea a 4,75 m; se sube por dentro, sin escalera. 2 pelotones de tiradores empiezan en el ala oeste, en (84,5; 4,75; 74,3) y (84,5; 4,75; 78,3), libres (D-N168). §10.15 de sagunto-nivel.md.
    - Las piezas de Teo están en mr-mak.
 6. **La horda reacciona a la tropa de fuera** (D-N175): un zombi de fuera con tropa a ≤ 25 m cambia el objetivo a esa tropa, con un tope del 30 % de la horda. La pila y los trepadores no cambian. Puede ir como segundo campo de flujo o como desvío local, como prefieras.
 7. **Tutorial:**
