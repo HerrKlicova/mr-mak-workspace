@@ -1,6 +1,6 @@
 # Relevo · Iker (Programación, 2.º ingeniero de Unity)
 
-Última actualización: 8-nov-2026, 11:30 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
+Última actualización: 8-nov-2026, 12:45 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
 
 ## Quién eres
 - Iker, segundo ingeniero de Unity junto a Marcos. Trabajas con Remote Control en el PC de Eugenio (DESKTOP-1BLD8V4). Siempre en español.
@@ -42,6 +42,11 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
    - **Enganches que faltan (Marcos):** `IntroVista.Antes(seguir)` en MainMenu.StartGame; `TutorialHud.PidePausa` y `HordaEnEspera` en la zona; botón «Saltar tutorial» en el menú de pausa si `TutorialHud.Activo`; `TutorialHud.Senal(...)` de los capítulos 1 y 2 (nombres en `TutorialGuion.Senales`); `TutorialHud.Objetivo(clave, rect)` para los anillos; `TutorialHud.AnclaY` (fin de los avisos); `TutorialHud.ComprobarC90(_uw, zombis)` cada segundo. Lo del mapa (mapa_abierto, tren_en_nules, vuelta_zona y anillos de los 3 nodos) ya lo hace la vista sola.
    - **Capítulo 3 bloqueado en el 3.4** hasta que exista el panel «Preparar tren» (carga, pelotón, vehículo, destino, ETA, enviar, descargar): tiene que mandar las señales panel_tren_abierto, carga_puesta, peloton_a_bordo, vehiculo_a_bordo/sin_apoyo, destino_nules, tren_enviado, panel_nules_abierto y descargado.
    - Trampa: las capturas con ScreenCapture salen con la zona en negro (no pasan por el blit de Marcos); la tarjeta sí se ve.
+
+6. **Revisión de Nacho, panel «Preparar tren», máquina de escribir e intro con fondos** (98826bc aprobado por Nacho; 40c846d y siguiente, sin revisar). La rama está fusionada con marcos e72c3b2 (merge, no rebase: el force-push está denegado). Program.cs y el csproj, en CRLF: para conservarlo, `git hash-object -w --no-filters` + `git update-index --cacheinfo` (con autocrlf=true, `git add` los pasa a LF).
+   - `Net/TrenPreparar.cs`: Envio, Descarga, **Aparcar** (horario de una parada: SetSchedule es cíclico), ETA. `View/TrenPanel.cs`: panel en el mapa contra `IEmbarque` con `EmbarqueStub` (1 pelotón y 1 vehículo por tren) hasta nacho/tren-embarque (TrainLoad/TrainUnload, ids ATren=2000+tren y EnEstacion=3000+nodo, D-N166). Corrida: `TBD.exe -menu-auto -sinintro -sintutorial -leaveat 15 -trenpanel-auto` → Captures/tren/.
+   - `Tutorial/Maquina.cs`: letra a letra con sfx_ui_tecla_1..8 de Nuria (±3 %), retorno 0,4 y campanilla; al saltar el texto no suena nada. Intro y tarjetas del tutorial en negrita y más grandes (Eugenio). Fondos de Bruno por tarjeta: D, A, B, C, C (`Resources/Intro/`).
+   - Pendiente: cambiar el stub por la API de Nacho (después de las 16:00); que Marcos ponga los 7 enganches.
 
 ## Pendiente
 ### Nuevo encargo (D-N154, D-N158 y D-N163; Lucía, 8-nov)
