@@ -44,6 +44,8 @@
 - Overpass da a veces 502: reintentar o usar un espejo (ov2.py prueba tres).
 - 8-nov, NH90 (Nacho, Hugo e Iker): referencias-reales/nh90_datos.md. 260 km/h VERIFICADOS (ficha del ET); 982 km; 2.035 kg de combustible; consumo de unos 450 kg/h, arranque de 5-10 min y zona de aterrizaje de 50 m, todo ESTIMACIÓN; armas M3M y MAG-58.
 - 8-nov, pelotón (Hugo y Nacho): referencias-reales/peloton_datos.md. Pelotón de 9 y sección de unos 30 (fuentes secundarias; ME4-102 y MI4-104 no son públicos). G36E 600 m, MG4E 1.000 m, AG36 unos 350 m (analogía). El G28 solo en el MOE. Munición y cadencias: ESTIMACIÓN o analogía con EE. UU.
+- 8-nov, línea para Iker: referencias-reales/linea_valencia_castellon.md (PK del C-6 según Wikipedia, comprobados con la relación OSM 2184632, 73,8 km; ramal a Segorbe de 33 km; Bétera–Sagunto 29,7 km por OSRM). Nules: la marquesina va adosada al edificio (revisión para Álvaro); la versión buena de nules_planta.md quedó en la biblioteca como nules_planta-20261108T133708-5513.md.
+- SendUserFile no sobrescribe: si el archivo ya existe en la raíz, lo guarda con sufijo de fecha. Hay que avisar para que lo sustituyan.
 - Hilos activos: Lucía (3) cmsg_014mgaTqwTDTmezhB3g3Rs8B6SQ5dvp3vRjsT8MHK748va y Álvaro (3) cmsg_014mgaTqwTDTmezhB3g3Rs8BVQMPsLQGZfhUnE8hUirrDa.
 
 ## 6. Huecos (no hay fuente libre en Commons)
