@@ -24,3 +24,10 @@ la alternativa es la D con el periodo de la B (8 px), que es un cambio de una l�
 
 Generador: TBD `claude/sprites-importar`, `.claude/skills/pixel-art-codigo/ejemplos/build_vias_zona.py`.
 Muestra: `muestra/muestra_vias_zona.png`, de día y de noche. La noche es una aproximación, no el render del juego.
+
+## ELEGIDA: D (Lucía, 8-nov, 24:10). Plan B: la D con traviesas cada 1,2 m, si en la build hay ruido detrás de los zombis.
+Código en TBD, rama `claude/vias-zona` (sobre marcos/noche-prototipo ae93063). Para Marcos:
+1. Copiar `Assets/TBD/Resources/Vias/` de esta entrega (T_via_*.png con sus .meta y Vias.meta) al proyecto.
+2. Fusionar `claude/vias-zona`. Pone el balasto de la zona en #605c48, la vía principal y la vía 2 pasan a ser un quad con la textura,
+   y las traviesas de reserva van en hormigón #6c7874. El desvío en diagonal de la vía 2 sigue con sus carriles de caja.
+3. `_mSleeper` (#442c0c) solo queda en el fantasma de obra (WallVisual). Habría que revisarlo con Lucía, porque también es color de la horda.
