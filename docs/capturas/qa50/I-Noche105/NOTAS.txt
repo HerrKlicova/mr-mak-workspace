@@ -1,0 +1,7 @@
+qa50 corrida A sobre la I-Noche105 (2c2f2b51) - Marcos, 09-11
+- T3-T5 tutorial automatico: 18 pasos cerrados en 115 s, [TUTORIAL] terminado, sin excepciones.
+- T2 estaciones: Sagunto 5 pelotones, Nules 2, Castellon 3 (plantel distinto). Capturas T2_est_*.png.
+- T11 noche 2 directa con -zona Nules, sin el objetivo del dia 2: «tren en Nules: ninguno» (ya no hay tren fantasma).
+  Derrota por la estacion a la 01:14 (552 abatidos, 14 bajas), como se espera sin refuerzo.
+  S2: aun sin tren, a las 23:42 salen el aviso «Tren atacado» y la barra «Tren» en el HUD (T11_noche2_directa_1.png).
+- Dia 2 (-dia2-auto) y -tren-aparcado los prueba Iker sobre esta build.
