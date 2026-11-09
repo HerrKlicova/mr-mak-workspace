@@ -1,0 +1,5 @@
+qa50 sobre la I-Noche107 - Marcos, 09-11
+- Noche 2 directa con -zona Nules, sin tren («tren en Nules: ninguno»): a las 23:42 ya no sale «Tren atacado»
+  ni la barra «Tren» en el HUD (T11_noche2_sin_tren_2342.png). Derrota por la estacion (552 abatidos, 14 bajas),
+  la esperada sin el refuerzo del dia 2. Sin excepciones.
+- Tutorial automatico: 18 pasos cerrados en 115 s, [TUTORIAL] terminado, sin excepciones.
