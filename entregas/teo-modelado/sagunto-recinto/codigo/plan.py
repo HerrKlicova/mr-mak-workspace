@@ -5,6 +5,7 @@ HV = ["MallaLimpia", "Geotextil", "Escalonado", "RemateSacos", "Red"]; SV = ["Re
 EST = ["e0_Sano", "e1_Danado", "e2_MuyDanado", "e3_Brecha"]
 M32 = 0xFFFFFFFF
 MEJORAS = True
+SIN_REMATE = set()   # lados sin remate junto a las puertas (Álvaro, 9-nov: muro oeste, la vuelta pisa la banqueta)
 def f32(x):
     import struct; return struct.unpack('f', struct.pack('f', x))[0]
 def variant(x, z, n=5):
@@ -46,6 +47,9 @@ def plan(poly, material, edificio, huecos):
                 return dict(malla=nombre("HescoRemate" if hes else "SacosRemate", hes, variant(x, z)), x=x, z=z, yaw=yaw, largo=0, escala_x=0, espejo=(bx*ux+bz*uz)*hacia < 0, lado=i)
             rem0 = (not ie or pe) and not (ie and ir); rem1 = (not fe or ne) and not (fe and fr)
             l0 = s0 + (0 if (ie and ir) else r0); l1 = s1 - (0 if (fe and fr) else r0)
+            if i in SIN_REMATE:
+                if rem0 and not ie: rem0 = False; l0 = s0
+                if rem1 and not fe: rem1 = False; l1 = s1
             if MEJORAS and l1 - l0 < -0.05 and hes:
                 # trozo corto (entre dos puertas, o entre esquina y puerta): sin remates, se rellena con cortos de HESCO
                 c0 = s0 if rem0 else l0; c1 = s1 if rem1 else l1; resto = c1 - c0

@@ -7,7 +7,6 @@ puertas = [
  dict(id="via_oeste", tipo="via", pos=[70,64.5], yaw=270, hueco=[62.0,67.0], hueco_muro=[61.1,67.9], malla="Defensas/puerta_via/SM_PuertaVia_v1_ChapaOndulada", col="Defensas/colision/SM_PuertaVia_Col", nota="5 m (D-N151); la vía pasa por ella"),
  dict(id="via_este", tipo="via", pos=[156,64.5], yaw=90, hueco=[62.0,67.0], hueco_muro=[61.1,67.9], malla="Defensas/puerta_via/SM_PuertaVia_v4_Blindada", col="Defensas/colision/SM_PuertaVia_Col", nota="solo visual en el MVP, cerrada; Z SIN VERIFICAR (la misma que la oeste)"),
  dict(id="vehiculos_sur", tipo="vehiculos", pos=[99,44], yaw=180, hueco=[95.0,103.0], hueco_muro=[94.1,103.9], malla="Defensas/muro/SM_PuertaVehiculos_v2_Tablones", col="Defensas/colision/SM_PuertaVehiculos_Col", nota="E4, D-N111"),
- dict(id="vehiculos_oeste_sur", tipo="vehiculos", pos=[70,53], yaw=270, hueco=[49.0,57.0], hueco_muro=[48.1,57.9], malla="Defensas/muro/SM_PuertaVehiculos_v0_TuboChapa", col="Defensas/colision/SM_PuertaVehiculos_Col", nota="sagunto-nivel.md §10.8–10.9"),
 ]
 huecos = {}
 for p in puertas:
@@ -21,6 +20,7 @@ for p in puertas:
         else: continue
         huecos.setdefault(i, []).append((min(h), max(h))); p["lado"] = i
 P.MEJORAS = '--literal' not in sys.argv
+if P.MEJORAS: P.SIN_REMATE = {5}
 pz = P.plan(poly, mat, lambda i: False, huecos)
 for q in pz:
     for k in ("x","z","largo","escala_x"): q[k] = round(q[k], 3)

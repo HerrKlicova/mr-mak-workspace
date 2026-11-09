@@ -22,6 +22,14 @@ rect(81, 63.5, 145, 65.5, fill=(120, 132, 150)); dr.text(P(100, 68.2), "tren de 
 dr.line([P(X0, 64.5), P(X1, 64.5)], fill=(120,132,150), width=1)
 for nz in (71.5, 57.5): rect(72.7, nz-0.5, 74.3, nz+0.5, fill=(150, 160, 120)); 
 dr.text(P(74.6, 72.4), "nido", fill=(80,90,60), font=F); dr.text(P(74.6, 58.4), "nido", fill=(80,90,60), font=F)
+
+for px_ in range(60, 170, 50):
+    a = P(px_, 60.9)
+    if px_ in (60, 110):
+        dr.line([a[0]-6, a[1]-6, a[0]+6, a[1]+6], fill=(110,70,150), width=3); dr.line([a[0]-6, a[1]+6, a[0]+6, a[1]-6], fill=(110,70,150), width=3)
+        dr.text((a[0]+8, a[1]+2), "poste fuera", fill=(110,70,150), font=F)
+    else:
+        dr.ellipse([a[0]-4, a[1]-4, a[0]+4, a[1]+4], fill=(60,60,60))
 COL = {'Hesco': (176, 160, 112), 'Sacos': (150, 170, 190)}
 def eje(yaw): return 'x' if int(round(yaw)) % 180 == 0 else 'z'
 puertas = d['puertas']

@@ -96,27 +96,6 @@
    "col": "Defensas/colision/SM_PuertaVehiculos_Col",
    "nota": "E4, D-N111",
    "lado": 1
-  },
-  {
-   "id": "vehiculos_oeste_sur",
-   "tipo": "vehiculos",
-   "pos": [
-    70,
-    53
-   ],
-   "yaw": 270,
-   "hueco": [
-    49.0,
-    57.0
-   ],
-   "hueco_muro": [
-    48.1,
-    57.9
-   ],
-   "malla": "Defensas/muro/SM_PuertaVehiculos_v0_TuboChapa",
-   "col": "Defensas/colision/SM_PuertaVehiculos_Col",
-   "nota": "sagunto-nivel.md §10.8–10.9",
-   "lado": 5
   }
  ],
  "piezas": [
@@ -469,18 +448,6 @@
    "ruta": "Defensas/hesco/SM_HescoEsquina_v1_Geotextil_e0_Sano"
   },
   {
-   "malla": "SM_HescoRemate_v3_RemateSacos_e0_Sano",
-   "x": 70.0,
-   "z": 67.9,
-   "yaw": 270.0,
-   "largo": 0,
-   "escala_x": 0,
-   "espejo": false,
-   "lado": 5,
-   "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoRemate_v3_RemateSacos_e0_Sano"
-  },
-  {
    "malla": "SM_MuroHesco_v3_RemateSacos_e0_Sano",
    "x": 70.0,
    "z": 77.22,
@@ -493,42 +460,48 @@
    "ruta": "Defensas/muro/SM_MuroHesco_v3_RemateSacos_e0_Sano"
   },
   {
-   "malla": "SM_HescoCorto2_v0_MallaLimpia_e0_Sano",
+   "malla": "SM_HescoCorto4_v3_RemateSacos_e0_Sano",
    "x": 70.0,
-   "z": 71.45,
+   "z": 70.06,
    "yaw": 270.0,
-   "largo": 2.22,
+   "largo": 4.44,
    "escala_x": 1.0,
    "espejo": false,
    "lado": 5,
    "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoCorto2_v0_MallaLimpia_e0_Sano"
+   "ruta": "Defensas/hesco/SM_HescoCorto4_v3_RemateSacos_e0_Sano"
   },
   {
-   "malla": "SM_HescoCorto3_v2_Escalonado_e0_Sano",
+   "malla": "SM_MuroHesco_v0_MallaLimpia_e0_Sano",
    "x": 70.0,
-   "z": 59.5,
+   "z": 56.1,
    "yaw": 270.0,
-   "largo": 3.33,
+   "largo": 10.0,
    "escala_x": 1.0,
    "espejo": false,
    "lado": 5,
-   "nota": "trozo de 3.20 m: corto en lugar de remates",
    "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoCorto3_v2_Escalonado_e0_Sano"
+   "ruta": "Defensas/muro/SM_MuroHesco_v0_MallaLimpia_e0_Sano"
   },
   {
-   "malla": "SM_HescoCorto1_v3_RemateSacos_e0_Sano",
+   "malla": "SM_HescoCorto4_v0_MallaLimpia_e0_Sano",
    "x": 70.0,
-   "z": 47.44,
+   "z": 48.94,
    "yaw": 270.0,
-   "largo": 1.11,
+   "largo": 4.44,
    "escala_x": 1.0,
    "espejo": false,
    "lado": 5,
-   "nota": "trozo de 1.32 m: corto en lugar de remates",
    "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoCorto1_v3_RemateSacos_e0_Sano"
+   "ruta": "Defensas/hesco/SM_HescoCorto4_v0_MallaLimpia_e0_Sano"
   }
- ]
+ ],
+ "postes_catenaria_fuera": {
+  "bucle": "PrototypeBootstrap.cs:1377 (cada 50 m, Z 60,9)",
+  "saltar_x": [
+   60,
+   110
+  ],
+  "nota": "Álvaro 9-nov: el de X 110 cae dentro del fuerte junto al tren y el de X 60 en la calle del paso a nivel; los de fuera se quedan"
+ }
 }

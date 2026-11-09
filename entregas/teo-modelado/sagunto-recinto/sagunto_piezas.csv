@@ -28,8 +28,7 @@ n;lado;ruta;x;z;yaw;largo_m;escala_x;espejo;nota
 26;4;Defensas/muro/SM_MuroHesco_v2_Escalonado_e0_Sano;79.5;85.0;0.0;10.0;1.0;no;
 27;4;Defensas/hesco/SM_HescoCorto2_v4_Red_e0_Sano;73.64;85.0;0.0;2.22;1.0;no;
 28;5;Defensas/hesco/SM_HescoEsquina_v1_Geotextil_e0_Sano;70;85;0;0;0;no;
-29;5;Defensas/hesco/SM_HescoRemate_v3_RemateSacos_e0_Sano;70.0;67.9;270.0;0;0;no;
-30;5;Defensas/muro/SM_MuroHesco_v3_RemateSacos_e0_Sano;70.0;77.22;270.0;10.0;1.0;no;
-31;5;Defensas/hesco/SM_HescoCorto2_v0_MallaLimpia_e0_Sano;70.0;71.45;270.0;2.22;1.0;no;
-32;5;Defensas/hesco/SM_HescoCorto3_v2_Escalonado_e0_Sano;70.0;59.5;270.0;3.33;1.0;no;trozo de 3.20 m: corto en lugar de remates
-33;5;Defensas/hesco/SM_HescoCorto1_v3_RemateSacos_e0_Sano;70.0;47.44;270.0;1.11;1.0;no;trozo de 1.32 m: corto en lugar de remates
+29;5;Defensas/muro/SM_MuroHesco_v3_RemateSacos_e0_Sano;70.0;77.22;270.0;10.0;1.0;no;
+30;5;Defensas/hesco/SM_HescoCorto4_v3_RemateSacos_e0_Sano;70.0;70.06;270.0;4.44;1.0;no;
+31;5;Defensas/muro/SM_MuroHesco_v0_MallaLimpia_e0_Sano;70.0;56.1;270.0;10.0;1.0;no;
+32;5;Defensas/hesco/SM_HescoCorto4_v0_MallaLimpia_e0_Sano;70.0;48.94;270.0;4.44;1.0;no;
