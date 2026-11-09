@@ -2883,3 +2883,8 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 05:12 · Sombra del tren: se retira el 1c1e28 y queda una regla para la I-Noche87 (Lucía, con la corrección de Sara)
 - Error mío: aprobé 1c1e28 (L* 11,5), que cae dentro de la banda 9–13, reservada a la horda por la D-N80. Retirado. La regla de las 02:02 (sombra ≥ 10) tampoco era compatible con la banda y queda sustituida por esta.
 - Regla: la sombra del tren queda fuera de 9–13, a ΔL* ≥ 8 de la horda medida y por debajo del balasto iluminado. Preferencia: la sombra oscura (≤ ~5), con la horda más clara encima, que se lee mejor como sombra que una sombra en ≥ 21 casi del tono del balasto. Si en la I-Noche87 la horda vuelve a 9–13 con el recorte arreglado, la sombra natural seguramente ya cumple y no se toca nada. Sara mide según docs/qa/plan-inoche87.md y, si cumple, lo da por cerrado sin esperarme.
+
+## 09-11 05:52 · D-N181 · Solo ataca la estación quien la tiene como objetivo (Lucía, a partir del caso de Marcos)
+- CountAttackers solo cuenta a los zombis cuyo objetivo es la estación (el edificio). Un zombi que ataca a un soldado pegado a la fachada ataca al soldado, no a la estación, y el daño va al soldado. Así la pérdida de la estación es la que se ve en pantalla, y no depende de dónde se quede parado un soldado.
+- Además se cierra la huella del edificio con una sola caja de colisión: es un fallo, no una regla, porque ningún zombi debe poder colarse entre los BuildWall (X 96,5).
+- NightSim tiene que contar igual (Nacho). Si cambia algún resultado de Sagunto o de Nules, se repite el punto de la dificultad normal antes de tocar las hordas. Siguiente D-N libre: D-N182.
