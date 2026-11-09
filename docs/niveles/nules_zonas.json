@@ -1,0 +1,17 @@
+{
+ "origen_px00": "esquina noroeste: X=-80, Z=208",
+ "px_m": 1,
+ "ancho": 416,
+ "alto": 288,
+ "X": [
+  -80,
+  336
+ ],
+ "Z": [
+  -80,
+  208
+ ],
+ "uv_unity": "u=(X+80)/416, v=(Z+80)/288 (fila 0 del PNG arriba, como v=1)",
+ "zonas": "los mismos ids y colores que sagunto_zonas.json (0–11); aquí no hay cauce (8) ni cerro (11)",
+ "fuente": "nules-nivel.md §2, §13 y §15; generador herramientas/zonas_nules.py"
+}
