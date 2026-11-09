@@ -2799,3 +2799,7 @@ Con el barrido de Nacho (D-N180, caso de referencia D-N179): Nules desde la noch
 - La puerta oeste-sur (§10.8, en (70; 53)) chocaba con la banqueta y el nido sur (§10.14). Se quita y en su lugar va HESCO. Los vehículos salen por la puerta sur (acceso_sur, ya probado). La medida de la azotea sigue valiendo.
 - Se quitan los dos postes de catenaria sueltos (X 110 dentro del fuerte y X 60 en el paso a nivel). Detalle en sagunto-nivel.md §10.22.
 - La lista de colocación de Teo para Marcos ya no lleva esa puerta.
+
+## 09-11 01:16 · Carga del vagón: b4a080 (Lucía, a partir de la tira de Teo)
+- Se elige b4a080, que da +12,5 de día y L* 28,6 de noche, y es la que menos se confunde con el resto del tren. b8b8b8 es el techo de los coches y f0dc9c, de noche, se leería como una ventanilla encendida. El margen de noche es justo: si la medida de Sara tras la reimportación no llega a ΔL* ≥ 8 contra el lateral, se pasa a f0dc9c.
+- Va como §6 del paquete de Marcos.
