@@ -1,0 +1,12 @@
+tramo,min_real,llego(si/no),incidencia,severidad
+1,-,si,Intro: en la corrida A la salta -menu-auto; no probado a mano (va en la B),-
+2,-,pendiente,Arranque con 3 estaciones propias y guarnicion distinta: no comprobado en la A; va en la B (Iker D-N183),pendiente
+3,auto,si,Tutorial cap. 1 cierra todos sus pasos (A); horda de dia andando: no se ve aparecer en las capturas (franja D-N182),-
+4,auto,si,Tutorial 2.4 cierra por reparacion_confirmada (A); la espera >15 m no se mide en auto,-
+5,auto,si,Tutorial 3 cierra hasta [TUTORIAL] terminado (A); 3.7 se cierra por el auto (esperaba tren_en_sagunto),-
+6,-,pendiente,Atardecer y mancha: no hay vista en la I-Noche95 (Iker),pendiente
+7,auto,si,Noche 1 Sagunto normal s1 con -nightbot: victoria 5250 abatidos 5 bajas; cartel no visto en la captura de 180 s (la victoria llega mas tarde); fps no medidos sin tandas,-
+8,-,pendiente,Objetivo del dia 2: sin vista en la I-Noche95 (Iker I-Noche96),pendiente
+9,-,pendiente,Segundo tren y emboscada: sin vista (Nacho e Iker I-Noche96),pendiente
+10,-,pendiente,Preparar Nules: va en la B,pendiente
+11,auto,no,Noche 2 con -zona Nules sin cumplir el objetivo (2 pelotones y 20 u): derrota causa=tren a las 00:54; el cartel dice «El tren ha caido» con botones «Volver a empezar» y «Menu principal» (no se sigue en el mundo: S2 a revisar); la zona de Nules usa la escena de Sagunto,S2

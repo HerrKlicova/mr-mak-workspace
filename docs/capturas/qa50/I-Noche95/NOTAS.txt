@@ -1,0 +1,12 @@
+qa50 · I-Noche95 (cb0d9e13) · Marcos (2), 9-nov
+Todo con ventana a 1920x1080.
+Corrida A: TBD.exe -menu-auto -tutorial-auto -capdirecta (OJO: sin -menu-auto se queda en el menu principal, S3). Termina en [TUTORIAL] terminado, sin excepciones. Capturas por paso en tutorial_auto/.
+K (K=3 por defecto, comprobado en el log: «ambientesuelo K=3 · ΔA lineal=(0.183; 0.214; 0.368)»): k30_30s.png y k30_110s.png, encuadre oeste de la qa49 (difícil, semilla 2), sin banderas de ambiente ni de sombra.
+Bordes: borde_O/E/S/N.png (difícil, semilla 2, 110 s, zoom 35). En ninguna se ve nacer un zombi: la horda sale de la franja oscura del oeste. La franja no tapa la puerta oeste (X 70) ni la vía junto a ella.
+Noche 1 (normal, semilla 1, -nightbot): victoria (5250 abatidos, 5 bajas, munición final 36,8 u). Noche 2 (-zona Nules -nightbot, SIN el objetivo del día 2): derrota por el tren a las 00:54 (ver tramos.csv).
+La corrida B (manual, teclado y ratón) va aparte.
+
+Corrida B (manual): NO hecha. El permiso de control del escritorio sobre TBD.exe vuelve como «user_denied» sin que a Eugenio le salga ninguna ventana (dos intentos, 09:2x). Lo más probable: Computer use apagado en la app de Claude (Ajustes → Este equipo → Computer use).
+Tramos sin jugar a mano: 1 (saltar la intro), 2 (arranque con 3 estaciones), 4 (espera del 2.4 cronometrada), 5 (3.1 y 3.7 cronometrados; llegar a Nules jugando), 10 y 11 jugando.
+Hecho de la B por automático: el 1.7 a 1600x900 y 1280x720 (res_1600/ y res_1280/, captura del tutorial automático). A 1280x720 la cabecera «Capítulo 1 · Paso 7 de 10» cabe en una línea y no se monta; el texto sale a medio escribir («...Desde ahí también se salta») porque la captura salta al abrirse el paso.
+k30_30s.png rehecha: es la captura directa del mismo fotograma (5399, t=33,6 s). La negra salió porque -shotsat 30 coincidía con la captura automática de -capdirecta.
