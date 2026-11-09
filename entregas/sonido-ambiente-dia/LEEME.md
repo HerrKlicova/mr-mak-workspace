@@ -73,5 +73,8 @@ El prompt b del atardecer dio 0 de 2: no empieza con pájaros. Si se repone, hay
 - **Atardecer**: unos 20 s de juego antes de la noche, `sfx_amb_atardecer_<n>` a 1,0, una vez (no es bucle). Fundido cruzado con el ambiente de día al empezar. En sus últimos 3 s, fundido cruzado de potencia constante con el ambiente de noche (`sfx_amb_estacion_pequena_1` a 0,10, como ahora). La prueba hace exactamente eso.
 - **Mapa de día**: propongo `sfx_amb_dia_sagunto_<n>` en 2D a 0,3 (unos −63,5 LUFS), para que no haya silencio. Hoy el mapa solo tiene `sfx_batalla_mapa` de noche.
 - Se calla al pausar, como el resto (sonido 3D con silencio en la pausa).
-- **Variante por semilla**: `n = 1 + hash(estación, día) % N`, con N = 5 en Sagunto, 4 en Nules y 2 en el atardecer (hasta que se completen). Es determinista, así que la misma estación y el mismo día dan siempre la misma variante.
+- **Mapa (integrado)**: el mapa a 0,3 lleva además `Sfx.Duck` de −6 dB (ya integrado), así que el día no tapa los avisos del mapa.
+- **Volumen en la zona**: `DiaZonaVol` está a 1,0 sin escuchar (03bffef). Si al escucharlo en la zona el día se come la noche (posible por lo del mono frente al estéreo, ver arriba), hay que bajarlo a **0,7**.
+- **Variantes fijas elegidas por Lucía (ya en el juego)**: `sfx_amb_dia_sagunto_1`, `sfx_amb_dia_nules_2` y `sfx_amb_atardecer_1`, integradas por Marcos en 03bffef (repo TBD). No se tocan: las variantes nuevas solo se añaden con números libres (`ambiente_dia.py completar`).
+- **Variante por semilla**: `n = 1 + hash(estación, día) % N`, con N = 5 en Sagunto, 4 en Nules y 2 en el atardecer. Cuando se completen, N = 5 en los tres (pendiente: la generación de las 6 tomas que faltan está bloqueada a la espera de permiso, 9-nov). Es determinista, así que la misma estación y el mismo día dan siempre la misma variante.
 - Importación: mono, Vorbis, sin Normalize, Load Type Streaming o Compressed in Memory (son 20 s).

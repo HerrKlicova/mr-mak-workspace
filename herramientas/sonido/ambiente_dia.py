@@ -17,7 +17,8 @@ Uso:
   python ambiente_dia.py generar <brutos> [ids...]          (reanudable)
   python ambiente_dia.py extra <brutos> <id> <sufijo> <n>   (n tomas más de un prompt)
   python ambiente_dia.py calibrar                           (prueba los detectores con sonidos ya entregados)
-  python ambiente_dia.py post <brutos> <entrega>
+  python ambiente_dia.py post <brutos> <entrega>              (renumera TODO: no usar si ya hay variantes en el juego)
+  python ambiente_dia.py completar <brutos> <entrega>         (solo tomas nuevas, a números libres; no pisa nada)
   python ambiente_dia.py escucha <entrega>
 """
 import base64
@@ -352,6 +353,79 @@ def post(brutos, entrega):
                                    indent=0))
 
 
+def completar(brutos, entrega):
+    """Rellena los huecos hasta N_FINAL SIN tocar los OGG ya entregados (algunos ya están en el juego): solo se
+    analizan las tomas que no aparecen en medidas.json (ni como origen de un clip ni como descarte) y se escriben con
+    el número siguiente libre. Añade sus medidas y descartes a medidas.json."""
+    brutos, entrega = Path(brutos), Path(entrega)
+    mj = entrega / "medidas.json"
+    informe = json.loads(mj.read_text(encoding="utf-8"))
+    vistas = {c["de"] for cl in informe["clips"].values() for c in cl} | {d["toma"] for d in informe["descartes"]}
+    nuevas_desc = []
+    for sid, s in SONIDOS.items():
+        es_bucle = s["tipo"] == "bucle"
+        cl = informe["clips"].setdefault(sid, [])
+        hay = len(cl)
+        tomas = [f for f in sorted(brutos.glob(f"{sid}_*.mp3")) if f.name not in vistas]
+        if not tomas:
+            continue
+        cand = []
+        for f in tomas:
+            y, info = candidata(sid, s, f)
+            if y is None:
+                nuevas_desc.append(info)
+            else:
+                cand.append({**info, "y": y})
+        informe["candidatas"].setdefault(sid, []).extend({k: v for k, v in c.items() if k != "y"} for c in cand)
+        if es_bucle:
+            cand.sort(key=lambda c: c["suceso_max_db"] + 0.5 * c["rango_lufs_ventana"])
+        else:
+            cand.sort(key=lambda c: c["pios_13_20s"] - 0.2 * c["pios_0_7s"] + 0.3 * c["suceso_final_db"])
+        faltan = max(0, N_FINAL - hay)
+        elegidas, resto = cand[:faltan], cand[faltan:]
+        if len(elegidas) < faltan:
+            print(f"AVISO: {sid}: faltan {faltan} y solo hay {len(elegidas)} válidas nuevas", flush=True)
+        for k, c in enumerate(elegidas, hay + 1):
+            dest = entrega / f"{SALIDA[sid]}_{k}.ogg"
+            if dest.exists():
+                sys.exit(f"ALTO: {dest.name} ya existe y no se pisa")
+            y = a_lufs(c["y"], s["lufs"], es_bucle)
+            if np.abs(y).max() > 10 ** (TECHO / 20):
+                y = y * 10 ** (TECHO / 20) / np.abs(y).max()
+            a_ogg(y, dest)
+            for _ in range(3):
+                m = medir_ogg(dest, es_bucle)["lufs_i"]
+                if abs(m - s["lufs"]) <= 0.1:
+                    break
+                y = y * 10 ** ((s["lufs"] - m) / 20)
+                a_ogg(y, dest)
+            m = medir_ogg(dest, es_bucle)
+            if es_bucle:
+                z = leer(dest)
+                m["costura_ogg"] = costura(z)
+                m["muestras_ogg"] = len(z)
+                m["muestras_bucle"] = len(c["y"])
+            cl.append({"archivo": dest.name, "de": c["toma"],
+                       **{k2: c[k2] for k2 in ("suceso_max_db", "rango_lufs_ventana", "pios", "pios_0_7s",
+                                               "pios_13_20s", "viento_sube_db", "suceso_final_db",
+                                               "insectos_bulto_db", "insectos_tramas", "tonos_sostenidos_hz")
+                          if k2 in c}, **m})
+        for c in resto:
+            nuevas_desc.append({k: v for k, v in c.items() if k != "y"} | {"motivo": "válida, sobrante"})
+    informe["descartes"].extend(nuevas_desc)
+    mj.write_text(json.dumps(informe, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
+    for sid, cl in informe["clips"].items():
+        L = [c["lufs_i"] for c in cl]
+        print(sid, len(cl), "LUFS", min(L), max(L), "dif", round(max(L) - min(L), 2))
+        for c in cl:
+            print("  ", c["archivo"], c["de"], c["lufs_i"], c["pico_dbfs"], c["dur_s"], c.get("costura_ogg"),
+                  {k: c.get(k) for k in ("suceso_max_db", "rango_lufs_ventana", "pios_0_7s", "pios_13_20s",
+                                         "viento_sube_db", "insectos_bulto_db", "insectos_tramas",
+                                         "tonos_sostenidos_hz")})
+    print("descartes nuevos:", json.dumps([(d["toma"], d["motivo"]) for d in nuevas_desc], ensure_ascii=False,
+                                          indent=0))
+
+
 # ---------- prueba ----------
 GANANCIA_PRUEBA_DB = 20.0   # toda la prueba sube 20 dB por igual (deshace el 0,10 de la noche) para oírla a volumen normal
 
@@ -493,6 +567,8 @@ if __name__ == "__main__":
     elif cmd == "post":
         post(sys.argv[2], sys.argv[3])
         prueba(sys.argv[3])
+    elif cmd == "completar":
+        completar(sys.argv[2], sys.argv[3])
     elif cmd == "escucha":
         escucha(sys.argv[2])
     else:
