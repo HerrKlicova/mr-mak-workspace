@@ -3066,3 +3066,11 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - **Emboscada (A):** el tren espera fuera de la **puerta este** (X 160–224) y el sondeo sale de la franja este. Con un pelotón de escolta se salva el 100 %. Sin escolta se pierde el 100 % con cualquier cifra entre 100 y 300, porque la guarnición está toda en el lado oeste, a más de 70 m, y se aplica la D-N180.
 - **Se acepta la (a), sin escolta el tren se pierde siempre.** El objetivo del día 2 ya pide un pelotón, EM-1 avisa y la lección es clara: un tren sin escolta no llega. Se queda el sondeo de 300. La banda del 60–90 % deja de aplicarse en la A y se volverá a mirar con el Nules de verdad (opción B).
 - El aviso de EM-1 y el del apartado nombran la **puerta este** mientras Nules use el terreno de Sagunto.
+
+## 09-11 12:30 · Que las 3 estaciones no parezcan la misma, con lo que ya hay (Lucía; aviso de Sara en la qa51, no bloquea)
+- Se mete hoy solo si es barato. No hay piezas nuevas y no se tocan colisiones, tramos ni recintos, porque la noche 2 y la emboscada están medidas con la geometría actual.
+  1. **El nombre en la fachada de cada estación**: «SAGUNTO», «NULES» y «CASTELLÓN». Ya se hace para Nules en la opción A. Marcos.
+  2. **El título al entrar en la zona**, 3 s, en d4d0cc: «{Estación} · {n} pelotones», y en Castellón «Castellón · cercada». Iker.
+  3. **Castellón con la puerta de vehículos de Teo** (SM_PuertaVehiculos_Castellon), que ya está importada. Es solo para que se vea: Castellón no tiene noche en la partida. Marcos, si no le lleva más de 30 min. Si le lleva más, se queda fuera.
+  4. Fuera de Sagunto no salen el campanario ni el pueblo de Sagunto (ya decidido en la A).
+- Que cada estación tenga su propio terreno, edificio y nave (Nules de verdad en la opción B, y Castellón) queda para después del MVP. Cuando Eugenio juegue, se le dirá que es provisional.
