@@ -2955,3 +2955,6 @@ Reserva de partida de Castellón: 0 u de munición (la dotación de unas 10 u va
 ## 09-11 07:54 · Hollín de la vía: fuera en el MVP (Bruno, a raíz de Eugenio en la I-Noche91; aprobado por Lucía)
 - Eugenio veía «manchas a lo largo de las vías»: el hollín repetía una mancha cada 9,6 m y el de la puerta oeste, de noche, parecía un agujero sobre el balasto. Se quita por defecto (32151c32; `-hollin` para verlo). Las pintadas del muro norte se quedan.
 - Después del MVP, si se rehace: manchas sueltas a intervalos irregulares, con menos contraste y fuera de la banda de la horda (lo revisa Sara).
+
+## 09-11 08:00 · Prioridad única: la partida de 30 minutos (Eugenio, 07:56; plan de Lucía en docs/plan-partida-30min.md)
+- A partir de ahora el equipo trabaja solo en el recorrido de 30 minutos: arranque con 3 estaciones, tutorial, primer tren, noche 1 en Sagunto, objetivo del día 2, segundo tren con emboscada (un sondeo de unos 300 a la llegada a Nules) y noche 2 en Nules. Hay una lista imprescindible de 9 puntos. Todo lo demás se para hasta que funcione de principio a fin.
