@@ -2897,3 +2897,10 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 06:26 · Si la carga deja de cumplir al bajar -sombranoche, se usa la (b): ambiente solo en el suelo (Lucía)
 - Se prefiere la (b): un ambiente propio en el material del balasto y del suelo, para subir la sombra hasta L* 15–16 dejando -sombranoche en 0,75 en todo lo demás (tren, carga y fachadas, ya medidos). Ataca el problema donde está.
 - Se descarta la (a), el borde claro de 1 px en la carga: los contornos de 1 px los reservamos ahora para el fantasma y el anillo de selección (05:12 y 00:34), y una carga con contorno se leería como un objeto seleccionado.
+
+### Adenda rodeo (Hugo, 9-nov 07:05): Sagunto difícil 6550
+Con el rodeo del edificio en la build, la difícil de 6470 gana 20/20 (Noche86rodeo; antes 10/19 sin rodeo), sin derrotas por la estación. NightSim con rodeo y D-N181 da 82,5 % con 6470 y 64,5 % con 6550 (200 semillas). Subo la difícil a 6550 (palanca 1248) para volver al 65 %. Confirmación pendiente: unas ×20 de la build con 6550; si siguen 20/20, se prueba 6600 (NightSim 53 %). Fácil 4480 y normal 5250 no cambian.
+
+## 09-11 07:04 · Sagunto difícil en la build con el rodeo: 20/20 a 5700 (Sara). Se mantiene 6470 y se verifica en la build (Lucía)
+- Las derrotas de antes venían del fallo de la franja de detrás, no del balance, y con el rodeo la build se parece a NightSim. La horda de difícil ya se fijó en ~6470 a las 01:59 (NightSim con el reparto de granadas). No se ajusta otra vez sobre la build a 5700.
+- Siguiente medida: ×20 en la build con el rodeo y el reparto juntos, en difícil a 6470 (objetivo del 50 al 80 %) y en normal a 5250 (D-N169). Si la build y NightSim discrepan más que el intervalo de confianza, Hugo propone el ajuste y yo decido.
