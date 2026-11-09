@@ -3037,3 +3037,11 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 ## 09-11 09:55 · Diseño v0 de «Romper el cerco de Castellón» (Lucía; después del MVP)
 - En docs/misiones/romper-cerco-castellon.md. Se abre el día 3 con un tren de socorro desde Nules (al menos 2 pelotones y la munición de la D-N180). La guarnición sale a la vez. El cerco se rompe cuando la densidad baja de 500, el mismo umbral que FoundStation.
 - Si sale mal, Castellón no cae y se puede volver a intentar. Objetivo: entre el 75 y el 90 % de éxito con 2 pelotones. No hay mecánicas nuevas. No entra en el MVP.
+- 09:58 · Cambio en la lista del MVP: Computer use ya está activado en el PC de Eugenio, pero desde el RC no funciona. No se le vuelve a pedir. **La corrida B a mano la juega Eugenio por la noche** con la lista de Sara. El MVP está listo para avisarle cuando la corrida A pase entera sin ningún S1 ni S2 abierto.
+
+## 09-11 10:00 · Día 3 y noche 3 (Lucía; cifras provisionales de Hugo, pendientes de que Nacho mida)
+- Noche 3 en Sagunto: fácil 5250, normal 6700 (la horda difícil de la noche 1, siguiendo la escalera) y difícil 7100, provisional. Sin el refuerzo se gana como en difícil (~65 %); con él, como en normal. El objetivo del día 3 decide la noche.
+- **Objetivo del día 3** (aviso en e08c30 al amanecer, con la mecánica del día 2 y sin carga mínima): «Refuerza Sagunto: manda un pelotón desde Nules antes de las 22:00.» Se cumple cuando un pelotón de fusileros (8) baja del tren en Sagunto. Al cumplirse, en d4d0cc: «El pelotón ya está en Sagunto.» Si no se cumple, a las 22:00 y en e08c30: «Sagunto se queda sin refuerzo esta noche.»
+- **La noche 3 no hay asedio en Nules**, como propone Hugo: con 12 defensores aguanta unos 1200 zombis y la regla del tope la haría caer. Es una noche tranquila.
+- Al ganar la noche 3: «Sagunto resiste» y la partida sigue en el mundo, como en las anteriores.
+- Va en el apartado «Si sobra tiempo» y no retrasa el MVP.

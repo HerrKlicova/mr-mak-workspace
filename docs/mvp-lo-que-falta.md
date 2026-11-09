@@ -1,11 +1,8 @@
 # Lo que falta para el MVP · partida de 30 minutos jugada por dentro (Lucía, 09-11 09:45)
 
-El MVP está listo cuando la partida de 30 minutos (plan-partida-30min.md) **se juega entera a mano en la build y la qa no da ningún S1 ni ningún S2 abierto**. Entonces se avisa a Eugenio y se para (Eugenio, 09:40).
+El MVP está listo cuando la partida de 30 minutos (plan-partida-30min.md) **pasa la corrida A automática de punta a punta sin ningún S1 ni S2 abierto**. Entonces se avisa a Eugenio, que juega la B a mano por la noche con la lista de Sara, y se para (Eugenio, 09:40).
 
 Estado de partida: la qa50 (I-Noche95, solo corrida A) no tiene ningún S1. El tutorial 1–3 y la noche 1 funcionan; el 2.4 ya no se atasca. Faltan T2, T6, T8 y T9, y la corrida manual.
-
-## 0 · Bloqueo que solo puede quitar Eugenio (antes de irse)
-- **Activar Computer use en la app de Claude del PC.** Sin eso, la corrida B (jugar a mano) no se puede hacer. Hoy el permiso vuelve como `user_denied` sin que salga ninguna ventana (qa50). Dueño: coordinador, que se lo pide a Eugenio con enlace. Si no se puede, Marcos busca otra forma de jugar a mano que no lo necesite y lo dice.
 
 ## 1 · I-Noche96: lo que falta del recorrido (por orden)
 | # | Qué | Decisión | Dueño |
@@ -24,7 +21,7 @@ Estado de partida: la qa50 (I-Noche95, solo corrida A) no tiene ningún S1. El t
 ## 2 · QA y entrega
 | # | Qué | Dueño |
 |---|---|---|
-| 11 | qa51 de la I-Noche96: corrida A y **corrida B a mano de los 30 minutos** (T1–T11, con los pasos cronometrados y comprobando que la escena de Nules no es la de Sagunto) | Sara (informe) y Marcos (juega) |
+| 11 | qa51 de la I-Noche96: corrida A automática **sin ningún S1 ni S2 abierto**, que la juega Marcos y la informa Sara. La **corrida B, a mano, la juega Eugenio por la noche** con la lista de Sara (T1–T11, con los pasos cronometrados y comprobando que la escena de Nules no es la de Sagunto). Computer use no funciona desde el RC, y Eugenio ya lo tiene activado. | Marcos y Sara (A); Eugenio (B) |
 | 12 | Corregir los S1 y S2 que salgan y volver a pasar la qa hasta que quede limpia | según el fallo |
 | 13 | Tablón y mensaje a Eugenio con el enlace de la build, cuándo pasó la qa y qué hay provisional (Nules sobre Sagunto, Castellón cercada sin misión) | Lucía y coordinador |
 
