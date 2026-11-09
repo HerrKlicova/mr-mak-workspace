@@ -15,7 +15,7 @@ Estado de partida: la qa50 (I-Noche95, solo corrida A) no tiene ningún S1. El t
 | 6 | Nules sobre el terreno de Sagunto: cartel «NULES», sin el campanario ni el pueblo. La horda de la noche 2 y la emboscada hay que volver a medirlas sobre este terreno | 09:40, 09:47 | Marcos; Nacho (medida) |
 | 7 | Puestos de la guarnición de Nules en ese terreno, distintos de los de Sagunto: **hechos** (v1.2, 83cbceb). Nacho comprueba que el 96 % sigue valiendo con ellos | 09:40 | Álvaro → Iker |
 | 8 | Ambiente: -ambientesuelo 0,5 y -ambientebalasto 1,5, medidos con el balasto en 1, 1,5 y 2,5 | 09:28 | Bruno y Sara |
-| 9b | **Bloqueos de la I-Noche98** (10:12): perder un tren no es perder la noche (quitar `causa=tren`), aviso de tren parado a las 19:00, el objetivo del día 2 cuenta lo cargado al salir, y si el andén está ocupado se descarga fuera de la puerta | 10:12 | Iker; Nacho (vuelve a medir) |
+| 9b | **Bloqueos de la I-Noche98** (10:12 y 10:16): TrainNotDefeat = true en la noche de Nules; Nules con 2 plazas de tren; la escolta rechaza la emboscada con su propia dotación y la carga llega entera; aviso de tren parado a las 19:00; comprobar que la escolta va pegada al tren | 10:16 | Iker (zona y aviso), Nacho (simulación) |
 | 9 | 1.8 visible: que cada paso del tutorial se vea al menos 3 s aunque su condición ya se cumpla | nuevo (S3 de la qa50) | Iker |
 | 10 | Tutorial 3.7: «el tren espera en la puerta este» (Sagunto) | 09:42 | Iker (hecho en texto) |
 
