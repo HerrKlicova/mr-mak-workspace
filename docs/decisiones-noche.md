@@ -2791,3 +2791,11 @@ Con el barrido de Nacho (D-N180, caso de referencia D-N179): Nules desde la noch
 ## 09-11 01:03 · Munición mínima de Nules: 10 u; el tope de defensores, después del MVP (Lucía, sobre la entrega de Hugo)
 - Aceptado: Nules con 1880, 2200 y 2440 (fácil, normal, difícil). El mínimo de Nules sube a 10 u. La fórmula de las 00:01 (techo(horda ÷ 400) + 2) subestima donde se abaten menos zombis por u: Hugo la cambia por una que use los zombis por u de cada sitio y se la pasa a Bruno para el informe.
 - Después del MVP: NightSim tiene un tope de unos 100 zombis por defensor y el modelo de campaña no. Para la campaña larga hará falta repartir la Colmena de otra forma o que las guarniciones crezcan. Queda apuntado como riesgo de diseño. No se toca en el MVP.
+
+## 09-11 01:05 · Presupuesto de triángulos: cuenta toda la escena (precisa la entrada de las 00:14)
+- La medida de Sara en qa48 da unos 344k triángulos en la escena entera, y la pila 4 suma solo unos 22k. Los 161k de Teo eran solo sus piezas. El presupuesto se fija sobre la escena completa (terreno, edificios, vegetación y horda) cuando Sara mida los fps hacia las 05:00, sin vsync y sin tandas de fondo.
+
+## 09-11 01:12 · Sagunto: fuera la puerta oeste-sur en el MVP (Álvaro, aprobado por Lucía)
+- La puerta oeste-sur (§10.8, en (70; 53)) chocaba con la banqueta y el nido sur (§10.14). Se quita y en su lugar va HESCO. Los vehículos salen por la puerta sur (acceso_sur, ya probado). La medida de la azotea sigue valiendo.
+- Se quitan los dos postes de catenaria sueltos (X 110 dentro del fuerte y X 60 en el paso a nivel). Detalle en sagunto-nivel.md §10.22.
+- La lista de colocación de Teo para Marcos ya no lleva esa puerta.
