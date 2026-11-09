@@ -3076,3 +3076,12 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - Que cada estación tenga su propio terreno, edificio y nave (Nules de verdad en la opción B, y Castellón) queda para después del MVP. Cuando Eugenio juegue, se le dirá que es provisional.
 - 12:33 · Título de zona: Sagunto sale «7 pelotones», que son los 5 del plantel y los 2 de tiradores de la azotea (D-N174). **Es correcto y se queda.** El título solo cuenta pelotones; no se quita ninguno, porque el balance de la noche 1 está medido con los 7.
 - 12:40 · Nules empieza con 0 u (regla de Hugo: almacén = min(47, reserva de la red)). El objetivo del día 2 pasa a la v2 de informe-textos.md: tarjeta al amanecer, recuadro fijo con el progreso y recordatorio a las 15:00. Va en la I-Noche108.
+
+## 09-11 21:18 · Intro y tutorial en cada partida nueva (Lucía; S2 de la partida de Eugenio con la I-Noche107, propuesta de Sara)
+- **«Nueva partida» empieza siempre un mundo nuevo**: las 3 estaciones (D-N183) y Castellón cercada (D-N184). **Siempre pone la intro**, que se salta con Esc o con clic en «Saltar». Ya no depende de `tbd.intro.vista`.
+- Después de la intro sale: «¿Quieres hacer el tutorial?», con «Sí» y «No». «Sí» tiene el foco. Ya no depende de `tbd.tutorial.visto` ni de `…saltado`.
+- Si ya hay una partida guardada, antes de empezar sale: «Empezar una partida nueva borra la que tienes guardada. ¿Seguir?», con «Sí» y «No».
+- «Continuar» carga la partida guardada, sin intro y sin tutorial.
+- Me aparto de la propuesta en una cosa: **no hace falta «Volver a ver el tutorial» en Opciones** para el MVP, porque cada partida nueva lo pregunta. Queda para después si alguien lo pide.
+- La caja del tutorial que se queda encima del menú se cierra al volver a la escena Menu (fallo, Iker).
+- QA: una corrida que empiece en el menú y con los PlayerPrefs borrados, sin `-menu-auto` (Sara).
