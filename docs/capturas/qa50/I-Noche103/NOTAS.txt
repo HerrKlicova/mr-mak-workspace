@@ -1,0 +1,10 @@
+qa50 corrida A sobre la I-Noche103 (68e8287e) - Marcos, 09-11
+- T3-T5 tutorial automatico: [TUTORIAL] terminado.
+- T8-T9 dia 2 (-dia2-auto): objetivo cumplido (tropa y 25 u), emboscada de 300 rechazada.
+- T11 noche 2 Nules: S1. El tren se pierde a las 22:33, su solido sale a X=900 y el campo de flujo
+  manda la horda al borde este. Quedan 330 zombis inalcanzables y la noche no acaba nunca
+  (1870 abatidos; el reloj llega a las 15:41 del dia siguiente). Captura: T11_noche_infinita_15h41.png
+- Arreglo: 04411971 en marcos/partida-30 (con el tren fuera del mapa, la horda va al anden del fuerte).
+  Comprobado en P30e (103 con el arreglo): victoria a las 05:30, 2200 abatidos, 0 bajas, cartel
+  «Nules resiste». Captura: T11_nules_resiste_P30e.png. El arreglo entra en la I-Noche104.
+- Noche 2 directa con -zona Nules, sin objetivo: derrota por la estacion (552 abatidos), como se espera.
