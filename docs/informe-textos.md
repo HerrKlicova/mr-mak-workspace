@@ -55,7 +55,7 @@ Si hay asedio anunciado, manda sobre lo anterior: «Asedio sobre {estación} a l
 - «Sin escolta: {estación} está sitiada.»
 - «{zona} sin defensa: llega la horda.»
 - «Saca el tren del apartado: con asedio, espera fuera de la puerta oeste.»
-- Objetivo del día 2 (D-N179): «Defiende Nules antes de la noche: manda tropa y munición (≥ 20 u).»
+- Objetivo del día 2 (D-N179): sustituido por la v2 (12:40, más abajo).
 
 ## Añadidos 08-11 (a partir de la propuesta de Bruno, revisados por Lucía)
 - Resumen, asedio ya empezado: «Asedio sobre {estación} en curso. {cifra}.»
@@ -79,3 +79,18 @@ Si hay asedio anunciado, manda sobre lo anterior: «Asedio sobre {estación} a l
 
 ## Añadido 09-11 01:44 · Cuándo sale «Se perderá con su carga»
 - Solo si el destino del tren, según tren-a-las-puertas.md, es una posición donde se pierde sin escolta (en Nules, el apartado). Si el tren va a esperar fuera de la puerta oeste (88 % de salvarse sin escolta), no sale ni esta línea ni el ámbar «Sin escolta».
+
+## Objetivo del día 2, v2 (09-11 12:40, Lucía; sustituye a la línea de la D-N179). Nules empieza con 0 u
+- **Tarjeta al amanecer del día 2**, centrada, 6 s como mínimo y se cierra con clic. Texto en d4d0cc; la segunda línea en e08c30.
+  - Título: «Objetivo · Día 2»
+  - «Nules no tiene munición.»
+  - «Esta noche la atacarán y, sin ayuda, caerá.»
+  - «Manda desde Sagunto un tren con un pelotón y 20 u de munición antes de la noche.»
+  - «Ve con escolta: la vía no es segura.»
+- **Recuadro fijo** a la derecha mientras dure el objetivo, en el mapa y en la zona:
+  - «Defiende Nules»
+  - «☐ Un pelotón en Nules»
+  - «☐ Munición en Nules: {x}/20 u»
+  - Cuando se cumple una línea, pasa a ☑. Cuando se cumplen las dos: «Nules está lista para la noche.»
+- **Recordatorio a las 15:00** si todavía no ha salido ningún tren hacia Nules, en e08c30: «Nules sigue sin munición. Si no mandas el tren, caerá esta noche.» Con doble clic se va a Sagunto.
+- El aviso de las 19:00 se mantiene.

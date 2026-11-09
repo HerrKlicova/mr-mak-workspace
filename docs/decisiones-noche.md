@@ -3075,3 +3075,4 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
   4. Fuera de Sagunto no salen el campanario ni el pueblo de Sagunto (ya decidido en la A).
 - Que cada estación tenga su propio terreno, edificio y nave (Nules de verdad en la opción B, y Castellón) queda para después del MVP. Cuando Eugenio juegue, se le dirá que es provisional.
 - 12:33 · Título de zona: Sagunto sale «7 pelotones», que son los 5 del plantel y los 2 de tiradores de la azotea (D-N174). **Es correcto y se queda.** El título solo cuenta pelotones; no se quita ninguno, porque el balance de la noche 1 está medido con los 7.
+- 12:40 · Nules empieza con 0 u (regla de Hugo: almacén = min(47, reserva de la red)). El objetivo del día 2 pasa a la v2 de informe-textos.md: tarjeta al amanecer, recuadro fijo con el progreso y recordatorio a las 15:00. Va en la I-Noche108.
