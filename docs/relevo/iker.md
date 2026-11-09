@@ -105,6 +105,16 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
    - **Si Marcos se corta**: sigo desde docs/relevo/marcos.md, con el turbo por SimId y las semillas de la Noche75.
    - Trampa: un -nographics deja las capturas en blanco y vuelve a guardar las escenas. Hay que hacer `git checkout` de Assets/Scenes después de compilar así, y las capturas se sacan solo con -batchmode.
 
+## Estado al 9-nov 12:45 (integrador; rama iker/escenario-inicio en C:\Dev\TBD-2)
+- Última build: **I-Noche107** (3a05e9b7). Compilar: `Unity.exe -batchmode -nographics -projectPath C:\Dev\TBD-2 -executeMethod TBD.EditorTools.TutorialBuild.ConstruirNoche -noche N [-dev] -quit`. Antes `touch C:\Dev\TBD\Builds\Noche82\PAUSA` y después borrarlo (las tandas de Marcos esperan).
+- Ramas que se fusionan: claude/sombra-tren (Bruno), nacho/dn183-castellon (Nacho), marcos/partida-30 (Marcos).
+- Partida de 30 min: D-N183 (guarniciones por estación: PuestosPel/PuestosVeh en Aerodromo.cs, Álvaro v1.1/v1.2), D-N184 (Castellón cercada), emboscada (PrototypeBootstrap.Emboscada.cs: franja AmbushSpawn*, AmbushEnd, TrainLost), EM-1 y «tren parado» (OperationsMap3D; log en Update), objetivo del día 2 (ObjTroops), S2 «ha caído» (LoseNode, guardado del atardecer atardecer.tbd, Repetir la noche), tutorial (tope 10 s en cap. 1-2, mínimo 3 s por tarjeta, 2.4b, 1.8 de 4 s), título de entrada en la zona.
+- **Cada zona tiene su noche** (NightSession.Node + NightRun.Aparcadas). Antes Nules reanudaba la de Sagunto.
+- Nules opción A: StreamingAssets/Noche/nules.json de Hugo (tren fuera de la puerta este, X 160–224). Sin tren en la estación, la noche empieza con TrainHp = 0 (_nocheSinTren: sin aviso, frente ni barra). Almacén de munición de la zona = min(47, reserva de la red).
+- Corridas: `-dia2-auto` (escoltado, saca el tren a las 19:30 → victoria), `-dia2-auto-sinescolta` (derrota), `-dia2-auto-tren-aparcado` (tren perdido, victoria). `-tutorial-auto` implica -menu-auto. NetSession.Turbo solo para corridas.
+- Pendiente: limpieza de C:\Dev\TBD-2\Builds (el clasificador deniega `rm -rf`; plan: borrar I-Noche76–99 salvo 91dev y Noche70–73; decide Eugenio). Nombres en fachadas y puerta de Castellón de Marcos para la 108.
+- Trampa (3 veces hoy): un comentario `//` insertado a mitad de línea por un script se traga el código que sigue. Ponlo siempre al final de la línea.
+
 ## Pendiente
 ### Nuevo encargo (D-N154, D-N158 y D-N163; Lucía, 8-nov)
 - **Motor del tutorial**, más los **capítulos 0 y 3** y la **tarjeta suelta del C90**. Textos: `docs/tutorial-textos.md`; el capítulo 4 está en `docs/tutorial-refuerzos.md`. Marcos hace los capítulos 1 y 2, el tramo oeste al 45 % y la horda en espera.
