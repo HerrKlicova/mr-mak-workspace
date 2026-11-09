@@ -2981,3 +2981,13 @@ Reserva de partida de Castellón: 0 u de munición (la dotación de unas 10 u va
   - **Sin escolta y rodeado**: D-N180, se pierde con su carga en un máximo de 10 minutos de juego, salvo que el jugador lo saque antes.
 - La guarnición de Nules no sufre bajas fuera de pantalla con un sondeo de unos 300. Si el jugador entra en la zona, el combate sigue allí con lo que quede.
 - Si en la prueba se ve que el resultado fuera de pantalla y el de la zona no coinciden, manda el de la zona (Sara lo comprueba en el recorrido de 30 minutos).
+
+## 09-11 08:20 · La emboscada tiene que poner el tren en peligro: se aleja de la guarnición (Lucía, tras el dato de Nacho e136e545)
+- Dato: con 300 zombis contra Nules el tren no se pierde nunca (200 de 200 en el apartado y en la puerta oeste, con escolta y sin ella), porque la guarnición está cerca. Así la emboscada no es una emboscada.
+- **Decisión**: el sondeo cae sobre el tren **en la vía, antes de llegar al recinto de Nules**, en el último tramo dentro de la zona, a la salida de la franja de oscuridad del borde (D-N182, opción A). Así se ve en la zona y se puede defender, pero la guarnición queda lejos. El sondeo sigue en unos 300.
+- **Objetivos, medidos con 200 semillas**:
+  - Sin escolta y sin que el jugador haga nada, el tren se pierde en el 60–85 % de las partidas (D-N180).
+  - Con escolta de un pelotón, el tren se salva en al menos el 90 %.
+  - La guarnición de Nules no pierde lo bastante como para que la noche 2 baje de un 90 % de victorias con el objetivo del día 2 cumplido.
+- Si con la distancia no basta, el sondeo sube a 400 y después a 500, y se para en la primera cifra que cumpla. Si ninguna cumple, me lo dice Nacho antes de tocar nada más.
+- EM-1 no cambia. El aviso del apartado solo sale si el tren llega a entrar.
