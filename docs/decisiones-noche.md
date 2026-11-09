@@ -3033,3 +3033,7 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - La lista ordenada, con dueños, está en docs/mvp-lo-que-falta.md. El MVP está listo cuando la partida se juega entera a mano y la qa no deja ningún S1 ni S2 abierto. Entonces se avisa a Eugenio y se para.
 - El capítulo 3 se queda como está en la build, «Pedir refuerzos» (de Nules a Sagunto). El primer tren que manda el jugador es el del día 2.
 - Nuevo para Iker (S3 de la qa50): cada paso del tutorial se ve al menos 3 s, aunque su condición ya se cumpla (el 1.8 no llegaba a verse).
+
+## 09-11 09:55 · Diseño v0 de «Romper el cerco de Castellón» (Lucía; después del MVP)
+- En docs/misiones/romper-cerco-castellon.md. Se abre el día 3 con un tren de socorro desde Nules (al menos 2 pelotones y la munición de la D-N180). La guarnición sale a la vez. El cerco se rompe cuando la densidad baja de 500, el mismo umbral que FoundStation.
+- Si sale mal, Castellón no cae y se puede volver a intentar. Objetivo: entre el 75 y el 90 % de éxito con 2 pelotones. No hay mecánicas nuevas. No entra en el MVP.
