@@ -3142,3 +3142,14 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
   - **El combate abstracto calibrado** de la §6 del GDD desaparece.
   - **La intro y el tutorial «solo la primera vez»** del §15b: se aplica la decisión de las 21:18.
 - El plan por fases lo cierra el hilo «Rehacer el núcleo» con Nacho, Iker y Marcos. Diseño revisa cada fase con estos pilares.
+- 22:20 · **Añadido a la D-N186** (plan del núcleo, https://claude.ai/artifact/NkEDBN79eE6MFBjKyjSQ79, fases F0–F4): **la fidelidad de la simulación no depende de la cámara** (lockstep, §17). Al alejarse solo se dibuja menos. En la F3, AmbushStep, D-N177 y ResolveZoneSiege dejan de ser fórmulas y pasan a ser choques reales en el sitio. Los objetivos de diseño no cambian, solo cómo se consiguen:
+  - Sin escolta, el tren rodeado se pierde (D-N180: en 10 min de juego como mucho).
+  - Con un pelotón de escolta, se salva al menos el 90 % de las veces.
+  - La noche 2 de Nules, con el objetivo cumplido, se gana al menos el 90 % de las veces.
+  - Un tren que espera a las puertas está expuesto (D-N152).
+  - Hugo y Nacho fijan las cifras de los choques para que se cumplan, con 200 semillas.
+
+## 09-11 22:20 · Economía de la partida de 30 minutos con el núcleo en tiempo real (Lucía; propuestas de Hugo, docs/economia/economia-tiempo-real-30min.md)
+1. **Aprobado.** Al descargar, la carga entra directamente en el almacén de la zona hasta el tope y lo que sobra va a la reserva. Aviso en d4d0cc: «Descargado en {estación}: {x} u al almacén, {y} u a la reserva.» Ya no se ve el almacén a 0 después de llegar (Eugenio, I-Noche110). No cambia ninguna cifra medida.
+2. **Aprobado medirlo.** Noche 2 con el pelotón pero sin carga, solo con su dotación. Si sale entre el 50 y el 80 %, se queda así, porque da tensión sin que la partida esté perdida de antemano. Si pasa del 90 %, las 20 u sobran y se endurece la horda o el requisito, y me pasáis la propuesta.
+3. **Aprobado.** El NH90 de Bétera es la red de seguridad sobre Nules si el objetivo falla, y se manda con el núcleo (selección en Bétera y clic derecho en Nules). Cuando el objetivo del día 2 sigue sin cumplirse a las 19:00, el aviso añade: «Puedes mandar los NH90 desde Bétera.» Con 5 o 6 salidas de combustible no hace falta tocar nada.
