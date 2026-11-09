@@ -24,7 +24,7 @@ Solo uso lo que ya existe en el juego o en una rama. Los tiempos son reales y ap
 
 1. **Arranque con 3 estaciones propias y una guarnición distinta en cada una** (D-N183, puestos de Álvaro v1.1), con Castellón cercada: mancha fija, sin ataque y sin trenes (D-N184). Iker.
 2. **Tutorial 0–3 sin atascos**, con el arreglo del 2.4. Iker.
-3. **Trenes de punta a punta**: preparar, cargar, mandar Sagunto–Nules, descargar, y esperar fuera de la puerta oeste si hay asedio. Iker.
+3. **Trenes de punta a punta**: preparar, cargar, mandar Sagunto–Nules, descargar, y, si hay asedio, esperar a las puertas (en Sagunto, la puerta este; en Nules, fuera de la puerta oeste). Iker.
 4. **La horda llega andando** desde fuera de la vista (D-N182) y la mancha avanza en el mapa. Marcos (zona) e Iker (mapa).
 5. **Noche 1 en Sagunto y noche 2 en Nules de punta a punta**, con la D-N180 y la D-N181, la pila funcionando y el cartel de fin. Marcos.
 6. **Objetivo del día 2 y la emboscada**: un sondeo de unos 300 a la llegada del segundo tren a Nules, más el aviso del apartado. Nacho (lógica) e Iker (disparo y aviso).
