@@ -114,6 +114,67 @@ De noche, la carga 845c28 quedaba a ΔL* 1,7 del lateral en la build (Sara). Luc
 - `tren-dn157/r2_vagon_tropa/juego/SM_R2_VagonTropa_LOD0.fbx` y `juego/lod1/SM_R2_VagonTropa_LOD1.fbx` → `Models/R2/`.
 - `tren-dn157/tren_cercano/vagon_v2/SM_Vagon_Cercano_v2_LOD0.fbx` y `_LOD1.fbx` → `Models/Vehiculos/tren/vagon_v2/`.
 
-Las mallas, los nombres de nodo y la paleta son idénticos (comprobado vértice a vértice); solo cambia el píxel de la carga. No queda 845c28 ni d4d0cc. La copia de `r2_vagon_tropa/v3/` es la vieja: no la uses (§3.6).
+**Arreglado el 9-nov a las 02:10 (S3).** La primera versión de estos 4 FBX (e0c2602) se exportó sin `--costado 88885c --claro b8b8b8`. En la R2, el lateral volvió a 50541c, los bajos pasaron a 442c0c y el techo a b4a080. Mi comprobación miraba la malla, pero no el color de cada vértice. Lo siento. Los 4 FBX de ahora se han comparado con la entrega en 845c28 (d06af89 y 109ba85) leyendo el color de cada esquina de cara en los UV contra T_Paleta32, y **solo cambia la carga**. Las mallas, los nombres de nodo y la paleta son idénticos.
+
+Tabla de colores por celda (esquinas de cara leídas de los UV; antes = la entrega en 845c28):
+
+**SM_R2_VagonTropa_LOD0** · cambios: 845c28 → b4a080: 96
+
+| Celda | Papel | Antes | Ahora |
+|---|---|---|---|
+| 1c200c | contorno oscuro | 1640 | 1640 |
+| 181c30 | aspilleras / sombra | 1344 | 1344 |
+| 88885c | lateral (casco) | 304 | 304 |
+| 303424 | bastidor oscuro | 168 | 168 |
+| 605c48 | piso, chapas, puertas | 120 | 120 |
+| 847c34 | sacos / contenedor | 96 | 96 |
+| b4a080 | carga (ahora) | 0 | 96 |
+| 845c28 | carga (antes) | 96 | 0 |
+| b8b8b8 | techo / canto del parapeto | 52 | 52 |
+| 50541c | bajos del casco | 52 | 52 |
+
+**SM_R2_VagonTropa_LOD1** · cambios: 845c28 → b4a080: 48
+
+| Celda | Papel | Antes | Ahora |
+|---|---|---|---|
+| 1c200c | contorno oscuro | 1136 | 1136 |
+| 88885c | lateral (casco) | 288 | 288 |
+| 303424 | bastidor oscuro | 168 | 168 |
+| 605c48 | piso, chapas, puertas | 120 | 120 |
+| 847c34 | sacos / contenedor | 96 | 96 |
+| b4a080 | carga (ahora) | 0 | 48 |
+| 845c28 | carga (antes) | 48 | 0 |
+| b8b8b8 | techo / canto del parapeto | 48 | 48 |
+| 50541c | bajos del casco | 48 | 48 |
+
+**SM_Vagon_Cercano_v2_LOD0** · cambios: 845c28 → b4a080: 96
+
+| Celda | Papel | Antes | Ahora |
+|---|---|---|---|
+| 48403c | bastidor, ruedas, metal | 2048 | 2048 |
+| f0dc9c | luz de ventanillas | 1584 | 1584 |
+| 60546c | ventanillas | 1344 | 1344 |
+| 88885c | lateral (casco) | 304 | 304 |
+| 605c48 | piso, chapas, puertas | 120 | 120 |
+| 847c34 | sacos / contenedor | 96 | 96 |
+| b4a080 | carga (ahora) | 0 | 96 |
+| 845c28 | carga (antes) | 96 | 0 |
+| b8b8b8 | techo / canto del parapeto | 52 | 52 |
+| 50541c | bajos del casco | 52 | 52 |
+
+**SM_Vagon_Cercano_v2_LOD1** · cambios: 845c28 → b4a080: 48
+
+| Celda | Papel | Antes | Ahora |
+|---|---|---|---|
+| 48403c | bastidor, ruedas, metal | 1544 | 1544 |
+| 88885c | lateral (casco) | 288 | 288 |
+| f0dc9c | luz de ventanillas | 240 | 240 |
+| 605c48 | piso, chapas, puertas | 120 | 120 |
+| 847c34 | sacos / contenedor | 96 | 96 |
+| b4a080 | carga (ahora) | 0 | 48 |
+| 845c28 | carga (antes) | 48 | 0 |
+| b8b8b8 | techo / canto del parapeto | 48 | 48 |
+| 50541c | bajos del casco | 48 | 48 |
+ La copia de `r2_vagon_tropa/v3/` es la vieja: no la uses (§3.6).
 
 — Teo · [retrato](/mnt/project-files/equipo/retrato_teo_64_x4.png)
