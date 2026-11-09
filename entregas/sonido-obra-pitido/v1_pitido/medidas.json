@@ -1,0 +1,1264 @@
+{
+ "clips": {
+  "obra_pala": [
+   {
+    "archivo": "sfx_obra_pala_1.ogg",
+    "de": "obra_pala_b_v02.mp3",
+    "fade_ms": 96,
+    "sucesos": [
+     [
+      0.0,
+      1.16,
+      0.0
+     ]
+    ],
+    "dur_s": 1.2,
+    "pico_dbfs": -16.0,
+    "lufs_i": -30.0,
+    "lufs_m_max": -29.1
+   },
+   {
+    "archivo": "sfx_obra_pala_2.ogg",
+    "de": "obra_pala_a_v01.mp3",
+    "fade_ms": 90,
+    "sucesos": [
+     [
+      0.02,
+      1.09,
+      0.0
+     ]
+    ],
+    "dur_s": 1.13,
+    "pico_dbfs": -13.6,
+    "lufs_i": -30.0,
+    "lufs_m_max": -27.6
+   },
+   {
+    "archivo": "sfx_obra_pala_3.ogg",
+    "de": "obra_pala_a_v04.mp3",
+    "fade_ms": 93,
+    "sucesos": [
+     [
+      0.2,
+      0.37,
+      0.0
+     ]
+    ],
+    "dur_s": 1.16,
+    "pico_dbfs": -14.16,
+    "lufs_i": -30.0,
+    "lufs_m_max": -29.0
+   },
+   {
+    "archivo": "sfx_obra_pala_4.ogg",
+    "de": "obra_pala_a_v03.mp3",
+    "fade_ms": 96,
+    "sucesos": [
+     [
+      0.11,
+      0.25,
+      0.0
+     ]
+    ],
+    "dur_s": 1.2,
+    "pico_dbfs": -12.77,
+    "lufs_i": -30.1,
+    "lufs_m_max": -28.6
+   },
+   {
+    "archivo": "sfx_obra_pala_5.ogg",
+    "de": "obra_pala_b_v01.mp3",
+    "fade_ms": 96,
+    "sucesos": [
+     [
+      0.01,
+      0.14,
+      0.0
+     ]
+    ],
+    "dur_s": 1.2,
+    "pico_dbfs": -8.44,
+    "lufs_i": -30.0,
+    "lufs_m_max": -27.2
+   }
+  ],
+  "obra_saco": [
+   {
+    "archivo": "sfx_obra_saco_1.ogg",
+    "de": "obra_saco_a_v01.mp3",
+    "fade_ms": 57,
+    "sucesos": [
+     [
+      0.02,
+      0.21,
+      0.0
+     ]
+    ],
+    "dur_s": 0.707,
+    "pico_dbfs": -9.19,
+    "lufs_i": -28.1,
+    "lufs_m_max": -28.1
+   },
+   {
+    "archivo": "sfx_obra_saco_2.ogg",
+    "de": "obra_saco_a_v04.mp3",
+    "fade_ms": 68,
+    "sucesos": [
+     [
+      0.03,
+      0.21,
+      0.0
+     ]
+    ],
+    "dur_s": 0.847,
+    "pico_dbfs": -8.01,
+    "lufs_i": -28.0,
+    "lufs_m_max": -28.0
+   },
+   {
+    "archivo": "sfx_obra_saco_3.ogg",
+    "de": "obra_saco_a_v03.mp3",
+    "fade_ms": 50,
+    "sucesos": [
+     [
+      0.02,
+      0.16,
+      0.0
+     ]
+    ],
+    "dur_s": 0.617,
+    "pico_dbfs": -7.61,
+    "lufs_i": -28.0,
+    "lufs_m_max": -28.0
+   },
+   {
+    "archivo": "sfx_obra_saco_4.ogg",
+    "de": "obra_saco_a_v02.mp3",
+    "fade_ms": 69,
+    "sucesos": [
+     [
+      0.02,
+      0.17,
+      0.0
+     ]
+    ],
+    "dur_s": 0.881,
+    "pico_dbfs": -6.99,
+    "lufs_i": -28.0,
+    "lufs_m_max": -28.0
+   },
+   {
+    "archivo": "sfx_obra_saco_5.ogg",
+    "de": "obra_saco_b_v03.mp3",
+    "fade_ms": 80,
+    "sucesos": [
+     [
+      0.3,
+      0.47,
+      0.0
+     ]
+    ],
+    "dur_s": 0.997,
+    "pico_dbfs": -6.61,
+    "lufs_i": -28.0,
+    "lufs_m_max": -28.0
+   }
+  ],
+  "obra_malla": [
+   {
+    "archivo": "sfx_obra_malla_1.ogg",
+    "de": "obra_malla_b_v03.mp3",
+    "fade_ms": 174,
+    "sucesos": [
+     [
+      0.18,
+      1.67,
+      0.0
+     ]
+    ],
+    "dur_s": 2.18,
+    "pico_dbfs": -14.01,
+    "lufs_i": -29.9,
+    "lufs_m_max": -28.4
+   },
+   {
+    "archivo": "sfx_obra_malla_2.ogg",
+    "de": "obra_malla_a_v04.mp3",
+    "fade_ms": 170,
+    "sucesos": [
+     [
+      0.16,
+      2.0,
+      0.0
+     ]
+    ],
+    "dur_s": 2.13,
+    "pico_dbfs": -12.95,
+    "lufs_i": -30.0,
+    "lufs_m_max": -26.0
+   },
+   {
+    "archivo": "sfx_obra_malla_3.ogg",
+    "de": "obra_malla_a_v02.mp3",
+    "fade_ms": 161,
+    "sucesos": [
+     [
+      0.21,
+      1.81,
+      0.0
+     ]
+    ],
+    "dur_s": 2.01,
+    "pico_dbfs": -12.87,
+    "lufs_i": -30.0,
+    "lufs_m_max": -28.3
+   },
+   {
+    "archivo": "sfx_obra_malla_4.ogg",
+    "de": "obra_malla_a_v01.mp3",
+    "fade_ms": 166,
+    "sucesos": [
+     [
+      0.38,
+      1.94,
+      0.0
+     ]
+    ],
+    "dur_s": 2.07,
+    "pico_dbfs": -12.37,
+    "lufs_i": -30.0,
+    "lufs_m_max": -26.8
+   },
+   {
+    "archivo": "sfx_obra_malla_5.ogg",
+    "de": "obra_malla_a_v03.mp3",
+    "fade_ms": 142,
+    "sucesos": [
+     [
+      0.03,
+      1.55,
+      0.0
+     ]
+    ],
+    "dur_s": 1.78,
+    "pico_dbfs": -11.92,
+    "lufs_i": -30.1,
+    "lufs_m_max": -27.7
+   }
+  ],
+  "tren_pitido_electrico": [
+   {
+    "archivo": "sfx_tren_pitido_electrico_1.ogg",
+    "de": "tren_pitido_electrico_c_v01.mp3",
+    "fade_ms": 141,
+    "sucesos": [
+     [
+      0.23,
+      0.79,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     660
+    ],
+    "fraccion_tonal": 0.29,
+    "dur_s": 1.76,
+    "pico_dbfs": -14.2,
+    "lufs_i": -28.8,
+    "lufs_m_max": -26.4
+   },
+   {
+    "archivo": "sfx_tren_pitido_electrico_2.ogg",
+    "de": "tren_pitido_electrico_b_v03.mp3",
+    "fade_ms": 141,
+    "sucesos": [
+     [
+      0.0,
+      1.69,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     320,
+     340,
+     640
+    ],
+    "fraccion_tonal": 0.63,
+    "dur_s": 1.76,
+    "pico_dbfs": -14.13,
+    "lufs_i": -28.4,
+    "lufs_m_max": -25.6
+   },
+   {
+    "archivo": "sfx_tren_pitido_electrico_3.ogg",
+    "de": "tren_pitido_electrico_b_v01.mp3",
+    "fade_ms": 141,
+    "sucesos": [
+     [
+      0.04,
+      1.26,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     650
+    ],
+    "fraccion_tonal": 0.46,
+    "dur_s": 1.76,
+    "pico_dbfs": -14.29,
+    "lufs_i": -28.4,
+    "lufs_m_max": -25.7
+   },
+   {
+    "archivo": "sfx_tren_pitido_electrico_4.ogg",
+    "de": "tren_pitido_electrico_a_v04.mp3",
+    "fade_ms": 141,
+    "sucesos": [
+     [
+      0.47,
+      1.19,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     340,
+     1320
+    ],
+    "fraccion_tonal": 0.31,
+    "dur_s": 1.76,
+    "pico_dbfs": -14.52,
+    "lufs_i": -28.3,
+    "lufs_m_max": -26.0
+   },
+   {
+    "archivo": "sfx_tren_pitido_electrico_5.ogg",
+    "de": "tren_pitido_electrico_a_v01.mp3",
+    "fade_ms": 141,
+    "sucesos": [
+     [
+      0.32,
+      1.07,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     660,
+     1300
+    ],
+    "fraccion_tonal": 0.31,
+    "dur_s": 1.76,
+    "pico_dbfs": -15.3,
+    "lufs_i": -28.4,
+    "lufs_m_max": -25.5
+   }
+  ],
+  "tren_pitido_diesel": [
+   {
+    "archivo": "sfx_tren_pitido_diesel_1.ogg",
+    "de": "tren_pitido_diesel_a_v02.mp3",
+    "fade_ms": 160,
+    "sucesos": [
+     [
+      0.31,
+      1.46,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     960
+    ],
+    "fraccion_tonal": 0.56,
+    "dur_s": 2.0,
+    "pico_dbfs": -14.17,
+    "lufs_i": -27.7,
+    "lufs_m_max": -26.1
+   },
+   {
+    "archivo": "sfx_tren_pitido_diesel_2.ogg",
+    "de": "tren_pitido_diesel_b_v03.mp3",
+    "fade_ms": 158,
+    "sucesos": [
+     [
+      0.0,
+      0.97,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     820,
+     960
+    ],
+    "fraccion_tonal": 0.44,
+    "dur_s": 1.98,
+    "pico_dbfs": -14.08,
+    "lufs_i": -27.8,
+    "lufs_m_max": -25.9
+   },
+   {
+    "archivo": "sfx_tren_pitido_diesel_3.ogg",
+    "de": "tren_pitido_diesel_b_v01.mp3",
+    "fade_ms": 156,
+    "sucesos": [
+     [
+      0.0,
+      0.61,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     820
+    ],
+    "fraccion_tonal": 0.29,
+    "dur_s": 1.95,
+    "pico_dbfs": -14.07,
+    "lufs_i": -27.6,
+    "lufs_m_max": -25.1
+   },
+   {
+    "archivo": "sfx_tren_pitido_diesel_4.ogg",
+    "de": "tren_pitido_diesel_a_v04.mp3",
+    "fade_ms": 160,
+    "sucesos": [
+     [
+      0.0,
+      1.05,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     960
+    ],
+    "fraccion_tonal": 0.41,
+    "dur_s": 2.0,
+    "pico_dbfs": -14.27,
+    "lufs_i": -27.4,
+    "lufs_m_max": -25.6
+   },
+   {
+    "archivo": "sfx_tren_pitido_diesel_5.ogg",
+    "de": "tren_pitido_diesel_a_v01.mp3",
+    "fade_ms": 160,
+    "sucesos": [
+     [
+      0.0,
+      0.74,
+      0.0
+     ]
+    ],
+    "notas_hz": [
+     960
+    ],
+    "fraccion_tonal": 0.33,
+    "dur_s": 2.0,
+    "pico_dbfs": -14.09,
+    "lufs_i": -27.3,
+    "lufs_m_max": -25.5
+   }
+  ]
+ },
+ "descartes": [
+  {
+   "toma": "obra_pala_a_v02.mp3",
+   "pico_bruto": -11.1,
+   "fraccion_activa": 0.14,
+   "dur_recortada": 1.2,
+   "sucesos": [
+    [
+     0.0,
+     0.76,
+     0.0
+    ]
+   ],
+   "fade_ms": 96,
+   "pico_a_lufs": -4.1,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  },
+  {
+   "toma": "obra_pala_b_v03.mp3",
+   "pico_bruto": -9.7,
+   "fraccion_activa": 0.34,
+   "dur_recortada": 1.2,
+   "sucesos": [
+    [
+     0.0,
+     0.05,
+     0.0
+    ],
+    [
+     0.43,
+     0.53,
+     -22.0
+    ],
+    [
+     1.05,
+     1.1,
+     -24.0
+    ]
+   ],
+   "fade_ms": 96,
+   "pico_a_lufs": 2.1,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  },
+  {
+   "toma": "obra_saco_b_v01.mp3",
+   "pico_bruto": -3.9,
+   "fraccion_activa": 0.27,
+   "dur_recortada": 1.0,
+   "sucesos": [
+    [
+     0.19,
+     0.33,
+     0.0
+    ]
+   ],
+   "fade_ms": 80,
+   "pico_a_lufs": -5.0,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  },
+  {
+   "toma": "obra_saco_b_v02.mp3",
+   "pico_bruto": -1.2,
+   "fraccion_activa": 0.17,
+   "dur_recortada": 1.0,
+   "sucesos": [
+    [
+     0.25,
+     0.39,
+     0.0
+    ]
+   ],
+   "fade_ms": 80,
+   "pico_a_lufs": -4.4,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  },
+  {
+   "toma": "obra_malla_b_v02.mp3",
+   "pico_bruto": -12.8,
+   "fraccion_activa": 0.63,
+   "dur_recortada": 2.09,
+   "sucesos": [
+    [
+     0.24,
+     1.43,
+     0.0
+    ]
+   ],
+   "fade_ms": 167,
+   "pico_a_lufs": -10.7,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  },
+  {
+   "toma": "obra_malla_b_v01.mp3",
+   "pico_bruto": -13.3,
+   "fraccion_activa": 0.68,
+   "dur_recortada": 2.06,
+   "sucesos": [
+    [
+     0.36,
+     1.61,
+     0.0
+    ]
+   ],
+   "fade_ms": 165,
+   "pico_a_lufs": -9.2,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  },
+  {
+   "toma": "tren_pitido_electrico_a_v02.mp3",
+   "pico_bruto": -24.1,
+   "fraccion_activa": 0.96,
+   "dur_recortada": 1.76,
+   "sucesos": [
+    [
+     0.05,
+     1.62,
+     0.0
+    ]
+   ],
+   "fraccion_tonal": 0.54,
+   "notas_hz": [
+    340,
+    580,
+    660,
+    980
+   ],
+   "toques_largos": 1,
+   "motivo": "1 toques y 4 notas: posible música o melodía"
+  },
+  {
+   "toma": "tren_pitido_electrico_a_v03.mp3",
+   "pico_bruto": -13.8,
+   "fraccion_activa": 0.67,
+   "dur_recortada": 1.76,
+   "sucesos": [
+    [
+     0.0,
+     0.62,
+     0.0
+    ]
+   ],
+   "fraccion_tonal": 0.17,
+   "notas_hz": [],
+   "toques_largos": 1,
+   "motivo": "poco tonal: no suena a bocina"
+  },
+  {
+   "toma": "tren_pitido_electrico_c_v02.mp3",
+   "pico_bruto": -11.8,
+   "fraccion_activa": 0.61,
+   "dur_recortada": 1.76,
+   "sucesos": [
+    [
+     0.1,
+     0.71,
+     0.0
+    ]
+   ],
+   "fraccion_tonal": 0.17,
+   "notas_hz": [
+    340
+   ],
+   "toques_largos": 1,
+   "motivo": "poco tonal: no suena a bocina"
+  },
+  {
+   "toma": "tren_pitido_electrico_b_v02.mp3",
+   "pico_bruto": -21.3,
+   "fraccion_activa": 0.91,
+   "dur_recortada": 1.76,
+   "sucesos": [
+    [
+     0.0,
+     1.48,
+     0.0
+    ]
+   ],
+   "fraccion_tonal": 0.69,
+   "notas_hz": [
+    340,
+    680
+   ],
+   "toques_largos": 1,
+   "fade_ms": 141,
+   "lufs_al_pico": -36.2,
+   "motivo": "muy débil para su pico (-36.2 LUFS con pico -14 dBFS)"
+  },
+  {
+   "toma": "tren_pitido_diesel_b_v02.mp3",
+   "pico_bruto": -1.8,
+   "fraccion_activa": 0.36,
+   "dur_recortada": 1.79,
+   "sucesos": [
+    [
+     0.1,
+     0.67,
+     0.0
+    ]
+   ],
+   "fraccion_tonal": 0.31,
+   "notas_hz": [
+    320,
+    540,
+    820
+   ],
+   "toques_largos": 0,
+   "fade_ms": 143,
+   "lufs_al_pico": -26.3,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  },
+  {
+   "toma": "tren_pitido_diesel_a_v03.mp3",
+   "pico_bruto": -12.1,
+   "fraccion_activa": 0.56,
+   "dur_recortada": 1.99,
+   "sucesos": [
+    [
+     0.18,
+     0.82,
+     0.0
+    ]
+   ],
+   "fraccion_tonal": 0.33,
+   "notas_hz": [
+    640,
+    960
+   ],
+   "toques_largos": 1,
+   "fade_ms": 159,
+   "lufs_al_pico": -26.2,
+   "motivo": "válida, sobrante (fuera de la ventana de las 5 más parejas)"
+  }
+ ],
+ "candidatas": {
+  "obra_pala": [
+   {
+    "toma": "obra_pala_a_v01.mp3",
+    "pico_bruto": -34.8,
+    "fraccion_activa": 0.93,
+    "dur_recortada": 1.13,
+    "sucesos": [
+     [
+      0.02,
+      1.09,
+      0.0
+     ]
+    ],
+    "fade_ms": 90
+   },
+   {
+    "toma": "obra_pala_a_v02.mp3",
+    "pico_bruto": -11.1,
+    "fraccion_activa": 0.14,
+    "dur_recortada": 1.2,
+    "sucesos": [
+     [
+      0.0,
+      0.76,
+      0.0
+     ]
+    ],
+    "fade_ms": 96
+   },
+   {
+    "toma": "obra_pala_a_v03.mp3",
+    "pico_bruto": -8.9,
+    "fraccion_activa": 0.12,
+    "dur_recortada": 1.2,
+    "sucesos": [
+     [
+      0.11,
+      0.25,
+      0.0
+     ]
+    ],
+    "fade_ms": 96
+   },
+   {
+    "toma": "obra_pala_a_v04.mp3",
+    "pico_bruto": -6.8,
+    "fraccion_activa": 0.15,
+    "dur_recortada": 1.16,
+    "sucesos": [
+     [
+      0.2,
+      0.37,
+      0.0
+     ]
+    ],
+    "fade_ms": 93
+   },
+   {
+    "toma": "obra_pala_b_v01.mp3",
+    "pico_bruto": -1.2,
+    "fraccion_activa": 0.12,
+    "dur_recortada": 1.2,
+    "sucesos": [
+     [
+      0.01,
+      0.14,
+      0.0
+     ]
+    ],
+    "fade_ms": 96
+   },
+   {
+    "toma": "obra_pala_b_v02.mp3",
+    "pico_bruto": -35.3,
+    "fraccion_activa": 1.0,
+    "dur_recortada": 1.2,
+    "sucesos": [
+     [
+      0.0,
+      1.16,
+      0.0
+     ]
+    ],
+    "fade_ms": 96
+   },
+   {
+    "toma": "obra_pala_b_v03.mp3",
+    "pico_bruto": -9.7,
+    "fraccion_activa": 0.34,
+    "dur_recortada": 1.2,
+    "sucesos": [
+     [
+      0.0,
+      0.05,
+      0.0
+     ],
+     [
+      0.43,
+      0.53,
+      -22.0
+     ],
+     [
+      1.05,
+      1.1,
+      -24.0
+     ]
+    ],
+    "fade_ms": 96
+   }
+  ],
+  "obra_saco": [
+   {
+    "toma": "obra_saco_a_v01.mp3",
+    "pico_bruto": -5.2,
+    "fraccion_activa": 0.24,
+    "dur_recortada": 0.71,
+    "sucesos": [
+     [
+      0.02,
+      0.21,
+      0.0
+     ]
+    ],
+    "fade_ms": 57
+   },
+   {
+    "toma": "obra_saco_a_v02.mp3",
+    "pico_bruto": -0.2,
+    "fraccion_activa": 0.24,
+    "dur_recortada": 0.86,
+    "sucesos": [
+     [
+      0.02,
+      0.17,
+      0.0
+     ]
+    ],
+    "fade_ms": 69
+   },
+   {
+    "toma": "obra_saco_a_v03.mp3",
+    "pico_bruto": -0.4,
+    "fraccion_activa": 0.22,
+    "dur_recortada": 0.62,
+    "sucesos": [
+     [
+      0.02,
+      0.16,
+      0.0
+     ]
+    ],
+    "fade_ms": 50
+   },
+   {
+    "toma": "obra_saco_a_v04.mp3",
+    "pico_bruto": -0.6,
+    "fraccion_activa": 0.2,
+    "dur_recortada": 0.85,
+    "sucesos": [
+     [
+      0.03,
+      0.21,
+      0.0
+     ]
+    ],
+    "fade_ms": 68
+   },
+   {
+    "toma": "obra_saco_b_v01.mp3",
+    "pico_bruto": -3.9,
+    "fraccion_activa": 0.27,
+    "dur_recortada": 1.0,
+    "sucesos": [
+     [
+      0.19,
+      0.33,
+      0.0
+     ]
+    ],
+    "fade_ms": 80
+   },
+   {
+    "toma": "obra_saco_b_v02.mp3",
+    "pico_bruto": -1.2,
+    "fraccion_activa": 0.17,
+    "dur_recortada": 1.0,
+    "sucesos": [
+     [
+      0.25,
+      0.39,
+      0.0
+     ]
+    ],
+    "fade_ms": 80
+   },
+   {
+    "toma": "obra_saco_b_v03.mp3",
+    "pico_bruto": -2.5,
+    "fraccion_activa": 0.21,
+    "dur_recortada": 1.0,
+    "sucesos": [
+     [
+      0.3,
+      0.47,
+      0.0
+     ]
+    ],
+    "fade_ms": 80
+   }
+  ],
+  "obra_malla": [
+   {
+    "toma": "obra_malla_a_v01.mp3",
+    "pico_bruto": -29.3,
+    "fraccion_activa": 0.81,
+    "dur_recortada": 2.07,
+    "sucesos": [
+     [
+      0.38,
+      1.94,
+      0.0
+     ]
+    ],
+    "fade_ms": 166
+   },
+   {
+    "toma": "obra_malla_a_v02.mp3",
+    "pico_bruto": -28.4,
+    "fraccion_activa": 0.81,
+    "dur_recortada": 2.01,
+    "sucesos": [
+     [
+      0.21,
+      1.81,
+      0.0
+     ]
+    ],
+    "fade_ms": 161
+   },
+   {
+    "toma": "obra_malla_a_v03.mp3",
+    "pico_bruto": -29.5,
+    "fraccion_activa": 0.76,
+    "dur_recortada": 1.78,
+    "sucesos": [
+     [
+      0.03,
+      1.55,
+      0.0
+     ]
+    ],
+    "fade_ms": 142
+   },
+   {
+    "toma": "obra_malla_a_v04.mp3",
+    "pico_bruto": -25.6,
+    "fraccion_activa": 0.92,
+    "dur_recortada": 2.13,
+    "sucesos": [
+     [
+      0.16,
+      2.0,
+      0.0
+     ]
+    ],
+    "fade_ms": 170
+   },
+   {
+    "toma": "obra_malla_b_v01.mp3",
+    "pico_bruto": -13.3,
+    "fraccion_activa": 0.68,
+    "dur_recortada": 2.06,
+    "sucesos": [
+     [
+      0.36,
+      1.61,
+      0.0
+     ]
+    ],
+    "fade_ms": 165
+   },
+   {
+    "toma": "obra_malla_b_v02.mp3",
+    "pico_bruto": -12.8,
+    "fraccion_activa": 0.63,
+    "dur_recortada": 2.09,
+    "sucesos": [
+     [
+      0.24,
+      1.43,
+      0.0
+     ]
+    ],
+    "fade_ms": 167
+   },
+   {
+    "toma": "obra_malla_b_v03.mp3",
+    "pico_bruto": -17.9,
+    "fraccion_activa": 0.85,
+    "dur_recortada": 2.18,
+    "sucesos": [
+     [
+      0.18,
+      1.67,
+      0.0
+     ]
+    ],
+    "fade_ms": 174
+   }
+  ],
+  "tren_pitido_electrico": [
+   {
+    "toma": "tren_pitido_electrico_a_v01.mp3",
+    "pico_bruto": -16.6,
+    "fraccion_activa": 0.75,
+    "dur_recortada": 1.76,
+    "sucesos": [
+     [
+      0.32,
+      1.07,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.31,
+    "notas_hz": [
+     660,
+     1300
+    ],
+    "toques_largos": 1,
+    "fade_ms": 141
+   },
+   {
+    "toma": "tren_pitido_electrico_a_v04.mp3",
+    "pico_bruto": -16.4,
+    "fraccion_activa": 0.53,
+    "dur_recortada": 1.76,
+    "sucesos": [
+     [
+      0.47,
+      1.19,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.31,
+    "notas_hz": [
+     340,
+     1320
+    ],
+    "toques_largos": 1,
+    "fade_ms": 141
+   },
+   {
+    "toma": "tren_pitido_electrico_b_v01.mp3",
+    "pico_bruto": -11.1,
+    "fraccion_activa": 0.87,
+    "dur_recortada": 1.76,
+    "sucesos": [
+     [
+      0.04,
+      1.26,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.46,
+    "notas_hz": [
+     650
+    ],
+    "toques_largos": 1,
+    "fade_ms": 141
+   },
+   {
+    "toma": "tren_pitido_electrico_b_v02.mp3",
+    "pico_bruto": -21.3,
+    "fraccion_activa": 0.91,
+    "dur_recortada": 1.76,
+    "sucesos": [
+     [
+      0.0,
+      1.48,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.69,
+    "notas_hz": [
+     340,
+     680
+    ],
+    "toques_largos": 1,
+    "fade_ms": 141
+   },
+   {
+    "toma": "tren_pitido_electrico_b_v03.mp3",
+    "pico_bruto": -17.1,
+    "fraccion_activa": 1.0,
+    "dur_recortada": 1.76,
+    "sucesos": [
+     [
+      0.0,
+      1.69,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.63,
+    "notas_hz": [
+     320,
+     340,
+     640
+    ],
+    "toques_largos": 1,
+    "fade_ms": 141
+   },
+   {
+    "toma": "tren_pitido_electrico_c_v01.mp3",
+    "pico_bruto": -13.7,
+    "fraccion_activa": 0.68,
+    "dur_recortada": 1.76,
+    "sucesos": [
+     [
+      0.23,
+      0.79,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.29,
+    "notas_hz": [
+     660
+    ],
+    "toques_largos": 0,
+    "fade_ms": 141
+   }
+  ],
+  "tren_pitido_diesel": [
+   {
+    "toma": "tren_pitido_diesel_a_v01.mp3",
+    "pico_bruto": -10.7,
+    "fraccion_activa": 0.53,
+    "dur_recortada": 2.0,
+    "sucesos": [
+     [
+      0.0,
+      0.74,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.33,
+    "notas_hz": [
+     960
+    ],
+    "toques_largos": 1,
+    "fade_ms": 160
+   },
+   {
+    "toma": "tren_pitido_diesel_a_v02.mp3",
+    "pico_bruto": -10.6,
+    "fraccion_activa": 0.68,
+    "dur_recortada": 2.0,
+    "sucesos": [
+     [
+      0.31,
+      1.46,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.56,
+    "notas_hz": [
+     960
+    ],
+    "toques_largos": 1,
+    "fade_ms": 160
+   },
+   {
+    "toma": "tren_pitido_diesel_a_v03.mp3",
+    "pico_bruto": -12.1,
+    "fraccion_activa": 0.56,
+    "dur_recortada": 1.99,
+    "sucesos": [
+     [
+      0.18,
+      0.82,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.33,
+    "notas_hz": [
+     640,
+     960
+    ],
+    "toques_largos": 1,
+    "fade_ms": 159
+   },
+   {
+    "toma": "tren_pitido_diesel_a_v04.mp3",
+    "pico_bruto": -11.0,
+    "fraccion_activa": 0.59,
+    "dur_recortada": 2.0,
+    "sucesos": [
+     [
+      0.0,
+      1.05,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.41,
+    "notas_hz": [
+     960
+    ],
+    "toques_largos": 1,
+    "fade_ms": 160
+   },
+   {
+    "toma": "tren_pitido_diesel_b_v01.mp3",
+    "pico_bruto": -1.2,
+    "fraccion_activa": 0.39,
+    "dur_recortada": 1.95,
+    "sucesos": [
+     [
+      0.0,
+      0.61,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.29,
+    "notas_hz": [
+     820
+    ],
+    "toques_largos": 1,
+    "fade_ms": 156
+   },
+   {
+    "toma": "tren_pitido_diesel_b_v02.mp3",
+    "pico_bruto": -1.8,
+    "fraccion_activa": 0.36,
+    "dur_recortada": 1.79,
+    "sucesos": [
+     [
+      0.1,
+      0.67,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.31,
+    "notas_hz": [
+     320,
+     540,
+     820
+    ],
+    "toques_largos": 0,
+    "fade_ms": 143
+   },
+   {
+    "toma": "tren_pitido_diesel_b_v03.mp3",
+    "pico_bruto": -1.1,
+    "fraccion_activa": 0.56,
+    "dur_recortada": 1.98,
+    "sucesos": [
+     [
+      0.0,
+      0.97,
+      0.0
+     ]
+    ],
+    "fraccion_tonal": 0.44,
+    "notas_hz": [
+     820,
+     960
+    ],
+    "toques_largos": 1,
+    "fade_ms": 158
+   }
+  ]
+ }
+}

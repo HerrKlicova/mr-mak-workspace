@@ -1,0 +1,152 @@
+[
+  {
+    "archivo": "sfx_tren_pitido_diesel_1.ogg",
+    "antes": {
+      "lufs": -27.7,
+      "pico": -14.2,
+      "tp": -13.9
+    },
+    "ganancia_db": 5.2,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -9.1,
+      "tp": -8.8
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_diesel_2.ogg",
+    "antes": {
+      "lufs": -27.8,
+      "pico": -14.1,
+      "tp": -14.0
+    },
+    "ganancia_db": 5.2,
+    "despues": {
+      "lufs": -22.6,
+      "pico": -8.9,
+      "tp": -8.9
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_diesel_3.ogg",
+    "antes": {
+      "lufs": -27.6,
+      "pico": -14.1,
+      "tp": -13.9
+    },
+    "ganancia_db": 5.1,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -9.1,
+      "tp": -8.9
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_diesel_4.ogg",
+    "antes": {
+      "lufs": -27.4,
+      "pico": -14.3,
+      "tp": -14.1
+    },
+    "ganancia_db": 4.9,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -8.9,
+      "tp": -8.8
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_diesel_5.ogg",
+    "antes": {
+      "lufs": -27.3,
+      "pico": -14.1,
+      "tp": -14.1
+    },
+    "ganancia_db": 4.9,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -9.1,
+      "tp": -9.0
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_electrico_1.ogg",
+    "antes": {
+      "lufs": -28.8,
+      "pico": -14.2,
+      "tp": -14.2
+    },
+    "ganancia_db": 6.4,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -7.5,
+      "tp": -7.5
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_electrico_2.ogg",
+    "antes": {
+      "lufs": -28.4,
+      "pico": -14.1,
+      "tp": -14.1
+    },
+    "ganancia_db": 5.9,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -8.2,
+      "tp": -8.2
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_electrico_3.ogg",
+    "antes": {
+      "lufs": -28.4,
+      "pico": -14.3,
+      "tp": -14.2
+    },
+    "ganancia_db": 5.9,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -8.2,
+      "tp": -8.2
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_electrico_4.ogg",
+    "antes": {
+      "lufs": -28.3,
+      "pico": -14.5,
+      "tp": -14.5
+    },
+    "ganancia_db": 5.8,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -8.8,
+      "tp": -8.8
+    },
+    "limitador": false
+  },
+  {
+    "archivo": "sfx_tren_pitido_electrico_5.ogg",
+    "antes": {
+      "lufs": -28.4,
+      "pico": -15.3,
+      "tp": -15.3
+    },
+    "ganancia_db": 5.9,
+    "despues": {
+      "lufs": -22.5,
+      "pico": -9.2,
+      "tp": -9.2
+    },
+    "limitador": false
+  }
+]
