@@ -63,9 +63,9 @@ Idea de Eugenio: como defender Sagunto parece difícil, se aprovecha para enseñ
 | 3.1 | «¡Están trepando el muro! Sagunto sola no aguantará. Nules, la estación de al lado, puede mandarte ayuda.» | La pila en el muro y el aviso | 4 s |
 | 3.1b | (Si salta por los 60 s, en lugar de la 3.1:) «La horda está en el muro. Sagunto sola no aguantará mucho. Nules, la estación de al lado, puede mandarte ayuda.» | La horda en el muro y el aviso | 4 s |
 | 3.2 | «Sal al mapa: aleja la cámara del todo o pulsa M. El combate sigue mientras estás fuera.» | Barra de atajos | Vista de mapa abierta |
-| 3.3 | «Haz clic en Nules. Castellón está infestada; de momento, ni te acerques.» | Los 3 nodos; anillo en Nules | Panel de Nules abierto |
-| 3.4 | «Nules tiene un tren en el andén y un pelotón de fusileros. Abre Preparar tren y sube el pelotón.» | La tarjeta del pelotón y el botón Preparar tren | Pelotón a bordo |
-| 3.5 | «Destino: Sagunto. Mira el ETA y envíalo.» | Nodo de Sagunto, el ETA y el botón Enviar | Tren en marcha |
+| 3.3 | «Doble clic en Nules para entrar. Castellón está cercada: de momento no puedes llegar.» (D-N186) | Los 3 nodos; anillo en Nules | Zona de Nules abierta |
+| 3.4 | «Nules tiene un tren en el andén y un pelotón de fusileros. Selecciona el tren con clic izquierdo y sube el pelotón.» | El tren y la tarjeta del pelotón | Pelotón a bordo |
+| 3.5 | «Con el tren seleccionado, sal al mapa con la rueda y haz clic derecho en Sagunto.» | Nodo de Sagunto (con imán) y el ETA junto al cursor | Tren en marcha |
 | 3.6 | «Vuelve a Sagunto y aguanta: doble clic en Sagunto o acerca la cámara. La ayuda llega en 0:xx.» | Nodo de Sagunto | Vuelta a la zona |
 | 3.7 | (Al llegar el tren:) «Sagunto está sitiada: el tren espera en la puerta este. Baja la tropa.» | El tren fuera del muro y el botón Descargar | Tropa en tierra (D-N152, D-N166) |
 | 3.8 | «Llévalos al flanco sur y limpia el muro desde ahí.» (revisado 08-11 24:58) | Punto del flanco sur en (100; 34), recorrido (192; 60) → (160; 40) → (100; 34) | Orden de mover o de atacar dada; acaba el tutorial |
@@ -74,6 +74,8 @@ Idea de Eugenio: como defender Sagunto parece difícil, se aprovecha para enseñ
 - Mientras el tren va de camino, en el mapa sale «Refuerzos de Nules · llegan en 0:xx». Al llegar, aviso en hueso: «Tren a las puertas de Sagunto».
 - Al acabar no hay tarjeta de fin. La noche sigue hasta acabar con la horda (D-N164).
 - **Después de la primera noche** sale un objetivo, sin tarjetas de tutorial: «Lleva el tren a Nules con munición». Es el viaje con carga de la D-N154, y enseña la carga y el apoyo terrestre (paso por paso: carga, unidades, vehículo en plataforma, destino y ETA).
+
+- *(09-11 22:35, D-N186)*: el 3.3, el 3.4 y el 3.5, y los pasos 1 a 3 del objetivo (4.1–4.3), pasan al gesto nuevo: se selecciona con clic izquierdo en la zona y el destino se da con clic derecho en el mapa. Si el tren no puede salir, el cursor dice por qué. Si subir la tropa se hace con otro gesto (por ejemplo, clic derecho del pelotón sobre el tren), Iker ajusta el verbo del 3.4 y del 4.2 sin cambiar el resto.
 
 ## Para cada uno
 - **Iker**: motor del tutorial, capítulos 0 y 3, y la tarjeta suelta del C90. Para el capítulo 3: el tren parado en Nules y el destacamento de refuerzo (1 pelotón de fusileros y 1 Lince), que solo existen con el tutorial activo; Preparar tren desde Nules; el viaje Nules–Sagunto con la regla de la D-N166; el aviso de radar de 6 h que abre el capítulo; el doble clic en Sagunto (D-N170), o al menos el clic; y el objetivo de después de la noche.
@@ -90,9 +92,9 @@ Sale al amanecer, después de la primera noche. **También sale si el tutorial s
 | # | Texto | Se cierra cuando |
 |---|---|---|
 | Título | «Lleva munición a Nules» | — |
-| 1 | «Carga munición en el tren de Sagunto: abre Preparar tren.» | Hay munición a bordo |
-| 2 | «Sube tropa o un vehículo en plataforma: protegerán la carga.» (Es opcional: se salta solo si el jugador envía el tren sin escolta.) | Escolta a bordo o tren enviado |
-| 3 | «Destino: Nules. Mira el ETA y envíalo.» | Tren en marcha |
+| 1 (4.1) | «En el andén de Sagunto, selecciona el tren con clic izquierdo y carga munición.» | Hay munición a bordo |
+| 2 (4.2) | «Sube un pelotón o un vehículo en plataforma: protegerán la carga.» (Opcional: se salta solo si el tren sale sin escolta.) | Escolta a bordo o tren en marcha |
+| 3 (4.3) | «Con el tren seleccionado, sal al mapa con la rueda y haz clic derecho en Nules.» | Tren en marcha |
 | 4 | «El tren va hacia Nules. Llega en {eta}.» | Tren en Nules |
 | 5 | «Tren en Nules. Descarga la munición.» | ≥ 20 u de munición en el almacén de Nules |
 | 5b | (Si Nules está sitiada:) «Nules está sitiada: la carga se queda a bordo hasta que se despeje.» | Asedio levantado (vuelve al 5) |
