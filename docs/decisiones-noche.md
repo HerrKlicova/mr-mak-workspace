@@ -2997,3 +2997,16 @@ Reserva de partida de Castellón: 0 u de munición (la dotación de unas 10 u va
 - Medido con 300: sin escolta se pierde el 87 % (174/200); con un pelotón de 8, el 0 %. Con 20 u la noche 2 da el 96 %; la escolta gasta 1–2 u.
 - **Se queda así, con 300 y en ese punto.** El 87 % pasa por poco del techo de 85 % que puse, pero ese techo era una cifra mía sin más base: el objetivo del día 2 ya pide mandar un pelotón, el jugador tiene el aviso EM-1 y puede reaccionar, y que ir sin escolta se pague es lo que queremos enseñar. Bajar a 250 o acercar el punto al muro solo sirve para entrar en la banda y le quita peligro.
 - Las cifras de 400 y 500 quedan descartadas.
+
+### Adenda escalera (Hugo, 9-nov 09:00): Sagunto difícil 6700
+Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 1276; O1 3350, O2 2010, O3 1340), igual que nacho/dificil-6700 (498cff86). noche_sagunto.json y balance_noche.csv regenerados. Si la ×20 con 6700 vuelve a dar ≥19/20, el siguiente peldaño es 6900 (tope).
+
+## 09-11 09:25 · Perder una estación no acaba la partida (Lucía; S2 de la qa50, para la I-Noche96)
+- Perder una noche en una estación **no es el fin de la partida** mientras quede otra estación propia. Esto vale para Nules en la noche 2 y para Sagunto en la noche 1.
+- Cartel: «{Estación} ha caído.» Segunda línea, solo con las propias que quedan: «{A} y {B} siguen en pie.» El color es 982420 (ataque).
+- Botones, por este orden:
+  1. **«Seguir»** (el predeterminado): vuelve al mapa. La estación pasa a perdida, con la horda encima, y su tropa y su carga se pierden.
+  2. **«Repetir la noche»**: carga el guardado automático del atardecer. Si la build no guarda al atardecer, este botón no sale (SIN VERIFICAR si hoy existe ese guardado).
+  3. **«Menú principal»**.
+- «Volver a empezar» solo sale cuando ya **no queda ninguna estación propia** (fin de la partida). Castellón está cercada pero cuenta como propia (D-N184).
+- Recuperar una estación perdida queda para después del MVP, como romper el cerco de Castellón.
