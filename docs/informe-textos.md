@@ -66,3 +66,7 @@ Si hay asedio anunciado, manda sobre lo anterior: «Asedio sobre {estación} a l
 ## Añadido 09-11 00:12 · CO-0 (presentación de la Colmena)
 - CO-0, una sola vez por partida, la primera vez que se abre el mapa de la red después del tutorial, con estado Dispersa: «La Colmena está dispersa. Si creces despacio, no se fija en ti.»
 - No sale al cargar una partida guardada ni si el estado ya no es Dispersa (en ese caso manda el CO que toque). Sin sonido propio: usa el de Dispersa.
+
+## Añadido 09-11 00:18 · Memoria de tráfico sin número de tren ni días
+- Mientras la red no dé el número de tren ni los días seguidos: «{tramo}: el tren pasa siempre hacia las {hora}. Lo ha aprendido.» Cuando los dé, se vuelve a la plantilla completa.
+- Los textos CO que mandan son los de este documento (CO-0 a CO-4 y el ámbar de la señal 6). La lógica de cuándo sale cada uno es de Nacho; las palabras, de Diseño.

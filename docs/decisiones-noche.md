@@ -2710,3 +2710,12 @@ Nacho midió el apartado de Nules (normal 2400, 500 semillas): f = 57 % y no 25 
 - La pila va instanciada (GPU instancing o mallas combinadas por tramo; lo decide Marcos con Bruno), porque el riesgo está en las llamadas de dibujo y no en los triángulos.
 - La SM_PuertaVehiculos antigua, la de Castellón, pasa a llamarse SM_PuertaVehiculos_Castellon para que no se confunda con la nueva. Castellón no está en el MVP.
 - Presupuesto de triángulos por pantalla: no lo pongo a ojo. Se fija cuando Sara mida los fps en el PC de Eugenio con el peor caso (Sagunto con asedio y la pila a la altura 4 en todo el perímetro, unos 161.000 triángulos en LOD1).
+
+## 09-11 00:16 · Sonido de la Colmena y del informe (Nuria, https://claude.ai/artifact/FAL2znujxxoMPTnuXHhpRq)
+- Una sola variante fija por aviso, no al azar: el jugador tiene que aprender a reconocer cada sonido como una señal.
+- Las elegí por las medidas de la página, porque no puedo escucharlas, y prefiero el pico más bajo para que el tono sea sobrio. Al acecho: la 1. Enjambre: la 2 (1,50 s; la 1 se descarta por corta). Vuelta a Al acecho: la 1. Dispersa: la 2, que sirve también para el CO-0. Para la señal 6 y para abrir el informe elige Nuria. Nuria puede cambiar cualquiera de oído si suena peor de lo que dicen los números.
+- Mezcla aceptada: Enjambre 3,3 dB por debajo de la alarma; Al acecho −26, la vuelta −28 y Dispersa −30; la señal 6 −32 y el informe −30. Coste: 1.375 créditos.
+
+## 09-11 00:18 · Informe: textos CO y memoria de tráfico (Lucía)
+- En textos_informe.csv mandan los textos CO de docs/informe-textos.md (CO-0 a CO-4). Nacho decide cuándo salen y Diseño, qué dicen.
+- La línea de tráfico, mientras la red no dé el número de tren ni los días: «Sagunto–Nules: el tren pasa siempre hacia las 08:00. Lo ha aprendido.»
