@@ -2842,3 +2842,14 @@ Con el HESCO del oeste (132,24 u), Nacho mide: 2200 gana el 97,2 % (la normal se
 ## 09-11 02:01 · Zombi contra la sombra del tren: confirmado (Sara, Noche80), así que se aclara la sombra
 - Los zombis están en L* 0–2 y la sombra en el balasto en L* 3,4, un ΔL* de 2 a 3. Bruno aclara la sombra que el tren proyecta en el balasto hasta L* ≥ 10 en pantalla. Condición: tiene que seguir más oscura que el balasto iluminado, para que se lea como sombra. La horda sigue negra.
 - La carga b4a080 queda pendiente de una captura igual a la de la Noche78 (misma hora y encuadre), para saber si el material ha entrado.
+
+### Adenda reparto de granadas (Hugo, 9-nov 02:05): Sagunto difícil 6470
+Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sagunto difícil pasa de 5700 a 6470 (palanca 1086 → 1232) para seguir en el 65 %; fácil 4480 y normal 5250 no cambian. noche_sagunto.json y balance_noche.csv regenerados. **Ojo: 6470 solo vale si la build lleva el reparto** (UnitsWorld.GrenadeDeconflict); sin él, 6470 está muy por encima del precipicio (sin reparto, 5700 ya daba 78,5 %). Abatidos por u en Sagunto: 407 normal y 428 difícil, así que el H0 de la Colmena (z_por_u 400) no cambia. Munición mínima del Informe en Sagunto con eficacia 400: normal 16 u (igual) y difícil 19 u (antes 17).
+
+## 09-11 02:02 · Sombra de la luna aclarada en global (Bruno, claude/sombra-tren 58c16dd; aprobado por Lucía)
+- Global, no solo para el tren: un zombi a la sombra del muro o de una casa tiene el mismo problema, y así no se toca el shader del balasto.
+- Valor: el más oscuro de 0,55, 0,65 y 0,75 que deje la sombra en L* ≥ 10 en pantalla. La noche no debe perder su peso: entre dos valores que cumplan, gana el más oscuro. Sara lo mide con las capturas y repasa los pares de noche que dependen de la sombra (la horda contra el suelo, la carga y las fachadas).
+
+## 09-11 02:05 · S3, regresión del lateral del tren: causa encontrada (Bruno)
+- La reexportación del R2 en e0c2602 salió de una versión anterior: el lateral volvió a 50541c y 40 vértices pasaron a 442c0c. Teo vuelve a exportar la R2 (LOD0 y LOD1) desde d06af89 con la carga en b4a080 e Iker la mete.
+- Regla nueva para las entregas de modelos: el LEEME lleva la tabla de colores por pieza leída de los UV y comparada con la entrega anterior.
