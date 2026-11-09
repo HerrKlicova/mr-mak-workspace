@@ -1,0 +1,233 @@
+{
+  "version": "v1.2",
+  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»",
+  "fuente": "decisiones-noche.md 09-11 07:40 (reglas de Lucía) y D-N183 (Castellón propia); planos de docs/niveles/*-nivel.md y recintos de Teo (mr-mak a75067c Nules; sagunto-recinto)",
+  "convenciones": {
+    "pelotones": "Como Plantel.Puesto: x_mm e y_mm son X (este) y Z (norte) de la zona en mm; rumbo_bam16 con 0 = +X (este), 16384 = norte, 32768 = oeste y 49152 = sur (IMath); formacion es el enum Formation (Linea, Columna, Cuna, Circulo, Bloque); tipo es la cadena de Plantel.Tipo. cota_m es la altura del suelo bajo el pelotón (andén o banqueta), solo para la vista.",
+    "vehiculos": "Como Plantel.Coche: x_m y z_m en metros; yaw_grados de Unity con 0 = +Z (norte), 90 = este, 180 = sur y 270 = oeste (el mismo que ya usa Sagunto: Yaw 180 en Z 53).",
+    "nh90": "Posado en su claro, en metros, con yaw de Unity."
+  },
+  "estaciones": {
+    "Sagunto": {
+      "pelotones": [
+        {
+          "tipo": "fusileros",
+          "x_mm": 71500,
+          "y_mm": 58000,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.4,
+          "puesto": "banqueta oeste, al sur de la puerta de vía (nido sur en Z 57,5)"
+        },
+        {
+          "tipo": "ametralladores",
+          "x_mm": 71500,
+          "y_mm": 71000,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.4,
+          "puesto": "banqueta oeste, al norte de la puerta de vía (nido norte en Z 71,5)"
+        },
+        {
+          "tipo": "tiradores",
+          "x_mm": 84500,
+          "y_mm": 74300,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 4.75,
+          "puesto": "azotea del ala oeste del edificio de viajeros, borde oeste, como el caso A medido (sagunto-nivel.md §10.15); Lucía, 07:41"
+        },
+        {
+          "tipo": "zapadores",
+          "x_mm": 71500,
+          "y_mm": 50000,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.4,
+          "puesto": "ala sur: módulo de banqueta Z 45–55 (repara el muro donde está)"
+        },
+        {
+          "tipo": "granaderos",
+          "x_mm": 99000,
+          "y_mm": 69000,
+          "rumbo_bam16": 32768,
+          "formacion": "Cuna",
+          "cota_m": 0.0,
+          "puesto": "reserva en el andén, delante del edificio de viajeros (fachada en Z 71,8), a 27 m del muro: los lanzagranadas no quedan por debajo de su distancia mínima"
+        }
+      ],
+      "vehiculos": [
+        {
+          "tipo": "dragon",
+          "x_m": 99.0,
+          "z_m": 51.0,
+          "yaw_grados": 180,
+          "puesto": "dentro de la puerta sur (acceso_sur, X 95–103), centrado, mirando a la puerta"
+        },
+        {
+          "tipo": "vamtac",
+          "x_m": 91.5,
+          "z_m": 51.0,
+          "yaw_grados": 180,
+          "puesto": "a la izquierda del Dragón, mirando a la puerta"
+        },
+        {
+          "tipo": "vamtac",
+          "x_m": 106.5,
+          "z_m": 51.0,
+          "yaw_grados": 180,
+          "puesto": "a la derecha del Dragón, mirando a la puerta"
+        }
+      ],
+      "nota": "Banqueta X 70,5–72,5 (centro X 71,5), con los módulos y nidos de sagunto-nivel.md §10.14. Las celdas de remate de la puerta sur (Z 44,5–45,6) quedan fuera de los vehículos. Los tiradores arrancan en la azotea del ala oeste, como el caso A medido (Lucía, 07:41); el módulo de banqueta Z 74–84 queda libre."
+    },
+    "Nules": {
+      "terreno": "Sagunto (opción A, decisiones-noche.md 09-11 09:40): mismo Level, recinto, banqueta y azotea que Sagunto",
+      "pelotones": [
+        {
+          "tipo": "fusileros",
+          "x_mm": 71500,
+          "y_mm": 58500,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.4,
+          "puesto": "banqueta oeste, al sur de la puerta de vía (módulo Z 59,25–61,75 y nido sur): es la mitad de la puerta donde está la pila (Z 55–74)"
+        },
+        {
+          "tipo": "ametralladores",
+          "x_mm": 84500,
+          "y_mm": 76300,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 4.75,
+          "puesto": "junto al edificio de viajeros, como en Nules: en la azotea del ala oeste (X 83–92), en el borde oeste, al norte de la puerta, cruzando el fuego con los fusileros del sur. En el suelo no verían nada por encima del HESCO de 2,1 m (D-N174)"
+        }
+      ],
+      "tutorial_extra": [
+        {
+          "tipo": "fusileros",
+          "x_mm": 71500,
+          "y_mm": 72000,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.4,
+          "puesto": "solo con el tutorial (Plantel.De(\"Nules\", true)): banqueta al norte de la puerta, con el nido norte"
+        }
+      ],
+      "vehiculos": [],
+      "nota": "Para que no salga la formación de Sagunto: solo dos pelotones, sin alas, sin reserva y sin vehículos, y los ametralladores arriba, en la azotea (en Sagunto son los tiradores). Los fusileros coinciden con el puesto de los fusileros de Sagunto porque, con dos pelotones, la puerta de vía es lo único que hay que cubrir. SIN VERIFICAR: dónde arrancaban los dos pelotones en la medida de Nacho (2200, 96 %); el bot los mueve igual, pero se lo pregunto."
+    },
+    "Castellón": {
+      "pelotones": [
+        {
+          "tipo": "fusileros",
+          "x_mm": 72500,
+          "y_mm": 60000,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.0,
+          "puesto": "borde oeste de la losa, encima de la boca (X 70), mirando a la trinchera y a las puertas de vía de X 64 (cota −8): entrada Ca desde Nules"
+        },
+        {
+          "tipo": "ametralladores",
+          "x_mm": 72500,
+          "y_mm": 69000,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.0,
+          "puesto": "igual, en la mitad norte de la boca"
+        },
+        {
+          "tipo": "fusileros",
+          "x_mm": 114500,
+          "y_mm": 81000,
+          "rumbo_bam16": 32768,
+          "formacion": "Cuna",
+          "cota_m": 0.0,
+          "puesto": "reserva junto al vestíbulo (X 118–142, Z 74–88), por su lado oeste"
+        }
+      ],
+      "vehiculos": [
+        {
+          "tipo": "vamtac",
+          "x_m": 70.0,
+          "z_m": 29.0,
+          "yaw_grados": 270,
+          "puesto": "dentro de la puerta de vehículos (64; 29), en el camino interior, mirando a la puerta"
+        }
+      ],
+      "nota": "Castellón no tiene banqueta en mis planos: hago de banqueta el borde de la losa (cota 0) que hay sobre la boca oeste, desde donde se ve la trinchera abierta (X 0–70). Lleva 2 pelotones de fusileros y 1 de ametralladores, la misma mezcla que Nules (Lucía, 07:41); los ametralladores van en la mitad norte de la boca."
+    },
+    "Bétera": {
+      "nh90": [
+        {
+          "x_m": 128.0,
+          "z_m": 104.0,
+          "yaw_grados": 0,
+          "puesto": "P1, losa de 30 m (helipuerto v4), con el rearme al este"
+        },
+        {
+          "x_m": 31.0,
+          "z_m": 104.0,
+          "yaw_grados": 0,
+          "puesto": "P2, 25 × 25 m, con el FARP al este"
+        }
+      ],
+      "pelotones": [
+        {
+          "tipo": "fusileros",
+          "x_mm": 120000,
+          "y_mm": 84000,
+          "rumbo_bam16": 16384,
+          "formacion": "Cuna",
+          "cota_m": 0.0,
+          "puesto": "embarque del NH90 de P1: al sur de la losa (balizas en Z 88), lejos del rearme"
+        },
+        {
+          "tipo": "fusileros",
+          "x_mm": 31000,
+          "y_mm": 85000,
+          "rumbo_bam16": 16384,
+          "formacion": "Cuna",
+          "cota_m": 0.0,
+          "puesto": "embarque del NH90 de P2: al sur del claro (balizas en Z 90,5), lejos del FARP"
+        },
+        {
+          "tipo": "fusileros",
+          "x_mm": 36000,
+          "y_mm": 20000,
+          "rumbo_bam16": 49152,
+          "formacion": "Linea",
+          "cota_m": 0.0,
+          "puesto": "guarnición en el vial X 36, al sur de la plataforma, mirando a la puerta suroeste del reducto (36; −36), por donde entra Ba"
+        }
+      ],
+      "vehiculos": [],
+      "nota": "Encuadre MVP X 0–256, Z −4 a 124. La puerta de la valla que pide Lucía cae fuera del encuadre: la suroeste del reducto (36; −36) y la del cuartel (36; −44) están en el faldón. Por eso pongo la guarnición dentro, sobre el mismo vial."
+    },
+    "Nules_B_terreno_propio": {
+      "pelotones": [
+        {
+          "tipo": "fusileros",
+          "x_mm": 87000,
+          "y_mm": 56200,
+          "rumbo_bam16": 32768,
+          "formacion": "Linea",
+          "cota_m": 0.68,
+          "puesto": "tramo de HESCO del muro oeste sobre el andén 2 (Z 52,4–59,9), entre la puerta del apartado (Z 46,5–51,5) y la doble (Z 60,8–68,2): cubre las dos"
+        },
+        {
+          "tipo": "ametralladores",
+          "x_mm": 115000,
+          "y_mm": 81000,
+          "rumbo_bam16": 49152,
+          "formacion": "Linea",
+          "cota_m": 0.0,
+          "puesto": "junto al edificio de viajeros, bajo la marquesina adosada, mirando al sur: el apartado (Z 49) queda a 32 m por encima de las vías"
+        }
+      ],
+      "vehiculos": [],
+      "nota": "OPCIÓN B (después de la partida de 30 minutos): Nules con su Level y el recinto de Teo a75067c. Recinto de Teo a75067c (nules-nivel.md §14). Un pelotón no se puede partir: los fusileros van en el cruce de andén que hay entre las dos puertas oeste. El pelotón del capítulo 3 del tutorial no entra aquí; lo sigue poniendo el tutorial."
+    }
+  }
+}
