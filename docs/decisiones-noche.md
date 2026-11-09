@@ -3021,3 +3021,9 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - Es lo único de pulido visual que entra antes de la partida de 30 minutos, porque ya está en la build.
 - Tutorial 3.7: decía «el tren espera en la puerta este». Corregido a «fuera de la puerta oeste», como en el plan.
 - 09:28 · **Corrección (me equivoqué):** mi estimación de K 1,2–2,1 se basaba en un suelo de 20,5 con K=0 que no sale de la build. Lo medido por Bruno en la build, con la captura de 110 s: K=0 da sombra 7,2 y suelo 25,1; K=1,5 da 9,1 y 31,5. Con 1,5 el suelo ya se pasa, así que **ningún K cumple las dos cosas y se aplica el punto 3**. Apruebo lo que ha subido Bruno en df000dcd: **-ambientesuelo 0,5** y un ambiente propio para el balasto, **-ambientebalasto 1,5** (que ya no se multiplica por su _BaseColor). Ninguno de los dos está medido todavía. Queda anulado el K=2,0 por defecto. Sara mide con -ambientebalasto en 1, 1,5 y 2,5 y repite la captura de 30 s.
+
+## 09-11 09:40 · Nules se juega sobre el terreno de Sagunto en la partida de 30 minutos (Lucía; S2 «-zona Nules carga Sagunto», opción A de Marcos)
+- La simulación de la zona de Nules usa el Level de Sagunto: recinto, vía, edificio, colisiones y entradas O1–O4. Solo cambian los parámetros de la noche. Por eso las cifras de Nules (horda de 2200, 96 % de victorias con 20 u y la emboscada en X 20–84 m) **están medidas sobre ese terreno** y siguen valiendo con la A.
+- **A para hoy**: se quita lo que delata a Sagunto. El cartel de la fachada pasa a «NULES» y no salen ni el campanario ni el pueblo de Sagunto. Menos de 1 hora (Marcos).
+- **B después de la partida de 30 minutos**: un Nules de verdad, con su Level, estacion_nules.json y el recinto de Teo. Habrá que volver a calibrar la horda y la emboscada (Hugo y Nacho).
+- A Eugenio se le dirá que Nules usa provisionalmente el terreno de Sagunto, para que no lo encuentre él como si fuera un fallo.
