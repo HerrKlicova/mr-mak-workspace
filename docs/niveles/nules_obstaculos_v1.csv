@@ -1,0 +1,34 @@
+id;tipo;forma;x0_mm;z0_mm;x1_mm;z1_mm;medio_grosor_mm;altura_mm;tapa_vision;tapa_paso;fuente;nota
+muro_sur_sacos;muro_sacos;seg;85000;40000;173000;40000;500;1200;si;si;Teo a75067c (nules-nivel.md §14);sacos
+muro_sur_hesco_o;muro_hesco;seg;173000;40000;177220;40000;500;2100;si;si;Teo a75067c (nules-nivel.md §14);HESCO
+muro_sur_hesco_e;muro_hesco;seg;185220;40000;188000;40000;500;2100;si;si;Teo a75067c (nules-nivel.md §14);HESCO
+muro_este_0;muro_hesco;seg;188000;40000;188000;60800;500;2100;si;si;Teo a75067c (nules-nivel.md §14);HESCO
+muro_este_1;muro_hesco;seg;188000;68200;188000;96000;500;2100;si;si;Teo a75067c (nules-nivel.md §14);HESCO
+muro_norte_hesco;muro_hesco;seg;173000;96000;188000;96000;500;2100;si;si;Teo a75067c (nules-nivel.md §14);HESCO
+muro_norte_sacos_e;muro_sacos;seg;125500;96000;173000;96000;500;1200;si;si;Teo a75067c (nules-nivel.md §14);sacos
+muro_norte_sacos_o;muro_sacos;seg;85000;96000;104500;96000;500;1200;si;si;Teo a75067c (nules-nivel.md §14);sacos
+muro_oeste_sacos_s;muro_sacos;seg;85000;40000;85000;46500;500;1200;si;si;Teo a75067c (nules-nivel.md §14);sacos
+muro_oeste_hesco_s;muro_hesco;seg;85000;51500;85000;60800;500;2100;si;si;Teo a75067c (nules-nivel.md §14);HESCO
+muro_oeste_hesco_n;muro_hesco;seg;85000;68200;85000;80210;500;2100;si;si;Teo a75067c (nules-nivel.md §14);HESCO
+muro_oeste_sacos_n;muro_sacos;seg;85000;80210;85000;96000;500;1200;si;si;Teo a75067c (nules-nivel.md §14);sacos
+puerta_oeste_doble;puerta;seg;85000;60800;85000;68200;250;2500;si;si;nules-nivel.md §3 (recinto v0.2);"cerrada; abierta no tapa (altura de la puerta SIN VERIFICAR)"
+puerta_oeste_apartado;puerta;seg;85000;46500;85000;51500;250;2500;si;si;nules-nivel.md §3 (recinto v0.2);"cerrada; abierta no tapa (altura de la puerta SIN VERIFICAR)"
+puerta_este_doble;puerta;seg;188000;60800;188000;68200;250;2500;si;si;nules-nivel.md §3 (recinto v0.2);"cerrada; abierta no tapa (altura de la puerta SIN VERIFICAR)"
+puerta_vehiculos;puerta;seg;177220;40000;185220;40000;250;2500;si;si;nules-nivel.md §3 (recinto v0.2);"cerrada; abierta no tapa (altura de la puerta SIN VERIFICAR)"
+edificio_viajeros;edificio;caja;104500;96000;125500;113000;0;9000;si;si;nules-nivel.md §2;"2 plantas; altura de 9 m SIN VERIFICAR"
+muelle_carga;relieve;caja;90000;41500;170000;47300;0;1200;no;si;nules-nivel.md §2;1,2 m: se sube por la rampa (X 170–182)
+nave_oeste;edificio;caja;4000;2000;64000;29000;0;8000;si;si;nules-nivel.md §2;altura de 8 m SIN VERIFICAR
+almacen_citricola;edificio;caja;74000;2000;164000;29000;0;8000;si;si;nules-nivel.md §2;altura de 8 m SIN VERIFICAR
+nave_este;edificio;caja;191500;2000;252100;29000;0;8000;si;si;nules-nivel.md §2;altura de 8 m SIN VERIFICAR
+nules_parada_30;mueble;caja;27900;92000;32100;93600;0;500;no;si;mobiliario urbano de Teo (mr-mak 71cb05b);"solo el banco y los postes; obstáculo bajo"
+nules_parada_215;mueble;caja;212900;92000;217100;93600;0;500;no;si;mobiliario urbano de Teo (mr-mak 71cb05b);"solo el banco y los postes; obstáculo bajo"
+nules_parada_215_anuncio;mueble;seg;212900;93600;212900;92000;50;2600;si;si;mobiliario urbano de Teo (mr-mak 71cb05b);panel del anuncio (lado +X local)
+nules_quiosco_76;mueble;caja;74800;98300;77200;100700;0;2600;si;si;mobiliario urbano de Teo (mr-mak 71cb05b);sólido
+nules_quiosco_200;mueble;caja;198800;93800;201200;96200;0;2600;si;si;mobiliario urbano de Teo (mr-mak 71cb05b);sólido
+huerto_tapia_este;tapia;seg;252000;41000;252000;51000;200;2200;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);"Roto: hueco SIN VERIFICAR en el modelo; se trata entera hasta que Teo dé el hueco"
+huerto_tapia_227;tapia;seg;222000;40500;232000;40500;200;2200;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);
+huerto_tapia_237_o;tapia;seg;232000;40500;235800;40500;200;2200;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);portón de 2,4 m en X 235,8–238,2
+huerto_tapia_237_e;tapia;seg;238200;40500;242000;40500;200;2200;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);
+huerto_tapia_247;tapia;seg;242000;40500;252000;40500;200;2200;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);
+casa_labor;casa;caja;200000;43000;210000;51000;0;9400;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);el porche y el emparrado no chocan
+manzana_norte;casa;caja;126000;111000;210000;121000;0;7000;si;si;nules-nivel.md §15;hilera seguida de 14 casas del kit del pueblo, fachada al sur

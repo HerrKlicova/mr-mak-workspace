@@ -1,0 +1,25 @@
+id;tipo;forma;x0_mm;z0_mm;x1_mm;z1_mm;medio_grosor_mm;altura_mm;tapa_vision;tapa_paso;fuente;nota
+hangar_h1;edificio;caja;58000;27050;122000;52950;0;12200;si;si;betera_instancias_v1.csv;el FBX mide 64 x 25,9 m (el plano decía 40 x 25)
+hangar_h2;edificio;caja;128000;27050;192000;52950;0;12200;si;si;betera_instancias_v1.csv;el FBX mide 64 x 25,9 m
+torre_control;edificio;caja;221050;1050;226950;6950;0;15000;si;si;betera_instancias_v1.csv;
+torreta_no;edificio;caja;1680;118700;6320;123300;0;6700;si;si;betera_instancias_v1.csv;torreta de vigía, 6,7 m
+torreta_ne;edificio;caja;249680;118700;254320;123300;0;6700;si;si;betera_instancias_v1.csv;torreta de vigía, 6,7 m
+caseta_1;mueble;caja;123400;26950;126600;33050;0;2700;si;si;betera-nivel.md §11;"movida de (116; 30), que caía dentro del hangar H1"
+caseta_2;mueble;caja;194950;28400;201050;31600;0;2700;si;si;betera-nivel.md §11;"movida de (186; 30), que caía dentro del hangar H2"
+cisterna_farp;mueble;caja;47300;101050;58700;106950;0;1400;no;si;betera-nivel.md §10.1;1,4 m: no tapa la vista
+carrete_farp;mueble;caja;45480;98120;47520;99880;0;1400;no;si;betera-nivel.md §10.1;
+camion_rearme;vehiculo;caja;150775;96000;153225;104000;0;3300;si;si;betera-nivel.md §9;camión cisterna, yaw 180
+remolque_rearme;vehiculo;caja;150850;104700;153150;108300;0;1450;no;si;betera-nivel.md §9;
+vallas_0;mueble;caja;15800;120830;26200;121170;0;1100;no;si;betera_instancias_v1.csv;vallas de obra, 1,1 m
+vallas_1;mueble;caja;35800;120830;46200;121170;0;1100;no;si;betera_instancias_v1.csv;vallas de obra, 1,1 m
+vallas_2;mueble;caja;112800;120830;123200;121170;0;1100;no;si;betera_instancias_v1.csv;vallas de obra, 1,1 m
+vallas_3;mueble;caja;132800;120830;143200;121170;0;1100;no;si;betera_instancias_v1.csv;vallas de obra, 1,1 m
+vallas_4;mueble;caja;210800;120830;221200;121170;0;1100;no;si;betera_instancias_v1.csv;vallas de obra, 1,1 m
+vallas_5;mueble;caja;230800;120830;241200;121170;0;1100;no;si;betera_instancias_v1.csv;vallas de obra, 1,1 m
+reducto_norte_0;muro_hesco;seg;0;124000;27000;124000;500;2100;si;si;betera_instancias_v1.csv;"HESCO; sigue fuera del encuadre"
+reducto_norte_1;muro_hesco;seg;35000;124000;124000;124000;500;2100;si;si;betera_instancias_v1.csv;"HESCO; sigue fuera del encuadre"
+reducto_norte_2;muro_hesco;seg;132000;124000;222000;124000;500;2100;si;si;betera_instancias_v1.csv;"HESCO; sigue fuera del encuadre"
+reducto_norte_3;muro_hesco;seg;230000;124000;256000;124000;500;2100;si;si;betera_instancias_v1.csv;"HESCO; sigue fuera del encuadre"
+puerta_norte_31;puerta;seg;27000;124000;35000;124000;500;2100;si;si;betera_instancias_v1.csv;puerta de vehículos (D-N111), cerrada de noche
+puerta_norte_128;puerta;seg;124000;124000;132000;124000;500;2100;si;si;betera_instancias_v1.csv;puerta de vehículos (D-N111), cerrada de noche
+puerta_norte_226;puerta;seg;222000;124000;230000;124000;500;2100;si;si;betera_instancias_v1.csv;puerta de vehículos (D-N111), cerrada de noche

@@ -582,7 +582,14 @@ La pila (X 54–68) queda a entre 15 y 29 m del borde del ala, dentro del alcanc
 
 **El ala este no sirve hacia el oeste**: el cuerpo central de 10 m le tapa todo lo que hay al oeste. Solo ve el norte y el este (el muro norte está 3,7 m por detrás). La dejo como posición de reserva y para cubrir la puerta este, no como frente oeste.
 
-**Pelotones**: los 2 pelotones de tiradores empiezan en el **ala oeste**, en el borde oeste y con yaw 270: **(84,5; 4,75; 74,3)** y **(84,5; 4,75; 78,3)**, es decir, (84500; 74300) y (84500; 78300) mm sobre la cota 4750. El ala tiene 9 × 9 m (81 m²) y 9 m de borde oeste: caben los 2, pero apretados. **Nacho, que mida dos casos**: los 2 pelotones en el ala oeste, y 1 en el ala oeste más 1 en el ala este.
+**Pelotones**: los 2 pelotones de tiradores empiezan en el **ala oeste**, en el borde oeste y con yaw 270: **(84,5; 4,75; 74,3)** y **(84,5; 4,75; 78,3)**, es decir, (84500; 74300) y (84500; 78300) mm sobre la cota 4750. El ala tiene 9 × 9 m (81 m²) y 9 m de borde oeste: caben los 2, pero apretados. **Nacho, que mida dos casos**: los 2 pelotones en el ala oeste, y 1 en el ala oeste más 1 en el ala este. **Medido (Nacho, 500 semillas, sin aire, D-N175; Lucía, 20:12 y 21:00)**:
+
+| Caso | Fácil 4480 | Normal 5250 | Normal 5520 | Difícil 5700 |
+|---|---|---|---|---|
+| **A: solo el ala oeste** | 100 % | **99,8 %** | 94,8 % | 79,0 % |
+| B: ala oeste y ala este | 100 % | 99,6 % | 97,0 % | 83,8 % |
+
+**El MVP se queda con el caso A** (Lucía): los 2 pelotones en el ala oeste. Las hordas siguen en 4480, 5250 y 5700, y el plan B de Hugo no hace falta. El ala este queda para después del MVP. La azotea real vuelve al paquete de Marcos con el edificio nuevo de Teo (e7bc5d5).
 
 **Acceso**: por dentro, desde la primera planta del cuerpo central, con una puerta o ventanal a cada ala (Paula: ESTIMACIÓN, no hay foto; en la ortofoto no se ve escalera exterior). **Sin pieza nueva** (Lucía) y sin escalera exterior; en la simulación solo cuenta el tiempo de subida. **Nacho (18:31), SUPUESTO: 25 s por pelotón para subir, y otros 25 para bajar; mientras sube no dispara.**
 
@@ -597,5 +604,158 @@ La pila (X 54–68) queda a entre 15 y 29 m del borde del ala, dentro del alcanc
 
 Superficie de 19 × 8,8 m con pretil de sacos de 1,2 m (11,2 u, muro de partida a 131,2 u). Zona ciega de 2,7 m con la boca a 12,6 m y el muro a 26 m. Escalera exterior en el testero este (X 115,5–117,5, Z 76–82, centro (116,5; 0; 79), yaw 180). Esquinas del pretil: NE (115; 83,3) yaw 0, SE (115; 75,5) yaw 90, SO (97; 75,5) yaw 180, NO (97; 83,3) yaw 270. Tramos de 5,1 m en X 103,45 y 108,55 sobre Z 83,8 (yaw 0) y Z 75 (yaw 180). Hueco en Z 78,2–79,4. Pelotones en (98500; 77400) y (98500; 81400) mm a la cota 11 000, yaw 270.
 </details>
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.16 Huerta noreste con el kit de Teo (Álvaro (3), 8-nov, ~19:00; Lucía, 18:52)
+El kit de huerta de Teo (mr-mak `nules/huerta`) va aquí y no en Nules. Condiciones de Lucía: fuera del claro S2 y de su aproximación, y a más de 30 m de cualquier muro. Se cumplen todas, comprobadas con un script:
+- El punto más cercano queda a **35 m del muro**, en la esquina NE del fuerte (156; 85).
+- **S2** (X 202,5–227,5, Z 84,5–109,5) queda libre con 5 m de margen.
+- Su **aproximación** la fijo **por el este**, en la franja Z 84,5–109,5 hasta el Palancia, y queda libre.
+- No toca el bloque de pisos.
+
+Archivos:
+- **`sagunto_huerta_instancias_v1.csv`**: 20 filas, con el formato de las listas de Nules y Bétera.
+- **`sagunto_huerta_obstaculos_v1.csv`**: 12 filas. Va **aparte** para no cambiarle a Nacho la entrada de la medida de la azotea; se junta con `sagunto_obstaculos_v1.csv` cuando acabe. Está tan lejos del frente oeste que no cambia la línea de visión medida.
+
+| Pieza | Posición (x; z) | Yaw | Nota |
+|---|---|---|---|
+| `SM_Tapia` ×6 | X 195–245 cada 10 m, en Z 116 | 180 | Parcela norte. **Portón (v4) en X 215**, frente a S2, y **Derrumbada (v3) en X 235** |
+| `SM_CasetaPozo` v0 | (200; 120,5) | 180 | |
+| `SM_Balsa` v0 | (222; 121) | 0 | X 218–226, Z 118–124 |
+| `SM_CasetaAperos` v3 | (245; 120,5) | 180 | Con el remolque de palots |
+| `SM_Acequia` ×6 | X 195–245, en Z 126,5 | 0 | Linde norte. Compuerta en X 215 y pasarela en X 235 |
+| `SM_Acequia` ×4 | X 191, en Z 80–110 | 90 | De norte a sur, al oeste de S2 |
+| `SM_CasetaPozo` v3 | (192; 74) | 0 | Abandonada, junto a la acequia |
+
+**La acequia no frena el paso**: es adorno. **Marcos**: hay que marcar sin vegetación (255) la huella de cada pieza más 1 m en `sagunto_sin_vegetacion_1m.png`, para que no salgan naranjos dentro de las casetas y la balsa.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.17 Kit «Aquí pasó algo» de Teo: el mercancías descarrilado con su locomotora (Álvaro (3), 8-nov, ~19:08; aprobado por Lucía)
+- **Vía 2, en Z 59,5**: está muerta y ningún tren la usa; el desvío de X 50–64 solo la une con la vía 1 antes de la puerta oeste. La loco no cabe al este de la tolva v0 tal como está (X 28–42), porque pisaría el desvío, la calle (X 56–62) y el paso a nivel (X 59). Así que **el tren se corre 16 m al oeste**. De este a oeste:
+  - **loco** con el centro en X 33 (X 23,5–42,5, si mide unos 19 m; lo confirma Teo);
+  - **tolva v0** en X 16;
+  - **tolva v2** en X 1, con yaw +8;
+  - **tolva v3** en X −14, con yaw −12.
+  
+  Todo junto va de X −21 a 42,5, a 7,5 m del desvío.
+- **Vía rota**: en la vía 2, en X −40 a −22, al oeste de la cola. **Catenaria caída**: sobre la vía 2, en X 0–30.
+- **Autobús nuevo** (11 × 2,6 m): sustituye al `autobus_cruzado`, con el centro en (59; 92) y yaw 74. La caja envolvente se queda en X 53,5–64,5, Z 89–95.
+- **Marcos (vía Mak)**: hay que mover las tolvas de X 5, 20 y 35 a X −14, 1 y 16, y poner la loco en X 33. **`sagunto_obstaculos_v1.csv`** (fila `tolvas_volcadas`) pasa a X −21000..42500. **Ya actualizado (19:10, Lucía)**: el obstáculo ya existía, de X −2 a 42, y ahora va de X −21 a 45,5. Nacho lo mete en su próxima corrida, sin parar la actual.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.18 Kit «Sagunto vivo» de Teo: colocación (Álvaro (3), 8-nov, ~19:15; mr-mak f80de2f, aprobado por Lucía)
+Son 17 piezas, en **`sagunto_vivo_instancias_v1.csv`** (grupo `vivo`). **Ninguna lleva colisión** ni tapa la visión, así que no entran en los obstáculos. Condición de Lucía: lejos de la banqueta (X 70,5–73,2), de la azotea del ala oeste (X 83–92) y de los recorridos de la tropa. Por eso todo lo de dentro va **en la mitad este del fuerte, X ≥ 115**, que es donde no hay frente, y fuera de los sitios de paso:
+- el andén y su borde (X 78–138, Z 66,7–71,8);
+- la vía y el tren (Z 63–66);
+- los vehículos del parque y su salida por la puerta sur: Dragón en (99; 53), VAMTAC en (110; 53) y (118; 53), puerta en X 95–103;
+- la puerta este.
+
+| Pieza | Dónde (x; z) | Yaw |
+|---|---|---|
+| CocinaCampana v3 (Comedor) | (121; 78), al este del edificio | 270 |
+| Tienda v0, v1 y v3 | (132; 80), (140; 80) y (148; 80), en la franja norte | 180 |
+| BidonFuego v1 y v3 | (127; 83) y (147; 73,5) | 0 |
+| Bidones v0 y v2 (grises, decorado) | (149; 59,5), junto a la vía, y (149; 47,5), en la esquina SE | 0 / 90 |
+| Bancales v0, v3 y v4 | X 131, 137,5 y 144, en Z 47,3, entre el almacén y el muro sur | 0 |
+| Solar v0 y v3 | (99; 103) y (123; 103), los huecos 5.º y 9.º de la hilera de delante | 0 |
+| Tendedero v0, v2 y v1 | X 81, 111 y 135, en Z 95,5, en los patios traseros de la hilera de delante | 0 |
+| ArmarioAdif v0 | (53,5; 70,5), junto a la semibarrera norte del paso a nivel, al oeste de la calle | 0 |
+
+- **Los fuegos** quedan a más de 55 m del muro oeste, que es por donde llega la horda: no la iluminan. La luz la pone Bruno, en el hijo `Emision`.
+- **El armario** sustituye a la caseta (§10.8). Queda a 4 m de F2 (X 35,9–52,2, Z 74,9–89,1) y fuera de la calzada (X 56–62).
+- **El tendedero de balcón** (v3) no lo coloco: necesita una pared y una altura en el bloque de pisos, y eso lo pone Marcos si quiere.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.19 Kit «Pueblo valenciano» de Teo: casas y campanario (Álvaro (3), 8-nov, ~19:20; mr-mak 06ace2f, aprobado por Lucía)
+**Casas**: tienen la misma huella y la misma colisión que la casa_pueblo, así que se cambian de una en una y ni el CSV de obstáculos ni las calles cambian. He cambiado 16 de las 22 casas y dejo 6 casa_pueblo (r2). Están en **`sagunto_pueblo_instancias_v1.csv`**, grupo `pueblo`.
+
+| X | Hilera de delante (Z 103, yaw 0) | Hilera de atrás (Z 120, yaw 180) |
+|---|---|---|
+| 75 | Esquina v0 | CasaPatio v2 (Parra) |
+| 81 | casa_pueblo | TresAlturas v1 |
+| 87 | BajoComercial v0 (Bar) | casa_pueblo |
+| 93 | TresAlturas v0 | *(callejón)* |
+| 99 | *(solar)* | BajoComercial v2 (Farmacia) |
+| 105 | casa_pueblo | CasaPatio v0 (Portón) |
+| 111 | BajoComercial v1 (Ultramarinos) | TresAlturas v2 |
+| 117 | TresAlturas v3 (Ropa) | casa_pueblo |
+| 123 | *(solar)* | CasaPatio v3 (Naranjo) |
+| 129 | casa_pueblo | BajoComercial v4 (Tapiada) |
+| 135 | BajoComercial v3 (Saqueada) | TresAlturas v4 (Ruina) |
+| 141 | Esquina v1 | Esquina v2 (BajoChaflán) |
+
+Las esquinas van en los extremos con el chaflán hacia fuera. El eje X del exportador está SIN VERIFICAR, así que **Marcos comprueba** si el chaflán queda hacia dentro. Si es así, cambia de sitio las dos esquinas de esa hilera; no se gira ninguna, porque la fachada cambiaría de lado.
+
+**Campanario**: **(118; 0; 128), v2 (Reloj), con yaw 180**, para que el reloj mire al fuerte. Va detrás de la hilera de atrás, en el faldón, sin colisión y solo como decorado. **No cruza ninguna línea de tiro hacia los accesos del muro** (D-N174):
+- Todos los accesos (las puertas oeste, sur y este, la barricada y el camino de O3) quedan al sur de las casas.
+- Entre el fuerte y el campanario están las dos hileras. La de atrás es continua de X 96,5 a 143,5, y el único hueco es el callejón de X 90,5–95,5, que queda a más de 20 m al oeste.
+- Así, cualquier línea que llegara hasta él ya la cortan las casas antes.
+
+No hace falta que Nacho lo mida. **Marcos**: hay que quitar los naranjos de Z 131 que queden a menos de 4 m.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.20 Segundo campanario: Silleria de la r2 (Álvaro (3), 8-nov, ~22:25; mr-mak 4c5cce5)
+La r2 no cambia huellas ni colisión, así que `sagunto_pueblo_instancias_v1.csv` sigue valiendo. La v2 Reloj se queda en (118; 128).
+
+La torre de sillería (v1 «Silleria», de unos 24 m, al estilo de El Salvador) va en **(48; 0; 165), con yaw 180**. Está junto a la calle de la Estación (X 56–62), que sigue hacia el casco antiguo y el pie del castillo (Z 195), así que se lee como la iglesia del pueblo viejo, separada de la del arrabal (la v2). Queda en el faldón: fuera de la zona, sin colisión y solo como decorado. Va en `sagunto_pueblo_instancias_v1.csv`.
+
+**Línea de visión**: los tiradores del ala oeste, en (84,5; 4,75; 74,3) y (84,5; 4,75; 78,3), tiran hacia el oeste y hacia los accesos. Todos los blancos están dentro de la zona (Z ≤ 128), y la torre queda 37 m más allá del borde norte. Una línea que acaba en un blanco no puede pasar por algo que está detrás de él, así que **no tapa nada, a ninguna altura**. No hace falta medir.
+
+**Marcos**: hay que quitar los naranjos que queden a menos de 4 m.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.21 Capítulo 3: recorrido de la tropa de Nules (Álvaro (3), 8-nov, ~22:30)
+La nota completa está en [`tutorial-cap3-recorrido.md`](tutorial-cap3-recorrido.md). Resumen: el recorrido va de (192; 60) a (160; 40) y de ahí a (100; 34). Son 98 m, unos 40 s, y solo hay que rodear la esquina SE del fuerte. El flanco sur (100; 34) queda a 12 m de la carretera de O2, así que atrae a O2 nada más llegar, y desde allí el muro oeste tapa casi toda la pila. Lucía decide entre cambiar el texto 3.8 y mover el punto a (125; 36).
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.22 Revisión del recinto de Teo (mr-mak `entregas/teo-modelado/sagunto-recinto/`, 9-nov ~01:15)
+**Choque que se me pasó: la puerta oeste-sur (§10.8, en (70; 53), hueco Z 48,1–57,9 con jambas) cae encima de la banqueta y del nido sur (§10.14).** Por dentro del muro oeste están los dos módulos de 5 m de la banqueta (X 70,5–72,5, Z 45–55) y el nido sur (X 70,8–73,2, Z 56–59). Con la puerta, un vehículo que saliera por ahí atravesaría la banqueta, y la hoja abierta (hasta X ≈ 74) pisaría el nido.
+
+**Decisión: la puerta oeste-sur sale del MVP.** En su sitio va HESCO.
+- La banqueta y los nidos se quedan como los midió Nacho: su CSV no tiene esa puerta, así que la medida de la azotea sigue valiendo.
+- Con el asedio, las puertas van cerradas (D-N151).
+- Los vehículos salen por la puerta sur E4 con `acceso_sur`, que Nacho ya probó (F2 a 109 m, ≈ 19 s).
+- Si después del MVP vuelve, habrá que mover la banqueta sur y el nido, y volver a medir.
+
+**Remates en el muro oeste**: la celda de vuelta de 1,1 m de `SM_HescoRemate` (pieza 29, en Z 67,9) pisa el módulo de 2,5 m de la banqueta (Z 67,25–69,75). Pasa lo mismo en la jamba sur de la puerta de vía. **En el muro oeste no van remates con vuelta**: se cierra con cortos, como la pieza 32, para no tocar la banqueta. Los remates de la puerta sur (X 94,1 y 103,9) y de la puerta este no chocan con nada.
+
+**Líneas de tiro del capítulo 3**: no cambian. El muro sur sigue siendo de sacos de 1,2 m en Z 44 y la esquina SO de HESCO sigue en (70; 44). Desde el flanco sur y desde R1 y R2 se ve exactamente lo mismo que con los sólidos del CSV.
+
+**Puerta de vía este**: Z 62–67, centrada en la vía (Z 64,5), igual que la oeste. La confirmo: deja de estar SIN VERIFICAR.
+
+**Postes de catenaria** (`PrototypeBootstrap.cs:1377`, rama de Marcos): son un bucle cada 50 m, de X −240 a 500, en Z 60,9 (3,6 m al sur del eje) y sin cable. Dos caen mal:
+- **X 110**, dentro del fuerte: es casi seguro el «poste suelto junto al tren» de la qa47. Queda junto al tren de noche (X 81–145) y a 8 m del VAMTAC de (110; 53).
+- **X 60**, encima de la calle de la Estación (X 56–62), en el paso a nivel.
+
+**Se quitan los dos** (se salta X 60 y X 110 en el bucle). Dentro del fuerte y en el cruce no hay catenaria en nuestra build. Los de fuera se quedan como línea electrificada de fondo (pórticos de Sagunt, RC1–RC2).
+
+**Aprobado por Lucía (9-nov 01:10):** sin la puerta oeste-sur en el MVP, con HESCO en su lugar y sin los dos postes. Ahora toca revisar la lista RecintoPlan de Teo antes de pasársela a Marcos: que no lleve la puerta oeste-sur, que el muro oeste vaya con cortos sin celdas de retorno y que no cambien las líneas de tiro del cap. 3 ni R1/R2. Constancia en decisiones-noche.md.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.23 Postes de catenaria y tolvas (notas de Eugenio con la I-Noche110; revisión de lo que movió Iker en la 111, 9-nov ~22:45)
+Lo he revisado sobre `iker/escenario-inicio` 259d49a9 (`PrototypeBootstrap.cs:1787-1790` y `:1911-1918`). Vale igual para Nules mientras use este terreno (opción A).
+
+**Postes: con el cambio de Iker siguen sobre el balasto de la vía 2.** El mástil del FBX de Teo no está en el origen: está a 1,375 m hacia el lado contrario a la ménsula (base de X −1,83 a −0,93, mástil en −1,56…−1,19; ménsula hasta +1,83). Con yaw 90, el mástil cae en Z = colocación − 1,375 y la punta de la ménsula en colocación + 1,83. Lo confirma lo que vio Eugenio: colocado en ty − 3,6 = 60,9, el mástil quedaba en Z 59,5, justo encima de la vía 2.
+- **Con ty − 2,5 (Iker)**, el mástil queda en Z 60,6 (la base en 60,1–61,1): sigue sobre el balasto de la vía 2 (Z 57,8–61,2) y dentro de la tolva v0 en X 40 (Z ≤ 61,1).
+- **Arreglo: colocar en `ty − 1,125` = Z 63,375.** El mástil queda en **Z 62,0**, en el centro de la entrevía (los balastos llegan a 61,2 y empiezan en 62,8), a 1 m del costado del tren de la vía 1 (Z 63,0), con la ménsula hasta Z 65,2, encima del hilo de la vía 1. La base del poste de X 40 (Z 61,55–62,45) queda a 0,4 m de la tolva v0 (hasta Z 61,1) y a 0,35 m del balasto de la vía 2.
+- **Saltar X 60 y X 110**, como ya decía la §10.22, aprobada por Lucía. En X 60 el mástil queda a 1,07 m del eje del desvío (Z 63,07 en esa X), donde pasa el tren. En X 110 cae dentro del fuerte, en el paso de la tropa al sur de la vía.
+
+**Tolvas: el giro de +90° de Iker está bien** (la malla va a lo largo de Z, 14,5 m). Pero la v3, tumbada y con 7,3 m de ancho, y la v2 con su giro se salen hacia la vía 1. Las huellas que dan los FBX (LOD1) con los yaw de ahora:
+| Tolva | Ahora | Huella en Z | Propuesta | Huella en Z |
+|---|---|---|---|---|
+| v0 | (35; 59,5), yaw 90 | 57,9–61,1 | igual | igual |
+| v2 | (20; 59,5), yaw 98 | 56,2–62,8 (a 0,2 m del tren) | **(20; 59,0), yaw 96** | 55,9–62,1 |
+| v3 | (5; 59,5), yaw 78 | **54,4–64,6: pisa la vía 1** | **(5; 57,5), yaw 84** | 53,1–61,9 |
+Así ninguna tolva entra en el gálibo de la vía 1 (Z 63,0–66,0). En el código: `hops = { (35f, 0f, 0), (20f, 6f, 2), (5f, -6f, 3) }` y la Z por tolva (59,5; 59,0; 57,5) en lugar de 59,5 fija.
+- `sagunto_obstaculos_v1.csv` (fila `tolvas_volcadas`) no lo toco: está a más de 29 m de la banqueta y la noche está medida con ella. Cambiarlo es opcional, para cuando Nacho vuelva a medir.
+- El kit «Aquí pasó algo» (§10.17: la locomotora, la vía rota y la catenaria caída) sigue sin estar en la build. No lo meto ahora.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

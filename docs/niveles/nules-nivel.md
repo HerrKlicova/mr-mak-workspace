@@ -61,7 +61,7 @@ Plano: [`nules_plano_v1.png`](nules_plano_v1.png) (script `herramientas/plano_nu
 - **Puntos de bajada (`TrenAnden.PuntoBajada`)**:
   - Tropa y carga: **(130000; 44500) mm**, sobre el muelle.
   - Vehículo: **(184000; 44400) mm**, al pie de la rampa. Sale por la puerta de vehículos.
-- **Si Nules está sitiada (D-N166, paso 3.10 del tutorial)**, el tren espera en el apartado, fuera de la puerta oeste (X 20–84), y solo baja la tropa, en **(50000; 44500) mm**, entre el apartado y la calle del polígono. Desde ahí entra por la puerta del apartado. La entrada Na llega justo por ese lado: es el momento débil, igual que en Sagunto.
+- **Si Nules está sitiada (D-N166, paso 3.10 del tutorial)**, el tren espera en el apartado, fuera de la puerta oeste (X 20–84), y solo baja la tropa, en **(50000; 44500) mm**, entre el apartado y la calle del polígono. **Con el asedio, las puertas siguen cerradas (D-N151)**: la tropa se queda fuera y combate desde ahí, igual que en Sagunto, sin portillo (corregido el 8-nov a las 23:50; antes decía que entraba por la puerta del apartado). La entrada Na llega justo por ese lado: es el momento débil.
 - Los **refuerzos de Nules de la D-N172** (1 pelotón y 1 Lince) suben por los mismos puntos: la tropa en el muelle y el Lince por la rampa.
 - **Hoy la red de trenes tiene una vía por nodo.** Si el código no distingue vías dentro de la estación, basta con que el tren de Nules use el apartado (Z 49) como su vía en la zona. Lo decide Iker.
 
@@ -119,9 +119,129 @@ Plano: [`nules_plano_v1.png`](nules_plano_v1.png) (script `herramientas/plano_nu
 ## 9. v0.2: lista de instancias con las piezas entregadas (8-nov, ~17:55)
 - **Dato: [`nules_instancias_v02.csv`](nules_instancias_v02.csv)**, 247 filas separadas por «;»: grupo, prefab, variante (−1 = semilla), x, y, z, yaw, escala_x, en_zona_mvp y nota. Plano de comprobación: [`nules_instancias_v02.png`](nules_instancias_v02.png). Generador: `herramientas/instancias_v1.py` (semillas fijas).
 - **Nombres de los LEEME de Teo** (mr-mak-workspace, `entregas/teo-modelado/nules`, `defensas`, `muro-estados` y `kit-estaciones`): `SM_EdificioViajerosNules` (v1 = Segura), `SM_MarquesinaAdosada`, `SM_MuelleCarga` (v4 cabeza oeste, v3 rampa), `SM_PuertaViaDoble`, `SM_NavePoligono_Modulo`/`_Testero`, `SM_Palmera`, `SM_Farola`, `SM_Banco`, `SM_KitVia` (v2 tercer carril), `SM_KitAnden_F11`/`_F7`, `SM_KitMarquesina`, `SM_Cooperativa` v4, `SM_poste_catenaria`, `SM_CocheCivil_*`, y los muros `SM_MuroHesco`, `SM_HescoEsquina`, `SM_HescoRemate` y `SM_HescoCorto1–4`.
-- **Muros**: 19 tramos de 10 m sin escalar, 9 cortos, 4 esquinas y **9 remates**. Son 9 y no 10, porque en la jamba este de la puerta de vehículos la esquina SE hace de remate. Lo que sobra en cada tramo (0,55 m como mucho) queda repartido en los dos extremos. Los remates de la derecha de cada hueco llevan **escala X −1**, porque la pieza no es simétrica; si el brazo sale hacia el hueco, se invierte.
-- **Andenes, ojo**: con la convención de los LEEME (el borde a −Y de Blender, que es +Z de Unity con yaw 0), el andén 1 (al norte de las vías) va con **yaw 180** y el andén 2 (al sur) con **yaw 0**. El LEEME de Teo dice que el de 7 m va con yaw 180, pero eso sería si estuviera al norte. **Lo comprueba Marcos con el primer módulo.**
+- **Muros**: 19 tramos de 10 m sin escalar, 9 cortos, 4 esquinas y **9 remates**. Son 9 y no 10, porque en la jamba este de la puerta de vehículos la esquina SE hace de remate. Lo que sobra en cada tramo (0,55 m como mucho) queda repartido en los dos extremos. Los remates de la derecha de cada hueco son **`SM_HescoRemateEspejo`** (Teo, mr-mak dbef5f3), sin escala negativa, porque con Entities Graphics puede dar caras del revés. Las esquinas van en el origen de la pieza (el centro de la celda de esquina, sobre la línea del muro), así que la puerta de X 177,22–185,22 está bien (Teo).
+- **Andenes, ojo**: con la convención de los LEEME (el borde a −Y de Blender, que es +Z de Unity con yaw 0), el andén 1 (al norte de las vías) va con **yaw 180** y el andén 2 (al sur) con **yaw 0**. Teo lo confirmó y corrigió su LEEME (mr-mak dbef5f3).
 - **Lo que sigue SIN VERIFICAR en Unity**: el eje X del exportador (afecta a las esquinas, a los remates y a la escalera) y la posición de las marquesinas del andén a 0,68 m.
 - **Claro del NH90**: N-C1 (178; 15,75), de 25 × 25 m, marcado en el plano y en el JSON.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 10. Acopio de víveres (Álvaro (3), 8-nov, ~18:40; pieza de Teo en mr-mak af18bac, aprobada por Lucía)
+`SM_AcopioViveres_v<n>_<Estado>`: 10 × 6 m, con el largo a lo largo de X y el origen en el suelo, en el centro. Tiene 5 estados, que siguen a las existencias de víveres (D-N176). Hay 5 instancias en `nules_instancias_v02.csv` (grupo `viveres`, ya son 252 filas):
+
+| # | Posición (x; y; z) | Yaw | Sitio |
+|---|---|---|---|
+| 1 | (69,2; 0; 9) | 90 | Hueco entre la nave oeste y el almacén citrícola |
+| 2 | (69,2; 0; 22) | 90 | Ídem |
+| 3 | (100; 1,2; 44,4) | 0 | Encima del muelle |
+| 4 | (115; 1,2; 44,4) | 0 | Encima del muelle |
+| 5 | (155; 1,2; 44,4) | 0 | Encima del muelle |
+
+**Cambio respecto al reparto de Lucía (3 en el patio y 2 en el muelle):** en el patio de carga (X 164–192, Z 2–29) no cabe ninguno, porque lo ocupa el claro del NH90 N-C1 (X 165,5–190,5, Z 3,25–28,25). Las franjas que quedan libres miden 1,5 y 1 m. Así que pongo 2 en el hueco de 9,7 m entre naves (X 64,3–74), girados 90° (en Z no caben 3 de 10 m) y 3 en el muelle. Sobre el muelle quedan libres X 120–140, para la bajada de la tropa, y la rampa. El acopio tiene 6 m de fondo y el muelle 5,8 m, así que sobresale 0,1 m por cada lado: o se acepta, o Teo lo deja en 5,8. **Lucía (18:36): aprobado así.** El claro no se toca y los 0,1 m que sobresalen se dan por buenos.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 11. Huerta: no va en Nules (Álvaro (3), 8-nov, ~18:55; Lucía, 18:52)
+Puse el kit de huerta de Teo en la franja X 192–252, Z 40,5–52, y **Lucía lo ha quitado**, por dos motivos: junto a la estación real no hay huerta, y unas tapias sólidas delante del muro este, en la entrada Nb, cambiarían la defensa sin que nadie lo haya medido. **El kit va a la huerta noreste de Sagunto** (`sagunto-nivel.md`). Ya he quitado las filas de `nules_instancias_v02.csv` (vuelve a 252) y de `nules_obstaculos_v1.csv`.
+
+**`nules_obstaculos_v1.csv`** (nuevo, con el formato del de Sagunto) lleva el recinto de HESCO por tramos con sus 4 puertas, el edificio de viajeros, el muelle y las 3 naves. Las alturas de los edificios están SIN VERIFICAR.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 12. Mobiliario urbano de Teo (Álvaro (3), 8-nov, ~19:00; mr-mak 71cb05b, aprobado por Lucía)
+Hay 11 filas del grupo `urbano` en `nules_instancias_v02.csv` (pasa a 263). Todo va en la acera norte de la calle de la Estación (Z 92,8) o en la plaza, fuera del recinto (que corta la calle en X 85–188):
+- Paradas de bus: en (30; 92,8), y la de la variante Anuncio en (215; 92,8). Las dos con yaw 180, mirando a la calle.
+- Quioscos: en (76; 99,5) y el saqueado en (200; 95).
+- Contenedores: en X 12, 196 y 230.
+- Señales: en X 4 y 192.
+- Semáforos: el de brazo en (80; 92,8) con yaw 270, para que el brazo quede sobre la calzada, y el peatonal en X 190.
+
+En `nules_obstaculos_v1.csv` entran los quioscos (sólidos, tapan la vista), las paradas (obstáculo bajo de 0,5 m que no tapa la vista) y el panel de la parada Anuncio, que sí tapa la vista.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 13. Huerto de víveres alrededor del recinto: propuesta (Álvaro (3), 8-nov, ~20:10; D-N176 y D-N178)
+Lucía lo pide para el kit de víveres que va a modelar Teo (referencias de Paula en `referencias-reales/nules_viveres/`, ninguna de Nules). Esta parte cambia respecto a la §11: allí se quitó la huerta porque cambiaba la defensa sin medir; ahora entra por la D-N176 (víveres), y **Nacho tiene que medir Nules con las tapias** antes de que entren en la build. Las posiciones son definitivas en cuanto lleguen las medidas de Teo. **Aprobado por Lucía (08-11, 21:20).**
+
+**Reglas**:
+- Los naranjos no cortan la vista, las tapias sí (D-N178).
+- Las tapias dan cobertura a la tropa que combate fuera.
+- **No se tapa ninguna entrada de tren**:
+  - las vías generales (Z 60,8–68,2) en X 85 y X 188;
+  - el apartado (Z 46,5–51,5) desde el oeste;
+  - el punto de bajada con asedio, en (50; 44,5).
+- El claro N-C1 y la puerta de vehículos (X 177–185) quedan libres.
+
+**Parcela este** (X 192–252, Z 40,5–52, entre la calle del polígono y la valla del andén 2). Es la que da la cara a Nb (por la vía) y a Nd (por la calle):
+- **Tapia del testero este**, de norte a sur, en (250; 46), con yaw 90: tramo roto, de 10 m (Z 41–51). Es cobertura de cara al este.
+- **Tapia de la calle**: 3 módulos en Z 40,5 (X 227, 237 y 247), con yaw 180 y el portón en X 237. Es cobertura de cara al sur, hacia Nd. Desde X 192 hasta 222 la calle se deja abierta.
+- **Casa de labor** en (205; 46), con la fachada a la calle (yaw 180). **Balsa** en (217; 47).
+- **Naranjos**: 3 hileras en Z 43, 46,5 y 50, de X 224 a 248, cada 4 m (21 árboles).
+
+**Franja oeste** (X 8–80, Z 38,5–46,5, entre la calle y el apartado): **solo naranjos**, sin tapias. Tapias aquí taparían la bajada de la tropa con asedio y el apartado.
+- 2 hileras en Z 41 y 44,5, de X 10 a 78 cada 4 m.
+- Sin árboles en X 44–56, que queda libre alrededor del punto de bajada (50; 44,5).
+- Son unos 30 árboles.
+
+**Para Teo**: hacen falta unos 51 naranjos, 4 módulos de tapia de 10 m (uno roto y uno con portón), 1 casa de labor y 1 balsa. La casa de labor debería caber en unos 10 × 8 m.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 13.1 Colocación con las piezas de Teo (20:20; mr-mak 263c2b8, que todavía es local)
+Son 17 filas del grupo `huerto_viveres` en `nules_instancias_v02.csv` (pasa a 280). Las tapias y la casa de labor van en `nules_obstaculos_v1.csv`.
+- **Tapias** (10 × 0,4 × 2,2 m):
+  - testero Roto en (252; 46), con yaw 90;
+  - en la calle, en Z 40,5 con yaw 180: X 227 (Recto), X 237 (Portón, hueco en X 235,8–238,2) y X 247 (Recto).
+- **Casa de labor** v2 (Porche) en (205; 47), con yaw 180: casa en X 200–210 y Z 43–51, y el emparrado hasta Z 40. **Palots** (Bloque) en (214; 44).
+- **Naranjos**:
+  - parcela este: hilera adulta en Z 44 y joven en Z 48, en X 223 y 239;
+  - franja oeste: 2 hileras (Z 40,6 y 44,5) en X 18, 34 y 66, con X 44–56 libre.
+  - En total son 10 piezas de hilera, sin colisión.
+- **Balsa** (Ø 16,4 m): **no cabe** en la parcela, que tiene 11,5 m de fondo. Va en el **faldón este, en (264; 49,5)**, sin colisión y fuera de la zona del MVP.
+- **Las tapias no entran en la build hasta que Nacho mida Nules con ellas** (Lucía, 21:20).
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 14. Revisión del recinto de Teo (mr-mak `entregas/teo-modelado/nules-recinto/`, 9-nov ~01:30)
+Lista de 43 piezas sacada de `RecintoPlan.Nules()`: HESCO al este y en alas de 15 m, sacos en el resto y el edificio como muro norte. Teo me pide tres decisiones. Además he encontrado un problema que no había preguntado.
+
+**Hallazgo: los sacos del muro oeste sobre los andenes.** Los andenes van de X 26 a X 231 (§2), así que cruzan los muros oeste y este por fuera y por dentro. En esos tramos el suelo está a 0,68 m: un muro de sacos de 1,2 m colocado a y 0 solo asoma **0,52 m** sobre el andén, y un zombi que llega andando por el andén lo tiene a la altura de la rodilla. El HESCO (2,1 m) asoma 1,42 m, que es lo que ya ponía la v0.2 (§3). **Cambio: el muro oeste pasa a HESCO en los dos cruces de andén**, que son Z 52,4–59,9 (entre la puerta del apartado y la doble) y Z 69,1–~80 (desde la doble hasta pasar el borde del andén 1, en Z 79,2). Teo ajusta el corte exacto a celdas de 1,11 m. El resto del muro oeste sigue de sacos. El muro este ya es HESCO y no cambia. SIN VERIFICAR: que el andén sea un sólido de 0,68 m en Unity (ver §9). Hugo: el coste lineal cambia un poco si el HESCO cuesta distinto que los sacos; Teo lo saca con su código.
+
+**1) Puerta de vehículos en X 177,22–185,22: sí.** Es la v0.2 (§3) y ya está así en `nules_obstaculos_v1.csv` (muro_sur_0 llega a X 177,22). El hueco sigue midiendo 8 m y el punto de bajada (184; 44,4) queda dentro. Cambia el JSON de Marcos (`estacion_nules.json`) y la simulación de Nacho.
+
+**2) Remates con vuelta:**
+- **Puertas dobles (piezas 36, 40, 15 y 18): se cierran con cortos, sin vuelta.** Las cuatro celdas caen encima del andén, al final y a 0,9 m del borde, justo donde se descarga el tren, y además se hundirían 0,68 m en él. Así queda igual que en Sagunto.
+- **Puerta del apartado (piezas 41 y 42):** la 41 desaparece con el cambio a HESCO (ese tramo se cierra con cortos). **La 42 se queda**: su celda (X 85,5–86,6, Z 44,5–45,6) no toca nada.
+- **Contra el edificio (25 y 32): se quedan.** Las celdas (Z 94,4–95,5) quedan fuera de la marquesina adosada (X 104,5–125,5) y de la calle (Z 82–92).
+- **Puerta de vehículos (12): se queda.** Su celda pisa 0,17 m el pie de la rampa del muelle (X 170–182, Z 41,5); es una tolerancia aceptable y no estorba al paso.
+
+**3) Solapes del muro oeste de sacos:** el de 2,2 m entre la esquina SO y el apartado **se queda así**: quitar el remate dejaría un hueco de 1,7 m que solo se puede tapar con un tramo aplastado (escala 0,21). El de 0,3 m entre el apartado y la doble desaparece con el cambio a HESCO.
+
+Las puertas oeste no se mueven, así que la D-N177 sigue igual. Con estos cambios, Teo regenera la lista y yo la miro una última vez antes de que vaya a Marcos.
+
+**Aprobado por Lucía (9-nov 01:23).** Teo regenera la lista y va a Marcos. Pendiente: que Nacho confirme si el recinto de NightSim con el que midió 2200 y 2440 ya tenía estos tramos de HESCO; si no, repite solo el punto de 2200. Nacho (01:24): la puerta no altera las medidas; el HESCO del oeste entra en su próxima tanda de Nules, y en ella repite el punto de 2200. Matiz de Nacho (01:24): en NightSim todo el muro mide 2,1 m y la trepada no depende del material (240 ‰/s, máximo 55/s). El HESCO solo cambia la vida del tramo: 6 u frente a 2 u por cada 10 m de sacos. Repite el 2200 dando triple vida a esos tramos del oeste. Que el HESCO frene también la trepada sería una regla nueva, y la decide Lucía. **Lucía (01:24): la trepada no se toca antes del MVP.** Si el nuevo 2200 se aleja menos de 2 puntos del 96 %, todo queda como está.
+
+**Lista regenerada (mr-mak a75067c, 42 piezas): OK de Álvaro (01:27).** Muro oeste en HESCO de Z 52,4 a 59,9 (cortos 3 + 4) y de Z 69,1 a 80,21 (corto 1 + tramo de 10 m). Las dobles van sin remates. Quedan 4 remates (41, 12, 24 y 31). Tolerancia aceptada: los cortos centrados se meten de 0,13 a 0,33 m en la jamba de 0,9 m (oeste Z 52,27 y 60,04; este Z 60,23), pero no tocan el hueco libre. **Coste: 132,24 u** (90,24 de muro + 42 de puertas), antes 124,08, porque 20,41 m pasan de sacos a HESCO. Para que el juego cuente lo mismo, `RecintoPlan.Nules()` tiene que poner HESCO en esos dos trozos (Marcos). Hugo, tenlo en cuenta.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+**Medida de Nacho (01:33):** Nules 2200 con el HESCO del oeste a triple vida gana 486 de 500 semillas (97,2 %); antes, sin él, 96 % en 200 semillas. La diferencia está dentro del ruido y los trepadores no cambian (1542 frente a 1535). Como se mueve menos de 2 puntos, **la horda de 2200 se queda**, según la regla de Lucía.
+
+## 15. Terreno definitivo de Nules (opción B): dos flancos, la vía y el norte (Álvaro (3), 9-nov ~23:00; encargo del coordinador con libre albedrío de Eugenio)
+Plano: [`nules_terreno_b.png`](nules_terreno_b.png) (lo genera `herramientas/plano_nules_b.py`). Es el Nules de verdad para cuando se deje la opción A, la del terreno de Sagunto. El recinto es el de Teo, a75067c (§14), y no se toca.
+
+**La idea:** con 2 pelotones no se defienden cuatro lados. El jugador tiene que leer en cuanto entra que la horda llega por dos sitios, **la vía, al oeste, y el norte, por la plaza**, y que la esquina noroeste es la bisagra entre los dos.
+- **Entradas** (`estaciones/nules.json`, ya con peso y rectángulo de aparición):
+  - **Na**, por la vía desde el oeste: **50 %**. Es el flanco de la vía, con la emboscada del segundo tren al oeste.
+  - **Nc**, desde el pueblo por la plaza (X 20–100): **40 %**. Es el flanco norte.
+  - **Nb**, por la vía desde el este: **10 %**, porque Castellón ahora es tuya y está cercada (D-N184).
+  - **Nd**, por el polígono: **0 %**.
+- **El norte se lee**: una **explanada sin sólidos en Z 96–111**, delante de los sacos del muro norte, y detrás **una hilera seguida de 14 casas** del kit del pueblo, en X 129–207 y Z 116 (yaw 180, con la fachada a la explanada). La hilera cierra el lado este, así que el norte solo puede entrar por la plaza, que está abierta (palmeras sin colisión), y llega de frente a la esquina noroeste. Las casas van en `nules_instancias_v02.csv` (grupo `pueblo`) y en `nules_obstaculos_v1.csv` (`manzana_norte`, 7 m).
+- **Guarnición** (`guarnicion_puestos_v1.json` v1.3, `Nules_B_terreno_propio`):
+  - **Fusileros**: en el HESCO del oeste sobre el andén 2 (87; 56,2), cubriendo las dos puertas oeste. No cambian.
+  - **Ametralladores**: pasan a la **esquina noroeste por dentro, (87,5; 93), mirando al noroeste**. Tiran por encima de los sacos (1,2 m; con la D-N174 la zona ciega es de menos de 1,5 m) hacia el oeste (la vía) y hacia el norte (la plaza). Antes iban junto al edificio, mirando al apartado.
+- **`nules_obstaculos_v1.csv` al día con el recinto de Teo**: el muro ya no es todo de HESCO. Lleva sacos al sur, al norte y en las puntas del oeste, y HESCO al este, en las alas de 15 m y en los dos cruces de andén del oeste (Z 51,5–60,8 y 68,2–80,21).
+- **Postes de catenaria** (`nules_instancias_v02.csv`): con yaw 0 y 180, la ménsula quedaba a lo largo de la vía. Pasan a **yaw 270 en Z 68,2** (el mástil en Z 69,6, sobre el andén 1, y la ménsula hasta la vía 1, en Z 66,4) y a **yaw 90 en Z 60,77** (el mástil en Z 59,4, sobre el andén 2, y la ménsula hasta la vía 2, en Z 62,6). La cuenta del mástil está en sagunto-nivel.md §10.23.
+- **Por medir (Nacho)**, cuando Nules pase a la B: la horda de la noche 2 con estas entradas y estos puestos. La emboscada y el 96 % de la A no valen para la B.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

@@ -72,4 +72,49 @@ Castellón cumple todo lo obligatorio de una **principal** (§2.1): doble vía y
 - **Nacho y Marcos**: el dato por estación (§3), después del MVP.
 - **FPS**: 12 bloques, 2 edificios de viajeros, 5 marquesinas, unos 20 coches, 12 cisternas (9 en el depósito y 3 en el cargadero) y el recinto. Menos vegetación que Sagunto. Hay que medirlo (D-N70).
 
+
+## 7. v0.1: la estación es subterránea, como la real (Álvaro (3), 8-nov, ~18:10; kit de Teo, D-N156)
+**Real (Paula):** Castelló está bajo tierra (`linea_valencia_castellon.md`, PK 73,60). La foto RC3 muestra un andén lateral y otro con fila de pilares redondos, vía en placa, losa con vigas de canto y catenaria colgada del techo. La v0, con la estación en superficie, cambia así:
+- **Cota de vía: −8 m** (SIN VERIFICAR). Las vías generales siguen en Z 57,5 y 66,5, el andén central en Z 60–64 y el lateral en Z 69–73, con X 70–190.
+- **Cajón bajo losa en X 70–190**, de Z 55 a 74. Lleva el módulo central de Teo (14 m, Z 55–69: andén central y las dos vías, pilar de Ø 0,9 m cada 10 m en Z 62) y el lateral (Z 69–74, con el muro de fondo en Z 73,5–74). El intradós queda a 6,5 m sobre la vía (cota −1,5) y la losa tiene 1,5 m, así que su cara de arriba es el suelo de la ciudad (cota 0): se pisa como la plaza. **La losa es un hijo aparte («Losa»)**, y Marcos la funde con la cámara cenital cuando hay unidades debajo.
+- **Trinchera abierta en X 0–70 y X 190–256**, con muros de contención de 8 m en Z 55 y Z 74. Por ahí se ve entrar y salir el tren desde la cámara. Las rampas reales quedan fuera de la zona. La **ronda** (X 34–42) pasa por encima de la trinchera como puente: es el paso superior de siempre.
+- **Puertas de vía, en la trinchera**: en X 64 y X 222, sobre las dos vías, a la cota −8. El HESCO del recinto va por arriba, por los dos bordes de la trinchera. Nadie sale de la trinchera trepando: solo por los extremos (Ca y Cb) o por las escaleras del vestíbulo.
+- **Vestíbulo de calle** (pieza nueva de Teo: 24 × 14 m, 5 m de alto, con los 5 estados de la D-N124). Va en **(130; 0; 81)**, X 118–142, Z 74–88, con la **entrada principal hacia la plaza (norte, yaw 0)** y la **boca de escaleras al sur**, que baja por el muro de fondo al andén lateral (Z 69–73). Del andén lateral al central se pasa por el paso inferior del kit (`kit_paso` v0, en (120; 66,5)). **Sustituye al edificio de viajeros de la v0** (las dos alas de Sagunto y el cuerpo central se quitan; en X 96–118 y X 142–164 de Z 75–88 queda plaza).
+- **C1 Estación** pasa a (130; 81), el vestíbulo. Los supervivientes resisten en el vestíbulo y en los andenes. Recuperarla es limpiar los andenes bajo la losa: una ratonera con dos entradas por la vía y una por la escalera.
+- **Lo que se queda en superficie**: el haz de mercancías (Z 44–52), el ramal del Grau, el cargadero, el depósito C2, las naves, el cuartel, el radar (206; 82), la plaza, los bloques y el recinto. Entre el haz (cota 0) y el cajón hay un muro de contención en Z 54–55. El enlace del haz con las generales queda fuera de la zona.
+- **Catenaria rígida** colgada de la losa, con el hilo a 5,3 m sobre la vía (RC3; que sea rígida está SIN VERIFICAR).
+- **Barricadas civiles** en tramos de 8 m (como los sacos) en la plaza y la avenida. **Vagones abandonados** de 18–20 m en las vías del cajón y en el haz.
+- **Para Iker**: la parada del tren en Castellón es a la cota −8. La tropa baja al andén y sube por la escalera del vestíbulo. El desnivel es de **unos 7,1 m**, de la cota −7,1 del andén a la calle (corrijo los 12 m que había puesto antes; SIN VERIFICAR con la cota real). El tiempo de subida lo pone Nacho.
+- **Bajada de vehículos (v0.2, 18:15)**: los vehículos no bajan en el andén. Bajan en superficie, en la **cabeza oeste del cargadero, X 140–148**: el tren para en la **vía 44 del haz** con la plataforma de vehículos en X 140–148, al oeste del muelle (X 150–222). El **punto de bajada es (144000; 38000) mm**. De ahí salen al sur por tierra hasta el camino interior (Z 29, que acaba en X 144) y siguen hasta la puerta de vehículos. No uso la rampa del muelle porque no tengo verificado a qué lado sale.
+- **castellon.json v0.2**: quitados el edificio de viajeros viejo (`kit_cuerpo`/`kit_remate`, 7 piezas) y las 5 marquesinas, que no van bajo la losa. Los 24 `kit/anden_10m` y el `kit_paso` bajan a la cota −8. Añadido el vestíbulo (`castellon/vestibulo`, nombre SIN VERIFICAR hasta que lo dé Teo). Datos nuevos en `subterranea.bajada_vehiculos` y en `vestibulo.desnivel_escalera_m`.
+- **castellon.json v0.4 (18:15, piezas de Teo aprobadas por Lucía)**:
+  - 24 `castellon/anden_losa` (Central en Z 62 y Lateral en Z 71, cada 10 m de X 75 a 185, a −8).
+  - 24 `castellon/catenaria_losa` sobre Z 57,5 y 66,5.
+  - 28 `castellon/muro_trinchera` Muro: 7 por cada lado y trinchera, en X 5–65 y 195–255, con el origen en Z 54,7 (yaw 180) y en Z 74,3 (yaw 0), para que la cara vista quede en Z 55 y 74.
+  - 2 bocas, en X 70 (yaw 90) y en X 190 (yaw 270).
+  - 4 `castellon/barricada_civil` en Z 92, en X 110, 118, 142 y 150. Dejan un hueco en X 122–138 frente a la entrada del vestíbulo, y la avenida queda libre para los vehículos.
+  - 4 `castellon/vagon_abandonado` (con yaw 90) en las vías 48 y 52 del haz.
+
+  Quedan libres la vía 44, para la bajada de vehículos, y las del cajón, para la parada. Los yaws de muros y bocas los confirma Marcos con la primera pieza.
+
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 8. Mobiliario urbano de Teo (Álvaro (3), 8-nov, ~19:00; mr-mak 71cb05b)
+`castellon.json` lleva ahora 11 piezas `urbano/…`, en total 150:
+- Paradas de bus en la acera sur de la avenida (Z 92,8), en X 80 y 180, con yaw 0 para que miren a la avenida.
+- Quioscos en la plaza del vestíbulo, dentro del recinto: en (104; 84) y el quemado en (156; 84).
+- Contenedores en X 60, 92 y 166.
+- Señales en X 48 y 200.
+- Semáforos en el cruce de la ronda con la avenida: el de brazo en (44; 92,8) con yaw 90, con el brazo sobre la avenida, y el doblado en (44; 103,5).
+
+Ninguno pisa las barricadas (X 106–154). Hay un CSV nuevo, **`castellon_obstaculos_v1.csv`**, que de momento solo lleva el mobiliario sólido: los 2 quioscos y las 2 paradas.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 9. Coste del recinto, calculado como el de Nules (Álvaro (3), 9-nov ~08:05; D-N183, para Hugo)
+Sale de `estaciones/castellon.json`. El recinto es [[64,4],[212,4],[222,14],[222,90],[64,90]], todo de HESCO (0,6 u/m), y con el chaflán SE mide **482,14 m**.
+- **Huecos que se restan:** la trinchera, de 19 m (Z 55–74), en X 64 y en X 222. Ahí no hay HESCO: las 4 puertas de vía están abajo, a −8, entre los muros de contención. También se restan la puerta del ramal (222; 44), de 5 m, y la de vehículos (64; 29), de 8 m. Quedan **431,14 m de muro, que son 258,69 u**.
+- **Puertas:** 5 de vía × 8 u (las 4 de la trinchera y la del ramal) y 1 de vehículos × 10 u, que suman **50 u**.
+- **Total: 308,69 u**, entero y construido. Si las 4 puertas de la trinchera se restaran como en Nules (5 m cada una, en vez de los 2 × 19 m), saldrían 449,14 m: 269,48 + 50 = **319,48 u**. Recomiendo los 308,69 u, porque sobre la trinchera no hay muro.
+- Ojo: es casi 2,6 veces Sagunto y llega al tope de nivel 5. La economía la decide Hugo (en su §5 de castellon-bucle.md proponía heredarlo al 15 %).
+- **Hugo (07:45):** usa los 308,69 u, que entran enteros al empezar. Para compensar, sube el H0 de la Colmena a 1400 (equilibrado 14,0 %).

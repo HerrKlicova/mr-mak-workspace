@@ -1,6 +1,6 @@
 {
-  "version": "v1.2",
-  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»",
+  "version": "v1.3",
+  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»; v1.3 22:55: Nules B con los dos flancos (vía y norte), nules-nivel.md §15",
   "fuente": "decisiones-noche.md 09-11 07:40 (reglas de Lucía) y D-N183 (Castellón propia); planos de docs/niveles/*-nivel.md y recintos de Teo (mr-mak a75067c Nules; sagunto-recinto)",
   "convenciones": {
     "pelotones": "Como Plantel.Puesto: x_mm e y_mm son X (este) y Z (norte) de la zona en mm; rumbo_bam16 con 0 = +X (este), 16384 = norte, 32768 = oeste y 49152 = sur (IMath); formacion es el enum Formation (Linea, Columna, Cuna, Circulo, Bloque); tipo es la cadena de Plantel.Tipo. cota_m es la altura del suelo bajo el pelotón (andén o banqueta), solo para la vista.",
@@ -214,20 +214,20 @@
           "rumbo_bam16": 32768,
           "formacion": "Linea",
           "cota_m": 0.68,
-          "puesto": "tramo de HESCO del muro oeste sobre el andén 2 (Z 52,4–59,9), entre la puerta del apartado (Z 46,5–51,5) y la doble (Z 60,8–68,2): cubre las dos"
+          "puesto": "tramo de HESCO del muro oeste sobre el andén 2 (Z 52,4–59,9), entre la puerta del apartado (Z 46,5–51,5) y la doble (Z 60,8–68,2): cubre las dos. Es el flanco de la vía."
         },
         {
           "tipo": "ametralladores",
-          "x_mm": 115000,
-          "y_mm": 81000,
-          "rumbo_bam16": 49152,
+          "x_mm": 87500,
+          "y_mm": 93000,
+          "rumbo_bam16": 24576,
           "formacion": "Linea",
           "cota_m": 0.0,
-          "puesto": "junto al edificio de viajeros, bajo la marquesina adosada, mirando al sur: el apartado (Z 49) queda a 32 m por encima de las vías"
+          "puesto": "esquina noroeste por dentro, entre los dos flancos: tira por encima de los sacos (1,2 m) al oeste (la vía y la entrada Na) y al norte (la explanada y la entrada Nc). Antes iba junto al edificio, mirando al apartado."
         }
       ],
       "vehiculos": [],
-      "nota": "OPCIÓN B (después de la partida de 30 minutos): Nules con su Level y el recinto de Teo a75067c. Recinto de Teo a75067c (nules-nivel.md §14). Un pelotón no se puede partir: los fusileros van en el cruce de andén que hay entre las dos puertas oeste. El pelotón del capítulo 3 del tutorial no entra aquí; lo sigue poniendo el tutorial."
+      "nota": "OPCIÓN B (después de la partida de 30 minutos): Nules con su Level y el recinto de Teo a75067c. Recinto de Teo a75067c (nules-nivel.md §14). Un pelotón no se puede partir: los fusileros van en el cruce de andén que hay entre las dos puertas oeste. El pelotón del capítulo 3 del tutorial no entra aquí; lo sigue poniendo el tutorial. v1.3 (§15): dos flancos que se leen, la vía al oeste (Na, 50 %) y el norte (Nc, 40 %); Nb pasa al 10 % y Nd al 0 %."
     }
   }
 }

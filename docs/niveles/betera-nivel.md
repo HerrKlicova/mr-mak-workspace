@@ -98,3 +98,56 @@ Plano: `betera_plano_v0.png` (script `herramientas/plano_betera_v0.py`, que ya d
 - La garita y la puerta de la valla van después del MVP, en la entrada real de la base (al sur, fuera de la zona).
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 8. Ambiente del aeródromo (Álvaro (3), 8-nov, ~18:50; piezas de Teo en mr-mak 7b4478f, aprobadas por Lucía)
+Hay 51 filas nuevas en `betera_instancias_v1.csv`, con el grupo `ambiente`; el CSV pasa a 270 filas. Están en azul en el plano de comprobación `betera_instancias_v1.png`.
+
+- **Balizas**: 40 tramos de 12 m (`SM_Balizas`). Van en los cuatro lados de P1, P2, P3 y C1, con 2 tramos por lado, centrados en ±6 m del eje y a **1 m por fuera del claro**. Ninguna pisa un claro: lo he comprobado. Lados norte y sur con yaw 0, este y oeste con yaw 90. P1 cuenta con la losa de 30 m. Variante v0 (blancas) en los P y v1 (verdes, de umbral) en C1, que está sobre la pista.
+- **Manga de viento**: (106; 0; 120), junto a P1 y fuera de la losa.
+- **Casetas**: la Oficina (v0) en (116; 0; 30), junto al hangar H1, y el Almacén (v1) en (186; 0; 30), junto al H2. Van con yaw 0, con la puerta al norte, hacia la plataforma.
+- **Torres de luz**: en las cuatro esquinas de la plataforma, a 3 m por dentro: (−7; 27) con yaw 71, (264; 27) con yaw 289, (−7; 120) con yaw 109 y (264; 120) con yaw 251. Los focos apuntan al centro (128,5; 73,5). Con la convención de Teo (focos a −Y de Blender, que es +Z con yaw 0) el yaw sale así; lo confirma Marcos con la primera.
+- **Vallas**: conos con cinta (v3) a 10 m a cada lado de las tres salidas a la pista (X 31, 128 y 226), en Z 121, por dentro del HESCO. En las dos puertas sur (X 36 y 213), barreras jersey (v2) a ±11 m por fuera, en Z −40, y vallas de obra (v0) en chicane en Z −48. Las de las puertas sur quedan fuera de la zona del MVP (`en_zona_mvp` = no).
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 9. Revisión del rearme que propone Iker (Álvaro (3), 8-nov, ~19:20)
+Los largos de las piezas están SIN VERIFICAR; he supuesto unos 8 m.
+- **Medidas reales** (Iker, 19:27): el camión mide 8,0 × 2,45 m y el remolque 3,6 × 2,3 m. **El remolque va en (152; 106,5)** para que se vea enganchado detrás del camión, que ocupa Z 96–104.
+- **Camión y remolque**: los pasa de (135; 100) y (135; 109), que caían dentro de P1 (la losa de 30 m, X 113–143) y encima de sus balizas del este (X 144), a **(152; 100) y (152; 109), con yaw 180**.
+- **Aparcado**: en **(31; 84), con yaw 90**, junto a P2. Con yaw 0 o 180 tocaría las balizas del lado sur, en Z 90,5.
+- **Tapado**: en **(226; 84), con yaw 90**, junto a P3.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 10. FARP del NH90 junto al claro P2: propuesta (Álvaro (3), 8-nov, ~20:10; decisión de Lucía de las 21:15, RA2 de Paula)
+Se compone de una cisterna flexible en el suelo, una manguera tendida, sacos y cajas, **pegado al claro y sin invadirlo**. Lo pongo en **P2** (X 18,5–43,5, Z 91,5–116,5), por el lado este. Es el claro de 25 × 25 m con más sitio libre alrededor, porque entre P2 y P1 hay 69 m de plataforma vacía.
+- **Cisterna flexible**: en (53; 104), con yaw 90 (el largo a lo largo de Z). Queda a 8,5 m de las balizas del lado este (X 44,5).
+- **Sacos**: una U alrededor de la cisterna, abierta hacia el claro: dos tramos en Z 98 y Z 110 (de X 49 a 57) y uno de cierre en X 58,5.
+- **Manguera**: de la cisterna (X 50) al borde del claro (X 44), en Z 104, tendida en el suelo y sin colisión.
+- **Cajas de munición**: en (50; 95), al sur de la U, por fuera.
+
+Comprobado sobre el plano: no pisa P2 ni sus balizas, y no toca el «aparcado» en (31; 84), con yaw 90, ni el camino de rodadura de X 31 (Z 123–154). Las medidas son a la espera de Teo. **Aprobado por Lucía (08-11, 21:20).**
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.1 Colocación con las piezas de Teo (20:20; mr-mak 263c2b8, que todavía es local)
+Son 11 filas del grupo `farp` en `betera_instancias_v1.csv` (pasa a 281). Ninguna lleva colisión.
+- **Cisterna** (Llena) en (53; 104), con yaw 180, para que la manguera de salida (+X local) vaya hacia el claro. La berma ocupa X 49,4–56,6 y Z 101,3–106,7, y la manguera llega hasta X ≈ 45,3, sin pasar de las balizas (X 44,5). Si sale hacia el este, se gira a yaw 0; lo comprueba Marcos.
+- **Sacos** Hilera6: en Z 108,5 y 99,5 (en X 51 y 55), y el cierre este en X 58,5 (Z 102 y 106, con yaw 90).
+- **Carrete** en (46,5; 99). **Cajas**: el palé en (50; 95) y la pila de 4 en (52; 95), con una U de sacos alrededor (yaw 180), abierta hacia la cisterna.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 11. Bétera como zona en la que se entra (Álvaro (3), 9-nov ~22:40; encargo del coordinador con libre albedrío de Eugenio)
+Hasta ahora Bétera se montaba solo en la escena de captura (`Editor/AerodromoCaptura.cs`) y en el juego era un panel. Para que el núcleo de la zona (el de Sagunto) la abra con tropa, NH90 y cámara, dejo tres datos:
+- **[`betera_zona_v1.json`](betera_zona_v1.json)**: el encuadre de 256 × 128 m, el suelo, el recinto (en el encuadre solo entra el muro norte, en Z 124, con 3 puertas), los claros P1–P3, la cámara de inicio en (128; 70) a 60 m, las rutas entre la guarnición y los claros, y las entradas de la horda para después del MVP (todas con peso 0: sin asedios en el MVP).
+- **[`betera_obstaculos_v1.csv`](betera_obstaculos_v1.csv)**: 24 sólidos con las columnas de `sagunto_obstaculos_v1.csv`. Son los hangares, la torre, las 2 torretas, las casetas, el FARP, el camión y el remolque de rearme, las vallas de obra y el muro norte con sus puertas. Las medidas salen de los FBX de Teo (LOD1). Lo genera `herramientas/betera_zona_v1.py`, que comprueba que nada se pisa ni cae en un claro.
+- **Tropa y NH90**: los de `guarnicion_puestos_v1.json` (estación Bétera), que ya están aprobados.
+
+**Dos correcciones que salen al medir los FBX:**
+- **Los hangares miden 64 × 25,9 m**, no 40 × 25. H1 va de X 58 a 122 y H2 de X 128 a 192, y entre los dos quedan 6 m. No los muevo.
+- **Las dos casetas caían dentro de los hangares.** La de (116; 30) pasa a (125; 30) con yaw 90, en el hueco de 6 m entre los dos, y la de (186; 30) pasa a (198; 30). Ya está corregido en `betera_instancias_v1.csv`.
+
+SIN VERIFICAR: que el exportador de Teo no invierta la X. No cambia nada, porque todas estas cajas son simétricas.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

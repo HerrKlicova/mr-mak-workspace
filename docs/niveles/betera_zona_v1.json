@@ -1,0 +1,41 @@
+{
+  "id": "betera_zona",
+  "version": "v1",
+  "autor": "Álvaro (Niveles), 9-nov ~22:40",
+  "para": "Iker: lo que necesita el núcleo de la zona (el mismo que el de Sagunto) para que Bétera se pueda abrir como zona con tropa, NH90 y cámara, y no solo como el panel del aeródromo",
+  "convenciones": "Metros de la zona (X este, Z norte), salvo donde dice mm. Yaw de Unity (0 = +Z). Rumbos de pelotón en bam16 (0 = este, 16384 = norte), como Plantel.Puesto.",
+  "encuadre": {"x0": 0, "z0": -4, "x1": 256, "z1": 124, "nota": "El de reserva de 256 × 128 m (betera-nivel.md §0). Lo que queda fuera (pista, polvorín, combustible, zona de vida) va de faldón, ya marcado con en_zona_mvp=no en betera_instancias_v1.csv"},
+  "suelo": [
+    {"rect": [0, 24, 256, 123], "material": "asfalto 6c7874", "nota": "plataforma (betera_instancias_v1.csv y AerodromoNivel.Plataforma)"},
+    {"rect": [0, -4, 256, 24], "material": "tierra compactada", "nota": "franja sur, entre la plataforma y el borde"},
+    {"rect": [31, -4, 41, 24], "material": "asfalto", "nota": "vial oeste X 36, hacia la puerta suroeste del reducto (36; −36)"},
+    {"rect": [208, -4, 218, 24], "material": "asfalto", "nota": "vial este X 213"}
+  ],
+  "solidos": "betera_obstaculos_v1.csv (24 filas; mismas columnas que sagunto_obstaculos_v1.csv): lo que tapa el paso entra en la NavGrid de vehículos e infantería; lo que tapa la vista, en los LosBlocker de la D-N174",
+  "recinto": {
+    "tipo": "reducto de HESCO (ficción nuestra), X −36–276 por Z −36 a 124",
+    "en_el_encuadre": "solo el muro norte, en Z 124 (el borde de la zona), con 3 puertas de vehículos de 8 m en X 31, 128 y 226",
+    "noche": "En el MVP Bétera no tiene asedios (asedios_mvp: false). El reducto no entra en Obras ni en NightSim: no hace falta WallHp ni pila."
+  },
+  "claros_nh90": [
+    {"id": "P1", "x": 128, "z": 104, "lado": 30, "nota": "helipuerto v4, con rearme (camión en (152; 100))"},
+    {"id": "P2", "x": 31, "z": 104, "lado": 25, "nota": "con el FARP al este"},
+    {"id": "P3", "x": 226, "z": 104, "lado": 25, "nota": "libre"}
+  ],
+  "nh90_inicio": "guarnicion_puestos_v1.json, estación Bétera: NH90 en P1 y P2 con yaw 0",
+  "tropa_inicio": "guarnicion_puestos_v1.json, estación Bétera: 2 pelotones de embarque al sur de P1 y de P2 y la guarnición en el vial X 36 (36000; 20000), mirando al sur",
+  "camara_inicio": {"x": 128, "z": 70, "altura": 60, "nota": "centrada entre los hangares y P1; se ven los tres claros y los dos hangares"},
+  "rutas": [
+    {"de": "guarnición (36; 20)", "a": "P2 (31; 104)", "por": "X 36 y luego la plataforma, al oeste del hangar H1 (X ≤ 58)"},
+    {"de": "P1", "a": "P2 y P3", "por": "Z 80–88, entre los hangares (Z ≤ 53) y los claros (Z ≥ 89)"}
+  ],
+  "entradas_horda_post_mvp": [
+    {"id": "Ba", "rect": [31, -4, 41, 0], "peso": 0, "nota": "por el vial X 36 desde el sur; cuando la Colmena ataque el aeródromo"},
+    {"id": "Bc", "rect": [252, 60, 256, 120], "peso": 0, "nota": "por el este, desde la carretera"},
+    {"id": "Bb", "rect": [0, 60, 4, 120], "peso": 0, "nota": "por el oeste, desde el campo de maniobras"}
+  ],
+  "cambios_sobre_v1": [
+    "Casetas: (116; 30) pasa a (125; 30) con yaw 90 y (186; 30) pasa a (198; 30). Con el hangar real de 64 m caían dentro de los hangares.",
+    "Hangares: el FBX de Teo mide 64 × 25,9 m, no 40 × 25. H1 ocupa X 58–122 y H2 X 128–192: entre los dos quedan 6 m. No se mueven."
+  ]
+}
