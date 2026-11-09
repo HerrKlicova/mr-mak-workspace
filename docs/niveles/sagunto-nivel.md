@@ -759,3 +759,33 @@ Así ninguna tolva entra en el gálibo de la vía 1 (Z 63,0–66,0). En el códi
 - El kit «Aquí pasó algo» (§10.17: la locomotora, la vía rota y la catenaria caída) sigue sin estar en la build. No lo meto ahora.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.24 Acopios de carga: munición, combustible y materiales (encargo de Bruno, 9-nov ~23:10)
+
+Huella de 10 × 6 m (X ± 5, Z ± 3), con el mismo origen que `SM_AcopioViveres`. La variante la manda el estado del acopio: 0 lleno … 4 quemado.
+
+**No valen los sitios provisionales (X 100,5 / 111,5 / 122,5, Z 49,5).** Ocupan X 95,5–127,5 y Z 46,5–52,5, y por eso:
+- pisan el Dragón (99; 51) y los dos VAMTAC (91,5 y 106,5; 51);
+- tapan la salida de la puerta de vehículos sur (X 95–103);
+- cortan el paso de la tropa al sur de la vía en X ≈ 110.
+
+**Sitio definitivo: una fila al sur de la vía, en Z 57,5, con yaw 0 los tres.**
+
+| Acopio | X | Z | Huella |
+|---|---|---|---|
+| `SM_AcopioMunicion` | 102 | 57,5 | X 97–107, Z 54,5–60,5 |
+| `SM_AcopioCombustible` | 121 | 57,5 | X 116–126, Z 54,5–60,5 |
+| `SM_AcopioMateriales` | 148 | 57,5 | X 143–153, Z 54,5–60,5 |
+
+Holguras de la fila:
+- **Postes de catenaria:** su base empieza en Z 61,55 (colocados en Z 63,375, §10.23), así que queda 1 m. El tren de la vía 1 empieza en Z 63,0.
+- **Vehículos:** sus morros llegan a Z ≈ 54, así que queda 0,5 m. Salen hacia el sur por la puerta, de modo que la fila no les estorba.
+- **Almacén del muelle** (X 127,5–142,5, Z 50,3–57,3): 1,5 m al combustible y 0,5 m a los materiales.
+- **Muro este** (cara interior X 155,5): 2,5 m.
+- **Paso entre munición y combustible:** X 107–116, 9 m. Es el paso de la tropa en X 110, que queda libre.
+
+El primer grupo de `SM_Bidones` del kit vivo estaba en (149; 59,5), dentro de la huella de los materiales. **Se mueve a (135; 59,5)**, entre el almacén y la fila de postes; ya está cambiado en `sagunto_vivo_instancias_v1.csv`.
+
+Para el código: `SaguntoZona` tiene que poner los tres acopios en estos sitios y meter las tres cajas en los obstáculos (1,8 m de alto; tapan el paso pero no la vista).
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

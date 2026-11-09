@@ -245,3 +245,28 @@ Plano: [`nules_terreno_b.png`](nules_terreno_b.png) (lo genera `herramientas/pla
 - **Por medir (Nacho)**, cuando Nules pase a la B: la horda de la noche 2 con estas entradas y estos puestos. La emboscada y el 96 % de la A no valen para la B.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+**Lucía (22:15): aprobado** para la opción B, después del MVP. Cuando toque, Nacho mide con los objetivos de siempre (noche 2 con el objetivo cumplido ≥ 90 %; emboscada sin escolta, tren perdido; con escolta ≥ 90 %). Si no se llega, se cambia la cifra de la horda, no el terreno.
+**Suelo (22:20, para Bruno):** `nules_zonas_1m.png` (1 m/px, X −80..336, Z −80..208, mismos ids que Sagunto; `nules_zonas.json`, generador `herramientas/zonas_nules.py`). mr-mak d7d2b89.
+
+## 16. Acopios de carga en Nules (encargo de Bruno, 9-nov ~23:10)
+
+Ya están las filas en `nules_instancias_v02.csv` (grupo `acopios`) y las cajas en `nules_obstaculos_v1.csv`. Los tres van dentro del recinto, al norte del andén 1, en Z 88 y con yaw 0:
+
+| Acopio | X | Huella |
+|---|---|---|
+| Munición | 140 | X 135–145, Z 85–91 |
+| Combustible | 152 | X 147–157, Z 85–91 |
+| Materiales | 164 | X 159–169, Z 85–91 |
+
+Lo que tienen alrededor:
+- **Coches aparcados en Z 81** (X 140–170, que ocupan Z 80–82): pasillo de 3 m.
+- **Muro norte** (cara interior en Z 95,5): pasillo de 4,5 m.
+- **Andén 1 y marquesina** (Z 73,7): más allá de los coches, sin cruce.
+- **Hueco libre:** queda X 170–173, para llegar al tramo HESCO del muro norte.
+
+Las cajas miden 1,8 m de alto, tapan el paso y no la vista. La variante la manda el estado del acopio: 0 lleno … 4 quemado.
+
+**Nules A:** con el terreno de Sagunto que usa la partida de 30 minutos, valen los mismos sitios de Sagunto (§10.24 de sagunto-nivel.md).
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

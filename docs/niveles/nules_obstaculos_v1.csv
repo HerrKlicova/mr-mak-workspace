@@ -32,3 +32,6 @@ huerto_tapia_237_e;tapia;seg;238200;40500;242000;40500;200;2200;si;si;kit de ví
 huerto_tapia_247;tapia;seg;242000;40500;252000;40500;200;2200;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);
 casa_labor;casa;caja;200000;43000;210000;51000;0;9400;si;si;kit de víveres de Teo (mr-mak 263c2b8, local);el porche y el emparrado no chocan
 manzana_norte;casa;caja;126000;111000;210000;121000;0;7000;si;si;nules-nivel.md §15;hilera seguida de 14 casas del kit del pueblo, fachada al sur
+acopio_municion;acopio;caja;135000;85000;145000;91000;0;1800;no;si;Álvaro (nules-nivel.md §16);huella 10 × 6 m
+acopio_combustible;acopio;caja;147000;85000;157000;91000;0;1800;no;si;Álvaro (nules-nivel.md §16);huella 10 × 6 m
+acopio_materiales;acopio;caja;159000;85000;169000;91000;0;1800;no;si;Álvaro (nules-nivel.md §16);huella 10 × 6 m
