@@ -1,0 +1,195 @@
+Mono path[0] = 'C:/Dev/TBD-2/Builds/I-Noche107/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD-2/Builds/I-Noche107/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD-2/Builds/I-Noche107/TBD_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.168 seconds
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 1.300500 ms
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+Warning: No Graphics Device found. Deformation systems will not run.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Entities Graphics package disabled
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.268700 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Rendering.EntitiesGraphicsSystemUtility.RootsHandlerDelegate (System.IntPtr state) [0x00024] in <8e6ea5a5bb18481ab90b4e7296b4af37>:0 
+  at Unity.Entities.UnityObjectRefUtility.RootsHandlerDelegate (System.IntPtr state) [0x00014] in <f511ab2c7ee34895b0d5d07b67765712>:0 
+  at UnityEngine.ResourcesAPIInternal+EntitiesAssetGC.GetAdditionalRoots (System.IntPtr state) [0x0000d] in <398789c008484afa80c3315b7c00257b>:0 
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3202.
+Total: 9.108100 ms (FindLiveObjects: 0.116300 ms CreateObjectMapping: 0.040400 ms MarkObjects: 8.941600 ms  DeleteObjects: 0.009500 ms)
+
+[TBD] Red: desincronización en el tick 5776
+[DIA2] avanzo la red al día 2
+[TBD] guardado del atardecer (día 1, 19:01)
+[DIA2] día 2, 06:36
+[TREN] enviado 1 Costa de Sagunto a Nules: carga 0/0/0/0/0, ETA 0:21
+[DIA2] primer tren a Nules
+[MAPA] D-N182 masa en marcha hacia Valencia: 10,0 km, rumbo al este, 1090 zombis, llega a las 10:00
+[AVISO] Horda en 3 h anunciada: nodo 2, tick 32551, empieza en el tick 35700, t = 12,4 s
+[TREN] llega a Nules y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[TREN] enviado 1 Costa de Nules a Sagunto: carga 0/0/0/0/0, ETA 0:21
+[DIA2] el primer tren vuelve a Sagunto (deja libre el andén de Nules)
+[TREN] llega a Sagunto y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[DIA2] sin escolta (-dia2-auto-sinescolta)
+[TREN] enviado 1 Costa de Sagunto a Nules: carga 25/0/0/0/0, ETA 0:21
+[DIA2] segundo tren a Nules sin escolta y 25 u
+[MAPA] EM-1 Emboscada en Nules: unos 300 zombis atacan el 1 Costa fuera de la puerta este.
+[TREN] llega a Nules y se aparca (carga 25 u, 0 pelotón, 0 vehículo)
+[DIA2] emboscada: nodo Nules, 300 zombis, en pantalla False, rechazada False, cercado True
+[TREN] descarga en Nules (el tren se queda)
+[DIA2] el tren entra en Nules y descarga (08:28)
+[AVISO] asedio EMPIEZA: nodo 2, tick 35771, t = 24,0 s, avisado hace 11,6 s reales
+[MAPA] D-N182 masa en marcha hacia Nules: 10,0 km, rumbo al sur, 2200 zombis, llega a las 22:00
+[MAPA] Hay un tren parado en Nules. Sácalo antes de la noche o puede perderse.
+[AVISO] Horda en 3 h anunciada: nodo 4, tick 45211, empieza en el tick 48300, t = 28,0 s
+[TBD] guardado del atardecer (día 2, 19:03)
+[TREN] enviado 1 Costa de Nules a Sagunto: carga 0/0/0/0/0, ETA 0:21
+[DIA2] 19:30: el tren sale de Nules hacia Sagunto antes de la noche
+[DIA2] 21:02: objetivo del día 2 no cumplido (tropa False, munición 0 u); entro en Nules para la noche 2
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.212400 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Rendering.EntitiesGraphicsSystemUtility.RootsHandlerDelegate (System.IntPtr state) [0x00024] in <8e6ea5a5bb18481ab90b4e7296b4af37>:0 
+  at Unity.Entities.UnityObjectRefUtility.RootsHandlerDelegate (System.IntPtr state) [0x00014] in <f511ab2c7ee34895b0d5d07b67765712>:0 
+  at UnityEngine.ResourcesAPIInternal+EntitiesAssetGC.GetAdditionalRoots (System.IntPtr state) [0x0000d] in <398789c008484afa80c3315b7c00257b>:0 
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3234.
+Total: 1.611700 ms (FindLiveObjects: 0.115500 ms CreateObjectMapping: 0.061900 ms MarkObjects: 1.361300 ms  DeleteObjects: 0.072900 ms)
+
+[D-N80] horda con TBD/Horda: 5 siluetas, 1 material
+[TBD] Zona Nules: 0 zombis (deriva) creados en 42,5 ms
+[NULES] opción A: placa «NULES» en la fachada; sin el pueblo de Sagunto
+[BRUMA] D-N182: franja de 28 m en los bordes de la zona y zoom de noche hasta 35
+[NOCHE] InitNight en el tick ECS 0 (frame 1512, Active=True)
+[NOCHE] noche de Nules: nules.json
+[NOCHE] nules.json (normal): el tren no es derrota
+[NOCHE] almacén de munición de la zona: min(tope 47, reserva 0) = 0 u
+[NOCHE] plantel de Nules: 2 pelotones
+[NOCHE] tren en Nules: 1 Costa (en el andén); rectángulo del tren en la zona X 160,0–224,0, Z 62,9–66,1 m; edificio X 98,0–114,0, Z 75,0–83,0; escolta 0 pelotón(es) en (71,5; 70,5); el tren no es derrota
+[LUZ] noche: sun=Directional Light _sun=Directional Light ambiente=RGBA(0.274, 0.296, 0.385, 1.113) sondaDC=(0,061; 0,071; 0,123) sombranoche=0.75 | Directional Light Directional i=0,338 sombras=Soft fuerza=1 | URP sombraDist=50 luzPrincipalSombras=True
+[SOMBRA] 2× Universal Render Pipeline/Lit col=969173 tex=- cola=2000 capa=0 · p. ej. Suelo este y=-0.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 28× Universal Render Pipeline/Lit col=FFFFFF tex=- cola=2000 capa=0 · p. ej. SM_poste_catenaria_LOD1 y=0.00..8.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=605C48 tex=- cola=2000 capa=0 · p. ej. Balasto de la zona y=0.01..0.05 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=7C3C18 tex=- cola=2000 capa=0 · p. ej. Puerta este hoja S y=0.60..3.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=6C7874 tex=- cola=2000 capa=0 · p. ej. Calle de la Estación y=0.02..0.08 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 4× Universal Render Pipeline/Lit col=94948C tex=- cola=2000 capa=0 · p. ej. Puerta este jamba S y=0.00..3.20 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 5× Universal Render Pipeline/Lit col=B4A080 tex=- cola=2000 capa=0 · p. ej. Terreno y=-4.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Sprites/Default col=- tex=- cola=2000 capa=0 · p. ej. Sombra de masa y=0.02..0.02 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=48403C tex=- cola=2000 capa=0 · p. ej. Grieta calle y=0.08..0.10 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=88885C tex=- cola=2000 capa=0 · p. ej. Caña y=-4.60..-2.80 recibeSombra=True sondas=BlendProbes
+[LUCES] Directional Light (padre -) Directional i=0,34 alcance=10 sombras=Soft fuerza=1 pos=(0, 3, 0) color=BFCCFF
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 79) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 50) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 65) color=FFC850
+[SOMBRA] materiales de variantes en la build (recorte por alfa): SÍ
+[SOMBRA] variante de emisión: SÍ (_EMISSION activa)
+[SOMBRA] sondas de luz en la escena: ninguna · mapas de luz: 0 · modo ambiente: Flat · reflejo: Skybox
+[SOMBRA] pieza Balasto de la zona centro=(128.0, 0.0, 64.5) tam=(756.0, 0.0, 4.0) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=605C48FF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía centro=(128.0, 0.1, 64.5) tam=(756.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 62.6) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 balasto centro=(-100.0, 0.0, 59.5) tam=(300.0, 0.0, 3.4) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=48403CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 61.4) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 centro=(-100.0, 0.1, 59.5) tam=(300.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 35 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[NOCHE] título: Nules · 2 pelotones
+[NOCHE] muros_obras=0
+[NOCHE] reloj_x=103 municion_u=0 materiales_u=40 combustible_u=30 almacen_combustible_u=16
+[NOCHE] vehículos de Nules: 0 ()
+[NOCHE] linea de vision: 35 solidos del inventario
+[NOCHE] prueba: -nightbot (NightBot de Nacho)
+[NOCHE] oleada=1 hora=22:00 total=2200 ammo_u=0,0 recargas=0 pila=0 muro_permil=1000 bajas=0
+[NOCHE] sólido del tren en X 160,0–224,0
+[TBD] tick 0: hash idéntico en los dos mundos (3B51590C6B8FC821)
+[Pila] mallas de la pila cargadas (5 alturas x 3 semillas, con remates)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] Grietas de la muestra: 10 decals
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 7 decals
+[TBD] Grietas de la muestra: 14 decals
+[TBD] Grietas de la muestra: 9 decals
+[TBD] Grietas de la muestra: 14 decals
+[TBD] Grietas de la muestra: 51 decals
+[TBD] Grietas de la muestra: 37 decals
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 16 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] tick 300: hash idéntico en los dos mundos (8EFCA1EACA9ECCD8)
+[TBD] Grietas de la muestra: 1 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[NOCHE-DIAG] tren=1 estacion=0 hora=22:22 muro_permil=1000 zombis_cerca=
+[NOCHE-DIAG] muros_obras 
+[TBD] Grietas de la muestra: 12 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Suelo este kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Grieta carretera kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 59 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 0 decals
+[NOCHE] sólido del tren en X 838,5–902,5
+[NOCHE] se ha perdido el 1 Costa con su carga (la noche sigue)
+[TBD] Grietas de la muestra: 0 decals
+[TBD] tick 600: hash idéntico en los dos mundos (E2B0CD0E5AB13E3A)
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 1 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Suelo por trozos precargado: 37 trozos
+[TBD] Grietas de la muestra: 4 decals
+[NOCHE-DIAG] tren=49 estacion=0 hora=22:50 muro_permil=1000 zombis_cerca=
+[TBD] tick 900: hash idéntico en los dos mundos (D5458D283D7941EA)
+[TBD] tick 1200: hash idéntico en los dos mundos (C5C3034FAC8D8BAE)
+[NOCHE-DIAG] tren=112 estacion=0 hora=23:17 muro_permil=1000 zombis_cerca=
+[TBD] tick 1500: hash idéntico en los dos mundos (7DF9954195C37C4B)
+[TBD] tick 1800: hash idéntico en los dos mundos (5ADBC0F99AB4F04D)
+[NOCHE-DIAG] tren=160 estacion=0 hora=23:45 muro_permil=1000 zombis_cerca=(154,4;65,0) (154,6;65,0) (143,0;67,9) (157,2;64,8) (138,0;69,0) (140,8;68,3) (158,5;64,8) (142,7;67,8) 
+[AVISO] asedio EMPIEZA: nodo 4, tick 48303, t = 37,4 s, avisado hace 9,5 s reales
+[TBD] tick 2100: hash idéntico en los dos mundos (84F195058D84F1F1)
+[NOCHE-DIAG] tren=124 estacion=1 hora=00:12 muro_permil=1000 zombis_cerca=(154,2;65,2) (112,9;74,9) (106,9;74,7) (111,0;74,8) (113,9;74,9) (143,7;67,8) (114,5;74,9) (146,0;66,9) 
+[TBD] tick 2400: hash idéntico en los dos mundos (49D3DB501D33E26C)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 2700: hash idéntico en los dos mundos (65E96B012A9AAAE0)
+[NOCHE-DIAG] tren=83 estacion=33 hora=00:40 muro_permil=1000 zombis_cerca=(114,5;75,0) (112,5;75,0) (84,4;64,6) (114,5;75,0) (114,5;75,0) (84,9;64,8) (114,5;75,0) (85,4;65,0) 
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Suelo este kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Grieta carretera kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 72 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[TBD] tick 3000: hash idéntico en los dos mundos (A3A4C9195886450D)
+[NOCHE] resultado=derrota causa=estacion abatidos=363 bajas=14 municion_gastada_u=1,6 municion_restante_u=0,0 combustible_gastado_u=0 pila_max=0 pila_estacion_max=435 recargas=0 desync=False hora_fin=01:02
+[NOCHE-ARMAS] pelotones: [1 Fusileros u=1,50 abatidos=329 pila=0 abatidos_u=219 MgLigera=99 Lanzagranadas=139 Fusil=91 explosiones_Lanzagranadas=16 abatidos_por_explosion_Lanzagranadas=8,69 recargas=0 recargado_u=0,00] [2 Ametralladores u=0,14 abatidos=34 pila=0 abatidos_u=247 Fusil=34 recargas=0 recargado_u=0,00] | vehiculos: | almacen: inicio_u=0,00 fin_u=0,00 entregado_pelotones_u=0,00 entregado_vehiculos_u=0,00 | dotacion: inicio_u=5,50 fin_u=3,86 | consumo_real_u=1,64 abatidos_pelotones=363 abatidos_vehiculos=0 abatidos_u_total=222 abatidos_u_infanteria=222
+[TBD] tick 3300: hash idéntico en los dos mundos (7D8B2692D7C7B51D)
+[TBD] tick 3600: hash idéntico en los dos mundos (203968943C88E8E8)
+[TBD] tick 3900: hash idéntico en los dos mundos (D4EE45ABBCC798AD)
+[TBD] tick 4200: hash idéntico en los dos mundos (9C228E5E3FEA4EDF)
+[TBD] tick 4500: hash idéntico en los dos mundos (16C6BA6D11871FF1)
+[TBD] tick 4800: hash idéntico en los dos mundos (520A9D63A4AB2CB7)
