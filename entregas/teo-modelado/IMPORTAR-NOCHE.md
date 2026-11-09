@@ -103,3 +103,17 @@ Lucía pidió quitar de las piezas el d4d0cc, que es el color de selección. Los
 No hay que tocar las paletas: tienen los mismos píxeles. Los detalles y la lista completa están en [colores-reservados/LEEME.md](colores-reservados/LEEME.md). Las fachadas encaladas siguen en d4d0cc hasta que Lucía decida.
 
 — Teo · [retrato](/mnt/project-files/equipo/retrato_teo_64_x4.png)
+
+## 5 · Recinto de Sagunto con el kit de defensas (9-nov)
+La lista de colocación (33 piezas y 3 puertas, revisada por Álvaro) está en [sagunto-recinto/LEEME.md](sagunto-recinto/LEEME.md). De este paquete solo necesita copiar los 40 FBX de `defensas/sacos/SM_SacosRemateEspejo_*` a `Models/Defensas/sacos/`, y en el bucle de postes de catenaria saltarse X 60 y X 110.
+
+## 6 · Carga del vagón en b4a080 (9-nov, Lucía)
+De noche, la carga 845c28 quedaba a ΔL* 1,7 del lateral en la build (Sara). Lucía elige **b4a080** entre las 5 candidatas ([carga-vagon-noche/LEEME.md](carga-vagon-noche/LEEME.md)). Si la medida de Sara tras la reimportación no llega a 8, el plan B es f0dc9c.
+
+**Copia estos 4 FBX encima de los que ya hay** (sustituyen a los de §1):
+- `tren-dn157/r2_vagon_tropa/juego/SM_R2_VagonTropa_LOD0.fbx` y `juego/lod1/SM_R2_VagonTropa_LOD1.fbx` → `Models/R2/`.
+- `tren-dn157/tren_cercano/vagon_v2/SM_Vagon_Cercano_v2_LOD0.fbx` y `_LOD1.fbx` → `Models/Vehiculos/tren/vagon_v2/`.
+
+Las mallas, los nombres de nodo y la paleta son idénticos (comprobado vértice a vértice); solo cambia el píxel de la carga. No queda 845c28 ni d4d0cc. La copia de `r2_vagon_tropa/v3/` es la vieja: no la uses (§3.6).
+
+— Teo · [retrato](/mnt/project-files/equipo/retrato_teo_64_x4.png)

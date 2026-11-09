@@ -413,8 +413,8 @@ tren-dn157/tren_cercano/vagon_v0/SM_Vagon_Cercano_v0_LOD0.fbx;84e1194;Models/Veh
 tren-dn157/tren_cercano/vagon_v0/SM_Vagon_Cercano_v0_LOD1.fbx;84e1194;Models/Vehiculos/tren/vagon_v0/SM_Vagon_Cercano_v0_LOD1.fbx;CAMBIA;960;SM_bloques.vagon_cercano_v0_LOD1;Ventanillas;5ea22ab501dc
 tren-dn157/tren_cercano/vagon_v1/SM_Vagon_Cercano_v1_LOD0.fbx;84e1194;Models/Vehiculos/tren/vagon_v1/SM_Vagon_Cercano_v1_LOD0.fbx;CAMBIA;1476;SM_bloques.vagon_cercano_v1_LOD0;Ventanillas;16e791696905
 tren-dn157/tren_cercano/vagon_v1/SM_Vagon_Cercano_v1_LOD1.fbx;84e1194;Models/Vehiculos/tren/vagon_v1/SM_Vagon_Cercano_v1_LOD1.fbx;CAMBIA;1200;SM_bloques.vagon_cercano_v1_LOD1;Ventanillas;54489c5835a6
-tren-dn157/tren_cercano/vagon_v2/SM_Vagon_Cercano_v2_LOD0.fbx;109ba85;Models/Vehiculos/tren/vagon_v2/SM_Vagon_Cercano_v2_LOD0.fbx;CAMBIA;2720;SM_bloques.vagon_cercano_v2_LOD0;Emision;9a7149df9f07
-tren-dn157/tren_cercano/vagon_v2/SM_Vagon_Cercano_v2_LOD1.fbx;109ba85;Models/Vehiculos/tren/vagon_v2/SM_Vagon_Cercano_v2_LOD1.fbx;CAMBIA;1088;SM_bloques.vagon_cercano_v2_LOD1;Emision;c5def6c36a7c
+tren-dn157/tren_cercano/vagon_v2/SM_Vagon_Cercano_v2_LOD0.fbx;§6 carga b4a080;Models/Vehiculos/tren/vagon_v2/SM_Vagon_Cercano_v2_LOD0.fbx;CAMBIA;2720;SM_bloques.vagon_cercano_v2_LOD0;Emision;7986437d6786
+tren-dn157/tren_cercano/vagon_v2/SM_Vagon_Cercano_v2_LOD1.fbx;§6 carga b4a080;Models/Vehiculos/tren/vagon_v2/SM_Vagon_Cercano_v2_LOD1.fbx;CAMBIA;1088;SM_bloques.vagon_cercano_v2_LOD1;Emision;ea0d5912a5f7
 tren-dn157/tren_cercano/vagon_v3/SM_Vagon_Cercano_v3_LOD0.fbx;84e1194;Models/Vehiculos/tren/vagon_v3/SM_Vagon_Cercano_v3_LOD0.fbx;CAMBIA;1400;SM_bloques.vagon_cercano_v3_LOD0;Emision;89b959847cf2
 tren-dn157/tren_cercano/vagon_v3/SM_Vagon_Cercano_v3_LOD1.fbx;84e1194;Models/Vehiculos/tren/vagon_v3/SM_Vagon_Cercano_v3_LOD1.fbx;CAMBIA;896;SM_bloques.vagon_cercano_v3_LOD1;Emision;0bc8d037a90b
 tren-dn157/tren_cercano/vagon_v4/SM_Vagon_Cercano_v4_LOD0.fbx;84e1194;Models/Vehiculos/tren/vagon_v4/SM_Vagon_Cercano_v4_LOD0.fbx;CAMBIA;872;SM_bloques.vagon_cercano_v4_LOD0;;908c61e5be12
@@ -423,5 +423,5 @@ tren-dn157/tren_cercano/vagon_v5/SM_Vagon_Cercano_v5_LOD0.fbx;84e1194;Models/Veh
 tren-dn157/tren_cercano/vagon_v5/SM_Vagon_Cercano_v5_LOD1.fbx;84e1194;Models/Vehiculos/tren/vagon_v5/SM_Vagon_Cercano_v5_LOD1.fbx;CAMBIA;680;SM_bloques.vagon_cercano_v5_LOD1;;004ec8d00814
 tren-dn157/r1_locomotora/SM_R1_Locomotora_LOD0.fbx;5018dd0;Models/R1/SM_R1_Locomotora_LOD0.fbx;CAMBIA;2096;SM_R1_Locomotora_LOD0;;4f65c2099649
 tren-dn157/r1_locomotora/lod1/SM_R1_Locomotora_LOD1.fbx;5018dd0;Models/R1/SM_R1_Locomotora_LOD1.fbx;CAMBIA;1384;SM_R1_Locomotora_LOD1;;fe1d41673eeb
-tren-dn157/r2_vagon_tropa/juego/SM_R2_VagonTropa_LOD0.fbx;d06af89;Models/R2/SM_R2_VagonTropa_LOD0.fbx;CAMBIA;1808;SM_R2_VagonTropa_LOD0;;2b2f5dbf45dc
-tren-dn157/r2_vagon_tropa/juego/lod1/SM_R2_VagonTropa_LOD1.fbx;d06af89;Models/R2/SM_R2_VagonTropa_LOD1.fbx;CAMBIA;848;SM_R2_VagonTropa_LOD1;;fd12b8ca595e
+tren-dn157/r2_vagon_tropa/juego/SM_R2_VagonTropa_LOD0.fbx;§6 carga b4a080;Models/R2/SM_R2_VagonTropa_LOD0.fbx;CAMBIA;1808;SM_R2_VagonTropa_LOD0;;128c003b8b69
+tren-dn157/r2_vagon_tropa/juego/lod1/SM_R2_VagonTropa_LOD1.fbx;§6 carga b4a080;Models/R2/SM_R2_VagonTropa_LOD1.fbx;CAMBIA;848;SM_R2_VagonTropa_LOD1;;cb5231a0a466
