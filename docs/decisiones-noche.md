@@ -2870,3 +2870,7 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 03:42 · -sombranoche = 0,75 y la sombra fija pasa de 090a10 a 1c1e28 (Lucía, con la medida de Sara en la I-Noche80)
 - Con la luz ya corregida, 0,75 es el valor más oscuro con el que la carga cumple (8,2). Sustituye al 0,65 provisional.
 - La sombra del tren es un color fijo de la pasada pixelada (090a10, L* 2,8) y no luz. Pasa a 1c1e28 (L* 11,5, el mismo tinte azul): la horda queda a 9,5 o más y la sombra sigue por debajo del balasto. Condición: 1c1e28 tiene que ser una entrada de la paleta de 32; si no lo es, Bruno usa la entrada más cercana que cumpla. Sara lo vuelve a medir.
+- 03:49: Bruno no encuentra en el código ningún color fijo de sombra (090a10 no está en la paleta). Lo que se ve bajo el tren puede ser una pieza de albedo casi negro o el SSAO (SIN VERIFICAR); su build lleva un diagnóstico para averiguarlo. El objetivo no cambia: que esa zona quede en L* ≥ 10 y por debajo del balasto iluminado, toque lo que toque. -sombranoche 0,75 ya es el valor por defecto (902902d3).
+
+## 09-11 04:19 · Condición del turbo cumplida (Sara, qa44/noche76/VEREDICTO-sara.md)
+- comparar-turbo de la Noche76 con -Turbo 8: 9 de 9 pares idénticos tick a tick en las tres dificultades. Las estadísticas de la build pueden ir con -turbo 8. Las 100 semillas en normal van con la Noche82. Si una build cambia el bucle de simulación, se vuelve a comprobar con un par por dificultad.
