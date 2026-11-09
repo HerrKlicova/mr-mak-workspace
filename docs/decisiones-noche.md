@@ -3120,3 +3120,8 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - Fuera la frase condicional del 1.3. Si la estación no tiene vehículos, el 1.6b y el 1.6c no salen.
 - **Regla general (lo que encontró Sara)**: en los pasos que se cierran por tiempo, el tiempo cuenta desde que el texto termina de escribirse, y ningún paso se ve menos de 3 s.
 - Ojo, Iker: la ayuda dice «6-8 vehículos», pero en la captura las tarjetas 6 y 7 son los tiradores de la azotea. Por eso el texto no da números. Que las teclas cuadren con las tarjetas.
+
+## 09-11 21:58 · Interfaz v3 (propuesta del hilo de rediseño, pendiente del sí de Eugenio): condiciones de diseño (Lucía)
+- La propuesta está en https://claude.ai/artifact/RN1FJnAfriYpcEX8HGxh9T. Parte de la interfaz v2 (D-N147), con un fondo oliva casi negro, el objetivo arriba en el centro, un panel de trabajo único a la izquierda y las fuentes Barlow Condensed, Barlow e IBM Plex Mono.
+- Condiciones: los estados solo usan d4d0cc, e08c30 y 982420. El oliva #8ea35a no se usa nunca para un estado. #d65a48 solo es la versión en texto del 982420. Todos los pares que se tocan cumplen ΔL* ≥ 8. Los textos y los tiempos del tutorial no cambian. El recuadro del objetivo del día 2 va arriba en el centro.
+- No se toca código hasta que Eugenio dé su sí y el MVP esté cerrado. Si lo aprueba, será la D-N185.
