@@ -2863,3 +2863,10 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 - Es el valor más oscuro que cumple: con 0,55 la carga baja a 7,7 contra el lateral, y con 0,65 queda en 8,5.
 - La sombra del tren en el balasto sigue en L* ≈ 3 porque esa zona no recibe el ambiente. Bruno lo arregla en el shader (shadowStrength o sumar el ambiente en la sombra) con la regla de las 02:02. Sara lo vuelve a medir.
 - 03:03: Bruno encuentra la causa: la sonda de ambiente no se rehacía durante la partida (claude/sombra-tren 071d8ce, sin compilar). El 0,65 queda PROVISIONAL hasta que Sara repita, con esa build, la sombra del tren y la carga contra el lateral. Si con la luz corregida otro valor más oscuro cumple, gana ese.
+
+## 09-11 03:05 · La obra en curso de Sagunto espera; la zona no pasa a WallJob antes del MVP (Lucía)
+- Pasar la zona de Tramos.cs a WallJob es un cambio de fondo a dos días del MVP, solo para un detalle visual (la obra era la prioridad 4). Primero van el muro con RecintoPlan, las puertas y la pila. Se vuelve a mirar después de la primera partida de Eugenio. 2c3d9a0 queda aparcado.
+
+## 09-11 03:42 · -sombranoche = 0,75 y la sombra fija pasa de 090a10 a 1c1e28 (Lucía, con la medida de Sara en la I-Noche80)
+- Con la luz ya corregida, 0,75 es el valor más oscuro con el que la carga cumple (8,2). Sustituye al 0,65 provisional.
+- La sombra del tren es un color fijo de la pasada pixelada (090a10, L* 2,8) y no luz. Pasa a 1c1e28 (L* 11,5, el mismo tinte azul): la horda queda a 9,5 o más y la sombra sigue por debajo del balasto. Condición: 1c1e28 tiene que ser una entrada de la paleta de 32; si no lo es, Bruno usa la entrada más cercana que cumpla. Sara lo vuelve a medir.
