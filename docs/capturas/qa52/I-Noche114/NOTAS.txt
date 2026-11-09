@@ -1,0 +1,9 @@
+qa52 sobre la I-Noche114 - Marcos, 10-11 ~01:00
+S1 (entrar en Nules a las 09:00 del dia 2, -dia2-auto -dia2-auto-enzona): SIGUE. La zona arranca la noche:
+  «oleada=1 hora=22:00 total=2200 ammo_u=0», HUD a las 22:00, almacen 0 u al entrar.
+  Mejora frente a la 112: el tren llega, descarga sus 25 u («Descargado en Nules: 25 u al almacen»), la emboscada de 300 se rechaza
+  entera (300 abatidos, 0 bajas) y el tren no se pierde. Despues entra la horda de la noche (22:43) y a las 00:33 van 656 abatidos y 14 bajas.
+  Capturas S1_*.png. Lo arregla el reloj unico (Iker, iker/reloj-unico).
+-ui3 en el mapa de cerca: ui3_mapa_cerca.png. Las de 150 km y 300 km no las he podido sacar: sin bandera de distancia, la rueda
+  simulada no llego a alejar el mapa.
+Sin hacer en esta pasada: «Preparar tren» con -ui3 y Sagunto de dia a z26 junto al muelle (-zona arranca de noche).
