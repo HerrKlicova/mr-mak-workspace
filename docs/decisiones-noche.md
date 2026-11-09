@@ -2926,3 +2926,7 @@ Con el rodeo del edificio en la build, la difícil de 6470 gana 20/20 (Noche86ro
 
 ## 09-11 07:26 · Hordas de decenas de miles: objetivo firme después del MVP (Eugenio)
 - Eugenio acepta que no estén en el MVP, pero las quiere en el juego. Queda como objetivo firme en el GDD (v1.14, §15b) y en el tablón, en el apartado «fuera del MVP». Las dos vías y el estudio están en la entrada de las 07:14 y siguientes.
+
+## 09-11 07:35 · Tutorial 2.4 atascado (Eugenio): opción A más una condición de entrada (Lucía)
+- A: si «Reparar» está bloqueado por zombis en el tramo, el paso explica el motivo y se cierra solo a los ~8 s. No se aparta la horda (B), porque enseñaría algo que el juego no hace.
+- Condición: el capítulo 2 empieza cuando no queda horda junto al tramo dañado que señala (o a los 30 s, como máximo). Textos en tutorial-textos.md. Lo implementa Iker.

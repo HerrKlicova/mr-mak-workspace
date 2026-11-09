@@ -65,7 +65,8 @@ Idea de Eugenio: como defender Sagunto parece difícil, se aprovecha para enseñ
 | 3.5 | «Destino: Sagunto. Mira el ETA y envíalo.» | Nodo de Sagunto, el ETA y el botón Enviar | Tren en marcha |
 | 3.6 | «Vuelve a Sagunto y aguanta: doble clic en Sagunto o acerca la cámara. La ayuda llega en 0:xx.» | Nodo de Sagunto | Vuelta a la zona |
 | 3.7 | (Al llegar el tren:) «Sagunto está sitiada: el tren espera en la puerta este. Baja la tropa.» | El tren fuera del muro y el botón Descargar | Tropa en tierra (D-N152, D-N166) |
-| 3.8 | «Llévalos al flanco sur y dispara desde ahí. Si te pegas a la horda, irá a por ellos.» (D-N175) | Punto del flanco sur, hacia (100; 34) | Orden de mover o de atacar dada; acaba el tutorial |
+| 3.8 | «Llévalos al flanco sur y limpia el muro desde ahí.» (revisado 08-11 24:58) | Punto del flanco sur en (100; 34), recorrido (192; 60) → (160; 40) → (100; 34) | Orden de mover o de atacar dada; acaba el tutorial |
+| 3.8b (condicional) | «La horda va a por ellos: retrocede hacia el este disparando, corres más que ellos.» (D-N175) | Solo si un zombi se acerca a ≤25 m del pelotón; entonces sale la flecha de retirada hasta R2 (160; 38) | Pelotón a más de 25 m de la horda |
 
 - Mientras el tren va de camino, en el mapa sale «Refuerzos de Nules · llegan en 0:xx». Al llegar, aviso en hueso: «Tren a las puertas de Sagunto».
 - Al acabar no hay tarjeta de fin. La noche sigue hasta acabar con la horda (D-N164).
@@ -94,3 +95,8 @@ Sale al amanecer, después de la primera noche. **También sale si el tutorial s
 | 5b | (Si Nules está sitiada:) «Nules está sitiada: la carga se queda a bordo hasta que se despeje.» | Asedio levantado (vuelve al 5) |
 | 6 | «Devuelve el tren a Sagunto.» | Tren en Sagunto |
 | Fin | «Cumplido. Nules tiene munición para aguantar.» | — |
+
+## 09-11 07:35 · Capítulo 2, paso 2.4 (Reparar): arreglo del atasco (Lucía)
+- Texto nuevo del 2.4: «Abajo a la derecha, pulsa «Reparar». Gasta materiales y tarda un poco.»
+- Si el botón está bloqueado porque hay zombis pegados al tramo, el paso cambia a: «No se puede reparar con zombis encima del muro. Límpialo primero.» y se cierra solo a los ~8 s, y el capítulo sigue.
+- Además: el capítulo 2 no empieza mientras quede horda a menos de unos 15 m del tramo dañado que señala. Si no se cumple, el paso 1.x final espera (sin texto nuevo) hasta que se cumpla o pasen 30 s.
