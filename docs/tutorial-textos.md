@@ -64,7 +64,7 @@ Idea de Eugenio: como defender Sagunto parece difícil, se aprovecha para enseñ
 | 3.4 | «Nules tiene un tren en el andén y un pelotón de fusileros. Abre Preparar tren y sube el pelotón.» | La tarjeta del pelotón y el botón Preparar tren | Pelotón a bordo |
 | 3.5 | «Destino: Sagunto. Mira el ETA y envíalo.» | Nodo de Sagunto, el ETA y el botón Enviar | Tren en marcha |
 | 3.6 | «Vuelve a Sagunto y aguanta: doble clic en Sagunto o acerca la cámara. La ayuda llega en 0:xx.» | Nodo de Sagunto | Vuelta a la zona |
-| 3.7 | (Al llegar el tren:) «Sagunto está sitiada: el tren espera en la puerta este. Baja la tropa.» | El tren fuera del muro y el botón Descargar | Tropa en tierra (D-N152, D-N166) |
+| 3.7 | (Al llegar el tren:) «Sagunto está sitiada: el tren espera fuera de la puerta oeste. Baja la tropa.» | El tren fuera del muro y el botón Descargar | Tropa en tierra (D-N152, D-N166) |
 | 3.8 | «Llévalos al flanco sur y limpia el muro desde ahí.» (revisado 08-11 24:58) | Punto del flanco sur en (100; 34), recorrido (192; 60) → (160; 40) → (100; 34) | Orden de mover o de atacar dada; acaba el tutorial |
 | 3.8b (condicional) | «La horda va a por ellos: retrocede hacia el este disparando, corres más que ellos.» (D-N175) | Solo si un zombi se acerca a ≤25 m del pelotón; entonces sale la flecha de retirada hasta R2 (160; 38) | Pelotón a más de 25 m de la horda |
 

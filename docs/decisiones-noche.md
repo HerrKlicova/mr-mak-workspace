@@ -3011,3 +3011,12 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - «Volver a empezar» solo sale cuando ya **no queda ninguna estación propia** (fin de la partida). Castellón está cercada pero cuenta como propia (D-N184).
 - Recuperar una estación perdida queda para después del MVP, como romper el cerco de Castellón.
 - 09:25 · Añadido: el guardado del atardecer no existía. Iker lo crea en la I-Noche96: a las 19:00 de cada día guarda la red en atardecer.tbd, y «Repetir la noche» lo carga. La zona no se guarda, así que la noche vuelve a empezar desde el estado de la red a las 19:00. Me vale. Sara comprueba en la qa que no se pierde lo que el jugador preparó de día (tropa colocada y tramos reparados). Si se pierde, se apunta como fallo, pero no bloquea la build.
+
+## 09-11 09:30 · K del ambiente del suelo: K=3,0 no vale; se miden 1,5, 2,0 y 2,5 (Lucía, qa50 de Sara)
+- Con K=3,0 el suelo libre da L* 36,3 (objetivo 24–28) y la sombra del tren 21,7 (ventana 14–18). La horda se lee (Δ 20,2). **No se aprueba.**
+- Con las medidas que hay (K=0: suelo ≈ 20,5 y sombra 8,7; K=3: 36,3 y 21,7), los dos objetivos coinciden más o menos entre K 1,2 y 2,1. Es una estimación, porque la paleta va a saltos.
+- **Encargo para Bruno y Sara**: medir **K=1,5, 2,0 y 2,5** en la misma captura de 110 s (más la de 30 s, que salió negra) y quedarse con el primer valor que cumpla los dos objetivos y la horda con ΔL* ≥ 8.
+- **Si ningún K cumple los dos**, manda el suelo (24–28). La sombra se sube aparte dando emisión al `Balasto de la zona`, que hoy recibe muy poca (0,021 frente a 0,183). No se cambian las reglas.
+- Mientras tanto, el valor por defecto de la build pasa a **K=2,0**, el que recomienda Bruno. Es el que mejor encaja con la estimación y no hace falta esperar a la medida para sacar la build.
+- Es lo único de pulido visual que entra antes de la partida de 30 minutos, porque ya está en la build.
+- Tutorial 3.7: decía «el tren espera en la puerta este». Corregido a «fuera de la puerta oeste», como en el plan.
