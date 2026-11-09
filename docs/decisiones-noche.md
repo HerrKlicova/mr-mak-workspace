@@ -2810,3 +2810,15 @@ Con el barrido de Nacho (D-N180, caso de referencia D-N179): Nules desde la noch
 ## 09-11 01:22 · Informe: huecos de la red y tope de fuego en el director (Lucía, sobre 28ba0fd de Nacho)
 - {zona} en la memoria de atención es el nodo propio olvidado (más de 6 h sin mirarse; si hay varios, el que más ha crecido). Sagunto vuelve a «{n} pelotones». Textos en informe-textos.md.
 - El tope de fuego (110 por defensor) se queda activo en el asedio fuera de pantalla del director: así el resultado fuera de pantalla cuadra con NightSim y con lo que se ve en pantalla. Lo de «después del MVP» de las 01:03 era solo para el modelo de campaña (sim_economia).
+
+## 09-11 01:23 · Puerta este de Sagunto con la D-N180: sigue en 0 % (Nacho)
+- 499 de 500 victorias y el tren al 100 %, sin contacto. La fracción de la D-N177 no cambia. El fallo del tren fuera del mapa solo afectaba a Nules, y ya está corregido.
+
+## 09-11 01:25 · Recinto de Nules (Álvaro, nules-nivel.md §14): HESCO en los cruces de andén del muro oeste (aprobado)
+- Puerta de vehículos en 177,22–185,22 (v0.2). Puertas dobles cerradas con cortos, sin vuelta. El solape de la esquina SO se queda.
+- En los dos cruces de andén del muro oeste (Z 52,4–59,9 y 69,1–~80) va HESCO en lugar de sacos, porque sobre el andén de 0,68 m los sacos solo asomarían 0,52 m. Las puertas oeste y la D-N177 no cambian.
+- Condición: que el recinto de NightSim con el que Nacho midió 2200 y 2440 sea este mismo. Si no lo es, Nacho repite solo el punto de 2200.
+
+## 09-11 01:28 · Recinto de Nules: se aceptan los 132,24 u (Lucía; corrige el «no cambiar los 124,3 u» de las 01:25)
+- Los tramos de HESCO del oeste tienen el triple de vida, así que el recinto sube de 124,3 a 132,24 u. Se acepta, siempre que el 2200 que está repitiendo Nacho con esos tramos no se mueva más de 2 puntos del 96 %. Si se mueve más, Hugo recalcula la horda.
+- Hugo actualiza en sim_economia y en nules.json lo que dependa de esa cifra (reparación y coste).
