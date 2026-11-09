@@ -3132,3 +3132,13 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - Símbolos del mapa (también lo pide Eugenio: «no se entienden… cuando alejas se pega todo»): una leyenda plegable con L que solo muestra lo que hay en pantalla, tres niveles de zoom, las estaciones propias agrupadas en una tarjeta al alejarse, etiquetas con prioridad que no se pisan y siluetas con palabra en lugar de APP-6. El APP-6 queda solo para el informe (Tab). Las reglas de estaciones de las 21:28 (ed7f0ae) se mantienen.
 - Calendario: se programa cuando el MVP esté cerrado. El orden lo decide el coordinador con Iker, empezando por el mapa, que es lo que Eugenio ha señalado.
 - Siguiente D-N libre: D-N186.
+
+## 09-11 22:15 · D-N186 · El núcleo de Eugenio: tres pilares y órdenes de la zona al mapa (Eugenio, 21:59–22:02; GDD v1.15)
+- **Pilares**, que mandan sobre todo lo demás: **PERSISTENCIA** (cada zona existe y lo que dejas se queda tal cual), **TIEMPO REAL** (un solo reloj y el mundo sigue mientras miras otra cosa; sin saltos de hora ni turnos) y **SIMULACIÓN** (nada se resuelve de golpe; lo que no ves se simula con las mismas reglas y de forma determinista). La referencia es Ebbtide.
+- **Bucle de órdenes** (GDD §3a): se selecciona en la zona (el tren y su carga en el andén, los helicópteros en el aeródromo), se sale al mapa con la rueda y se da clic derecho en el destino. El aire puede ir a cualquier punto y los trenes solo a estaciones. En los dos casos hay un imán de unos 40 px hacia la estación más cercana. Si un tren no puede salir, el cursor dice por qué. El panel «Preparar tren» deja de ser un paso obligatorio. Los aeródromos se pueden visitar.
+- **Lo que se anula o se cambia porque choca con los pilares**:
+  - **El salto de la red al amanecer** (21:26, 3f1764c) queda **anulado**. Ahora la noche de la zona va con el reloj de la red (la opción 1 de Sara) y al acabar se ve la hora real. La tarjeta del objetivo del día 2 sale al amanecer real, y mientras tanto el recuadro de la franja superior dice: «Siguiente: Defiende Nules (empieza al amanecer)».
+  - **La emboscada y el cerco «fuera de pantalla»** no se resuelven de golpe: los simula NightSim de forma continua con las mismas reglas, y se puede llegar a mitad. La medida de Nacho ya se hizo con NightSim, así que sus cifras siguen valiendo.
+  - **El combate abstracto calibrado** de la §6 del GDD desaparece.
+  - **La intro y el tutorial «solo la primera vez»** del §15b: se aplica la decisión de las 21:18.
+- El plan por fases lo cierra el hilo «Rehacer el núcleo» con Nacho, Iker y Marcos. Diseño revisa cada fase con estos pilares.
