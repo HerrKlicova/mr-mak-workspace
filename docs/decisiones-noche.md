@@ -3010,3 +3010,4 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
   3. **«Menú principal»**.
 - «Volver a empezar» solo sale cuando ya **no queda ninguna estación propia** (fin de la partida). Castellón está cercada pero cuenta como propia (D-N184).
 - Recuperar una estación perdida queda para después del MVP, como romper el cerco de Castellón.
+- 09:25 · Añadido: el guardado del atardecer no existía. Iker lo crea en la I-Noche96: a las 19:00 de cada día guarda la red en atardecer.tbd, y «Repetir la noche» lo carga. La zona no se guarda, así que la noche vuelve a empezar desde el estado de la red a las 19:00. Me vale. Sara comprueba en la qa que no se pierde lo que el jugador preparó de día (tropa colocada y tramos reparados). Si se pierde, se apunta como fallo, pero no bloquea la build.
