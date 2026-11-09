@@ -2875,3 +2875,7 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 04:19 · Condición del turbo cumplida (Sara, qa44/noche76/VEREDICTO-sara.md)
 - comparar-turbo de la Noche76 con -Turbo 8: 9 de 9 pares idénticos tick a tick en las tres dificultades. Las estadísticas de la build pueden ir con -turbo 8. Las 100 semillas en normal van con la Noche82. Si una build cambia el bucle de simulación, se vuelve a comprobar con un par por dificultad.
 - 05:08: la causa no era una sombra. La build no compilaba el recorte por alfa (los materiales se crean por código y no hay .mat), así que los huecos del suelo sobre la vía salían negros y opacos (090a10). Arreglo en claude/sombra-tren 98e25852, pendiente de compilar. El 1c1e28 queda en suspenso hasta que Sara mida la sombra de verdad con 0,75. Bruno revisa que todo lo que use recorte por alfa (vegetación, vallas, redes y cualquier otro) se vea bien con el arreglo.
+
+## 09-11 05:10 · Borde azul de noche de los muros: apagado en el MVP (Lucía)
+- La emisión no se compilaba, así que el borde (#404460 × 0,6) nunca se ha visto y todas las medidas de noche se tomaron sin él. Se apaga para no meter un elemento sin medir a dos días del MVP. Después del MVP, Bruno saca una captura con y sin borde y se decide.
+- El arreglo del recorte por alfa afecta también a los sprites de zombi y de fusilero y al LOD de masa. Sara repasa la horda en las capturas (siluetas D-N80 y banda de L*) para comprobar que se sigue viendo como se aprobó.
