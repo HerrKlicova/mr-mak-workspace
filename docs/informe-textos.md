@@ -62,3 +62,7 @@ Si hay asedio anunciado, manda sobre lo anterior: «Asedio sobre {estación} a l
 - Amenaza, ataque en marcha: «{estación}: la Colmena ataca por el {lado}. {cifra}.»
 - Valoración, estación sin tropa bajo ataque: «{estación}, sin tropa, está bajo ataque. Cae esta noche si no llega ayuda.»
 - Fuerzas propias en la estación de mando, mientras la red no cuente los pelotones de casa: «{estación}: guarnición{, Dragón}{, n VAMTAC}. Munición {u} u.» Cuando Nacho exponga el número, vuelve a la plantilla normal con «{n} pelotones».
+
+## Añadido 09-11 00:12 · CO-0 (presentación de la Colmena)
+- CO-0, una sola vez por partida, la primera vez que se abre el mapa de la red después del tutorial, con estado Dispersa: «La Colmena está dispersa. Si creces despacio, no se fija en ti.»
+- No sale al cargar una partida guardada ni si el estado ya no es Dispersa (en ese caso manda el CO que toque). Sin sonido propio: usa el de Dispersa.
