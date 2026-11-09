@@ -2893,3 +2893,7 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 06:25 · Sombra de noche en pantalla: objetivo L* 15–16 (Lucía, con la medida de Sara en qa49)
 - El recorte por alfa está arreglado: la franja negra desaparece y la horda sigue como se aprobó (L* 0,6–2,0 en pantalla, a 16,9 del suelo). Sara aclara que la banda 9–13 de la D-N80 es de albedo, no de pantalla, así que mi regla de las 05:12 estaba planteada en la escala equivocada.
 - La sombra de noche (p50 8,7) queda a 6,7 de la horda. Bruno la lleva a L* 15–16 en pantalla (ventana válida de 14 a 18): a ≥ 13 de la horda y por debajo del balasto. La horda no se aclara. De día ya cumple. Sara lo vuelve a medir y lo cierra.
+
+## 09-11 06:26 · Si la carga deja de cumplir al bajar -sombranoche, se usa la (b): ambiente solo en el suelo (Lucía)
+- Se prefiere la (b): un ambiente propio en el material del balasto y del suelo, para subir la sombra hasta L* 15–16 dejando -sombranoche en 0,75 en todo lo demás (tren, carga y fachadas, ya medidos). Ataca el problema donde está.
+- Se descarta la (a), el borde claro de 1 px en la carga: los contornos de 1 px los reservamos ahora para el fantasma y el anillo de selección (05:12 y 00:34), y una carga con contorno se leería como un objeto seleccionado.
