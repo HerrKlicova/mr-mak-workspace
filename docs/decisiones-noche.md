@@ -2879,3 +2879,7 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 05:10 · Borde azul de noche de los muros: apagado en el MVP (Lucía)
 - La emisión no se compilaba, así que el borde (#404460 × 0,6) nunca se ha visto y todas las medidas de noche se tomaron sin él. Se apaga para no meter un elemento sin medir a dos días del MVP. Después del MVP, Bruno saca una captura con y sin borde y se decide.
 - El arreglo del recorte por alfa afecta también a los sprites de zombi y de fusilero y al LOD de masa. Sara repasa la horda en las capturas (siluetas D-N80 y banda de L*) para comprobar que se sigue viendo como se aprobó.
+
+## 09-11 05:12 · Sombra del tren: se retira el 1c1e28 y queda una regla para la I-Noche87 (Lucía, con la corrección de Sara)
+- Error mío: aprobé 1c1e28 (L* 11,5), que cae dentro de la banda 9–13, reservada a la horda por la D-N80. Retirado. La regla de las 02:02 (sombra ≥ 10) tampoco era compatible con la banda y queda sustituida por esta.
+- Regla: la sombra del tren queda fuera de 9–13, a ΔL* ≥ 8 de la horda medida y por debajo del balasto iluminado. Preferencia: la sombra oscura (≤ ~5), con la horda más clara encima, que se lee mejor como sombra que una sombra en ≥ 21 casi del tono del balasto. Si en la I-Noche87 la horda vuelve a 9–13 con el recorte arreglado, la sombra natural seguramente ya cumple y no se toca nada. Sara mide según docs/qa/plan-inoche87.md y, si cumple, lo da por cerrado sin esperarme.
