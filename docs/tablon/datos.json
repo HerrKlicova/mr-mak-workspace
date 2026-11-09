@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "fecha": "08-11 25:05",
+  "version": 21,
+  "fecha": "09-11 07:00",
   "objetivo": "Una partida con sentido de principio a fin: intro, defender Sagunto de día, reparar el muro, llevar un tren a Nules y aguantar la primera noche.",
   "builds": [
     {
@@ -77,6 +77,12 @@
     }
   ],
   "alertas": [
+    {
+      "texto": "09-11 07:00 · El MVP sigue hacia el miércoles 11-11, sin garantía. Esta noche: D-N180 y D-N181, Nules recalibrada (2200 y 2470), Sagunto difícil a 6470 con el reparto de granadas, recorte por alfa arreglado. Quedan 7 pendientes y 27 en build sin verificar.",
+      "quien": [
+        "Lucía"
+      ]
+    },
     {
       "texto": "CUÁNTO FALTA (08-11 24:15): ya hay builds hasta la Noche70 (Marcos, Noche69; Iker, Noche70) y la numeración avanza deprisa porque hay builds internas y de turbo, así que el plan se cuenta por BLOQUES y no por número. Quedan 5 bloques: el paquete de Marcos y el de red de Iker (en curso), tutorial completo con horda de día, la Colmena y el cierre con 200 semillas. MVP jugable hacia el miércoles 11-11, SIN GARANTÍA. Riesgo principal: el consumo de munición (ver abajo). Estimación de Lucía, no medida.",
       "quien": "Lucía, Marcos"
@@ -232,23 +238,24 @@
         {
           "m": "Los trepadores van a por lo vivo más cercano",
           "dn": "D-N148",
-          "estado": "pendiente",
+          "estado": "build",
           "quien": [
             "Nacho",
             "Marcos"
           ],
           "bloque": "B1",
-          "nota": "Sin verificar si ya está en la build."
+          "nota": "Noche81: ClimberGoals con la D-N180 y la D-N181 (solo ataca la estación quien la tiene como objetivo)."
         },
         {
           "m": "Asedio: puertas cerradas y tropa dentro y fuera",
           "dn": "D-N151",
-          "estado": "pendiente",
+          "estado": "build",
           "quien": [
             "Marcos",
             "Hugo"
           ],
-          "bloque": "B2"
+          "bloque": "B2",
+          "nota": "Noche81 (Marcos): puertas modeladas con hojas en la zona y en Nules. Falta el muro de Sagunto con RecintoPlan."
         },
         {
           "m": "Reparar el muro con sacos y HESCO modelados",
@@ -524,7 +531,7 @@
             "Iker"
           ],
           "bloque": "tras el tutorial",
-          "nota": "Confirmada por Eugenio: sigue en el MVP y va después del tutorial. La lógica ya está en la simulación de la red (hito 4)."
+          "nota": "Expuesto en la red (IntelTraffic, IntelAttention; nacho/informe-huecos). Falta integrarlo en la build."
         },
         {
           "m": "Tres estados de la Colmena",
@@ -534,7 +541,8 @@
             "Nacho",
             "Hugo"
           ],
-          "bloque": "tras el tutorial"
+          "bloque": "tras el tutorial",
+          "nota": "Hecho en la red (Nacho, colmena-estados, CO-0 a CO-4 y sonidos de Nuria). Falta integrarlo en la build."
         },
         {
           "m": "Informe de inteligencia",
@@ -544,7 +552,8 @@
             "Iker",
             "Lucía"
           ],
-          "bloque": "tras el tutorial"
+          "bloque": "tras el tutorial",
+          "nota": "V1 montada por Bruno (claude/informe-app6); textos cerrados; la red ya da tráfico, atención y fuerzas (Nacho). Falta integrarlo en la build."
         }
       ]
     },
