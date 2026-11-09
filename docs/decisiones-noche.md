@@ -2719,3 +2719,16 @@ Nacho midió el apartado de Nules (normal 2400, 500 semillas): f = 57 % y no 25 
 ## 09-11 00:18 · Informe: textos CO y memoria de tráfico (Lucía)
 - En textos_informe.csv mandan los textos CO de docs/informe-textos.md (CO-0 a CO-4). Nacho decide cuándo salen y Diseño, qué dicen.
 - La línea de tráfico, mientras la red no dé el número de tren ni los días: «Sagunto–Nules: el tren pasa siempre hacia las 08:00. Lo ha aprendido.»
+
+## 09-11 00:20 · Silencio al pausar: vale para todo (Lucía, sobre la revisión de Nuria)
+- La pausa calla todo el sonido de juego, de día y de noche, en la zona y en el mapa, también la pausa del tutorial: pitido, CO, informe y batalla del mapa. Lo único que suena en pausa es el propio menú de pausa.
+- Se aprueba el arreglo de Nuria (docs/sonido/pausa/revision-silencio-pausa-09nov.md): quitar el && _nightOn, conectar la pausa del mapa y tocar el pitido v2 a 0,72. Lo aplican Marcos e Iker.
+- Señal 6 e informe: variante _1 de cada uno (elección de Nuria).
+
+## 09-11 00:22 · Tapia de víveres de Nules: la cal pasa de d4d0cc a b8b8b8 (Lucía)
+- Se cambia ya, antes del MVP. El d4d0cc es solo para la interfaz y la selección, y una tapia de ese color se confundiría con un objeto seleccionado. Teo cambia los 10 FBX sin tocar las mallas.
+- Muros de huerta: no se añaden en el MVP (Álvaro, para no cambiar las líneas de tiro del capítulo 3). Los tramos de 5 m, la esquina y el portillo quedan como mejora para después.
+
+## 09-11 00:26 · Colores reservados en los modelos (repaso de Teo, 9205e9c)
+- Se aprueban las 37 piezas que Teo pasó de d4d0cc a b8b8b8 (§4 del paquete de Marcos). El 982420 no aparece en ninguna pieza. El e08c30 solo está en la franja de las locomotoras (D-N42) y se queda. El visor del Dragón (2×2 px) se queda.
+- Las fachadas encaladas en d4d0cc (unos 110 FBX) quedan pendientes. Teo hace una hoja con 5 variantes (A d4d0cc / B f0dc9c / C b8b8b8 / D f0dc9c con zócalo b8b8b8 / E d4d0cc con zócalo b8b8b8), con el fantasma de construcción y el anillo de selección al lado, de día y de noche. Sara mide el ΔL* entre el fantasma y la fachada y luego decido. Hasta entonces no se tocan.
