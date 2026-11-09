@@ -3085,3 +3085,12 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - Me aparto de la propuesta en una cosa: **no hace falta «Volver a ver el tutorial» en Opciones** para el MVP, porque cada partida nueva lo pregunta. Queda para después si alguien lo pide.
 - La caja del tutorial que se queda encima del menú se cierra al volver a la escena Menu (fallo, Iker).
 - QA: una corrida que empiece en el menú y con los PlayerPrefs borrados, sin `-menu-auto` (Sara).
+
+## 09-11 21:22 · La franja del borde (D-N182) ya no es una banda negra: degradado y bruma (Lucía; S2 de la partida de Eugenio, captura 107_bandas_y_azotea.png)
+- En la captura, la franja tiene un borde recto y duro, y por dentro es casi negra. Desde lejos se lee como una banda negra en diagonal, no como oscuridad.
+- **Cambio** (sin tocar dónde nace la horda ni el tope de cámara de noche):
+  1. **Degradado en toda la franja**: de 0 % en el borde interior al máximo en el borde del mapa, con curva suave (smoothstep), sin ninguna línea.
+  2. **Máximo de un 80 %**, y no negro: el color es el del suelo de noche oscurecido, una bruma fría con croma ≤ 5 y L* de 8 a 10 en pantalla. La horda (L* 0,6–2) sigue siendo lo más oscuro y se ve aparecer como siluetas que salen de la bruma.
+  3. **Borde interior irregular**, con ruido de ±4 m a lo largo de la franja, para que no se vea la recta.
+- **Cómo se comprueba** (Sara, con una captura con la cámara alejada al máximo de noche): no hay ningún salto de L* mayor que 2 entre dos puntos a 1 m dentro de la franja, y la puerta de vía y el punto de espera del tren no quedan dentro de ella.
+- Si el degradado no se puede hacer esta noche, la franja se apaga y solo se mantiene el tope de cámara (ortho ~35). Es mejor ver a algún zombi nacer en el borde que una banda negra.
