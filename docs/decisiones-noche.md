@@ -2858,3 +2858,8 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 02:40 · D-N157 cerrada (Sara, I-Noche77)
 - Lateral, techo y carga medidos de noche: la carga queda a 9,5 del lateral y a 12,7 de la plataforma. Cerrada.
 - Sombra del tren en el balasto: el parámetro de la sombra de la luna no la controla (sigue en L* 3,4 con todos los valores). Bruno busca qué la dibuja y se le aplica la misma regla de las 02:02 (L* ≥ 10 y más oscura que el balasto iluminado).
+
+## 09-11 03:02 · -sombranoche = 0,65 (Lucía, con la medida de Sara en la I-Noche78)
+- Es el valor más oscuro que cumple: con 0,55 la carga baja a 7,7 contra el lateral, y con 0,65 queda en 8,5.
+- La sombra del tren en el balasto sigue en L* ≈ 3 porque esa zona no recibe el ambiente. Bruno lo arregla en el shader (shadowStrength o sumar el ambiente en la sombra) con la regla de las 02:02. Sara lo vuelve a medir.
+- 03:03: Bruno encuentra la causa: la sonda de ambiente no se rehacía durante la partida (claude/sombra-tren 071d8ce, sin compilar). El 0,65 queda PROVISIONAL hasta que Sara repita, con esa build, la sombra del tren y la carga contra el lateral. Si con la luz corregida otro valor más oscuro cumple, gana ese.
