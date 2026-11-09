@@ -12,7 +12,7 @@ Estado de partida: la qa50 (I-Noche95, solo corrida A) no tiene ningún S1. El t
 | 3 | Día 2: objetivo «Defiende Nules…» con su aviso | D-N179 | Iker |
 | 4 | Segundo tren y emboscada: 300 en la vía al oeste de Nules, EM-1 y daño fuera de pantalla | 08:10, 08:20, 09:00 | Nacho (lógica, rama nacho/dn183-castellon) e Iker (disparo y aviso) |
 | 5 | Cartel «{Estación} ha caído» con Seguir, Repetir la noche (atardecer.tbd) y Menú principal | 09:25 | Iker |
-| 6 | Nules sobre el terreno de Sagunto: cartel «NULES», sin el campanario ni el pueblo | 09:40 | Marcos |
+| 6 | Nules sobre el terreno de Sagunto: cartel «NULES», sin el campanario ni el pueblo. La horda de la noche 2 y la emboscada hay que volver a medirlas sobre este terreno | 09:40, 09:47 | Marcos; Nacho (medida) |
 | 7 | Puestos de la guarnición de Nules en ese terreno, distintos de los de Sagunto: **hechos** (v1.2, 83cbceb). Nacho comprueba que el 96 % sigue valiendo con ellos | 09:40 | Álvaro → Iker |
 | 8 | Ambiente: -ambientesuelo 0,5 y -ambientebalasto 1,5, medidos con el balasto en 1, 1,5 y 2,5 | 09:28 | Bruno y Sara |
 | 9 | 1.8 visible: que cada paso del tutorial se vea al menos 3 s aunque su condición ya se cumpla | nuevo (S3 de la qa50) | Iker |
