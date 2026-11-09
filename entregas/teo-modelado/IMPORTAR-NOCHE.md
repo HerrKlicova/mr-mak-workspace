@@ -94,4 +94,12 @@ Las cuentas del recinto salen de `sagunto_obstaculos_v1.csv` (X 70–156, Z 44�
 6. **R2:** en la entrega de la D-N157 el R2 se llama `SM_vagon_tropa_r2` (carpeta `r2_vagon_tropa/v3/`), pero el juego carga `Models/R2/SM_R2_VagonTropa_LOD1`. Usa la copia de `r2_vagon_tropa/juego/`, que tiene el nombre bueno (d06af89). Es la misma malla que la v3 (comprobado).
 7. **`Hoja_O` y `Hoja_E` se repiten** en cada puerta y en su colisión. Es a propósito, pero conviene buscarlos siempre bajo la raíz que toque (ver §1).
 
+## 4 · Colores reservados: 54 FBX más que sustituir (9-nov)
+Lucía pidió quitar de las piezas el d4d0cc, que es el color de selección. Los casos claros ya están en b8b8b8 y las mallas no cambian. **Copia `colores-reservados/Models/` encima de `Assets/TBD/Resources/Models/`.** Son 54 FBX:
+- Bétera: helipuerto (10), puerta_valla (10) y tanque_combustible v2 (2).
+- Sagunto: coche_2000 v2 y v5 (4), senales (24) y paso_superior (2).
+- `puerta_vehiculos`: la Castellon v4 (2). Renombra antes la carpeta como dice §3.2.
+
+No hay que tocar las paletas: tienen los mismos píxeles. Los detalles y la lista completa están en [colores-reservados/LEEME.md](colores-reservados/LEEME.md). Las fachadas encaladas siguen en d4d0cc hasta que Lucía decida.
+
 — Teo · [retrato](/mnt/project-files/equipo/retrato_teo_64_x4.png)
