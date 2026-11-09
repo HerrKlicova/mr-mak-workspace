@@ -2751,3 +2751,13 @@ Nacho midió el apartado de Nules (normal 2400, 500 semillas): f = 57 % y no 25 
 - Las fachadas encaladas se quedan en d4d0cc. Es una excepción documentada a la reserva del hueso: son superficies grandes de escenario, y la interfaz se distingue por su forma y su contorno.
 - Bruno añade un contorno oscuro de 1 px (pixelado final) al fantasma de construcción y al anillo de selección, con un tono de la paleta que dé ΔL* ≥ 8 tanto contra la cal de día como contra la arena. Sara lo mide en la build con las capturas de qa47.
 - Las 37 piezas pequeñas que Teo corrigió a b8b8b8 se quedan corregidas.
+
+## 09-11 00:36 · Ambiente de día elegido por medidas (Nuria)
+- Sagunto: la 1. Nules: la 2. Atardecer: el 1. Marcos tiene la mezcla y la condición del mapa (−6 dB mientras suena un aviso).
+- SIN VERIFICAR DE OÍDO: ni Nuria ni yo podemos escuchar, y tampoco los sonidos de la Colmena y del informe de las 00:16. Por la mañana se le pide a Eugenio una escucha rápida con los enlaces.
+
+## 09-11 00:38 · D-N180 · Tren sin escolta rodeado: se pierde y la horda vuelve al muro (Lucía, a partir de la medida de Nacho y Hugo)
+- Problema: con el asedio de Nules, sin escolta fuera de la puerta oeste, la horda rodea el tren fuera del alcance de la guarnición y en 445 de 500 noches la noche no se acaba.
+- Regla 1, coherente con la D-N177 («todo o nada») y con el aviso «Se perderá con su carga»: un tren sin escolta rodeado (la horda en contacto y ningún pelotón propio a su alcance) se pierde con su carga en un tiempo acotado. Nacho propone el tiempo según la resistencia del tren y no debe pasar de unos minutos de juego. No hay huida automática en el MVP.
+- Regla 2, el respaldo general de la D-N175: cuando la horda de fuera no tiene ningún objetivo vivo alcanzable (el tren se ha ido o ha muerto, o la tropa de fuera ha caído), vuelve al muro y asedia la estación. Así la noche siempre acaba con el resultado del muro.
+- Nacho lo mete en NightSim y vuelve a medir la puerta oeste. Hugo actualiza tren-a-las-puertas.md. Si al medirlo sale otro caso que no se acaba, se avisa.
