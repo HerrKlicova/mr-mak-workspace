@@ -162,3 +162,23 @@ Pendiente: qa48 hacia las 05:00 sin tandas de fondo (Noche75 de Iker o una build
 - Parado por la prioridad de la partida de 30 min: qa48 (rendimiento), pruebarender 10k/25k/50k y la obra en curso.
 
 - Lucía (d508444) elige la opción A para Nules: terreno de Sagunto con el cartel «NULES» y sin campanario ni pueblo de Sagunto cuando la estación de la zona es Nules. Es lo PRIMERO al volver, en marcos/partida-30 (BuildSaguntoAmbience: placa_sagunto_x2 y el bloque del pueblo).
+
+## Actualización 10-11, 01:00 (Marcos (2))
+- Ramas mías en TBD (todas fusionadas por Iker salvo la última):
+  - marcos/puerta-via: puerta de vía visible (424afad3) y A* de pelotones con la NavGrid (cd5a6ce5).
+  - marcos/noche-111: la locomotora de Nules mira a la puerta (99e33cc8) y la bandera -dia2-auto-enzona (b0235ba7). Se usa junto con -dia2-auto.
+  - marcos/f0-zona (befd81cc), SIN fusionar: Bétera como zona de juego (ZonaBetera.Activa o -zonabetera) y SeleccionGlobal (NH90 y tren). La rueda sale al mapa también de noche.
+- Los arreglos de las fachadas (bd054a61, en marcos/partida-30) no se han probado en build y siguen fuera.
+- La qa52 está en mr-mak, docs/capturas/qa52/I-Noche111, 112 y 114. El S1 abierto: entrar en Nules a las 09:00 arranca la noche (22:00). Lo cierra el reloj único de Iker y Nacho, y lo vuelvo a probar en la 115.
+- Herramientas en el scratchpad:
+  - ventana.ps1 es consciente del DPI. Acciones: cap, click, vk (tecla virtual), rueda (±120) y mover.
+  - auto_cap.ps1 también es consciente del DPI ya.
+  - Con escalado del 125 %, sin SetProcessDPIAware las capturas salen desplazadas.
+- Copia del registro de Eugenio: C:\Dev\TBD\Builds\tbd_prefs_backup_qa52.reg (ya está restaurado).
+- Pendiente:
+  - el bloque B de la qa52 (VAMTAC y pelotón al otro lado del muro, puerta de vía);
+  - la interfaz v3 a 150 y 300 km;
+  - «Preparar tren» con -ui3;
+  - zombis que atraviesan vehículos aparcados (con Nacho);
+  - el VAMTAC atascado (puede ser el A* por la puerta sur, tapiada de noche);
+  - la puerta de Castellón.
