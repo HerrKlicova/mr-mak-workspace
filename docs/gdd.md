@@ -57,6 +57,8 @@ El jugador da las órdenes **donde están las cosas** y elige el destino **en el
    - **Trenes**: solo a estaciones, y siempre con el imán. Si el tren puede ir (vía abierta, plaza libre o espera a las puertas, combustible suficiente), sale. Si no, el cursor dice por qué no en una línea («Vía cortada en el km 112», «Sin combustible»). No se abre ningún menú.
 4. **El viaje se ve y se sigue.** Doble clic sobre el tren o el helicóptero para seguirlo, y la rueda para volver a entrar en la zona a la que llega. Al llegar, todo **se queda allí** (pilar 1) hasta que le des otra orden.
 - **Lo que se quita**: el panel «Preparar tren» como paso obligatorio y cualquier orden de destino que no se dé sobre el mapa. El panel de tren de la §13 queda solo para **consultar** (carga, población y horario).
+- **Órdenes de intención en el mapa (v1.15, a partir de lo que encontró Paula en Ebbtide)**: con una fuerza seleccionada en el mapa, además del destino se puede dar una orden de intención: **Aguantar**, **Retrasar** (ceder terreno disparando) o **Retirarse** (a la estación propia más cercana). Ante un aviso de ataque, desde el mismo aviso se puede **desviar** un tren o **pedir apoyo de fuego** a un NH90. El control fino (formaciones, frentes y fuego) se hace en la zona.
+- **En el mapa solo se ven las hordas que tus fuerzas tienen a la vista** (niebla de guerra, §6). Las manchas que nadie ve salen como la última posición conocida, apagadas y con su hora.
 - **Zonas que se pueden visitar**: todas las estaciones propias **y los aeródromos** (Bétera). Si no se puede entrar en un sitio donde tienes unidades, es un fallo.
 
 ## 3b. Duración y estructura de la partida (v1.5)
