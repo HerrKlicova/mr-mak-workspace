@@ -1,0 +1,7 @@
+qa52 bloque A sobre la I-Noche112 (bacf2279), con -menu-auto -dia2-auto -dia2-auto-enzona - Marcos, 09-11 23:55
+S1: si se entra en la zona de Nules de dia (a las ~09:00 del dia 2, antes de que llegue el segundo tren), la zona arranca LA NOCHE de Nules:
+  «oleada=1 hora=22:00 total=2200 ammo_u=0», reloj de 22:00 en el HUD, almacen 0 u (la municion del tren aun no ha llegado),
+  «sin tren en la estacion: TrainHp = 0» y el solido del tren se va a X 838. Llega el tren con 25 u y el peloton, cae la emboscada
+  de 300 por la franja oeste, «[EMBOSCADA] fin en la zona: tren perdido (zombis 627)», «Sin municion: almacen vacio» y derrota por
+  la estacion a las 00:53 (344 abatidos, 14 bajas). Capturas: A_nules_de_dia_es_de_noche_S1.png (hoja 22:31-00:21) y A_estacion_atacada_0u.png.
+  Es lo que corrige el reloj unico (la zona no corre su propia noche; dibuja la hora de la red).
