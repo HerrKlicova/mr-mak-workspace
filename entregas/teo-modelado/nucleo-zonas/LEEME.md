@@ -54,6 +54,65 @@ volver encuentra lo que dejó.
 
 *Filas: munición, combustible y materiales. Columnas: Lleno, Mitad, Vacío, Saqueado y Quemado.*
 
+## 2b. Pase de contraste de los acopios (9-nov 23:40, por la captura qa52 de la I-Noche112)
+
+Bruno vio en la captura a z26 que munición y combustible Lleno se leían como bloques lisos. En el juego se ve el **LOD1**,
+que antes juntaba la carga de cada palé en un solo bloque, y el contorno negro de mis hojas el juego no lo tiene. Ahora los
+dos LOD llevan el mismo dibujo y se mantienen los nombres, el origen y la huella:
+- Cada palé tiene debajo una **base oscura** en 48403c (L* 28, el límite de la D-N80), un poco mayor que el palé, que lo
+  separa del suelo. La carga va en bultos separados por **juntas de 0,1 m** sobre un núcleo de 48403c.
+- Los **flejes** pasan de 605c48 a b4a080, sobre las cajas y sobre los gaviones. Las **tapas** de los bidones pasan de 6c7874
+  a b8b8b8, con el tapón oscuro. Los GRG llevan un marco 94948c alrededor del depósito b8b8b8 y la boca en oscuro.
+- Los palés vacíos apilados también llevan base y juntas oscuras.
+- ΔL* que se consiguen: base y suelo de Sagunto (c19e78), 40; base y cajas (70784c), 21; flejes y cajas, 18; flejes y gaviones
+  (88885c), 11; tapas y bidones, 19; marco y depósito del GRG, 14. Todos cumplen la regla de la sombra (≥ 8).
+- **Huella real**, medida en el LOD1: Lleno y Mitad, 9,1 × 4,5 m; Quemado, 9,5 × 5,5 m (la mancha). Ninguna pasa de 10 × 6.
+  En (102; 57,5), el Lleno ocupa Z de 55,2 a 59,8 y, con el VAMTAC en Z ≈ 51, quedan unos 3 m libres. Que parezcan pegados
+  es la inclinación de la cámara, que corre hacia el VAMTAC la parte de arriba de las pilas.
+
+![día, LOD1, sin contorno: arriba antes y abajo ahora](acopio_carga/contraste_dia_lod1_antes_despues.png)
+
+*De izquierda a derecha: munición Lleno y Mitad, combustible Lleno y Mitad, materiales Lleno y Mitad. Render de día sobre
+el suelo de Sagunto, sin contorno (como en el juego) y con el LOD1. No es una captura de Unity: la que vale es la de Sara o
+la de Marcos.*
+
+**Tabla de colores por celda, antes → ahora** (vértices leídos de los UV). La geometría cambia a propósito, así que la
+comparación es por celda y no por vértice. Lo esperado: entra 48403c, sube b4a080 (flejes) y desaparece 605c48 en munición
+y materiales; en combustible, b8b8b8 (tapas) y 48403c. El script no encontró ningún cambio fuera de eso ni nada en la banda.
+
+| Modelo | LOD | Celda: antes → ahora |
+|---|---|---|
+| SM_AcopioMunicion_v0_Lleno | LOD0 | 70784c 2592→2592, b4a080 432→1728, 48403c 0→864, 605c48 432→0 |
+| SM_AcopioMunicion_v0_Lleno | LOD1 | 48403c 0→864, 70784c 432→864, b4a080 432→864 |
+| SM_AcopioMunicion_v1_Mitad | LOD0 | b4a080 504→1152, 70784c 1056→1056, 48403c 0→720, 605c48 216→0 |
+| SM_AcopioMunicion_v1_Mitad | LOD1 | 48403c 0→720, b4a080 348→564, 70784c 216→432 |
+| SM_AcopioMunicion_v2_Vacio | LOD0 | 48403c 0→576, b4a080 576→576, 70784c 144→144 |
+| SM_AcopioMunicion_v2_Vacio | LOD1 | 48403c 0→576, b4a080 264→264, 70784c 72→72 |
+| SM_AcopioMunicion_v3_Saqueado | LOD0 | 70784c 1200→1200, b4a080 312→744, 48403c 0→456, 605c48 144→0 |
+| SM_AcopioMunicion_v3_Saqueado | LOD1 | 48403c 0→456, 70784c 312→456, b4a080 312→456 |
+| SM_AcopioMunicion_v4_Quemado | LOD0 | 605c48 1656→1848 |
+| SM_AcopioMunicion_v4_Quemado | LOD1 | 605c48 688→1456 |
+| SM_AcopioCombustible_v0_Lleno | LOD0 | b8b8b8 144→6480, 6c7874 6336→0, 88885c 2112→2112, 48403c 0→1992, 94948c 576→864, b4a080 432→0 |
+| SM_AcopioCombustible_v0_Lleno | LOD1 | 48403c 0→1872, b8b8b8 144→1296, 88885c 1152→1152, 6c7874 1152→0, 94948c 144→576, b4a080 432→0 |
+| SM_AcopioCombustible_v1_Mitad | LOD0 | b8b8b8 72→3240, 6c7874 3168→0, 48403c 0→1284, 88885c 1056→1056, b4a080 504→288, 94948c 288→432 |
+| SM_AcopioCombustible_v1_Mitad | LOD1 | 48403c 0→1224, b8b8b8 72→648, 88885c 576→576, 6c7874 576→0, b4a080 348→132, 94948c 72→288 |
+| SM_AcopioCombustible_v2_Vacio | LOD0 | 48403c 0→576, b4a080 576→576, 88885c 204→204 |
+| SM_AcopioCombustible_v2_Vacio | LOD1 | 48403c 0→576, b4a080 264→264, 88885c 144→144 |
+| SM_AcopioCombustible_v3_Saqueado | LOD0 | b8b8b8 72→1656, 6c7874 1584→0, 88885c 1004→1004, 48403c 0→804, 94948c 288→432, b4a080 312→168 |
+| SM_AcopioCombustible_v3_Saqueado | LOD1 | 48403c 0→744, 88885c 624→624, b8b8b8 72→360, b4a080 312→168, 6c7874 288→0, 94948c 72→288 |
+| SM_AcopioCombustible_v4_Quemado | LOD0 | 605c48 4080→4272 |
+| SM_AcopioCombustible_v4_Quemado | LOD1 | 605c48 2416→2608 |
+| SM_AcopioMateriales_v0_Lleno | LOD0 | 6c7874 1776→1632, 845c28 504→576, 48403c 0→576, b4a080 552→432, 88885c 144→144 |
+| SM_AcopioMateriales_v0_Lleno | LOD1 | 6c7874 576→576, 48403c 0→576, b4a080 552→432, 845c28 144→144, 88885c 144→144 |
+| SM_AcopioMateriales_v1_Mitad | LOD0 | 6c7874 888→816, 48403c 0→576, b4a080 564→504, 845c28 252→288, 88885c 72→72 |
+| SM_AcopioMateriales_v1_Mitad | LOD1 | 48403c 0→576, b4a080 408→348, 6c7874 288→288, 845c28 72→72, 88885c 72→72 |
+| SM_AcopioMateriales_v2_Vacio | LOD0 | b4a080 648→648, 48403c 0→576, 845c28 72→72 |
+| SM_AcopioMateriales_v2_Vacio | LOD1 | 48403c 0→576, b4a080 336→336, 845c28 72→72 |
+| SM_AcopioMateriales_v3_Saqueado | LOD0 | b4a080 544→504, 845c28 420→456, 6c7874 416→368, 48403c 0→384, 88885c 48→48 |
+| SM_AcopioMateriales_v3_Saqueado | LOD1 | b4a080 544→504, 48403c 0→384, 845c28 240→240, 6c7874 96→96, 88885c 48→48 |
+| SM_AcopioMateriales_v4_Quemado | LOD0 | 605c48 1368→1720 |
+| SM_AcopioMateriales_v4_Quemado | LOD1 | 605c48 864→1168 |
+
 Bloques: `hangar_abierto.py` y `acopio_carga.py` del skill modelado-3d (TBD, rama `claude/modelado-3d-skill`).
 
 ## Tabla de colores por celda (leída de los UV, colores_uv.py)
