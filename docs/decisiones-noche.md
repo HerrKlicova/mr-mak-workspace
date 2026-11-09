@@ -2700,3 +2700,13 @@ Nacho midió el apartado de Nules (normal 2400, 500 semillas): f = 57 % y no 25 
 
 ## 09-11 00:04 · Fe de errores (Lucía)
 - A Teo le pedí modelar los estados del muro por tramos, pero ya estaban hechos y aprobados (D-N163 §1, 94cb579). Fue culpa mía por fiarme de una nota vieja del tablón, que ya está corregida.
+- 09-11 00:10 · **G3_red regenerado en `nacho/colmena-estados`** (Nacho). Entran tres cambios aprobados: la opción A de Hugo y Lucía (400 zombis por u sin el bonus del muro: fort_bonus_por_nivel = 0), H0 = 1250 y los tres estados de la Colmena (D-N160, colmena-estados.md §5 y §6). NetVersion pasa a 6. Suite 1292/0.
+
+## 09-11 00:12 · D-N160: el CO-0 sí va (Lucía)
+- El jugador tiene que saber que la Colmena existe y qué la despierta antes del primer CO-1. El CO-0 sale una vez por partida, al abrir por primera vez el mapa de la red después del tutorial y solo con estado Dispersa. El texto está en informe-textos.md. No sale al cargar una partida. Usa el sonido de Dispersa de Nuria.
+
+## 09-11 00:14 · Paquete de importación de Teo (3a68893): decisiones (Lucía)
+- La puerta de vía del modelo tiene 5 m de hueco y el código abre 3,2 m. Manda el modelo, que es el aprobado en la D-N151 y por el que tiene que caber el tren. Marcos ajusta el código a 5 m.
+- La pila va instanciada (GPU instancing o mallas combinadas por tramo; lo decide Marcos con Bruno), porque el riesgo está en las llamadas de dibujo y no en los triángulos.
+- La SM_PuertaVehiculos antigua, la de Castellón, pasa a llamarse SM_PuertaVehiculos_Castellon para que no se confunda con la nueva. Castellón no está en el MVP.
+- Presupuesto de triángulos por pantalla: no lo pongo a ojo. Se fija cuando Sara mida los fps en el PC de Eugenio con el peor caso (Sagunto con asedio y la pila a la altura 4 en todo el perímetro, unos 161.000 triángulos en LOD1).
