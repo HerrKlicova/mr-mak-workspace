@@ -2972,3 +2972,12 @@ Reserva de partida de Castellón: 0 u de munición (la dotación de unas 10 u va
 - La zona mide 256×128 m y con la cámara alejada del todo se ve entera, así que no existe un «fuera de cámara». La horda sigue naciendo donde ahora (O1–O3, a unos 62 m del muro) y se oculta: **de noche la cámara no se aleja más allá de ortho ~35**, y en los **25 m del borde hay una franja de oscuridad o niebla**. Los zombis salen andando de la oscuridad.
 - Condiciones: la franja no tapa la puerta oeste ni el punto donde el tren espera fuera de ella. Los avisos y los fogonazos de los disparos siguen viéndose dentro de la franja. Sara comprueba en el recorrido de 30 minutos que no se ve aparecer ningún zombi.
 - Ampliar la zona hacia el oeste (opción C) queda para después del MVP, junto con las hordas grandes.
+
+## 09-11 08:10 · Emboscada del segundo tren: texto EM-1 y daño fuera de pantalla (Lucía, para Nacho e Iker; rama nacho/dn183-castellon)
+- **EM-1** (aviso de ataque en 982420, con doble clic para ir a la zona): «Emboscada en {nodo}: unos {n} zombis atacan el {tren}.» Va en presente porque el ataque sigue en marcha. {n} se redondea a la centena.
+- Si el tren está en el apartado, a continuación sale el aviso que ya existe: «Saca el tren del apartado…» (D-N177).
+- **Fuera de pantalla, la emboscada hace daño** con las mismas reglas que en la zona, sin reglas nuevas:
+  - **Con escolta** (al menos un pelotón): se rechaza. El tren pierde la munición que gasta en el combate (la misma eficacia que en la zona) y la carga que quede llega a Nules.
+  - **Sin escolta y rodeado**: D-N180, se pierde con su carga en un máximo de 10 minutos de juego, salvo que el jugador lo saque antes.
+- La guarnición de Nules no sufre bajas fuera de pantalla con un sondeo de unos 300. Si el jugador entra en la zona, el combate sigue allí con lo que quede.
+- Si en la prueba se ve que el resultado fuera de pantalla y el de la zona no coinciden, manda el de la zona (Sara lo comprueba en el recorrido de 30 minutos).
