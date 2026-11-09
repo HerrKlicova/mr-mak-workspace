@@ -160,3 +160,5 @@ Pendiente: qa48 hacia las 05:00 sin tandas de fondo (Noche75 de Iker o una build
 - Pendiente de que Lucía decida: la escena de Nules (opción A: quitar lo que delata a Sagunto, como el cartel de la fachada, en menos de 1 h; opción B: Level de Nules, un día). Con -zona Nules la sim usa el Level de Sagunto.
 - Pendiente para la I-Noche96: capturas con -ambientebalasto 1/1,5/2,5 a 30 y 110 s (encuadre oeste). Ojo con -shotsat 30: coincide con la captura automática de -capdirecta y sale en negro; usar capdirecta_1_siempre_full.
 - Parado por la prioridad de la partida de 30 min: qa48 (rendimiento), pruebarender 10k/25k/50k y la obra en curso.
+
+- Lucía (d508444) elige la opción A para Nules: terreno de Sagunto con el cartel «NULES» y sin campanario ni pueblo de Sagunto cuando la estación de la zona es Nules. Es lo PRIMERO al volver, en marcos/partida-30 (BuildSaguntoAmbience: placa_sagunto_x2 y el bloque del pueblo).
