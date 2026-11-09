@@ -3094,3 +3094,12 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
   3. **Borde interior irregular**, con ruido de ±4 m a lo largo de la franja, para que no se vea la recta.
 - **Cómo se comprueba** (Sara, con una captura con la cámara alejada al máximo de noche): no hay ningún salto de L* mayor que 2 entre dos puntos a 1 m dentro de la franja, y la puerta de vía y el punto de espera del tren no quedan dentro de ella.
 - Si el degradado no se puede hacer esta noche, la franja se apaga y solo se mantiene el tope de cámara (ortho ~35). Es mejor ver a algún zombi nacer en el borde que una banda negra.
+
+## 09-11 21:26 · Al acabar una noche, la red salta al amanecer siguiente (Lucía; S1 de la partida de Eugenio, opción 2 de Sara)
+- Problema: la noche de la zona lleva su propio reloj. Al ganar la noche 1, el mapa seguía en «Día 1 · 14:48» y no salía ninguna guía, porque el objetivo del día 2 espera al amanecer del día 2.
+- **Decisión: opción 2**, que es la que menos toca. Unir los dos relojes queda para después del MVP.
+  - Cuando acaba cualquier noche en la zona (victoria o «{Estación} ha caído» con «Seguir»), **la red salta a las 06:00 del día siguiente**. Lo que estaba en marcha en la red, como los trenes en ruta, avanza hasta esa hora con las reglas de siempre. Si eso no se puede hacer esta noche, por lo menos los trenes en ruta llegan a su destino.
+  - **Cartel al ganar**: «Sagunto resiste.» Debajo, en d4d0cc: «Amanece el día {n}.» Con «Seguir» vuelve al mapa.
+  - Nada más volver al mapa sale la **tarjeta del objetivo del día** (para el día 2, la v2 de informe-textos.md, que ya empieza con «Nules no tiene munición»). Así el jugador sabe qué hacer en cuanto termina la noche.
+  - Lo mismo después de la noche 2 (Nules) y de la noche 3, si entra.
+- Comprobación (Sara): al ganar la noche 1, el mapa marca «Día 2 · 06:00» y sale la tarjeta del objetivo del día 2.
