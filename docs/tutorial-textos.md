@@ -29,12 +29,15 @@ Hora de juego: día 1, a las 10:00. Ataque pequeño: 300 zombis por O1, que entr
 | 1.4 | «Selecciona un pelotón: clic en él, en su tarjeta o con su número (1 a 5). Para coger varios, arrastra un recuadro.» | Las tarjetas de pelotón | Hay un pelotón seleccionado |
 | 1.5 | «Clic derecho para moverlo. Ponlo junto al muro oeste.» | El tramo oeste | Orden de mover dada |
 | 1.6 | «Arrastra con el clic derecho para dibujar un frente. Prueba una formación con F1 a F4.» | Teclas F1–F4 | Se ha dado una formación o un frente |
+| 1.6b | «Estos son tus vehículos: el Dragón y los VAMTAC. Selecciónalos igual que a la tropa, con clic en el vehículo o en su tarjeta, y muévelos con clic derecho.» | Los vehículos y sus tarjetas | Hay un vehículo seleccionado y se le ha dado una orden de mover |
+| 1.6c | «Disparan solos, como la tropa. Con G decides si tienen fuego libre o si esperan tu orden.» | Indicador «Fuego de vehículos» | Se ha pulsado G (dos veces para volver a fuego libre, o como quiera el jugador) |
 | 1.7 | «Esc abre el menú de pausa y congela la partida. Desde ahí también se salta el tutorial.» | Botón del menú | Se ha abierto y cerrado el menú |
 | 1.8 | «Ahí vienen. Disparan solos cuando los tienen a tiro.» (3 s) | — | La horda empieza a avanzar |
 | 1.9 | (Mientras dura el ataque, una sola línea:) «Vigila la vida del muro arriba. Si un tramo cae, entran.» | Barra del muro (D-N122) | Ataque rechazado |
 | 1.10 | «Ataque rechazado. Esta noche vendrán muchos más.» | — | 4 s, y pasa al capítulo 2 |
 
-- Si el jugador tiene vehículos fuera: en 1.3 se añade «Los vehículos también disparan. Selecciónalos igual que a la tropa».
+- Los vehículos se enseñan en 1.6b y 1.6c (09-11 21:45, por la nota de Eugenio). Si la estación no tiene vehículos, esos dos pasos no salen.
+- **Regla para todos los pasos que se cierran por tiempo**: el tiempo empieza a contar cuando el texto ya está escrito entero, nunca al abrirse la caja (lo encontró Sara: se cortaban a mitad de escribirse). Y ningún paso se ve menos de 3 s.
 - La tecla C del C90 **no** se enseña aquí: sale una tarjeta suelta la primera vez que hay un grupo de 40 zombis o más dentro del recinto a menos de 30 m de un pelotón de fusileros (Hugo, `economia/entregas/c90/`; coincide con la tromba de la D-N148). Sale **una sola vez en toda la partida**, no cada noche, y no sale si el tutorial se ha saltado («Tus fusileros llevan C90. Tecla C para lanzarlo. Se repone al recargar»).
 
 ## Capítulo 2 · Reparar

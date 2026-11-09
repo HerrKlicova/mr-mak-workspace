@@ -3112,3 +3112,11 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - **Perdida** (cuando caiga una): icono en 982420 apagado, con el nombre tachado.
 - **El resto de la red**: icono hueco en **b8b8b8 al 50 %**, más pequeño y sin nombre. El nombre sale al pasar el ratón.
 - Comprobación (Sara): en una captura del mapa entero, las 3 propias se distinguen de un vistazo y ningún par de colores que se toquen baja de ΔL* ≥ 8.
+
+## 09-11 21:45 · El tutorial enseña los vehículos (Lucía; nota de Eugenio con la 110: «el tutorial no te dice nada de los vehículos»)
+- Tiene razón. Hasta ahora solo se añadía una frase en el 1.3, que se cierra por tiempo. Hay dos pasos nuevos en el capítulo 1, después del 1.6, y los dos se cierran **por acción**, no por tiempo:
+  - **1.6b**: «Estos son tus vehículos: el Dragón y los VAMTAC. Selecciónalos igual que a la tropa, con clic en el vehículo o en su tarjeta, y muévelos con clic derecho.» Se cierra cuando hay un vehículo seleccionado y se le ha dado una orden de mover.
+  - **1.6c**: «Disparan solos, como la tropa. Con G decides si tienen fuego libre o si esperan tu orden.» Se cierra al pulsar G.
+- Fuera la frase condicional del 1.3. Si la estación no tiene vehículos, el 1.6b y el 1.6c no salen.
+- **Regla general (lo que encontró Sara)**: en los pasos que se cierran por tiempo, el tiempo cuenta desde que el texto termina de escribirse, y ningún paso se ve menos de 3 s.
+- Ojo, Iker: la ayuda dice «6-8 vehículos», pero en la captura las tarjetas 6 y 7 son los tiradores de la azotea. Por eso el texto no da números. Que las teclas cuadren con las tarjetas.
