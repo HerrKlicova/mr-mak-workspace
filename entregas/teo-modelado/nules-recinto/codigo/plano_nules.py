@@ -66,7 +66,7 @@ for q in puertas:
 # leyenda
 y = H - 140
 dr.text((M, y), "Nules · recinto con el kit de defensas (vista desde arriba, +Z arriba, 1 cuadro = 10 m)", fill=(30,30,30), font=FB)
-for k, (lab, c) in enumerate([("HESCO 2,1 m (este y alas desde X 173)", COL['Hesco']), ("Sacos 1,2 m (resto)", COL['Sacos']), ("Jambas de puerta", (90,90,90)), ("Hueco libre de la puerta", (40,110,70))]):
+for k, (lab, c) in enumerate([("HESCO 2,1 m", COL['Hesco']), ("Sacos 1,2 m (resto)", COL['Sacos']), ("Jambas de puerta", (90,90,90)), ("Hueco libre de la puerta", (40,110,70))]):
     xx = M + (k % 2) * 420; yy = y + 30 + (k // 2) * 24
     dr.rectangle([xx, yy, xx+28, yy+14], fill=c); dr.text((xx+36, yy), lab, fill=(40,40,40), font=F)
 dr.text((M, y + 84), "Los números son los de nules_piezas.csv. Remates: brazo a lo largo del muro y una celda de vuelta hacia dentro.", fill=(70,70,70), font=F)

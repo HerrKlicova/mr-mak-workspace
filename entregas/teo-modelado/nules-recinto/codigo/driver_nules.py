@@ -9,9 +9,22 @@ for i in range(len(poly0)):
     if abs(a[1]-b[1]) < 1e-3 and (abs(a[0]-maxX) < 1e-3 or abs(b[0]-maxX) < 1e-3):
         x = maxX - ALA
         if min(a[0], b[0]) < x < max(a[0], b[0]): poly.append([x, a[1]])
+if "--oeste-hesco" in sys.argv:      # Álvaro 9-nov (§14): HESCO en el muro oeste entre las jambas (Z 52,4–59,9) y desde la doble hasta pasar el andén (Z 80,21 = 10 m + 1 celda)
+    OESTE_H = (52.4, 80.21); q = []
+    for i in range(len(poly)):
+        a, b = poly[i], poly[(i+1) % len(poly)]; q.append(a)
+        if abs(a[0]-b[0]) < 1e-3 and abs(a[0]-85) < 1e-3:
+            for zc in sorted([OESTE_H[1], 59.9, OESTE_H[0]], reverse=(b[1] < a[1])):
+                if min(a[1], b[1]) < zc < max(a[1], b[1]): q.append([a[0], zc])
+    poly = q
+else: OESTE_H = None
 n = len(poly)
 edif = lambda i: poly[i][1] > 96 + 1e-3 or poly[(i+1) % n][1] > 96 + 1e-3
-mat = lambda i: "H" if min(poly[i][0], poly[(i+1) % n][0]) >= maxX - ALA - 1e-3 else "S"
+def mat(i):
+    a, b = poly[i], poly[(i+1) % n]
+    if min(a[0], b[0]) >= maxX - ALA - 1e-3: return "H"
+    if OESTE_H and abs(a[0]-85) < 1e-3 and abs(b[0]-85) < 1e-3 and min(a[1], b[1]) >= OESTE_H[0]-1e-3 and max(a[1], b[1]) <= OESTE_H[1]+1e-3: return "H"
+    return "S"
 def huecos_de(conjamba, puertas):
     H = {}
     for p in puertas:
@@ -39,6 +52,8 @@ for p in puertas:
     if "--mover-vehiculos" in sys.argv and p["tipo"] == "vehiculos": p["hueco_x"] = [177.22, 185.22]; p["pos"] = [181.22, 40]
 Hlib = huecos_de(False, puertas); Hm = huecos_de(True, puertas)
 P.MEJORAS = True
+if "--oeste-hesco" in sys.argv:   # sin remates (cortos) en las jambas de las dos puertas dobles: sus celdas caerían sobre el andén
+    P.SIN_REMATE = {i for i in range(n) if any(p["tipo"] == "via_doble" and p.get("lado") == i for p in puertas)}
 pz = P.plan(poly, mat, edif, Hm)
 for q in pz:
     for k in ("x", "z", "largo", "escala_x"): q[k] = round(q[k], 3)

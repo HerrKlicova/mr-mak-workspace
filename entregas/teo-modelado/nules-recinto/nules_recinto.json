@@ -73,6 +73,18 @@
   [
    85,
    96
+  ],
+  [
+   85,
+   80.21
+  ],
+  [
+   85,
+   59.9
+  ],
+  [
+   85,
+   52.4
   ]
  ],
  "material_por_lado": [
@@ -85,6 +97,9 @@
   "E",
   "E",
   "S",
+  "S",
+  "H",
+  "H",
   "S"
  ],
  "puertas": [
@@ -98,7 +113,7 @@
     60.8,
     68.2
    ],
-   "lado": 9,
+   "lado": 10,
    "malla": "Nules/puerta_via_doble/SM_PuertaViaDoble_v4_Blindada",
    "col": "Defensas/colision/SM_PuertaViaDoble_Col",
    "hueco_muro_z": [
@@ -136,7 +151,7 @@
     46.5,
     51.5
    ],
-   "lado": 9,
+   "lado": 12,
    "malla": "Defensas/puerta_via/SM_PuertaVia_v3_MallaEspino",
    "col": "Defensas/colision/SM_PuertaVia_Col",
    "hueco_muro_z": [
@@ -347,18 +362,6 @@
    "ruta": "Defensas/hesco/SM_HescoEsquina_v0_MallaLimpia_e0_Sano"
   },
   {
-   "malla": "SM_HescoRemate_v2_Escalonado_e0_Sano",
-   "x": 188.0,
-   "z": 59.9,
-   "yaw": 90.0,
-   "largo": 0,
-   "escala_x": 0,
-   "espejo": false,
-   "lado": 2,
-   "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoRemate_v2_Escalonado_e0_Sano"
-  },
-  {
    "malla": "SM_MuroHesco_v2_Escalonado_e0_Sano",
    "x": 188.0,
    "z": 47.78,
@@ -371,33 +374,45 @@
    "ruta": "Defensas/muro/SM_MuroHesco_v2_Escalonado_e0_Sano"
   },
   {
-   "malla": "SM_HescoCorto4_v2_Escalonado_e0_Sano",
+   "malla": "SM_HescoCorto4_v1_Geotextil_e0_Sano",
    "x": 188.0,
-   "z": 54.95,
+   "z": 54.675,
    "yaw": 90.0,
    "largo": 4.44,
    "escala_x": 1.0,
    "espejo": false,
    "lado": 2,
    "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoCorto4_v2_Escalonado_e0_Sano"
+   "ruta": "Defensas/hesco/SM_HescoCorto4_v1_Geotextil_e0_Sano"
   },
   {
-   "malla": "SM_HescoRemateEspejo_v1_Geotextil_e0_Sano",
+   "malla": "SM_HescoCorto3_v0_MallaLimpia_e0_Sano",
    "x": 188.0,
-   "z": 69.1,
+   "z": 58.56,
    "yaw": 90.0,
-   "largo": 0,
-   "escala_x": 0,
-   "espejo": true,
+   "largo": 3.33,
+   "escala_x": 1.0,
+   "espejo": false,
    "lado": 2,
    "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoRemateEspejo_v1_Geotextil_e0_Sano"
+   "ruta": "Defensas/hesco/SM_HescoCorto3_v0_MallaLimpia_e0_Sano"
+  },
+  {
+   "malla": "SM_MuroHesco_v1_Geotextil_e0_Sano",
+   "x": 188.0,
+   "z": 74.1,
+   "yaw": 90.0,
+   "largo": 10.0,
+   "escala_x": 1.0,
+   "espejo": false,
+   "lado": 2,
+   "material": "Hesco",
+   "ruta": "Defensas/muro/SM_MuroHesco_v1_Geotextil_e0_Sano"
   },
   {
    "malla": "SM_MuroHesco_v4_Red_e0_Sano",
    "x": 188.0,
-   "z": 76.88,
+   "z": 84.1,
    "yaw": 90.0,
    "largo": 10.0,
    "escala_x": 1.0,
@@ -407,28 +422,16 @@
    "ruta": "Defensas/muro/SM_MuroHesco_v4_Red_e0_Sano"
   },
   {
-   "malla": "SM_MuroHesco_v3_RemateSacos_e0_Sano",
+   "malla": "SM_HescoCorto4_v4_Red_e0_Sano",
    "x": 188.0,
-   "z": 86.88,
+   "z": 91.16,
    "yaw": 90.0,
-   "largo": 10.0,
+   "largo": 4.44,
    "escala_x": 1.0,
    "espejo": false,
    "lado": 2,
    "material": "Hesco",
-   "ruta": "Defensas/muro/SM_MuroHesco_v3_RemateSacos_e0_Sano"
-  },
-  {
-   "malla": "SM_HescoCorto2_v0_MallaLimpia_e0_Sano",
-   "x": 188.0,
-   "z": 92.55,
-   "yaw": 90.0,
-   "largo": 2.22,
-   "escala_x": 1.0,
-   "espejo": false,
-   "lado": 2,
-   "material": "Hesco",
-   "ruta": "Defensas/hesco/SM_HescoCorto2_v0_MallaLimpia_e0_Sano"
+   "ruta": "Defensas/hesco/SM_HescoCorto4_v4_Red_e0_Sano"
   },
   {
    "malla": "SM_HescoEsquina_v2_Escalonado_e0_Sano",
@@ -599,76 +602,76 @@
    "ruta": "Defensas/sacos/SM_SacosEsquina_v2_Irregular_e0_Sano"
   },
   {
-   "malla": "SM_SacosRemate_v1_Talud_e0_Sano",
+   "malla": "SM_MuroSacos_v4_Red_e0_Sano",
    "x": 85.0,
-   "z": 69.1,
+   "z": 89.127,
    "yaw": 270.0,
-   "largo": 0,
-   "escala_x": 0,
+   "largo": 5.945,
+   "escala_x": 0.743,
    "espejo": false,
    "lado": 9,
    "material": "Sacos",
-   "ruta": "Defensas/sacos/SM_SacosRemate_v1_Talud_e0_Sano"
+   "ruta": "Defensas/muro/SM_MuroSacos_v4_Red_e0_Sano"
   },
   {
-   "malla": "SM_MuroSacos_v3_Tablon_e0_Sano",
+   "malla": "SM_MuroSacos_v4_Red_e0_Sano",
    "x": 85.0,
-   "z": 88.917,
+   "z": 83.182,
    "yaw": 270.0,
-   "largo": 6.367,
-   "escala_x": 0.796,
+   "largo": 5.945,
+   "escala_x": 0.743,
    "espejo": false,
    "lado": 9,
    "material": "Sacos",
-   "ruta": "Defensas/muro/SM_MuroSacos_v3_Tablon_e0_Sano"
+   "ruta": "Defensas/muro/SM_MuroSacos_v4_Red_e0_Sano"
   },
   {
-   "malla": "SM_MuroSacos_v2_Irregular_e0_Sano",
+   "malla": "SM_MuroHesco_v1_Geotextil_e0_Sano",
    "x": 85.0,
-   "z": 82.55,
+   "z": 75.21,
    "yaw": 270.0,
-   "largo": 6.367,
-   "escala_x": 0.796,
+   "largo": 10.0,
+   "escala_x": 1.0,
    "espejo": false,
-   "lado": 9,
-   "material": "Sacos",
-   "ruta": "Defensas/muro/SM_MuroSacos_v2_Irregular_e0_Sano"
+   "lado": 10,
+   "material": "Hesco",
+   "ruta": "Defensas/muro/SM_MuroHesco_v1_Geotextil_e0_Sano"
   },
   {
-   "malla": "SM_MuroSacos_v0_Recto_e0_Sano",
+   "malla": "SM_HescoCorto1_v4_Red_e0_Sano",
    "x": 85.0,
-   "z": 76.183,
+   "z": 69.655,
    "yaw": 270.0,
-   "largo": 6.367,
-   "escala_x": 0.796,
+   "largo": 1.11,
+   "escala_x": 1.0,
    "espejo": false,
-   "lado": 9,
-   "material": "Sacos",
-   "ruta": "Defensas/muro/SM_MuroSacos_v0_Recto_e0_Sano"
+   "lado": 10,
+   "material": "Hesco",
+   "ruta": "Defensas/hesco/SM_HescoCorto1_v4_Red_e0_Sano"
   },
   {
-   "malla": "SM_SacosRemateEspejo_v1_Talud_e0_Sano",
+   "malla": "SM_HescoCorto4_v1_Geotextil_e0_Sano",
    "x": 85.0,
-   "z": 59.9,
+   "z": 57.815,
    "yaw": 270.0,
-   "largo": 0,
-   "escala_x": 0,
-   "espejo": true,
-   "lado": 9,
-   "material": "Sacos",
-   "ruta": "Defensas/sacos/SM_SacosRemateEspejo_v1_Talud_e0_Sano"
-  },
-  {
-   "malla": "SM_SacosRemate_v0_Recto_e0_Sano",
-   "x": 85.0,
-   "z": 52.4,
-   "yaw": 270.0,
-   "largo": 0,
-   "escala_x": 0,
+   "largo": 4.44,
+   "escala_x": 1.0,
    "espejo": false,
-   "lado": 9,
-   "material": "Sacos",
-   "ruta": "Defensas/sacos/SM_SacosRemate_v0_Recto_e0_Sano"
+   "lado": 11,
+   "material": "Hesco",
+   "ruta": "Defensas/hesco/SM_HescoCorto4_v1_Geotextil_e0_Sano"
+  },
+  {
+   "malla": "SM_HescoCorto3_v2_Escalonado_e0_Sano",
+   "x": 85.0,
+   "z": 53.93,
+   "yaw": 270.0,
+   "largo": 3.33,
+   "escala_x": 1.0,
+   "espejo": false,
+   "lado": 11,
+   "material": "Hesco",
+   "ruta": "Defensas/hesco/SM_HescoCorto3_v2_Escalonado_e0_Sano"
   },
   {
    "malla": "SM_SacosRemateEspejo_v2_Irregular_e0_Sano",
@@ -678,10 +681,10 @@
    "largo": 0,
    "escala_x": 0,
    "espejo": true,
-   "lado": 9,
+   "lado": 12,
    "material": "Sacos",
    "ruta": "Defensas/sacos/SM_SacosRemateEspejo_v2_Irregular_e0_Sano"
   }
  ],
- "coste_lineal_u": 82.08
+ "coste_lineal_u": 90.24
 }

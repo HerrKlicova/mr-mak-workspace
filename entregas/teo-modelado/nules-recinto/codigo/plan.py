@@ -75,8 +75,10 @@ def plan(poly, material, edificio, huecos):
             resto = l1 - s
             if resto < 0.3: continue
             if hes and MEJORAS:
-                # un solo corto centrado en el resto; se prefiere que solape un poco a que quede un agujero en el muro
-                k = max(1, min(4, math.ceil(resto/HC - 0.15))); pon(s + resto/2 - k*HC/2, k*HC, "HescoCorto%d" % k, 1.0)
+                # cortos seguidos y centrados en el resto (de 4 celdas como mucho cada uno); mejor solapar un poco que dejar un agujero
+                k = max(1, math.ceil(resto/HC - 0.15)); s1_ = s + resto/2 - k*HC/2
+                while k > 0:
+                    kk = min(4, k); pon(s1_, kk*HC, "HescoCorto%d" % kk, 1.0); s1_ += kk*HC; k -= kk
             elif hes:
                 while resto >= HC*0.5:
                     k = max(1, min(4, round(resto/HC))); l = k*HC; pon(s, min(l, resto+0.3), "HescoCorto%d" % k, 1.0); s += l; resto = l1 - s
