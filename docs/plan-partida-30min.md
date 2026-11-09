@@ -12,7 +12,7 @@ Solo uso lo que ya existe en el juego o en una rama. Los tiempos son reales y ap
 | 1 | Arranque: el mapa con **Sagunto, Nules y Castellón propias**, cada una con su tropa (D-N183). Castellón, cercada: aguanta sola y no admite trenes (D-N184). Bétera, con sus 2 NH90. | Mapa | Falta (Iker, hoy) |
 | 1–5 | **Tutorial 1 · Defender Sagunto de día**: una horda pequeña llega andando desde fuera de la vista (D-N182) y se rechaza con la guarnición. | Zona de Sagunto | Sí; falta que la horda llegue andando |
 | 5–7 | **Tutorial 2 · Reparar** el tramo dañado (con el arreglo del 2.4). | Zona de Sagunto | Sí; falta el arreglo del 2.4 |
-| 7–11 | **Tutorial 3 · Primer tren**: preparar, cargar (munición y un pelotón) y mandarlo a Nules. Se sigue con doble clic; sale a la vista, pita y acelera (D-N170). Llega a Nules y deja la carga. | Mapa → zona | Sí (D-N154, D-N170) |
+| 7–11 | **Tutorial 3 · Pedir refuerzos** (como está en la build): un tren de Nules llega a Sagunto con tropa; si hay asedio, espera en la puerta este y baja la tropa. Se sigue con doble clic. *El primer tren que manda el jugador es el del día 2* (09-11 09:45). | Mapa → zona | Sí (D-N154, D-N170) |
 | 11–14 | Atardecer: aviso de horda sobre Sagunto. La mancha avanza por el mapa (D-N182, vista) y suena la alarma. | Mapa | La mancha falta (Iker) |
 | 14–19 | **Noche 1 · Defender Sagunto** (5250): asedio con las puertas cerradas, la pila, los trepadores, la línea de visión y el C90. Al ganar sale «Sagunto resiste» y se sigue (D-N149). Opcional: llamar al NH90 desde Bétera. | Zona de Sagunto | Sí |
 | 19–21 | **Día 2**: objetivo «Defiende Nules antes de la noche: manda tropa y munición (≥ 20 u)» (D-N179). | Mapa | Texto hecho; falta el aviso (Iker) |

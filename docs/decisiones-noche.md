@@ -3028,3 +3028,8 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 - **B después de la partida de 30 minutos**: un Nules de verdad, con su Level, estacion_nules.json y el recinto de Teo. Habrá que volver a calibrar la horda y la emboscada (Hugo y Nacho).
 - A Eugenio se le dirá que Nules usa provisionalmente el terreno de Sagunto, para que no lo encuentre él como si fuera un fallo.
 - 09:42 · **Corrijo mi cambio del 3.7 (me equivoqué):** en Sagunto el tren sitiado espera en la **puerta este** (192; 60), según RutaCap3 y GateAttackPermilAt. Fuera de la puerta oeste es el sitio de Nules. El 3.7 vuelve a «el tren espera en la puerta este». El plan lo recoge así: en Sagunto, puerta este; en Nules, fuera de la puerta oeste. El 1.9 se queda sin cabecera a propósito, como paso de una sola línea, para no tapar el ataque.
+
+## 09-11 09:45 · Lista de lo que falta para el MVP y el capítulo 3 tal como está (Lucía)
+- La lista ordenada, con dueños, está en docs/mvp-lo-que-falta.md. El MVP está listo cuando la partida se juega entera a mano y la qa no deja ningún S1 ni S2 abierto. Entonces se avisa a Eugenio y se para.
+- El capítulo 3 se queda como está en la build, «Pedir refuerzos» (de Nules a Sagunto). El primer tren que manda el jugador es el del día 2.
+- Nuevo para Iker (S3 de la qa50): cada paso del tutorial se ve al menos 3 s, aunque su condición ya se cumpla (el 1.8 no llegaba a verse).
