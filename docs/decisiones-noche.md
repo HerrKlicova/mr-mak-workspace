@@ -2967,3 +2967,8 @@ Reserva de partida de Castellón: 0 u de munición (la dotación de unas 10 u va
 - Al pasar por encima de Castellón en el mapa: «Castellón · cercada. Aguanta, pero está aislada.»
 - **Romper el cerco** es una misión para después de la partida de 30 minutos y del MVP. Se diseñará con lo que ya hay en la simulación de red (FoundStation y RepairEdge), que hoy no tienen botón en el juego.
 - Sale de la lista imprescindible del plan (punto 1, Iker). No añade sistemas nuevos: es una horda quieta, un bloqueo de destino y dos textos.
+
+## 09-11 08:06 · D-N182 en la zona: opción A de Marcos (Lucía)
+- La zona mide 256×128 m y con la cámara alejada del todo se ve entera, así que no existe un «fuera de cámara». La horda sigue naciendo donde ahora (O1–O3, a unos 62 m del muro) y se oculta: **de noche la cámara no se aleja más allá de ortho ~35**, y en los **25 m del borde hay una franja de oscuridad o niebla**. Los zombis salen andando de la oscuridad.
+- Condiciones: la franja no tapa la puerta oeste ni el punto donde el tren espera fuera de ella. Los avisos y los fogonazos de los disparos siguen viéndose dentro de la franja. Sara comprueba en el recorrido de 30 minutos que no se ve aparecer ningún zombi.
+- Ampliar la zona hacia el oeste (opción C) queda para después del MVP, junto con las hordas grandes.
