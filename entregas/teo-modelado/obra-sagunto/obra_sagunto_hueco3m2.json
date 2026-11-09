@@ -1,0 +1,824 @@
+{
+ "track_half_mm": 1600,
+ "origen_mundo": [
+  113.0,
+  64.5
+ ],
+ "ruta": "Models/Defensas/obra/",
+ "tramos": [
+  {
+   "tramo": 0,
+   "lado": 0,
+   "lado_nombre": "oeste",
+   "tipo": "Hesco",
+   "a0_mm": -20500,
+   "a1_mm": -11050,
+   "largo_m": 9.45,
+   "x": 70.0,
+   "z": 48.725,
+   "yaw": 270,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v1_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v1_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 1,
+   "lado": 0,
+   "lado_nombre": "oeste",
+   "tipo": "Hesco",
+   "a0_mm": -11050,
+   "a1_mm": -1600,
+   "largo_m": 9.45,
+   "x": 70.0,
+   "z": 58.175,
+   "yaw": 270,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v2_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v2_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 2,
+   "lado": 0,
+   "lado_nombre": "oeste",
+   "tipo": "PuertaVia",
+   "a0_mm": -1600,
+   "a1_mm": 1600,
+   "largo_m": 3.2,
+   "x": 70.0,
+   "z": 64.5,
+   "yaw": 270,
+   "reparar": {
+    "piezas": [
+     "SM_ObraPuertaApuntalada_v1_8m",
+     "SM_ObraHerramientas_v3_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v3_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 3,
+   "lado": 0,
+   "lado_nombre": "oeste",
+   "tipo": "Hesco",
+   "a0_mm": 1600,
+   "a1_mm": 11050,
+   "largo_m": 9.45,
+   "x": 70.0,
+   "z": 70.825,
+   "yaw": 270,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v4_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v4_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 4,
+   "lado": 0,
+   "lado_nombre": "oeste",
+   "tipo": "Hesco",
+   "a0_mm": 11050,
+   "a1_mm": 20500,
+   "largo_m": 9.45,
+   "x": 70.0,
+   "z": 80.275,
+   "yaw": 270,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v0_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v0_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 5,
+   "lado": 1,
+   "lado_nombre": "este",
+   "tipo": "Sacos",
+   "a0_mm": -20500,
+   "a1_mm": -11050,
+   "largo_m": 9.45,
+   "x": 156.0,
+   "z": 48.725,
+   "yaw": 90,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 6,
+   "lado": 1,
+   "lado_nombre": "este",
+   "tipo": "Sacos",
+   "a0_mm": -11050,
+   "a1_mm": -1600,
+   "largo_m": 9.45,
+   "x": 156.0,
+   "z": 58.175,
+   "yaw": 90,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 7,
+   "lado": 1,
+   "lado_nombre": "este",
+   "tipo": "PuertaVia",
+   "a0_mm": -1600,
+   "a1_mm": 1600,
+   "largo_m": 3.2,
+   "x": 156.0,
+   "z": 64.5,
+   "yaw": 90,
+   "reparar": {
+    "piezas": [
+     "SM_ObraPuertaApuntalada_v4_8m",
+     "SM_ObraHerramientas_v1_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v1_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 8,
+   "lado": 1,
+   "lado_nombre": "este",
+   "tipo": "Sacos",
+   "a0_mm": 1600,
+   "a1_mm": 11050,
+   "largo_m": 9.45,
+   "x": 156.0,
+   "z": 70.825,
+   "yaw": 90,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v4_8m",
+     "SM_ObraHerramientas_v1_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v1_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 9,
+   "lado": 1,
+   "lado_nombre": "este",
+   "tipo": "Sacos",
+   "a0_mm": 11050,
+   "a1_mm": 20500,
+   "largo_m": 9.45,
+   "x": 156.0,
+   "z": 80.275,
+   "yaw": 90,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v0_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 10,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Hesco",
+   "a0_mm": -43000,
+   "a1_mm": -35750,
+   "largo_m": 7.25,
+   "x": 73.625,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v2_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v2_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 11,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Hesco",
+   "a0_mm": -35750,
+   "a1_mm": -28500,
+   "largo_m": 7.25,
+   "x": 80.875,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v4_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v4_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 12,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": -28500,
+   "a1_mm": -23250,
+   "largo_m": 5.25,
+   "x": 87.125,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v0_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 13,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": -23250,
+   "a1_mm": -18000,
+   "largo_m": 5.25,
+   "x": 92.375,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 14,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "PuertaVehiculos",
+   "a0_mm": -18000,
+   "a1_mm": -10000,
+   "largo_m": 8.0,
+   "x": 99.0,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraPuertaApuntalada_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 15,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": -10000,
+   "a1_mm": -1166,
+   "largo_m": 8.834,
+   "x": 107.417,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 16,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": -1166,
+   "a1_mm": 7667,
+   "largo_m": 8.833,
+   "x": 116.251,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 17,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": 7667,
+   "a1_mm": 16500,
+   "largo_m": 8.833,
+   "x": 125.084,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v3_8m",
+     "SM_ObraHerramientas_v0_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v0_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 18,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": 16500,
+   "a1_mm": 25334,
+   "largo_m": 8.834,
+   "x": 133.917,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v0_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 19,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": 25334,
+   "a1_mm": 34167,
+   "largo_m": 8.833,
+   "x": 142.75,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v1_8m",
+     "SM_ObraHerramientas_v3_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v3_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 20,
+   "lado": 2,
+   "lado_nombre": "sur",
+   "tipo": "Sacos",
+   "a0_mm": 34167,
+   "a1_mm": 43000,
+   "largo_m": 8.833,
+   "x": 151.584,
+   "z": 44.0,
+   "yaw": 180,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 21,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Hesco",
+   "a0_mm": -43000,
+   "a1_mm": -35750,
+   "largo_m": 7.25,
+   "x": 73.625,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v1_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v1_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 22,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Hesco",
+   "a0_mm": -35750,
+   "a1_mm": -28500,
+   "largo_m": 7.25,
+   "x": 80.875,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraHescoAbierto_v{p}_10m",
+     "SM_ObraHerramientas_v3_10m"
+    ],
+    "v_por_vida": "vida < 0,5 → v0 · < 0,8 → v1 · ≥ 0,8 → v2"
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_10m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_10m",
+     "SM_ObraHerramientas_v3_10m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 23,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": -28500,
+   "a1_mm": -19563,
+   "largo_m": 8.937,
+   "x": 88.969,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 24,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": -19563,
+   "a1_mm": -10625,
+   "largo_m": 8.938,
+   "x": 97.906,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v0_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 25,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": -10625,
+   "a1_mm": -1688,
+   "largo_m": 8.937,
+   "x": 106.844,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v3_8m",
+     "SM_ObraHerramientas_v0_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v0_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 26,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": -1688,
+   "a1_mm": 7250,
+   "largo_m": 8.938,
+   "x": 115.781,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v0_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v2_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 27,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": 7250,
+   "a1_mm": 16187,
+   "largo_m": 8.937,
+   "x": 124.719,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v4_8m",
+     "SM_ObraHerramientas_v1_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v1_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 28,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": 16187,
+   "a1_mm": 25125,
+   "largo_m": 8.938,
+   "x": 133.656,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v1_8m",
+     "SM_ObraHerramientas_v3_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v3_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 29,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": 25125,
+   "a1_mm": 34062,
+   "largo_m": 8.937,
+   "x": 142.594,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v3_8m",
+     "SM_ObraHerramientas_v0_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v0_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  },
+  {
+   "tramo": 30,
+   "lado": 3,
+   "lado_nombre": "norte",
+   "tipo": "Sacos",
+   "a0_mm": 34062,
+   "a1_mm": 43000,
+   "largo_m": 8.938,
+   "x": 151.531,
+   "z": 85.0,
+   "yaw": 0,
+   "reparar": {
+    "piezas": [
+     "SM_ObraSacos_v2_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ]
+   },
+   "reconstruir": {
+    "en_cola": "SM_ObraReconstruccion_v3_8m",
+    "trabajando": [
+     "SM_ObraReconstruccion_v{p}_8m",
+     "SM_ObraHerramientas_v4_8m"
+    ],
+    "v_por_avance": "WorkTicks/RebuildTicksFor < 1/3 → v0 · < 2/3 → v1 · resto → v2"
+   }
+  }
+ ]
+}
