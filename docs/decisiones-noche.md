@@ -2853,3 +2853,8 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 ## 09-11 02:05 · S3, regresión del lateral del tren: causa encontrada (Bruno)
 - La reexportación del R2 en e0c2602 salió de una versión anterior: el lateral volvió a 50541c y 40 vértices pasaron a 442c0c. Teo vuelve a exportar la R2 (LOD0 y LOD1) desde d06af89 con la carga en b4a080 e Iker la mete.
 - Regla nueva para las entregas de modelos: el LEEME lleva la tabla de colores por pieza leída de los UV y comparada con la entrega anterior.
+- 02:07: Nules con el reparto y el HESCO del oeste (Nacho, 500 semillas): 2200 gana el 95,4 % y 2470 el 65,4 %. Las cifras se quedan. La normal cumple por poco. Si la build da menos del 95 %, se baja a 2150.
+
+## 09-11 02:40 · D-N157 cerrada (Sara, I-Noche77)
+- Lateral, techo y carga medidos de noche: la carga queda a 9,5 del lateral y a 12,7 de la plataforma. Cerrada.
+- Sombra del tren en el balasto: el parámetro de la sombra de la luna no la controla (sigue en L* 3,4 con todos los valores). Bruno busca qué la dibuja y se le aplica la misma regla de las 02:02 (L* ≥ 10 y más oscura que el balasto iluminado).

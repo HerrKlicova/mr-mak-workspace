@@ -266,13 +266,13 @@
         {
           "m": "La primera horda ataca de día",
           "dn": "D-N157",
-          "estado": "pendiente",
+          "estado": "build",
           "quien": [
             "Marcos",
             "Bruno"
           ],
           "bloque": "B2",
-          "nota": "Aspecto de día elegido: E, calima sin niebla (Bruno). Falta aclarar un escalón el lateral del tren (Teo) e integrarlo."
+          "nota": "Cerrada (Sara, I-Noche77): lateral, techo y carga b4a080 medidos de noche. Pendiente: sombra del tren en el balasto (Bruno)."
         },
         {
           "m": "Línea de visión: no se dispara a través de edificios, tren ni muros; tiradores en la azotea",
