@@ -9,7 +9,7 @@ Solo uso lo que ya existe en el juego o en una rama. Los tiempos son reales y ap
 | Min | Qué pasa | Dónde | Qué existe ya |
 |---|---|---|---|
 | 0–1 | Intro con el lore, que se puede saltar (D-N158). | Pantalla | Sí |
-| 1 | Arranque: el mapa con **Sagunto, Nules y Castellón propias**, cada una con su tropa (D-N183). Bétera, con sus 2 NH90. | Mapa | Falta (Iker, hoy) |
+| 1 | Arranque: el mapa con **Sagunto, Nules y Castellón propias**, cada una con su tropa (D-N183). Castellón, cercada: aguanta sola y no admite trenes (D-N184). Bétera, con sus 2 NH90. | Mapa | Falta (Iker, hoy) |
 | 1–5 | **Tutorial 1 · Defender Sagunto de día**: una horda pequeña llega andando desde fuera de la vista (D-N182) y se rechaza con la guarnición. | Zona de Sagunto | Sí; falta que la horda llegue andando |
 | 5–7 | **Tutorial 2 · Reparar** el tramo dañado (con el arreglo del 2.4). | Zona de Sagunto | Sí; falta el arreglo del 2.4 |
 | 7–11 | **Tutorial 3 · Primer tren**: preparar, cargar (munición y un pelotón) y mandarlo a Nules. Se sigue con doble clic; sale a la vista, pita y acelera (D-N170). Llega a Nules y deja la carga. | Mapa → zona | Sí (D-N154, D-N170) |
@@ -22,7 +22,7 @@ Solo uso lo que ya existe en el juego o en una rama. Los tiempos son reales y ap
 
 ## Lista imprescindible (por orden)
 
-1. **Arranque con 3 estaciones propias y una guarnición distinta en cada una** (D-N183, puestos de Álvaro v1.1). Iker.
+1. **Arranque con 3 estaciones propias y una guarnición distinta en cada una** (D-N183, puestos de Álvaro v1.1), con Castellón cercada: mancha fija, sin ataque y sin trenes (D-N184). Iker.
 2. **Tutorial 0–3 sin atascos**, con el arreglo del 2.4. Iker.
 3. **Trenes de punta a punta**: preparar, cargar, mandar Sagunto–Nules, descargar, y esperar fuera de la puerta oeste si hay asedio. Iker.
 4. **La horda llega andando** desde fuera de la vista (D-N182) y la mancha avanza en el mapa. Marcos (zona) e Iker (mapa).

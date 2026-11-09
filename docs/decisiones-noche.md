@@ -2958,3 +2958,12 @@ Reserva de partida de Castellón: 0 u de munición (la dotación de unas 10 u va
 
 ## 09-11 08:00 · Prioridad única: la partida de 30 minutos (Eugenio, 07:56; plan de Lucía en docs/plan-partida-30min.md)
 - A partir de ahora el equipo trabaja solo en el recorrido de 30 minutos: arranque con 3 estaciones, tutorial, primer tren, noche 1 en Sagunto, objetivo del día 2, segundo tren con emboscada (un sondeo de unos 300 a la llegada a Nules) y noche 2 en Nules. Hay una lista imprescindible de 9 puntos. Todo lo demás se para hasta que funcione de principio a fin.
+
+## 09-11 08:05 · D-N184: Castellón empieza tuya pero cercada (Eugenio, 08:02: «sí a la idea»; corrige la D-N183)
+- Se sigue empezando con las 3 estaciones propias (Sagunto, Nules y Castellón), cada una con su guarnición (D-N183 y puestos de Álvaro v1.1). Castellón mantiene 3 pelotones y 1 VAMTAC, 0 u de munición y 30 de combustible.
+- **Castellón está cercada**: hay una horda quieta alrededor de la estación. En el mapa se ve como una mancha fija en e08c30 sobre Castellón, solo de vista, como la de la D-N182.
+- Durante la partida de 30 minutos el cerco **no ataca**: Castellón aguanta sola y no puede caer.
+- **No se pueden mandar trenes a Castellón.** Si el jugador lo intenta, sale: «Castellón está cercada. Ningún tren puede llegar hasta que se rompa el cerco.» El tramo Nules–Castellón sigue en el mapa.
+- Al pasar por encima de Castellón en el mapa: «Castellón · cercada. Aguanta, pero está aislada.»
+- **Romper el cerco** es una misión para después de la partida de 30 minutos y del MVP. Se diseñará con lo que ya hay en la simulación de red (FoundStation y RepairEdge), que hoy no tienen botón en el juego.
+- Sale de la lista imprescindible del plan (punto 1, Iker). No añade sistemas nuevos: es una horda quieta, un bloqueo de destino y dos textos.
