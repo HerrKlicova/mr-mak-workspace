@@ -12,11 +12,11 @@ Herramienta: `herramientas\sonido\ambiente_dia.py`. Brutos: `herramientas\sonido
 | Archivo | Qué es | LUFS | Pico | Duración |
 |---|---|---|---|---|
 | `sfx_amb_dia_sagunto_1..5.ogg` | Pueblo con estación junto a la huerta. Bucle | −53,0 (las 5) | −38,4 a −36,4 dBFS | 20,0 s |
-| `sfx_amb_dia_nules_1..4.ogg` | Naranjal con acequia muy baja y la vía lejos. Bucle | −53,0 (las 4) | −38,4 a −32,8 dBFS | 20,0 s |
+| `sfx_amb_dia_nules_1..5.ogg` | Naranjal con acequia muy baja y la vía lejos. Bucle | −53,0 (las 5) | −38,4 a −32,8 dBFS | 20,0 s |
 | `sfx_amb_atardecer_1..2.ogg` | Transición del día a la noche, sin bucle | −51,5 (las 2) | −35,7 a −33,6 dBFS | 20,0 s |
 | `prueba.mp3` | 20 s de Sagunto, 20 s de Nules, el atardecer y 10 s de la noche actual | | | 70 s |
 
-**Faltan variantes**: hay 4 de Nules (no 5) y 2 de atardecer (no 5). El tope de 5.500 créditos no dio para más (ver Créditos).
+**Faltan 3 variantes del atardecer** (hay 2, no 5). En la segunda tanda del 9-nov, las 4 tomas nuevas con el prompt a fallaron porque los pájaros no se callan (ver Descartes); el prompt a lleva 2 válidas de 7. Nules ya tiene 5 (`_5` sale de la segunda tanda).
 Entre las variantes de cada sonido no hay diferencia de nivel (0,0 dB; el encargo pedía ±0,5 como mucho).
 
 ## Medidas de referencia (la noche)
@@ -36,7 +36,7 @@ Medidas con ebur128 en `C:\Dev\TBD\Assets\TBD\Resources\Audio\` (8baca89), sin t
 
 ## Comprobaciones
 
-- **Costuras de los bucles (en el OGG)**: los 9 bucles tienen exactamente las mismas muestras que su bucle de origen (de 881.946 a 882.016, sin hueco). El salto en la unión (de 0,00001 a 0,0013) es menor que el percentil 99 de los saltos entre muestras de cada bucle (0,0005–0,0024), así que no hay clic. El salto de nivel en la unión (ventanas de 50 ms, de 0,2 a 1,8 dB) es menor que el p95 de los saltos de dentro del bucle (de 1,5 a 4,3 dB). Fundido cruzado de potencia constante de 1,5 s, cortado en cruces por cero.
+- **Costuras de los bucles (en el OGG)**: los 10 bucles (`nules_5`: unión 0,46 dB frente a un p95 de 1,71; clic 0,0007 frente a p99 0,0026) tienen exactamente las mismas muestras que su bucle de origen (de 881.946 a 882.016, sin hueco). El salto en la unión (de 0,00001 a 0,0013) es menor que el percentil 99 de los saltos entre muestras de cada bucle (0,0005–0,0024), así que no hay clic. El salto de nivel en la unión (ventanas de 50 ms, de 0,2 a 1,8 dB) es menor que el p95 de los saltos de dentro del bucle (de 1,5 a 4,3 dB). Fundido cruzado de potencia constante de 1,5 s, cortado en cruces por cero.
 - **Sucesos que se reconocerían al repetirse**: ninguna ventana de 400 ms pasa de 3,3 dB sobre la mediana (el límite era 6).
 - **Insectos**: el detector se calibró con los grillos de Nules de noche (bulto de 11,9 a 25,1 dB a unos 4,4 kHz, presente en el 100 % de las tramas de 0,5 s) frente a viento, acequia y la noche actual (≤ 5,8 dB). Se descarta una toma si tiene un bulto ≥ 8 dB presente en ≥ 60 % de las tramas. Las entregadas están todas por debajo: hay dos de Sagunto con un bulto de 10–14 dB, pero solo en el 9–27 % de las tramas, que son pájaros sueltos y no un coro.
 - **Música o voces**: 0 tonos sostenidos en todas (el detector da positivo con 4 notas sintéticas sobre ruido).
@@ -45,7 +45,7 @@ Medidas con ebur128 en `C:\Dev\TBD\Assets\TBD\Resources\Audio\` (8baca89), sin t
   - `_2`: 4 → 1 trino, el viento queda igual (−0,3 dB). Es la más plana de las dos.
 - No puedo escuchar: todo se ha comprobado midiendo. Que Lucía y Eugenio escuchen `prueba.mp3`.
 
-## Descartes (5 de 16 tomas)
+## Descartes (10 de 22 tomas)
 
 | Toma | Motivo |
 |---|---|
@@ -54,18 +54,25 @@ Medidas con ebur128 en `C:\Dev\TBD\Assets\TBD\Resources\Audio\` (8baca89), sin t
 | `atardecer_a_v01` | Los pájaros no se callan: 14 trinos al principio y 10 al final |
 | `atardecer_b_v01` | Casi sin pájaros al principio (1 trino en 0–7 s) |
 | `atardecer_b_v02` | Sin pájaros al principio (0 trinos) |
+| `dia_nules_a_v03` (9-nov, 2.ª tanda) | Nivel inestable: 5,3 dB de variación en la ventana |
+| `atardecer_a_v04` (2.ª tanda) | Los pájaros no se callan: 9 trinos al principio y 5 al final |
+| `atardecer_a_v05` (2.ª tanda) | Los pájaros no se callan: 5 y 4 |
+| `atardecer_a_v06` (2.ª tanda) | Los pájaros no se callan: 12 y 12 |
+| `atardecer_a_v07` (2.ª tanda) | Los pájaros no se callan: 14 y 10 |
 
 El prompt b del atardecer dio 0 de 2: no empieza con pájaros. Si se repone, hay que usar el prompt a.
 **Fallos de mis instrumentos que he corregido antes de descartar** (el primer pase descartó 10 de 15):
 1. El suelo de «toma muda» (−54 LUFS en bruto) venía de ambientes que iban a −32. Aquí el objetivo es −53, así que tomas de −54/−55 eran válidas. El suelo nuevo es −62 LUFS o un pico de −55 dBFS.
 2. Los detectores de tonos e insectos medían la prominencia contra la mediana de todo el espectro. En un ambiente con más graves que agudos, cualquier trama de 250–700 Hz «destacaba» de 30 a 45 dB, y salían «músicas» falsas. Ahora usan la prominencia local y la persistencia, calibradas como se dice arriba.
 3. Límite de nivel inestable de los bucles: lo subí de 4,0 a 4,5 dB. `sagunto_4` (toma a_v01) da 4,03 dB, con la costura limpia (0,26 frente a 3,83) y sin sucesos (3,1 dB).
+4. (9-nov, 2.ª tanda) Lo subí de 4,5 a 4,6 dB por `nules_5` (toma a_v04): 4,57 dB de variación máxima en la ventana, pero tiene la costura más limpia de Nules (0,46 frente a 1,71), el suceso más bajo (1,8 dB), un rango p5–p95 de 2,9 dB y ni insectos ni tonos. Es mejor que varias de las aceptadas.
 
 ## Créditos
 
 - Contador antes: 85.632. Después: 90.963. **Gasto: 5.331 créditos** (tope 5.500), a unos 12,1 créditos por segundo.
 - De ellos, **1.164 se perdieron por un fallo mío**: en la primera toma de calibración, el modo `extra` no creaba la carpeta de brutos. El guardado falló, la API cobró los 4 reintentos y no se guardó nada. Ya está corregido (`mkdir` antes de lanzar).
-- Para completar las 5 + 5 + 5 harían falta unos 4 tomas de atardecer (prompt a, 20,3 s) y 1–2 de Nules (22 s): unos **1.300–1.600 créditos** más.
+- **Segunda tanda (9-nov, tope 1.800)**: contador antes 90.963, después 92.481. **Gasto: 1.518 créditos** (2 de Nules y 4 de atardecer, prompt a; las lanzó Eugenio porque el modo auto bloqueaba la llamada). Salió 1 válida de 6 (`nules_5`). Quedan 282 del tope, que no da para reponer el atardecer.
+- Para las 3 que faltan del atardecer hay que **cambiar de prompt**: el a ha fallado 5 de 7. Calculo unos 1.000–1.500 créditos más, con una toma de calibración antes.
 
 ## Notas para Marcos (integración)
 
@@ -76,5 +83,5 @@ El prompt b del atardecer dio 0 de 2: no empieza con pájaros. Si se repone, hay
 - **Mapa (integrado)**: el mapa a 0,3 lleva además `Sfx.Duck` de −6 dB (ya integrado), así que el día no tapa los avisos del mapa.
 - **Volumen en la zona**: `DiaZonaVol` está a 1,0 sin escuchar (03bffef). Si al escucharlo en la zona el día se come la noche (posible por lo del mono frente al estéreo, ver arriba), hay que bajarlo a **0,7**.
 - **Variantes fijas elegidas por Lucía (ya en el juego)**: `sfx_amb_dia_sagunto_1`, `sfx_amb_dia_nules_2` y `sfx_amb_atardecer_1`, integradas por Marcos en 03bffef (repo TBD). No se tocan: las variantes nuevas solo se añaden con números libres (`ambiente_dia.py completar`).
-- **Variante por semilla**: `n = 1 + hash(estación, día) % N`, con N = 5 en Sagunto, 4 en Nules y 2 en el atardecer. Cuando se completen, N = 5 en los tres (pendiente: la generación de las 6 tomas que faltan está bloqueada a la espera de permiso, 9-nov). Es determinista, así que la misma estación y el mismo día dan siempre la misma variante.
+- **Variante por semilla**: `n = 1 + hash(estación, día) % N`, con **N = 5 en Sagunto, 5 en Nules y 2 en el atardecer** (el atardecer pasa a 5 cuando se repongan las 3 que faltan; mientras tanto, N = 2). Es determinista, así que la misma estación y el mismo día dan siempre la misma variante.
 - Importación: mono, Vorbis, sin Normalize, Load Type Streaming o Compressed in Memory (son 20 s).

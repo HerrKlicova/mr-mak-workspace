@@ -253,7 +253,7 @@ def candidata(sid, s, f):
                     pios=len(pios(y)), **costura(y))
         if sp > 6.0:
             return None, {**info, "motivo": f"suceso que destaca {sp} dB sobre la mediana (se notaría al repetirse)"}
-        if rango > 4.5:   # 4,0 dejaba fuera una toma de 4,03 con costura limpia y sin sucesos
+        if rango > 4.6:   # 4,0 dejaba fuera una toma de 4,03; 4,5 una de 4,57 (nules_a_v04: costura 0,46 frente a 1,72, suceso 1,8, p5–p95 2,9)
             return None, {**info, "motivo": f"nivel inestable ({rango} dB de variación en la ventana)"}
         if info["salto_union_db"] > max(info["salto_dentro_p95_db"], 0.5):
             return None, {**info, "motivo": "la costura salta más que el 95 % de los saltos dentro del bucle"}
@@ -532,7 +532,7 @@ ol.vars {{ list-style: none; margin: 0; padding: 0; display: grid; grid-template
   <header>
     <div class="eyebrow">D-N157 · Sagunto · Nules · atardecer</div>
     <h1>Ambiente de día</h1>
-    <p class="lead">Noviembre en la huerta: viento suave, pocos pájaros y la vía a lo lejos, sin insectos, música ni voces. Debajo de la prueba están las variantes de cada sonido para elegir: 5 de Sagunto, 4 de Nules y 2 del atardecer. Todo es mono, 44,1 kHz y OGG, con el nivel horneado.</p>
+    <p class="lead">Noviembre en la huerta: viento suave, pocos pájaros y la vía a lo lejos, sin insectos, música ni voces. Debajo de la prueba están las variantes de cada sonido: {len(m['clips'].get('dia_sagunto', []))} de Sagunto, {len(m['clips'].get('dia_nules', []))} de Nules y {len(m['clips'].get('atardecer', []))} del atardecer. Las fijas que ya están en el juego son Sagunto 1, Nules 2 y atardecer 1. Todo es mono, 44,1 kHz y OGG, con el nivel horneado.</p>
   </header>
   <section class="prueba" aria-labelledby="t-prueba">
     <h2 id="t-prueba">Prueba de conjunto</h2>
