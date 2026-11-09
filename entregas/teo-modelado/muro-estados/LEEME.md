@@ -27,6 +27,7 @@ Cada pieza tiene 5 variantes y 4 estados, en LOD0 y LOD1, con el nombre `SM_<Pie
   - v4 Red
 
 ## puerta_vehiculos/ · SM_PuertaVehiculos (8 m, dos hojas)
+- **9-nov: abre hacia DENTRO** (O +90°, E −90°), como las de vía; en e2 y e3 lo caído va hacia dentro. Ver ../puertas-asedio/LEEME.md.
 - Es la misma puerta de la D-N111, con las **mismas jerarquía y bisagras**: `Hoja_O` y `Hoja_E`, con el origen en su bisagra. El código de apertura no cambia.
 - En la brecha, las hojas solo conservan las bisagras arrancadas; los trozos están por el suelo, en la parte fija.
 - Los colores de la D-N163 son chapa 94948c, malla b8b8b8, tablones a86c50, sacos de las jambas 605c48 y el boquete 48403c.
