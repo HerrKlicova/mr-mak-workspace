@@ -3074,3 +3074,4 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
   3. **Castellón con la puerta de vehículos de Teo** (SM_PuertaVehiculos_Castellon), que ya está importada. Es solo para que se vea: Castellón no tiene noche en la partida. Marcos, si no le lleva más de 30 min. Si le lleva más, se queda fuera.
   4. Fuera de Sagunto no salen el campanario ni el pueblo de Sagunto (ya decidido en la A).
 - Que cada estación tenga su propio terreno, edificio y nave (Nules de verdad en la opción B, y Castellón) queda para después del MVP. Cuando Eugenio juegue, se le dirá que es provisional.
+- 12:33 · Título de zona: Sagunto sale «7 pelotones», que son los 5 del plantel y los 2 de tiradores de la azotea (D-N174). **Es correcto y se queda.** El título solo cuenta pelotones; no se quita ninguno, porque el balance de la noche 1 está medido con los 7.
