@@ -430,6 +430,12 @@ Desde el 6-nov el trabajo ha ido a «la noche de Sagunto» (D-N71), un combate e
 - **Hordas de decenas de miles (objetivo firme después del MVP; Eugenio, 9-nov)**: Eugenio quiere ver decenas de miles de zombis en pantalla, como en la referencia. En el MVP las hordas van de 2.200 a 6.550 porque el balance está calibrado con esas cifras. Después del MVP es un objetivo firme, no una idea. Hay dos vías en estudio (`economia/hordas-grandes.md`, D-N182): (a) hordas enteras que combaten, con más defensores, supervivientes por tren y tope de zona por nivel; (b) una masa visible de decenas de miles de la que solo combate la fracción que llega al muro, y la dificultad se regula con esa fracción. Se decide con las medidas de render (Marcos y Bruno), de simulación (Nacho) y de economía (Hugo) posteriores a qa48. Desde el MVP, la horda ya nace fuera de la vista y llega andando (D-N182).
 - **Orden del MVP** (plan del 8-nov): primero los bloques del domingo (controles, asedio, reparar, trenes y tutorial), luego la Colmena (D-N160) y luego la construcción ampliada. La hoja de ruta lo recoge.
 
+## 15c. Ampliaciones aprobadas la noche del 9-nov (v1.15; Eugenio: «inventad sin problema, añadid cosas si lo veis bien»)
+Detalle en `propuestas/noche-09-11-ampliaciones.md` y cifras en `economia/cifras-f3-y-ampliaciones.md` (provisionales hasta que Nacho las mida). Todas usan el núcleo de la §3a.
+- **D-N187 · Supervivientes en el campo**: un grupo de 6 a 15 personas en mitad del campo, con una horda real detrás. Seleccionas un NH90 en Bétera, sales al mapa y haces clic derecho sobre el grupo. Los llevas a una estación y se suman a su población. Si no llegas a tiempo, se pierden.
+- **D-N188 · Tren de socorro de Castellón**: a partir del día 3, un tren desde Nules con 2 pelotones rompe el cerco junto con la guarnición, que sale a su encuentro. La batalla sigue aunque no la mires.
+- **D-N189 · El tren blindado dispara**: un vagón con ametralladora que ocupa una plaza de carga. Ir con escolta o con blindado es una elección con coste.
+
 ## 16. Riesgos principales
 | Riesgo | Tipo | Mitigación |
 |---|---|---|
