@@ -2803,3 +2803,10 @@ Con el barrido de Nacho (D-N180, caso de referencia D-N179): Nules desde la noch
 ## 09-11 01:16 · Carga del vagón: b4a080 (Lucía, a partir de la tira de Teo)
 - Se elige b4a080, que da +12,5 de día y L* 28,6 de noche, y es la que menos se confunde con el resto del tren. b8b8b8 es el techo de los coches y f0dc9c, de noche, se leería como una ventanilla encendida. El margen de noche es justo: si la medida de Sara tras la reimportación no llega a ΔL* ≥ 8 contra el lateral, se pasa a f0dc9c.
 - Va como §6 del paquete de Marcos.
+
+## 09-11 01:30 · G3_red regenerado: rachas de la memoria de tráfico en el hash (Nacho)
+- Rama nacho/informe-huecos (sobre nacho/dn180). La red guarda, por tramo y franja, el tren que pasa y sus días seguidos (para la línea completa del informe, pedido de Lucía del 9-nov 00:57). Es estado nuevo: va en el hash (sistema «memoria») y en el guardado (NetVersion 7, con migración 6 → 7). El G3 cambia desde el tick 6301 solo por eso. Mismo commit: horda de Nules 2200 (Lucía 00:56), 300 zombis por u en Nules y tope de fuego de 110 por defensor en el asedio fuera de pantalla (filas de Hugo en balance_economia.csv; a 0 se apaga).
+
+## 09-11 01:22 · Informe: huecos de la red y tope de fuego en el director (Lucía, sobre 28ba0fd de Nacho)
+- {zona} en la memoria de atención es el nodo propio olvidado (más de 6 h sin mirarse; si hay varios, el que más ha crecido). Sagunto vuelve a «{n} pelotones». Textos en informe-textos.md.
+- El tope de fuego (110 por defensor) se queda activo en el asedio fuera de pantalla del director: así el resultado fuera de pantalla cuadra con NightSim y con lo que se ve en pantalla. Lo de «después del MVP» de las 01:03 era solo para el modelo de campaña (sim_economia).

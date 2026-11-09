@@ -71,3 +71,8 @@ Si hay asedio anunciado, manda sobre lo anterior: «Asedio sobre {estación} a l
 - Mientras la red no dé el número de tren ni los días seguidos: «{tramo}: el tren pasa siempre hacia las {hora}. Lo ha aprendido.» Cuando los dé, se vuelve a la plantilla completa.
 - Los textos CO que mandan son los de este documento (CO-0 a CO-4 y el ámbar de la señal 6). La lógica de cuándo sale cada uno es de Nacho; las palabras, de Diseño.
 - Precisión del 09-11 00:28 sobre el CO-0: si la partida cargada todavía no lo ha mostrado (Nacho guarda el «ya salió» con la partida), sale la primera vez que se abra el mapa de la red, siempre que el estado sea Dispersa. Lo que se evita es repetirlo, no que salga tras una carga.
+
+## Añadido 09-11 01:22 · Huecos cubiertos por la red (Nacho, 28ba0fd)
+- Memoria de tráfico: con IntelTraffic() sale la plantilla completa. Sin racha (partidas antiguas) sale la versión corta.
+- Memoria de atención: {zona} es el nodo propio olvidado, el que lleva más de 6 h sin mirarse. Si hay varios, el que más ha crecido. Ejemplo: «Nules: la Colmena se aparta de donde miramos y crece donde no.»
+- Fuerzas propias: Sagunto vuelve a «{n} pelotones» (IntelForcesAt) y la línea provisional de «guarnición» se retira. La red no cuenta las bajas de la noche en curso: las cifras son las del comienzo del periodo, sin avisarlo en el texto.
