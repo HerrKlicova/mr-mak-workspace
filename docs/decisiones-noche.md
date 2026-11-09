@@ -2874,3 +2874,4 @@ Con el reparto de granadas (Nacho, docs/economia/entregas/granadas-reparto/), Sa
 
 ## 09-11 04:19 · Condición del turbo cumplida (Sara, qa44/noche76/VEREDICTO-sara.md)
 - comparar-turbo de la Noche76 con -Turbo 8: 9 de 9 pares idénticos tick a tick en las tres dificultades. Las estadísticas de la build pueden ir con -turbo 8. Las 100 semillas en normal van con la Noche82. Si una build cambia el bucle de simulación, se vuelve a comprobar con un par por dificultad.
+- 05:08: la causa no era una sombra. La build no compilaba el recorte por alfa (los materiales se crean por código y no hay .mat), así que los huecos del suelo sobre la vía salían negros y opacos (090a10). Arreglo en claude/sombra-tren 98e25852, pendiente de compilar. El 1c1e28 queda en suspenso hasta que Sara mida la sombra de verdad con 0,75. Bruno revisa que todo lo que use recorte por alfa (vegetación, vallas, redes y cualquier otro) se vea bien con el arreglo.
