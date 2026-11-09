@@ -2761,3 +2761,14 @@ Nacho midió el apartado de Nules (normal 2400, 500 semillas): f = 57 % y no 25 
 - Regla 1, coherente con la D-N177 («todo o nada») y con el aviso «Se perderá con su carga»: un tren sin escolta rodeado (la horda en contacto y ningún pelotón propio a su alcance) se pierde con su carga en un tiempo acotado. Nacho propone el tiempo según la resistencia del tren y no debe pasar de unos minutos de juego. No hay huida automática en el MVP.
 - Regla 2, el respaldo general de la D-N175: cuando la horda de fuera no tiene ningún objetivo vivo alcanzable (el tren se ha ido o ha muerto, o la tropa de fuera ha caído), vuelve al muro y asedia la estación. Así la noche siempre acaba con el resultado del muro.
 - Nacho lo mete en NightSim y vuelve a medir la puerta oeste. Hugo actualiza tren-a-las-puertas.md. Si al medirlo sale otro caso que no se acaba, se avisa.
+
+## 09-11 00:40 · Mapa de mezcla de Nuria (docs/sonido/mezcla-mvp.md): D7 y D4 (Lucía)
+- D7: fuera el cartel «OLEADA n» y fuera sfx_alerta_oleada. Desde la D-N136 no hay oleadas, y el comienzo del ataque ya lo marca la alarma. No se usa CO-2 en su lugar: Enjambre es un estado de la Colmena, no el aviso de un ataque.
+- D4: aprobado Sfx.Duck() a −6 dB solo sobre los bucles 2D del mapa mientras suena un CO o un aviso.
+- Lo urgente es el doble «sfx_» de la salida del tren (7 constantes). Lo arreglan Marcos e Iker.
+
+## 09-11 00:45 · Nules tras la D-N180: se baja la horda y no se cambia la conducta (Lucía)
+- El 99,9 % de Nules salía de un fallo de la medida: el «tren» estaba fuera del mapa y los que trepaban se quedaban pegados al muro. Queda invalidada mi comprobación de la D-N179 («1 pelotón con 20 u aguanta»).
+- Los que trepan van a por el edificio de viajeros, como pide la D-N168: el contrapeso es la tropa de dentro. No se cambia.
+- Se baja la horda de Nules con la tropa igual. Referencia para el barrido, la que pide la D-N179 cuando el jugador actúa: la guarnición de Inicio más 1 pelotón enviado y 20 u. Objetivos: normal ≥ 95 %, difícil 65 % (banda del 50 al 80 %). Sin actuar (solo la guarnición) tiene que perder casi siempre. Hugo fija las cifras con el barrido de Nacho; el 2400 provisional queda anulado.
+- Nacho revisa si alguna medida de Sagunto dependía también del tren fuera del mapa.
