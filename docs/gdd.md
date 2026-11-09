@@ -26,7 +26,7 @@ Semanas después del brote, las carreteras están colapsadas y el combustible es
 Enfrente está **la Colmena**: una inteligencia colectiva que vive en la horda, **aprende tus costumbres y se adapta**.
 
 ## 2. Pilares
-> **Los tres pilares de Eugenio (9-nov, «PER SIS TEN CIA»). Mandan sobre todo lo demás del documento.** La referencia es Ebbtide: un solo mundo continuo.
+> **Los tres pilares de Eugenio (9-nov, «PER SIS TEN CIA»). Mandan sobre todo lo demás del documento.** La referencia es Ebbtide: un solo mundo continuo. Lo que se sabe de su bucle, con fuentes, está en `referencias-reales/ebbtide/ebbtide_bucle_nucleo.md` (Paula). Los controles exactos están SIN VERIFICAR.
 > 1. **PERSISTENCIA.** Cada zona (estación, aeródromo, tren, obra) es un lugar que existe. Lo que dejas en ella (tropa, vehículos, carga, daños, muros, cadáveres) se queda tal cual cuando te vas y lo encuentras igual al volver. Al guardar se guarda **todo el mundo**, no solo la red.
 > 2. **TIEMPO REAL.** Hay un solo reloj para todo, el de la §3c. Mientras miras el mapa o una zona, el resto del mundo sigue a la vez: los trenes viajan, los helicópteros vuelan y las hordas avanzan y atacan estaciones que no estás mirando. No hay saltos de hora, turnos ni escenas de corte. Solo la pausa (§3) lo para todo a la vez.
 > 3. **SIMULACIÓN.** Nada se resuelve de golpe ni con una tirada. Lo que no ves se simula con **las mismas reglas** que lo que ves, de forma continua y determinista (§6 y §17). Solo cambia cuánto se dibuja.
