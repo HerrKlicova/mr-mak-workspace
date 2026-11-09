@@ -5,3 +5,10 @@ S1: si se entra en la zona de Nules de dia (a las ~09:00 del dia 2, antes de que
   de 300 por la franja oeste, «[EMBOSCADA] fin en la zona: tren perdido (zombis 627)», «Sin municion: almacen vacio» y derrota por
   la estacion a las 00:53 (344 abatidos, 14 bajas). Capturas: A_nules_de_dia_es_de_noche_S1.png (hoja 22:31-00:21) y A_estacion_atacada_0u.png.
   Es lo que corrige el reloj unico (la zona no corre su propia noche; dibuja la hora de la red).
+
+-ui3 en el dia 2 (ui3_*.png): «[UI3] interfaz v3 encendida». Pinta la barra de arriba nueva (RED · DIA 2, hora, ||/x1/x2/x4, Tab INFORME, Esc MENU).
+  S2: el rotulo viejo «Sagunto en combate · 22:47 · zombis · muro» (OnGUI) se monta encima de la barra de OBJETIVO «Defiende Nules ... Nules: 0/20 u».
+  El panel de avisos y trenes de la izquierda y «Preparar tren» siguen siendo los de antes. «1 Costa» y «2 Montana» se pisan sobre la estacion.
+  Las fuentes (Barlow/Plex) no las puedo confirmar a ojo; el log no dice cual carga.
+Importado (importado_*.png, -zona X, z26): en Sagunto y Nules salen los acopios, cajas y muros nuevos; las filas grises delante del anden se ven como bloques lisos (que lo mire Bruno).
+Camara alejada de noche (lejos_*.png, z35 a los 40 s): la horda lejana a 0,06 no la he medido.
