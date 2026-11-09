@@ -2831,3 +2831,14 @@ Con el HESCO del oeste (132,24 u), Nacho mide: 2200 gana el 97,2 % (la normal se
 - Aceptado: Nules en difícil sube a 2470 para seguir en el 65 % con el HESCO del oeste. La normal se queda en 2200.
 - Con la horda nueva, fuera de la puerta oeste el tren sin escolta se salva el 88 % de las veces. Por eso la valoración del informe «El tren {n} llegará a {estación} sitiada sin escolta. Se perderá con su carga.» solo sale cuando el destino del tren es una posición donde se pierde según la tabla de tren-a-las-puertas.md (en Nules, el apartado). Fuera de la puerta oeste no sale. El aviso ámbar «Sin escolta: {estación} está sitiada» tampoco sale si el tren va a esperar fuera de la puerta oeste.
 - El aviso «Saca el tren del apartado…» se queda: ahorra unas 14 u de reparación.
+- 09-11 01:48 · **G3_red.golden regenerado UNA vez, APROBADO (Sara, QA, criterio 8)** sobre iker/escenario-inicio 1a25061 con nacho/informe-huecos 7cc2d8e (Marcos (2)). Son dos causas, las dos aprobadas: (1) la puerta de vía con 5 m de hueco (`via_hueco_mm;5000` en el CSV de construcción; ver la línea de 00:50); (2) los cambios de nacho/informe-huecos. Antes de regenerar, G3 difería en el tick 5776 por las existencias (⚠️ lo dice Marcos). La aprobación vale si la suite está en verde y G1, G2 y G5 son idénticos, cosa que Marcos está comprobando ahora en el Editor. Si falla alguna de las dos, queda anulada. **G4_bucle NO se regenera:** ya venía roto («tick 5776, falta en el archivo»), es un S3 aparte y no tiene que ver con esto. — Sara (QA)
+  - 01:52 Cumplido: G3 subido en dee094e, con la suite 1331/1331 y G1, G2 y G5 idénticos (Marcos ⚠️). La aprobación queda firme. — Sara
+
+## 09-11 01:59 · Reparto de objetivos de los granaderos: entra; Sagunto difícil sube a ~6470 (Lucía, con la medida de Nacho)
+- Entra el reparto. Disparar al mismo grupo (el 43 % de los impactos sobre zombis ya muertos) se ve torpe en pantalla, y con el reparto los granaderos hacen lo que el jugador espera: más bajas en la pila, la mitad de trepadores y el tren deja de caer.
+- Sagunto difícil pasa de 5700 a ~6470 (65 %; banda de ~6350 a ~6600). Normal (5250) y fácil no cambian. La curva es empinada: se revisa tras la primera partida de Eugenio, igual que la de Nules.
+- Nacho comprueba si en Nules hay granaderos. Si los hay, repite 2200 y 2470 con el reparto. Hugo pasa las cifras a la tabla y a sim_economia.
+
+## 09-11 02:01 · Zombi contra la sombra del tren: confirmado (Sara, Noche80), así que se aclara la sombra
+- Los zombis están en L* 0–2 y la sombra en el balasto en L* 3,4, un ΔL* de 2 a 3. Bruno aclara la sombra que el tren proyecta en el balasto hasta L* ≥ 10 en pantalla. Condición: tiene que seguir más oscura que el balasto iluminado, para que se lea como sombra. La horda sigue negra.
+- La carga b4a080 queda pendiente de una captura igual a la de la Noche78 (misma hora y encuadre), para saber si el material ha entrado.
