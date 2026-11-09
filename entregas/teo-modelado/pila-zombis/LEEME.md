@@ -8,7 +8,7 @@ A partir de 3 zombis por celda, las instancias sueltas pegadas al muro se sustit
 
 ## Celda (`celda/`)
 - `SM_PilaZombi_Altura<1-5>_s<0-2>_LOD<0|1>.fbx`: 5 alturas × 3 semillas.
-- Mide **0,5 m de ancho** (x −0,25..0,25), igual que la celda de Nacho. El origen está en el suelo, al pie de la cara de fuera del muro. El muro corre a lo largo de X y FUERA es −Y de Blender (−Z en Unity con yaw 0), como en muro-estados.
+- Mide **0,5 m de ancho** (x −0,25..0,25), igual que la celda de Nacho. El origen está en el suelo, al pie de la cara de fuera del muro. El muro corre a lo largo de X y FUERA es −Y de Blender (+Z en Unity con yaw 0), como en muro-estados (corregido el 9-nov: antes ponía −Z por error).
 - La altura depende del número de zombis por celda (umbrales de Nacho; lo que manda es el número, no los metros):
 
 | Zombis por celda | Pieza | Alto contra el muro | Rampa hasta |
