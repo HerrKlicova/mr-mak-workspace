@@ -3060,3 +3060,9 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
   - Noche de Nules: **NightParams.TrainNotDefeat = true** (el campo ya existe en NightGame y NightSim). Con eso se mide el 96 %. Lo pone la zona (Iker o Marcos).
   - El aviso de las 19:00 por un tren parado se mantiene. El bot de -dia2-auto **deja el tren donde está**, como en la medida de Nacho.
   - Por comprobar en la build (Iker): que la escolta vaya pegada al tren y que la plaza donde aparca sea el apartado que se midió. En NightSim, con 8 de escolta en el apartado, el tren acaba al 43 % de vida y no muere.
+
+## 09-11 10:40 · Opción A medida: el 2200 vale y la emboscada sin escolta es mortal (Lucía; Nacho, 200 semillas sobre la geometría de Sagunto)
+- **Noche 2 en Nules (A):** con el objetivo cumplido, 99,5 % (199/200); sin él, 0 %, como en la D-N179. **El 2200 se queda.**
+- **Emboscada (A):** el tren espera fuera de la **puerta este** (X 160–224) y el sondeo sale de la franja este. Con un pelotón de escolta se salva el 100 %. Sin escolta se pierde el 100 % con cualquier cifra entre 100 y 300, porque la guarnición está toda en el lado oeste, a más de 70 m, y se aplica la D-N180.
+- **Se acepta la (a), sin escolta el tren se pierde siempre.** El objetivo del día 2 ya pide un pelotón, EM-1 avisa y la lección es clara: un tren sin escolta no llega. Se queda el sondeo de 300. La banda del 60–90 % deja de aplicarse en la A y se volverá a mirar con el Nules de verdad (opción B).
+- El aviso de EM-1 y el del apartado nombran la **puerta este** mientras Nules use el terreno de Sagunto.
