@@ -3103,3 +3103,12 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
   - Nada más volver al mapa sale la **tarjeta del objetivo del día** (para el día 2, la v2 de informe-textos.md, que ya empieza con «Nules no tiene munición»). Así el jugador sabe qué hacer en cuanto termina la noche.
   - Lo mismo después de la noche 2 (Nules) y de la noche 3, si entra.
 - Comprobación (Sara): al ganar la noche 1, el mapa marca «Día 2 · 06:00» y sale la tarjeta del objetivo del día 2.
+
+## 09-11 21:28 · Cómo se marcan en el mapa las estaciones propias (Lucía; S2 de la partida de Eugenio, captura 107_mapa_estaciones.png)
+- Ahora todas las estaciones salen con el mismo icono verde. El verde no está en la paleta de la interfaz, así que se quita.
+- **Propias** (Sagunto, Nules y Castellón): icono relleno en **d4d0cc**, el doble de grande que ahora, con un contorno oscuro de 1 px (el mismo que el anillo de selección) y **el nombre siempre visible** debajo, con el número de pelotones: «Sagunto · 7».
+- **Propia y cercada** (Castellón): igual que una propia, con un **anillo en e08c30** y el texto «Castellón · cercada».
+- **Atacada ahora**: anillo en **982420** que parpadea mientras dure el ataque (el color de los ataques).
+- **Perdida** (cuando caiga una): icono en 982420 apagado, con el nombre tachado.
+- **El resto de la red**: icono hueco en **b8b8b8 al 50 %**, más pequeño y sin nombre. El nombre sale al pasar el ratón.
+- Comprobación (Sara): en una captura del mapa entero, las 3 propias se distinguen de un vistazo y ningún par de colores que se toquen baja de ΔL* ≥ 8.
