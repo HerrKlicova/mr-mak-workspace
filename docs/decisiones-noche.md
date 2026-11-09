@@ -2930,3 +2930,11 @@ Con el rodeo del edificio en la build, la difícil de 6470 gana 20/20 (Noche86ro
 ## 09-11 07:35 · Tutorial 2.4 atascado (Eugenio): opción A más una condición de entrada (Lucía)
 - A: si «Reparar» está bloqueado por zombis en el tramo, el paso explica el motivo y se cierra solo a los ~8 s. No se aparta la horda (B), porque enseñaría algo que el juego no hace.
 - Condición: el capítulo 2 empieza cuando no queda horda junto al tramo dañado que señala (o a los 30 s, como máximo). Textos en tutorial-textos.md. Lo implementa Iker.
+
+## 09-11 07:40 · Guarnición propia de cada estación (Lucía; corrige el fallo de Eugenio: «vayas a la estación que vayas, aparecen los mismos soldados»)
+- Ya lo pedía la D-N173 y sigue sin cumplirse en la build. Cada estación saca su tropa de sus propios datos (IntelForcesAt, nacho/informe-huecos, y los json de cada estación), nunca de una formación común. Las cifras son las ya medidas, sin inventar:
+  - **Sagunto** (principal): 5 pelotones, 1 Dragón y 2 VAMTAC (medido por Nacho, 8-nov 15:55). Colocación: 2 pelotones en la banqueta del muro oeste, mirando a la puerta de la vía; 1 en el ala norte y 1 en el ala sur, en la banqueta; 1 de reserva junto al edificio de viajeros; el Dragón y los VAMTAC dentro de la puerta sur (acceso_sur), mirando a la puerta.
+  - **Nules** (pequeña): 12 personas, 1 pelotón de fusileros (8) y 1 de ametralladores (4), sin vehículos (nules.json). Colocación: fusileros repartidos entre las dos puertas de vía oeste, en los cruces de andén con HESCO; ametralladores junto al edificio de viajeros, cubriendo el apartado. Ningún vehículo.
+  - **Castellón**: sin tropa. Está infestada y cerrada en el MVP (D-N131). Si el jugador entra, no hay soldados propios.
+  - **Bétera** (aeródromo): 2 NH90, 2 pelotones para embarcar (uno por aparato) y 1 pelotón de guarnición fijo (8-nov 14:00). Colocación: los de embarque junto a sus NH90 en el helipuerto y la guarnición en la puerta de la valla.
+- Los puntos exactos los da Álvaro para cada estación a partir de sus planos (tramos y puertas reales de RecintoPlan), en un formato que Iker pueda cargar. Mientras no lleguen, Iker usa estas reglas con las puertas y los muros de cada recinto. Si la estación no tiene un elemento (por ejemplo, Nules no tiene puerta de vehículos ocupada), esa parte no se coloca.
