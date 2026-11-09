@@ -2991,3 +2991,9 @@ Reserva de partida de Castellón: 0 u de munición (la dotación de unas 10 u va
   - La guarnición de Nules no pierde lo bastante como para que la noche 2 baje de un 90 % de victorias con el objetivo del día 2 cumplido.
 - Si con la distancia no basta, el sondeo sube a 400 y después a 500, y se para en la primera cifra que cumpla. Si ninguna cumple, me lo dice Nacho antes de tocar nada más.
 - EM-1 no cambia. El aviso del apartado solo sale si el tren llega a entrar.
+
+## 09-11 09:00 · Emboscada cerrada: 300 en la vía al oeste de Nules (Lucía, con la medida de Nacho en NightSim, 200 semillas)
+- El tren espera en X 20–84 m, al oeste de Nules. Los 300 salen de la franja oscura (X 0–20 m) en 30 s y van a por él.
+- Medido con 300: sin escolta se pierde el 87 % (174/200); con un pelotón de 8, el 0 %. Con 20 u la noche 2 da el 96 %; la escolta gasta 1–2 u.
+- **Se queda así, con 300 y en ese punto.** El 87 % pasa por poco del techo de 85 % que puse, pero ese techo era una cifra mía sin más base: el objetivo del día 2 ya pide mandar un pelotón, el jugador tiene el aviso EM-1 y puede reaccionar, y que ir sin escolta se pague es lo que queremos enseñar. Bajar a 250 o acercar el punto al muro solo sirve para entrar en la banda y le quita peligro.
+- Las cifras de 400 y 500 quedan descartadas.
