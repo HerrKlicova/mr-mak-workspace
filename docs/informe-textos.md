@@ -70,3 +70,4 @@ Si hay asedio anunciado, manda sobre lo anterior: «Asedio sobre {estación} a l
 ## Añadido 09-11 00:18 · Memoria de tráfico sin número de tren ni días
 - Mientras la red no dé el número de tren ni los días seguidos: «{tramo}: el tren pasa siempre hacia las {hora}. Lo ha aprendido.» Cuando los dé, se vuelve a la plantilla completa.
 - Los textos CO que mandan son los de este documento (CO-0 a CO-4 y el ámbar de la señal 6). La lógica de cuándo sale cada uno es de Nacho; las palabras, de Diseño.
+- Precisión del 09-11 00:28 sobre el CO-0: si la partida cargada todavía no lo ha mostrado (Nacho guarda el «ya salió» con la partida), sale la primera vez que se abra el mapa de la red, siempre que el estado sea Dispersa. Lo que se evita es repetirlo, no que salga tras una carga.

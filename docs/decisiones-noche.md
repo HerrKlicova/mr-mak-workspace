@@ -2732,3 +2732,16 @@ Nacho midió el apartado de Nules (normal 2400, 500 semillas): f = 57 % y no 25 
 ## 09-11 00:26 · Colores reservados en los modelos (repaso de Teo, 9205e9c)
 - Se aprueban las 37 piezas que Teo pasó de d4d0cc a b8b8b8 (§4 del paquete de Marcos). El 982420 no aparece en ninguna pieza. El e08c30 solo está en la franja de las locomotoras (D-N42) y se queda. El visor del Dragón (2×2 px) se queda.
 - Las fachadas encaladas en d4d0cc (unos 110 FBX) quedan pendientes. Teo hace una hoja con 5 variantes (A d4d0cc / B f0dc9c / C b8b8b8 / D f0dc9c con zócalo b8b8b8 / E d4d0cc con zócalo b8b8b8), con el fantasma de construcción y el anillo de selección al lado, de día y de noche. Sara mide el ΔL* entre el fantasma y la fachada y luego decido. Hasta entonces no se tocan.
+- 09-11 00:35 · **traza_nightsim_o1.csv regenerada en `nacho/colmena-estados`** (Nacho, pedido de Iker por el S2 de Sara en la Noche70). La referencia era de 431db8f (2040 zombis en 9000 ticks). Ahora sale de la noche de 5250 (×103), que es la que lee la build. Data/noche_sagunto.json queda igual que StreamingAssets/Noche. Suite 1296/0.
+
+## 09-11 00:28 · CO-0 al cargar partida (Lucía; precisa la entrada de las 00:12)
+- Se queda como lo ha hecho Nacho (b09eeb1): si la partida guardada no había mostrado el CO-0, sale al abrir el mapa de la red por primera vez, siempre que el estado sea Dispersa. Mi «no sale al cargar» de las 00:12 estaba mal dicho: lo que importa es que no se repita. Iker no tiene que añadir ninguna opción.
+
+## 09-11 00:30 · Nules en difícil: sube la horda, la tropa no cambia (Lucía, sobre la tanda de Nacho)
+- La dificultad se marca con la horda y no con la guarnición: la tropa que manda el jugador tiene que valer lo mismo en las dos dificultades, y la D-N179 enseña «manda tropa y munición». Nacho mide con qué horda en difícil (20 u, recinto de 124,3 u) se gana el 65 % y Hugo la fija.
+- La normal (gana el 99,9 % con 2400) cumple la D-N169 y se queda. Sin munición se pierde siempre, como pide la D-N179.
+
+## 09-11 00:33 · Fachadas encaladas: variante C, b8b8b8 (Lucía, a partir de la hoja de Teo)
+- Elegida la C: el muro pasa de d4d0cc a b8b8b8 en las unas 110 FBX de la lista B. Es la única que separa el fantasma y el anillo de día (ΔL* 14,6). La A y la E se quedan en 6,1, y la B y la D, en 1,6, porque el f0dc9c a pleno sol queda igual que el hueso.
+- En la hoja se sigue leyendo como cal y no como gris de hormigón, y el carácter lo dan las pilastras granates y los recercados, que no cambian. Retiro lo que dije de que «la vuelve gris»: en la hoja no pasa.
+- Teo la aplica ya. Si la medida de Sara en la build da menos de 8, se reabre.
