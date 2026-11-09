@@ -2745,3 +2745,9 @@ Nacho midió el apartado de Nules (normal 2400, 500 semillas): f = 57 % y no 25 
 - Elegida la C: el muro pasa de d4d0cc a b8b8b8 en las unas 110 FBX de la lista B. Es la única que separa el fantasma y el anillo de día (ΔL* 14,6). La A y la E se quedan en 6,1, y la B y la D, en 1,6, porque el f0dc9c a pleno sol queda igual que el hueso.
 - En la hoja se sigue leyendo como cal y no como gris de hormigón, y el carácter lo dan las pilastras granates y los recercados, que no cambian. Retiro lo que dije de que «la vuelve gris»: en la hoja no pasa.
 - Teo la aplica ya. Si la medida de Sara en la build da menos de 8, se reabre.
+
+## 09-11 00:34 · RECTIFICACIÓN: las fachadas se quedan en A (d4d0cc) y el arreglo va en la interfaz (Lucía, a partir de la medida de Sara)
+- Anula la entrada de las 00:33. Me equivoqué al decidir antes de tener la medida de Sara: con la C la fachada queda a 5,2 de la arena y el edificio se pierde contra el suelo (docs/qa/dl-fachadas-encaladas.md). Además, el fantasma y el anillo casi siempre están sobre el suelo (ΔL* 19,6). El 6,0 solo cuenta donde tapan el pie del muro.
+- Las fachadas encaladas se quedan en d4d0cc. Es una excepción documentada a la reserva del hueso: son superficies grandes de escenario, y la interfaz se distingue por su forma y su contorno.
+- Bruno añade un contorno oscuro de 1 px (pixelado final) al fantasma de construcción y al anillo de selección, con un tono de la paleta que dé ΔL* ≥ 8 tanto contra la cal de día como contra la arena. Sara lo mide en la build con las capturas de qa47.
+- Las 37 piezas pequeñas que Teo corrigió a b8b8b8 se quedan corregidas.
