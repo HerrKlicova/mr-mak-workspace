@@ -76,3 +76,6 @@ Si hay asedio anunciado, manda sobre lo anterior: «Asedio sobre {estación} a l
 - Memoria de tráfico: con IntelTraffic() sale la plantilla completa. Sin racha (partidas antiguas) sale la versión corta.
 - Memoria de atención: {zona} es el nodo propio olvidado, el que lleva más de 6 h sin mirarse. Si hay varios, el que más ha crecido. Ejemplo: «Nules: la Colmena se aparta de donde miramos y crece donde no.»
 - Fuerzas propias: Sagunto vuelve a «{n} pelotones» (IntelForcesAt) y la línea provisional de «guarnición» se retira. La red no cuenta las bajas de la noche en curso: las cifras son las del comienzo del periodo, sin avisarlo en el texto.
+
+## Añadido 09-11 01:44 · Cuándo sale «Se perderá con su carga»
+- Solo si el destino del tren, según tren-a-las-puertas.md, es una posición donde se pierde sin escolta (en Nules, el apartado). Si el tren va a esperar fuera de la puerta oeste (88 % de salvarse sin escolta), no sale ni esta línea ni el ámbar «Sin escolta».

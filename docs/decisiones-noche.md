@@ -2822,3 +2822,12 @@ Con el barrido de Nacho (D-N180, caso de referencia D-N179): Nules desde la noch
 ## 09-11 01:28 · Recinto de Nules: se aceptan los 132,24 u (Lucía; corrige el «no cambiar los 124,3 u» de las 01:25)
 - Los tramos de HESCO del oeste tienen el triple de vida, así que el recinto sube de 124,3 a 132,24 u. Se acepta, siempre que el 2200 que está repitiendo Nacho con esos tramos no se mueva más de 2 puntos del 96 %. Si se mueve más, Hugo recalcula la horda.
 - Hugo actualiza en sim_economia y en nules.json lo que dependa de esa cifra (reparación y coste).
+- 01:35: comprobado. Con el HESCO del oeste, 2200 gana el 97,2 % (486 de 500, Nacho). La horda se queda y la lista a75067c (42 piezas, 132,24 u) va a Marcos.
+
+### Adenda Nules (Hugo, 9-nov 01:45): difícil 2470 y tabla del tren
+Con el HESCO del oeste (132,24 u), Nacho mide: 2200 gana el 97,2 % (la normal se queda, regla de Lucía de 2 puntos), 2400 el 77,4 % y 2500 el 59,2 %. El 65 % de difícil pasa de 2440 a ~2470, y nules.json lleva 1880/2200/2470. Tren en Nules con 2200: en el apartado cae sin escolta y con 8 o 16 acaba al 43-51 %; fuera de la puerta oeste, 88 % sin escolta y 99 % con 8. Tabla vigente en docs/economia/tren-a-las-puertas.md.
+
+## 09-11 01:44 · Nules difícil 2470; el informe solo da el tren por perdido cuando lo está (Lucía, sobre la adenda de Hugo)
+- Aceptado: Nules en difícil sube a 2470 para seguir en el 65 % con el HESCO del oeste. La normal se queda en 2200.
+- Con la horda nueva, fuera de la puerta oeste el tren sin escolta se salva el 88 % de las veces. Por eso la valoración del informe «El tren {n} llegará a {estación} sitiada sin escolta. Se perderá con su carga.» solo sale cuando el destino del tren es una posición donde se pierde según la tabla de tren-a-las-puertas.md (en Nules, el apartado). Fuera de la puerta oeste no sale. El aviso ámbar «Sin escolta: {estación} está sitiada» tampoco sale si el tren va a esperar fuera de la puerta oeste.
+- El aviso «Saca el tren del apartado…» se queda: ahorra unas 14 u de reparación.
