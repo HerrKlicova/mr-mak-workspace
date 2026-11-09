@@ -8,3 +8,12 @@ n70_refuerzos_auto: salio, 903 s
 n70_zona_sagunto: fin, 9 s
 n70_zona_nules: fin, 9 s
 n70_zona_nules_tutorial: fin, 9 s
+n70_zona_castellon: salio, 104 s
+n70_facil_s1: fin, 73 s
+n70_facil_s2: fin, 66 s
+n70_facil_s3: fin, 69 s
+n70_dificil_s1: fin, 78 s
+n70_dificil_s2: fin, 84 s
+n70_dificil_s3: fin, 76 s
+n70_tramostest: fin, 91 s
+HECHO
