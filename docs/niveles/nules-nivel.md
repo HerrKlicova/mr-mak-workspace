@@ -340,3 +340,5 @@ En total son 20. Así cuadra con las cifras de Nacho:
 - Con 4 bajas (24), los 4 que llegan completan NORTE.
 
 El sitio de «lo que sobra» sustituye al de ahora en el código, (106; 72,2) delante del edificio, que no es banqueta. Con 4 hombres ocupa Z 79,3–83,7 y no pisa a NORTE, que con 8 llega a Z 77,3. Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000).
+
+**En espera (11:23).** Nacho midió los 20 con otro reparto: 20 fusileros (sur 8 en 71,5; 58,5, norte 8 en 71,5; 70,5 y este 4) más los 4 ametralladores de la azotea, y la escolta a la banqueta en (71,5; 64,5). Si la azotea cuenta o no dentro de los 20 lo decide Lucía. Nacho mide ahora el reparto de la tabla de arriba. Hasta que se cierre, Iker no lo mete.
