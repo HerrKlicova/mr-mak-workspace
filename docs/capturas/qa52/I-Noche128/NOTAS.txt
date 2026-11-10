@@ -1,0 +1,11 @@
+qa52 sobre la I-Noche128 (iker/f1-aire 38f78b3e), solo por log (el monitor del PC esta apagado: las capturas de pantalla y la F9 no valen) - Marcos, 10-11
+- -dia2-auto -aire-auto: OK. «[AERO] -aire-auto: NH90 1 a Nules con peloton: orden dada»; «D-N190: 3 u de municion en el nodo 4»;
+  «NH90 1 entra en la zona de Nules (rumbo 227°, con peloton)». Emboscada de 300 rechazada; el tren descarga (07:57) y sale a las 19:31.
+  Noche 2 en Nules: «resultado=victoria abatidos=2200 bajas=0 municion_restante_u=17,4». Hash identico en los dos mundos.
+- -dia2-auto-tren-aparcado (regla del asedio con el tren dentro de Nules): S1. «asedio anunciado en Nules: 1 peloton junto al tren entra
+  andando al recinto». El tren se queda vivo fuera de la puerta este («solido del tren en X 160-224»). La noche no se acaba: quedan
+  330 zombis y 1870 abatidos y el reloj sigue hasta las 13:01 del dia siguiente sin resultado. Parece que el tren rodeado sin tropa ya no
+  pierde vida (D-N180 (1), 10 min de juego): con el reloj unico la zona no corre SurroundedTrainZona, y NightSim no lo hace caer.
+  Como solo se gana acabando con la horda (D-N164), es la «noche infinita» otra vez.
+- -zona Sagunto 300 s: el reloj avanza (22:28 -> 03:37) y acaba en «resultado=victoria abatidos=5250 bajas=4». Una excepcion nueva:
+  NullReferenceException en TBD.View.OperationsMap3D.Update ().
