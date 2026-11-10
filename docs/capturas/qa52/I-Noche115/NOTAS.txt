@@ -11,3 +11,14 @@ S1 (Nules a las 09:00 del dia 2, -dia2-auto -dia2-auto-enzona): SIGUE, y ahora l
   lo devuelve. Todo lo que se lee despues de Data/ falla (Betera; quiza tambien otros CSV). En la 112 si se montaba.
 
 «Preparar tren» con -ui3 (-menu-auto -trenpanel-auto -ui3): ui3_preparar_tren_*.png. Se ve con el estilo nuevo. S3: entre las 05:48 y las 05:53 el panel pasa de la derecha a la izquierda de la pantalla.
+
+Bloque B, a mano con clics simulados, sobre la 115 (-menu-auto -zona Sagunto):
+- 110-4: los Granaderos, desde el anden (dentro), mandados a un punto fuera del muro oeste. Rodean por la esquina y la abertura
+  y llegan fuera; ninguno atraviesa el muro: OK (B_110-4_*.png). La linea discontinua de la orden sigue recta y cruza el muro:
+  es cosmetico, pero Sara lo pide.
+- 110-2: el Dragon, desde el aparcamiento, a un punto fuera del muro oeste. Llega y se para fuera, sin quedarse en el muro: OK
+  (B_110-2_*.png). El VAMTAC no esta en el plantel de esta zona.
+- 107-7: el log dice «[PUERTA-VIA] pieza 2 en (70,0;64,5) estado 0» y «pieza 19 en (156,0;64,5) estado 0», pero no he podido
+  encuadrar la puerta: las flechas no mueven la camara con teclas simuladas.
+- OJO: con -zona Sagunto en la 115 el reloj se queda en las 22:00 y no entra la horda (0 zombis, 0 abatidos durante minutos).
+  Seguramente por el reloj unico (sin red no avanza la noche).
