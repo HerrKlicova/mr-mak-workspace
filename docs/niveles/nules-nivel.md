@@ -318,3 +318,9 @@ El puesto se queda en (124; 75,5), donde ganó la -dia2-auto de la I-Noche141 co
 - Con 4 hombres ocupa Z 78,3–82,7. Con 8 llegaría a Z 73,9–87,1 y chocaría con el muro, pero con la D-N195 el puesto lleva 4.
 - Ve la esquina SE (a 6 m) y el andén hacia la puerta este sin nada en medio.
 - Se llega por el mismo camino que al puesto de (124; 75,5).
+
+**Puesto definitivo (Lucía, 10-nov 11:09, decisiones 27a1745): (118000; 80500), rumbo 0 (este), Línea, cota 0, con 4 hombres (D-N195).** Comprobado:
+- **Línea de visión:** 130 líneas, de 5 posiciones de la fila (Z 78,3–82,7) a la fachada este, a la esquina SE, a los tres puntos de la I-Noche139 y a 21 puntos del andén entre X 120 y 156 (Z 65,5–71). Se miden contra la caja del edificio (96,5–115,5 × 75,0–83,8) y el tren (Z 64,5, X 81–145), y no se tapa ninguna. La fila está a 2,5 m al este de la fachada, así que la ve entera de canto y en diagonal.
+- **A pie:** de la banqueta oeste se va por el andén 1 (franja Z 66,1–75,0 entre el tren y la fachada sur), se dobla la esquina SE y se sube por la franja X 115,5–156 hasta Z 80,5. No hay obstáculos con colisión. Por detrás del edificio no se pasa: entre el edificio y el muro norte solo quedan 0,7 m, en Z 83,8–84,5.
+- **Holguras:** 1,8 m al muro norte por el hombre de más al norte (Z 82,7; cara interior Z 84,5); la cocina de campaña (121; 78), sin colisión, queda a 3 m al este.
+- **Ojo, Iker:** con 8 hombres la fila llegaría a Z 87,1, más allá del muro. Por eso el tope de 4 de la D-N195 hace falta también por sitio. Y si queda algo del código de la D-N192 que elige «el puesto de tierra más al norte» por Y, este puesto (Y 80,5) le ganaría a la banqueta: el orden lo tiene que dar la D-N195, no la Y.

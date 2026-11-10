@@ -1,5 +1,5 @@
 {
- "version": "v1.5",
+ "version": "v1.6",
  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»; v1.3 22:55: Nules B con los dos flancos (vía y norte), nules-nivel.md §15",
  "fuente": "decisiones-noche.md 09-11 07:40 (reglas de Lucía) y D-N183 (Castellón propia); planos de docs/niveles/*-nivel.md y recintos de Teo (mr-mak a75067c Nules; sagunto-recinto)",
  "convenciones": {
@@ -118,21 +118,16 @@
    "nota": "Para que no salga la formación de Sagunto: solo dos pelotones, sin alas, sin reserva y sin vehículos, y los ametralladores arriba, en la azotea (en Sagunto son los tiradores). Los fusileros coinciden con el puesto de los fusileros de Sagunto porque, con dos pelotones, la puerta de vía es lo único que hay que cubrir. SIN VERIFICAR: dónde arrancaban los dos pelotones en la medida de Nacho (2200, 96 %); el bot los mueve igual, pero se lo pregunto.",
    "puesto_D-N194": {
     "tipo": "fusileros",
-    "x_mm": 124000,
-    "y_mm": 75500,
+    "x_mm": 118000,
+    "y_mm": 80500,
     "rumbo_bam16": 0,
     "formacion": "Linea",
     "cota_m": 0,
-    "puesto": "testero este del edificio de viajeros, en el suelo, al norte del andén 1 (Nules opción A = terreno de Sagunto). Mira al este, hacia la puerta de vía este. A 8,5 m de la fachada este (X 115,5) y a 9 m de la esquina SE (115,5; 75,2). En Línea con 2,2 m entre hombres: con 8, Z 66,7–82,1; con 4, Z 73,3–77,7.",
-    "fuente": "D-N194 (Lucía, 10-nov 10:43); nules-nivel.md §17",
+    "puesto": "junto a la esquina NE del edificio de viajeros, a 2,5 m al este de la fachada este (X 115,5), mirando al este. En Línea con 4 hombres: Z 78,3–82,7 (el muro norte tiene la cara interior en Z 84,5). Se llega por el andén 1 doblando la esquina SE.",
+    "fuente": "D-N194/D-N195 (Lucía, 27a1745, 10-nov 11:09); nules-nivel.md §17",
     "orden_llenado_D-N195": "1) puestos norte y sur de la puerta oeste hasta 8; 2) este puesto hasta 4; 3) banqueta (puede quedarse a 0)",
-    "plan_B": {
-     "x_mm": 118000,
-     "y_mm": 80500,
-     "rumbo_bam16": 0,
-     "formacion": "Linea",
-     "cuando": "si falla la medida con 4 bajas en la escolta (≥ 90 %) o la -dia2-auto con el orden nuevo"
-    }
+    "hombres_max": 4,
+    "anterior": "(124000; 75500), descartado el 10-nov 11:09"
    }
   },
   "Castellón": {
