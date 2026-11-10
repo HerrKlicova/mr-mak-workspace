@@ -9,3 +9,5 @@ S1 (Nules a las 09:00 del dia 2, -dia2-auto -dia2-auto-enzona): SIGUE, y ahora l
 -zonabetera: «[BETERA] falta estacion_betera.json», asi que Betera no se monta. El archivo esta en StreamingAssets/Data.
   Causa: PrototypeBootstrap.Reloj.cs:163 pone BalanceSource.Reader en StreamingAssets/Noche al registrar las noches al arrancar y no
   lo devuelve. Todo lo que se lee despues de Data/ falla (Betera; quiza tambien otros CSV). En la 112 si se montaba.
+
+«Preparar tren» con -ui3 (-menu-auto -trenpanel-auto -ui3): ui3_preparar_tren_*.png. Se ve con el estilo nuevo. S3: entre las 05:48 y las 05:53 el panel pasa de la derecha a la izquierda de la pantalla.
