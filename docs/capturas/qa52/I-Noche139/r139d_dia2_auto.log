@@ -1,0 +1,710 @@
+Mono path[0] = 'C:/Dev/TBD-2/Builds/I-Noche139/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD-2/Builds/I-Noche139/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD-2/Builds/I-Noche139/TBD_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.278 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 1.524600 ms
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+Warning: No Graphics Device found. Deformation systems will not run.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Entities Graphics package disabled
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.002000 ms
+NullReferenceException: Object reference not set to an instance of an object
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3210.
+Total: 5.058300 ms (FindLiveObjects: 0.079900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 4.937600 ms  DeleteObjects: 0.007500 ms)
+
+[MAPA-DIAG] t=0,4 dist=230,0 foco=(115.50, 0.00, 94.50) zona_red=-1 pausa=False vel=1 frenada=False tick=5775 cam=Camera True (0.00, 0.00, 0.00) entrando=False intro=False tutorial=False fundido=False/-1,0s/desde_inicio=0,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=3000 fps=24
+[RELOJ] noche de Sagunto registrada en la red (A y B): 7 pelotones, 3 vehículos, 47 u, noche_sagunto.json (normal); noches del plan: día 1 sí, día 2 sí
+[RELOJ] noche de Nules registrada en la red (A y B): 3 pelotones, 0 vehículos, 0 u, nules.json (normal); noches del plan: día 1 no, día 2 sí
+[MAPA-DIAG] t=2,4 dist=230,0 foco=(115.50, 0.00, 94.50) zona_red=-1 pausa=False vel=1 frenada=False tick=5841 cam=Camera True (115.50, 180.05, -53.34) entrando=False intro=False tutorial=False fundido=False/-1,0s/desde_inicio=2,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=2760 fps=60
+[DIA2] paso por Sagunto para crear la sesión de la zona
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.116500 ms
+NullReferenceException: Object reference not set to an instance of an object
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3236.
+Total: 1.487000 ms (FindLiveObjects: 0.079500 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.323700 ms  DeleteObjects: 0.052300 ms)
+
+[D-N80] horda con TBD/Horda: 5 siluetas, 1 material
+[TBD] Zona Sagunto: 0 zombis (deriva) creados en 30,8 ms
+[VIVO] montado: 17 piezas, 0 sin modelo
+[BRUMA] D-N182: franja de 28 m en los bordes de la zona y zoom de noche hasta 35
+[NOCHE] InitNight en el tick ECS 0 (frame 157, Active=True)
+[NOCHE] noche de Sagunto: noche_sagunto.json
+[NOCHE] noche_sagunto.json (normal): el tren es derrota
+[NOCHE] almacén de munición de la zona: min(tope 47, reserva 150) = 47 u
+[NOCHE] noche de Sagunto: la suya, reanudada
+[NOCHE] plantel de Sagunto: 7 pelotones
+[NOCHE] tren en Sagunto: 2 Montaña (en el andén); rectángulo del tren en la zona X 81,0–145,0, Z 62,9–66,1 m; edificio X 96,5–115,5, Z 75,2–83,6; escolta 0 pelotón(es) en (113,0; 60,0); el tren es derrota
+[LUZ] noche: sun=Directional Light _sun=Directional Light ambiente=RGBA(0.274, 0.296, 0.385, 1.113) sondaDC=(0,061; 0,071; 0,123) sombranoche=0.75 | Directional Light Directional i=0,338 sombras=Soft fuerza=1 | URP sombraDist=50 luzPrincipalSombras=True
+[SOMBRA] 31× Universal Render Pipeline/Lit col=FFFFFF tex=- cola=2000 capa=0 · p. ej. SM_topera_v4_LOD1 y=0.00..1.34 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=605C48 tex=- cola=2000 capa=0 · p. ej. Balasto de la zona y=0.01..0.05 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=94948C tex=- cola=2000 capa=0 · p. ej. Vía 2 desvío raíl y=0.07..0.17 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=- tex=- cola=2000 capa=0 · p. ej. SM_AcopioCombustible_v0_Lleno y=0.00..1.27 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=48403C tex=- cola=2000 capa=0 · p. ej. Grieta calle y=0.08..0.10 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Sprites/Default col=- tex=- cola=2000 capa=0 · p. ej. Sombra de masa y=0.02..0.02 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=969173 tex=- cola=2000 capa=0 · p. ej. Suelo oeste y=-0.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 5× Universal Render Pipeline/Lit col=B4A080 tex=- cola=2000 capa=0 · p. ej. Terreno y=-4.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=88885C tex=- cola=2000 capa=0 · p. ej. Caña y=-4.60..-2.80 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=6C7874 tex=- cola=2000 capa=0 · p. ej. Calle de la Estación y=0.02..0.08 recibeSombra=True sondas=BlendProbes
+[LUCES] Directional Light (padre -) Directional i=0,34 alcance=10 sombras=Soft fuerza=1 pos=(0, 3, 0) color=BFCCFF
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 65) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 79) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 50) color=FFC850
+[SOMBRA] materiales de variantes en la build (recorte por alfa): SÍ
+[SOMBRA] variante de emisión: SÍ (_EMISSION activa)
+[SOMBRA] sondas de luz en la escena: ninguna · mapas de luz: 0 · modo ambiente: Flat · reflejo: Skybox
+[SOMBRA] pieza Balasto de la zona centro=(128.0, 0.0, 64.5) tam=(756.0, 0.0, 4.0) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=605C48FF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 61.4) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 centro=(-100.0, 0.1, 59.5) tam=(300.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 62.6) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 balasto centro=(-100.0, 0.0, 59.5) tam=(300.0, 0.0, 3.4) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=48403CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía centro=(128.0, 0.1, 64.5) tam=(756.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 35 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[NOCHE] título: Sagunto · 7 pelotones
+[NOCHE] muros_obras=31
+[NOCHE] reloj_x=103 municion_u=47 materiales_u=40 combustible_u=30 almacen_combustible_u=16
+[NOCHE] vehículos de Sagunto: 3 (Dragón, VAMTAC 1, VAMTAC 2)
+[NOCHE] linea de vision: 35 solidos del inventario
+[NOCHE] prueba: -nightbot (NightBot de Nacho)
+[NOCHE] vuelvo a la zona (tick 0): 0 zombis recreados, hora 22:00, muro 1000‰, estado Jugando
+[Pila] mallas de la pila cargadas (5 alturas x 3 semillas, con remates)
+[PUERTA-VIA] pieza 2 en (70,0;64,5) estado 0
+[PUERTA-VIA] pieza 19 en (156,0;64,5) estado 0
+[NOCHE] puerta PuertaVia cerrada con muro: (70,0;62,9) -> (70,0;66,1)
+[NOCHE] puerta PuertaVia cerrada con muro: (156,0;66,1) -> (156,0;62,9)
+[NOCHE] puerta PuertaVeh cerrada con muro: (95,0;44,0) -> (103,0;44,0)
+[NOCHE] tramos: 5 tramos en el muro oeste (vida total 365828)
+[TBD] tick 0: hash idéntico en los dos mundos (3CEAA5952FE8307C)
+[Pila] tramos=113 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 300: hash idéntico en los dos mundos (E88AFFDF3E089ADB)
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Suelo este kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Grieta carretera kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 68 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[TBD] tick 600: hash idéntico en los dos mundos (E88AFFDF3E089C07)
+[TBD] Suelo por trozos precargado: 37 trozos
+[TBD] tick 900: hash idéntico en los dos mundos (E88AFFDF3E089D33)
+[DIA2] sesión de zona creada; vuelvo al mapa
+[NOCHE] salgo al mapa con la noche en la red: 0 zombis pasan a NightSim, hora 22:00, empezada no (espera a las 22:00)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.659300 ms
+NullReferenceException: Object reference not set to an instance of an object
+
+Unloading 1521 unused Assets to reduce memory usage. Loaded Objects now: 3393.
+Total: 3.498700 ms (FindLiveObjects: 0.119800 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.372300 ms  DeleteObjects: 1.957900 ms)
+
+[MAPA-DIAG] t=0,3 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=0 pausa=False vel=1 frenada=False tick=6932 cam=Camera True (0.00, 0.00, 0.00) entrando=False intro=False tutorial=False fundido=True/0,3s/desde_inicio=0,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=3000 fps=44
+[MAPA-DIAG] t=2,3 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=1 frenada=False tick=7468 cam=Camera True (136.50, 30.84, 19.79) entrando=False intro=False tutorial=False fundido=True/2,3s/desde_inicio=2,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=480 fps=60
+[DIA2] avanzo la red al día 2
+[MAPA-DIAG] t=4,3 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=4 frenada=False tick=13604 cam=Camera True (136.50, 30.84, 19.79) entrando=False intro=False tutorial=False fundido=True/4,3s/desde_inicio=4,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=480 fps=36
+[TBD] fundido caducado: se quita
+[TBD] guardado del atardecer (día 1, 19:03)
+[MAPA-DIAG] t=6,3 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=4 frenada=False tick=23204 cam=Camera True (136.50, 30.84, 19.79) entrando=False intro=False tutorial=False fundido=False/-1,0s/desde_inicio=6,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=480 fps=36
+[MAPA-DIAG] t=9,0 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=1 frenada=False tick=25124 cam=Camera True (136.50, 30.84, 19.79) entrando=False intro=False tutorial=False fundido=False/-1,0s/desde_inicio=8,7 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=480 fps=1
+[MAPA-DIAG] t=11,1 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=1 frenada=False tick=27244 cam=Camera True (136.50, 30.84, 19.79) entrando=False intro=False tutorial=False fundido=False/-1,0s/desde_inicio=10,8 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=480 fps=5
+[TBD] punto de control: amanecer del día 2
+[DIA2] día 2, 06:31
+[TREN] enviado 1 Costa de Sagunto a Nules: carga 0/0/0/0/0, ETA 0:21
+[DIA2] primer tren a Nules
+[TREN] llega a Nules y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[TREN] descarga en Nules (el tren se queda)
+[TREN] descarga automática al llegar a Nules
+[TREN] enviado 1 Costa de Nules a Sagunto: carga 0/0/0/0/0, ETA 0:21
+[DIA2] el primer tren vuelve a Sagunto (deja libre el andén de Nules)
+[MAPA] D-N182 masa en marcha hacia Valencia: 10,0 km, rumbo al este, 1090 zombis, llega a las 10:00
+[AVISO] Horda en 3 h anunciada: nodo 2, tick 32551, empieza en el tick 35700, t = 39,8 s
+[TREN] llega a Sagunto y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[DIA2] sube el pelotón Fusileros
+[TREN] pelotón 1 a bordo (tren 0)
+[TREN] enviado 1 Costa de Sagunto a Nules: carga 25/0/0/0/0, ETA 0:21
+[DIA2] a bordo al salir: 0 pelotón (la orden de subir se aplica en el tick de red siguiente; la cifra buena es la de «llega»)
+[DIA2] segundo tren a Nules con pelotón y 25 u
+[MAPA] EM-1 Emboscada en Nules: unos 300 zombis atacan el 1 Costa fuera de la puerta este.
+[TREN] llega a Nules y se aparca (carga 25 u, 1 pelotón, 0 vehículo)
+[TREN] descarga en Nules (el tren se queda)
+[TREN] descarga automática al llegar a Nules
+[DIA2] emboscada: nodo Nules, 300 zombis, en pantalla False, rechazada True, cercado False
+[TREN] descarga en Nules (el tren se queda)
+[DIA2] el tren entra en Nules y descarga (07:57)
+[TREN] Descargado en Nules: 25 u al almacén, 0 u a la reserva.
+[AVISO] asedio EMPIEZA: nodo 2, tick 35712, t = 76,1 s, avisado hace 36,3 s reales
+[MAPA] D-N182 masa en marcha hacia Nules: 10,0 km, rumbo al sur, 2200 zombis, llega a las 22:00
+[MAPA] Hay un tren parado en Nules. Sácalo antes de la noche o puede perderse.
+[AVISO] Horda en 3 h anunciada: nodo 4, tick 45152, empieza en el tick 48300, t = 91,9 s
+[TBD] guardado del atardecer (día 2, 19:00)
+[TREN] enviado 1 Costa de Nules a Sagunto: carga 0/0/0/0/0, ETA 0:21
+[DIA2] 19:30: el tren sale de Nules hacia Sagunto antes de la noche
+[TREN] llega a Sagunto y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[DIA2] 21:00: objetivo del día 2 cumplido (tropa True, munición 25 u); entro en Nules para la noche 2
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.142500 ms
+NullReferenceException: Object reference not set to an instance of an object
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3428.
+Total: 1.465500 ms (FindLiveObjects: 0.091800 ms CreateObjectMapping: 0.039100 ms MarkObjects: 1.294900 ms  DeleteObjects: 0.039600 ms)
+
+[D-N80] horda con TBD/Horda: 5 siluetas, 1 material
+[TBD] Zona Nules: 0 zombis (deriva) creados en 2,7 ms
+[NULES] opción A: placa «NULES» en la fachada; sin el pueblo de Sagunto
+[TBD] falta sagunto_vivo_instancias.csv: se usan los valores por defecto del código
+[VIVO] falta sagunto_vivo_instancias.csv
+[BRUMA] D-N182: franja de 28 m en los bordes de la zona y zoom de noche hasta 35
+[NOCHE] InitNight en el tick ECS 0 (frame 54311, Active=True)
+[NOCHE] noche de Nules: nules.json
+[NOCHE] nules.json (normal): el tren no es derrota
+[NOCHE] almacén de munición de la zona: min(tope 47, reserva 25) = 25 u
+[NOCHE] la noche de la zona anterior se aparca (2 aparcada(s))
+[NOCHE] noche de Nules: la suya, reanudada
+[NOCHE] plantel de Nules: 3 pelotones
+[NOCHE] Nules de día (21:00): la noche empieza a las 22:00 de la red
+[NOCHE] tren en Nules: ninguno; rectángulo del tren en la zona X 160,0–224,0, Z 62,9–66,1 m; edificio X 96,5–115,5, Z 75,2–83,6; escolta 1 pelotón(es) en (71,5; 70,5); el tren no es derrota
+[LUZ] noche: sun=Directional Light _sun=Directional Light ambiente=RGBA(0.274, 0.296, 0.385, 1.113) sondaDC=(0,061; 0,071; 0,123) sombranoche=0.75 | Directional Light Directional i=0,338 sombras=Soft fuerza=1 | URP sombraDist=50 luzPrincipalSombras=True
+[SOMBRA] 1× Universal Render Pipeline/Lit col=6C7874 tex=- cola=2000 capa=0 · p. ej. Calle de la Estación y=0.02..0.08 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 29× Universal Render Pipeline/Lit col=FFFFFF tex=- cola=2000 capa=0 · p. ej. Vía 2 y=0.06..0.06 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=- tex=- cola=2000 capa=0 · p. ej. SM_AcopioCombustible_v0_Lleno y=0.00..1.27 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 5× Universal Render Pipeline/Lit col=B4A080 tex=- cola=2000 capa=0 · p. ej. Terreno (cara de atrás) y=-4.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=88885C tex=- cola=2000 capa=0 · p. ej. Caña y=-4.60..-2.80 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=969173 tex=- cola=2000 capa=0 · p. ej. Suelo oeste y=-0.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=94948C tex=- cola=2000 capa=0 · p. ej. Vía 2 desvío raíl y=0.07..0.17 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=48403C tex=- cola=2000 capa=0 · p. ej. Grieta calle y=0.08..0.10 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Sprites/Default col=- tex=- cola=2000 capa=0 · p. ej. Sombra de masa y=0.02..0.02 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=605C48 tex=- cola=2000 capa=0 · p. ej. Andén losa y=0.00..0.90 recibeSombra=True sondas=BlendProbes
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 65) color=FFC850
+[LUCES] Directional Light (padre -) Directional i=0,34 alcance=10 sombras=Soft fuerza=1 pos=(0, 3, 0) color=BFCCFF
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 50) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 79) color=FFC850
+[SOMBRA] materiales de variantes en la build (recorte por alfa): SÍ
+[SOMBRA] variante de emisión: SÍ (_EMISSION activa)
+[SOMBRA] sondas de luz en la escena: ninguna · mapas de luz: 0 · modo ambiente: Flat · reflejo: Skybox
+[SOMBRA] pieza Vía 2 centro=(-100.0, 0.1, 59.5) tam=(300.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 62.6) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía centro=(128.0, 0.1, 64.5) tam=(756.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 61.4) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 balasto centro=(-100.0, 0.0, 59.5) tam=(300.0, 0.0, 3.4) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=48403CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Balasto de la zona centro=(128.0, 0.0, 64.5) tam=(756.0, 0.0, 4.0) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=605C48FF shader=Universal Render Pipeline/Lit
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 35 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[NOCHE] título: Nules · 4 pelotones
+[NOCHE] muros_obras=0
+[NOCHE] reloj_x=103 municion_u=0 materiales_u=40 combustible_u=30 almacen_combustible_u=16
+[NOCHE] vehículos de Nules: 0 ()
+[NOCHE] linea de vision: 35 solidos del inventario
+[NOCHE] prueba: -nightbot (NightBot de Nacho)
+[NOCHE] vuelvo a la zona (tick 0): 0 zombis recreados, hora 22:00, muro 1000‰, estado Jugando
+[NOCHE-FPS] hora=21:00 estado=Jugando zombis=0 abatidos=0 tren_hp=120000 estacion_hp=60000 (batch)
+[NOCHE] sólido del tren en X 160,0–224,0
+[TBD] tick 0: hash idéntico en los dos mundos (4AB02789F424EF63)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 300: hash idéntico en los dos mundos (8963B25D6C8AB3FC)
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Grieta calle kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Suelo oeste kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 64 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[TBD] tick 600: hash idéntico en los dos mundos (8963B25D6C8AB528)
+[TBD] Suelo por trozos precargado: 37 trozos
+[TBD] tick 900: hash idéntico en los dos mundos (8963B25D6C8AB654)
+[RELOJ] 22:00 del día 2 en la zona: empieza la noche 1 de Nules (tick de red 48300)
+[NOCHE] 22:00 en la red: empieza la noche de Nules (almacén min(47, 25) = 25 u, tren ninguno)
+[NOCHE] sólido del tren en X 838,5–902,5
+[AVISO] asedio EMPIEZA: nodo 4, tick 48303, t = 99,8 s, avisado hace 8,0 s reales
+[TBD] fundido caducado: se quita
+[TBD] tick 1200: hash idéntico en los dos mundos (60004FCB881A6B9D)
+[NOCHE-DIAG] tren=1 estacion=0 hora=22:22 muro_permil=1000 zombis_cerca=
+[NOCHE-DIAG] muros_obras 
+[TBD] tick 1500: hash idéntico en los dos mundos (42983E7BDE61B8D6)
+[TBD] tick 1800: hash idéntico en los dos mundos (5B4BD769ED3DA3AA)
+[NOCHE-DIAG] tren=50 estacion=0 hora=22:50 muro_permil=1000 zombis_cerca=
+[TBD] tick 2100: hash idéntico en los dos mundos (9AD7B571AB1A4419)
+[NOCHE-DIAG] tren=106 estacion=0 hora=23:15 muro_permil=1000 zombis_cerca=
+[TBD] tick 2400: hash idéntico en los dos mundos (A17E3CCF9D7AA69E)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[AVISO] Ataque en Sagunto: velocidad ×1. (tick 49641)
+[TBD] tick 2700: hash idéntico en los dos mundos (7D18849CBF6E197A)
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Grieta carretera kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Suelo oeste kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 72 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[NOCHE-DIAG] tren=157 estacion=0 hora=23:44 muro_permil=1000 zombis_cerca=(150,9;65,8) (151,7;65,8) (142,3;68,3) (158,1;64,7) (159,3;64,7) (142,0;68,1) (146,7;67,0) (151,9;65,7) 
+[TBD] tick 3000: hash idéntico en los dos mundos (8878FF4092DEC4A6)
+[TBD] tick 3300: hash idéntico en los dos mundos (E3C46E929E241466)
+[NOCHE-DIAG] tren=125 estacion=5 hora=00:11 muro_permil=1000 zombis_cerca=(153,0;65,2) (115,9;75,5) (115,9;74,9) (115,8;75,0) (115,9;75,4) (141,8;68,2) (116,8;74,8) (146,2;67,2) 
+[TBD] tick 3600: hash idéntico en los dos mundos (8CA9AC810EBCDF7F)
+[NOCHE-DIAG] tren=86 estacion=28 hora=00:38 muro_permil=1000 zombis_cerca=(116,0;76,1) (116,0;76,1) (115,7;74,7) (116,0;75,2) (115,5;74,7) (118,4;74,4) (109,4;74,7) (117,4;74,6) 
+[TBD] tick 3900: hash idéntico en los dos mundos (DB6ADD526DC6B23D)
+[TBD] tick 4200: hash idéntico en los dos mundos (ECAC63D998F80FAF)
+[TBD] tick 4500: hash idéntico en los dos mundos (EC2033A5553CD170)
+[NOCHE-FPS] hora=01:31 estado=Jugando zombis=416 abatidos=1368 tren_hp=0 estacion_hp=19775 (batch)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 4800: hash idéntico en los dos mundos (0DBA36CF8D513F62)
+[NOCHE] resultado=derrota causa=estacion abatidos=1461 bajas=0 municion_gastada_u=7,6 municion_restante_u=18,6 combustible_gastado_u=0 pila_max=0 pila_estacion_max=90 recargas=4 desync=False desync_red=False hora_fin=01:51
+[NOCHE-ARMAS] pelotones: [1 Fusileros u=3,47 abatidos=748 pila=0 abatidos_u=216 Fusil=196 Lanzagranadas=284 MgLigera=268 explosiones_Lanzagranadas=38 abatidos_por_explosion_Lanzagranadas=7,47 recargas=3 recargado_u=3,17] [2 Ametralladores u=0,24 abatidos=56 pila=0 abatidos_u=234 Fusil=56 recargas=0 recargado_u=0,00] [3 Fusileros u=0,53 abatidos=122 pila=0 abatidos_u=231 Fusil=122 recargas=0 recargado_u=0,00] [4 Fusileros u=3,34 abatidos=535 pila=0 abatidos_u=160 MgLigera=242 Fusil=144 Lanzagranadas=149 explosiones_Lanzagranadas=29 abatidos_por_explosion_Lanzagranadas=5,14 recargas=3 recargado_u=3,19] | vehiculos: | almacen: inicio_u=0,00 fin_u=18,64 entregado_pelotones_u=6,36 entregado_vehiculos_u=0,00 | dotacion: inicio_u=12,50 fin_u=11,28 | consumo_real_u=-17,42 abatidos_pelotones=1461 abatidos_vehiculos=0 abatidos_u_total=0 abatidos_u_infanteria=193
+[TBD] tick 5100: hash idéntico en los dos mundos (6B0063E7516B8215)
+[TBD] tick 5400: hash idéntico en los dos mundos (41C5D0E9B4C77D03)
+[TBD] tick 5700: hash idéntico en los dos mundos (CAA9B5B2F8BFF52B)
+[TBD] tick 6000: hash idéntico en los dos mundos (1C9968E22A0AFC0A)
+[TBD] tick 6300: hash idéntico en los dos mundos (651AA75AC5430367)
+[TBD] tick 6600: hash idéntico en los dos mundos (915AA92D6B9A7EAF)
+[TBD] tick 6900: hash idéntico en los dos mundos (D5601929A8B1CF95)
+[TBD] tick 7200: hash idéntico en los dos mundos (958387E23F2C46F9)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 7500: hash idéntico en los dos mundos (0CB2B675FFE62627)
+[TBD] tick 7800: hash idéntico en los dos mundos (C6377E05B9176B88)
+[TBD] tick 8100: hash idéntico en los dos mundos (CC52A4AC999D1E38)
+[TBD] tick 8400: hash idéntico en los dos mundos (B03A7016205E204A)
+[TBD] tick 8700: hash idéntico en los dos mundos (65984144B9428387)
+[TBD] tick 9000: hash idéntico en los dos mundos (EA118FCA3A5CF766)
+[TBD] tick 9300: hash idéntico en los dos mundos (8D6AF65320BFE6E0)
+[TBD] punto de control: amanecer del día 3
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 9600: hash idéntico en los dos mundos (57931AEFA85FB14C)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 9900: hash idéntico en los dos mundos (B988F8E08F2EB9E8)
+[TBD] tick 10200: hash idéntico en los dos mundos (6EDD275DF121E94C)
+[TBD] tick 10500: hash idéntico en los dos mundos (425CB5514C00525A)
+[TBD] tick 10800: hash idéntico en los dos mundos (F1B7447F16187F11)
+[TBD] tick 11100: hash idéntico en los dos mundos (37B1C8104ACF000B)
+[TBD] tick 11400: hash idéntico en los dos mundos (7FD7DA0EDF991821)
+[TBD] tick 11700: hash idéntico en los dos mundos (0A26E5E9E26682B7)
+[TBD] tick 12000: hash idéntico en los dos mundos (2C02E860798188F0)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 12300: hash idéntico en los dos mundos (42B5F0425BDEB22A)
+[TBD] tick 12600: hash idéntico en los dos mundos (5C3B51DB8375EC22)
+[TBD] tick 12900: hash idéntico en los dos mundos (0432E5599D77A319)
+[TBD] tick 13200: hash idéntico en los dos mundos (CFD9FB1F739362E7)
+[TBD] tick 13500: hash idéntico en los dos mundos (378E6D6EE224FDC0)
+[TBD] tick 13800: hash idéntico en los dos mundos (F4372657D2165469)
+[TBD] tick 14100: hash idéntico en los dos mundos (287949A61E48F65B)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 14400: hash idéntico en los dos mundos (ADCDBDFD2E6593A0)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 14700: hash idéntico en los dos mundos (906F5019F845B65A)
+[TBD] tick 15000: hash idéntico en los dos mundos (0FAD2FF70B347B41)
+[TBD] tick 15300: hash idéntico en los dos mundos (EC0B1253BBADC040)
+[TBD] tick 15600: hash idéntico en los dos mundos (0710626ADA067C9E)
+[TBD] tick 15900: hash idéntico en los dos mundos (BFCEBD8E4DE56686)
+[TBD] tick 16200: hash idéntico en los dos mundos (2048C4117E6F8E61)
+[TBD] tick 16500: hash idéntico en los dos mundos (AEDACAD45EF46BED)
+[TBD] tick 16800: hash idéntico en los dos mundos (71309E495450451B)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 17100: hash idéntico en los dos mundos (5468849E1386CBD8)
+[TBD] tick 17400: hash idéntico en los dos mundos (2D88CD9F158C7B70)
+[TBD] tick 17700: hash idéntico en los dos mundos (156F766BC6DEC56D)
+[TBD] tick 18000: hash idéntico en los dos mundos (B84CD68993FE8FB8)
+[TBD] tick 18300: hash idéntico en los dos mundos (3C9A82393950AF97)
+[TBD] tick 18600: hash idéntico en los dos mundos (7268E68E1FB3E867)
+[TBD] tick 18900: hash idéntico en los dos mundos (9215E2FE1491FE8E)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 19200: hash idéntico en los dos mundos (228FD54938BB74F8)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 19500: hash idéntico en los dos mundos (FEF9170727B5C44A)
+[TBD] tick 19800: hash idéntico en los dos mundos (005C6F6516EEBF4D)
+[TBD] tick 20100: hash idéntico en los dos mundos (44C860E423E16F74)
+[TBD] tick 20400: hash idéntico en los dos mundos (3E07033101EF3F97)
+[TBD] tick 20700: hash idéntico en los dos mundos (80A98D036F68B8D8)
+[TBD] tick 21000: hash idéntico en los dos mundos (8C0FB84149A2B907)
+[TBD] tick 21300: hash idéntico en los dos mundos (FD09E400F3C66A89)
+[TBD] tick 21600: hash idéntico en los dos mundos (FD48E93535313D9F)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 21900: hash idéntico en los dos mundos (967142A2CB41719B)
+[TBD] tick 22200: hash idéntico en los dos mundos (942344FF5DFFFEA8)
+[TBD] tick 22500: hash idéntico en los dos mundos (E1BADAD9C877A4D8)
+[TBD] tick 22800: hash idéntico en los dos mundos (5273893C19A81FD0)
+[AVISO] Horda en 3 h anunciada: nodo 4, tick 70351, empieza en el tick 73500, t = 191,9 s
+[TBD] guardado del atardecer (día 3, 19:00)
+[TBD] tick 23100: hash idéntico en los dos mundos (1F359C70B1CDE0FB)
+[TBD] tick 23400: hash idéntico en los dos mundos (B8954DAFAF6106CC)
+[TBD] tick 23700: hash idéntico en los dos mundos (13A22D5EA9162C66)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 24000: hash idéntico en los dos mundos (8B2CA0702DFF389C)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 24300: hash idéntico en los dos mundos (3D9FE15D26FD597C)
+[TBD] tick 24600: hash idéntico en los dos mundos (EBEC429AB9FA1650)
+[TBD] tick 24900: hash idéntico en los dos mundos (5B03AB84DC5F5EAD)
+[TBD] tick 25200: hash idéntico en los dos mundos (EDF93147AFF65792)
+[TBD] tick 25500: hash idéntico en los dos mundos (EA6CC9B87130656C)
+[TBD] tick 25800: hash idéntico en los dos mundos (EF062F6429A08C0C)
+[TBD] tick 26100: hash idéntico en los dos mundos (14854E5859B66C23)
+[AVISO] asedio EMPIEZA: nodo 4, tick 73503, t = 205,0 s, avisado hace 13,1 s reales
+[TBD] tick 26400: hash idéntico en los dos mundos (260F271063DAE474)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 26700: hash idéntico en los dos mundos (590DE79769A4C252)
+[TBD] tick 27000: hash idéntico en los dos mundos (F185AEA019CF4EBA)
+[TBD] tick 27300: hash idéntico en los dos mundos (B01A98562BC3292E)
+[TBD] tick 27600: hash idéntico en los dos mundos (8661869282239106)
+[TBD] tick 27900: hash idéntico en los dos mundos (F3E9795F59C8A0E2)
+[TBD] tick 28200: hash idéntico en los dos mundos (4EE5B4C5642FE425)
+[TBD] tick 28500: hash idéntico en los dos mundos (22A6D4A262889576)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 28800: hash idéntico en los dos mundos (D2047BDC54019A5E)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 29100: hash idéntico en los dos mundos (F8C5F08F14CCCDCA)
+[TBD] tick 29400: hash idéntico en los dos mundos (D1E4E51461C3A9F5)
+[TBD] tick 29700: hash idéntico en los dos mundos (3836448723C55863)
+[TBD] tick 30000: hash idéntico en los dos mundos (9389EFA339D31872)
+[TBD] tick 30300: hash idéntico en los dos mundos (2D9E8DF01D93D09D)
+[TBD] tick 30600: hash idéntico en los dos mundos (1CA8B5F341238798)
+[TBD] tick 30900: hash idéntico en los dos mundos (73ABBB8FFD295ED9)
+[TBD] tick 31200: hash idéntico en los dos mundos (B69932CF98318CCC)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 31500: hash idéntico en los dos mundos (F87C9A7E83925638)
+[TBD] tick 31800: hash idéntico en los dos mundos (AEEB1672CAA65357)
+[TBD] tick 32100: hash idéntico en los dos mundos (7298A664409675FD)
+[TBD] tick 32400: hash idéntico en los dos mundos (CCC1C2850CE555CC)
+[TBD] tick 32700: hash idéntico en los dos mundos (161366F888799493)
+[TBD] tick 33000: hash idéntico en los dos mundos (0DC44470DD107F81)
+[TBD] tick 33300: hash idéntico en los dos mundos (5B25CF911B4340A3)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 33600: hash idéntico en los dos mundos (30757A411BC82ADC)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 33900: hash idéntico en los dos mundos (01F4441242284877)
+[TBD] tick 34200: hash idéntico en los dos mundos (1513FDBCAAEA0424)
+[TBD] tick 34500: hash idéntico en los dos mundos (39E1F5D87B583FA4)
+[TBD] punto de control: amanecer del día 4
+[TBD] tick 34800: hash idéntico en los dos mundos (1FE3DCCB1E313C5D)
+[TBD] tick 35100: hash idéntico en los dos mundos (A01E1B5DEE5E932A)
+[TBD] tick 35400: hash idéntico en los dos mundos (A288B445502F4032)
+[TBD] tick 35700: hash idéntico en los dos mundos (B2A4324955DE1A48)
+[TBD] tick 36000: hash idéntico en los dos mundos (A451FCDA28F88645)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 36300: hash idéntico en los dos mundos (0617C02D88D3A6F9)
+[TBD] tick 36600: hash idéntico en los dos mundos (06830AC824316E0A)
+[TBD] tick 36900: hash idéntico en los dos mundos (AF36FCBE73083F92)
+[TBD] tick 37200: hash idéntico en los dos mundos (0BE378A5CBA9FAC0)
+[TBD] tick 37500: hash idéntico en los dos mundos (7694236756473A61)
+[TBD] tick 37800: hash idéntico en los dos mundos (CE6257B6BD06A33F)
+[TBD] tick 38100: hash idéntico en los dos mundos (58553E8904ADCC3B)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 38400: hash idéntico en los dos mundos (21C9A6AA8F5BFB02)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 38700: hash idéntico en los dos mundos (90AC943A2226B729)
+[TBD] tick 39000: hash idéntico en los dos mundos (03A12380E754EEF3)
+[TBD] tick 39300: hash idéntico en los dos mundos (9A7FD5830BAB0F52)
+[TBD] tick 39600: hash idéntico en los dos mundos (E40BF83490534959)
+[TBD] tick 39900: hash idéntico en los dos mundos (AD63E9FFD89A5792)
+[TBD] tick 40200: hash idéntico en los dos mundos (94C5C104F29F59B3)
+[TBD] tick 40500: hash idéntico en los dos mundos (1DA9B6ECCD81EA09)
+[TBD] tick 40800: hash idéntico en los dos mundos (8E6394A8B979FAFD)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 41100: hash idéntico en los dos mundos (13F4CBA7B6E2A567)
+[TBD] tick 41400: hash idéntico en los dos mundos (C846A9AA385F7FA6)
+[TBD] tick 41700: hash idéntico en los dos mundos (50904E3E5D99B140)
+[TBD] tick 42000: hash idéntico en los dos mundos (2212CE7154F9417F)
+[TBD] tick 42300: hash idéntico en los dos mundos (6DDEFBD4136FBDA2)
+[TBD] tick 42600: hash idéntico en los dos mundos (86C4484295C14328)
+[TBD] tick 42900: hash idéntico en los dos mundos (FB054DFDB4D3CC74)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 43200: hash idéntico en los dos mundos (A40AB572377ABD65)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 43500: hash idéntico en los dos mundos (D5AF88FB040A8C55)
+[TBD] tick 43800: hash idéntico en los dos mundos (3E76ED69EB4EFC4E)
+[TBD] tick 44100: hash idéntico en los dos mundos (A209F316120D0823)
+[TBD] tick 44400: hash idéntico en los dos mundos (4051A91B2568CFE1)
+[TBD] tick 44700: hash idéntico en los dos mundos (2A98CE2C150941F1)
+[TBD] tick 45000: hash idéntico en los dos mundos (E24EC0695B43DB35)
+[TBD] tick 45300: hash idéntico en los dos mundos (6ED8A8A6FCB0AC8A)
+[TBD] tick 45600: hash idéntico en los dos mundos (A01F5312B4661023)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 45900: hash idéntico en los dos mundos (166E66514E3CD2B1)
+[TBD] tick 46200: hash idéntico en los dos mundos (FB9683645A3EA312)
+[TBD] tick 46500: hash idéntico en los dos mundos (2CCA4C9EC2EC30DE)
+[TBD] tick 46800: hash idéntico en los dos mundos (05346966FAEDD59A)
+[TBD] tick 47100: hash idéntico en los dos mundos (49F1EBD18689D4B1)
+[TBD] tick 47400: hash idéntico en los dos mundos (359EDB2BF7A2A6E4)
+[TBD] tick 47700: hash idéntico en los dos mundos (992ADD03AFB13061)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 48000: hash idéntico en los dos mundos (D66D9CF6F33DB240)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[AVISO] Horda en 3 h anunciada: nodo 4, tick 95551, empieza en el tick 98700, t = 296,9 s
+[AVISO] Horda en 3 h anunciada: nodo 7, tick 95551, empieza en el tick 98700, t = 296,9 s
+[TBD] guardado del atardecer (día 4, 19:00)
+[TBD] tick 48300: hash idéntico en los dos mundos (B84141C740DC5BFC)
+[TBD] tick 48600: hash idéntico en los dos mundos (9BCB191B5E48F9F0)
+[TBD] tick 48900: hash idéntico en los dos mundos (C78D0B38AA113A88)
+[TBD] tick 49200: hash idéntico en los dos mundos (0BA6EA145D196B49)
+[TBD] tick 49500: hash idéntico en los dos mundos (BD4C69FC5C44B148)
+[TBD] tick 49800: hash idéntico en los dos mundos (FACCAC4D97A41051)
+[TBD] tick 50100: hash idéntico en los dos mundos (AF20E5511BECD931)
+[TBD] tick 50400: hash idéntico en los dos mundos (4A476A993C70A5A4)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 50700: hash idéntico en los dos mundos (EEA30E988A7A385D)
+[TBD] tick 51000: hash idéntico en los dos mundos (A56A0445A02F6A82)
+[TBD] tick 51300: hash idéntico en los dos mundos (1E42E4603EC6EF32)
+[AVISO] asedio EMPIEZA: nodo 4, tick 98703, t = 310,0 s, avisado hace 13,1 s reales
+[AVISO] asedio EMPIEZA: nodo 7, tick 98703, t = 310,0 s, avisado hace 13,1 s reales
+[TBD] tick 51600: hash idéntico en los dos mundos (77AA926DE64A4F67)
+[TBD] tick 51900: hash idéntico en los dos mundos (DAD862E39FF78A53)
+[TBD] tick 52200: hash idéntico en los dos mundos (512BF717C753B714)
+[TBD] tick 52500: hash idéntico en los dos mundos (7501BBF42ECA0015)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 52800: hash idéntico en los dos mundos (77BDC4FA6181E15F)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 53100: hash idéntico en los dos mundos (BAE6CEA95F8E6933)
+[TBD] tick 53400: hash idéntico en los dos mundos (5D7B93A810286C81)
+[TBD] tick 53700: hash idéntico en los dos mundos (EE3391925558B606)
+[TBD] tick 54000: hash idéntico en los dos mundos (90E7C0352599C708)
+[TBD] tick 54300: hash idéntico en los dos mundos (5D427F22CDA6800E)
+[TBD] tick 54600: hash idéntico en los dos mundos (86DCC1A7337A33BF)
+[TBD] tick 54900: hash idéntico en los dos mundos (64558A1CF02E5F0C)
+[TBD] tick 55200: hash idéntico en los dos mundos (74D20095752A36F3)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 55500: hash idéntico en los dos mundos (781589DA8A272A7A)
+[TBD] tick 55800: hash idéntico en los dos mundos (DC20B39174029584)
+[TBD] tick 56100: hash idéntico en los dos mundos (4DFED9ECEA2910D2)
+[TBD] tick 56400: hash idéntico en los dos mundos (665952BCE4111DCF)
+[TBD] tick 56700: hash idéntico en los dos mundos (ED239719B1372886)
+[TBD] tick 57000: hash idéntico en los dos mundos (990744651B619CF9)
+[TBD] tick 57300: hash idéntico en los dos mundos (91244668869D88BA)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 57600: hash idéntico en los dos mundos (C5FE8897333C3C1A)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 57900: hash idéntico en los dos mundos (3D7BC9A9CCC81DBC)
+[TBD] tick 58200: hash idéntico en los dos mundos (CFF4F6DF930841BA)
+[TBD] tick 58500: hash idéntico en los dos mundos (924B55B6005F0122)
+[TBD] tick 58800: hash idéntico en los dos mundos (B111665310A382B3)
+[TBD] tick 59100: hash idéntico en los dos mundos (2E4E8892400602E2)
+[TBD] tick 59400: hash idéntico en los dos mundos (A26E33FE3E49429D)
+[TBD] tick 59700: hash idéntico en los dos mundos (586D37D3DB13E8CD)
+[TBD] punto de control: amanecer del día 5
+[TBD] tick 60000: hash idéntico en los dos mundos (3D91CBF3DBA34C06)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 60300: hash idéntico en los dos mundos (EA18033300CB67B0)
+[TBD] tick 60600: hash idéntico en los dos mundos (082242B065E7FF1A)
+[TBD] tick 60900: hash idéntico en los dos mundos (7FA90164D321C3AC)
+[TBD] tick 61200: hash idéntico en los dos mundos (19ED33BDF6A4C262)
+[TBD] tick 61500: hash idéntico en los dos mundos (B763C3E1B7E5DECC)
+[TBD] tick 61800: hash idéntico en los dos mundos (A853BFA9C8B50066)
+[TBD] tick 62100: hash idéntico en los dos mundos (A741029E9516B70B)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 62400: hash idéntico en los dos mundos (0C5B40E36FD7D91A)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 62700: hash idéntico en los dos mundos (898222E8FD7C7BC3)
+[TBD] tick 63000: hash idéntico en los dos mundos (46609FF76AF25DA5)
+[TBD] tick 63300: hash idéntico en los dos mundos (6785BC90C42F7B16)
+[TBD] tick 63600: hash idéntico en los dos mundos (6DD89BC4FC978305)
+[TBD] tick 63900: hash idéntico en los dos mundos (6D04576BD7B8FDE2)
+[TBD] tick 64200: hash idéntico en los dos mundos (B40E7B2600A8C3B5)
+[TBD] tick 64500: hash idéntico en los dos mundos (55ECBD44E99A85B7)
+[TBD] tick 64800: hash idéntico en los dos mundos (3E54C092DE4BEE3C)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 65100: hash idéntico en los dos mundos (8AAFB515D222602D)
+[TBD] tick 65400: hash idéntico en los dos mundos (EBB58165FCB09E30)
+[TBD] tick 65700: hash idéntico en los dos mundos (74517A7306AEB6DF)
+[TBD] tick 66000: hash idéntico en los dos mundos (D4C31E6BD0692777)
+[TBD] tick 66300: hash idéntico en los dos mundos (AB5D9C74F0BD8ECF)
+[TBD] tick 66600: hash idéntico en los dos mundos (0932FE5E7536A345)
+[TBD] tick 66900: hash idéntico en los dos mundos (F90495C64C759D8A)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 67200: hash idéntico en los dos mundos (DFDA3AE97F94A4CD)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 67500: hash idéntico en los dos mundos (04991D4EC3916D6C)
+[TBD] tick 67800: hash idéntico en los dos mundos (3298E6C55A153BC8)
+[TBD] tick 68100: hash idéntico en los dos mundos (FD993DD177109167)
+[TBD] tick 68400: hash idéntico en los dos mundos (504CF200FF9E4550)
+[TBD] tick 68700: hash idéntico en los dos mundos (F4FD81CC67782B36)
+[TBD] tick 69000: hash idéntico en los dos mundos (8A1BBDE84F5D6DD4)
+[TBD] tick 69300: hash idéntico en los dos mundos (CC8486919C9EA6D4)
+[TBD] tick 69600: hash idéntico en los dos mundos (E3F4094BD9CDBCA1)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 69900: hash idéntico en los dos mundos (7C0600A6288E23F0)
+[TBD] tick 70200: hash idéntico en los dos mundos (441CE317CF625439)
+[TBD] tick 70500: hash idéntico en los dos mundos (31EC4A956757D418)
+[TBD] tick 70800: hash idéntico en los dos mundos (00DF3BE30D941435)
+[TBD] tick 71100: hash idéntico en los dos mundos (7D374AC1DEAA2671)
+[TBD] tick 71400: hash idéntico en los dos mundos (40FB93F106D43091)
+[TBD] tick 71700: hash idéntico en los dos mundos (1D51E18A9B8486AD)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 72000: hash idéntico en los dos mundos (6DFE81B3A5B9EB0F)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 72300: hash idéntico en los dos mundos (5A5D967C63B29608)
+[TBD] tick 72600: hash idéntico en los dos mundos (612E4C07F09A1CA6)
+[TBD] tick 72900: hash idéntico en los dos mundos (84CAE5301F5D5D17)
+[TBD] tick 73200: hash idéntico en los dos mundos (FFECB012868E11B0)
+[AVISO] Horda en 3 h anunciada: nodo 4, tick 120751, empieza en el tick 123900, t = 401,9 s
+[TBD] guardado del atardecer (día 5, 19:00)
+[TBD] tick 73500: hash idéntico en los dos mundos (E2F45F4F8AE9AB03)
+[TBD] tick 73800: hash idéntico en los dos mundos (B3D05C6737F0003F)
+[TBD] tick 74100: hash idéntico en los dos mundos (90F4F18CA3F4768B)
+[TBD] tick 74400: hash idéntico en los dos mundos (C3A1DE87AE095244)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 74700: hash idéntico en los dos mundos (D30EC22814D725B1)
+[TBD] tick 75000: hash idéntico en los dos mundos (29465AE0EFAC120B)
+[TBD] tick 75300: hash idéntico en los dos mundos (3E127454FD5E2589)
+[TBD] tick 75600: hash idéntico en los dos mundos (E86A27153BCE5207)
+[TBD] tick 75900: hash idéntico en los dos mundos (DD12843F0D108C3F)
+[TBD] tick 76200: hash idéntico en los dos mundos (37043D832A6E195E)
+[TBD] tick 76500: hash idéntico en los dos mundos (79D34B716CC8652B)
+[AVISO] asedio EMPIEZA: nodo 4, tick 123903, t = 415,0 s, avisado hace 13,1 s reales
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 76800: hash idéntico en los dos mundos (53200F5683BD4954)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 77100: hash idéntico en los dos mundos (854EBF6216D6C630)
+[TBD] tick 77400: hash idéntico en los dos mundos (6A0BB6B8F62EA945)
+[TBD] tick 77700: hash idéntico en los dos mundos (6F27CCA6E3B8C5C4)
+[TBD] tick 78000: hash idéntico en los dos mundos (4721D33942404AA5)
+[TBD] tick 78300: hash idéntico en los dos mundos (BF37E43A1F30B32E)
+[TBD] tick 78600: hash idéntico en los dos mundos (07DDECF4C5C7B3A6)
+[TBD] tick 78900: hash idéntico en los dos mundos (0B2D41585770FA7C)
+[TBD] tick 79200: hash idéntico en los dos mundos (E042427041C5F905)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 79500: hash idéntico en los dos mundos (9216B96B8AFF1B36)
+[TBD] tick 79800: hash idéntico en los dos mundos (0CAC907F9662EAF7)
+[TBD] tick 80100: hash idéntico en los dos mundos (AE3FD99932084A73)
+[TBD] tick 80400: hash idéntico en los dos mundos (32C5AB003BD6C198)
+[TBD] tick 80700: hash idéntico en los dos mundos (9A0FF7D36AB50B14)
+[TBD] tick 81000: hash idéntico en los dos mundos (D4D97CEE7CCDDF85)
+[TBD] tick 81300: hash idéntico en los dos mundos (A168B83C241575D9)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 81600: hash idéntico en los dos mundos (2F8ECBB502611F39)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 81900: hash idéntico en los dos mundos (B625740C6D45BEB8)
+[TBD] tick 82200: hash idéntico en los dos mundos (A943AA15C40F2229)
+[TBD] tick 82500: hash idéntico en los dos mundos (6AB5B32E1A479758)
+[TBD] tick 82800: hash idéntico en los dos mundos (28AB98352451633A)
+[TBD] tick 83100: hash idéntico en los dos mundos (B6377A2AAE0BE251)
+[TBD] tick 83400: hash idéntico en los dos mundos (696A99171F1B547F)
+[TBD] tick 83700: hash idéntico en los dos mundos (E92D8894EC42CCF2)
+[TBD] tick 84000: hash idéntico en los dos mundos (189626FAAD570322)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 84300: hash idéntico en los dos mundos (71B3953818B4DA58)
+[TBD] tick 84600: hash idéntico en los dos mundos (63FC52440743957D)
+[TBD] tick 84900: hash idéntico en los dos mundos (E468FDA54CFFD8B2)
+[TBD] punto de control: amanecer del día 6
+[TBD] tick 85200: hash idéntico en los dos mundos (20545DCB0F4CA813)
+[TBD] tick 85500: hash idéntico en los dos mundos (3EBCFB4F7083F59E)
+[TBD] tick 85800: hash idéntico en los dos mundos (F3DC90FD6696BF4B)
+[TBD] tick 86100: hash idéntico en los dos mundos (EB0FFE9720168541)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 86400: hash idéntico en los dos mundos (6DD3A8EC900AB5DA)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 86700: hash idéntico en los dos mundos (FCBC2E7DCD27DD0F)
+[TBD] tick 87000: hash idéntico en los dos mundos (4E8261F80143876B)
+[TBD] tick 87300: hash idéntico en los dos mundos (F65B89B4F471D964)
+[TBD] tick 87600: hash idéntico en los dos mundos (84DA3687F3B82D9D)
+[TBD] tick 87900: hash idéntico en los dos mundos (B650BCF182E183C9)
+[TBD] tick 88200: hash idéntico en los dos mundos (2CAB480FDFC16CD5)
+[TBD] tick 88500: hash idéntico en los dos mundos (80A805E2BE66092D)
+[TBD] tick 88800: hash idéntico en los dos mundos (8DA6AFEB0308DB79)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 89100: hash idéntico en los dos mundos (468C6229080AE58A)
+[TBD] tick 89400: hash idéntico en los dos mundos (80DEA14CC0D8F4F1)
+[TBD] tick 89700: hash idéntico en los dos mundos (125E04632EA85529)
+[TBD] tick 90000: hash idéntico en los dos mundos (42FDA94035EF8861)
+[TBD] tick 90300: hash idéntico en los dos mundos (E5FE3AB9A0207B94)
+[TBD] tick 90600: hash idéntico en los dos mundos (38B93DA50710A049)
+[TBD] tick 90900: hash idéntico en los dos mundos (B92C875D6C0DA2D4)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 91200: hash idéntico en los dos mundos (3CD26DB2B5CCA680)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 91500: hash idéntico en los dos mundos (0F9D1E8BF424436D)
+[TBD] tick 91800: hash idéntico en los dos mundos (AC135FC51C1372FE)
+[TBD] tick 92100: hash idéntico en los dos mundos (CCA8CDE0B40C7C5B)
+[TBD] tick 92400: hash idéntico en los dos mundos (2AD1526CC6E03709)
+[TBD] tick 92700: hash idéntico en los dos mundos (0EBBE45ED6D2F67A)
+[TBD] tick 93000: hash idéntico en los dos mundos (D2672CA8E633FA08)
+[TBD] tick 93300: hash idéntico en los dos mundos (A627F94D97CEC197)
+[TBD] tick 93600: hash idéntico en los dos mundos (92883DA2601FFE0E)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 93900: hash idéntico en los dos mundos (8B2CF4560C948926)
+[TBD] tick 94200: hash idéntico en los dos mundos (41E3CE2DBA29071C)
+[TBD] tick 94500: hash idéntico en los dos mundos (B1991E4BE261EED7)
+[TBD] tick 94800: hash idéntico en los dos mundos (9F43F442743B5488)
+[TBD] tick 95100: hash idéntico en los dos mundos (0936DECF756280EE)
+[TBD] tick 95400: hash idéntico en los dos mundos (1201D8C25E638776)
+[TBD] tick 95700: hash idéntico en los dos mundos (EB4B3C0EC54C6721)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 96000: hash idéntico en los dos mundos (FA5D18B8E59BB4A0)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 96300: hash idéntico en los dos mundos (9B84B5173ABDF253)
+[TBD] tick 96600: hash idéntico en los dos mundos (801291FF700F8D02)
+[TBD] tick 96900: hash idéntico en los dos mundos (CD6CC7A426555EE7)
+[TBD] tick 97200: hash idéntico en los dos mundos (5EF863EEBF4F2225)
+[TBD] tick 97500: hash idéntico en los dos mundos (4D430E6F6B5254F0)
+[TBD] tick 97800: hash idéntico en los dos mundos (2358129E4B7EF259)
+[TBD] tick 98100: hash idéntico en los dos mundos (20EC19F5AB99B88F)
+[TBD] tick 98400: hash idéntico en los dos mundos (6F16D5862ABA57CB)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[AVISO] Horda en 3 h anunciada: nodo 4, tick 145951, empieza en el tick 149100, t = 506,9 s
+[TBD] guardado del atardecer (día 6, 19:00)
+[TBD] tick 98700: hash idéntico en los dos mundos (BE41952476498F33)
+[TBD] tick 99000: hash idéntico en los dos mundos (FB19B6257B5BC70F)
+[TBD] tick 99300: hash idéntico en los dos mundos (3ECE91250C666435)
+[TBD] tick 99600: hash idéntico en los dos mundos (70ED3D5FECB08552)
+[TBD] tick 99900: hash idéntico en los dos mundos (54103E632DCE32A0)
+[TBD] tick 100200: hash idéntico en los dos mundos (17684860ECC8C99A)
+[TBD] tick 100500: hash idéntico en los dos mundos (5B516B5A8F81A5CB)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 100800: hash idéntico en los dos mundos (6D379769B5F102F2)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 101100: hash idéntico en los dos mundos (689019C44C63D14B)
+[TBD] tick 101400: hash idéntico en los dos mundos (63E77B4400F4DFB9)
+[TBD] tick 101700: hash idéntico en los dos mundos (99A99B36B9245505)
+[AVISO] asedio EMPIEZA: nodo 4, tick 149103, t = 520,0 s, avisado hace 13,1 s reales
+[TBD] tick 102000: hash idéntico en los dos mundos (BF7F1F4F1B133A7D)
+[TBD] tick 102300: hash idéntico en los dos mundos (59E45496670DA8A0)
+[TBD] tick 102600: hash idéntico en los dos mundos (A56947B63A375E4B)
+[TBD] tick 102900: hash idéntico en los dos mundos (BE2AA8C3F397209B)
+[TBD] tick 103200: hash idéntico en los dos mundos (1182AD8AB33B5DF3)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 103500: hash idéntico en los dos mundos (828EC3F8D261AC94)
+[TBD] tick 103800: hash idéntico en los dos mundos (C92FDC6B2231F819)
+[TBD] tick 104100: hash idéntico en los dos mundos (25F67C2A9B742B5B)
+[TBD] tick 104400: hash idéntico en los dos mundos (FABD32FFE5E74099)
+[TBD] tick 104700: hash idéntico en los dos mundos (83B680F247800E44)
+[TBD] tick 105000: hash idéntico en los dos mundos (75D5177F450DF160)
+[TBD] tick 105300: hash idéntico en los dos mundos (C8055138AB7E32AA)
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 105600: hash idéntico en los dos mundos (DF631A699E679A84)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 105900: hash idéntico en los dos mundos (79198DA5A9C6A5AB)
+[TBD] tick 106200: hash idéntico en los dos mundos (332709DED4CFE5A6)
+[TBD] tick 106500: hash idéntico en los dos mundos (F2591D5594D343B7)
+[TBD] tick 106800: hash idéntico en los dos mundos (7A4012D9A7AEB379)
+[TBD] tick 107100: hash idéntico en los dos mundos (6C3759DC7474E0D5)
+[TBD] tick 107400: hash idéntico en los dos mundos (D192F2DC07B044C4)
+[TBD] tick 107700: hash idéntico en los dos mundos (53C9325D14451721)
+[TBD] tick 108000: hash idéntico en los dos mundos (FA005FA02738A103)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 108300: hash idéntico en los dos mundos (F145238A245C4A9D)
+[TBD] tick 108600: hash idéntico en los dos mundos (8D9176D104F0A6DB)
+[TBD] tick 108900: hash idéntico en los dos mundos (40A8BA843D95116C)
+[TBD] tick 109200: hash idéntico en los dos mundos (A9C38C685C77785F)
+[TBD] tick 109500: hash idéntico en los dos mundos (568E1D4F5B836635)
+[TBD] tick 109800: hash idéntico en los dos mundos (CC7F99DED2EF786A)
+[TBD] tick 110100: hash idéntico en los dos mundos (81F47E11FD66850E)
+[AVISO] Horda en 3 h anunciada: nodo 12, tick 157503, empieza en el tick 160650, t = 555,0 s
+[TBD] punto de control: amanecer del día 7
+[NOCHE-FPS] hora=01:51 estado=Derrota zombis=409 abatidos=1461 tren_hp=0 estacion_hp=0 (batch)
+[TBD] tick 110400: hash idéntico en los dos mundos (72B9DB32A21D6EDF)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 110700: hash idéntico en los dos mundos (3D457E84376630CA)
+[TBD] tick 111000: hash idéntico en los dos mundos (5B22B33CFEA85650)
+[TBD] tick 111300: hash idéntico en los dos mundos (5F80B07EC0D8C457)
+[TBD] tick 111600: hash idéntico en los dos mundos (73106A6222C8DA81)
+[TBD] tick 111900: hash idéntico en los dos mundos (9DD497232EDB0FFD)
+[TBD] tick 112200: hash idéntico en los dos mundos (1E648FD6808C359E)
+[TBD] tick 112500: hash idéntico en los dos mundos (51898CA2294DE872)
+[TBD] tick 112800: hash idéntico en los dos mundos (06CF006FC03EADC2)
+[Pila] tramos=4 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] tick 113100: hash idéntico en los dos mundos (D8CEFCB7B58AF465)
+[AVISO] asedio EMPIEZA: nodo 12, tick 160655, t = 568,2 s, avisado hace 13,1 s reales
+[TBD] tick 113400: hash idéntico en los dos mundos (3B34895554277C31)
+[TBD] tick 113700: hash idéntico en los dos mundos (C61AB592C19F20F4)
+[TBD] tick 114000: hash idéntico en los dos mundos (EE7C4C2270FCB2D0)
+[TBD] tick 114300: hash idéntico en los dos mundos (CEA2709B8027471E)
+[TBD] tick 114600: hash idéntico en los dos mundos (7F8413710F31C4D3)
