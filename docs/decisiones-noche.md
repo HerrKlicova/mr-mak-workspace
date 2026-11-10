@@ -3187,3 +3187,5 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 
 ## 09-11 23:50 · D-N191 · Cifras de la noche 3 en Sagunto (Lucía; Hugo con medida de Nacho)
 - Fácil 5250. Normal 6700, ligada a la escalera de Sagunto. **Difícil 8150**, el punto donde se gana el 65 % con el refuerzo (8000 da 85,5 %; 8250, 53 %).
+- Lucía 09-11 23:44: aprobadas como D-N190 (NH90 3 u/vuelo, vuelve el aviso) y D-N191 (noche 3 difícil 8150).
+- 10-11 00:45 · **Guarnición de Nules: de 12 a 16** (4 fusileros más, en la banqueta del flanco de la vía). Motivo: con la escolta entera dentro, la noche 2 se gana el 99,5 %, pero si la emboscada le cuesta 4 bajas se gana el 0 %, y ese margen es demasiado fino. **No se reponen las bajas de la escolta al llegar**: rompería la persistencia (D-N186), porque las bajas se quedan. Nacho vuelve a medir con 16. Objetivo: noche 2 ≥ 90 % con el objetivo cumplido y la escolta con hasta 4 bajas; sin munición en el almacén, sigue en ≈ 0 %. Si con 16 sin munición se gana más del 10 %, se busca otra cifra con Hugo.
