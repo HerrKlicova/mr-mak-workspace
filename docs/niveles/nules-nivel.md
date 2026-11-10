@@ -298,3 +298,5 @@ He comprobado las líneas de visión con `sagunto_obstaculos_v1.csv` y la regla 
 Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000). Nules B (`Nules_B_terreno_propio`) no cambia: tiene otro edificio y es para después del MVP.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+**Lucía (10-nov 10:45):** el puesto cumple. Entre las dos opciones decide la medida de Nacho. Si dan lo mismo, se queda la 1, para que el puesto no esté vacío si la escolta llega tarde o diezmada.
