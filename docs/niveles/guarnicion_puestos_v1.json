@@ -1,5 +1,5 @@
 {
- "version": "v1.6",
+ "version": "v1.7",
  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»; v1.3 22:55: Nules B con los dos flancos (vía y norte), nules-nivel.md §15",
  "fuente": "decisiones-noche.md 09-11 07:40 (reglas de Lucía) y D-N183 (Castellón propia); planos de docs/niveles/*-nivel.md y recintos de Teo (mr-mak a75067c Nules; sagunto-recinto)",
  "convenciones": {
@@ -86,21 +86,43 @@
    "pelotones": [
     {
      "tipo": "fusileros",
+     "hombres": 8,
      "x_mm": 71500,
      "y_mm": 58500,
      "rumbo_bam16": 32768,
      "formacion": "Linea",
      "cota_m": 0.4,
-     "puesto": "banqueta oeste, al sur de la puerta de vía (módulo Z 59,25–61,75 y nido sur): es la mitad de la puerta donde está la pila (Z 55–74)"
+     "puesto": "SUR: banqueta oeste, al sur de la puerta de vía"
     },
     {
      "tipo": "ametralladores",
+     "hombres": 4,
      "x_mm": 84500,
      "y_mm": 76300,
      "rumbo_bam16": 32768,
      "formacion": "Linea",
      "cota_m": 4.75,
-     "puesto": "junto al edificio de viajeros, como en Nules: en la azotea del ala oeste (X 83–92), en el borde oeste, al norte de la puerta, cruzando el fuego con los fusileros del sur. En el suelo no verían nada por encima del HESCO de 2,1 m (D-N174)"
+     "puesto": "azotea del ala oeste; fuera del llenado (D-N192: sin azoteas)"
+    },
+    {
+     "tipo": "fusileros",
+     "hombres": 4,
+     "x_mm": 71500,
+     "y_mm": 68500,
+     "rumbo_bam16": 32768,
+     "formacion": "Linea",
+     "cota_m": 0.4,
+     "puesto": "NORTE: banqueta oeste, al norte de la puerta de vía; la escolta lo completa hasta 8"
+    },
+    {
+     "tipo": "fusileros",
+     "hombres": 4,
+     "x_mm": 118000,
+     "y_mm": 80500,
+     "rumbo_bam16": 0,
+     "formacion": "Linea",
+     "cota_m": 0,
+     "puesto": "ESTE (D-N194): junto a la esquina NE del edificio, mirando al este; tope de 4 (con más, la fila pasa del muro norte)"
     }
    ],
    "tutorial_extra": [
@@ -115,20 +137,17 @@
     }
    ],
    "vehiculos": [],
-   "nota": "Para que no salga la formación de Sagunto: solo dos pelotones, sin alas, sin reserva y sin vehículos, y los ametralladores arriba, en la azotea (en Sagunto son los tiradores). Los fusileros coinciden con el puesto de los fusileros de Sagunto porque, con dos pelotones, la puerta de vía es lo único que hay que cubrir. SIN VERIFICAR: dónde arrancaban los dos pelotones en la medida de Nacho (2200, 96 %); el bot los mueve igual, pero se lo pregunto.",
-   "puesto_D-N194": {
-    "tipo": "fusileros",
-    "x_mm": 118000,
-    "y_mm": 80500,
-    "rumbo_bam16": 0,
+   "nota": "20 = 8 SUR + 4 ametralladores en la azotea + 4 NORTE + 4 ESTE. Con la escolta entera (28), 4 completan NORTE y 4 van a la banqueta; con 4 bajas (24), los 4 que llegan completan NORTE. SIN VERIFICAR que Nacho midiera los 20 con este mismo reparto inicial: se lo pregunto.",
+   "guarnicion": 20,
+   "banqueta_resto": {
+    "x_mm": 71500,
+    "y_mm": 81500,
+    "rumbo_bam16": 32768,
     "formacion": "Linea",
-    "cota_m": 0,
-    "puesto": "junto a la esquina NE del edificio de viajeros, a 2,5 m al este de la fachada este (X 115,5), mirando al este. En Línea con 4 hombres: Z 78,3–82,7 (el muro norte tiene la cara interior en Z 84,5). Se llega por el andén 1 doblando la esquina SE.",
-    "fuente": "D-N194/D-N195 (Lucía, 27a1745, 10-nov 11:09); nules-nivel.md §17",
-    "orden_llenado_D-N195": "1) puestos norte y sur de la puerta oeste hasta 8; 2) este puesto hasta 4; 3) banqueta (puede quedarse a 0)",
-    "hombres_max": 4,
-    "anterior": "(124000; 75500), descartado el 10-nov 11:09"
-   }
+    "cota_m": 0.4,
+    "puesto": "lo que sobra de la escolta (como mucho 4) va aquí, a la banqueta oeste del extremo norte: con 4 hombres ocupa Z 79,3–83,7 y no pisa a NORTE (que con 8 llega a Z 77,3)"
+   },
+   "orden_llenado": "D-N194 cerrada (Lucía 8a80d2a, 10-nov 11:22): sur 8, norte 8, este 4, el resto a la banqueta"
   },
   "Castellón": {
    "pelotones": [

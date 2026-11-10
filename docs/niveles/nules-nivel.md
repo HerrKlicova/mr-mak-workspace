@@ -324,3 +324,19 @@ El puesto se queda en (124; 75,5), donde ganó la -dia2-auto de la I-Noche141 co
 - **A pie:** de la banqueta oeste se va por el andén 1 (franja Z 66,1–75,0 entre el tren y la fachada sur), se dobla la esquina SE y se sube por la franja X 115,5–156 hasta Z 80,5. No hay obstáculos con colisión. Por detrás del edificio no se pasa: entre el edificio y el muro norte solo quedan 0,7 m, en Z 83,8–84,5.
 - **Holguras:** 1,8 m al muro norte por el hombre de más al norte (Z 82,7; cara interior Z 84,5); la cocina de campaña (121; 78), sin colisión, queda a 3 m al este.
 - **Ojo, Iker:** con 8 hombres la fila llegaría a Z 87,1, más allá del muro. Por eso el tope de 4 de la D-N195 hace falta también por sitio. Y si queda algo del código de la D-N192 que elige «el puesto de tierra más al norte» por Y, este puesto (Y 80,5) le ganaría a la banqueta: el orden lo tiene que dar la D-N195, no la Y.
+
+**Plantel para 20 (D-N194 cerrada, Lucía 8a80d2a, 10-nov 11:22; Plantel v1.7).**
+
+| Puesto | Pelotón | Hombres al empezar | X, Y (mm) | Rumbo | Cota |
+|---|---|---|---|---|---|
+| SUR | fusileros | 8 | 71500, 58500 | oeste | 0,4 |
+| Azotea del ala oeste | ametralladores | 4 | 84500, 76300 | oeste | 4,75 |
+| NORTE | fusileros:4 | 4 (la escolta lo completa hasta 8) | 71500, 68500 | oeste | 0,4 |
+| ESTE (D-N194) | fusileros:4 | 4 (tope) | 118000, 80500 | este (0) | 0 |
+| Banqueta, lo que sobra | lo que quede de la escolta | 0–4 | 71500, 81500 | oeste | 0,4 |
+
+En total son 20. Así cuadra con las cifras de Nacho:
+- Con la escolta entera (28), 4 completan NORTE y 4 van a la banqueta.
+- Con 4 bajas (24), los 4 que llegan completan NORTE.
+
+El sitio de «lo que sobra» sustituye al de ahora en el código, (106; 72,2) delante del edificio, que no es banqueta. Con 4 hombres ocupa Z 79,3–83,7 y no pisa a NORTE, que con 8 llega a Z 77,3. Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000).
