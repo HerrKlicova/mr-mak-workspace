@@ -182,3 +182,9 @@ Pendiente: qa48 hacia las 05:00 sin tandas de fondo (Noche75 de Iker o una build
   - zombis que atraviesan vehículos aparcados (con Nacho);
   - el VAMTAC atascado (puede ser el A* por la puerta sur, tapiada de noche);
   - la puerta de Castellón.
+
+## Actualización 10-11, 13:00 (Marcos (2))
+- main de TBD avanzado a 136dd6cf (iker/f1-aire, la I-Noche150) por avance rápido, con permiso de Eugenio. Lleva el reloj único, F1 aire, el cerco, el socorro y mi F0 de zona.
+- La 150 está verificada por log: pruebas 1405/0, goldens como siempre (G4 ya fallaba antes) y el tren aparcado gana la noche 2.
+- Pendiente: la pasada visual con Sara sobre la 150. Mientras el monitor esté apagado, las capturas (pantalla y F9) salen negras y NO valen como evidencia.
+- En TBD tengo un stash con los .mat y GraphicsSettings que Unity cambia solo. Es ruido, no hay que subirlo.
