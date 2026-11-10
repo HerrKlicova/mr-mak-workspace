@@ -1,0 +1,11 @@
+qa52 sobre la I-Noche115 (iker/reloj-unico 76494c92) - Marcos, 10-11 ~02:00
+S1 (Nules a las 09:00 del dia 2, -dia2-auto -dia2-auto-enzona): SIGUE, y ahora la zona se queda congelada.
+  «noche de Nules: la suya, reanudada»; el HUD marca las 22:00 fijas, la luz es de noche y el almacen esta a 0 u
+  (aunque el log dice «Descargado en Nules: 25 u»). La emboscada mete 300 zombis junto al tren («Tren atacado»), pero en
+  10 minutos no hay ningun abatido: el reloj no avanza en la zona y nadie dispara. Captura: S1_nules_0900_congelada_2200.png.
+  La zona deberia dibujar el dia de la red (09:00) y el combate de dia de la emboscada.
+-ui3 con -mapa-km 40, 150 y 300: ui3_km*.png y hoja_ui3.png. A 300 km, «Sagunto +1», «1 Costa / 2 Montana» y «Betera (base aerea)» se pisan.
+«Preparar tren»: no llegue a capturarlo abierto (-dia2-auto lo cierra enseguida).
+-zonabetera: «[BETERA] falta estacion_betera.json», asi que Betera no se monta. El archivo esta en StreamingAssets/Data.
+  Causa: PrototypeBootstrap.Reloj.cs:163 pone BalanceSource.Reader en StreamingAssets/Noche al registrar las noches al arrancar y no
+  lo devuelve. Todo lo que se lee despues de Data/ falla (Betera; quiza tambien otros CSV). En la 112 si se montaba.
