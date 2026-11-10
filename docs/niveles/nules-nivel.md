@@ -270,3 +270,31 @@ Las cajas miden 1,8 m de alto, tapan el paso y no la vista. La variante la manda
 **Nules A:** con el terreno de Sagunto que usa la partida de 30 minutos, valen los mismos sitios de Sagunto (§10.24 de sagunto-nivel.md).
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 17. Puesto de la fachada este (D-N194), para la noche 2 de Nules (Álvaro, 10-nov ~11:00)
+
+**Qué falla.** Con la D-N193, la noche 2 sigue cayendo a las 01:51 en la zona (I-Noche139), sin bajas y con 18,6 u sin gastar. Los trepadores entran por el tren y la puerta de vía este (X 142–159, Z 65–68) y van por dentro del recinto hasta la esquina SE y la fachada este del edificio: (115,9; 75,5), (116,0; 76,1) y (118,4; 74,4). La guarnición está en la banqueta oeste (X 71,5) y en la azotea del ala oeste, y el edificio (caja sólida de 11 m, 96,5–115,5 × 75,2–83,6) se los tapa.
+
+**El puesto: fusileros en (124,0; 75,5), en el suelo, mirando al este (rumbo 0), en Línea.**
+
+| Dato | Valor |
+|---|---|
+| Plantel (mm) | X 124000, Y 75500, rumbo 0 (este), `Formation.Linea`, cota 0 |
+| Despliegue (2,2 m entre hombres) | con 8 hombres, Z 66,7–82,1; con 4, Z 73,3–77,7. No llega al tren (borde en Z 66,1) ni al muro norte (cara interior en Z 84,5) |
+| Fachada este (X 115,5, Z 75,2–83,6) y esquina SE | a 8,5–9 m, sin nada en medio |
+| Tramo del andén por donde suben (X 125–156, Z 66–72) | a la vista; el tren (Z 64,5, 2,2 m de alto) queda al sur de todas esas líneas |
+| Puerta de vía este (156; 64,5) | a 34 m |
+
+He comprobado las líneas de visión con `sagunto_obstaculos_v1.csv` y la regla de la D-N174. Hacia los tres puntos de la fachada y hacia el tramo del andén no cruzan ningún obstáculo. El fusil dispara en 360° (solo la ametralladora emplazada tiene arco), así que puede mirar al este, de cara a la entrada, sin perder la fachada.
+
+**Cómo se llega (criterio 2).** Andando por el andén 1, de la banqueta a X 124, por la franja Z 66–75 que queda entre el tren y la fachada sur. Eso lo resuelve ya el A* de los pelotones. No hay que construir nada.
+
+**Coherencia con las fotos de Paula.** En la estación real (`nules_planta.md`, N1_estacion_2/3/5), el andén sigue al este del testero bajo la marquesina, con pilares y valla. El puesto queda en ese tramo, junto al testero, entre la cocina de campaña (121; 78) y las tiendas (X 132–148, Z 80) del kit vivo. Ninguna de esas piezas tiene colisión.
+
+**Quién va (criterio 3: siguen siendo 16).** Dos opciones para que las midan Nacho e Iker (criterio 4):
+1. **Recomendada: el pelotón «fusileros:4» de la banqueta (71500; 68500) pasa a este puesto.** Como queda como el puesto de tierra más al norte (Y 75,5 > 58,5), la colocación de la D-N192 lo completa a 8 con la escolta sin tocar el código. Solo cambia una fila del Plantel. Riesgo: la mitad norte de la puerta de vía oeste se queda solo con los ametralladores de la azotea, que la cruzan desde (84,5; 76,3).
+2. Los fusileros:4 se quedan en la banqueta, y la escolta superviviente va primero a este puesto (hasta 8) y después a los extremos. Hay que tocar `PrototypeBootstrap.Reloj.cs` (D-N192). Con 4 bajas en la escolta, el puesto tendría 4 hombres.
+
+Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000). Nules B (`Nules_B_terreno_propio`) no cambia: tiene otro edificio y es para después del MVP.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
