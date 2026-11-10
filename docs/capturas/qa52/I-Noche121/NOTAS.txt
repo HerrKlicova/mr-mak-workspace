@@ -1,0 +1,15 @@
+qa52 sobre la I-Noche121 (iker/reloj-unico) - Marcos, 10-11 ~09:00
+- Reloj con -zona Sagunto: ARREGLADO. 22:28 -> 00:11 -> 01:54 en 150 s; 3812 abatidos, la pila llega a 25 y el muro baja a 998.
+- S1 de Nules a las 09:00: OK (07:36 de dia; emboscada rechazada con 300 abatidos y 0 bajas; la escolta entra en el recinto).
+  «Descargado» sale una sola vez.
+- Aviso x1 en la zona: «[AVISO] Ataque en Sagunto: velocidad x1. (tick 50089)». El letrero sale en ambar, centrado arriba, dentro de
+  la zona de Nules, a las 23:43 y a las 23:52, y a las 00:00 ya no esta (aviso_x1_en_zona.png). En el mapa no lo he visto. El
+  interruptor de Opciones y la bajada a x1 en el HUD no los he probado.
+- Tren: clic sobre el tren en el anden de Sagunto -> «[SELECCION] Tren 1 Costa seleccionado en Sagunto»; en el mapa,
+  «[ORDEN] seleccionado Tren 0 (seleccionado en la zona)». Bien.
+- S1 NUEVO: al salir de la zona de Sagunto al mapa con M (de dia, -menu-auto), el mapa se queda NEGRO del todo (luminancia 0
+  durante mas de 20 s; la rueda no hace nada), con tren seleccionado y sin el. Sin excepciones. Ultima linea del log:
+  «[NOCHE] salgo al mapa con la noche en la red: 0 zombis pasan a NightSim, hora 22:00, empezada no (espera a las 22:00)».
+  Con -mapa-km 40 llega a salir «[MAPA] -mapa-km: camara a 40 km», pero la pantalla sigue en negro. En la 119 la misma
+  secuencia (-menu-auto, M) daba el mapa normal. Por eso no he podido probar el clic derecho del tren. Logs: qa52_mapa_*.log.
+- Sin probar en esta pasada: la H sobre «Preparar tren» y volver a entrar por la H (lo bloquea el mapa negro).
