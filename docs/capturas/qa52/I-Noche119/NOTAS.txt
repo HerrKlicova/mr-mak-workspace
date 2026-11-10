@@ -1,0 +1,11 @@
+qa52 sobre la I-Noche119 - Marcos, 10-11 ~04:40 (a mano con clics y teclas simulados; -menu-auto -mapa-km 40, M al mapa)
+(1) Betera por la H: OK. «[MAPA] entro en Betera» -> «[BETERA] zona montada» (2 NH90). Con M se vuelve al mapa sin quedarse atrapado.
+(2) NH90: clic -> «NH90 1 seleccionado»; en el mapa, clic derecho en Nules -> «[AERO] NH90 1 sale hacia Nules con peloton (orden en el mapa)»: OK.
+    El tren no lo he probado: al acercar la rueda a Sagunto la zona se carga y se vuelve al mapa, y no llegue a seleccionar el tren.
+(3) Aviso x1 (mapa y zona), bajada a x1 e interruptor de Opciones: sin probar en esta pasada.
+(4) La H sobre «Preparar tren»: sin probar en esta pasada.
+Reloj con -zona Sagunto (pregunta de Iker): corro con «-menu-auto -zona Sagunto -sinborde», sin -nightclock y sin pausar con Esc.
+  Las lineas [NOCHE-FPS] dicen: 22:28 (167 abatidos), 22:29 (456), 22:29 (916) y luego 22:29 con 1097 abatidos, cuatro veces mas, hasta
+  el final (150 s). El HUD se queda en las 22:29 y no entran mas oleadas (zona_sagunto_reloj_parado_2229.png). No salen lineas [FPS]
+  ni [NOCHE-DIAG]. Lo mas probable: con -zona no hay red que avance el reloj, y despues de la primera oleada la noche se para.
+  Log: qa52_zona_sagunto.log.
