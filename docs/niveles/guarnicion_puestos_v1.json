@@ -1,5 +1,5 @@
 {
- "version": "v1.7",
+ "version": "v1.8",
  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»; v1.3 22:55: Nules B con los dos flancos (vía y norte), nules-nivel.md §15",
  "fuente": "decisiones-noche.md 09-11 07:40 (reglas de Lucía) y D-N183 (Castellón propia); planos de docs/niveles/*-nivel.md y recintos de Teo (mr-mak a75067c Nules; sagunto-recinto)",
  "convenciones": {
@@ -102,17 +102,17 @@
      "rumbo_bam16": 32768,
      "formacion": "Linea",
      "cota_m": 4.75,
-     "puesto": "azotea del ala oeste; fuera del llenado (D-N192: sin azoteas)"
+     "puesto": "azotea del ala oeste, como estaba; no cuenta en los 20 ni en el llenado"
     },
     {
      "tipo": "fusileros",
-     "hombres": 4,
+     "hombres": 8,
      "x_mm": 71500,
-     "y_mm": 68500,
+     "y_mm": 70500,
      "rumbo_bam16": 32768,
      "formacion": "Linea",
      "cota_m": 0.4,
-     "puesto": "NORTE: banqueta oeste, al norte de la puerta de vía; la escolta lo completa hasta 8"
+     "puesto": "NORTE: banqueta oeste, al norte de la puerta de vía (sitio medido por Nacho)"
     },
     {
      "tipo": "fusileros",
@@ -122,7 +122,7 @@
      "rumbo_bam16": 0,
      "formacion": "Linea",
      "cota_m": 0,
-     "puesto": "ESTE (D-N194): junto a la esquina NE del edificio, mirando al este; tope de 4 (con más, la fila pasa del muro norte)"
+     "puesto": "ESTE (D-N194): junto a la esquina NE del edificio, mirando al este; tope de 4"
     }
    ],
    "tutorial_extra": [
@@ -137,17 +137,17 @@
     }
    ],
    "vehiculos": [],
-   "nota": "20 = 8 SUR + 4 ametralladores en la azotea + 4 NORTE + 4 ESTE. Con la escolta entera (28), 4 completan NORTE y 4 van a la banqueta; con 4 bajas (24), los 4 que llegan completan NORTE. SIN VERIFICAR que Nacho midiera los 20 con este mismo reparto inicial: se lo pregunto.",
-   "guarnicion": 20,
+   "nota": "Medido por Nacho (200 semillas): con la escolta entera, 200/200 y 0 bajas; con 4 bajas en la escolta, 200/200 y 1 baja.",
+   "guarnicion": "20 fusileros + 4 ametralladores en la azotea (aparte)",
    "banqueta_resto": {
     "x_mm": 71500,
-    "y_mm": 81500,
+    "y_mm": 64500,
     "rumbo_bam16": 32768,
     "formacion": "Linea",
     "cota_m": 0.4,
-    "puesto": "lo que sobra de la escolta (como mucho 4) va aquí, a la banqueta oeste del extremo norte: con 4 hombres ocupa Z 79,3–83,7 y no pisa a NORTE (que con 8 llega a Z 77,3)"
+    "puesto": "la escolta superviviente (4 a 8) va aquí, a la banqueta oeste frente a la puerta de vía (sitio medido por Nacho)"
    },
-   "orden_llenado": "D-N194 cerrada (Lucía 8a80d2a, 10-nov 11:22): sur 8, norte 8, este 4, el resto a la banqueta"
+   "orden_llenado": "D-N194 cerrada (Lucía 8a80d2a; aclarado 11:23): sur 8, norte 8 y este 4 ya llenos con la guarnición; la escolta, a la banqueta"
   },
   "Castellón": {
    "pelotones": [

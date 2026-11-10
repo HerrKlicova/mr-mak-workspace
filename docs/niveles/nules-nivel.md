@@ -342,3 +342,15 @@ En total son 20. Así cuadra con las cifras de Nacho:
 El sitio de «lo que sobra» sustituye al de ahora en el código, (106; 72,2) delante del edificio, que no es banqueta. Con 4 hombres ocupa Z 79,3–83,7 y no pisa a NORTE, que con 8 llega a Z 77,3. Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000).
 
 **En espera (11:23).** Nacho midió los 20 con otro reparto: 20 fusileros (sur 8 en 71,5; 58,5, norte 8 en 71,5; 70,5 y este 4) más los 4 ametralladores de la azotea, y la escolta a la banqueta en (71,5; 64,5). Si la azotea cuenta o no dentro de los 20 lo decide Lucía. Nacho mide ahora el reparto de la tabla de arriba. Hasta que se cierre, Iker no lo mete.
+
+**Corrección (Lucía, 11:23; Plantel v1.8): la tabla de arriba queda sustituida.** La guarnición son **20 fusileros más los 4 ametralladores de la azotea**, que van aparte y siguen como estaban. Es el reparto que midió Nacho:
+
+| Puesto | Pelotón | Hombres | X, Y (mm) | Rumbo | Cota |
+|---|---|---|---|---|---|
+| SUR | fusileros | 8 | 71500, 58500 | oeste | 0,4 |
+| Azotea del ala oeste | ametralladores | 4 (aparte) | 84500, 76300 | oeste | 4,75 |
+| NORTE | fusileros | 8 | 71500, 70500 | oeste | 0,4 |
+| ESTE (D-N194) | fusileros:4 | 4 | 118000, 80500 | este (0) | 0 |
+| Banqueta: la escolta | lo que llegue (4–8) | — | 71500, 64500 | oeste | 0,4 |
+
+Con la escolta entera: 200/200, 0 bajas. Con 4 bajas en la escolta: 200/200, 1 baja (Nacho, 200 semillas). Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000).
