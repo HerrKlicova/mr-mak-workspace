@@ -435,7 +435,7 @@ Desde el 6-nov el trabajo ha ido a «la noche de Sagunto» (D-N71), un combate e
 ## 15c. Ampliaciones aprobadas la noche del 9-nov (v1.15; Eugenio: «inventad sin problema, añadid cosas si lo veis bien»)
 Detalle en `propuestas/noche-09-11-ampliaciones.md` y cifras en `economia/cifras-f3-y-ampliaciones.md` (provisionales hasta que Nacho las mida). Todas usan el núcleo de la §3a.
 - **D-N187 · Supervivientes en el campo**: un grupo de 6 a 15 personas en mitad del campo, con una horda real detrás. Seleccionas un NH90 en Bétera, sales al mapa y haces clic derecho sobre el grupo. Los llevas a una estación y se suman a su población. Si no llegas a tiempo, se pierden.
-- **D-N188 · Tren de socorro de Castellón**: a partir del día 3, un tren desde Nules con 2 pelotones rompe el cerco junto con la guarnición, que sale a su encuentro. La batalla sigue aunque no la mires.
+- **D-N188 · Tren de socorro de Castellón**: a partir del día 3, un tren desde Nules con 2 pelotones rompe el cerco junto con la guarnición, que sale a su encuentro. La batalla sigue aunque no la mires. Cerco de **4400** zombis; el socorro necesita al menos **17 u** y se gana el 82 % (NightSim, 200 semillas).
 - **D-N189 · El tren blindado dispara**: un vagón con ametralladora que ocupa una plaza de carga. Ir con escolta o con blindado es una elección con coste. Lleva un **20 % de blindaje**: contra una emboscada de 300 se salva 7 de cada 10 veces, y contra una de 450 cae siempre.
 - **Emboscadas según el tramo**: 300 en Sagunto–Nules y 450 en Nules–Castellón (allí hace falta escolta).
 - **D-N190 · Munición por aire**: cada vuelo de NH90 lleva 3 u desde Bétera. Es la red de seguridad de Nules.
