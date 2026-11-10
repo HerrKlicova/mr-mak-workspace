@@ -1,0 +1,15 @@
+qa52 sobre la I-Noche118 (iker/reloj-unico dd720b7b) - Marcos, 10-11 ~04:00
+(1) Betera por la H del mapa: S1. El mapa entra («[MAPA] entro en Betera»), pero la zona dice «[BETERA] falta estacion_betera.json /
+    no se ha podido montar la zona» y carga Sagunto (S1_betera_por_la_H_carga_sagunto.png). Causa: el lector de BalanceSource se queda en
+    StreamingAssets/Noche. ARREGLADO en marcos/betera-lector c6117400 (sobre iker/reloj-unico): MontarBetera lee de Data y restaura el lector.
+    Probado en build (P118b): «[BETERA] zona montada: 270 piezas, 2 hangares, 2 NH90». Sin probar todavia: salir de Betera entrando por la H,
+    ni el clic derecho en el mapa con el NH90 o el tren seleccionados (necesita la 119 con el arreglo).
+    S2: la H y «Betera (base aerea)» se pintan ENCIMA del panel «Preparar tren» (S2_H_encima_del_panel.png).
+(2) Aviso x1: «[AVISO] Ataque en Sagunto: velocidad x1. (tick 50089)» con -dia2-auto. En ese momento la camara esta en la zona de Nules
+    (noche 2), asi que el letrero no se ve (solo sale en el mapa); captura aviso_x1_en_zona_nules.png. Sin probar en esta pasada: el
+    letrero en el mapa, que la velocidad baje a x1 y el interruptor de Opciones.
+(3) Nules de dia: «Descargado en Nules: 25 u» sale una sola vez. OK.
+(4) S1 de Nules: OK (07:35, de dia; emboscada rechazada, 300 abatidos y 0 bajas; la escolta entra en el recinto).
+    -zona Sagunto: la horda entra (912 zombis, 1097 abatidos). Sin excepciones.
+    OJO (para Nacho e Iker): en -zona Sagunto el reloj pasa de 22:28 a 22:29 en 2 minutos reales mientras caen 930 zombis. Mirad si la
+    hora de la noche avanza a la velocidad buena con el reloj unico; en la 103 una noche duraba unos 6 minutos reales.
