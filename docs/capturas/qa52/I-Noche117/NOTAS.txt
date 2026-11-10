@@ -1,0 +1,10 @@
+qa52 sobre la I-Noche117 (iker/reloj-unico) - Marcos, 10-11 ~02:40
+- S1, Nules a las 09:00 del dia 2 (-dia2-auto -dia2-auto-enzona): RESUELTO. Al entrar son las 07:34 de dia, con luz de dia.
+  La emboscada de 300 cae de dia y se rechaza («fin en la zona: rechazada»; 300 abatidos, 0 bajas). «la escolta (1 peloton) entra
+  en el recinto (71,5; 70,5)». Almacen a 25 u. A las 11:03 sigue siendo de dia, con «Escolta 1» en la barra (S1_*.png).
+  Detalles: «Descargado en Nules: 25 u» sale dos veces en el log (el almacen se queda en 25, asi que parece solo el mensaje);
+  y «el segundo tren sale SIN peloton a bordo» choca con «llega ... 1 peloton».
+- -zonabetera: Betera se monta (270 piezas, 2 hangares, 2 NH90); clic -> «NH90 1 seleccionado»; M -> mapa con la seleccion (betera_*.png).
+- -zona Sagunto: la horda entra (22:28: 862 zombis; 22:29: 1097 abatidos) (zona_sagunto_horda.png).
+- -ui3 a 300 km: «Sagunto +1 · 1 tren» y «Betera (base aerea)» ya no se pisan (ui3_km300.png).
+- El «aviso x1» no lo tengo identificado: dime que buscar.
