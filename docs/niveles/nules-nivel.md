@@ -300,3 +300,21 @@ Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000). Nules B (`
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
 
 **Lucía (10-nov 10:45):** el puesto cumple. Entre las dos opciones decide la medida de Nacho. Si dan lo mismo, se queda la 1, para que el puesto no esté vacío si la escolta llega tarde o diezmada.
+
+**D-N195 (Lucía, 10-nov 11:00), sustituye a las dos opciones de arriba.** Gana el orden de llenado de Nacho:
+1. los puestos norte y sur de la puerta oeste, hasta 8 cada uno;
+2. este puesto, hasta 4;
+3. la banqueta, que puede quedarse a 0.
+
+Medidas de Nacho:
+- orden de Nacho: 98,5 % y 0,9 bajas;
+- opción 1: 97,5 %, pero el 59,5 % si la escolta llega con 4 bajas;
+- opción 2: 98 % y 8,8 bajas.
+
+El puesto se queda en (124; 75,5), donde ganó la -dia2-auto de la I-Noche141 con 0 bajas.
+
+**Plan B (si falla la medida con 4 bajas en la escolta, que tiene que dar ≥ 90 %, o la -dia2-auto con el orden nuevo): mover el puesto a (118000; 80500), rumbo 0, Línea.** En NightSim dio 200/200. Comprobado con los obstáculos:
+- Queda a 2,5 m de la fachada este, a 3 m al norte del Z 77,5 de la cocina de campaña (sin colisión) y a 4 m del muro norte (cara interior Z 84,5).
+- Con 4 hombres ocupa Z 78,3–82,7. Con 8 llegaría a Z 73,9–87,1 y chocaría con el muro, pero con la D-N195 el puesto lleva 4.
+- Ve la esquina SE (a 6 m) y el andén hacia la puerta este sin nada en medio.
+- Se llega por el mismo camino que al puesto de (124; 75,5).

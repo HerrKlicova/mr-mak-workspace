@@ -1,5 +1,5 @@
 {
- "version": "v1.4",
+ "version": "v1.5",
  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»; v1.3 22:55: Nules B con los dos flancos (vía y norte), nules-nivel.md §15",
  "fuente": "decisiones-noche.md 09-11 07:40 (reglas de Lucía) y D-N183 (Castellón propia); planos de docs/niveles/*-nivel.md y recintos de Teo (mr-mak a75067c Nules; sagunto-recinto)",
  "convenciones": {
@@ -124,11 +124,15 @@
     "formacion": "Linea",
     "cota_m": 0,
     "puesto": "testero este del edificio de viajeros, en el suelo, al norte del andén 1 (Nules opción A = terreno de Sagunto). Mira al este, hacia la puerta de vía este. A 8,5 m de la fachada este (X 115,5) y a 9 m de la esquina SE (115,5; 75,2). En Línea con 2,2 m entre hombres: con 8, Z 66,7–82,1; con 4, Z 73,3–77,7.",
-    "opciones_para_medir": {
-     "1_recomendada": "los fusileros:4 de la banqueta (71500; 68500) pasan aquí. Como es el puesto de tierra más al norte, la D-N192 lo completa a 8 con la escolta sin tocar el código.",
-     "2": "los fusileros:4 se quedan en la banqueta; la escolta superviviente va primero a este puesto (hasta 8) y después a los extremos. Hay que tocar Reloj.cs."
-    },
-    "fuente": "D-N194 (Lucía, 10-nov 10:43); nules-nivel.md §17"
+    "fuente": "D-N194 (Lucía, 10-nov 10:43); nules-nivel.md §17",
+    "orden_llenado_D-N195": "1) puestos norte y sur de la puerta oeste hasta 8; 2) este puesto hasta 4; 3) banqueta (puede quedarse a 0)",
+    "plan_B": {
+     "x_mm": 118000,
+     "y_mm": 80500,
+     "rumbo_bam16": 0,
+     "formacion": "Linea",
+     "cuando": "si falla la medida con 4 bajas en la escolta (≥ 90 %) o la -dia2-auto con el orden nuevo"
+    }
    }
   },
   "Castellón": {
