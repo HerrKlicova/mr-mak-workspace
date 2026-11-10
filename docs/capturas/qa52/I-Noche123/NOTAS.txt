@@ -1,0 +1,3 @@
+Mapa negro al salir con M de la zona de Sagunto (-menu-auto, sin -mapa-km): pasa en la 123 y TAMBIEN en la 119.
+MAPA-DIAG de la 123: dist=2,5 y foco=(136,5; 0; 45,5); camara en (136,5; 2,11; 43,89), es decir, a 2 m del suelo. Por eso se ve negro: no es la gradacion.
+Con -mapa-km 40 (que es como lo probe en la 118 y la 119) la camara se aleja y el mapa se ve bien.
