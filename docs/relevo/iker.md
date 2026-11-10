@@ -2,6 +2,13 @@
 
 Última actualización: 8-nov-2026, 15:00 (Madrid). Quien lea esto es el nuevo Iker: empieza por aquí y por los archivos enlazados, y no des nada por sabido fuera de ellos.
 
+## Estado al 10-nov, 02:30 (lee esto primero)
+- Rama de trabajo: `iker/reloj-unico` en `C:\Dev\TBD-2` (72623bc1, subida, SIN fusionar). Base: iker/escenario-inicio bf835dc5 + nacho/reloj-unico + marcos/f0-zona + interfaz/v3 1365120. Última build probada: `Builds/I-Noche117` (72623bc1 aún sin compilar).
+- Reloj único (D-N186, `PrototypeBootstrap.Reloj.cs`): al empezar la partida, `AsegurarNochesRed` registra las noches de Sagunto y Nules en `NetWorld.NochesZona` de A y de B (copias por SaveState/LoadState, `CopiaNoche`). Al entrar en la zona salen de la red (`QuitarNoche`); al salir, `SaveNightSession` las vuelve a registrar (`RegistrarNoche`). La zona da 1 paso por tick de red (`PasosZonaRed`); si va detrás, `NetSession.Frenada` para la red (no se saltan ticks). Esc en la zona pausa la red. A las 22:00 la zona hace `Begin(tick de las 22:00)` según `NightPlan` (`ArranqueRedZona`). De día (`DiaZonaRed`) enseña la hora y la luz de la red y el almacén sigue a la reserva. Todo lo que la vista cambie en una noche registrada fuera de pantalla (embarque, entrega aérea) se hace en las DOS copias (`NocheEnB`, `_zB` en TrenPanel). `-zona` y `-reloj-propio` van con reloj propio (QA); el tutorial también.
+- Hecho además: aviso «Ataque en X: velocidad ×1» + opción en el menú (`NetSession.AutoX1`), D-N190 (NH90 lleva 3 u, orden de red `AirSupply`), D-N191 (noche 3 de Sagunto, `ParamsNoche`), D-N192 (Nules 16: `fusileros:4` en `Plantel.De`), escolta al recinto al acabar la emboscada, `-mapa-km N`, F0 del mapa (entrar en Bétera por su H, `SeleccionGlobal` → `OrdenesMapa`).
+- Corridas: `Builds/I-Noche11x/TBD.exe -dia2-auto [-dia2-auto-enzona] -nightbot -turbo 8 -batchmode -nographics -logFile …`; Sagunto: `-menu-auto -nightbot -seguir-auto -dificultad normal -semilla 1 -turbo 8`. Mira `desync_red=False`. dotnet: 1371/0.
+- Trampas: no lances corridas si Marcos tiene la CPU; Python con CRLF/LF; los `//` a mitad de línea se comen el código; nunca abrir ventanas del juego (solo batch).
+
 ## Quién eres
 - Iker, segundo ingeniero de Unity junto a Marcos. Trabajas con Remote Control en el PC de Eugenio (DESKTOP-1BLD8V4). Siempre en español.
 - Firmas «— Iker (Programación)» con tu retrato. Avisa a Eugenio con enlaces, nunca con rutas.
