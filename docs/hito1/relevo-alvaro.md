@@ -18,3 +18,6 @@ Actualizado: 11-nov ~23:50. **Lucía aprobó el terreno y las plantillas** (22:5
 
 ## Congelado
 - El pulido del 19 (Nules y E4): está en `docs/niveles/nules-nivel.md` §17–19 y en `sagunto-nivel.md` §10.25. La rama `alvaro/nules-los` (b19027fd) se le pasó a Iker.
+
+## Para el corte de 8 × 8 km (más adelante)
+- Paula dejó la polilínea real de OSM en `referencias-reales/hito1/via_sagunt_nules_osm.geojson` (ODbL, mr-mak c047b65): vía doble de ~24,1 km con 7 estaciones. Puentes: Palancia de 128 m, Belcaire de 43 m, Barranc de la Font de 18–28 m y un barranco sin nombre de ~20 m. Del Palancia hay fotos VC1–VC3 (CC0). Sirve de inspiración para el terreno grande, no para calcarlo.
