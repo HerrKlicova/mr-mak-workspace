@@ -1,0 +1,482 @@
+id;tipo;x_m;z_m;valor;nota
+botin_mercado_0_1;botin;-256.0;-132.25;0;raciones: mercado
+botin_almacenes_1_4;botin;-128.0;256.0;0;material: almacenes
+botin_cocheras_2_3;botin;0.0;128.0;0;gasoil: cocheras
+parque_3_4;parque;128.0;256.0;0;jardín, abierto
+botin_cuartel_4_1;botin;256.0;-132.25;0;municion: cuartel
+botin_hospital_4_2;botin;256.0;4.25;0;raciones: hospital
+escombro_bloque_0_0_003;escombro;-236.3;-304.31;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_0_009;escombro;-227.88;-206.27;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_0_013;escombro;-304.79;-247.2;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_0_017;escombro;-206.06;-251.01;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_2_020;escombro;-296.88;-39.7;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_2_025;escombro;-296.01;48.51;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_2_035;escombro;-205.57;-9.18;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_3_043;escombro;-218.57;78.88;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_3_046;escombro;-258.75;176.62;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_3_048;escombro;-227.28;176.58;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_3_050;escombro;-305.15;118.52;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_4_061;escombro;-220.03;207.24;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_4_065;escombro;-252.39;304.28;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_4_069;escombro;-305.91;247.62;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_4_071;escombro;-305.03;280.91;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_0_4_072;escombro;-207.17;225.96;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_0_080;escombro;-115.14;-306.45;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_0_092;escombro;-79.24;-265.35;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_0_094;escombro;-80.04;-231.35;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_1_106;escombro;-178.13;-154.2;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_1_109;escombro;-80.25;-157.0;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_2_121;escombro;-117.95;49.85;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_2_124;escombro;-176.2;-4.45;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_2_126;escombro;-79.94;-19.8;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_3_135;escombro;-165.71;177.55;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_3_138;escombro;-121.7;175.92;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_1_3_144;escombro;-177.03;155.88;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_0_150;escombro;-38.72;-306.35;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_0_157;escombro;-20.33;-206.7;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_0_161;escombro;39.25;-207.71;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_0_165;escombro;-49.37;-230.96;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_0_168;escombro;48.87;-250.38;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_1_170;escombro;-37.48;-177.48;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_1_179;escombro;31.88;-86.99;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_1_186;escombro;49.56;-122.6;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_2_199;escombro;-48.92;-20.46;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_4_208;escombro;-40.93;206.76;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_4_224;escombro;48.69;228.7;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_4_225;escombro;50.15;246.09;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_2_4_227;escombro;47.78;277.73;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_3_0_228;escombro;89.91;-304.83;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_3_0_242;escombro;78.45;-233.82;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_3_1_248;escombro;106.07;-178.11;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_3_2_272;escombro;166.14;-40.64;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_3_2_278;escombro;80.32;-18.07;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_3_3_301;escombro;175.51;140.24;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_4_0_303;escombro;218.23;-306.16;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_4_3_324;escombro;216.95;78.38;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_4_3_332;escombro;255.08;176.65;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_4_3_336;escombro;208.03;122.5;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_4_4_346;escombro;280.4;207.73;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_4_4_349;escombro;240.82;304.3;0;montón de 2 m en la calle: tapa el paso
+escombro_bloque_4_4_354;escombro;205.59;247.33;0;montón de 2 m en la calle: tapa el paso
+coche_00;coche;-61.45;-159.95;172.9;coche abandonado
+coche_01;coche;-165.94;-66.28;103.4;coche abandonado
+coche_02;coche;-109.71;191.76;74.8;coche abandonado
+coche_03;coche;-124.57;-189.65;107.7;coche abandonado
+coche_04;coche;192.3;220.94;198.5;coche abandonado
+coche_05;coche;321.45;-169.83;279.0;coche abandonado
+coche_06;coche;-62.59;-286.04;-4.4;coche abandonado
+coche_07;coche;318.11;-128.47;165.9;coche abandonado
+coche_08;coche;-65.01;52.21;-0.6;coche abandonado
+coche_09;coche;-322.77;-8.19;79.0;coche abandonado
+coche_10;coche;-194.58;10.44;203.9;coche abandonado
+coche_11;coche;-63.66;110.05;104.8;coche abandonado
+coche_12;coche;-48.99;-320.91;22.7;coche abandonado
+coche_13;coche;280.96;190.34;256.4;coche abandonado
+coche_14;coche;-298.42;-189.38;261.6;coche abandonado
+coche_15;coche;20.08;-193.28;195.8;coche abandonado
+coche_16;coche;35.98;-63.64;289.4;coche abandonado
+coche_17;coche;62.98;60.93;178.4;coche abandonado
+coche_18;coche;193.18;-108.94;9.6;coche abandonado
+coche_19;coche;66.41;-155.17;172.1;coche abandonado
+coche_20;coche;-322.79;-78.1;177.1;coche abandonado
+coche_21;coche;317.87;-224.08;182.1;coche abandonado
+coche_22;coche;-319.06;235.11;-19.7;coche abandonado
+coche_23;coche;298.27;-189.52;104.0;coche abandonado
+coche_24;coche;-30.58;320.03;204.4;coche abandonado
+coche_25;coche;-110.95;61.91;247.7;coche abandonado
+coche_26;coche;76.65;-317.13;-9.7;coche abandonado
+coche_27;coche;-64.11;192.29;113.6;coche abandonado
+coche_28;coche;191.9;4.6;191.2;coche abandonado
+coche_29;coche;-286.29;-320.91;194.8;coche abandonado
+coche_30;coche;322.19;-175.77;93.2;coche abandonado
+coche_31;coche;317.42;189.46;-20.4;coche abandonado
+coche_32;coche;-319.17;216.58;200.8;coche abandonado
+coche_33;coche;63.02;196.61;108.1;coche abandonado
+coche_34;coche;190.75;-198.3;293.5;coche abandonado
+coche_35;coche;-64.85;-263.31;92.6;coche abandonado
+coche_36;coche;322.05;-76.93;183.8;coche abandonado
+coche_37;coche;-62.38;177.79;-8.8;coche abandonado
+coche_38;coche;-233.36;-317.43;195.2;coche abandonado
+coche_39;coche;-283.05;317.3;162.3;coche abandonado
+coche_40;coche;-62.31;187.39;76.5;coche abandonado
+coche_41;coche;114.4;191.35;-12.7;coche abandonado
+coche_42;coche;-193.45;-269.46;164.2;coche abandonado
+coche_43;coche;-66.58;-51.25;259.1;coche abandonado
+coche_44;coche;-65.73;266.11;89.6;coche abandonado
+coche_45;coche;-217.1;-191.98;158.6;coche abandonado
+coche_46;coche;317.21;137.84;72.4;coche abandonado
+coche_47;coche;-317.11;-12.48;189.9;coche abandonado
+coche_48;coche;318.4;210.92;2.0;coche abandonado
+coche_49;coche;-264.57;319.55;22.8;coche abandonado
+coche_50;coche;74.74;317.6;263.0;coche abandonado
+coche_51;coche;50.32;191.84;263.1;coche abandonado
+coche_52;coche;65.17;-163.57;3.0;coche abandonado
+coche_53;coche;-61.97;-174.68;183.6;coche abandonado
+coche_54;coche;191.77;273.03;-21.1;coche abandonado
+coche_55;coche;-63.85;-103.32;99.7;coche abandonado
+coche_56;coche;308.48;-65.26;279.0;coche abandonado
+coche_57;coche;-140.46;317.57;16.3;coche abandonado
+coche_58;coche;-65.57;-103.88;273.4;coche abandonado
+coche_59;coche;145.12;-319.45;156.2;coche abandonado
+zg_bloque_0_0_000;zombis;-295.77;-303.93;9;grupo
+zg_bloque_0_0_001;zombis;-277.68;-305.87;20;grupo
+zg_bloque_0_0_002;zombis;-256.87;-304.99;15;grupo
+zg_bloque_0_0_003;zombis;-236.3;-304.31;22;grupo
+zg_bloque_0_0_004;zombis;-217.38;-304.25;14;grupo
+zg_bloque_0_0_005;zombis;-293.94;-208.03;9;grupo
+zg_bloque_0_0_006;zombis;-276.67;-207.26;18;grupo
+zg_bloque_0_0_007;zombis;-262.35;-206.42;9;grupo
+zg_bloque_0_0_008;zombis;-244.99;-207.03;12;grupo
+zg_bloque_0_0_009;zombis;-227.88;-206.27;7;grupo
+zg_bloque_0_0_010;zombis;-215.01;-207.07;8;grupo
+zg_bloque_0_0_011;zombis;-304.1;-283.81;9;grupo
+zg_bloque_0_0_012;zombis;-306.18;-266.27;9;grupo
+zg_bloque_0_0_013;zombis;-304.79;-247.2;21;grupo
+zg_bloque_0_0_014;zombis;-305.28;-227.74;16;grupo
+zg_bloque_0_0_015;zombis;-206.73;-283.99;7;grupo
+zg_bloque_0_0_016;zombis;-207.92;-267.96;13;grupo
+zg_bloque_0_0_017;zombis;-206.06;-251.01;11;grupo
+zg_bloque_0_0_018;zombis;-205.88;-231.18;9;grupo
+zg_mercado_0_1;zombis;-256.0;-132.25;238;grupo
+zg_bloque_0_2_020;zombis;-296.88;-39.7;12;grupo
+zg_bloque_0_2_021;zombis;-281.63;-41.68;6;grupo
+zg_bloque_0_2_022;zombis;-262.09;-41.66;15;grupo
+zg_bloque_0_2_023;zombis;-242.96;-39.55;14;grupo
+zg_bloque_0_2_024;zombis;-225.24;-40.42;10;grupo
+zg_bloque_0_2_025;zombis;-296.01;48.51;5;grupo
+zg_bloque_0_2_026;zombis;-278.52;48.94;23;grupo
+zg_bloque_0_2_027;zombis;-259.34;48.27;15;grupo
+zg_bloque_0_2_028;zombis;-242.83;48.74;11;grupo
+zg_bloque_0_2_029;zombis;-227.38;49.48;10;grupo
+zg_bloque_0_2_030;zombis;-303.78;-20.62;16;grupo
+zg_bloque_0_2_031;zombis;-304.01;-4.31;13;grupo
+zg_bloque_0_2_032;zombis;-303.51;10.31;7;grupo
+zg_bloque_0_2_033;zombis;-303.55;24.14;7;grupo
+zg_bloque_0_2_034;zombis;-206.85;-22.35;8;grupo
+zg_bloque_0_2_035;zombis;-205.57;-9.18;11;grupo
+zg_bloque_0_2_036;zombis;-205.95;8.61;16;grupo
+zg_bloque_0_2_037;zombis;-207.79;27.54;16;grupo
+zg_bloque_0_3_038;zombis;-296.63;80.0;16;grupo
+zg_bloque_0_3_039;zombis;-282.63;78.04;5;grupo
+zg_bloque_0_3_040;zombis;-268.69;79.34;10;grupo
+zg_bloque_0_3_041;zombis;-251.3;79.7;15;grupo
+zg_bloque_0_3_042;zombis;-234.46;78.8;10;grupo
+zg_bloque_0_3_043;zombis;-218.57;78.88;16;grupo
+zg_bloque_0_3_044;zombis;-293.01;176.28;21;grupo
+zg_bloque_0_3_045;zombis;-274.22;176.1;18;grupo
+zg_bloque_0_3_046;zombis;-258.75;176.62;8;grupo
+zg_bloque_0_3_047;zombis;-243.55;175.71;10;grupo
+zg_bloque_0_3_048;zombis;-227.28;176.58;7;grupo
+zg_bloque_0_3_049;zombis;-305.44;99.78;7;grupo
+zg_bloque_0_3_050;zombis;-305.15;118.52;20;grupo
+zg_bloque_0_3_051;zombis;-304.93;136.53;11;grupo
+zg_bloque_0_3_052;zombis;-303.97;152.19;11;grupo
+zg_bloque_0_3_053;zombis;-207.72;99.95;9;grupo
+zg_bloque_0_3_054;zombis;-208.32;119.34;23;grupo
+zg_bloque_0_3_055;zombis;-208.22;138.99;23;grupo
+zg_bloque_0_3_056;zombis;-206.62;156.6;12;grupo
+zg_bloque_0_4_057;zombis;-292.85;208.09;10;grupo
+zg_bloque_0_4_058;zombis;-271.94;206.49;9;grupo
+zg_bloque_0_4_059;zombis;-252.8;206.11;13;grupo
+zg_bloque_0_4_060;zombis;-235.08;205.8;10;grupo
+zg_bloque_0_4_061;zombis;-220.03;207.24;10;grupo
+zg_bloque_0_4_062;zombis;-296.6;305.21;7;grupo
+zg_bloque_0_4_063;zombis;-282.43;304.03;10;grupo
+zg_bloque_0_4_064;zombis;-267.27;304.45;15;grupo
+zg_bloque_0_4_065;zombis;-252.39;304.28;7;grupo
+zg_bloque_0_4_066;zombis;-238.21;304.26;9;grupo
+zg_bloque_0_4_067;zombis;-221.63;306.16;6;grupo
+zg_bloque_0_4_068;zombis;-305.98;228.73;8;grupo
+zg_bloque_0_4_069;zombis;-305.91;247.62;12;grupo
+zg_bloque_0_4_070;zombis;-304.47;264.83;9;grupo
+zg_bloque_0_4_071;zombis;-305.03;280.91;8;grupo
+zg_bloque_0_4_072;zombis;-207.17;225.96;12;grupo
+zg_bloque_0_4_073;zombis;-205.68;239.84;8;grupo
+zg_bloque_0_4_074;zombis;-207.17;257.4;16;grupo
+zg_bloque_0_4_075;zombis;-207.36;274.29;7;grupo
+zg_bloque_0_4_076;zombis;-208.39;286.77;16;grupo
+zg_bloque_1_0_077;zombis;-166.95;-305.02;8;grupo
+zg_bloque_1_0_078;zombis;-149.79;-305.73;6;grupo
+zg_bloque_1_0_079;zombis;-132.8;-304.49;13;grupo
+zg_bloque_1_0_080;zombis;-115.14;-306.45;8;grupo
+zg_bloque_1_0_081;zombis;-97.25;-303.75;9;grupo
+zg_bloque_1_0_082;zombis;-167.43;-207.8;8;grupo
+zg_bloque_1_0_083;zombis;-149.46;-207.17;16;grupo
+zg_bloque_1_0_084;zombis;-130.06;-207.15;11;grupo
+zg_bloque_1_0_085;zombis;-110.65;-207.93;11;grupo
+zg_bloque_1_0_086;zombis;-90.62;-207.89;18;grupo
+zg_bloque_1_0_087;zombis;-178.11;-282.39;11;grupo
+zg_bloque_1_0_088;zombis;-175.99;-261.3;16;grupo
+zg_bloque_1_0_089;zombis;-177.29;-241.92;7;grupo
+zg_bloque_1_0_090;zombis;-176.12;-226.02;8;grupo
+zg_bloque_1_0_091;zombis;-77.83;-282.53;12;grupo
+zg_bloque_1_0_092;zombis;-79.24;-265.35;9;grupo
+zg_bloque_1_0_093;zombis;-78.01;-249.27;15;grupo
+zg_bloque_1_0_094;zombis;-80.04;-231.35;8;grupo
+zg_bloque_1_1_095;zombis;-166.57;-176.39;12;grupo
+zg_bloque_1_1_096;zombis;-151.31;-178.08;6;grupo
+zg_bloque_1_1_097;zombis;-138.38;-176.08;9;grupo
+zg_bloque_1_1_098;zombis;-122.46;-177.8;13;grupo
+zg_bloque_1_1_099;zombis;-102.54;-176.38;14;grupo
+zg_bloque_1_1_100;zombis;-167.56;-86.87;17;grupo
+zg_bloque_1_1_101;zombis;-152.31;-87.74;6;grupo
+zg_bloque_1_1_102;zombis;-135.48;-87.08;11;grupo
+zg_bloque_1_1_103;zombis;-117.54;-86.98;10;grupo
+zg_bloque_1_1_104;zombis;-102.85;-86.49;6;grupo
+zg_bloque_1_1_105;zombis;-88.54;-88.85;16;grupo
+zg_bloque_1_1_106;zombis;-178.13;-154.2;12;grupo
+zg_bloque_1_1_107;zombis;-177.74;-133.61;7;grupo
+zg_bloque_1_1_108;zombis;-177.62;-117.54;9;grupo
+zg_bloque_1_1_109;zombis;-80.25;-157.0;11;grupo
+zg_bloque_1_1_110;zombis;-78.13;-140.63;14;grupo
+zg_bloque_1_1_111;zombis;-78.27;-121.72;16;grupo
+zg_bloque_1_2_112;zombis;-165.91;-40.85;19;grupo
+zg_bloque_1_2_113;zombis;-149.01;-41.93;6;grupo
+zg_bloque_1_2_114;zombis;-135.62;-39.13;11;grupo
+zg_bloque_1_2_115;zombis;-120.59;-41.18;14;grupo
+zg_bloque_1_2_116;zombis;-102.45;-39.68;16;grupo
+zg_bloque_1_2_117;zombis;-87.04;-39.4;14;grupo
+zg_bloque_1_2_118;zombis;-168.33;48.18;10;grupo
+zg_bloque_1_2_119;zombis;-152.11;48.14;14;grupo
+zg_bloque_1_2_120;zombis;-135.73;49.19;11;grupo
+zg_bloque_1_2_121;zombis;-117.95;49.85;19;grupo
+zg_bloque_1_2_122;zombis;-97.1;48.36;16;grupo
+zg_bloque_1_2_123;zombis;-175.62;-21.78;12;grupo
+zg_bloque_1_2_124;zombis;-176.2;-4.45;16;grupo
+zg_bloque_1_2_125;zombis;-177.98;15.85;8;grupo
+zg_bloque_1_2_126;zombis;-79.94;-19.8;16;grupo
+zg_bloque_1_2_127;zombis;-80.21;-3.9;14;grupo
+zg_bloque_1_2_128;zombis;-78.88;10.98;8;grupo
+zg_bloque_1_2_129;zombis;-78.87;27.82;10;grupo
+zg_bloque_1_3_130;zombis;-165.15;80.38;12;grupo
+zg_bloque_1_3_131;zombis;-146.36;78.47;12;grupo
+zg_bloque_1_3_132;zombis;-128.32;77.58;7;grupo
+zg_bloque_1_3_133;zombis;-111.47;80.47;9;grupo
+zg_bloque_1_3_134;zombis;-96.92;79.97;8;grupo
+zg_bloque_1_3_135;zombis;-165.71;177.55;14;grupo
+zg_bloque_1_3_136;zombis;-149.12;177.56;5;grupo
+zg_bloque_1_3_137;zombis;-135.94;175.64;9;grupo
+zg_bloque_1_3_138;zombis;-121.7;175.92;12;grupo
+zg_bloque_1_3_139;zombis;-104.05;175.51;18;grupo
+zg_bloque_1_3_140;zombis;-87.38;178.36;10;grupo
+zg_bloque_1_3_141;zombis;-177.63;100.7;8;grupo
+zg_bloque_1_3_142;zombis;-176.65;118.32;7;grupo
+zg_bloque_1_3_143;zombis;-178.09;137.04;13;grupo
+zg_bloque_1_3_144;zombis;-177.03;155.88;8;grupo
+zg_bloque_1_3_145;zombis;-77.79;100.03;6;grupo
+zg_bloque_1_3_146;zombis;-79.72;118.71;21;grupo
+zg_bloque_1_3_147;zombis;-80.42;134.5;9;grupo
+zg_bloque_1_3_148;zombis;-78.83;151.46;14;grupo
+zg_almacenes_1_4;zombis;-128.0;256.0;114;grupo
+zg_bloque_2_0_150;zombis;-38.72;-306.35;12;grupo
+zg_bloque_2_0_151;zombis;-22.72;-305.91;9;grupo
+zg_bloque_2_0_152;zombis;-8.91;-306.03;7;grupo
+zg_bloque_2_0_153;zombis;5.75;-303.93;18;grupo
+zg_bloque_2_0_154;zombis;22.69;-305.33;9;grupo
+zg_bloque_2_0_155;zombis;39.05;-304.24;13;grupo
+zg_bloque_2_0_156;zombis;-37.95;-207.65;12;grupo
+zg_bloque_2_0_157;zombis;-20.33;-206.7;10;grupo
+zg_bloque_2_0_158;zombis;-4.32;-205.6;11;grupo
+zg_bloque_2_0_159;zombis;11.39;-205.83;12;grupo
+zg_bloque_2_0_160;zombis;25.19;-205.62;5;grupo
+zg_bloque_2_0_161;zombis;39.25;-207.71;9;grupo
+zg_bloque_2_0_162;zombis;-49.18;-282.67;12;grupo
+zg_bloque_2_0_163;zombis;-47.63;-263.5;16;grupo
+zg_bloque_2_0_164;zombis;-47.8;-247.49;13;grupo
+zg_bloque_2_0_165;zombis;-49.37;-230.96;18;grupo
+zg_bloque_2_0_166;zombis;48.25;-284.97;9;grupo
+zg_bloque_2_0_167;zombis;50.04;-269.03;9;grupo
+zg_bloque_2_0_168;zombis;48.87;-250.38;19;grupo
+zg_bloque_2_0_169;zombis;50.01;-231.67;11;grupo
+zg_bloque_2_1_170;zombis;-37.48;-177.48;8;grupo
+zg_bloque_2_1_171;zombis;-19.65;-176.81;14;grupo
+zg_bloque_2_1_172;zombis;-4.44;-178.06;11;grupo
+zg_bloque_2_1_173;zombis;13.12;-175.84;9;grupo
+zg_bloque_2_1_174;zombis;30.05;-176.46;13;grupo
+zg_bloque_2_1_175;zombis;-36.77;-88.54;18;grupo
+zg_bloque_2_1_176;zombis;-15.26;-88.39;16;grupo
+zg_bloque_2_1_177;zombis;3.82;-86.63;13;grupo
+zg_bloque_2_1_178;zombis;18.55;-88.28;14;grupo
+zg_bloque_2_1_179;zombis;31.88;-86.99;7;grupo
+zg_bloque_2_1_180;zombis;-50.4;-156.92;7;grupo
+zg_bloque_2_1_181;zombis;-48.35;-142.44;6;grupo
+zg_bloque_2_1_182;zombis;-47.99;-128.74;13;grupo
+zg_bloque_2_1_183;zombis;-50.4;-114.69;12;grupo
+zg_bloque_2_1_184;zombis;48.0;-156.07;19;grupo
+zg_bloque_2_1_185;zombis;49.37;-138.9;13;grupo
+zg_bloque_2_1_186;zombis;49.56;-122.6;15;grupo
+zg_bloque_2_1_187;zombis;48.12;-108.53;10;grupo
+zg_bloque_2_2_188;zombis;-37.21;-40.31;14;grupo
+zg_bloque_2_2_189;zombis;-17.45;-40.77;12;grupo
+zg_bloque_2_2_190;zombis;1.6;-41.17;16;grupo
+zg_bloque_2_2_191;zombis;21.86;-41.4;10;grupo
+zg_bloque_2_2_192;zombis;40.02;-40.65;11;grupo
+zg_bloque_2_2_193;zombis;-39.71;49.78;9;grupo
+zg_bloque_2_2_194;zombis;-23.85;49.18;7;grupo
+zg_bloque_2_2_195;zombis;-8.56;49.51;11;grupo
+zg_bloque_2_2_196;zombis;7.18;48.37;15;grupo
+zg_bloque_2_2_197;zombis;22.01;48.15;8;grupo
+zg_bloque_2_2_198;zombis;37.11;50.27;8;grupo
+zg_bloque_2_2_199;zombis;-48.92;-20.46;10;grupo
+zg_bloque_2_2_200;zombis;-48.84;-4.38;8;grupo
+zg_bloque_2_2_201;zombis;-48.87;12.4;13;grupo
+zg_bloque_2_2_202;zombis;-48.29;29.07;11;grupo
+zg_bloque_2_2_203;zombis;49.59;-20.83;13;grupo
+zg_bloque_2_2_204;zombis;48.1;-6.53;10;grupo
+zg_bloque_2_2_205;zombis;49.83;7.8;11;grupo
+zg_bloque_2_2_206;zombis;49.89;21.8;4;grupo
+zg_cocheras_2_3;zombis;0.0;128.0;264;grupo
+zg_bloque_2_4_208;zombis;-40.93;206.76;10;grupo
+zg_bloque_2_4_209;zombis;-23.53;207.15;17;grupo
+zg_bloque_2_4_210;zombis;-6.16;208.15;11;grupo
+zg_bloque_2_4_211;zombis;6.89;207.75;8;grupo
+zg_bloque_2_4_212;zombis;22.24;208.47;13;grupo
+zg_bloque_2_4_213;zombis;37.55;206.85;8;grupo
+zg_bloque_2_4_214;zombis;-41.45;304.47;7;grupo
+zg_bloque_2_4_215;zombis;-24.61;305.62;21;grupo
+zg_bloque_2_4_216;zombis;-7.61;304.79;9;grupo
+zg_bloque_2_4_217;zombis;6.12;303.72;13;grupo
+zg_bloque_2_4_218;zombis;24.32;306.34;13;grupo
+zg_bloque_2_4_219;zombis;41.25;305.47;8;grupo
+zg_bloque_2_4_220;zombis;-50.03;225.73;9;grupo
+zg_bloque_2_4_221;zombis;-48.94;238.6;11;grupo
+zg_bloque_2_4_222;zombis;-48.67;253.07;11;grupo
+zg_bloque_2_4_223;zombis;-49.3;272.39;11;grupo
+zg_bloque_2_4_224;zombis;48.69;228.7;8;grupo
+zg_bloque_2_4_225;zombis;50.15;246.09;9;grupo
+zg_bloque_2_4_226;zombis;48.61;260.61;6;grupo
+zg_bloque_2_4_227;zombis;47.78;277.73;17;grupo
+zg_bloque_3_0_228;zombis;89.91;-304.83;14;grupo
+zg_bloque_3_0_229;zombis;108.86;-304.87;17;grupo
+zg_bloque_3_0_230;zombis;127.24;-305.78;7;grupo
+zg_bloque_3_0_231;zombis;143.28;-303.83;13;grupo
+zg_bloque_3_0_232;zombis;158.25;-306.41;7;grupo
+zg_bloque_3_0_233;zombis;91.24;-207.05;18;grupo
+zg_bloque_3_0_234;zombis;109.92;-206.43;9;grupo
+zg_bloque_3_0_235;zombis;126.23;-206.81;8;grupo
+zg_bloque_3_0_236;zombis;141.75;-207.31;14;grupo
+zg_bloque_3_0_237;zombis;155.1;-205.79;5;grupo
+zg_bloque_3_0_238;zombis;168.4;-205.78;10;grupo
+zg_bloque_3_0_239;zombis;80.14;-284.08;13;grupo
+zg_bloque_3_0_240;zombis;78.41;-266.67;12;grupo
+zg_bloque_3_0_241;zombis;79.44;-249.03;10;grupo
+zg_bloque_3_0_242;zombis;78.45;-233.82;6;grupo
+zg_bloque_3_0_243;zombis;178.3;-283.21;11;grupo
+zg_bloque_3_0_244;zombis;176.61;-266.92;9;grupo
+zg_bloque_3_0_245;zombis;175.89;-251.83;14;grupo
+zg_bloque_3_0_246;zombis;177.66;-233.62;12;grupo
+zg_bloque_3_1_247;zombis;90.25;-177.01;11;grupo
+zg_bloque_3_1_248;zombis;106.07;-178.11;5;grupo
+zg_bloque_3_1_249;zombis;120.46;-177.99;7;grupo
+zg_bloque_3_1_250;zombis;137.5;-177.49;14;grupo
+zg_bloque_3_1_251;zombis;154.59;-177.31;12;grupo
+zg_bloque_3_1_252;zombis;169.22;-177.95;9;grupo
+zg_bloque_3_1_253;zombis;86.93;-88.33;8;grupo
+zg_bloque_3_1_254;zombis;100.06;-86.68;10;grupo
+zg_bloque_3_1_255;zombis;117.54;-86.77;11;grupo
+zg_bloque_3_1_256;zombis;136.45;-88.87;8;grupo
+zg_bloque_3_1_257;zombis;153.51;-86.86;12;grupo
+zg_bloque_3_1_258;zombis;168.97;-88.52;10;grupo
+zg_bloque_3_1_259;zombis;78.14;-157.9;7;grupo
+zg_bloque_3_1_260;zombis;78.24;-141.7;14;grupo
+zg_bloque_3_1_261;zombis;80.23;-125.44;11;grupo
+zg_bloque_3_1_262;zombis;79.25;-108.89;13;grupo
+zg_bloque_3_1_263;zombis;176.78;-155.72;10;grupo
+zg_bloque_3_1_264;zombis;178.36;-136.37;9;grupo
+zg_bloque_3_1_265;zombis;178.13;-119.06;5;grupo
+zg_bloque_3_1_266;zombis;177.58;-105.65;5;grupo
+zg_bloque_3_2_267;zombis;87.84;-39.46;6;grupo
+zg_bloque_3_2_268;zombis;102.75;-41.0;10;grupo
+zg_bloque_3_2_269;zombis;118.8;-41.41;9;grupo
+zg_bloque_3_2_270;zombis;136.1;-39.71;12;grupo
+zg_bloque_3_2_271;zombis;151.53;-39.34;15;grupo
+zg_bloque_3_2_272;zombis;166.14;-40.64;11;grupo
+zg_bloque_3_2_273;zombis;88.4;48.01;14;grupo
+zg_bloque_3_2_274;zombis;106.76;49.35;13;grupo
+zg_bloque_3_2_275;zombis;124.81;47.58;7;grupo
+zg_bloque_3_2_276;zombis;142.8;48.89;17;grupo
+zg_bloque_3_2_277;zombis;159.69;48.66;12;grupo
+zg_bloque_3_2_278;zombis;80.32;-18.07;10;grupo
+zg_bloque_3_2_279;zombis;79.51;1.62;16;grupo
+zg_bloque_3_2_280;zombis;79.36;17.97;11;grupo
+zg_bloque_3_2_281;zombis;178.35;-19.55;14;grupo
+zg_bloque_3_2_282;zombis;178.24;-1.65;9;grupo
+zg_bloque_3_2_283;zombis;176.69;17.12;12;grupo
+zg_bloque_3_3_284;zombis;89.23;77.79;8;grupo
+zg_bloque_3_3_285;zombis;104.06;78.27;6;grupo
+zg_bloque_3_3_286;zombis;117.87;78.77;11;grupo
+zg_bloque_3_3_287;zombis;131.82;79.16;8;grupo
+zg_bloque_3_3_288;zombis;144.48;78.27;7;grupo
+zg_bloque_3_3_289;zombis;158.88;78.98;6;grupo
+zg_bloque_3_3_290;zombis;90.19;178.15;13;grupo
+zg_bloque_3_3_291;zombis;108.96;176.52;7;grupo
+zg_bloque_3_3_292;zombis;128.8;176.65;19;grupo
+zg_bloque_3_3_293;zombis;147.84;177.18;5;grupo
+zg_bloque_3_3_294;zombis;162.89;177.24;9;grupo
+zg_bloque_3_3_295;zombis;79.74;99.79;6;grupo
+zg_bloque_3_3_296;zombis;78.63;115.98;13;grupo
+zg_bloque_3_3_297;zombis;78.73;130.95;13;grupo
+zg_bloque_3_3_298;zombis;79.63;147.66;8;grupo
+zg_bloque_3_3_299;zombis;176.1;101.44;17;grupo
+zg_bloque_3_3_300;zombis;178.36;121.01;8;grupo
+zg_bloque_3_3_301;zombis;175.51;140.24;24;grupo
+zg_bloque_3_3_302;zombis;178.21;157.67;12;grupo
+zg_bloque_4_0_303;zombis;218.23;-306.16;9;grupo
+zg_bloque_4_0_304;zombis;238.51;-305.48;19;grupo
+zg_bloque_4_0_305;zombis;258.4;-306.33;7;grupo
+zg_bloque_4_0_306;zombis;277.66;-304.7;19;grupo
+zg_bloque_4_0_307;zombis;294.33;-306.31;7;grupo
+zg_bloque_4_0_308;zombis;215.4;-206.44;13;grupo
+zg_bloque_4_0_309;zombis;228.52;-207.77;6;grupo
+zg_bloque_4_0_310;zombis;242.25;-207.19;9;grupo
+zg_bloque_4_0_311;zombis;258.53;-206.9;6;grupo
+zg_bloque_4_0_312;zombis;274.53;-208.35;13;grupo
+zg_bloque_4_0_313;zombis;291.96;-205.77;16;grupo
+zg_bloque_4_0_314;zombis;206.13;-285.54;8;grupo
+zg_bloque_4_0_315;zombis;207.43;-267.11;14;grupo
+zg_bloque_4_0_316;zombis;207.37;-249.69;6;grupo
+zg_bloque_4_0_317;zombis;205.71;-233.32;14;grupo
+zg_bloque_4_0_318;zombis;304.2;-284.11;15;grupo
+zg_bloque_4_0_319;zombis;304.94;-267.15;10;grupo
+zg_bloque_4_0_320;zombis;304.68;-249.11;18;grupo
+zg_bloque_4_0_321;zombis;305.87;-232.61;7;grupo
+zg_cuartel_4_1;zombis;256.0;-132.25;302;grupo
+zg_hospital_4_2;zombis;256.0;4.25;298;grupo
+zg_bloque_4_3_324;zombis;216.95;78.38;6;grupo
+zg_bloque_4_3_325;zombis;232.96;77.99;9;grupo
+zg_bloque_4_3_326;zombis;246.63;79.21;6;grupo
+zg_bloque_4_3_327;zombis;261.95;77.58;11;grupo
+zg_bloque_4_3_328;zombis;279.99;80.06;17;grupo
+zg_bloque_4_3_329;zombis;295.36;78.28;5;grupo
+zg_bloque_4_3_330;zombis;218.83;176.61;11;grupo
+zg_bloque_4_3_331;zombis;236.9;177.43;8;grupo
+zg_bloque_4_3_332;zombis;255.08;176.65;10;grupo
+zg_bloque_4_3_333;zombis;274.21;178.3;8;grupo
+zg_bloque_4_3_334;zombis;293.2;175.76;10;grupo
+zg_bloque_4_3_335;zombis;206.04;101.48;12;grupo
+zg_bloque_4_3_336;zombis;208.03;122.5;25;grupo
+zg_bloque_4_3_337;zombis;208.41;143.42;20;grupo
+zg_bloque_4_3_338;zombis;305.28;101.49;17;grupo
+zg_bloque_4_3_339;zombis;305.19;121.18;12;grupo
+zg_bloque_4_3_340;zombis;305.01;136.7;5;grupo
+zg_bloque_4_3_341;zombis;305.02;150.06;9;grupo
+zg_bloque_4_4_342;zombis;218.26;206.89;15;grupo
+zg_bloque_4_4_343;zombis;234.24;207.04;11;grupo
+zg_bloque_4_4_344;zombis;249.57;205.67;8;grupo
+zg_bloque_4_4_345;zombis;266.11;207.15;12;grupo
+zg_bloque_4_4_346;zombis;280.4;207.73;7;grupo
+zg_bloque_4_4_347;zombis;295.11;207.44;10;grupo
+zg_bloque_4_4_348;zombis;219.35;304.39;21;grupo
+zg_bloque_4_4_349;zombis;240.82;304.3;19;grupo
+zg_bloque_4_4_350;zombis;259.69;304.86;11;grupo
+zg_bloque_4_4_351;zombis;274.73;303.91;10;grupo
+zg_bloque_4_4_352;zombis;288.37;304.1;12;grupo
+zg_bloque_4_4_353;zombis;208.3;228.54;11;grupo
+zg_bloque_4_4_354;zombis;205.59;247.33;6;grupo
+zg_bloque_4_4_355;zombis;207.28;264.72;19;grupo
+zg_bloque_4_4_356;zombis;206.57;279.67;7;grupo
+zg_bloque_4_4_357;zombis;303.59;227.15;10;grupo
+zg_bloque_4_4_358;zombis;305.35;242.05;7;grupo
+zg_bloque_4_4_359;zombis;306.45;257.3;8;grupo
+zg_bloque_4_4_360;zombis;305.09;273.26;9;grupo
+zg_bloque_4_4_361;zombis;306.18;286.86;7;grupo

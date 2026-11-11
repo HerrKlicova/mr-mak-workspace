@@ -1,0 +1,66 @@
+{
+ "pueblo": [
+  {
+   "variante": 1,
+   "edificios": 396,
+   "zombis": 496,
+   "botin": 5
+  },
+  {
+   "variante": 2,
+   "edificios": 411,
+   "zombis": 515,
+   "botin": 5
+  },
+  {
+   "variante": 3,
+   "edificios": 398,
+   "zombis": 493,
+   "botin": 5
+  },
+  {
+   "variante": 4,
+   "edificios": 383,
+   "zombis": 496,
+   "botin": 5
+  },
+  {
+   "variante": 5,
+   "edificios": 339,
+   "zombis": 436,
+   "botin": 5
+  }
+ ],
+ "ciudad": [
+  {
+   "variante": 1,
+   "edificios": 339,
+   "zombis": 5013,
+   "botin": 5
+  },
+  {
+   "variante": 2,
+   "edificios": 340,
+   "zombis": 5215,
+   "botin": 5
+  },
+  {
+   "variante": 3,
+   "edificios": 363,
+   "zombis": 6054,
+   "botin": 5
+  },
+  {
+   "variante": 4,
+   "edificios": 362,
+   "zombis": 5250,
+   "botin": 5
+  },
+  {
+   "variante": 5,
+   "edificios": 304,
+   "zombis": 4945,
+   "botin": 5
+  }
+ ]
+}
