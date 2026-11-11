@@ -25,3 +25,14 @@ Actualizado: 12-11, 01:50.
 ## Acuerdos
 - Una sola simulación: la posición del tren es de `Mundo.Red`, y la vista solo lee e interpola. La red no conoce Unidades ni Zombis; si hace falta (un tapón en la vía, tropa a bordo), se pregunta a Mundo.
 - Trampas del juego viejo que siguen valiendo: las corridas en batch no terminan solas (hay que matar el proceso); con la pantalla apagada las capturas salen en negro; no compilar mientras alguien juega en el PC.
+
+## 12-nov (madrugada): vía en marcos/mundo-zum, curvas y almacén
+
+- Vía visible en el Mundo común: RedVista.UsarMundo llama a MontarRedHito1 (Nacho ya lo llama también desde Mundo.Caserio, en nacho/hito1 46d91f2d).
+- Orientación de los FBX de Teo corregida (b984b29a): llegan a Unity mirando a −X, así que GiroTeo suma media vuelta; la curva de Teo es nuestra **Izq**, y nuestra Der es la misma curva colocada desde el final y girada 180°.
+- Curvas comprobadas con `-redauto -redcurva -500` (118 piezas, 31 de ellas curvas, 1355 m): encajan sin huecos. Ojo: con -redcurva ±250 y +500, el cruce con la carretera sale por debajo de 30° y la vía se rechaza, como debe.
+- Colores a 1800 m: los píxeles más frecuentes son 303424, 181c30, 48403c (montaña) y 50541c. Cuadra con la hoja de Bruno.
+- Almacén (de8dabb5): Red.EstacionPorNombre, Existencias, Sacar y Meter, para que el pelotón recargue a 25 m de B desde Red.Almacen. Se lo he pasado a Nacho; puede hacer cherry-pick.
+- Pendiente: la prueba manual de 10 minutos trazando con ratón. No la puedo hacer, porque el control del ratón sobre TBD.exe me lo denegaron; la tienen que hacer Eugenio o Sara. También queda ajustar el paso a nivel, que va girado unos 20° respecto a la carretera.
+- Capturas: docs/capturas/hito1/red/i2_*.png.
+- Pruebas: RED 36/36 y MUNDO 15/15.
