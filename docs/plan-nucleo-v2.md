@@ -82,6 +82,11 @@ No prometo horas. Las estimaciones que hay (Iker 10–15 días, Marcos 8–23, N
 
 Los NH90 visibles en el mapa (1–2 días de Iker) serían trabajo para el mapa actual, que se va a tirar. Recomiendo no hacerlos.
 
-## 7. Decisión que es de Eugenio
+## 7. Coop desde el principio (D-N206, Eugenio 22:47)
 
-**¿Un jugador o multijugador?** El lockstep (todo en enteros, mismo resultado en dos máquinas) es lo que hoy impide usar el motor de Unity como mundo único y encarece todo. Si el juego es de un jugador, se puede quitar y el núcleo nuevo sale bastante más barato. Recomiendo un jugador.
+Eugenio: «el juego tiene que estar pensado para coop». Aprobado el núcleo v2 («arranca»).
+
+- **Lockstep y determinismo obligatorios.** Toda la simulación (mundo, red de vías, trenes, líneas, recursos, unidades y zombis) va en enteros o punto fijo, con tick fijo y prueba de hash. El ECS de Unity solo dibuja: posiciones interpoladas a partir de la simulación (es la vía de Nacho).
+- **Se aprovecha lo que ya es determinista:** NetWorld, UnitsWorld, NightGame y NightSim, con sus 1421 pruebas.
+- **Diseño coop:** cada jugador tiene su papel y ve el del otro. Uno puede llevar la logística (vías, líneas) y otro el frente (tropa), o los dos ambas cosas en sectores distintos. Recursos compartidos, y las órdenes de cada uno se ven en el mapa del otro.
+- **El Hito 1 se hace para un jugador, pero corre en lockstep desde el primer día**, con prueba de hash en dos instancias (sin red de verdad todavía). El coop por red llega en el corte completo.

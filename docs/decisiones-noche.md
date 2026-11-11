@@ -3276,3 +3276,9 @@ El mundo único es NightSim y NetWorld, no uno nuevo: la zona deja de simular y 
 
 ## D-N205 · SUSTITUIDA (23:05, Lucía)
 Eugenio (22:44 y 22:45) quiere otro juego: mapa enorme explorable, vías y carreteras que construye el jugador, líneas automáticas, unidades en tiempo real y ciudades en ruinas. La D-N205 anterior arreglaba el juego actual y no lleva ahí, así que se retira. Nueva propuesta: núcleo v2 (docs/plan-nucleo-v2.md), con el Hito 1 en 2 × 2 km: trazar vía, una línea automática, un pelotón y un caserío con zombis. Pulido y builds CONGELADOS hasta el sí de Eugenio. Pendiente su decisión: un jugador o multijugador (lockstep).
+
+## D-N205 · APROBADA (11-11 22:47, Eugenio: «arranca si»)
+Núcleo v2 según docs/plan-nucleo-v2.md. Reparto del Hito 1 en docs/hito1-reparto.md.
+
+## D-N206 · Coop desde el principio (11-11 22:47, Eugenio)
+El juego se piensa para cooperativo. Lockstep y determinismo obligatorios: la simulación va en enteros con tick fijo y el ECS solo dibuja. El Hito 1 es para un jugador, pero con prueba de hash en dos instancias. Siguiente D-N libre: D-N207.
