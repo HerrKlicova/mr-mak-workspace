@@ -1,4 +1,6 @@
-# Cifras del Hito 1 y consumos del corte completo · Hugo (Economía), 11-11 23:40
+# Cifras del Hito 1 y consumos del corte completo · Hugo (Economía), 11-11 23:40 (definitivas 23:56)
+
+> **Cifras definitivas (medidas en NightSim, §4):** 35 cartuchos por soldado · caja de **105** cartuchos (3 cargadores) · B empieza con 1 caja · línea de 4 cajas · puntería 6000 ‰ (acierto ×6) · vuelta del tren ~7,2 min · A con 16 palés · caserío 4 palés. Las tablas de §1 conservan el razonamiento con k supuesto; donde choquen, manda §3–§4.
 Encargo: docs/hito1-reparto.md. Plan: docs/plan-nucleo-v2.md (§5 bis). Modelo: `modelo_hito1.py` (enteros, como pide la D-N206). Lo que no está medido va marcado SIN VERIFICAR.
 
 ## 0. La cifra que lo decide todo: k (cartuchos por zombi abatido)
@@ -11,9 +13,9 @@ Todo el Hito 1 cuelga de **k**, cuántos cartuchos gasta un soldado por zombi ab
 |---|---|---|---|
 | Zombis del caserío | 100 | — | D-N207 |
 | Soldados del pelotón | 8 | — | un pelotón |
-| **Cartuchos por soldado** | **30** (1 cargador) | cargador = 100 × k ÷ 16, redondeado a 5 | el pelotón entero (8 × 30 = 240) llega para la **mitad** del caserío |
-| Caja de munición | 120 cartuchos (4 cargadores) | 4 cargadores | unidad de carga del tren y del almacén |
-| **Munición inicial en B** | **1 caja (120)** | 1 caja | rearmarse una vez en B lleva al pelotón al **75 %**, y ahí se queda sin la línea |
+| **Cartuchos por soldado** | **35** (1 cargador; era 30 con k supuesto, ver §3) | cargador = 100 × k ÷ 16, redondeado a 5 | el pelotón entero (8 × 30 = 240) llega para la **mitad** del caserío |
+| **Caja de munición** | **105 cartuchos (3 cargadores de 35)** — cifra definitiva, medida en §4; era 120 | 3 cargadores | unidad de carga del tren y del almacén |
+| **Munición inicial en B** | **1 caja (105)** | 1 caja | rearmarse una vez en B lleva al pelotón al **75 %**, y ahí se queda sin la línea |
 | Munición inicial en A | 20 cajas | — | no hay producción en el Hito 1 |
 | **Capacidad del tren** | **6 plazas** (2 vagones × 3) | — | 1 plaza = 1 caja de munición o 1 palé de material |
 | Orden por defecto de la línea | A → B: 4 cajas; B → A: lo que haya de material (2 plazas) | — | la línea lleva munición y trae material en el mismo viaje |
