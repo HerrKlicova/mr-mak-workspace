@@ -1,0 +1,6 @@
+I-Noche177 con ventana (pantalla encendida) - Marcos, 11-11 ~22:30
+- Mapa con -ui3 implicita y -mapa-km 40 / 150 / 300 (mapa_km*.png): se ve bien; las etiquetas no se pisan («Sagunto +1 · 1 tren», «Betera (base aerea)»).
+- E4: e4_dia.png (06:20, de dia) y e4_noche.png (22:51, de noche), con el encuadre de entrada a la zona de Sagunto.
+- VAMTAC y Dragon disparando de noche (vamtac_noche_a/b.png, 00:05 y 01:01): las trazadoras salen hacia la horda del oeste.
+- Banner de caida: -zona Nules sin refuerzo -> «Nules ha caido» (624 abatidos, 26 bajas, estacion 0 %, muro 98 %), con los botones
+  «Volver a empezar» y «Menu principal» (banner_caida_a.png).
