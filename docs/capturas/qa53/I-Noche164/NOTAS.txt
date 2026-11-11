@@ -1,0 +1,5 @@
+Punto 7 (socorro) sobre la I-Noche164, en batch (-menu-auto -dia2-auto -nightbot -socorro-auto -turbo 8 -semilla 1):
+- corrida 1: el log se corta despues de «suben 1 pelotones y 17 u» (socorro_corrida1_cortada.log);
+- corrida 2: completa. Aviso de 17 u OK (sale con 10 u y no con 17 u); el tren sale con 1 peloton a bordo y llega a las puertas de Castellon a las 10:23, con el cerco a 4400; hash identico en los dos mundos (socorro.log).
+- Solo sube 1 peloton porque la noche 1 de Sagunto (fuera de pantalla) deja vivos los Fusileros (8) y 2 zapadores: es de balance.
+- La bajada en (176; 60) / (188; 60) no sale en el log: hay que mirarla con pantalla.
