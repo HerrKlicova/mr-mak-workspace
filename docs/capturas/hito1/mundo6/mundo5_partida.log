@@ -1,0 +1,124 @@
+Mono path[0] = 'C:/Dev/TBD/Builds/Mundo5/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD/Builds/Mundo5/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD/Builds/Mundo5/TBD_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5080
+[D3D12 Device Filter] Driver Version: 32.0.16.1664
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 15979 MB
+[D3D12 Device Filter] Processor Count: 20
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5080 (ID=0x2c02)
+    Vendor:          NVIDIA
+    VRAM:            15979 MB
+    App VRAM Budget: 15211 MB
+    Driver:          32.0.16.1664
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.132 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.497900 ms
+[UI3] interfaz v3 encendida (-ui3)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.701000 ms
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.478200 ms (FindLiveObjects: 0.085500 ms CreateObjectMapping: 0.033400 ms MarkObjects: 3.312000 ms  DeleteObjects: 0.047000 ms)
+
+[MUNDO] terreno de Álvaro: 2049² muestras, 2048 × 128 × 2048 m en Y = −10, con usos del suelo
+[MUNDO] -hashlog → C:\Dev\TBD\Builds\Mundo5\Captures\mundo_hash.txt
+[MUNDO] simulación de Nacho: 100 zombis, 45 casas, pelotón 1
+[MUNDO] vista desde el Mundo: 100 zombis, 15 edificios, 6 tapias, 960 naranjos, pelotón en (1290; 1610)
+[MUNDO] prototipo de zum: 2048 × 2048 m, altura 6–4000 m, iconos por encima de 250 m
+[RED] uso la Red del Mundo común (una sola simulación)
+[RED] carreteras de Álvaro: 2 trozos (sin el puente)
+[RED] vista de la red lista: T para trazar vía (arrastrar con el botón izquierdo), Esc cancela
+[MUNDO-FPS] altura 1800 m · 402 fps
+[MUNDO-FPS] altura 1800 m · 748 fps
+[MUNDO-FPS] altura 1800 m · 740 fps
+[MUNDO-FPS] altura 1800 m · 743 fps
+[MUNDO-FPS] altura 1800 m · 755 fps
+[MUNDO-FPS] altura 1800 m · 744 fps
+[MUNDO-FPS] altura 1800 m · 729 fps
+[MUNDO-FPS] altura 1800 m · 694 fps
+[MUNDO-FPS] altura 756 m · 615 fps
+[MUNDO-FPS] altura 66 m · 811 fps
+[MUNDO-FPS] altura 66 m · 909 fps
+[MUNDO-FPS] altura 66 m · 924 fps
+[MUNDO-FPS] altura 66 m · 958 fps
+[MUNDO-FPS] altura 66 m · 1010 fps
+[MUNDO-FPS] altura 66 m · 942 fps
+[MUNDO-FPS] altura 66 m · 925 fps
+[MUNDO-FPS] altura 66 m · 949 fps
+[MUNDO-FPS] altura 66 m · 948 fps
+[MUNDO-FPS] altura 66 m · 997 fps
+[MUNDO-FPS] altura 66 m · 971 fps
+[MUNDO-FPS] altura 66 m · 936 fps
+[MUNDO-FPS] altura 66 m · 969 fps
+[MUNDO-FPS] altura 66 m · 975 fps
+[MUNDO-FPS] altura 66 m · 965 fps
+[MUNDO-FPS] altura 66 m · 945 fps
+[MUNDO-FPS] altura 255 m · 933 fps
+[MUNDO-FPS] altura 255 m · 841 fps
+[MUNDO-FPS] altura 255 m · 851 fps
+[MUNDO-FPS] altura 255 m · 883 fps
+[MUNDO-FPS] altura 255 m · 874 fps
+[MUNDO-FPS] altura 255 m · 873 fps
+[MUNDO-FPS] altura 255 m · 876 fps
+[MUNDO-FPS] altura 255 m · 864 fps
+[MUNDO-FPS] altura 255 m · 864 fps
+[MUNDO-FPS] altura 255 m · 876 fps
+[MUNDO-FPS] altura 255 m · 880 fps
+[MUNDO-FPS] altura 255 m · 900 fps
+[MUNDO-FPS] altura 255 m · 827 fps
+[MUNDO-FPS] altura 255 m · 850 fps
+[MUNDO-FPS] altura 255 m · 848 fps
+[MUNDO-FPS] altura 255 m · 874 fps
+[MUNDO-FPS] altura 255 m · 860 fps
+[MUNDO-FPS] altura 255 m · 310 fps
+[MUNDO-FPS] altura 255 m · 748 fps
+[MUNDO-FPS] altura 255 m · 563 fps
+[MUNDO-FPS] altura 255 m · 794 fps
+[MUNDO-FPS] altura 255 m · 841 fps
+[MUNDO-FPS] altura 255 m · 861 fps
+[MUNDO-FPS] altura 255 m · 850 fps
+[MUNDO-FPS] altura 255 m · 863 fps
+[MUNDO-FPS] altura 255 m · 517 fps
+[MUNDO-FPS] altura 255 m · 526 fps
+[MUNDO-FPS] altura 255 m · 739 fps
+[MUNDO-FPS] altura 255 m · 833 fps
+[MUNDO-FPS] altura 255 m · 863 fps
+[MUNDO-FPS] altura 255 m · 888 fps
+[MUNDO-FPS] altura 255 m · 875 fps
+[MUNDO-FPS] altura 255 m · 440 fps
+[MUNDO-FPS] altura 255 m · 219 fps
+[MUNDO-FPS] altura 255 m · 213 fps
+[MUNDO-FPS] altura 255 m · 203 fps
+[MUNDO-FPS] altura 255 m · 326 fps
+[MUNDO-FPS] altura 255 m · 316 fps
+[MUNDO-FPS] altura 255 m · 212 fps
+[MUNDO-FPS] altura 255 m · 307 fps
+[MUNDO-FPS] altura 255 m · 309 fps
+[MUNDO-FPS] altura 255 m · 325 fps
+[MUNDO-FPS] altura 255 m · 336 fps
+[MUNDO] grabación guardada: C:\Dev\TBD\Builds\Mundo5\Captures\mundo_grabacion.txt
+[MUNDO] fin: tick 4114, abatidos 7, bajas 0, hash 7b6a125590283781
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
