@@ -1,6 +1,6 @@
 # Relevo de Álvaro (Niveles) · Hito 1
 
-Actualizado: 11-nov ~23:45.
+Actualizado: 11-nov ~23:50. **Lucía aprobó el terreno y las plantillas** (22:58); el coordinador le pasa la rama a Marcos.
 
 ## Hecho
 - **Terreno de 2 × 2 km** ([terreno-hito1.md](terreno-hito1.md)): alturas en RAW y PNG de 16 bits, usos, posiciones (A, B, caserío, 100 zombis y depósito), 77 obstáculos de visión y plano con cotas. Está en `docs/hito1/terreno/`. Generador determinista en `docs/niveles/herramientas/terreno_hito1.py`.
