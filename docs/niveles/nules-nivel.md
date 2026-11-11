@@ -142,9 +142,9 @@ Plano: [`nules_plano_v1.png`](nules_plano_v1.png) (script `herramientas/plano_nu
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
 
 ## 11. Huerta: no va en Nules (Álvaro (3), 8-nov, ~18:55; Lucía, 18:52)
-Puse el kit de huerta de Teo en la franja X 192–252, Z 40,5–52, y **Lucía lo ha quitado**, por dos motivos: junto a la estación real no hay huerta, y unas tapias sólidas delante del muro este, en la entrada Nb, cambiarían la defensa sin que nadie lo haya medido. **El kit va a la huerta noreste de Sagunto** (`sagunto-nivel.md`). Ya he quitado las filas de `nules_instancias_v02.csv` (vuelve a 252) y de `nules_obstaculos_v1.csv`.
+Puse el kit de huerta de Teo en la franja X 192–252, Z 40,5–52, y **Lucía lo ha quitado**, por dos motivos: junto a la estación real no hay huerta, y unas tapias sólidas delante del muro este, en la entrada Nb, cambiarían la defensa sin que nadie lo haya medido. **El kit va a la huerta noreste de Sagunto** (`sagunto-nivel.md`). Ya he quitado las filas de `nules_instancias_v02.csv` (vuelve a 252) y de `nules_b_obstaculos_v1.csv`.
 
-**`nules_obstaculos_v1.csv`** (nuevo, con el formato del de Sagunto) lleva el recinto de HESCO por tramos con sus 4 puertas, el edificio de viajeros, el muelle y las 3 naves. Las alturas de los edificios están SIN VERIFICAR.
+**`nules_b_obstaculos_v1.csv`** (nuevo, con el formato del de Sagunto) lleva el recinto de HESCO por tramos con sus 4 puertas, el edificio de viajeros, el muelle y las 3 naves. Las alturas de los edificios están SIN VERIFICAR.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
 
@@ -156,7 +156,7 @@ Hay 11 filas del grupo `urbano` en `nules_instancias_v02.csv` (pasa a 263). Todo
 - Señales: en X 4 y 192.
 - Semáforos: el de brazo en (80; 92,8) con yaw 270, para que el brazo quede sobre la calzada, y el peatonal en X 190.
 
-En `nules_obstaculos_v1.csv` entran los quioscos (sólidos, tapan la vista), las paradas (obstáculo bajo de 0,5 m que no tapa la vista) y el panel de la parada Anuncio, que sí tapa la vista.
+En `nules_b_obstaculos_v1.csv` entran los quioscos (sólidos, tapan la vista), las paradas (obstáculo bajo de 0,5 m que no tapa la vista) y el panel de la parada Anuncio, que sí tapa la vista.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
 
@@ -188,7 +188,7 @@ Lucía lo pide para el kit de víveres que va a modelar Teo (referencias de Paul
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
 
 ### 13.1 Colocación con las piezas de Teo (20:20; mr-mak 263c2b8, que todavía es local)
-Son 17 filas del grupo `huerto_viveres` en `nules_instancias_v02.csv` (pasa a 280). Las tapias y la casa de labor van en `nules_obstaculos_v1.csv`.
+Son 17 filas del grupo `huerto_viveres` en `nules_instancias_v02.csv` (pasa a 280). Las tapias y la casa de labor van en `nules_b_obstaculos_v1.csv`.
 - **Tapias** (10 × 0,4 × 2,2 m):
   - testero Roto en (252; 46), con yaw 90;
   - en la calle, en Z 40,5 con yaw 180: X 227 (Recto), X 237 (Portón, hueco en X 235,8–238,2) y X 247 (Recto).
@@ -207,7 +207,7 @@ Lista de 43 piezas sacada de `RecintoPlan.Nules()`: HESCO al este y en alas de 1
 
 **Hallazgo: los sacos del muro oeste sobre los andenes.** Los andenes van de X 26 a X 231 (§2), así que cruzan los muros oeste y este por fuera y por dentro. En esos tramos el suelo está a 0,68 m: un muro de sacos de 1,2 m colocado a y 0 solo asoma **0,52 m** sobre el andén, y un zombi que llega andando por el andén lo tiene a la altura de la rodilla. El HESCO (2,1 m) asoma 1,42 m, que es lo que ya ponía la v0.2 (§3). **Cambio: el muro oeste pasa a HESCO en los dos cruces de andén**, que son Z 52,4–59,9 (entre la puerta del apartado y la doble) y Z 69,1–~80 (desde la doble hasta pasar el borde del andén 1, en Z 79,2). Teo ajusta el corte exacto a celdas de 1,11 m. El resto del muro oeste sigue de sacos. El muro este ya es HESCO y no cambia. SIN VERIFICAR: que el andén sea un sólido de 0,68 m en Unity (ver §9). Hugo: el coste lineal cambia un poco si el HESCO cuesta distinto que los sacos; Teo lo saca con su código.
 
-**1) Puerta de vehículos en X 177,22–185,22: sí.** Es la v0.2 (§3) y ya está así en `nules_obstaculos_v1.csv` (muro_sur_0 llega a X 177,22). El hueco sigue midiendo 8 m y el punto de bajada (184; 44,4) queda dentro. Cambia el JSON de Marcos (`estacion_nules.json`) y la simulación de Nacho.
+**1) Puerta de vehículos en X 177,22–185,22: sí.** Es la v0.2 (§3) y ya está así en `nules_b_obstaculos_v1.csv` (muro_sur_0 llega a X 177,22). El hueco sigue midiendo 8 m y el punto de bajada (184; 44,4) queda dentro. Cambia el JSON de Marcos (`estacion_nules.json`) y la simulación de Nacho.
 
 **2) Remates con vuelta:**
 - **Puertas dobles (piezas 36, 40, 15 y 18): se cierran con cortos, sin vuelta.** Las cuatro celdas caen encima del andén, al final y a 0,9 m del borde, justo donde se descarga el tren, y además se hundirían 0,68 m en él. Así queda igual que en Sagunto.
@@ -236,11 +236,11 @@ Plano: [`nules_terreno_b.png`](nules_terreno_b.png) (lo genera `herramientas/pla
   - **Nc**, desde el pueblo por la plaza (X 20–100): **40 %**. Es el flanco norte.
   - **Nb**, por la vía desde el este: **10 %**, porque Castellón ahora es tuya y está cercada (D-N184).
   - **Nd**, por el polígono: **0 %**.
-- **El norte se lee**: una **explanada sin sólidos en Z 96–111**, delante de los sacos del muro norte, y detrás **una hilera seguida de 14 casas** del kit del pueblo, en X 129–207 y Z 116 (yaw 180, con la fachada a la explanada). La hilera cierra el lado este, así que el norte solo puede entrar por la plaza, que está abierta (palmeras sin colisión), y llega de frente a la esquina noroeste. Las casas van en `nules_instancias_v02.csv` (grupo `pueblo`) y en `nules_obstaculos_v1.csv` (`manzana_norte`, 7 m).
+- **El norte se lee**: una **explanada sin sólidos en Z 96–111**, delante de los sacos del muro norte, y detrás **una hilera seguida de 14 casas** del kit del pueblo, en X 129–207 y Z 116 (yaw 180, con la fachada a la explanada). La hilera cierra el lado este, así que el norte solo puede entrar por la plaza, que está abierta (palmeras sin colisión), y llega de frente a la esquina noroeste. Las casas van en `nules_instancias_v02.csv` (grupo `pueblo`) y en `nules_b_obstaculos_v1.csv` (`manzana_norte`, 7 m).
 - **Guarnición** (`guarnicion_puestos_v1.json` v1.3, `Nules_B_terreno_propio`):
   - **Fusileros**: en el HESCO del oeste sobre el andén 2 (87; 56,2), cubriendo las dos puertas oeste. No cambian.
   - **Ametralladores**: pasan a la **esquina noroeste por dentro, (87,5; 93), mirando al noroeste**. Tiran por encima de los sacos (1,2 m; con la D-N174 la zona ciega es de menos de 1,5 m) hacia el oeste (la vía) y hacia el norte (la plaza). Antes iban junto al edificio, mirando al apartado.
-- **`nules_obstaculos_v1.csv` al día con el recinto de Teo**: el muro ya no es todo de HESCO. Lleva sacos al sur, al norte y en las puntas del oeste, y HESCO al este, en las alas de 15 m y en los dos cruces de andén del oeste (Z 51,5–60,8 y 68,2–80,21).
+- **`nules_b_obstaculos_v1.csv` al día con el recinto de Teo**: el muro ya no es todo de HESCO. Lleva sacos al sur, al norte y en las puntas del oeste, y HESCO al este, en las alas de 15 m y en los dos cruces de andén del oeste (Z 51,5–60,8 y 68,2–80,21).
 - **Postes de catenaria** (`nules_instancias_v02.csv`): con yaw 0 y 180, la ménsula quedaba a lo largo de la vía. Pasan a **yaw 270 en Z 68,2** (el mástil en Z 69,6, sobre el andén 1, y la ménsula hasta la vía 1, en Z 66,4) y a **yaw 90 en Z 60,77** (el mástil en Z 59,4, sobre el andén 2, y la ménsula hasta la vía 2, en Z 62,6). La cuenta del mástil está en sagunto-nivel.md §10.23.
 - **Por medir (Nacho)**, cuando Nules pase a la B: la horda de la noche 2 con estas entradas y estos puestos. La emboscada y el 96 % de la A no valen para la B.
 
@@ -251,7 +251,7 @@ Plano: [`nules_terreno_b.png`](nules_terreno_b.png) (lo genera `herramientas/pla
 
 ## 16. Acopios de carga en Nules (encargo de Bruno, 9-nov ~23:10)
 
-Ya están las filas en `nules_instancias_v02.csv` (grupo `acopios`) y las cajas en `nules_obstaculos_v1.csv`. Los tres van dentro del recinto, al norte del andén 1, en Z 88 y con yaw 0:
+Ya están las filas en `nules_instancias_v02.csv` (grupo `acopios`) y las cajas en `nules_b_obstaculos_v1.csv`. Los tres van dentro del recinto, al norte del andén 1, en Z 88 y con yaw 0:
 
 | Acopio | X | Huella |
 |---|---|---|
@@ -354,3 +354,25 @@ El sitio de «lo que sobra» sustituye al de ahora en el código, (106; 72,2) de
 | Banqueta: la escolta | lo que llegue (4–8) | — | 71500, 64500 | oeste | 0,4 |
 
 Con la escolta entera: 200/200, 0 bajas. Con 4 bajas en la escolta: 200/200, 1 baja (Nacho, 200 semillas). Con el tutorial, el pelotón del capítulo 3 sigue en (71500; 72000).
+
+## 18. Inventario de obstáculos de Nules para la línea de visión (pulido de Lucía, 11-nov)
+
+En el juego, Nules es la opción A: el terreno de Sagunto con el cartel de NULES, **sin el pueblo** (no se montan las 22 casas, ni los solares, ni los naranjos, ni el bloque de pisos; `PrototypeBootstrap.cs`, `if (!zonaNules)`) y con el resto de `BuildSaguntoWorld` igual. Hasta ahora, `LosInit` cargaba siempre `sagunto_obstaculos_v1.csv`, así que en la zona de Nules las 21 casas y el bloque tapaban la vista aunque no se vieran. La noche aparcada (`Reloj.cs`) ya buscaba `nules_obstaculos_v1.csv` y, como no existía, iba sin regla.
+
+- **`nules_obstaculos_v1.csv` (Nules A):** son las 50 filas del de Sagunto sin las 21 casas ni el bloque de pisos, es decir, 28 filas. Contando como `NightSim.LosSceneFromCsv` (sin muros ni puertas, con tapa_vision = si y altura > 0), salen **13 sólidos**:
+  - los 2 nidos;
+  - el tren;
+  - el edificio de viajeros;
+  - el almacén del muelle;
+  - el almacén de naranjas;
+  - el tablero y los 3 terraplenes del paso superior;
+  - las tolvas;
+  - el autobús;
+  - el camión de cabeza.
+
+  La fila de las tolvas es la de `StreamingAssets` (X −2..42), que cuadra con lo que monta el código. No he puesto la de docs (X −21..45,5, con la loco), porque esa pieza no está en la build.
+- **El de Nules B pasa a llamarse `nules_b_obstaculos_v1.csv`** (las referencias de las §14–16 y `plano_nules_b.py` ya están cambiadas). Así no lo coge el juego por el nombre.
+- **En el juego:** rama `alvaro/nules-los` del repo del juego (1903c5e6). Añade el CSV a `StreamingAssets/Noche` y cambia `LosInit`, que elige `nules_obstaculos_v1.csv` en Nules y deja el de Sagunto en el resto. El log pasa a decir «línea de visión de Nules: 13 sólidos (nules_obstaculos_v1.csv)», más los tramos del muro oeste que se suman después. **SIN COMPILAR**: Iker o Marcos la unen y la compilan.
+- **Para Nacho:** en Nules, la línea de visión de la zona pasa de 35 a 13 sólidos, porque ya no cuentan las casas fantasma del norte. Puede cambiar algo en la noche 2 por el lado norte. Que lo mire con la -dia2-auto.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)

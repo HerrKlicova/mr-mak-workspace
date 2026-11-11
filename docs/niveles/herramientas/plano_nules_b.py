@@ -17,7 +17,7 @@ R(26, 68.2, 231, 79.2, fill=(222, 218, 205)); R(26, 53.8, 231, 60.8, fill=(222, 
 R(85.5, 96.5, 256, 111, fill=(236, 232, 214))
 dr.text(P(140, 105), 'explanada Z 96–111 (sin sólidos)', fill=(110, 105, 90), font=F)
 for z in (49, 62.6, 66.4): dr.line([P(0, z), P(256, z)], fill=(110, 110, 120), width=2)
-obs = list(csv.DictReader(open(os.path.join(D, 'nules_obstaculos_v1.csv'), encoding='utf-8'), delimiter=';'))
+obs = list(csv.DictReader(open(os.path.join(D, 'nules_b_obstaculos_v1.csv'), encoding='utf-8'), delimiter=';'))
 for o in obs:
     x0, z0, x1, z1 = [float(o[k]) / 1000 for k in ('x0_mm', 'z0_mm', 'x1_mm', 'z1_mm')]
     t = o['tipo']

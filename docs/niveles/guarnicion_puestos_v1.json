@@ -1,5 +1,5 @@
 {
- "version": "v1.8",
+ "version": "v1.9",
  "autor": "Álvaro (Niveles), 9-nov 07:55; v1.1 08:00 con los cambios de Lucía (07:41); v1.2 09:50: «Nules» pasa a ser la opción A (terreno de Sagunto, d508444) y el Nules con terreno propio queda como «Nules_B_terreno_propio»; v1.3 22:55: Nules B con los dos flancos (vía y norte), nules-nivel.md §15",
  "fuente": "decisiones-noche.md 09-11 07:40 (reglas de Lucía) y D-N183 (Castellón propia); planos de docs/niveles/*-nivel.md y recintos de Teo (mr-mak a75067c Nules; sagunto-recinto)",
  "convenciones": {
@@ -60,26 +60,27 @@
     {
      "tipo": "dragon",
      "x_m": 99.0,
-     "z_m": 51.0,
+     "z_m": 50,
      "yaw_grados": 180,
      "puesto": "dentro de la puerta sur (acceso_sur, X 95–103), centrado, mirando a la puerta"
     },
     {
      "tipo": "vamtac",
      "x_m": 91.5,
-     "z_m": 51.0,
+     "z_m": 50,
      "yaw_grados": 180,
      "puesto": "a la izquierda del Dragón, mirando a la puerta"
     },
     {
      "tipo": "vamtac",
      "x_m": 106.5,
-     "z_m": 51.0,
+     "z_m": 50,
      "yaw_grados": 180,
      "puesto": "a la derecha del Dragón, mirando a la puerta"
     }
    ],
-   "nota": "Banqueta X 70,5–72,5 (centro X 71,5), con los módulos y nidos de sagunto-nivel.md §10.14. Las celdas de remate de la puerta sur (Z 44,5–45,6) quedan fuera de los vehículos. Los tiradores arrancan en la azotea del ala oeste, como el caso A medido (Lucía, 07:41); el módulo de banqueta Z 74–84 queda libre."
+   "nota": "Banqueta X 70,5–72,5 (centro X 71,5), con los módulos y nidos de sagunto-nivel.md §10.14. Las celdas de remate de la puerta sur (Z 44,5–45,6) quedan fuera de los vehículos. Los tiradores arrancan en la azotea del ala oeste, como el caso A medido (Lucía, 07:41); el módulo de banqueta Z 74–84 queda libre.",
+   "vehiculos_nota": "11-nov (sagunto-nivel.md §10.25): Z 51 → 50, porque el Dragón (8 m) pisaba el acopio de munición. Reserva en Z 50: VAMTAC X 76,5 y 84, Dragón X 114, VAMTAC X 121,5"
   },
   "Nules": {
    "terreno": "Sagunto (opción A, decisiones-noche.md 09-11 09:40): mismo Level, recinto, banqueta y azotea que Sagunto",

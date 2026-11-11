@@ -789,3 +789,18 @@ El primer grupo de `SM_Bidones` del kit vivo estaba en (149; 59,5), dentro de la
 Para el código: `SaguntoZona` tiene que poner los tres acopios en estos sitios y meter las tres cajas en los obstáculos (1,8 m de alto; tapan el paso pero no la vista).
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+### 10.25 Salida de vehículos por la E4 y parque E5, con la E4 abierta de día (D-N198; pulido de Lucía, 11-nov)
+
+Plano: [`sagunto_salida_e4.png`](sagunto_salida_e4.png) (generador: `herramientas/plano_e4_sagunto.py`).
+
+Lo he comprobado contra el código de main (16:47):
+- **Navegación de los vehículos** (`PrototypeBootstrap.Vehicles.cs`, `BuildNavIfNeeded`): solo cuentan como obstáculos los muros del recinto con la E4 abierta (X 95–103), el edificio, el tren y las obras construidas, todo inflado 2 m. `WallBlocks` deja cruzar el muro sur solo por X 95–103.
+- **Pasillo de X 95 a 103, de Z 44 a la carretera vieja (Z 20–26):** no hay nada en el inventario, ni en los CSV de instancias (vivo, huerta, pueblo), ni en `BuildSaguntoWorld`. Después del inflado, los vehículos pasan con el centro entre X 97,5 y 100,5.
+- **El único estorbo es un coche del atasco.** El bucle C5 de `BuildSaguntoWorld` pone el coche 1 en **(97,3; 22,3)**, a lo largo de la carretera, justo delante de la salida (lo he calculado con el mismo `math.hash(int2)` de Unity.Mathematics). No tiene colisión, así que un VAMTAC que sale lo atraviesa. **Arreglo (Iker o Marcos):** en el bucle, justo después de `ax += gap; if (ax > 250f) break;`, añadir `if (ax > 91f && ax < 107f) continue;`. Así no queda ningún coche entre X 91 y 107 y no se mueve ningún otro, porque el hash depende de i y no de la posición.
+- **Parque E5:** el Dragón mide 8 m. En (99; 51) ocupa Z 47–55 y **pisa 0,5 m el acopio de munición** (Z 54,5–60,5). En la §10.24 conté 6 m, y era un error. **Arreglo: los tres vehículos pasan a Z 50**: Dragón (99; 50) y VAMTAC (91,5; 50) y (106,5; 50), con yaw 180. El Dragón ocupa Z 46–54 (0,5 m hasta el acopio y 1,5 m hasta la cara interior del muro sur, en Z 44,5); los VAMTAC, Z 47–53. Los tres salen de frente por la E4, y el A* lleva a los dos VAMTAC al centro de la puerta.
+- **Sitios de reserva en batería** por si llegan más vehículos (todos en Z 50 y con yaw 180): VAMTAC en X 76,5 y X 84; Dragón en X 114 y VAMTAC en X 121,5. Quedan fuera de la banqueta (X ≤ 73,2) y del nido sur. El paso de la tropa entre los acopios (X 107–116, Z 54,5–60,5) sigue libre, porque los vehículos acaban en Z 54.
+
+SIN VERIFICAR en el juego: no lo he visto en una build. La prueba es un VAMTAC con orden a (99; 10): tiene que salir por la E4 sin pararse y sin atravesar ningún coche.
+
+— Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
