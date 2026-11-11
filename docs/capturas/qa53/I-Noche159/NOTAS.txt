@@ -1,0 +1,9 @@
+qa53 sobre la I-Noche159 (main 01a59cc7) - Marcos, 11-11 ~17:30. Monitor apagado: puntos 1 y 4 sin hacer (las capturas salen negras).
+Punto 5 (noche 2 de Nules), con -menu-auto -dia2-auto -socorro-auto: S1. «resultado=derrota causa=estacion abatidos=1669 bajas=4
+  municion_restante_u=15,5 pila_estacion_max=95 desync_red=False hora_fin=02:22», con el objetivo del dia 2 cumplido (tropa y 25 u).
+  Titulo «Nules · 5 pelotones», almacen min(47, 25) = 25 u. Esta vez no sale la linea «asedio anunciado … sur 8, norte 8, este 4»
+  (la escolta ya estaba en la banqueta (71,5; 70,5) desde el dia), asi que el orden de llenado no se puede comprobar por log.
+  En la corrida con -dia2-auto-enzona si salio: «0 soldados de la escolta completan la guarnicion (sur 8, norte 8, este 4); 1 peloton a la banqueta».
+Punto 7 (socorro): con -socorro-auto no sale ninguna linea de socorro ni de cerco en el log. Hay que confirmar con Iker la bandera.
+-dia2-auto-enzona: la emboscada en la zona deja 3 zombis vivos, el paso 6 no se cierra y la corrida se queda en Nules (12:43,
+  2497 abatidos). Es una limitacion de mi bandera, no del juego.
