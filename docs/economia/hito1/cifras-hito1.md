@@ -19,9 +19,9 @@ Todo el Hito 1 cuelga de **k**, cuántos cartuchos gasta un soldado por zombi ab
 | Orden por defecto de la línea | A → B: 4 cajas; B → A: lo que haya de material (2 plazas) | — | la línea lleva munición y trae material en el mismo viaje |
 | Velocidad del tren | 40 km/h | — | vía de obra |
 | Carga y descarga | 15 s por plaza | — | se ve cargar sin aburrir |
-| **Tiempo de la línea** (vía A–B de 1250 m, Álvaro) | ida 112 s; **ciclo 6,7 min** | ciclo = 2 × vía ÷ velocidad + 15 s × 12 plazas movidas | 1234 m en recta + entradas (docs/hito1/terreno/posiciones_hito1.csv) |
-| **Entrega de la línea** | **4 cajas por viaje, un viaje cada 6,7 min reales** (36 cajas por hora real) | 4 cajas por ciclo | en pantalla «por viaje», no «por hora»: con el reloj a ×30 (D-N208) la hora confunde |
-| Consumo del pelotón en combate | 120 cartuchos/min = 7200/h | 8 × 15 por minuto | **la línea sostiene el 60 % de un combate continuo**: se ve que una línea sola no alimenta un frente en lucha sin pausa |
+| **Tiempo de la línea** (vía A–B de 1250 m, Álvaro) | ida 112 s a velocidad de crucero; **ciclo 430 s ≈ 7,2 min** en el juego (Iker: aceleración y frenada de 0,9 m/s² y 3 s mínimos por parada; el cálculo sin ellas da 405 s) | ciclo = 2 × vía ÷ velocidad + 15 s × 12 plazas movidas | 1234 m en recta + entradas (docs/hito1/terreno/posiciones_hito1.csv) |
+| **Entrega de la línea** | **4 cajas por viaje, un viaje cada 7,2 min reales** (33 cajas por hora real; el texto saca la cifra de la vuelta medida) | 4 cajas por ciclo | en pantalla «por viaje», no «por hora»: con el reloj a ×30 (D-N208) la hora confunde |
+| Consumo del pelotón en combate | 120 cartuchos/min = 7200/h | 8 × 15 por minuto | **la línea sostiene el 56 % de un combate continuo** (480 cartuchos cada 7,2 min frente a 120 por minuto): se ve que una línea sola no alimenta un frente en lucha sin pausa |
 | **Material del caserío** | **4 palés** | — | 2 viajes de vuelta del tren; 1 palé = 100 m de vía |
 | Material inicial en A | **16 palés** | techo(vía ÷ 100 m) + piezas especiales + 2 | 13 de recta + 1 más por el paso a nivel con la carretera vieja (cruce = 2) + 2 de margen; el caserío da 400 m más |
 | Distancia B–caserío | 237 m al centro, ~160 m al borde (Álvaro) | — | el modelo usa 200 m: ir y volver, 2 × 143 s andando |
@@ -67,10 +67,10 @@ Escala de tiempo (D-N208, provisional): **movimiento, combate, trenes y carga a 
 | 1 caja de raciones | 24 ÷ 3 por soldado y día | 8 soldados un día (48 min reales) |
 | Guarnición de 24 con 1 caja de raciones | 24 ÷ 72 al día | un tercio de día: ~16 min reales |
 | VAMTAC con el depósito lleno | 80 L ÷ 1 L cada 5 km | 400 km (a 1:1 son horas reales de conducción: el gasoil pesa por distancia, no por tiempo) |
-| Línea de 4 cajas cada 6,7 min reales | 36 cajas por hora real (= 18 por hora de juego) | sostiene a 1 pelotón en combate el 60 % del tiempo |
+| Línea de 4 cajas cada 7,2 min reales | 33 cajas por hora real | sostiene a 1 pelotón en combate el 56 % del tiempo |
 | Raciones de 1 pelotón al día | 8 × 3 = 24 | 1 caja = 1 plaza de tren por pelotón y día: en un tren de 6 plazas, las raciones de 3 pelotones ocupan la mitad de un viaje diario |
 
-**Aviso de unidades en pantalla:** como el reloj va a ×30 y el movimiento a 1:1, «por hora» confunde. Propongo mostrar la munición y la entrega de las líneas **por minuto real** (o «por viaje») y las raciones **por día**. «36 cajas/h» de la línea sería «4 cajas por viaje · un viaje cada 6,7 min» (aprobado por Lucía; el 6,6 era con 1200 m).
+**Aviso de unidades en pantalla:** como el reloj va a ×30 y el movimiento a 1:1, «por hora» confunde. Propongo mostrar la munición y la entrega de las líneas **por minuto real** (o «por viaje») y las raciones **por día**. «36 cajas/h» de la línea sería «4 cajas por viaje · un viaje cada 6,7 min» (aprobado por Lucía; con la física del tren de Iker la vuelta es de 7,2 min).
 
 ### Reglas de equilibrio que propongo para el corte
 1. **Una línea no basta para un frente en combate continuo** (sostiene el 60 % de un pelotón). Obliga a elegir: segunda línea, tren más largo o pausas en el frente.
