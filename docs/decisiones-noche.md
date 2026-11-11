@@ -3273,3 +3273,6 @@ Rehacer el núcleo, no el juego: un solo mundo simulado en tiempo real, con la z
 
 ### D-N205 · corrección (22:55, Lucía)
 El mundo único es NightSim y NetWorld, no uno nuevo: la zona deja de simular y solo dibuja (Nacho: 7–11 días de su parte; docs/estimacion-D-N205-nacho.md). El vuelo del helicóptero en el mapa es solo vista y no depende de la D-N205.
+
+## D-N205 · SUSTITUIDA (23:05, Lucía)
+Eugenio (22:44 y 22:45) quiere otro juego: mapa enorme explorable, vías y carreteras que construye el jugador, líneas automáticas, unidades en tiempo real y ciudades en ruinas. La D-N205 anterior arreglaba el juego actual y no lleva ahí, así que se retira. Nueva propuesta: núcleo v2 (docs/plan-nucleo-v2.md), con el Hito 1 en 2 × 2 km: trazar vía, una línea automática, un pelotón y un caserío con zombis. Pulido y builds CONGELADOS hasta el sí de Eugenio. Pendiente su decisión: un jugador o multijugador (lockstep).

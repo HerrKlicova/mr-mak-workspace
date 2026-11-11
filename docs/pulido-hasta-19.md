@@ -1,3 +1,5 @@
+> **CONGELADO el 11-11 a las 23:05** hasta que Eugenio apruebe el núcleo v2 (docs/plan-nucleo-v2.md). Solo siguen arte y sonido, sin builds.
+
 # Pulido hasta el 19-nov · reparto (Lucía, 11-11 19:45)
 
 Eugenio (11-11 19:25): «Revisa a todo el equipo, revisa MVP… y a trabajar. Y pulir.»
