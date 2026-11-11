@@ -3281,4 +3281,7 @@ Eugenio (22:44 y 22:45) quiere otro juego: mapa enorme explorable, vías y carre
 Núcleo v2 según docs/plan-nucleo-v2.md. Reparto del Hito 1 en docs/hito1-reparto.md.
 
 ## D-N206 · Coop desde el principio (11-11 22:47, Eugenio)
-El juego se piensa para cooperativo. Lockstep y determinismo obligatorios: la simulación va en enteros con tick fijo y el ECS solo dibuja. El Hito 1 es para un jugador, pero con prueba de hash en dos instancias. Siguiente D-N libre: D-N207.
+El juego se piensa para cooperativo. Lockstep y determinismo obligatorios: la simulación va en enteros con tick fijo y el ECS solo dibuja. El Hito 1 es para un jugador, pero con prueba de hash en dos instancias. (sigue en D-N207)
+
+## D-N207 · El nivel de detalle lo decide la actividad, no la cámara (11-11 23:20, Lucía, a propuesta de Nacho)
+Una casilla pasa a individuos con cuerpo cuando hay unidades, obras o vías del jugador a menos de 300 m, o cuando pasa una horda en marcha. El resto sigue como densidad. La cámara solo dibuja: mirar o no da lo mismo, y en coop cada jugador puede mirar a un sitio distinto. En el Hito 1, los 100 zombis del caserío son individuos desde el principio. Comportamiento del caserío: quietos o deambulando a menos de 15 m de su casa; ven al pelotón a 25 m, lo persiguen y le atacan; si lo pierden a 60 m vuelven a casa; oyen los disparos a 80 m y van hacia el ruido. Siguiente D-N libre: D-N208.
