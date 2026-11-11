@@ -1,0 +1,376 @@
+Mono path[0] = 'C:/Dev/TBD-2/Builds/I-Noche176/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD-2/Builds/I-Noche176/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD-2/Builds/I-Noche176/TBD_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.898 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 1.219700 ms
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+Warning: No Graphics Device found. Deformation systems will not run.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Entities Graphics package disabled
+[UI3] interfaz v3 encendida (-ui3)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.494300 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Rendering.EntitiesGraphicsSystemUtility.RootsHandlerDelegate (System.IntPtr state) [0x00024] in <8e6ea5a5bb18481ab90b4e7296b4af37>:0 
+  at Unity.Entities.UnityObjectRefUtility.RootsHandlerDelegate (System.IntPtr state) [0x00014] in <f511ab2c7ee34895b0d5d07b67765712>:0 
+  at UnityEngine.ResourcesAPIInternal+EntitiesAssetGC.GetAdditionalRoots (System.IntPtr state) [0x0000d] in <398789c008484afa80c3315b7c00257b>:0 
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3242.
+Total: 7.319500 ms (FindLiveObjects: 0.104700 ms CreateObjectMapping: 0.040200 ms MarkObjects: 7.161700 ms  DeleteObjects: 0.012500 ms)
+Curl error 23: Failure writing output to destination, passed 293 returned 0
+[MAPA-DIAG] t=0,7 dist=230,0 foco=(115.50, 0.00, 94.50) zona_red=-1 pausa=False vel=1 frenada=False tick=5775 cam=Camera True (0.00, 0.00, 0.00) entrando=False intro=False tutorial=False fundido=False/-1,0s/desde_inicio=0,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=3000 fps=5
+[RELOJ] línea de visión de Sagunto: 35 sólidos (sagunto_obstaculos_v1.csv)
+[RELOJ] noche de Sagunto registrada en la red (A y B): 7 pelotones, 3 vehículos, 47 u, noche_sagunto.json (normal); noches del plan: día 1 sí, día 2 no
+[RELOJ] línea de visión de Nules: 13 sólidos (nules_obstaculos_v1.csv)
+[RELOJ] objetivo del día 2 (Hugo): 6 u en Nules (horda 2200, normal)
+[RELOJ] noche de Nules registrada en la red (A y B): 4 pelotones, 0 vehículos, 0 u, nules.json (normal); noches del plan: día 1 no, día 2 sí
+[MAPA-DIAG] t=2,7 dist=230,0 foco=(115.50, 0.00, 94.50) zona_red=-1 pausa=False vel=1 frenada=False tick=5841 cam=Camera True (115.50, 180.05, -53.34) entrando=False intro=False tutorial=False fundido=False/-1,0s/desde_inicio=2,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=2760 fps=60
+[DIA2] paso por Sagunto para crear la sesión de la zona
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.294800 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Rendering.EntitiesGraphicsSystemUtility.RootsHandlerDelegate (System.IntPtr state) [0x00024] in <8e6ea5a5bb18481ab90b4e7296b4af37>:0 
+  at Unity.Entities.UnityObjectRefUtility.RootsHandlerDelegate (System.IntPtr state) [0x00014] in <f511ab2c7ee34895b0d5d07b67765712>:0 
+  at UnityEngine.ResourcesAPIInternal+EntitiesAssetGC.GetAdditionalRoots (System.IntPtr state) [0x0000d] in <398789c008484afa80c3315b7c00257b>:0 
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3285.
+Total: 3.559700 ms (FindLiveObjects: 0.130500 ms CreateObjectMapping: 0.049400 ms MarkObjects: 3.333700 ms  DeleteObjects: 0.045800 ms)
+[D-N80] horda con TBD/Horda: 5 siluetas, 1 material
+[Pila] mallas de la pila cargadas (5 alturas x 3 semillas, con remates)
+[TBD] Zona Sagunto: 0 zombis (deriva) creados en 69,9 ms
+[VIVO] montado: 17 piezas, 0 sin modelo
+[BRUMA] D-N182: franja de 28 m en los bordes de la zona y zoom de noche hasta 35; D-N197: de día calima #A27E5A al 35 %
+[PUERTA-VEH] pieza 28 en (99,0;44,0) estado 0 hojas OE abierta
+[NOCHE] InitNight en el tick ECS 0 (frame 128, Active=True)
+[NOCHE] noche de Sagunto: noche_sagunto.json
+[NOCHE] noche_sagunto.json (normal): el tren es derrota
+[NOCHE] almacén de munición de la zona: min(tope 47, reserva 150) = 47 u
+[NOCHE] noche de Sagunto: la suya, reanudada
+[NOCHE] plantel de Sagunto: 7 pelotones
+[NOCHE] tren en Sagunto: 2 Montaña (en el andén); rectángulo del tren en la zona X 81,0–145,0, Z 62,9–66,1 m; edificio X 96,5–115,5, Z 75,2–83,6; escolta 0 pelotón(es) en (113,0; 60,0); el tren es derrota
+[LUZ] noche: sun=Directional Light _sun=Directional Light ambiente=RGBA(0.274, 0.296, 0.385, 1.113) sondaDC=(0,061; 0,071; 0,123) sombranoche=0.75 | Directional Light Directional i=0,338 sombras=Soft fuerza=1 | URP sombraDist=50 luzPrincipalSombras=True
+[SOMBRA] 3× Universal Render Pipeline/Lit col=605C48 tex=- cola=2000 capa=0 · p. ej. Andén losa y=0.00..0.90 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 31× Universal Render Pipeline/Lit col=FFFFFF tex=- cola=2000 capa=0 · p. ej. SM_poste_catenaria_LOD1 y=0.00..8.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 5× Universal Render Pipeline/Lit col=B4A080 tex=- cola=2000 capa=0 · p. ej. Cauce del Palancia y=-5.00..-4.50 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=969173 tex=- cola=2000 capa=0 · p. ej. Suelo este y=-0.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=48403C tex=- cola=2000 capa=0 · p. ej. Vía 2 balasto y=0.01..0.05 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=94948C tex=- cola=2000 capa=0 · p. ej. Vía 2 desvío raíl y=0.07..0.17 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=6C7874 tex=- cola=2000 capa=0 · p. ej. Calle de la Estación y=0.02..0.08 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Sprites/Default col=- tex=- cola=2000 capa=0 · p. ej. Sombra de masa y=0.02..0.02 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=- tex=- cola=2000 capa=0 · p. ej. SM_AcopioMateriales_v0_Lleno y=0.00..0.94 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=88885C tex=- cola=2000 capa=0 · p. ej. Caña y=-4.60..-2.80 recibeSombra=True sondas=BlendProbes
+[LUCES] Directional Light (padre -) Directional i=0,34 alcance=10 sombras=Soft fuerza=1 pos=(0, 3, 0) color=BFCCFF
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 50) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 79) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 65) color=FFC850
+[SOMBRA] materiales de variantes en la build (recorte por alfa): SÍ
+[SOMBRA] variante de emisión: SÍ (_EMISSION activa)
+[SOMBRA] sondas de luz en la escena: ninguna · mapas de luz: 0 · modo ambiente: Flat · reflejo: Skybox
+[SOMBRA] pieza Vía 2 balasto centro=(-100.0, 0.0, 59.5) tam=(300.0, 0.0, 3.4) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=48403CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 61.4) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Balasto de la zona centro=(128.0, 0.0, 64.5) tam=(756.0, 0.0, 4.0) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=605C48FF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 centro=(-100.0, 0.1, 59.5) tam=(300.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 62.6) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía centro=(128.0, 0.1, 64.5) tam=(756.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 35 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[NOCHE] título: Sagunto · 7 pelotones (D-N199: al volver, sin cartel)
+[NOCHE] muros_obras=31
+[NOCHE] reloj_x=103 municion_u=47 materiales_u=40 combustible_u=30 almacen_combustible_u=16
+[VEH] silueta de Dragón: 3,0 × 8,0 m (a mano; caja de 11 mallas 4,3 × 10,8)
+[VEH] silueta de VAMTAC 1: 2,2 × 5,0 m (a mano; caja de 7 mallas 3,1 × 8,5)
+[VEH] silueta de VAMTAC 2: 2,2 × 5,0 m (a mano; caja de 7 mallas 3,1 × 8,5)
+[NOCHE] vehículos de Sagunto: 3 (Dragón, VAMTAC 1, VAMTAC 2)
+[NOCHE] línea de visión de Sagunto: 35 sólidos (sagunto_obstaculos_v1.csv)
+[NOCHE] prueba: -nightbot (NightBot de Nacho)
+[NOCHE] vuelvo a la zona (tick 0): 0 zombis recreados, hora 22:00, muro 1000‰, estado Jugando
+[NOCHE] Puerta de la vía (oeste): vida 22894 y 2,1 m (como sus vecinos)
+[NOCHE] Puerta de la vía (este): vida 7631 y 1,2 m (como sus vecinos)
+[NOCHE] Puerta de vehículos (sur): vida 23848 y 1,3 m (como sus vecinos)
+[NOCHE] tramos: 31 tramos en el perímetro (oeste 6, este 6, sur 9, norte 10; vida total 944381)
+[OBRAS] muros montados en la zona: 1 (tick de zona 1)
+[OBRAS] muros montados en la zona: 10 (tick de zona 1)
+[OBRAS] muros montados en la zona: 20 (tick de zona 1)
+[PUERTA-VIA] pieza 2 en (70,0;64,5) estado 0
+[PUERTA-VIA] pieza 19 en (156,0;64,5) estado 0
+[Pila] tramos=103 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] Grietas de la muestra: 14 decals
+[TBD] Grietas de la muestra: 10 decals
+[TBD] Grietas de la muestra: 9 decals
+[TBD] Grietas de la muestra: 7 decals
+[TBD] Grietas de la muestra: 14 decals
+[RELOJ] hora: zona 06:01 · red 06:01
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Grieta carretera kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Suelo este kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 47 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[TBD] Trozo de suelo 2,3 subido en 66,0 ms (hilo principal)
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 37 decals
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 51 decals
+[TBD] Grietas de la muestra: 16 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] fundido caducado: se quita
+[DIA2] sesión de zona creada; vuelvo al mapa
+[RELOJ-DIAG] salida de Sagunto: pelotones | Fusileros 8/8 (71;58) | Ametralladores 6/6 (71;71) | Granaderos 6/6 (99;69) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy; muro 1200000/1200000; munición 47 u
+[NOCHE] salgo al mapa con la noche en la red: 0 zombis pasan a NightSim, hora 22:00, empezada no (espera a las 22:00)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 44.986000 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Rendering.EntitiesGraphicsSystemUtility.RootsHandlerDelegate (System.IntPtr state) [0x00024] in <8e6ea5a5bb18481ab90b4e7296b4af37>:0 
+  at Unity.Entities.UnityObjectRefUtility.RootsHandlerDelegate (System.IntPtr state) [0x00014] in <f511ab2c7ee34895b0d5d07b67765712>:0 
+  at UnityEngine.ResourcesAPIInternal+EntitiesAssetGC.GetAdditionalRoots (System.IntPtr state) [0x0000d] in <398789c008484afa80c3315b7c00257b>:0 
+Unloading 1441 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 15.900100 ms (FindLiveObjects: 0.170500 ms CreateObjectMapping: 0.094000 ms MarkObjects: 14.188300 ms  DeleteObjects: 1.446800 ms)
+[MAPA-DIAG] t=0,7 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=1 frenada=False tick=6861 cam=Camera True (0.00, 0.00, 0.00) entrando=False intro=False tutorial=False fundido=True/0,8s/desde_inicio=0,0 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=3000 fps=3
+[DIA2] avanzo la red al día 2
+[MAPA-DIAG] t=2,9 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=4 frenada=False tick=17141 cam=Camera True (136.50, 30.84, 19.79) entrando=False intro=False tutorial=False fundido=True/3,0s/desde_inicio=2,2 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=480 fps=4
+[TBD] guardado del atardecer (día 1, 19:31)
+[RELOJ-DIAG] 22:43 noche de Sagunto: Jugando, tick 761, 1166 zombis vivos (1627 nacidos, 0 dentro), muro 1200000/1200000, 0 soldados caídos, munición 47 u | Fusileros 8/8 (71;58) | Ametralladores 6/6 (71;71) | Granaderos 6/6 (97;66) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy
+[MAPA-DIAG] t=9,2 dist=40,0 foco=(136.50, 0.00, 45.50) zona_red=-1 pausa=False vel=1 frenada=False tick=25021 cam=Camera True (136.50, 30.84, 19.79) entrando=False intro=False tutorial=False fundido=True/9,3s/desde_inicio=8,5 niebla=False/RGBA(0.500, 0.500, 0.500, 1.000)/0,01 ambiente=RGBA(0.320, 0.330, 0.380, 1.000) sol=1,25 clear=SolidColor/-1/RGBA(0.050, 0.060, 0.080, 1.000) lejos=480 fps=1
+[TBD] fundido caducado: se quita
+[RELOJ-DIAG] 23:49 noche de Sagunto: Jugando, tick 1921, 1593 zombis vivos (3220 nacidos, 0 dentro), muro 1199999/1200000, 0 soldados caídos, munición 45 u | Fusileros 8/8 (71;58) | Ametralladores 6/6 (71;71) | Granaderos 6/6 (88;57) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy
+[RELOJ-DIAG] 00:05 noche de Sagunto: Jugando, tick 2201, 1443 zombis vivos (3383 nacidos, 0 dentro), muro 1199888/1200000, 0 soldados caídos, munición 44 u | Fusileros 8/8 (71;58) | Ametralladores 6/6 (71;71) | Granaderos 6/6 (88;57) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy
+[RELOJ-DIAG] 01:14 noche de Sagunto: Jugando, tick 3401, 804 zombis vivos (4083 nacidos, 173 dentro), muro 1194324/1200000, 1 soldados caídos, munición 43 u | Fusileros 8/8 (71;58) | Ametralladores 5/6 (71;71) | Granaderos 6/6 (88;57) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy
+[RELOJ-DIAG] 02:06 noche de Sagunto: Jugando, tick 4321, 746 zombis vivos (4620 nacidos, 173 dentro), muro 1193972/1200000, 1 soldados caídos, munición 40 u | Fusileros 8/8 (71;58) | Ametralladores 5/6 (71;71) | Granaderos 6/6 (88;57) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy
+[RELOJ-DIAG] 03:15 noche de Sagunto: Jugando, tick 5521, 673 zombis vivos (5250 nacidos, 173 dentro), muro 1193634/1200000, 1 soldados caídos, munición 39 u | Fusileros 8/8 (71;58) | Ametralladores 5/6 (71;71) | Granaderos 6/6 (88;57) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy
+[RELOJ-DIAG] 04:05 noche de Sagunto: Jugando, tick 6401, 205 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (71;58) | Ametralladores 5/6 (71;71) | Granaderos 6/6 (88;56) | Tiradores 2/2 (84;74) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (84;74) busy | Tiradores azotea 2 2/2 (84;78) busy
+[RELOJ-DIAG] 05:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[TBD] punto de control: amanecer del día 2
+[RELOJ-DIAG] 06:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[DIA2] día 2, 06:32
+[TREN] enviado 1 Costa de Sagunto a Nules: carga 0/0/0/0/0, ETA 0:21
+[DIA2] primer tren a Nules
+[TREN] llega a Nules y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[TREN] descarga en Nules (el tren se queda)
+[TREN] descarga automática al llegar a Nules
+[TREN] enviado 1 Costa de Nules a Sagunto: carga 0/0/0/0/0, ETA 0:21
+[DIA2] el primer tren vuelve a Sagunto (deja libre el andén de Nules)
+[RELOJ-DIAG] 07:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[MAPA] D-N182 masa en marcha hacia Valencia: 10,0 km, rumbo al este, 1090 zombis, llega a las 10:00
+[AVISO] Horda en 3 h anunciada: nodo 2, tick 32551, empieza en el tick 35700, t = 47,6 s
+[TREN] llega a Sagunto y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[DIA2] sube el pelotón Fusileros
+[TREN] pelotón 1 a bordo (tren 0)
+[TREN] enviado 1 Costa de Sagunto a Nules: carga 25/0/0/0/0, ETA 0:21
+[DIA2] a bordo al salir: 0 pelotón (la orden de subir se aplica en el tick de red siguiente; la cifra buena es la de «llega»)
+[DIA2] segundo tren a Nules con pelotón y 25 u
+[MAPA] EM-1 Emboscada en Nules: unos 300 zombis atacan el 1 Costa fuera de la puerta este.
+[TREN] llega a Nules y se aparca (carga 25 u, 1 pelotón, 0 vehículo)
+[TREN] descarga en Nules (el tren se queda)
+[TREN] descarga automática al llegar a Nules
+[DIA2] emboscada: nodo Nules, 300 zombis, en pantalla False, rechazada True, cercado False
+[TREN] descarga en Nules (el tren se queda)
+[DIA2] el tren entra en Nules y descarga (07:58)
+[TREN] Descargado en Nules: 25 u al almacén, 0 u a la reserva.
+[RELOJ-DIAG] 08:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 09:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[AVISO] asedio EMPIEZA: nodo 2, tick 35710, t = 84,5 s, avisado hace 36,9 s reales
+[RELOJ-DIAG] 10:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 11:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 12:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 13:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 14:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 15:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 16:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 17:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ-DIAG] 18:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[MAPA] Hay un tren parado en Nules. Sácalo antes de la noche o puede perderse.
+[TBD] guardado del atardecer (día 2, 19:00)
+[RELOJ-DIAG] 19:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[MAPA] D-N182 masa en marcha hacia Nules: 10,0 km, rumbo al sur, 2200 zombis, llega a las 22:00
+[AVISO] Horda en 3 h anunciada: nodo 4, tick 45170, empieza en el tick 48300, t = 100,2 s
+[TREN] enviado 1 Costa de Nules a Sagunto: carga 0/0/0/0/0, ETA 0:21
+[DIA2] 19:30: el tren sale de Nules hacia Sagunto antes de la noche
+[TREN] llega a Sagunto y se aparca (carga 0 u, 0 pelotón, 0 vehículo)
+[RELOJ-DIAG] 20:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[DIA2] 21:00: objetivo del día 2 cumplido (tropa True, munición 25 u); entro en Nules para la noche 2
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.218500 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Rendering.EntitiesGraphicsSystemUtility.RootsHandlerDelegate (System.IntPtr state) [0x00024] in <8e6ea5a5bb18481ab90b4e7296b4af37>:0 
+  at Unity.Entities.UnityObjectRefUtility.RootsHandlerDelegate (System.IntPtr state) [0x00014] in <f511ab2c7ee34895b0d5d07b67765712>:0 
+  at UnityEngine.ResourcesAPIInternal+EntitiesAssetGC.GetAdditionalRoots (System.IntPtr state) [0x0000d] in <398789c008484afa80c3315b7c00257b>:0 
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3478.
+Total: 3.749800 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.070700 ms MarkObjects: 3.450400 ms  DeleteObjects: 0.071700 ms)
+[D-N80] horda con TBD/Horda: 5 siluetas, 1 material
+[RELOJ-DIAG] 21:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[TBD] Zona Nules: 0 zombis (deriva) creados en 3,7 ms
+[NULES] opción A: placa «NULES» en la fachada; sin el pueblo de Sagunto
+[TBD] falta sagunto_vivo_instancias.csv: se usan los valores por defecto del código
+[VIVO] falta sagunto_vivo_instancias.csv
+[BRUMA] D-N182: franja de 28 m en los bordes de la zona y zoom de noche hasta 35; D-N197: de día calima #A27E5A al 35 %
+[PUERTA-VEH] pieza 28 en (99,0;44,0) estado 0 hojas OE abierta
+[NOCHE] InitNight en el tick ECS 0 (frame 3935, Active=True)
+[NOCHE] noche de Nules: nules.json
+[NOCHE] nules.json (normal): el tren no es derrota
+[NOCHE] almacén de munición de la zona: min(tope 47, reserva 25) = 25 u
+[NOCHE] la noche de la zona anterior se aparca (2 aparcada(s))
+[NOCHE] noche de Nules: la suya, reanudada
+[NOCHE] plantel de Nules: 4 pelotones
+[NOCHE] Nules de día (21:00): la noche empieza a las 22:00 de la red
+[NOCHE] tren en Nules: ninguno; rectángulo del tren en la zona X 160,0–224,0, Z 62,9–66,1 m; edificio X 96,5–115,5, Z 75,2–83,6; escolta 1 pelotón(es) en (71,5; 70,5); el tren no es derrota
+[LUZ] noche: sun=Directional Light _sun=Directional Light ambiente=RGBA(0.274, 0.296, 0.385, 1.113) sondaDC=(0,061; 0,071; 0,123) sombranoche=0.75 | Directional Light Directional i=0,338 sombras=Soft fuerza=1 | URP sombraDist=50 luzPrincipalSombras=True
+[SOMBRA] 29× Universal Render Pipeline/Lit col=FFFFFF tex=- cola=2000 capa=0 · p. ej. SM_poste_catenaria_LOD1 y=0.00..8.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 5× Universal Render Pipeline/Lit col=B4A080 tex=- cola=2000 capa=0 · p. ej. Terreno y=-4.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=- tex=- cola=2000 capa=0 · p. ej. SM_AcopioMunicion_v0_Lleno y=0.00..1.09 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=88885C tex=- cola=2000 capa=0 · p. ej. Caña y=-4.60..-2.80 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 3× Universal Render Pipeline/Lit col=605C48 tex=- cola=2000 capa=0 · p. ej. Andén losa y=0.00..0.90 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=969173 tex=- cola=2000 capa=0 · p. ej. Suelo oeste y=-0.50..0.00 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Universal Render Pipeline/Lit col=6C7874 tex=- cola=2000 capa=0 · p. ej. Calle de la Estación y=0.02..0.08 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=48403C tex=- cola=2000 capa=0 · p. ej. Vía 2 balasto y=0.01..0.05 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 1× Sprites/Default col=- tex=- cola=2000 capa=0 · p. ej. Sombra de masa y=0.02..0.02 recibeSombra=True sondas=BlendProbes
+[SOMBRA] 2× Universal Render Pipeline/Lit col=94948C tex=- cola=2000 capa=0 · p. ej. Vía 2 desvío raíl y=0.07..0.17 recibeSombra=True sondas=BlendProbes
+[LUCES] Directional Light (padre -) Directional i=0,34 alcance=10 sombras=Soft fuerza=1 pos=(0, 3, 0) color=BFCCFF
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 79) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 50) color=FFC850
+[LUCES] Foco (padre TBD_Prototype) Spot i=0 alcance=45 sombras=None fuerza=1 pos=(70, 4, 65) color=FFC850
+[SOMBRA] materiales de variantes en la build (recorte por alfa): SÍ
+[SOMBRA] variante de emisión: SÍ (_EMISSION activa)
+[SOMBRA] sondas de luz en la escena: ninguna · mapas de luz: 0 · modo ambiente: Flat · reflejo: Skybox
+[SOMBRA] pieza Vía 2 centro=(-100.0, 0.1, 59.5) tam=(300.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Balasto de la zona centro=(128.0, 0.0, 64.5) tam=(756.0, 0.0, 4.0) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=605C48FF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía centro=(128.0, 0.1, 64.5) tam=(756.0, 0.0, 3.6) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=True tex=- col=FFFFFFFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 balasto centro=(-100.0, 0.0, 59.5) tam=(300.0, 0.0, 3.4) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=48403CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 62.6) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] pieza Vía 2 desvío raíl centro=(57.0, 0.1, 61.4) tam=(14.1, 0.1, 5.1) sondas=BlendProbes reflejo=BlendProbes shDC=(0.061; 0.071; 0.123) bloque=False tex=- col=94948CFF shader=Universal Render Pipeline/Lit
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 35 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[NOCHE] título: Nules · 5 pelotones (D-N199: al volver, sin cartel)
+[NOCHE] muros_obras=31
+[NOCHE] reloj_x=103 municion_u=0 materiales_u=40 combustible_u=30 almacen_combustible_u=16
+[NOCHE] vehículos de Nules: 0 ()
+[NOCHE] línea de visión de Nules: 13 sólidos (nules_obstaculos_v1.csv)
+[NOCHE] prueba: -nightbot (NightBot de Nacho)
+[NOCHE] vuelvo a la zona (tick 0): 0 zombis recreados, hora 22:00, muro 1000‰, estado Jugando
+[NOCHE-FPS] hora=21:00 estado=Jugando zombis=0 abatidos=0 tren_hp=120000 estacion_hp=60000 (batch)
+[NOCHE] sólido del tren en X 160,0–224,0
+[NOCHE] Puerta de la vía (oeste): vida 22894 y 2,1 m (como sus vecinos)
+[NOCHE] Puerta de la vía (este): vida 7631 y 1,2 m (como sus vecinos)
+[NOCHE] Puerta de vehículos (sur): vida 23848 y 1,3 m (como sus vecinos)
+[NOCHE] tramos: 31 tramos en el perímetro (oeste 6, este 6, sur 9, norte 10; vida total 944381)
+[OBRAS] muros montados en la zona: 1 (tick de zona 1)
+[OBRAS] muros montados en la zona: 10 (tick de zona 1)
+[OBRAS] muros montados en la zona: 20 (tick de zona 1)
+[PUERTA-VIA] pieza 2 en (70,0;64,5) estado 0
+[PUERTA-VIA] pieza 19 en (156,0;64,5) estado 0
+[Pila] tramos=35 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] Grietas de la muestra: 10 decals
+[TBD] Grietas de la muestra: 14 decals
+[TBD] Grietas de la muestra: 14 decals
+[TBD] Grietas de la muestra: 7 decals
+[TBD] Trozo de suelo 4,1 subido en 30,3 ms (hilo principal)
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Grieta carretera kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Suelo oeste kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 47 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[TBD] Grietas de la muestra: 9 decals
+[TBD] Trozo de suelo 6,1 subido en 29,2 ms (hilo principal)
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 51 decals
+[TBD] Grietas de la muestra: 16 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 37 decals
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 1 decals
+[TBD] fundido caducado: se quita
+[TBD] Grietas de la muestra: 0 decals
+[RELOJ] 22:00 del día 2 en la zona: empieza la noche 1 de Nules (tick de red 48300)
+[NOCHE] 22:00 en la red: empieza la noche de Nules (almacén min(47, 25) = 25 u, tren ninguno)
+[NOCHE] sólido del tren en X 838,5–902,5
+[NOCHE] Puerta de la vía (este) se cierra con el asedio (D-N202)
+[NOCHE] Puerta de vehículos (sur) se cierra con el asedio (D-N202)
+[RELOJ] hora: zona 22:00 · red 22:00
+[AVISO] asedio EMPIEZA: nodo 4, tick 48305, t = 108,9 s, avisado hace 8,7 s reales
+[RELOJ-DIAG] 22:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Suelo por trozos precargado: 37 trozos
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 12 decals
+[TBD] Grietas de la muestra: 4 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[NOCHE-DIAG] tren=1 estacion=0 hora=22:24 muro_permil=1000 zombis_cerca=
+[NOCHE-DIAG] muros_obras [70,0;44,0->70,0;53,5] [70,0;53,5->70,0;62,9] [70,0;62,9->70,0;66,1] [70,0;66,1->70,0;75,6] [70,0;75,6->70,0;85,0] [84,5;85,0->77,3;85,0] [77,3;85,0->70,0;85,0] [70,0;44,0->77,3;44,0] [77,3;44,0->84,5;44,0] [84,5;85,0->93,4;85,0] [93,4;85,0->102,4;85,0] [102,4;85,0->111,3;85,0] [111,3;85,0->120,3;85,0] [120,3;85,0->129,2;85,0] [129,2;85,0->138,1;85,0] [138,1;85,0->147,1;85,0] [147,1;85,0->156,0;85,0] [156,0;85,0->156,0;75,6] [156,0;75,6->156,0;66,1] [156,0;66,1->156,0;62,9] [156,0;62,9->156,0;53,5] [156,0;53,5->156,0;44,0] [156,0;44,0->147,2;44,0] [147,2;44,0->138,3;44,0] [138,3;44,0->129,5;44,0] [129,5;44,0->120,7;44,0] [120,7;44,0->111,8;44,0] [111,8;44,0->103,0;44,0] [95,0;44,0->103,0;44,0] [95,0;44,0->89,8;44,0] [89,8;44,0->84,5;44,0] 
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 3 decals
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[NOCHE-DIAG] tren=36 estacion=0 hora=22:44 muro_permil=1000 zombis_cerca=
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 3 decals
+[RELOJ] hora: zona 23:02 · red 23:02
+[RELOJ-DIAG] 23:02 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[NOCHE-DIAG] tren=78 estacion=0 hora=23:02 muro_permil=1000 zombis_cerca=
+[TBD] Grietas de la muestra: 0 decals
+[Pila] tramos=37 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[TBD] Grietas de la muestra: 1 decals
+[NOCHE-DIAG] tren=110 estacion=0 hora=23:15 muro_permil=1000 zombis_cerca=
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[SOMBRA] ambientesuelo piezas (sin los trozos): | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Grieta carretera kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Balasto de la zona kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 desvío raíl kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Suelo este kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Vía 2 kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Calle de la Estación kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Paso a nivel kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Rodada larga kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack | Decal de suelo kw=False e(lin)=0/0 sh=Universal Render Pipeline/Lit gi=EmissiveIsBlack
+[SOMBRA] ambientesuelo K=0.5 balasto KB=1.5 · 72 materiales del suelo · ΔA lineal=(0.031; 0.036; 0.061) (los trozos que llegan después se suman solos)
+[NOCHE-DIAG] tren=138 estacion=0 hora=23:29 muro_permil=1000 zombis_cerca=(157,3;64,8) (157,3;64,8) (157,6;64,7) (157,3;64,8) 
+[TBD] Grietas de la muestra: 0 decals
+[TBD] Grietas de la muestra: 0 decals
+[NOCHE-DIAG] tren=157 estacion=0 hora=23:43 muro_permil=1000 zombis_cerca=(157,1;64,7) (157,3;64,8) (157,1;64,8) (157,2;64,8) (159,5;64,8) (157,2;64,6) (157,3;64,8) (157,2;64,9) 
+[TBD] Grietas de la muestra: 4 decals
+[RELOJ] hora: zona 00:00 · red 00:00
+[RELOJ-DIAG] 00:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[NOCHE-FPS] hora=00:06 estado=Jugando zombis=520 abatidos=903 tren_hp=0 estacion_hp=60000 (batch)
+[Pila] tramos=37 celdas_con_zombis=16 celdas_3_o_mas=10 max_por_celda=14 piezas=13 ocultos=63
+[RELOJ] hora: zona 01:01 · red 01:01
+[RELOJ-DIAG] 01:01 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[RELOJ] hora: zona 02:00 · red 02:00
+[RELOJ-DIAG] 02:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[Pila] tramos=37 celdas_con_zombis=18 celdas_3_o_mas=14 max_por_celda=9 piezas=15 ocultos=70
+[RELOJ] hora: zona 03:02 · red 03:02
+[RELOJ-DIAG] 03:02 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[NOCHE-FPS] hora=03:51 estado=Jugando zombis=149 abatidos=2051 tren_hp=0 estacion_hp=33872 (batch)
+[RELOJ] hora: zona 04:00 · red 04:00
+[RELOJ-DIAG] 04:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[Pila] tramos=37 celdas_con_zombis=22 celdas_3_o_mas=16 max_por_celda=8 piezas=17 ocultos=78
+[RELOJ] hora: zona 05:00 · red 05:00
+[RELOJ-DIAG] 05:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[NOCHE] Puerta de la vía (este) se abre de día (D-N202)
+[NOCHE] Puerta de vehículos (sur) se abre de día (D-N202)
+[RELOJ] hora: zona 06:00 · red 06:00
+[TBD] punto de control: amanecer del día 3
+[RELOJ-DIAG] 06:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[NOCHE] D-N202: Los últimos zombis se retiran de Nules. (tick 8461, 86 zombis, horda 2200)
+[REZAGADOS] tick 8461: 86 vivos | en pila 61: Tramo este 2×33 (17782/22536) Tramo este 4×28 (18663/22536) | dentro del recinto 38 | fuera a más de 5 m 0: ninguno
+[NOCHE] resultado=victoria causa=- abatidos=2200 bajas=0 municion_gastada_u=18,4 municion_restante_u=9,1 combustible_gastado_u=0 pila_max=88 pila_estacion_max=22 recargas=11 desync=False desync_red=False hora_fin=06:42
+[NOCHE-ARMAS] pelotones: [1 Fusileros u=6,12 abatidos=872 pila=0 abatidos_u=143 MgLigera=312 Lanzagranadas=352 Fusil=208 explosiones_Lanzagranadas=54 abatidos_por_explosion_Lanzagranadas=6,52 recargas=5 recargado_u=5,30] [2 Ametralladores u=0,44 abatidos=67 pila=0 abatidos_u=153 Fusil=67 recargas=0 recargado_u=0,00] [3 Fusileros u=5,79 abatidos=597 pila=0 abatidos_u=103 MgLigera=239 Fusil=189 Lanzagranadas=169 explosiones_Lanzagranadas=34 abatidos_por_explosion_Lanzagranadas=4,97 recargas=5 recargado_u=5,28] [4 Fusileros u=0,49 abatidos=62 pila=0 abatidos_u=126 Fusil=62 recargas=0 recargado_u=0,00] [5 Fusileros u=5,55 abatidos=602 pila=0 abatidos_u=108 Fusil=180 MgLigera=221 Lanzagranadas=201 explosiones_Lanzagranadas=31 abatidos_por_explosion_Lanzagranadas=6,48 recargas=5 recargado_u=5,28] | vehiculos: | almacen: inicio_u=0,00 fin_u=9,15 entregado_pelotones_u=15,86 entregado_vehiculos_u=0,00 | dotacion: inicio_u=16,00 fin_u=13,47 | consumo_real_u=-6,62 abatidos_pelotones=2200 abatidos_vehiculos=0 abatidos_u_total=0 abatidos_u_infanteria=120
+[RELOJ] hora: zona 07:00 · red 07:00
+[RELOJ-DIAG] 07:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[Pila] tramos=35 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[NOCHE-TRAZA] Comparación de trazas: referencia «NightSim» (130 filas) frente a «zona» (301 filas)
+  FALLO  las dos trazas no tienen ticks en común: ventanas distintas (la zona debe empezar en el mismo Night.Tick y muestrear cada 30 ticks)
+[RELOJ] hora: zona 08:00 · red 08:00
+[RELOJ-DIAG] 08:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[NOCHE-FPS] hora=08:26 estado=Victoria zombis=0 abatidos=2200 tren_hp=0 estacion_hp=30602 (batch)
+[RELOJ] hora: zona 09:00 · red 09:00
+[RELOJ-DIAG] 09:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
+[Pila] tramos=35 celdas_con_zombis=0 celdas_3_o_mas=0 max_por_celda=0 piezas=0 ocultos=0
+[RELOJ] hora: zona 10:00 · red 10:00
+[RELOJ-DIAG] 10:00 noche de Sagunto: Victoria, tick 7267, 0 zombis vivos (5250 nacidos, 173 dentro), muro 1193442/1200000, 1 soldados caídos, munición 36 u | Fusileros 8/8 (72;59) a bordo 3004 | Ametralladores 5/6 (74;69) | Granaderos 6/6 (88;77) | Tiradores 2/2 (82;77) | Zapadores 6/6 (113;70) | Tiradores azotea 1 2/2 (82;77) busy | Tiradores azotea 2 2/2 (82;77) busy
