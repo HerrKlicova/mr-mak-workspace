@@ -1,6 +1,6 @@
 {
  "version": 22,
- "fecha": "11-11 11:40",
+ "fecha": "11-11 11:50",
  "objetivo": "Una partida de 30 minutos con el núcleo de verdad (D-N186): mundo continuo con un solo reloj, zonas que se conservan al salir y volver, y órdenes dadas en la zona y rematadas con clic derecho en el mapa. Sagunto, Nules y Castellón cercada.",
  "builds": [
   {
@@ -165,7 +165,7 @@
       "Nacho"
      ],
      "bloque": "13 al 15-nov · F1",
-     "nota": "Rama iker/f1-aire: SIN VERIFICAR qué parte entra en la build."
+     "nota": "La red ya lo admite (F1); falta la interfaz para darlo con clic derecho en el campo."
     },
     {
      "m": "Órdenes de intención: Aguantar, Retrasar y Retirarse",
