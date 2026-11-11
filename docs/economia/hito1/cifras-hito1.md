@@ -77,3 +77,18 @@ Escala de tiempo (D-N208, provisional): **movimiento, combate, trenes y carga a 
 2. **Las raciones son el reloj lento** (por día de juego, 48 min reales) y la munición el rápido (minutos): se mueven en el mismo tren y compiten por las plazas.
 3. **El gasoil es el coste de moverse** (por km), no de luchar ni de esperar: hace que llevar el VAMTAC lejos pese, y que una línea larga gaste.
 4. **El material es el recurso del avance**: 1 palé = 100 m. Limpiar un caserío (4 palés) paga 400 m de vía; así el frente avanza al ritmo de lo que limpias.
+
+## 3. Calibración con NightSim (Nacho, 11-11 23:22; rama nacho/hito1 18f1cc7d, 40 semillas)
+- Pelotón de B: 4 fusiles, 2 MG ligeras, 2 lanzagranadas. Con munición sin límite: **0 bajas** en 40/40; se abate a 40–43 m de media. Las 8 bajas de la primera medida eran por quedarse seco sin retirarse: **corregido, el pelotón sin munición vuelve solo a B.**
+- k según la puntería (UnitsWorld.HitScalePm, solo en Mundo; la noche vieja no se toca): 1000 → 26,6; 4000 → 7,7; 5000 → 6,3; **6000 → 5,4**; 7000 → 4,6. **Propuesta: 6000 para el Hito 1.**
+- Sin línea, 35 cartuchos por soldado, puntería 6000: k 4,8; abate ~58 y se queda seco a mitad; se retira en 40/40, aniquilado en 1/40, 8 bajas en total. **Cumple el objetivo de Lucía.**
+
+### Cifras corregidas (sustituyen a las de la §1 donde choquen)
+| Cifra | Antes (k = 5 supuesto) | Ahora (k medido) | Motivo |
+|---|---|---|---|
+| Cartuchos por soldado | 30 | **35** | 100 × 5,4 ÷ 16 = 33,75 → 35 |
+| Caja | 120 (4 cargadores) | **105 (3 cargadores)** | con k 4,8 y una caja de 140, el pelotón limpiaba sin línea el 7,6 % de las veces (> 5 %); con 105, el 0,7 % (modelo, 1000 semillas) |
+| Munición inicial en B | 1 caja | **1 caja (105)** | lleva al pelotón a ~80 % sin limpiar |
+| Línea por defecto | 4 cajas | **4 cajas (420 cartuchos)** | con línea, 100 % limpio en el modelo |
+| Combate continuo del pelotón | 120/min | 120/min | la línea entrega 420 cada 7,2 min = 58/min: **sostiene el 49 %** de un combate continuo |
+Modelo con k 4,8 y caja 105: sin línea, primer seco p10/p50/p90 = 50/58/67, abatidos p50 80, limpio 0,7 %; con línea, 100 %. Pendiente: la prueba de Nacho con línea (recarga en B y vuelta).

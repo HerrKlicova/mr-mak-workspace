@@ -21,3 +21,4 @@ Encargo (docs/hito1-reparto.md): cifras del Hito 1 (munición por soldado, munic
 - 11-11 23:59 · Lucía, objetivo de combate para calibrar con Nacho: k 4–6 disparos por zombi; sin línea, seco a mitad SIN morir entero (se retira o aguanta con bajas); con línea, limpia con 0–2 bajas. Se corrige el combate, no la munición.
 - 11-11 00:00 · Iker (iker/nucleo-v2): Red.TextoLinea saca X de la vuelta medida; «midiendo la vuelta…» hasta la primera. Cerrado.
 - 11-11 23:10 · Terreno v2 de Álvaro: vía igual (1250 m, 16 palés); caserío a 213 m de B (antes 237). El modelo ya usaba 200 m: sin cambios en los resultados.
+- 11-11 23:25 · Nacho: k medido; puntería 6000 → k 5,4 (4,8 con munición limitada). Sin línea: seco ~58, se retira 40/40, aniquilado 1/40. Cifras: 35 cartuchos/soldado; caja = 3 cargadores (105) porque con 140 limpiaba sin línea el 7,6 %; B = 1 caja; línea 4 cajas; sostiene 49 %. Falta prueba con línea (Nacho).
