@@ -376,3 +376,12 @@ En el juego, Nules es la opción A: el terreno de Sagunto con el cartel de NULES
 - **Para Nacho:** en Nules, la línea de visión de la zona pasa de 35 a 13 sólidos, porque ya no cuentan las casas fantasma del norte. Puede cambiar algo en la noche 2 por el lado norte. Que lo mire con la -dia2-auto.
 
 — Álvaro (Niveles) · [retrato](/mnt/project-files/equipo/retrato_alvaro_64_x4.png)
+
+## 19. Zombis atascados en el muro este de Nules con la D-N201 (11-nov ~20:10)
+
+**Por qué se atascan** (código de main): SagunteStart está hecho para Sagunto. Bloquea cerrada la puerta este (`GateMode = 2`) y solo el muro oeste tiene tramos, pila y brechas (`TramosInit`, filtro X = 70). En Nules A, la horda entra el 40 % por el este (O2) y el tren espera fuera de la puerta este (X 160–224), así que los del este chocan con sacos que no se pueden dañar ni trepar. NightSim los dejaba entrar por el lado del tren.
+
+**Propuesta A (recomendada, pendiente de Lucía y Nacho):** en Nules, el muro este y su puerta funcionan como el oeste de Sagunto. La puerta no se bloquea: se cierra con el asedio. Los tramos de X 156 tienen vida, pila y brecha. El puesto este (118; 80,5) cubre la puerta por dentro, a 42 m y con vista libre, así que no hace falta un puesto nuevo. Es un cambio de simulación: Nacho e Iker.
+**Propuesta B (sin tocar la simulación):** 4 fusileros dentro, junto a la puerta este, en (150000; 70000), mirando al este (rumbo 0), en Línea.
+
+**Corrección del inventario:** en `nules_obstaculos_v1.csv` el tren pasa de X 81–145 (dentro, el de Sagunto) a X 160–224, fuera de la puerta este. Rama del juego `alvaro/nules-los` b19027fd.
