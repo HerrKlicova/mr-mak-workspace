@@ -9,6 +9,7 @@ Actualizado: 11-nov ~23:50. **Lucía aprobó el terreno y las plantillas** (22:5
 - **Plantillas** ([plantillas-asentamientos.md](plantillas-asentamientos.md)): pueblo de la huerta (260 × 220 m) y ciudad en ruinas (640 × 640 m), con 5 variantes de cada una (edificios en el esquema de obstáculos, calles, zombis y botín, y plano). Están en `docs/hito1/plantillas/`; el generador es `docs/niveles/herramientas/plantillas_hito1.py`.
 
 - **v2 del terreno (23:15, Lucía):** carretera vieja en S que corta la recta A–B una sola vez, a 58°, en (1174; 1006). Caserío movido a (1440; 1480), a 213 m de B. Polilínea de carreteras para Iker en `carreteras_hito1.csv`. A–B sigue en 1234 m.
+- **v2.1 (23:20, Nacho):** ningún zombi encima ni a menos de 1,5 m de una tapia; el generador lo comprueba. 88 zombis dentro del cercado y 12 fuera; el más cercano a una tapia, a 2,6 m. Solo cambian posiciones_hito1.csv y el plano. mr-mak 3b23945, alvaro/hito1-terreno 7a52c2b4.
 
 ## Ramas y repos
 - mr-mak-workspace, main: `docs/hito1/` y el generador.
