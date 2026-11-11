@@ -80,7 +80,7 @@ Escala de tiempo (D-N208, provisional): **movimiento, combate, trenes y carga a 
 
 ## 3. Calibración con NightSim (Nacho, 11-11 23:22; rama nacho/hito1 18f1cc7d, 40 semillas)
 - Pelotón de B: 4 fusiles, 2 MG ligeras, 2 lanzagranadas. Con munición sin límite: **0 bajas** en 40/40; se abate a 40–43 m de media. Las 8 bajas de la primera medida eran por quedarse seco sin retirarse: **corregido, el pelotón sin munición vuelve solo a B.**
-- k según la puntería (UnitsWorld.HitScalePm, solo en Mundo; la noche vieja no se toca): 1000 → 26,6; 4000 → 7,7; 5000 → 6,3; **6000 → 5,4**; 7000 → 4,6. **Propuesta: 6000 para el Hito 1.**
+- k según la puntería (UnitsWorld.HitScalePm, solo en Mundo; la noche vieja no se toca): 1000 → 26,6; 4000 → 7,7; 5000 → 6,3; **6000 → 5,4**; 7000 → 4,6. **Propuesta: 6000 para el Hito 1.** Unidad: HitScalePm va en milésimas, así que 6000 = la probabilidad de acierto de la tabla actual del fusil y las MG multiplicada por 6 (1000 = la de antes, sin cambio).
 - Sin línea, 35 cartuchos por soldado, puntería 6000: k 4,8; abate ~58 y se queda seco a mitad; se retira en 40/40, aniquilado en 1/40, 8 bajas en total. **Cumple el objetivo de Lucía.**
 
 ### Cifras corregidas (sustituyen a las de la §1 donde choquen)
