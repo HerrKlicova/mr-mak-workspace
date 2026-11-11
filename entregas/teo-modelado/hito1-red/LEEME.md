@@ -1,7 +1,7 @@
 # Hito 1 del núcleo v2: kit de vía para trazar, estación pequeña y casas en ruinas (Teo, 11-nov)
 
-Encargo de Lucía del 11-11 (`docs/hito1-reparto.md`): es el arte de la red construible que monta Iker. Son 75 modelos con LOD0
-y LOD1 (150 FBX) y una sola `T_Paleta32.png` (URP/Lit, `_BaseMap` = paleta), exportados con `--costado 88885c --claro b8b8b8`.
+Encargo de Lucía del 11-11 (`docs/hito1-reparto.md`): es el arte de la red construible que monta Iker. Son 95 modelos con LOD0
+y LOD1 (190 FBX) y una sola `T_Paleta32.png` (URP/Lit, `_BaseMap` = paleta), exportados con `--costado 88885c --claro b8b8b8`.
 Las medidas son **típicas, de memoria (SIN VERIFICAR)**. Propongo la carpeta `Resources/Models/Red`.
 
 ## 1. Kit de vía (`SM_Via_<Pieza>_v<k>_<Variante>`)
@@ -61,6 +61,21 @@ lado baja a 0,08 m en 6 m de rampa.
 
 **La recta A–B del terreno corta la carretera a unos 11°**, y eso es demasiado sesgado para un paso a nivel. El mínimo de la pieza es
 30°, así que hay que doblar la vía (o la carretera) cerca del cruce. Lo tiene que decidir Lucía con Álvaro.
+
+**Espejo (12-11, captura i2_cruce2 de Iker): `SM_PasoNivel_<ángulo>E_…`.** Es la misma pieza, simétrica respecto al eje de la vía.
+La carretera cruza hacia el otro lado, y eso no se consigue girando la pieza. Para elegir:
+- **Sin espejo:** yendo de A a B, el extremo D de la carretera queda delante y a la **derecha**.
+- **Con espejo (E):** delante y a la **izquierda**. Los conectores son los de la tabla con la y cambiada de signo.
+
+En Unity, con t = dirección de la vía de A a B y r = dirección de la carretera hacia delante (t·r > 0), en el plano XZ:
+- t.x·r.z − t.z·r.x **< 0** → pieza normal.
+- t.x·r.z − t.z·r.x **> 0** → pieza E.
+- El ángulo es acos(t·r), redondeado a 90, 60, 45 o 30.
+
+Las barreras del espejo también suben girando sobre su X local con el mismo signo. Los colores son los mismos que los de la pieza
+sin espejo (comprobado celda a celda).
+
+![normal y espejo, 60°](espejo_60_normal_y_E.png)
 
 **Jerarquía** (mira a +Z en Unity):
 - `Barrera_1` y `Barrera_2`, hijas del cuerpo: los brazos bajados, con el origen en su eje. Suben girando unos 85° sobre su X
@@ -280,3 +295,43 @@ La cal d4d0cc, que es la de la selección, no se usa. El único oscuro es 48403c
 | SM_PasoNivel_30_v3_Militar | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 696, 48403c 448, 847c34 312, 6c7874 280, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 7c3c18 18 |
 | SM_PasoNivel_30_v4_Catenaria | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1440, 6c7874 616, 48403c 544, 88885c 200, 94948c 168, 605c48 48, 60546c 24 |
 | SM_PasoNivel_30_v4_Catenaria | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 600, 48403c 448, 6c7874 424, 88885c 200, 94948c 168, 605c48 48, 60546c 24 |
+| SM_PasoNivel_90E_v0_Teja | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 984, 6c7874 472, 48403c 416, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_90E_v0_Teja | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 384, 48403c 320, 6c7874 280, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_90E_v1_FocosDobles | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 1008, 48403c 560, 6c7874 472, 94948c 144, 88885c 136, 605c48 72, 60546c 24 |
+| SM_PasoNivel_90E_v1_FocosDobles | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 408, 48403c 368, 6c7874 280, 94948c 144, 88885c 136, 605c48 72, 60546c 24 |
+| SM_PasoNivel_90E_v2_Abandonado | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1032, 6c7874 472, 48403c 464, 94948c 144, 847c34 144, 70784c 144, 88885c 136, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_90E_v2_Abandonado | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 432, 48403c 368, 6c7874 280, 94948c 144, 88885c 136, 847c34 72, 70784c 72, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_90E_v3_Militar | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1080, 6c7874 472, 48403c 416, 847c34 312, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_90E_v3_Militar | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 480, 48403c 320, 847c34 312, 6c7874 280, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_90E_v4_Catenaria | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 984, 6c7874 616, 48403c 416, 94948c 168, 88885c 136, 605c48 48, 60546c 24 |
+| SM_PasoNivel_90E_v4_Catenaria | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: 6c7874 424, b8b8b8 384, 48403c 320, 94948c 168, 88885c 136, 605c48 48, 60546c 24 |
+| SM_PasoNivel_60E_v0_Teja | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 984, 6c7874 472, 48403c 416, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_60E_v0_Teja | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 384, 48403c 320, 6c7874 280, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_60E_v1_FocosDobles | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 1008, 48403c 560, 6c7874 472, 94948c 144, 88885c 136, 605c48 72, 60546c 24 |
+| SM_PasoNivel_60E_v1_FocosDobles | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 408, 48403c 368, 6c7874 280, 94948c 144, 88885c 136, 605c48 72, 60546c 24 |
+| SM_PasoNivel_60E_v2_Abandonado | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1032, 6c7874 472, 48403c 464, 94948c 144, 847c34 144, 70784c 144, 88885c 136, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_60E_v2_Abandonado | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 432, 48403c 368, 6c7874 280, 94948c 144, 88885c 136, 847c34 72, 70784c 72, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_60E_v3_Militar | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1080, 6c7874 472, 48403c 416, 847c34 312, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_60E_v3_Militar | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 480, 48403c 320, 847c34 312, 6c7874 280, 94948c 144, 88885c 136, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_60E_v4_Catenaria | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 984, 6c7874 616, 48403c 416, 94948c 168, 88885c 136, 605c48 48, 60546c 24 |
+| SM_PasoNivel_60E_v4_Catenaria | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: 6c7874 424, b8b8b8 384, 48403c 320, 94948c 168, 88885c 136, 605c48 48, 60546c 24 |
+| SM_PasoNivel_45E_v0_Teja | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1440, 48403c 544, 6c7874 472, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_45E_v0_Teja | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 600, 48403c 448, 6c7874 280, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_45E_v1_FocosDobles | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 1464, 48403c 688, 6c7874 472, 88885c 200, 94948c 144, 605c48 72, 60546c 24 |
+| SM_PasoNivel_45E_v1_FocosDobles | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 624, 48403c 496, 6c7874 280, 88885c 200, 94948c 144, 605c48 72, 60546c 24 |
+| SM_PasoNivel_45E_v2_Abandonado | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1488, 48403c 592, 6c7874 472, 847c34 216, 70784c 216, 88885c 200, 94948c 144, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_45E_v2_Abandonado | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 648, 48403c 496, 6c7874 280, 88885c 200, 94948c 144, 847c34 120, 70784c 120, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_45E_v3_Militar | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1536, 48403c 544, 6c7874 472, 847c34 312, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_45E_v3_Militar | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 696, 48403c 448, 847c34 312, 6c7874 280, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_45E_v4_Catenaria | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1440, 6c7874 616, 48403c 544, 88885c 200, 94948c 168, 605c48 48, 60546c 24 |
+| SM_PasoNivel_45E_v4_Catenaria | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 600, 48403c 448, 6c7874 424, 88885c 200, 94948c 168, 605c48 48, 60546c 24 |
+| SM_PasoNivel_30E_v0_Teja | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1440, 48403c 544, 6c7874 472, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_30E_v0_Teja | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 600, 48403c 448, 6c7874 280, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 60546c 24, 7c3c18 18 |
+| SM_PasoNivel_30E_v1_FocosDobles | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 1464, 48403c 688, 6c7874 472, 88885c 200, 94948c 144, 605c48 72, 60546c 24 |
+| SM_PasoNivel_30E_v1_FocosDobles | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 352; Luces_B: 48403c 352; RAIZ: b8b8b8 624, 48403c 496, 6c7874 280, 88885c 200, 94948c 144, 605c48 72, 60546c 24 |
+| SM_PasoNivel_30E_v2_Abandonado | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1488, 48403c 592, 6c7874 472, 847c34 216, 70784c 216, 88885c 200, 94948c 144, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_30E_v2_Abandonado | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 94948c 68, 48403c 48, b8b8b8 24; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 648, 48403c 496, 6c7874 280, 88885c 200, 94948c 144, 847c34 120, 70784c 120, 60546c 48, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_30E_v3_Militar | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1536, 48403c 544, 6c7874 472, 847c34 312, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_30E_v3_Militar | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 696, 48403c 448, 847c34 312, 6c7874 280, 88885c 200, 94948c 144, 605c48 48, b4a080 24, 7c3c18 18 |
+| SM_PasoNivel_30E_v4_Catenaria | LOD0 | Barrera_1: b8b8b8 72, 48403c 72, 94948c 68; Barrera_2: b8b8b8 72, 48403c 72, 94948c 68; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 1440, 6c7874 616, 48403c 544, 88885c 200, 94948c 168, 605c48 48, 60546c 24 |
+| SM_PasoNivel_30E_v4_Catenaria | LOD1 | Barrera_1: 48403c 72, 94948c 68, b8b8b8 48; Barrera_2: 48403c 72, 94948c 68, b8b8b8 48; Luces_A: 48403c 176; Luces_B: 48403c 176; RAIZ: b8b8b8 600, 48403c 448, 6c7874 424, 88885c 200, 94948c 168, 605c48 48, 60546c 24 |
