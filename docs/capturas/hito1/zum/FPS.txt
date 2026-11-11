@@ -1,0 +1,5 @@
+Niveles del zum (Mundo4, -fpslog, sin vsync, RTX 5080, 1920x1080):
+- 1800 m (MAPA): ~600 fps
+- 600 m (COMARCA): ~920 fps
+- 120 m (PUEBLO): ~1000 fps
+- 6 m (SOLDADO): ~930 fps
