@@ -1,0 +1,79 @@
+# Cifras del Hito 1 y consumos del corte completo · Hugo (Economía), 11-11 23:40
+Encargo: docs/hito1-reparto.md. Plan: docs/plan-nucleo-v2.md (§5 bis). Modelo: `modelo_hito1.py` (enteros, como pide la D-N206). Lo que no está medido va marcado SIN VERIFICAR.
+
+## 0. La cifra que lo decide todo: k (cartuchos por zombi abatido)
+Todo el Hito 1 cuelga de **k**, cuántos cartuchos gasta un soldado por zombi abatido. Hoy no está medido para un pelotón a pie contra un caserío. Por eso las cifras van **atadas a k con una regla**, para que, cuando Nacho mida k en NightSim con el pelotón con munición, salgan solas sin rehacer nada.
+
+**Valor de trabajo: k = 5** (SIN VERIFICAR). Razón: con zombis hay que acertar a la cabeza, y en la zona del juego viejo se abatía 1,6–1,9 veces menos por munición que en NightSim (pulido del 19), así que prefiero quedarme alto.
+
+## 1. Cifras del Hito 1
+| Cifra | Valor (k = 5) | Regla (para cualquier k) | Por qué |
+|---|---|---|---|
+| Zombis del caserío | 100 | — | D-N207 |
+| Soldados del pelotón | 8 | — | un pelotón |
+| **Cartuchos por soldado** | **30** (1 cargador) | cargador = 100 × k ÷ 16, redondeado a 5 | el pelotón entero (8 × 30 = 240) llega para la **mitad** del caserío |
+| Caja de munición | 120 cartuchos (4 cargadores) | 4 cargadores | unidad de carga del tren y del almacén |
+| **Munición inicial en B** | **1 caja (120)** | 1 caja | rearmarse una vez en B lleva al pelotón al **75 %**, y ahí se queda sin la línea |
+| Munición inicial en A | 20 cajas | — | no hay producción en el Hito 1 |
+| **Capacidad del tren** | **6 plazas** (2 vagones × 3) | — | 1 plaza = 1 caja de munición o 1 palé de material |
+| Orden por defecto de la línea | A → B: 4 cajas; B → A: lo que haya de material (2 plazas) | — | la línea lleva munición y trae material en el mismo viaje |
+| Velocidad del tren | 40 km/h | — | vía de obra |
+| Carga y descarga | 15 s por plaza | — | se ve cargar sin aburrir |
+| **Tiempo de la línea** (vía A–B de 1250 m, Álvaro) | ida 112 s; **ciclo 6,7 min** | ciclo = 2 × vía ÷ velocidad + 15 s × 12 plazas movidas | 1234 m en recta + entradas (docs/hito1/terreno/posiciones_hito1.csv) |
+| **Entrega de la línea** | **4 cajas por viaje, un viaje cada 6,7 min reales** (36 cajas por hora real) | 4 cajas por ciclo | en pantalla «por viaje», no «por hora»: con el reloj a ×30 (D-N208) la hora confunde |
+| Consumo del pelotón en combate | 120 cartuchos/min = 7200/h | 8 × 15 por minuto | **la línea sostiene el 60 % de un combate continuo**: se ve que una línea sola no alimenta un frente en lucha sin pausa |
+| **Material del caserío** | **4 palés** | — | 2 viajes de vuelta del tren; 1 palé = 100 m de vía |
+| Material inicial en A | **16 palés** | techo(vía ÷ 100 m) + piezas especiales + 2 | 13 de recta + 1 más por el paso a nivel con la carretera vieja (cruce = 2) + 2 de margen; el caserío da 400 m más |
+| Distancia B–caserío | 237 m al centro, ~160 m al borde (Álvaro) | — | el modelo usa 200 m: ir y volver, 2 × 143 s andando |
+| Tiempo de trazado y línea | ~2 min | — | supuesto del modelo |
+
+### Medida (modelo, 1000 semillas por caso; cada disparo abate con probabilidad 1/k)
+| k | Cargador / caja | Sin línea: primer «sin munición» (p10 / p50 / p90 de zombis abatidos) | Sin línea: abatidos al final (p50) | Sin línea: caserío limpio | Con línea: caserío limpio | Con línea: tiempo hasta limpiarlo (p50, B–caserío 150 / 200 m) |
+|---|---|---|---|---|---|---|
+| 4 | 25 / 100 | 42 / 50 / 58 | 75 | 0,4 % | **100 %** | 12,2 / 10,4 min |
+| **5** | **30 / 120** | **40 / 48 / 56** | **72** | **0 %** | **100 %** | 13,1 / 16,0 min |
+| 6 | 40 / 160 | 45 / 54 / 62 | 80 | 0,9 % | **100 %** | 10,3 / 12,1 min |
+
+**Lectura:** con la regla, el pelotón se queda seco a mitad del caserío (p50 48–54 de 100), el rearme en B lo lleva a unos tres cuartos y ahí se para; con la línea lo termina siempre. Funciona igual para k de 4 a 6, que es lo que buscaba: la historia no depende de acertar k, solo el tamaño del cargador.
+**Límite del modelo:** no simula bajas ni que los zombis se acerquen; el pelotón dispara hasta vaciar. Si en NightSim el pelotón pierde hombres, quedarse seco a mitad pasa a ser peligroso, que me parece bien, pero hay que medirlo.
+
+### Lo que pido a Nacho para cerrar
+1. **k**: pelotón de 8 con fusiles contra los 100 del caserío, munición sin límite, 200 semillas: cartuchos gastados ÷ abatidos (p10, p50, p90), y bajas.
+2. Con la regla aplicada a ese k: pelotón con 1 cargador y 1 caja en B, sin línea y con un tren que deja 4 cajas en B a los ~4 min. Objetivo: sin línea, caserío limpio ≤ 5 %; con línea, ≥ 95 %.
+
+## 2. Corte completo: consumos de los cuatro recursos (ajustado a la D-N208)
+Escala de tiempo (D-N208, provisional): **movimiento, combate, trenes y carga a 1:1**; el reloj de día y noche a ×30 (1 día de juego = 48 min reales: ~28 de día y ~20 de noche; 1 hora de juego = 2 min reales). **La munición y el gasoil se gastan por acción** (disparo, metro recorrido, metro de vía); **las raciones y el desgaste, por día de juego.** No hay consumo «por hora» en reposo de munición ni de gasoil.
+
+| Recurso | Unidad | Quién consume | Por acción | Por día de juego | Notas |
+|---|---|---|---|---|---|
+| **Munición** | cartucho (caja de 120) | fusilero | 1 por disparo; 15 por minuto real de combate | — | k = 5 cartuchos por zombi (SIN VERIFICAR) |
+| | | ametrallador | 60 por minuto real de combate | — | 1 caja = 2 min de fuego |
+| | | VAMTAC con ametralladora | 60 por minuto real de combate | — | de la misma caja |
+| **Gasoil** | litro (bidón de 20 L) | VAMTAC | 20 L por 100 km recorridos (1 L cada 5 km) | — | depósito 80 L = 400 km |
+| | | locomotora diésel | 3 L por km recorrido | — | ciclo A–B del Hito 1 (2,5 km): ~7,5 L |
+| | | cuadrilla de vía | 10 L por cada 100 m tendidos | — | la máquina de tender |
+| **Raciones** | ración (caja de 24) | soldado u obrero | — | 3 (se cobran al amanecer) | sin raciones: −moral al primer día; deserción desde el tercero (detalle, Lucía) |
+| **Desgaste** (sin recurso propio en el MVP) | — | vehículos y vía | — | (Lucía) | si se le pone coste, en palés de material |
+| **Material de vía** | palé | tender vía recta | 1 por 100 m | — | |
+| | | curva / desvío / topera / cruce | 1,5 por 100 m de curva / 2 / 1 / 2 por pieza | — | |
+| | | estación pequeña | 5 | — | |
+| | | reparar vía cortada | 1 por cada 50 m dañados | — | |
+
+### Autonomía (lo que el jugador debe ver en cada almacén y unidad)
+| Caso | Cuenta | Resultado |
+|---|---|---|
+| Pelotón con 1 cargador por soldado | 30 ÷ 15 por minuto | 2 min reales de fuego, unos 48 zombis |
+| Pelotón con 1 caja de reserva | 120 ÷ 120 por minuto | 1 min real más |
+| 1 caja de raciones | 24 ÷ 3 por soldado y día | 8 soldados un día (48 min reales) |
+| Guarnición de 24 con 1 caja de raciones | 24 ÷ 72 al día | un tercio de día: ~16 min reales |
+| VAMTAC con el depósito lleno | 80 L ÷ 1 L cada 5 km | 400 km (a 1:1 son horas reales de conducción: el gasoil pesa por distancia, no por tiempo) |
+| Línea de 4 cajas cada 6,7 min reales | 36 cajas por hora real (= 18 por hora de juego) | sostiene a 1 pelotón en combate el 60 % del tiempo |
+| Raciones de 1 pelotón al día | 8 × 3 = 24 | 1 caja = 1 plaza de tren por pelotón y día: en un tren de 6 plazas, las raciones de 3 pelotones ocupan la mitad de un viaje diario |
+
+**Aviso de unidades en pantalla:** como el reloj va a ×30 y el movimiento a 1:1, «por hora» confunde. Propongo mostrar la munición y la entrega de las líneas **por minuto real** (o «por viaje») y las raciones **por día**. «36 cajas/h» de la línea sería «4 cajas por viaje · un viaje cada 6,7 min» (aprobado por Lucía; el 6,6 era con 1200 m).
+
+### Reglas de equilibrio que propongo para el corte
+1. **Una línea no basta para un frente en combate continuo** (sostiene el 60 % de un pelotón). Obliga a elegir: segunda línea, tren más largo o pausas en el frente.
+2. **Las raciones son el reloj lento** (por día de juego, 48 min reales) y la munición el rápido (minutos): se mueven en el mismo tren y compiten por las plazas.
+3. **El gasoil es el coste de moverse** (por km), no de luchar ni de esperar: hace que llevar el VAMTAC lejos pese, y que una línea larga gaste.
+4. **El material es el recurso del avance**: 1 palé = 100 m. Limpiar un caserío (4 palés) paga 400 m de vía; así el frente avanza al ritmo de lo que limpias.
