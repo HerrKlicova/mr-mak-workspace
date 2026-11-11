@@ -92,3 +92,13 @@ Escala de tiempo (D-N208, provisional): **movimiento, combate, trenes y carga a 
 | Línea por defecto | 4 cajas | **4 cajas (420 cartuchos)** | con línea, 100 % limpio en el modelo |
 | Combate continuo del pelotón | 120/min | 120/min | la línea entrega 420 cada 7,2 min = 58/min: **sostiene el 49 %** de un combate continuo |
 Modelo con k 4,8 y caja 105: sin línea, primer seco p10/p50/p90 = 50/58/67, abatidos p50 80, limpio 0,7 %; con línea, 100 %. Pendiente: la prueba de Nacho con línea (recarga en B y vuelta).
+
+## 4. Medida final (Nacho, 11-11 23:55; nacho/hito1 dd639af8, 100 semillas, puntería 6000 ‰ = acierto ×6, 35 cartuchos, B con 1 caja de 105, recarga en B del almacén de la red)
+| | Sin línea | Con línea (4 cajas en B a los 4 min) |
+|---|---|---|
+| Caserío limpio en 20 min | **0/100** | **96/100** |
+| k global | 4,8 | 5,2 |
+| Bajas | 0 en total | 1 en total |
+| Aniquilado | 0/100 | 0/100 |
+| Al acabar | quedan 41,6 zombis de media; el pelotón se retira y espera en B | 0,1 de media; tiempo p50 690 s (11,5 min) |
+**Cumple los tres objetivos de Lucía** (sin línea ≤ 5 % y sin morir; con línea ≥ 95 % con 0–2 bajas). Constante en el juego: Mundo.CartuchosPorCaja = 105.
