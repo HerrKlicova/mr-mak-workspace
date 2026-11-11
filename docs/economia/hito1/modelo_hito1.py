@@ -14,7 +14,7 @@ P = {
     "plazas_tren": 6,               # 2 vagones x 3 plazas; una plaza = 1 caja de munición o 1 palé de material
     "linea_cajas_viaje": 4,         # orden por defecto de la línea A -> B
     "via_ab_m": 1250,               # Álvaro 11-11: 1234 m en recta + entradas (posiciones_hito1.csv)
-    "b_caserio_m": 200,             # Álvaro: 237 m de B al centro, ~160 m al borde; se usa 200
+    "b_caserio_m": 200,             # Álvaro, terreno v2: 213 m de B al centro; se usa 200
     "tren_mm_s": 11111,             # 40 km/h
     "paso_mm_s": 1400,              # soldado andando
     "carga_s_plaza": 15,            # carga o descarga, por plaza

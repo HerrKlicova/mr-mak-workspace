@@ -24,7 +24,7 @@ Todo el Hito 1 cuelga de **k**, cuántos cartuchos gasta un soldado por zombi ab
 | Consumo del pelotón en combate | 120 cartuchos/min = 7200/h | 8 × 15 por minuto | **la línea sostiene el 56 % de un combate continuo** (480 cartuchos cada 7,2 min frente a 120 por minuto): se ve que una línea sola no alimenta un frente en lucha sin pausa |
 | **Material del caserío** | **4 palés** | — | 2 viajes de vuelta del tren; 1 palé = 100 m de vía |
 | Material inicial en A | **16 palés** | techo(vía ÷ 100 m) + piezas especiales + 2 | 13 de recta + 1 más por el paso a nivel con la carretera vieja (cruce = 2) + 2 de margen; el caserío da 400 m más |
-| Distancia B–caserío | 237 m al centro, ~160 m al borde (Álvaro) | — | el modelo usa 200 m: ir y volver, 2 × 143 s andando |
+| Distancia B–caserío | 213 m al centro (terreno v2 de Álvaro; antes 237) | — | el modelo usa 200 m: ir y volver, 2 × 143 s andando |
 | Tiempo de trazado y línea | ~2 min | — | supuesto del modelo |
 
 ### Medida (modelo, 1000 semillas por caso; cada disparo abate con probabilidad 1/k)
