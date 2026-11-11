@@ -7,3 +7,8 @@ Punto 5 (noche 2 de Nules), con -menu-auto -dia2-auto -socorro-auto: S1. «resul
 Punto 7 (socorro): con -socorro-auto no sale ninguna linea de socorro ni de cerco en el log. Hay que confirmar con Iker la bandera.
 -dia2-auto-enzona: la emboscada en la zona deja 3 zombis vivos, el paso 6 no se cierra y la corrida se queda en Nules (12:43,
   2497 abatidos). Es una limitacion de mi bandera, no del juego.
+
+Punto 5 repetido con -nightbot (como pidio Iker): «resultado=victoria abatidos=2200 bajas=0 municion_restante_u=12,3 pila_estacion_max=0
+  desync=False desync_red=False hora_fin=05:11». Titulo «Nules · 5 pelotones». La derrota de antes fue por correr sin bot (nadie da ordenes).
+Punto 7 corrido solo (-menu-auto -socorro-auto): el tren sale con 20 u y 1 peloton («Sin escolta», porque sale antes de que el peloton suba)
+  y no llega a Castellon («18:47: en marcha True, puertas 4, parada 5, estado Parado»). Sin resultado del cerco. Log: qa53_socorro.log.
