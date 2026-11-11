@@ -1,6 +1,6 @@
 {
- "version": 22,
- "fecha": "11-11 11:50",
+ "version": 23,
+ "fecha": "11-11 19:45",
  "objetivo": "Una partida de 30 minutos con el núcleo de verdad (D-N186): mundo continuo con un solo reloj, zonas que se conservan al salir y volver, y órdenes dadas en la zona y rematadas con clic derecho en el mapa. Sagunto, Nules y Castellón cercada.",
  "builds": [
   {
@@ -28,10 +28,22 @@
    "nota": "Jugada por Eugenio. Fallos: los muros desaparecen al salir al mapa y volver (en el tutorial), y bandas negras en Nules de día."
   },
   {
-   "nombre": "I-Noche152",
+   "nombre": "I-Noche158",
+   "estado": "interna",
+   "cuando": "11-11 tarde",
+   "nota": "F1 fusionada a main. Tutorial completo, salir y volver con Sagunto igual, etiquetas del mapa sin pisarse. 1406 pruebas en verde."
+  },
+  {
+   "nombre": "I-Noche159",
+   "estado": "entregada",
+   "cuando": "11-11 tarde",
+   "nota": "Tutorial, muros al volver, noches, etiquetas, pelotón y línea de visión arreglados. La noche 2 de Nules se gana con órdenes. El socorro de Castellón no llega."
+  },
+  {
+   "nombre": "I-Noche160",
    "estado": "en curso",
-   "cuando": "Iker · 11-11",
-   "nota": "Arreglo de los muros al volver y bruma solo de noche (claude/bruma-dia; la calima de D-N197 entra si llega a tiempo). Iker la prueba por dentro antes de darla."
+   "cuando": "Iker",
+   "nota": "Arreglo del socorro de Castellón (escolta que sube antes de salir y llegada al cerco) y, si da tiempo, la puerta E4 abierta (D-N198)."
   },
   {
    "nombre": "Hito 19-11",
@@ -42,44 +54,36 @@
  ],
  "alertas": [
   {
-   "texto": "11-11 11:40 · REVISIÓN DEL MVP tras las partidas de Eugenio con la 150 y la 151. Lo jugable funciona: tutorial, defensa de día y de noche, red de 3 estaciones, trenes y escolta. Pero el núcleo que Eugenio explicó el 09-11 todavía no está: la zona no se conserva al salir y volver (los muros desaparecen), no se pueden mandar unidades a cualquier punto y el tren no se carga en la estación. Hasta el 19-11 se trabaja en ese orden: primero lo roto, luego la persistencia y luego las órdenes.",
+   "texto": "11-11 19:45 · Al día con la I-Noche159. Arreglados: tutorial, muros al volver, noches, etiquetas, pelotón y línea de visión. La noche 2 de Nules se gana con órdenes. Siguen rotos el socorro de Castellón (Iker, 160) y el reloj de la zona, que no coincide con el de la red (Nacho). Eugenio pide pulir: el pulido hasta el 19-11 está repartido entre todo el equipo.",
    "quien": [
     "Lucía"
    ]
   },
   {
-   "texto": "ROTO · Muros que desaparecen al salir al mapa y volver a la zona (I-Noche151, durante el tutorial). Es un fallo de persistencia: va lo primero.",
+   "texto": "ROTO · Reloj: la hora de la zona y la de la red no coinciden, y con el tutorial la de la zona se queda parada mientras la horda sigue (qa53 de la 158). Es el pilar TIEMPO REAL: va antes que cualquier pulido.",
+   "quien": [
+    "Nacho",
+    "Iker"
+   ]
+  },
+  {
+   "texto": "ROTO · Socorro de Castellón: el tren sale sin escolta y no llega al cerco (qa53 de la 159). Iker lo arregla en la 160.",
    "quien": [
     "Iker"
    ]
   },
   {
-   "texto": "ROTO · Bandas negras en Nules de día: era la bruma del borde (D-N182), que no se apagaba de día. Arreglado en rama, sin compilar; de día va una calima clara al 35 % (D-N197). Falta la captura de comprobación.",
+   "texto": "LIMPIEZA · Unas 25.000 líneas por corrida de «CollisionMeshData… UCX_PilaZombi»: las mallas de colisión de la pila no se pueden leer. Ensucia el log y puede costar rendimiento.",
    "quien": [
-    "Bruno",
-    "Iker"
-   ]
-  },
-  {
-   "texto": "ARREGLADO · La noche del tutorial se saltaba (reloj a las 06:00 sin zombis, I-Noche150). Arreglado en la 151.",
-   "quien": [
-    "Iker"
-   ]
-  },
-  {
-   "texto": "SIN VERIFICAR en partida · Lo que se decidió el 10-11 está medido en NightSim y en la -dia2-auto, pero nadie lo ha jugado: D-N193 (solo atacan los de dentro del recinto), D-N194 (Nules con 20 fusileros, 4 ametralladores y puesto este), D-N188 y D-N196 (socorro de Castellón: cerco de 4400 con 17 u, y la tropa baja sola), D-N197 (calima). La qa53 de Sara lo comprueba.",
-   "quien": [
-    "Sara",
-    "Iker",
-    "Nacho"
-   ]
-  },
-  {
-   "texto": "SIN VERIFICAR · Los fallos que vio Eugenio en la 110 (VAMTAC invisible, vehículo atascado en el muro, zombis que atraviesan el VAMTAC, pelotón que no usa la abertura, cartel de Sagunto tapado, símbolos del mapa y hordas en negro): no consta que se hayan comprobado uno a uno. Entran en la lista de la qa53.",
-   "quien": [
-    "Sara",
-    "Marcos",
+    "Teo",
     "Bruno"
+   ]
+  },
+  {
+   "texto": "CONFUSO · Al volver a la zona a las 22:00 salen seguidos «empieza la noche de Sagunto» y «resultado=victoria». Si la noche ya está resuelta, no se anuncia otra vez.",
+   "quien": [
+    "Iker",
+    "Lucía"
    ]
   },
   {
@@ -107,12 +111,12 @@
     {
      "m": "Al volver, la zona está como la dejaste (muros, daños, tropa)",
      "dn": "D-N186",
-     "estado": "roto",
+     "estado": "build",
      "quien": [
       "Iker"
      ],
-     "bloque": "11 y 12-nov",
-     "nota": "I-Noche151: los muros desaparecen al volver del mapa."
+     "bloque": "qa53",
+     "nota": "Arreglado en la 159: Sagunto vuelve igual, con tutorial y sin él (muro al 999 ‰, 113 tramos, 31 obras). Faltan Nules y Castellón, los daños, la posición de la tropa y los sacos, con capturas."
     },
     {
      "m": "Persistencia de zonas: todo el estado de la zona vive en la simulación, con prueba de mismo hash",
@@ -127,13 +131,13 @@
     {
      "m": "Un solo reloj, sin saltos al cambiar de vista",
      "dn": "D-N186",
-     "estado": "hecho",
+     "estado": "roto",
      "quien": [
       "Iker",
       "Nacho"
      ],
-     "bloque": "",
-     "nota": "En la 150 la noche del tutorial se saltaba; arreglado en la 151."
+     "bloque": "Nacho · 12-nov",
+     "nota": "qa53 de la 158: la hora de la zona y la de la red no coinciden (zona 02:41, red 19:24), y con el tutorial la de la zona se queda parada mientras la horda sigue. Rompe TIEMPO REAL."
     },
     {
      "m": "La simulación es la misma mires o no (lockstep)",
@@ -144,7 +148,7 @@
       "Iker"
      ],
      "bloque": "",
-     "nota": "El cerco de Castellón baja por la red sin desincronizar (I-Noche147). Falta verlo jugando."
+     "nota": "Ninguna desincronización en las corridas de la 158 y la 159, y el cerco de Castellón baja por la red sin desincronizar (147)."
     },
     {
      "m": "Seleccionar en la zona y rematar con clic derecho en el mapa, con imán a la estación",
@@ -165,7 +169,7 @@
       "Nacho"
      ],
      "bloque": "13 al 15-nov · F1",
-     "nota": "La red ya lo admite (F1); falta la interfaz para darlo con clic derecho en el campo."
+     "nota": "La red ya lo admite (F1, fusionada a main en la 158); falta la interfaz para darlo con clic derecho en el campo."
     },
     {
      "m": "Órdenes de intención: Aguantar, Retrasar y Retirarse",
@@ -197,6 +201,17 @@
       "Nacho"
      ],
      "bloque": "17-nov"
+    },
+    {
+     "m": "Puerta de vehículos E4 de Sagunto abierta al empezar",
+     "dn": "D-N198",
+     "estado": "pendiente",
+     "quien": [
+      "Iker",
+      "Nacho"
+     ],
+     "bloque": "12-nov",
+     "nota": "Aprobado por Eugenio. Se cierra con el asedio, como las demás puertas."
     }
    ]
   },
@@ -231,7 +246,8 @@
       "Marcos",
       "Nacho"
      ],
-     "bloque": ""
+     "bloque": "",
+     "nota": "Línea de visión comprobada en Sagunto (35 sólidos). Nules no tiene todavía su inventario de obstáculos, así que allí no hay regla (Álvaro)."
     },
     {
      "m": "La primera horda ataca de día (tutorial)",
@@ -257,13 +273,13 @@
     {
      "m": "Solo atacan la estación los zombis que están dentro del recinto",
      "dn": "D-N193",
-     "estado": "build",
+     "estado": "hecho",
      "quien": [
       "Nacho",
       "Iker"
      ],
      "bloque": "qa53",
-     "nota": "98 % en NightSim."
+     "nota": "La noche 2 de Nules se gana en la 159."
     },
     {
      "m": "Vehículos: modelo visible, sin atascos y rodeados por los zombis",
@@ -274,7 +290,7 @@
       "Nacho"
      ],
      "bloque": "qa53",
-     "nota": "Fallos de la 110. SIN VERIFICAR si siguen."
+     "nota": "Siluetas arregladas en la 158 (Dragón 3 × 8 m, VAMTAC 2,2 × 5 m). No salían del fuerte porque la puerta E4 empezaba cerrada: desde la D-N198 empieza abierta. Los zombis van también a por los vehículos en marcha (D-N148 revisada)."
     }
    ]
   },
@@ -304,24 +320,24 @@
     {
      "m": "Nules: 20 fusileros, 4 ametralladores y puesto este",
      "dn": "D-N194",
-     "estado": "build",
+     "estado": "hecho",
      "quien": [
       "Álvaro",
       "Iker"
      ],
      "bloque": "qa53",
-     "nota": "200/200 en NightSim, también con 4 bajas en la escolta."
+     "nota": "I-Noche159 con -nightbot: victoria, 0 bajas y 12,3 u de sobra. Se gana dando órdenes; sin órdenes se pierde, como debe ser."
     },
     {
      "m": "Socorro de Castellón: cerco de 4400 y tropa que baja sola",
      "dn": "D-N188 · D-N196",
-     "estado": "build",
+     "estado": "roto",
      "quien": [
       "Iker",
       "Nacho"
      ],
-     "bloque": "15 y 16-nov",
-     "nota": "82 % con 17 u. Probado de punta a punta en la 147, sin la bajada automática."
+     "bloque": "Iker · 160",
+     "nota": "qa53 de la 159: el tren sale «Sin escolta», porque arranca antes de que suba el pelotón, y se queda parado sin llegar a Castellón. Iker lo arregla en la 160."
     },
     {
      "m": "NH90 desde Bétera con 3 u por vuelo",
@@ -377,7 +393,7 @@
       "Lucía"
      ],
      "bloque": "",
-     "nota": "Jugado en la 151; falla al volver del mapa (ver núcleo)."
+     "nota": "Completo en la 158 (28 pasos); ya no se fuerza el ataque rechazado. Al volver del mapa ya no se pierden los muros (159)."
     }
    ]
   },
@@ -413,18 +429,18 @@
       "Iker"
      ],
      "bloque": "qa53",
-     "nota": "Fallos de la 110."
+     "nota": "Etiquetas comprobadas a 40, 150 y 300 km sin pisarse (a 300 km se agrupan). Falta comprobar las hordas en rojo."
     },
     {
      "m": "Borde de la zona sin bandas negras: calima clara de día y bruma de noche",
      "dn": "D-N182 · D-N197",
-     "estado": "roto",
+     "estado": "build",
      "quien": [
       "Bruno",
       "Iker"
      ],
-     "bloque": "11 y 12-nov",
-     "nota": "Rama claude/bruma-dia, sin compilar."
+     "bloque": "Bruno · captura",
+     "nota": "Bruma solo de noche y calima clara de día (D-N197), en rama. Falta la captura de comprobación."
     }
    ]
   },
@@ -648,13 +664,18 @@
    "v": 22,
    "fecha": "11-11 11:40",
    "cambio": "Revisión completa tras las partidas de Eugenio con la 150 y la 151. Estados nuevos: hecho, sin ver, falta y roto. Se añaden las piezas del núcleo que faltan (persistencia de zonas, órdenes a cualquier punto y carga del tren) y las prioridades hasta el 19-11. Builds al día hasta la I-Noche152."
+  },
+  {
+   "v": 23,
+   "fecha": "11-11 19:45",
+   "cambio": "Al día con la I-Noche159 y la qa53. Pasan a hecho Nules con 20, la D-N193, el tutorial completo y la línea de visión de Sagunto. Pasan a roto el reloj (zona y red no coinciden) y el socorro. Nueva D-N198 (puerta E4 abierta). Pulido repartido hasta el 19-11."
   }
  ],
  "prioridades": [
   {
    "dia": "11 y 12-nov",
-   "que": "Primero, lo roto: los muros que desaparecen al volver de la zona y las bandas negras de Nules (calima de día, D-N197). La I-Noche152 no sale hasta que Iker compruebe por dentro que, al salir y volver, la zona sigue igual, con tutorial y sin él. Después, qa53 de Sara sobre esa build.",
-   "quien": "Iker, Bruno y Sara"
+   "que": "Lo roto, antes que nada: el reloj de la zona, que tiene que ser el mismo que el de la red y no pararse con el tutorial; el socorro de Castellón (160); y la puerta E4 abierta (D-N198). Los muros al volver y la noche del tutorial ya están arreglados en la 159.",
+   "quien": "Nacho e Iker; qa53 de Sara y Marcos"
   },
   {
    "dia": "12 al 14-nov",
@@ -680,6 +701,11 @@
    "dia": "18-nov",
    "que": "Cierre: corrida A automática sin S1 ni S2, -nightbot con 200 semillas por dificultad y lista de comprobación de salir y volver a cada zona.",
    "quien": "Sara y Marcos"
+  },
+  {
+   "dia": "12 al 18-nov",
+   "que": "Pulido en paralelo, sin tocar el núcleo: log limpio, sonidos de los avisos nuevos, línea de visión en Nules, calima comprobada en captura, modelos que faltan (hoja de la puerta E4, muros de Nules) y cifras del día 3. El reparto por persona está en docs/pulido-hasta-19.md.",
+   "quien": "Hugo, Nacho, Bruno, Teo, Álvaro, Nuria y Paula"
   },
   {
    "dia": "19-nov",
