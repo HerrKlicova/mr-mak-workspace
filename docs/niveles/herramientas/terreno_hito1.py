@@ -27,13 +27,20 @@ def fbm(cells, seed):
 # ---------------------------------------------------------------- planta (todo en metros)
 def costa_x(z): return 1785 + 35 * np.sin(z / 420.0 + 0.6) + 12 * np.sin(z / 97.0)          # línea de orilla
 def cauce_z(xx): return 1880 - 0.10 * xx + 38 * np.sin(xx / 260.0 + 1.1) + 14 * np.sin(xx / 71.0)   # eje del cauce (baja hacia el mar, al ESE)
-def carretera_x(z): return 1185 + 22 * np.sin(z / 510.0) + 6 * np.sin(z / 133.0)          # carretera vieja, N–S
+def carretera_x(z):                                                                          # carretera vieja
+    # Lucía (11-nov 23:04): la recta A–B tiene que cortarla a 45–90° (el paso a nivel de Teo llega a 30°) y una sola vez.
+    # La carretera sigue la dirección general de la recta (al NNE), al ESTE de ella en el sur y al OESTE en el norte, y la cruza
+    # con una S en Z ≈ 1000: −130·tanh((z − 1000)/100) da un cruce de ~59° y un radio mínimo de ~100 m.
+    linea = 1060.0 + (z - 430.0) * (240.0 / 1210.0)
+    return linea - 130.0 * np.tanh((z - 1000.0) / 100.0) + 8 * np.sin(z / 133.0)
 
 EST_A = dict(id='A', nombre='Estación A (base)', x=1060.0, z=430.0, ancho=41.0, fondo=86.0)       # recinto como el de Sagunto (86 × 41 m), girado: la vía corre a lo largo de Z
 EST_B = dict(id='B', nombre='Estación B (puesto avanzado)', x=1300.0, z=1640.0, ancho=30.0, fondo=60.0)
-CASERIO = dict(x=1090.0, z=1530.0, r=85.0)          # a ~240 m de B (Hugo: 150–250 m, para ir y volver a rearmarse)
+CASERIO = dict(x=1440.0, z=1480.0, r=85.0)          # a ~213 m de B (Hugo: 150–250 m), al ESTE de la recta A–B; la carretera queda al oeste
 
 cx = costa_x(Z); cz = cauce_z(X); rx = carretera_x(Z)
+_zz = np.arange(0, L, 0.05); _k = np.argmin(np.abs(_zz - cauce_z(carretera_x(_zz))))
+PZ = float(_zz[_k]); PX = float(carretera_x(np.array([PZ]))[0])          # puente: donde la carretera cruza el eje del cauce
 # ---------------------------------------------------------------- relieve base: monte al oeste, huerta, marjal, playa, mar
 d_mar = cx - X                                     # m hasta la orilla (positivo en tierra)
 monte = np.clip((640 - X) / 640, 0, 1) ** 1.6      # 1 en X 0, 0 desde X 640
@@ -140,9 +147,17 @@ with open(os.path.join(OUT, 'posiciones_hito1.csv'), 'w', newline='\n', encoding
     w.writerow(['caserio', 'caserio', CASERIO['x'], cota_C, CASERIO['z'], 0, 140, 122, 'centro del cercado de tapias (X ±70, Z −64..58); unos cien zombis'])
     w.writerow(['deposito_material', 'deposito', CASERIO['x'] + 24, cota_C, CASERIO['z'] - 34, 0, 22, 14, 'almacén de material de vía del caserío: lo deja libre limpiar el caserío'])
     w.writerow(['peloton_inicio', 'peloton', EST_B['x'] - 10, cota_B, EST_B['z'] - 30, 180, 0, 0, 'el pelotón sale de B, al sur del andén'])
-    w.writerow(['puente_carretera', 'puente', round(float(carretera_x(np.array([cauce_z(1185.0)]))[0]), 1), round(hm(1185, float(cauce_z(1185.0))) + 0, 2), round(float(cauce_z(1185.0)), 1), 0, 9, 68, 'puente de la carretera vieja sobre el cauce (tablero a la rasante; SIN modelo)'])
+    w.writerow(['puente_carretera', 'puente', round(PX, 1), round(hm(PX, PZ + 40), 2), round(PZ, 1), 0, 9, 68, 'puente de la carretera vieja sobre el cauce (tablero a la rasante; SIN modelo)'])
     for i, (px, pz) in enumerate(zombis):
         w.writerow(['z%03d' % i, 'zombi', px, round(hm(px, pz), 2), pz, (i * 137) % 360, 0, 0, ''])
+# ---------------------------------------------------------------- carreteras (polilínea cada 10 m, mm, para Via.Carreteras de Iker)
+with open(os.path.join(OUT, 'carreteras_hito1.csv'), 'w', newline='\n', encoding='utf-8') as fo:
+    w = csv.writer(fo, delimiter=';', lineterminator='\n')
+    w.writerow(['carretera', 'orden', 'x_mm', 'z_mm', 'y_mm', 'ancho_mm', 'puente'])
+    for k, zz in enumerate(range(0, 2049, 10)):
+        xx = float(carretera_x(np.array([float(zz)]))[0])
+        if xx < 0 or xx > L: continue
+        w.writerow(['carretera_vieja', k, int(round(xx * 1000)), zz * 1000, int(round(float(rasante[min(zz, N - 1)]) * 1000)), 7000, 'si' if puente[min(zz, N - 1)] else 'no'])
 # ---------------------------------------------------------------- obstáculos de visión (mismo esquema que sagunto_obstaculos_v1.csv, mm)
 with open(os.path.join(OUT, 'obstaculos_hito1.csv'), 'w', newline='\n', encoding='utf-8') as fo:
     w = csv.writer(fo, delimiter=';', lineterminator='\n')
@@ -161,8 +176,8 @@ with open(os.path.join(OUT, 'obstaculos_hito1.csv'), 'w', newline='\n', encoding
             if (ccx - CASERIO['x']) ** 2 + (ccz - CASERIO['z']) ** 2 < (CASERIO['r'] + 25) ** 2: continue
             if u[int(ccz), int(ccx)] != 10: continue
             w.writerow(['naranjal_%02d' % k, 'arbolado', 'caja', mm(gx + 3), mm(gz + 3), mm(gx + 57), mm(gz + 37), 0, 3500, 'si', 'no', 'terreno_hito1.py', 'parcela de naranjos en hileras (se pasa entre las hileras)']); k += 1
-    w.writerow(['estribo_n_puente', 'relieve', 'caja', mm(1185 - 8), mm(float(cauce_z(1185.0)) + 26), mm(1185 + 8), mm(float(cauce_z(1185.0)) + 34), 0, 2000, 'si', 'si', 'terreno_hito1.py', 'estribo del puente'])
-    w.writerow(['estribo_s_puente', 'relieve', 'caja', mm(1185 - 8), mm(float(cauce_z(1185.0)) - 34), mm(1185 + 8), mm(float(cauce_z(1185.0)) - 26), 0, 2000, 'si', 'si', 'terreno_hito1.py', 'estribo del puente'])
+    w.writerow(['estribo_n_puente', 'relieve', 'caja', mm(PX - 8), mm(PZ + 26), mm(PX + 8), mm(PZ + 34), 0, 2000, 'si', 'si', 'terreno_hito1.py', 'estribo del puente'])
+    w.writerow(['estribo_s_puente', 'relieve', 'caja', mm(PX - 8), mm(PZ - 34), mm(PX + 8), mm(PZ - 26), 0, 2000, 'si', 'si', 'terreno_hito1.py', 'estribo del puente'])
 # ---------------------------------------------------------------- plano con cotas (1 px = 2 m)
 S = 2; P = N // S + 1; M = 60
 hs = h[::S, ::S]; us = u[::S, ::S]
@@ -196,7 +211,7 @@ for cid, tipo, ccx, ccz, a_, f_, al, yaw in casas:
 for px, pz in ((60, 300), (200, 1200), (120, 1900), (500, 700), (800, 1500), (1400, 900), (1650, 300), (1600, 1500)):
     a = Pp(px, pz); d.text(a, f'{hm(px, pz):.0f}', fill=(28, 24, 18), font=F); d.point(a, fill=(28, 24, 18))
 zc = float(cauce_z(800.0)); a = Pp(800, zc); d.text((a[0], a[1] + 14), f'cauce, lecho {hm(800, zc):.1f} m', fill=(240, 236, 228), font=F)
-a = Pp(1205, 260); d.text(a, 'carretera vieja', fill=(28, 24, 18), font=F)
+a = Pp(float(carretera_x(np.array([260.0]))[0]) + 20, 260); d.text(a, 'carretera vieja', fill=(28, 24, 18), font=F)
 a = Pp(1900, 1000); d.text(a, 'MAR', fill=(212, 208, 204), font=FB)
 a = Pp(1660, 1180); d.text(a, 'marjal', fill=(28, 24, 18), font=F)
 d.line([Pp(EST_A['x'], EST_A['z'] + 25), Pp(EST_B['x'], EST_B['z'] - 20)], fill=(240, 236, 228), width=1)
