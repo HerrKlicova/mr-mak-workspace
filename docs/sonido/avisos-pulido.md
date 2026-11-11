@@ -12,12 +12,12 @@ Rama de tbd: **`nuria/avisos-pulido`**, sobre main 16:47. Sin compilar. Solo vis
 | **«{Estación} ha caído»** (mapa o registro, si la noche termina fuera de la zona) | igual | **Iker**, donde salga ese aviso: `Sfx.Play("estacion_caida", Vector3.zero, 0.6f, 5f); Sfx.Duck(3f);` | 0,6 | −20,3 | ⏳ falta el sitio. Solo cuando ocurre, nunca al volver a entrar (D-N199) |
 | **Llega el socorro al cerco** (D-N196) | `sfx_tren_bocina_1..6` (−14,4 a −18,0; no se usaba) | `TrenPanel.Vigilar()`, donde la tropa baja sola | mapa 0,3 / zona 0,5 | −26,8 / −22,3 | ✅ en la rama. Bocina del tren que llega y, después, el combate de siempre |
 | **Reserva por debajo de 47 u** | `sfx_municion_baja_1..5` (**normalizados a −24 LUFS**: antes iban de −21,4 a −28,7; la 6 queda fuera porque no daba nivel) | **Iker**, donde salga el aviso: `Sfx.Play("municion_baja", Vector3.zero, 0.6f, 10f);` | 0,6 | −28,4 | ⏳ falta el aviso. Suena al bajar de 47 y no vuelve a sonar hasta que pase otra vez de 47. Es del grupo «alerta», así que baja el resto 1,5 s |
-| **Puerta E4, se abre** (D-N198) | `sfx_puerta_e4_abrir_1..5` (**nuevo**) | **Iker**, al cambiar el estado: `Sfx.PlayAt("puerta_e4_abrir", new Vector3(99f, 0f, yMuroSur), 1f, 2f);` | 1,0 | −24 a pie de puerta | ⛔ falta generar (créditos) |
-| **Puerta E4, se cierra** (al anunciarse el asedio) | `sfx_puerta_e4_cerrar_1..5` (**nuevo**) | igual, con `puerta_e4_cerrar` | 1,0 | −24 | ⛔ falta generar |
+| **Puerta E4, se abre** (D-N198) | `sfx_puerta_e4_abrir_1..5` (**nuevo**, −24,4 LUFS) | **Iker**, al cambiar el estado: `Sfx.PlayAt("puerta_e4_abrir", new Vector3(99f, 0f, yMuroSur), 1f, 2f);` | 1,0 | −24,4 a pie de puerta | ✅ archivos en la rama · ⏳ falta la llamada |
+| **Puerta E4, se cierra** (al anunciarse el asedio) | `sfx_puerta_e4_cerrar_1..5` (**nuevo**, −27,5 LUFS; el cerrojo marca el pico) | igual, con `puerta_e4_cerrar` | 1,0 | −27,5 | ✅ archivos en la rama · ⏳ falta la llamada |
 
 Mientras no existan los archivos de la puerta, `Sfx` no encuentra el clip y no suena nada (no da error). Iker puede dejar puestas ya las dos llamadas.
 
-## Puerta E4: lo que falta
+## Puerta E4 (generada el 11-nov: 366 créditos, mr-mak dfc74f7 y 5d7f566)
 
 Script: `herramientas/sonido/puerta_e4.py`. Pide 6 tomas de 5 s de cada sonido y se queda con las 5 mejores (descarta las mudas o las que no tienen golpe final). Las deja a −24 LUFS en mono, en `entregas/sonido-puerta-e4/`. Gasta unos **720 créditos** (tope de 900) y no reintenta ninguna llamada. **Lo tiene que lanzar Eugenio en el PC**, porque desde la sesión el control de permisos bloquea las llamadas de pago:
 
