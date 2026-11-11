@@ -3270,3 +3270,6 @@ Siguiente peldaño de la escalera de Lucía: difícil 6550 → 6700 (palanca 127
 
 ## D-N205 · PROPUESTA (11-11 22:50, Lucía) · pendiente del sí de Eugenio
 Rehacer el núcleo, no el juego: un solo mundo simulado en tiempo real, con la zona como cámara acercada a ese mundo y sin NightSim como simulador aparte. MVP recortado a Sagunto y Nules, con Castelló solo como marcador; un helicóptero y un tren que se ven moverse por el mapa; mecánicas nuevas congeladas. Detalle en docs/valoracion-nucleo-11-11.md.
+
+### D-N205 · corrección (22:55, Lucía)
+El mundo único es NightSim y NetWorld, no uno nuevo: la zona deja de simular y solo dibuja (Nacho: 7–11 días de su parte; docs/estimacion-D-N205-nacho.md). El vuelo del helicóptero en el mapa es solo vista y no depende de la D-N205.
