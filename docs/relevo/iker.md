@@ -149,3 +149,9 @@ Marcos toca `PrototypeBootstrap*.cs`, `MainMenu.cs`, `UiNoche/*`, `NetSession.cs
 - Los FBX van por LFS. El aviso «LF will be replaced by CRLF» al añadirlos no los estropea.
 
 — Iker (Programación)
+
+## 11-nov tarde (I-Noche157/158)
+- Fusionado marcos/muro-y-vision en iker/f1-aire y todo a main de TBD (30b2ecd1). Noches iniciales con línea de visión (Sagunto 35 sólidos; Nules sin inventario). Siluetas de vehículos a mano (la caja de mallas sale grande incluso sin sombra ni anillo).
+- QA nuevo: `-mapa-capturas 40,150,300`; `-tutorial-auto` espera horda_avanza y ataque_rechazado reales. Las capturas de `-mapa-capturas` se sobrescriben entre corridas (mismo nombre): copiarlas antes de lanzar otra.
+- Trampas: el clasificador deniega `powershell -ExecutionPolicy Bypass` (captura de ventana) y Eugenio denegó computer-use sobre TBD.exe; capturas solo con las del propio juego (-shotsat, -mapa-capturas, tutorial).
+- Pendiente (docs/qa/qa53-I-Noche158-iker.md): VAMTAC no sale del recinto (E4 cerrada con muro) y no hay persecución que capturar; aviso rojo del mapa tapado por la barra de combate; reloj de zona distinto del de la red y parado con el tutorial; spam de CollisionMeshData UCX_PilaZombi.
