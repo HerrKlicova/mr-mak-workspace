@@ -48,7 +48,7 @@ Escala de tiempo (D-N208, provisional): **movimiento, combate, trenes y carga a 
 
 | Recurso | Unidad | Quién consume | Por acción | Por día de juego | Notas |
 |---|---|---|---|---|---|
-| **Munición** | cartucho (caja de 120) | fusilero | 1 por disparo; 15 por minuto real de combate | — | k = 5 cartuchos por zombi (SIN VERIFICAR) |
+| **Munición** | cartucho (caja de 105) | fusilero | 1 por disparo; 15 por minuto real de combate | — | k = 5 cartuchos por zombi (SIN VERIFICAR) |
 | | | ametrallador | 60 por minuto real de combate | — | 1 caja = 2 min de fuego |
 | | | VAMTAC con ametralladora | 60 por minuto real de combate | — | de la misma caja |
 | **Gasoil** | litro (bidón de 20 L) | VAMTAC | 20 L por 100 km recorridos (1 L cada 5 km) | — | depósito 80 L = 400 km |
@@ -64,8 +64,8 @@ Escala de tiempo (D-N208, provisional): **movimiento, combate, trenes y carga a 
 ### Autonomía (lo que el jugador debe ver en cada almacén y unidad)
 | Caso | Cuenta | Resultado |
 |---|---|---|
-| Pelotón con 1 cargador por soldado | 30 ÷ 15 por minuto | 2 min reales de fuego, unos 48 zombis |
-| Pelotón con 1 caja de reserva | 120 ÷ 120 por minuto | 1 min real más |
+| Pelotón con 1 cargador por soldado | 35 ÷ 15 por minuto | 2,3 min reales de fuego, unos 58 zombis (medido) |
+| Pelotón con 1 caja de reserva | 105 ÷ 120 por minuto | ~1 min real más |
 | 1 caja de raciones | 24 ÷ 3 por soldado y día | 8 soldados un día (48 min reales) |
 | Guarnición de 24 con 1 caja de raciones | 24 ÷ 72 al día | un tercio de día: ~16 min reales |
 | VAMTAC con el depósito lleno | 80 L ÷ 1 L cada 5 km | 400 km (a 1:1 son horas reales de conducción: el gasoil pesa por distancia, no por tiempo) |
