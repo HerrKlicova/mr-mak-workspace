@@ -120,11 +120,16 @@ plan_c = [(-48, 20, 14, 10, 6.5, 0, 'alqueria'), (-22, 38, 10, 8, 5.5, 0, 'casa_
 for i, (ox, oz, a, f_, al, yaw, tipo) in enumerate(plan_c):
     casas.append(('caserio_%02d' % i, tipo, CASERIO['x'] + ox, CASERIO['z'] + oz, a, f_, al, yaw))
 tapias = [((-70, -64), (70, -64)), ((70, -64), (70, 58)), ((-70, 58), (-10, 58)), ((10, 58), (70, 58)), ((-70, -64), (-70, -10)), ((-70, 10), (-70, 58))]   # cercado de tapia de 1,6 m con tres portillos (N, O y S-E abierto por el camino)
+def dist_seg(x, z, a0, b0):
+    (ax, az), (bx, bz) = a0, b0; dx, dz = bx - ax, bz - az
+    t = max(0.0, min(1.0, ((x - ax) * dx + (z - az) * dz) / (dx * dx + dz * dz)))
+    return math.hypot(x - ax - t * dx, z - az - t * dz)
 zr = np.random.RandomState(4242); zombis = []
 while len(zombis) < 100:
     ang = zr.rand() * 2 * math.pi; rad = 8 + zr.rand() * 70
     px, pz = CASERIO['x'] + rad * math.cos(ang), CASERIO['z'] + rad * math.sin(ang)
     if any(abs(px - c[2]) < c[4] / 2 + 1 and abs(pz - c[3]) < c[5] / 2 + 1 for c in casas): continue
+    if any(dist_seg(px - CASERIO['x'], pz - CASERIO['z'], a0, b0) < 1.5 for a0, b0 in tapias): continue   # ni encima ni pegados a una tapia (medio grosor 0,25 m + holgura)
     zombis.append((round(px, 1), round(pz, 1)))
 # ---------------------------------------------------------------- salida: alturas
 os.makedirs(OUT, exist_ok=True)
