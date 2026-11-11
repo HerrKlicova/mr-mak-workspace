@@ -1,0 +1,1881 @@
+{
+ "type": "FeatureCollection",
+ "name": "via_sagunt_nules_osm",
+ "attribution": "© colaboradores de OpenStreetMap, ODbL",
+ "fuente": "Overpass API (overpass-api.de / overpass.private.coffee), 2026-11-11",
+ "filtro": "railway=rail, ref=600 (FFCC València - Sant Vicenç de Calders, usage=main), recortado a lat 39.67-39.86",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/144777742",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 128.1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2675842,
+      39.6809553
+     ],
+     [
+      -0.2683197,
+      39.6799522
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/144777743",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 128.0
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2682765,
+      39.6799343
+     ],
+     [
+      -0.2675437,
+      39.680938
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/166458260",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 5708.0
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2666259,
+      39.6822036
+     ],
+     [
+      -0.2660284,
+      39.683023
+     ],
+     [
+      -0.2396435,
+      39.7192221
+     ],
+     [
+      -0.2339964,
+      39.7269801
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/166458261",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 7.7
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2339964,
+      39.7269801
+     ],
+     [
+      -0.2339511,
+      39.7270395
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/166458262",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 9.2
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2339923,
+      39.7270633
+     ],
+     [
+      -0.2340463,
+      39.7269915
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/166458265",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 5707.8
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2340463,
+      39.7269915
+     ],
+     [
+      -0.2396904,
+      39.7192382
+     ],
+     [
+      -0.2663038,
+      39.6827192
+     ],
+     [
+      -0.2666711,
+      39.682215
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/241375093",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 5624.0
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2338518,
+      39.7271822
+     ],
+     [
+      -0.2337993,
+      39.7272542
+     ],
+     [
+      -0.2240583,
+      39.7406272
+     ],
+     [
+      -0.2229977,
+      39.7420859
+     ],
+     [
+      -0.2181935,
+      39.7486709
+     ],
+     [
+      -0.2174625,
+      39.7496764
+     ],
+     [
+      -0.2173148,
+      39.7498502
+     ],
+     [
+      -0.2168437,
+      39.7505231
+     ],
+     [
+      -0.2164844,
+      39.7510168
+     ],
+     [
+      -0.2163961,
+      39.7511441
+     ],
+     [
+      -0.2159671,
+      39.7517354
+     ],
+     [
+      -0.2156771,
+      39.75213
+     ],
+     [
+      -0.2148202,
+      39.7533048
+     ],
+     [
+      -0.2139821,
+      39.7544486
+     ],
+     [
+      -0.2129162,
+      39.7557428
+     ],
+     [
+      -0.2035909,
+      39.7668772
+     ],
+     [
+      -0.2028713,
+      39.7677359
+     ],
+     [
+      -0.200391,
+      39.7707018
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/241375094",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 5614.3
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2004296,
+      39.7707229
+     ],
+     [
+      -0.2029227,
+      39.7677427
+     ],
+     [
+      -0.2129546,
+      39.7557661
+     ],
+     [
+      -0.2140139,
+      39.7544761
+     ],
+     [
+      -0.2148673,
+      39.7533151
+     ],
+     [
+      -0.21572,
+      39.7521444
+     ],
+     [
+      -0.2164382,
+      39.7511603
+     ],
+     [
+      -0.2167358,
+      39.7507552
+     ],
+     [
+      -0.2173762,
+      39.7498758
+     ],
+     [
+      -0.2182411,
+      39.7486804
+     ],
+     [
+      -0.2215478,
+      39.7441558
+     ],
+     [
+      -0.2222853,
+      39.7431309
+     ],
+     [
+      -0.2226161,
+      39.7426806
+     ],
+     [
+      -0.2230395,
+      39.7421042
+     ],
+     [
+      -0.2241021,
+      39.7406459
+     ],
+     [
+      -0.2243605,
+      39.7402912
+     ],
+     [
+      -0.2338328,
+      39.7272776
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/241375095",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 12.7
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2003494,
+      39.7708192
+     ],
+     [
+      -0.2004296,
+      39.7707229
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/241375096",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 12.7
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.200391,
+      39.7707018
+     ],
+     [
+      -0.2003116,
+      39.7707984
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243490352",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "2",
+    "longitud_m": 17.5
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1453844,
+      39.8597943
+     ],
+     [
+      -0.1455186,
+      39.8596749
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243490356",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "2",
+    "longitud_m": 18.8
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1454873,
+      39.8596479
+     ],
+     [
+      -0.1453448,
+      39.8597768
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243490358",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 30.2
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1451533681544009,
+      39.86
+     ],
+     [
+      -0.1453844,
+      39.8597943
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243490359",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 32.8
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1453448,
+      39.8597768
+     ],
+     [
+      -0.14509356337826632,
+      39.86
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665078",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 3407.3
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1564297,
+      39.8409993
+     ],
+     [
+      -0.1597643,
+      39.8297384
+     ],
+     [
+      -0.1601806,
+      39.8283223
+     ],
+     [
+      -0.1606492,
+      39.8267601
+     ],
+     [
+      -0.1623969,
+      39.8208311
+     ],
+     [
+      -0.1628654,
+      39.8192275
+     ],
+     [
+      -0.1632526,
+      39.8179133
+     ],
+     [
+      -0.1638714,
+      39.8158956
+     ],
+     [
+      -0.1640644,
+      39.8153447
+     ],
+     [
+      -0.164224,
+      39.8149367
+     ],
+     [
+      -0.1644554,
+      39.8143636
+     ],
+     [
+      -0.164643,
+      39.8139437
+     ],
+     [
+      -0.1648326,
+      39.8135353
+     ],
+     [
+      -0.1651214,
+      39.8129603
+     ],
+     [
+      -0.1654959,
+      39.8122656
+     ],
+     [
+      -0.1660727,
+      39.8113095
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665079",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 5330.4
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1662951,
+      39.8109648
+     ],
+     [
+      -0.1664673,
+      39.8107066
+     ],
+     [
+      -0.1666473,
+      39.8104476
+     ],
+     [
+      -0.1670198,
+      39.8099315
+     ],
+     [
+      -0.1674756,
+      39.809334
+     ],
+     [
+      -0.1677585,
+      39.8089817
+     ],
+     [
+      -0.1683097,
+      39.8083339
+     ],
+     [
+      -0.1689444,
+      39.8076503
+     ],
+     [
+      -0.1699782,
+      39.8065854
+     ],
+     [
+      -0.1713856,
+      39.8051952
+     ],
+     [
+      -0.1723367,
+      39.8041946
+     ],
+     [
+      -0.1733713,
+      39.8030302
+     ],
+     [
+      -0.1742083,
+      39.802022
+     ],
+     [
+      -0.1903792,
+      39.7827304
+     ],
+     [
+      -0.1953582,
+      39.7767758
+     ],
+     [
+      -0.2003494,
+      39.7708192
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665080",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 5330.9
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2003116,
+      39.7707984
+     ],
+     [
+      -0.195315,
+      39.7767573
+     ],
+     [
+      -0.1903441,
+      39.7827081
+     ],
+     [
+      -0.1741808,
+      39.8019899
+     ],
+     [
+      -0.1733354,
+      39.8030106
+     ],
+     [
+      -0.1723008,
+      39.8041731
+     ],
+     [
+      -0.171349,
+      39.805169
+     ],
+     [
+      -0.169937,
+      39.8065626
+     ],
+     [
+      -0.1689058,
+      39.8076298
+     ],
+     [
+      -0.1682697,
+      39.8083141
+     ],
+     [
+      -0.1677143,
+      39.8089623
+     ],
+     [
+      -0.1669741,
+      39.8099136
+     ],
+     [
+      -0.1665986,
+      39.8104397
+     ],
+     [
+      -0.1664223,
+      39.8106941
+     ],
+     [
+      -0.1662535,
+      39.810947
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665081",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 3408.7
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1660326,
+      39.8112925
+     ],
+     [
+      -0.1654515,
+      39.8122521
+     ],
+     [
+      -0.1650741,
+      39.8129497
+     ],
+     [
+      -0.1647945,
+      39.8135149
+     ],
+     [
+      -0.1645967,
+      39.8139304
+     ],
+     [
+      -0.1644091,
+      39.8143552
+     ],
+     [
+      -0.1641789,
+      39.8149179
+     ],
+     [
+      -0.1640182,
+      39.8153447
+     ],
+     [
+      -0.1638253,
+      39.8158891
+     ],
+     [
+      -0.1629781,
+      39.818682
+     ],
+     [
+      -0.162905,
+      39.818926
+     ],
+     [
+      -0.1623541,
+      39.8208193
+     ],
+     [
+      -0.1606053,
+      39.826742
+     ],
+     [
+      -0.1601297,
+      39.828303
+     ],
+     [
+      -0.1600211,
+      39.8286842
+     ],
+     [
+      -0.1598523,
+      39.8292766
+     ],
+     [
+      -0.1563489,
+      39.8409879
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665082",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 14.9
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1563176,
+      39.8411197
+     ],
+     [
+      -0.1563489,
+      39.8409879
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665083",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 42.8
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1660727,
+      39.8113095
+     ],
+     [
+      -0.1662951,
+      39.8109648
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665084",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 33.4
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1563029,
+      39.841427
+     ],
+     [
+      -0.1563897,
+      39.8411342
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665085",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 20.4
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1562284,
+      39.8414049
+     ],
+     [
+      -0.1561765,
+      39.8415838
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665086",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 42.8
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1662535,
+      39.810947
+     ],
+     [
+      -0.1660326,
+      39.8112925
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665087",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 32.6
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1563176,
+      39.8411197
+     ],
+     [
+      -0.1562284,
+      39.8414049
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665088",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 19.2
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1562533,
+      39.8415957
+     ],
+     [
+      -0.1563029,
+      39.841427
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/243665089",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 15.4
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1563897,
+      39.8411342
+     ],
+     [
+      -0.1564297,
+      39.8409993
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/311094611",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 13.1
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2666711,
+      39.682215
+     ],
+     [
+      -0.266745,
+      39.6821121
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/311094612",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 13.8
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2667041,
+      39.6820949
+     ],
+     [
+      -0.2666259,
+      39.6822036
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/311094613",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 147.3
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2675437,
+      39.680938
+     ],
+     [
+      -0.2667041,
+      39.6820949
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/311094614",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 147.3
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.266745,
+      39.6821121
+     ],
+     [
+      -0.2675842,
+      39.6809553
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/516208768",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 2257.3
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1455186,
+      39.8596749
+     ],
+     [
+      -0.1463989,
+      39.8588951
+     ],
+     [
+      -0.1467882,
+      39.8585543
+     ],
+     [
+      -0.148523,
+      39.8569731
+     ],
+     [
+      -0.1495176,
+      39.8560566
+     ],
+     [
+      -0.150297,
+      39.8553207
+     ],
+     [
+      -0.1506261,
+      39.8549927
+     ],
+     [
+      -0.1509878,
+      39.8546052
+     ],
+     [
+      -0.1515089,
+      39.8539942
+     ],
+     [
+      -0.1517692,
+      39.8536639
+     ],
+     [
+      -0.1522063,
+      39.8530591
+     ],
+     [
+      -0.1522744,
+      39.8529572
+     ],
+     [
+      -0.1526126,
+      39.8524267
+     ],
+     [
+      -0.1527117,
+      39.8522511
+     ],
+     [
+      -0.1528477,
+      39.8520152
+     ],
+     [
+      -0.1532115,
+      39.851307
+     ],
+     [
+      -0.153409,
+      39.8508668
+     ],
+     [
+      -0.1536683,
+      39.8502093
+     ],
+     [
+      -0.1538908,
+      39.8495247
+     ],
+     [
+      -0.1562533,
+      39.8415957
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/516208769",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 2254.6
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.1561765,
+      39.8415838
+     ],
+     [
+      -0.1558089,
+      39.8428933
+     ],
+     [
+      -0.1538487,
+      39.8495128
+     ],
+     [
+      -0.1536235,
+      39.8501953
+     ],
+     [
+      -0.1533647,
+      39.8508563
+     ],
+     [
+      -0.1531662,
+      39.8512913
+     ],
+     [
+      -0.1528048,
+      39.8520023
+     ],
+     [
+      -0.1526679,
+      39.8522416
+     ],
+     [
+      -0.1525687,
+      39.8524089
+     ],
+     [
+      -0.1522298,
+      39.8529378
+     ],
+     [
+      -0.1521597,
+      39.8530452
+     ],
+     [
+      -0.1517319,
+      39.8536393
+     ],
+     [
+      -0.151471,
+      39.8539728
+     ],
+     [
+      -0.1509513,
+      39.8545771
+     ],
+     [
+      -0.150594,
+      39.8549612
+     ],
+     [
+      -0.1502661,
+      39.8552942
+     ],
+     [
+      -0.1494705,
+      39.8560466
+     ],
+     [
+      -0.1484922,
+      39.8569466
+     ],
+     [
+      -0.1470154,
+      39.8582901
+     ],
+     [
+      -0.1463826,
+      39.8588517
+     ],
+     [
+      -0.1454873,
+      39.8596479
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/708060259",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 241.6
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2683197,
+      39.6799522
+     ],
+     [
+      -0.2683847,
+      39.6798541
+     ],
+     [
+      -0.2697029,
+      39.6780578
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/708060260",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 1020.2
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2749616131948501,
+      39.67
+     ],
+     [
+      -0.274799,
+      39.6703283
+     ],
+     [
+      -0.2744865,
+      39.6709322
+     ],
+     [
+      -0.2741586,
+      39.6715253
+     ],
+     [
+      -0.2739716,
+      39.6718525
+     ],
+     [
+      -0.2734849,
+      39.6726507
+     ],
+     [
+      -0.2732394,
+      39.6730386
+     ],
+     [
+      -0.2729412,
+      39.6734953
+     ],
+     [
+      -0.2726275,
+      39.6739484
+     ],
+     [
+      -0.2705377,
+      39.6768346
+     ],
+     [
+      -0.2695634,
+      39.6781672
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/1226011440",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 225.3
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2695634,
+      39.6781672
+     ],
+     [
+      -0.2687042,
+      39.67935
+     ],
+     [
+      -0.2682765,
+      39.6799343
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/1226037313",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": null,
+    "bridge_name": null,
+    "layer": null,
+    "longitud_m": 1006.5
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2697029,
+      39.6780578
+     ],
+     [
+      -0.2705786,
+      39.6768514
+     ],
+     [
+      -0.2726774,
+      39.6739621
+     ],
+     [
+      -0.2729861,
+      39.673512
+     ],
+     [
+      -0.2732989,
+      39.6730414
+     ],
+     [
+      -0.2735408,
+      39.6726693
+     ],
+     [
+      -0.2740408,
+      39.6718511
+     ],
+     [
+      -0.274225,
+      39.6715195
+     ],
+     [
+      -0.2743779,
+      39.6712502
+     ],
+     [
+      -0.2745405,
+      39.67095
+     ],
+     [
+      -0.2748607,
+      39.6703407
+     ],
+     [
+      -0.27502890260749324,
+      39.67
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/1272561690",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1435;1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 18.0
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2339511,
+      39.7270395
+     ],
+     [
+      -0.2338518,
+      39.7271822
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "way/1272561691",
+    "tipo": "via",
+    "ref": "600",
+    "name": "FFCC València - Sant Vicenç de Calders",
+    "gauge": "1668",
+    "electrified": "contact_line",
+    "voltage": "3000",
+    "maxspeed": "200",
+    "bridge": "yes",
+    "bridge_name": null,
+    "layer": "1",
+    "longitud_m": 27.5
+   },
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -0.2338328,
+      39.7272776
+     ],
+     [
+      -0.2339923,
+      39.7270633
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/359544261",
+    "tipo": "estacion",
+    "name": "Gilet",
+    "railway": "halt",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.3206579,
+     39.6794065
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/503196005",
+    "tipo": "estacion",
+    "name": "Les Valls",
+    "railway": "halt",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2396505,
+     39.7192568
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/917059169",
+    "tipo": "estacion",
+    "name": "Moncofa",
+    "railway": "station",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1623621,
+     39.8208789
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/7221315773",
+    "tipo": "estacion",
+    "name": "Sagunt",
+    "railway": "station",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2714149,
+     39.6756707
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/7221315774",
+    "tipo": "estacion",
+    "name": "Almenara",
+    "railway": "station",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2182163,
+     39.7486679
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/7221315775",
+    "tipo": "estacion",
+    "name": "La Llosa",
+    "railway": "halt",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.2029647,
+     39.7677716
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/7221315776",
+    "tipo": "estacion",
+    "name": "Xilxes",
+    "railway": "halt",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1903124,
+     39.7827793
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "osm_id": "node/7221315777",
+    "tipo": "estacion",
+    "name": "Nules - La Vilavella",
+    "railway": "station",
+    "operator": "Adif"
+   },
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1522395,
+     39.8529669
+    ]
+   }
+  }
+ ]
+}

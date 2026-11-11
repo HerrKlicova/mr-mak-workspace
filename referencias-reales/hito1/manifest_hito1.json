@@ -1,0 +1,58 @@
+[
+  {
+    "id": "VC1",
+    "pieza": "Puente del ferrocarril sobre el río Palancia (Sagunt)",
+    "que_muestra": "Tablero de vigas sobre pilas, catenaria y borde de la vía; cauce seco con cañas",
+    "unidad_o_lugar": "Sagunt, río Palancia",
+    "anio": "2018",
+    "angulo": "lateral, a nivel del cauce",
+    "archivo": "VC1_puente_palancia_1.jpg",
+    "titulo_commons": "File:Pont del tren sobre el Palància, Sagunt.jpg",
+    "url_pagina_commons": "https://commons.wikimedia.org/wiki/File:Pont_del_tren_sobre_el_Pal%C3%A0ncia,_Sagunt.jpg",
+    "autor": "Joanbanjo",
+    "licencia": "CC0",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "VC2",
+    "pieza": "Puente del ferrocarril sobre el río Palancia (Sagunt)",
+    "que_muestra": "Puente completo de orilla a orilla, 5 vanos, catenaria; al fondo, la costa",
+    "unidad_o_lugar": "Sagunt, río Palancia",
+    "anio": "2018",
+    "angulo": "lateral, elevado desde la orilla",
+    "archivo": "VC2_puente_palancia_2.jpg",
+    "titulo_commons": "File:Riu Palància i pont del tren, Sagunt.jpg",
+    "url_pagina_commons": "https://commons.wikimedia.org/wiki/File:Riu_Pal%C3%A0ncia_i_pont_del_tren,_Sagunt.jpg",
+    "autor": "Joanbanjo",
+    "licencia": "CC0",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "VC3",
+    "pieza": "Puente del ferrocarril sobre el río Palancia (Sagunt)",
+    "que_muestra": "Igual que VC2, otro encuadre: pilas y estribos completos",
+    "unidad_o_lugar": "Sagunt, río Palancia",
+    "anio": "2018",
+    "angulo": "lateral, elevado",
+    "archivo": "VC3_puente_palancia_3.jpg",
+    "titulo_commons": "File:Sagunt, riu Palància i pont.jpg",
+    "url_pagina_commons": "https://commons.wikimedia.org/wiki/File:Sagunt,_riu_Pal%C3%A0ncia_i_pont.jpg",
+    "autor": "Joanbanjo",
+    "licencia": "CC0",
+    "url_licencia": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "id": "VC4",
+    "pieza": "Puente del ferrocarril sobre el río Palancia (Sagunt)",
+    "que_muestra": "Viaducto ferroviario con catenaria sobre el Palancia en crecida (feb-2017); detrás, puente de arcos",
+    "unidad_o_lugar": "Sagunt, río Palancia",
+    "anio": "2017",
+    "angulo": "contraluz, desde el cauce",
+    "archivo": "VC4_viaducto_palancia_crecida.jpg",
+    "titulo_commons": "File:Rio palancia desbordado.jpg",
+    "url_pagina_commons": "https://commons.wikimedia.org/wiki/File:Rio_palancia_desbordado.jpg",
+    "autor": "ElExploraMontañas",
+    "licencia": "CC BY-SA 4.0",
+    "url_licencia": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+]

@@ -1,0 +1,186 @@
+{
+ "longitudes_m": {
+  "1435;1668": 31305.8,
+  "1668": 16817.2
+ },
+ "puentes": [
+  {
+   "osm_id": "way/144777742",
+   "gauge": "1435;1668",
+   "lat": 39.67995,
+   "lon": -0.26832,
+   "longitud_m": 128.1,
+   "bridge_name": null,
+   "cruza": [
+    "Riu Palància (river, way/31917901)"
+   ]
+  },
+  {
+   "osm_id": "way/144777743",
+   "gauge": "1435;1668",
+   "lat": 39.68094,
+   "lon": -0.26754,
+   "longitud_m": 128.0,
+   "bridge_name": null,
+   "cruza": [
+    "Riu Palància (river, way/31917901)"
+   ]
+  },
+  {
+   "osm_id": "way/311094611",
+   "gauge": "1435;1668",
+   "lat": 39.68211,
+   "lon": -0.26675,
+   "longitud_m": 13.1,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/311094612",
+   "gauge": "1435;1668",
+   "lat": 39.6822,
+   "lon": -0.26663,
+   "longitud_m": 13.8,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/166458262",
+   "gauge": "1668",
+   "lat": 39.72699,
+   "lon": -0.23405,
+   "longitud_m": 9.2,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/166458261",
+   "gauge": "1435;1668",
+   "lat": 39.72704,
+   "lon": -0.23395,
+   "longitud_m": 7.7,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/1272561691",
+   "gauge": "1668",
+   "lat": 39.72706,
+   "lon": -0.23399,
+   "longitud_m": 27.5,
+   "bridge_name": null,
+   "cruza": [
+    "Barranc de la Font (stream, way/1272561692)"
+   ]
+  },
+  {
+   "osm_id": "way/1272561690",
+   "gauge": "1435;1668",
+   "lat": 39.72718,
+   "lon": -0.23385,
+   "longitud_m": 18.0,
+   "bridge_name": null,
+   "cruza": [
+    "Barranc de la Font (stream, way/1272561692)"
+   ]
+  },
+  {
+   "osm_id": "way/241375095",
+   "gauge": "1668",
+   "lat": 39.77072,
+   "lon": -0.20043,
+   "longitud_m": 12.7,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/241375096",
+   "gauge": "1435;1668",
+   "lat": 39.7708,
+   "lon": -0.20031,
+   "longitud_m": 12.7,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/243665083",
+   "gauge": "1668",
+   "lat": 39.81096,
+   "lon": -0.1663,
+   "longitud_m": 42.8,
+   "bridge_name": null,
+   "cruza": [
+    "Riu Belcaire (stream, way/314102440)"
+   ]
+  },
+  {
+   "osm_id": "way/243665086",
+   "gauge": "1435;1668",
+   "lat": 39.81129,
+   "lon": -0.16603,
+   "longitud_m": 42.8,
+   "bridge_name": null,
+   "cruza": [
+    "Riu Belcaire (stream, way/314102440)"
+   ]
+  },
+  {
+   "osm_id": "way/243665082",
+   "gauge": "1435;1668",
+   "lat": 39.84099,
+   "lon": -0.15635,
+   "longitud_m": 14.9,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/243665089",
+   "gauge": "1668",
+   "lat": 39.841,
+   "lon": -0.15643,
+   "longitud_m": 15.4,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/243665088",
+   "gauge": "1668",
+   "lat": 39.84143,
+   "lon": -0.1563,
+   "longitud_m": 19.2,
+   "bridge_name": null,
+   "cruza": [
+    "sin nombre (stream, way/37088412)"
+   ]
+  },
+  {
+   "osm_id": "way/243665085",
+   "gauge": "1435;1668",
+   "lat": 39.84158,
+   "lon": -0.15618,
+   "longitud_m": 20.4,
+   "bridge_name": null,
+   "cruza": [
+    "sin nombre (stream, way/37088412)"
+   ]
+  },
+  {
+   "osm_id": "way/243490352",
+   "gauge": "1668",
+   "lat": 39.85967,
+   "lon": -0.14552,
+   "longitud_m": 17.5,
+   "bridge_name": null,
+   "cruza": []
+  },
+  {
+   "osm_id": "way/243490356",
+   "gauge": "1435;1668",
+   "lat": 39.85978,
+   "lon": -0.14534,
+   "longitud_m": 18.8,
+   "bridge_name": null,
+   "cruza": []
+  }
+ ]
+}
