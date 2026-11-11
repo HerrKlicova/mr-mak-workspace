@@ -1,220 +1,220 @@
 {
- "version": 21,
- "fecha": "10-11 06:40",
- "objetivo": "Una partida con sentido de principio a fin: intro, defender Sagunto de día, reparar el muro, llevar un tren a Nules y aguantar la primera noche.",
+ "version": 22,
+ "fecha": "11-11 11:40",
+ "objetivo": "Una partida de 30 minutos con el núcleo de verdad (D-N186): mundo continuo con un solo reloj, zonas que se conservan al salir y volver, y órdenes dadas en la zona y rematadas con clic derecho en el mapa. Sagunto, Nules y Castellón cercada.",
  "builds": [
   {
-   "nombre": "Noche55",
+   "nombre": "I-Noche107",
    "estado": "entregada",
-   "cuando": "07-11",
-   "nota": "Commit 4f0ea7b."
+   "cuando": "09-11",
+   "nota": "Primer MVP, con el visto bueno de Sara. Eugenio la jugó el 09-11 por la noche junto a la 110 (capturas en la galería)."
   },
   {
-   "nombre": "Noche56",
-   "estado": "entregada",
-   "cuando": "07-11",
-   "nota": "Commit 2ceddca, horda dn137 (4.000). -nightbot normal: victoria, 0 bajas, muro al 99,8 %. -inputtest: la W y 2 de 6 selecciones fallan por la deriva del scroll de borde. QA40 en la galería."
-  },
-  {
-   "nombre": "Noche57",
-   "estado": "entregada",
-   "cuando": "Control 1 · dom 13:30",
-   "nota": "Commit ee179e3, horda de 4.000. Bloque 1 (controles, sonido y vehículos). Es la última build jugable que se le pasa a Eugenio hasta nuevo aviso."
-  },
-  {
-   "nombre": "Noche58",
+   "nombre": "I-Noche147",
    "estado": "interna",
-   "cuando": "Control 2 · dom",
-   "nota": "Control 2, interno (-inputtest y -nightbot), sin entrega a Eugenio. Ya en la rama: NH90 que vuelve a rearmar (D-N167), embarque real del tren (Iker 9e50ab2), intro e inicio del tutorial, y arreglado «Sagunto resiste» repetido. Corrida normal con horda 5.520 (Marcos, 13:44): victoria a las 03:58, 4 bajas, pila máx. 395, muro mín. 98,8 %. La difícil (6.400) se cierra sola a los 30 s. La sustituye la Noche64."
+   "cuando": "10-11",
+   "nota": "Socorro de Castellón de punta a punta (Iker): gana la noche 2, el tren llega a las 09:22 ante el cerco y el cerco baja por la red sin desincronizar."
   },
   {
-   "nombre": "Noche59",
-   "estado": "absorbida",
-   "cuando": "Control 3 · dom 21:30",
-   "nota": "Su contenido (tutorial e intro) pasa a las builds siguientes."
+   "nombre": "I-Noche150",
+   "estado": "entregada",
+   "cuando": "11-11 mañana",
+   "nota": "Jugada por Eugenio. Fallo: el reloj saltaba a las 06:00 y la noche del tutorial pasaba sin zombis. Arreglado en la 151."
   },
   {
-   "nombre": "Noche64",
+   "nombre": "I-Noche151",
+   "estado": "entregada",
+   "cuando": "11-11",
+   "nota": "Jugada por Eugenio. Fallos: los muros desaparecen al salir al mapa y volver (en el tutorial), y bandas negras en Nules de día."
+  },
+  {
+   "nombre": "I-Noche152",
    "estado": "en curso",
-   "cuando": "interna · dom 20:38",
-   "nota": "Control interno, sin entrega a Eugenio. Lleva hordas sin aire (4.480/5.250/5.700), línea de visión de la infantería, edificio de viajeros real con tiradores en la azotea, HUD de hasta 7 pelotones y las ramas de Iker y Nacho con el reloj ×103. Una semilla por dificultad: victoria en las tres (2, 8 y 9 bajas). Faltan la D-N175, el plantel por estación, el tren de Nules por la puerta este, el NH90 desde Bétera y quitar la barra de oleadas. Pendiente: -nightbot con 200 semillas."
+   "cuando": "Iker · 11-11",
+   "nota": "Arreglo de los muros al volver y bruma solo de noche (claude/bruma-dia; la calima de D-N197 entra si llega a tiempo). Iker la prueba por dentro antes de darla."
   },
   {
-   "nombre": "Noche69",
-   "estado": "en curso",
-   "cuando": "Marcos",
-   "nota": "Paquete de Marcos (contenido SIN VERIFICAR en detalle): muro por tramos activo por defecto, hordas sin aire, NH90 fuera de Sagunto, línea de visión, azotea real, D-N175, y desde la rama de Iker las señales del tutorial e Inicio(). Marcos también usa Noche74 y Noche75 para el modo turbo."
-  },
-  {
-   "nombre": "Noche70",
-   "estado": "en curso",
-   "cuando": "Iker · 3e265e2",
-   "nota": "Integración de Iker (3e265e2), 1258 pruebas en verde. Lleva: plantel por estación (D-N173), tren a las puertas con aviso «Sin escolta» (D-N152 y D-N177), aviso de zona sin tropa, víveres (D-N176), Inicio() con 3 estaciones (D-N156), sin barra ni contador de oleadas, las 4 señales del tutorial y el capítulo 3, y los sonidos de Nuria."
-  },
-  {
-   "nombre": "Noche71",
-   "estado": "en curso",
-   "cuando": "Iker · 08e096f · compila con 0 errores",
-   "nota": "Horda de Nules en el director (2400 desde la 2.ª noche), tren fuera de pantalla por estación, 3.8 y 3.8b, horda D-N80, pila de zombis, vía D, fantasma de obra, disparo desde la boca del arma, soldado con C90 y el log [NOCHE-ARMAS]. Las 5 semillas de munición de Sara se están corriendo."
-  },
-  {
-   "nombre": "Bloque 3",
+   "nombre": "Hito 19-11",
    "estado": "prevista",
-   "cuando": "Noche71 o siguientes · mar 10-11",
-   "nota": "Partida completa: tutorial de los capítulos 1 al 4 de principio a fin, primera horda de día (D-N157), horda legible de noche (D-N80, depende de PixelLab el 09-11), tiempo continuo al cambiar de vista (D-N91), salir al mapa con la rueda y trepadores (D-N148). Iker, Lucía, Marcos, Bruno y Teo."
-  },
-  {
-   "nombre": "Bloque 4",
-   "estado": "prevista",
-   "cuando": "mar 10-11 / mié 11-11",
-   "nota": "La Colmena (D-N160): recuerda el tráfico y dónde miras, 3 estados e informe de inteligencia. Es lo menos avanzado en la zona. Nacho, Iker, Hugo y Lucía."
-  },
-  {
-   "nombre": "Cierre MVP",
-   "estado": "prevista",
-   "cuando": "mié 11-11",
-   "nota": "Cierre: 200 semillas por dificultad con -nightbot y -inputtest limpios (Sara), arreglos y primera build jugable del MVP para Eugenio."
+   "cuando": "jue 19-11",
+   "nota": "Partida de 30 minutos con persistencia de zonas, órdenes a cualquier punto y carga del tren. Ver prioridades."
   }
  ],
  "alertas": [
   {
-   "texto": "10-11 06:40 · NOCHE DEL 9 AL 10: Eugenio aprobó la interfaz v3 (D-N185) y explicó el núcleo: PERSISTENCIA, TIEMPO REAL y SIMULACIÓN. Las órdenes se dan seleccionando en la zona, saliendo con la rueda y haciendo clic derecho en el mapa (D-N186, GDD v1.15). Plan del núcleo en fases F0–F4 (https://claude.ai/artifact/NkEDBN79eE6MFBjKyjSQ79); la F0 del lado del mapa ya está subida. Se anula el salto al amanecer: hay un solo reloj. Decisiones nuevas: supervivientes rescatados con NH90 (D-N187), tren de socorro de Castellón (D-N188), tren blindado con un 20 % de blindaje (D-N189), el NH90 lleva 3 u por vuelo (D-N190), noche 3 con 5250/6700/8150 (D-N191) y guarnición de Nules de 16 (en medida). El tren rodeado cae en ~1 min real.",
-   "quien": [
-    "Lucía",
-    "Iker",
-    "Nacho",
-    "Hugo"
-   ]
-  },
-  {
-   "texto": "09-11 09:45 · PRIORIDAD ÚNICA: la partida de 30 minutos jugada entera a mano. Lo que falta, con dueños, en docs/mvp-lo-que-falta.md: arranque con 3 estaciones (Castellón cercada, D-N184), atardecer y mancha, objetivo del día 2, emboscada de 300 en la vía de Nules, cartel «ha caído» con Seguir, y la qa51 con corrida B a mano. Cuando la corrida A pase sin S1 ni S2, se avisa a Eugenio, que juega la B a mano por la noche, y se para.",
-   "quien": [
-    "Lucía",
-    "Iker",
-    "Marcos",
-    "Nacho",
-    "Sara"
-   ]
-  },
-  {
-   "texto": "09-11 07:00 · El MVP sigue hacia el miércoles 11-11, sin garantía. Esta noche: D-N180 y D-N181, Nules recalibrada (2200 y 2470), Sagunto difícil a 6470 con el reparto de granadas, recorte por alfa arreglado. Quedan 7 pendientes y 27 en build sin verificar.",
+   "texto": "11-11 11:40 · REVISIÓN DEL MVP tras las partidas de Eugenio con la 150 y la 151. Lo jugable funciona: tutorial, defensa de día y de noche, red de 3 estaciones, trenes y escolta. Pero el núcleo que Eugenio explicó el 09-11 todavía no está: la zona no se conserva al salir y volver (los muros desaparecen), no se pueden mandar unidades a cualquier punto y el tren no se carga en la estación. Hasta el 19-11 se trabaja en ese orden: primero lo roto, luego la persistencia y luego las órdenes.",
    "quien": [
     "Lucía"
    ]
   },
   {
-   "texto": "CUÁNTO FALTA (08-11 24:15): ya hay builds hasta la Noche70 (Marcos, Noche69; Iker, Noche70) y la numeración avanza deprisa porque hay builds internas y de turbo, así que el plan se cuenta por BLOQUES y no por número. Quedan 5 bloques: el paquete de Marcos y el de red de Iker (en curso), tutorial completo con horda de día, la Colmena y el cierre con 200 semillas. MVP jugable hacia el miércoles 11-11, SIN GARANTÍA. Riesgo principal: el consumo de munición (ver abajo). Estimación de Lucía, no medida.",
-   "quien": "Lucía, Marcos"
+   "texto": "ROTO · Muros que desaparecen al salir al mapa y volver a la zona (I-Noche151, durante el tutorial). Es un fallo de persistencia: va lo primero.",
+   "quien": [
+    "Iker"
+   ]
   },
   {
-   "texto": "RESUELTO · Munición: NightSim (388 por u) y la build (432–442) coincidían. El fallo era un bonus del muro mal aplicado en el modelo. Al quitarlo, H0 baja de 1.500 a 1.220 y el equilibrado queda en 13,7 % (en banda). No se toca la build.",
-   "quien": "Hugo, Nacho, Sara"
+   "texto": "ROTO · Bandas negras en Nules de día: era la bruma del borde (D-N182), que no se apagaba de día. Arreglado en rama, sin compilar; de día va una calima clara al 35 % (D-N197). Falta la captura de comprobación.",
+   "quien": [
+    "Bruno",
+    "Iker"
+   ]
   },
   {
-   "texto": "D-N169 CERRADA: fácil 4.480 al 100 %, normal 5.250 al 99,8 % y difícil 5.700 al 79,0 %, con la azotea real (ala oeste). Ya está en json/noche_sagunto.json, el de la Noche64. Perder un tren en Nules no es derrota: se pierden el tren y lo que lleva. En Nules y Castellón ya no se copia la horda de Sagunto (S3).",
-   "quien": "Hugo, Nacho"
+   "texto": "ARREGLADO · La noche del tutorial se saltaba (reloj a las 06:00 sin zombis, I-Noche150). Arreglado en la 151.",
+   "quien": [
+    "Iker"
+   ]
   },
   {
-   "texto": "Las 4 señales del tutorial y Inicio() con 3 estaciones las hace Iker desde su rama, y Marcos solo fusiona (aprobado a las 20:55). Con eso desaparece el riesgo de los capítulos 1 y 2. La difícil ya no se cierra a los 30 s: la Noche64 ganó en las tres dificultades.",
-   "quien": "Iker, Marcos"
+   "texto": "SIN VERIFICAR en partida · Lo que se decidió el 10-11 está medido en NightSim y en la -dia2-auto, pero nadie lo ha jugado: D-N193 (solo atacan los de dentro del recinto), D-N194 (Nules con 20 fusileros, 4 ametralladores y puesto este), D-N188 y D-N196 (socorro de Castellón: cerco de 4400 con 17 u, y la tropa baja sola), D-N197 (calima). La qa53 de Sara lo comprueba.",
+   "quien": [
+    "Sara",
+    "Iker",
+    "Nacho"
+   ]
   },
   {
-   "texto": "IMPRESCINDIBLE · El muro por tramos tiene que ir activo por defecto: las hordas nuevas solo dan 100/100/79,5 % con tramos; sin ellos, la difícil sale al 100 % (Sara). Va el primero en el paquete de Marcos.",
-   "quien": "Marcos, Nacho"
+   "texto": "SIN VERIFICAR · Los fallos que vio Eugenio en la 110 (VAMTAC invisible, vehículo atascado en el muro, zombis que atraviesan el VAMTAC, pelotón que no usa la abertura, cartel de Sagunto tapado, símbolos del mapa y hordas en negro): no consta que se hayan comprobado uno a uno. Entran en la lista de la qa53.",
+   "quien": [
+    "Sara",
+    "Marcos",
+    "Bruno"
+   ]
   },
   {
-   "texto": "RIESGO · PixelLab (D-N162): las 5 muestras son mañana, 09-11, y el saldo caduca el 17-nov. El hilo de herramientas de IA está bloqueado desde el 06-11 y pendiente de relevo.",
-   "quien": "Mak, Bruno"
-  },
-  {
-   "texto": "Por comprobar en el control 2: la W y 2 de 6 selecciones fallaban en el -inputtest de la Noche56; el NH90 no despegaba en la build; y tras perder, el juego se reinicia solo (sin investigar).",
-   "quien": "Marcos, Sara"
-  },
-  {
-   "texto": "Bloqueado por la norma de no pasar builds: sin una partida de Eugenio con traza no se puede explicar por qué a él le parece imposible y al bot no.",
-   "quien": "Sara"
+   "texto": "RIESGO · PixelLab caduca el 17-nov y el hilo de Iris sigue bloqueado.",
+   "quien": [
+    "Bruno"
+   ]
   }
  ],
  "grupos": [
   {
-   "nombre": "Mandar las tropas",
+   "nombre": "El núcleo (D-N186): zona y mapa en un mundo continuo",
    "mecanicas": [
     {
-     "m": "Cámara con WASD y G",
-     "dn": "D-N145",
+     "m": "Salir al mapa con la rueda y volver a la zona",
+     "dn": "D-N186",
      "estado": "hecho",
      "quien": [
+      "Iker",
       "Marcos"
      ],
-     "bloque": ""
+     "bloque": "",
+     "nota": "Eugenio lo usa en la 151."
     },
     {
-     "m": "Seleccionar, dar órdenes y pausar",
-     "dn": "D-N138",
+     "m": "Al volver, la zona está como la dejaste (muros, daños, tropa)",
+     "dn": "D-N186",
+     "estado": "roto",
+     "quien": [
+      "Iker"
+     ],
+     "bloque": "11 y 12-nov",
+     "nota": "I-Noche151: los muros desaparecen al volver del mapa."
+    },
+    {
+     "m": "Persistencia de zonas: todo el estado de la zona vive en la simulación, con prueba de mismo hash",
+     "dn": "D-N186",
+     "estado": "pendiente",
+     "quien": [
+      "Iker",
+      "Nacho"
+     ],
+     "bloque": "12 al 14-nov · F2"
+    },
+    {
+     "m": "Un solo reloj, sin saltos al cambiar de vista",
+     "dn": "D-N186",
      "estado": "hecho",
      "quien": [
-      "Marcos"
-     ],
-     "bloque": ""
-    },
-    {
-     "m": "Recuadro de selección visible al arrastrar",
-     "dn": "",
-     "estado": "build",
-     "quien": [
-      "Marcos"
-     ],
-     "bloque": "B1"
-    },
-    {
-     "m": "La infantería rodea los obstáculos",
-     "dn": "D-N139",
-     "estado": "build",
-     "quien": [
-      "Marcos",
+      "Iker",
       "Nacho"
      ],
-     "bloque": "B1"
+     "bloque": "",
+     "nota": "En la 150 la noche del tutorial se saltaba; arreglado en la 151."
     },
     {
-     "m": "Los vehículos no se atascan (A*)",
-     "dn": "",
+     "m": "La simulación es la misma mires o no (lockstep)",
+     "dn": "D-N186",
+     "estado": "build",
+     "quien": [
+      "Nacho",
+      "Iker"
+     ],
+     "bloque": "",
+     "nota": "El cerco de Castellón baja por la red sin desincronizar (I-Noche147). Falta verlo jugando."
+    },
+    {
+     "m": "Seleccionar en la zona y rematar con clic derecho en el mapa, con imán a la estación",
+     "dn": "D-N186",
+     "estado": "build",
+     "quien": [
+      "Iker"
+     ],
+     "bloque": "13 al 15-nov",
+     "nota": "F0 del lado del mapa subida. SIN VERIFICAR en una partida."
+    },
+    {
+     "m": "Mandar NH90 y pelotones a cualquier punto del campo",
+     "dn": "D-N186",
      "estado": "pendiente",
      "quien": [
-      "Marcos",
+      "Iker",
       "Nacho"
      ],
-     "bloque": "B1",
-     "nota": "Hecho en la simulación (831 pruebas en verde). Falta llamarlo desde la zona, con los sacos como obstáculo."
+     "bloque": "13 al 15-nov · F1",
+     "nota": "Rama iker/f1-aire: SIN VERIFICAR qué parte entra en la build."
     },
     {
-     "m": "Salir al mapa con la rueda del ratón o la M",
-     "dn": "",
+     "m": "Órdenes de intención: Aguantar, Retrasar y Retirarse",
+     "dn": "D-N186",
      "estado": "pendiente",
      "quien": [
+      "Iker",
+      "Nacho"
+     ],
+     "bloque": "13 al 15-nov · F1"
+    },
+    {
+     "m": "Carga del tren: elegir en la estación qué sube",
+     "dn": "D-N186",
+     "estado": "pendiente",
+     "quien": [
+      "Iker",
       "Marcos"
      ],
-     "bloque": "B1"
+     "bloque": "15 y 16-nov",
+     "nota": "Incluye el aviso de 17 u del socorro."
+    },
+    {
+     "m": "Hordas visibles solo si tus fuerzas las ven",
+     "dn": "D-N186",
+     "estado": "pendiente",
+     "quien": [
+      "Iker",
+      "Nacho"
+     ],
+     "bloque": "17-nov"
     }
    ]
   },
   {
-   "nombre": "Defender la estación",
+   "nombre": "Defender una estación",
    "mecanicas": [
     {
-     "m": "Una sola gran horda, sin oleadas",
+     "m": "Una sola gran horda por noche, sin oleadas",
      "dn": "D-N136",
      "estado": "hecho",
      "quien": [
       "Nacho",
       "Hugo"
      ],
-     "bloque": "",
-     "nota": "Horda nueva H6500 (5.520 en normal, D-N169); la difícil, unos 6.600, pendiente de confirmar.",
-     "alerta": false
+     "bloque": ""
     },
     {
-     "m": "Muro con vida y brecha visible en la interfaz",
+     "m": "Muro con vida y brecha visible",
      "dn": "D-N122",
      "estado": "hecho",
      "quien": [
@@ -224,231 +224,134 @@
      "bloque": ""
     },
     {
-     "m": "Disparos con daño en área",
-     "dn": "D-N137",
-     "estado": "build",
+     "m": "Trepadores, asedio con puertas, línea de visión y tiradores en la azotea",
+     "dn": "D-N148 · D-N151 · D-N174",
+     "estado": "hecho",
      "quien": [
       "Marcos",
       "Nacho"
-     ],
-     "bloque": "B1"
-    },
-    {
-     "m": "Lanzagranadas C90 por orden del jugador (tecla C)",
-     "dn": "D-N137",
-     "estado": "build",
-     "quien": [
-      "Marcos",
-      "Nacho",
-      "Hugo"
-     ],
-     "bloque": "B1",
-     "nota": "Hugo fija el coste."
-    },
-    {
-     "m": "El disparo sale de la boca del arma",
-     "dn": "",
-     "estado": "build",
-     "quien": [
-      "Marcos"
-     ],
-     "bloque": "Noche71 · soldados, Dragón, VAMTAC, NH90"
-    },
-    {
-     "m": "Los trepadores van a por lo vivo más cercano",
-     "dn": "D-N148",
-     "estado": "build",
-     "quien": [
-      "Nacho",
-      "Marcos"
-     ],
-     "bloque": "B1",
-     "nota": "Noche81: ClimberGoals con la D-N180 y la D-N181 (solo ataca la estación quien la tiene como objetivo)."
-    },
-    {
-     "m": "Asedio: puertas cerradas y tropa dentro y fuera",
-     "dn": "D-N151",
-     "estado": "build",
-     "quien": [
-      "Marcos",
-      "Hugo"
-     ],
-     "bloque": "B2",
-     "nota": "Noche81 (Marcos): puertas modeladas con hojas en la zona y en Nules. Falta el muro de Sagunto con RecintoPlan."
-    },
-    {
-     "m": "Reparar el muro con sacos y HESCO modelados",
-     "dn": "D-N153",
-     "estado": "build",
-     "quien": [
-      "Marcos",
-      "Álvaro",
-      "Hugo"
-     ],
-     "bloque": "B2 · solo con -tramos",
-     "nota": "Especificación lista y muro por tramos en NightSim (fa66281). Falta calibrarlo (D-N165). Estados del muro modelados por Teo (94cb579, e0–e3, 5 variantes).",
-     "alerta": true
-    },
-    {
-     "m": "La primera horda ataca de día",
-     "dn": "D-N157",
-     "estado": "build",
-     "quien": [
-      "Marcos",
-      "Bruno"
-     ],
-     "bloque": "B2",
-     "nota": "Cerrada (Sara, I-Noche77): lateral, techo y carga b4a080 medidos de noche. Pendiente: sombra del tren en el balasto (Bruno)."
-    },
-    {
-     "m": "Línea de visión: no se dispara a través de edificios, tren ni muros; tiradores en la azotea",
-     "dn": "D-N174",
-     "estado": "build",
-     "quien": [
-      "Nacho",
-      "Marcos"
-     ],
-     "bloque": "Noche64 · infantería; vehículos, pendiente"
-    },
-    {
-     "m": "La horda de fuera va a por la tropa que tiene cerca",
-     "dn": "D-N175",
-     "estado": "pendiente",
-     "quien": [
-      "Nacho",
-      "Marcos"
-     ],
-     "bloque": "tras 18:30 · medida",
-     "nota": "Medida en NightSim (cap del 30 %). Va en el paquete de Marcos, punto 6."
-    }
-   ]
-  },
-  {
-   "nombre": "Ganar, perder y seguir",
-   "mecanicas": [
-    {
-     "m": "La noche sigue al salir al mapa",
-     "dn": "D-N91",
-     "estado": "hecho",
-     "quien": [
-      "Marcos"
      ],
      "bloque": ""
     },
     {
-     "m": "Derrota: sin estaciones principales o sin trenes",
-     "dn": "D-N133",
+     "m": "La primera horda ataca de día (tutorial)",
+     "dn": "D-N157",
      "estado": "hecho",
      "quien": [
-      "Nacho",
-      "Marcos"
+      "Marcos",
+      "Bruno"
      ],
-     "bloque": "",
-     "nota": "Tras perder, el juego se reinicia solo.",
-     "alerta": true
+     "bloque": ""
     },
     {
-     "m": "Al ganar sale «Sagunto resiste» y se sigue en el mundo",
-     "dn": "D-N149",
+     "m": "Reparar el muro con sacos y HESCO",
+     "dn": "D-N153",
+     "estado": "build",
+     "quien": [
+      "Marcos",
+      "Álvaro"
+     ],
+     "bloque": "",
+     "nota": "SIN VERIFICAR que Eugenio lo haya usado."
+    },
+    {
+     "m": "Solo atacan la estación los zombis que están dentro del recinto",
+     "dn": "D-N193",
      "estado": "build",
      "quien": [
       "Nacho",
-      "Marcos"
+      "Iker"
      ],
-     "bloque": "B1 · repetido arreglado",
-     "nota": "Hecho en la simulación; falta compilarlo en Unity. Desde la D-N164, solo se gana acabando con la horda: el amanecer ya no da la victoria."
+     "bloque": "qa53",
+     "nota": "98 % en NightSim."
+    },
+    {
+     "m": "Vehículos: modelo visible, sin atascos y rodeados por los zombis",
+     "dn": "",
+     "estado": "build",
+     "quien": [
+      "Marcos",
+      "Nacho"
+     ],
+     "bloque": "qa53",
+     "nota": "Fallos de la 110. SIN VERIFICAR si siguen."
     }
    ]
   },
   {
-   "nombre": "La red de trenes",
+   "nombre": "Red, trenes y estaciones",
    "mecanicas": [
     {
-     "m": "Red de estaciones con producción y almacén",
-     "dn": "D-N130",
-     "estado": "hecho",
-     "quien": [
-      "Iker"
-     ],
-     "bloque": "",
-     "nota": "Fusionado (f41155f). Sin verificar en una partida."
-    },
-    {
-     "m": "Se empieza con 3 estaciones: Sagunto, Nules y Castellón",
-     "dn": "D-N156",
+     "m": "Se empieza con 3 estaciones; Castellón, propia pero cercada",
+     "dn": "D-N156 · D-N184",
      "estado": "build",
      "quien": [
       "Iker"
      ],
-     "bloque": "Noche70",
-     "nota": "Aprobado: Iker cambia NetSession.Ensure a Inicio() desde su rama, junto con las 4 señales del tutorial. Marcos solo fusiona."
+     "bloque": "qa53"
     },
     {
-     "m": "Días de 14 minutos y sin barra de oleadas",
-     "dn": "D-N157",
-     "estado": "build",
-     "quien": [
-      "Iker",
-      "Hugo"
-     ],
-     "bloque": "Noche70 · sin barra ni contador de oleadas",
-     "nota": "Iker quita la barra de oleadas desde su rama si Marcos está de acuerdo."
-    },
-    {
-     "m": "El tren espera a las puertas de una estación sitiada",
-     "dn": "D-N152",
+     "m": "Tren a Nules con escolta y emboscada de 300",
+     "dn": "D-N180 · EM-1",
      "estado": "build",
      "quien": [
       "Iker",
       "Nacho"
      ],
-     "bloque": "Noche70 (con D-N177; fracciones fuera de pantalla en Noche71)",
-     "nota": "Rama nacho/tren-puertas lista (plazas solo en Sagunto, Nules y Bétera). Con la D-N177: un tren sin escolta a las puertas de una estación sitiada se pierde (provisional, falta medir el 10 %)."
+     "bloque": "qa53",
+     "nota": "La -dia2-auto gana."
     },
     {
-     "m": "Preparar, cargar y mandar un tren a Nules",
-     "dn": "D-N154",
+     "m": "Nules: 20 fusileros, 4 ametralladores y puesto este",
+     "dn": "D-N194",
+     "estado": "build",
+     "quien": [
+      "Álvaro",
+      "Iker"
+     ],
+     "bloque": "qa53",
+     "nota": "200/200 en NightSim, también con 4 bajas en la escolta."
+    },
+    {
+     "m": "Socorro de Castellón: cerco de 4400 y tropa que baja sola",
+     "dn": "D-N188 · D-N196",
+     "estado": "build",
+     "quien": [
+      "Iker",
+      "Nacho"
+     ],
+     "bloque": "15 y 16-nov",
+     "nota": "82 % con 17 u. Probado de punta a punta en la 147, sin la bajada automática."
+    },
+    {
+     "m": "NH90 desde Bétera con 3 u por vuelo",
+     "dn": "D-N190",
+     "estado": "build",
+     "quien": [
+      "Iker",
+      "Nacho"
+     ],
+     "bloque": "qa53"
+    },
+    {
+     "m": "Cartel «{Estación} ha caído» con Seguir, Repetir la noche y Menú",
+     "dn": "",
      "estado": "build",
      "quien": [
       "Iker"
      ],
-     "bloque": "B2 · embarque real",
-     "nota": "El viaje Sagunto–Castellón (9f49202) espera la revisión de Nacho."
+     "bloque": "qa53"
     },
     {
-     "m": "Helicóptero: sale del aeródromo del mapa, vuela con ETA y lleva un pelotón",
-     "dn": "D-N143",
-     "estado": "build",
+     "m": "Día 2 con objetivo; día 3 y noche 3",
+     "dn": "D-N179 · D-N191",
+     "estado": "pendiente",
      "quien": [
-      "Nacho",
-      "Marcos"
-     ],
-     "bloque": "B2 · Noche58",
-     "nota": "D-N173: un solo aeródromo, en un sitio real (lo busca Paula). Se anula el helipuerto de Sagunto (D-N155). En la build no despega.",
-     "alerta": true
-    },
-    {
-     "m": "Cada estación tiene su propio plantel de unidades",
-     "dn": "D-N173",
-     "estado": "build",
-     "quien": [
-      "Iker",
-      "Marcos"
-     ],
-     "bloque": "Noche70",
-     "nota": "Fallo visto por Eugenio: en todas salen las mismas unidades, helicóptero incluido.",
-     "alerta": true
-    },
-    {
-     "m": "Víveres, quinto recurso: Nules los produce y viajan en tren",
-     "dn": "D-N176",
-     "estado": "build",
-     "quien": [
-      "Nacho",
       "Iker",
       "Hugo"
      ],
-     "bloque": "Noche70"
+     "bloque": "17-nov",
+     "nota": "El día 2 está; el 3 y la noche 3, no."
     }
    ]
   },
@@ -456,37 +359,25 @@
    "nombre": "La primera partida",
    "mecanicas": [
     {
-     "m": "Intro con el lore",
+     "m": "Intro y pregunta del tutorial en cada «Nueva partida»",
      "dn": "D-N158",
-     "estado": "build",
-     "quien": [
-      "Lucía",
-      "Iker"
-     ],
-     "bloque": "B2 · Noche58",
-     "nota": "Elegida la variante C («Día 41», sin año) de las 5 de Lucía. La monta Iker."
-    },
-    {
-     "m": "Tutorial: defender de día, reparar y pedir refuerzos a Nules",
-     "dn": "D-N154",
-     "estado": "build",
+     "estado": "hecho",
      "quien": [
       "Iker",
       "Lucía"
      ],
-     "bloque": "Noche70/71 · 4 señales, cap. 3 con 3.8 y 3.8b",
-     "nota": "D-N172 (idea de Eugenio): el capítulo 3 enseña a mandar unidades desde Nules a Sagunto."
+     "bloque": ""
     },
     {
-     "m": "Tutorial del apoyo aéreo (capítulo 4)",
-     "dn": "D-N150",
-     "estado": "build",
+     "m": "Tutorial de los capítulos 1 al 4, vehículos incluidos",
+     "dn": "D-N154 · D-N150",
+     "estado": "hecho",
      "quien": [
       "Iker",
       "Lucía"
      ],
-     "bloque": "B3 · rama de Iker",
-     "nota": "Desde el aeródromo (D-N173), la primera vez que se abre."
+     "bloque": "",
+     "nota": "Jugado en la 151; falla al volver del mapa (ver núcleo)."
     }
    ]
   },
@@ -494,130 +385,62 @@
    "nombre": "Que se vea y se oiga",
    "mecanicas": [
     {
-     "m": "Sonido completo en 3D y silencio al pausar",
+     "m": "Sonido 3D completo",
      "dn": "D-N134",
-     "estado": "build",
+     "estado": "hecho",
      "quien": [
       "Nuria",
       "Marcos"
      ],
-     "bloque": "B1"
+     "bloque": ""
     },
     {
-     "m": "Interfaz v2 básica",
-     "dn": "D-N147",
-     "estado": "hecho",
-     "quien": [
-      "Bruno",
-      "Marcos"
-     ],
-     "bloque": "",
-     "nota": "Rehacerla con PixelLab queda en espera de decisión."
-    },
-    {
-     "m": "Fogonazos, trazadoras e impactos de los vehículos",
-     "dn": "",
+     "m": "Interfaz v3",
+     "dn": "D-N185",
      "estado": "build",
      "quien": [
       "Bruno",
-      "Marcos"
+      "Iker"
      ],
-     "bloque": "Noche71",
-     "nota": "VfxVehicleShot sale de Muzzle_N, con los 5 cambios de la revisión."
+     "bloque": "qa53"
     },
     {
-     "m": "La horda se distingue de noche y los zombis varían",
-     "dn": "D-N80",
+     "m": "Símbolos del mapa legibles y hordas en rojo",
+     "dn": "D-N185",
      "estado": "build",
      "quien": [
-      "Teo",
-      "Bruno"
+      "Bruno",
+      "Iker"
      ],
-     "bloque": "Noche71",
-     "nota": "Modelos y shader listos: 5 siluetas de Teo (10 de 10 pares distinguibles por la forma) y un solo material de Bruno con el tono por instancia. Falta integrarlo (Noche67)."
+     "bloque": "qa53",
+     "nota": "Fallos de la 110."
+    },
+    {
+     "m": "Borde de la zona sin bandas negras: calima clara de día y bruma de noche",
+     "dn": "D-N182 · D-N197",
+     "estado": "roto",
+     "quien": [
+      "Bruno",
+      "Iker"
+     ],
+     "bloque": "11 y 12-nov",
+     "nota": "Rama claude/bruma-dia, sin compilar."
     }
    ]
   },
   {
-   "nombre": "La Colmena que aprende",
+   "nombre": "Después del 19-nov, salvo que sobre tiempo",
    "mecanicas": [
     {
-     "m": "La Colmena recuerda el tráfico y dónde miras",
+     "m": "La Colmena que aprende: recuerda el tráfico y dónde miras, 3 estados e informe",
      "dn": "D-N160",
      "estado": "pendiente",
      "quien": [
       "Nacho",
-      "Iker"
-     ],
-     "bloque": "tras el tutorial",
-     "nota": "Expuesto en la red (IntelTraffic, IntelAttention; nacho/informe-huecos). Falta integrarlo en la build."
-    },
-    {
-     "m": "Tres estados de la Colmena",
-     "dn": "D-N160",
-     "estado": "pendiente",
-     "quien": [
-      "Nacho",
+      "Iker",
       "Hugo"
      ],
-     "bloque": "tras el tutorial",
-     "nota": "Hecho en la red (Nacho, colmena-estados, CO-0 a CO-4 y sonidos de Nuria). Falta integrarlo en la build."
-    },
-    {
-     "m": "Informe de inteligencia",
-     "dn": "D-N160",
-     "estado": "pendiente",
-     "quien": [
-      "Iker",
-      "Lucía"
-     ],
-     "bloque": "tras el tutorial",
-     "nota": "V1 montada por Bruno (claude/informe-app6); textos cerrados; la red ya da tráfico, atención y fuerzas (Nacho). Falta integrarlo en la build."
-    }
-   ]
-  },
-  {
-   "nombre": "Pedido por Eugenio para después de la Noche58 (D-N170)",
-   "mecanicas": [
-    {
-     "m": "El tren sale de la estación a la vista: se abren las puertas, pita y acelera",
-     "dn": "D-N170",
-     "estado": "build",
-     "quien": [
-      "Iker",
-      "Marcos",
-      "Nuria"
-     ],
-     "bloque": "rama de Iker"
-    },
-    {
-     "m": "Doble clic en una localización lleva a ella",
-     "dn": "D-N170",
-     "estado": "build",
-     "quien": [
-      "Iker"
-     ],
-     "bloque": "rama de Iker"
-    },
-    {
-     "m": "Doble clic en un tren en viaje: la cámara lo sigue",
-     "dn": "D-N170",
-     "estado": "build",
-     "quien": [
-      "Iker"
-     ],
-     "bloque": "rama de Iker"
-    },
-    {
-     "m": "Tiempo real dentro y fuera, sin pausas ni saltos al cambiar de vista",
-     "dn": "D-N91",
-     "estado": "pendiente",
-     "quien": [
-      "Iker",
-      "Marcos"
-     ],
-     "bloque": "tras Noche58",
-     "nota": "Ya es la regla de la D-N91 y de la D-N161: se revisa que se cumpla."
+     "bloque": "después"
     }
    ]
   }
@@ -820,6 +643,48 @@
    "v": 20,
    "fecha": "08-11 25:05",
    "cambio": "Efectos de vehículos en la Noche71. Aspecto de día de la primera horda elegido (calima sin niebla). Hugo pasa a los tres estados de la Colmena."
+  },
+  {
+   "v": 22,
+   "fecha": "11-11 11:40",
+   "cambio": "Revisión completa tras las partidas de Eugenio con la 150 y la 151. Estados nuevos: hecho, sin ver, falta y roto. Se añaden las piezas del núcleo que faltan (persistencia de zonas, órdenes a cualquier punto y carga del tren) y las prioridades hasta el 19-11. Builds al día hasta la I-Noche152."
+  }
+ ],
+ "prioridades": [
+  {
+   "dia": "11 y 12-nov",
+   "que": "Primero, lo roto: los muros que desaparecen al volver de la zona y las bandas negras de Nules (calima de día, D-N197). La I-Noche152 no sale hasta que Iker compruebe por dentro que, al salir y volver, la zona sigue igual, con tutorial y sin él. Después, qa53 de Sara sobre esa build.",
+   "quien": "Iker, Bruno y Sara"
+  },
+  {
+   "dia": "12 al 14-nov",
+   "que": "Persistencia de zonas completa: todo lo de la zona (muros y sus daños, sacos y HESCO, tropa y posiciones, cadáveres, munición del almacén) vive en la simulación y se reconstruye igual al volver, con prueba de mismo hash al salir y volver. Es la base de todo lo demás.",
+   "quien": "Iker y Nacho (F2 del plan del núcleo)"
+  },
+  {
+   "dia": "13 al 15-nov",
+   "que": "Mandar unidades a cualquier punto: NH90 y pelotones con clic derecho en el campo (estacionario y desembarco), con imán de 40 px a las estaciones. Con las órdenes de intención Aguantar, Retrasar y Retirarse.",
+   "quien": "Iker y Nacho (F1)"
+  },
+  {
+   "dia": "15 y 16-nov",
+   "que": "Carga del tren en la estación: elegir qué sube (pelotones, munición y víveres) en el panel del tren, con el aviso de 17 u del socorro. Socorro de Castellón con la tropa que baja sola ante el cerco (D-N196).",
+   "quien": "Iker y Marcos; Lucía revisa"
+  },
+  {
+   "dia": "17-nov",
+   "que": "Hordas visibles solo si tus fuerzas las ven, y día 3 y noche 3 (D-N191) para que la partida pase de los 30 minutos.",
+   "quien": "Iker, Nacho y Hugo"
+  },
+  {
+   "dia": "18-nov",
+   "que": "Cierre: corrida A automática sin S1 ni S2, -nightbot con 200 semillas por dificultad y lista de comprobación de salir y volver a cada zona.",
+   "quien": "Sara y Marcos"
+  },
+  {
+   "dia": "19-nov",
+   "que": "Build para Eugenio con la partida de 30 minutos jugada entera por dentro. La Colmena (D-N160) queda para después, salvo que sobre tiempo.",
+   "quien": "Todo el equipo; aviso con enlace"
   }
  ]
 }

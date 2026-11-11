@@ -1,0 +1,226 @@
+<title>Tablón del MVP</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Tablón de horarios de estación: cabecera de vía, avisos, mecánicas por andén, equipo al final */
+:root{
+  --bg:#eef0ee; --panel:#ffffff; --ink:#1d2523; --muted:#5b6662; --line:#d3d9d6;
+  --accent:#1f5c4e;
+  --ok:#2f7a45; --ok-bg:#e1f0e5;
+  --wip:#a86a00; --wip-bg:#fbefd6;
+  --todo:#66706c; --todo-bg:#e7ebe9;
+  --warn:#b23a2a; --warn-bg:#f8e3df;
+  --f-disp:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141a19; --panel:#1c2422; --ink:#e4ebe8; --muted:#9aa7a2; --line:#2f3a37; --accent:#7cc4ae;
+  --ok:#7fcf94; --ok-bg:#1f3527; --wip:#f0b54d; --wip-bg:#3a2e14; --todo:#a3aeaa; --todo-bg:#262f2d; --warn:#f08a7a; --warn-bg:#3b211d; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a19; --panel:#1c2422; --ink:#e4ebe8; --muted:#9aa7a2; --line:#2f3a37; --accent:#7cc4ae;
+  --ok:#7fcf94; --ok-bg:#1f3527; --wip:#f0b54d; --wip-bg:#3a2e14; --todo:#a3aeaa; --todo-bg:#262f2d; --warn:#f08a7a; --warn-bg:#3b211d; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.5}
+.wrap{max-width:1080px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:32px}
+h1,h2,h3{font-family:var(--f-disp);font-weight:700;letter-spacing:.01em;text-wrap:balance;margin:0}
+h1{font-size:clamp(34px,6vw,52px);line-height:1}
+h2{font-size:26px;line-height:1.1}
+h3{font-size:20px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+header{display:grid;gap:12px}
+.obj{max-width:65ch;font-size:17px;margin:0}
+.resumen{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.meter{display:flex;height:12px;border-radius:2px;overflow:hidden;width:100%;background:var(--todo-bg)}
+.meter span{display:block;height:100%}
+.leyenda{display:flex;flex-wrap:wrap;gap:16px;font-size:14px;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;font-family:var(--f-mono);font-size:12px;font-weight:500;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor}
+.p-hecho{color:var(--ok);background:var(--ok-bg)}
+.p-build{color:var(--wip);background:var(--wip-bg)}
+.p-pendiente{color:var(--todo);background:var(--todo-bg)}
+.p-roto{color:var(--warn);background:var(--warn-bg)}
+/* builds como vía */
+.via{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;position:relative}
+.via::before{content:"";position:absolute;left:12px;right:12px;top:11px;height:4px;background:repeating-linear-gradient(90deg,var(--line) 0 10px,transparent 10px 14px)}
+.parada{position:relative;padding-right:12px;display:grid;gap:4px;min-width:0}
+.dot{width:26px;height:26px;border-radius:50%;border:4px solid var(--bg);background:var(--todo);position:relative;z-index:1}
+.parada.entregada .dot{background:var(--ok)}
+.parada.encurso .dot{background:var(--wip)}
+.parada b{font-family:var(--f-disp);font-size:20px}
+.parada small{color:var(--muted);font-size:13px}
+@media (max-width:640px){.via{grid-template-columns:1fr 1fr;row-gap:18px}.via::before{display:none}}
+/* avisos */
+.avisos{display:grid;gap:8px}
+.aviso{background:var(--warn-bg);border-left:4px solid var(--warn);padding:10px 14px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:start}
+.aviso p{margin:0}
+.aviso .q{font-size:13px;color:var(--muted);white-space:nowrap}
+@media (max-width:560px){.aviso{grid-template-columns:1fr}}
+/* filtros */
+.filtros{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.filtros button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:5px 12px;border-radius:999px;cursor:pointer}
+.filtros button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--bg)}
+.filtros button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.filtros select{font:inherit;font-size:14px;padding:5px 8px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:6px}
+/* tabla de mecánicas */
+.grupo{display:grid;gap:8px}
+.grupo-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:4px}
+.tabla{background:var(--panel);border:1px solid var(--line);border-radius:4px}
+.fila{display:grid;grid-template-columns:minmax(0,1fr) 110px 170px 44px;gap:12px;padding:10px 14px;border-top:1px solid var(--line);align-items:start}
+.fila:first-child{border-top:0}
+.fila .m{min-width:0}
+.fila .m strong{font-weight:600}
+.fila .nota{font-size:13px;color:var(--muted);margin-top:2px}
+.fila .nota.al{color:var(--warn)}
+.dn{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-left:6px}
+.quien{font-size:14px}
+.bloque{font-family:var(--f-mono);font-size:12px;color:var(--muted);text-align:right}
+@media (max-width:700px){.fila{grid-template-columns:1fr auto}.fila .quien{grid-column:1}.fila .bloque{grid-column:2;grid-row:2;align-self:center}}
+.fuera{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.fuera li{border:1px dashed var(--line);padding:4px 10px;border-radius:4px;font-size:14px;color:var(--muted)}
+/* equipo */
+.equipo{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.persona{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:12px;display:grid;grid-template-columns:56px minmax(0,1fr);gap:12px;align-items:start}
+.persona.vac{border-style:dashed;background:transparent}
+.retrato{width:56px;height:56px;image-rendering:pixelated;border-radius:2px;background:var(--todo-bg);display:grid;place-items:center;font-family:var(--f-disp);font-size:24px;color:var(--muted)}
+.persona b{font-family:var(--f-disp);font-size:20px;line-height:1}
+.persona .rol{font-size:13px;color:var(--accent);font-weight:600}
+.persona p{margin:4px 0 0;font-size:14px}
+.persona .carga{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-top:6px}
+.leer{font-size:14px;color:var(--muted);max-width:70ch}
+.prio{margin:0;padding:0;list-style:none;display:grid;gap:8px;counter-reset:p}
+.prio li{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:4px;padding:10px 14px;display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px}
+.prio .dia{font-family:var(--f-mono);font-size:13px;color:var(--accent);font-weight:500}
+.prio p{margin:0}
+.prio small{color:var(--muted);font-size:13px}
+@media (max-width:560px){.prio li{grid-template-columns:1fr;gap:2px}}
+.versiones{font-size:14px;color:var(--muted);display:grid;gap:4px}
+.vacio{padding:14px;color:var(--muted);font-size:14px}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow" id="meta"></div>
+    <h1>Tablón del MVP · Vía Muerta</h1>
+    <p class="obj" id="objetivo"></p>
+    <div class="meter" id="meter" role="img"></div>
+    <div class="leyenda" id="leyenda"></div>
+  </header>
+
+  <section aria-labelledby="h-prio" style="display:grid;gap:10px">
+    <h2 id="h-prio">Prioridades hasta el 19-nov</h2>
+    <ol class="prio" id="prio"></ol>
+  </section>
+
+  <section aria-labelledby="h-builds" style="display:grid;gap:14px">
+    <h2 id="h-builds">Builds</h2>
+    <div class="via" id="via"></div>
+  </section>
+
+  <section aria-labelledby="h-avisos" style="display:grid;gap:10px">
+    <h2 id="h-avisos">Problemas abiertos</h2>
+    <div class="avisos" id="avisos"></div>
+  </section>
+
+  <section aria-labelledby="h-mec" style="display:grid;gap:18px">
+    <div style="display:grid;gap:6px">
+      <h2 id="h-mec">Mecánicas mínimas del MVP</h2>
+      <p class="leer"><b>Hecho</b>: funciona en una build que alguien ha jugado. <b>Sin ver</b>: está en una build o en una rama, pero nadie lo ha comprobado jugando. <b>Falta</b>: diseñado y sin hacer. <b>Roto</b>: estaba y ha fallado en una partida. La columna de la derecha dice para qué día está previsto.</p>
+    </div>
+    <div class="filtros" id="filtros">
+      <button type="button" data-f="todas" aria-pressed="true">Todas</button>
+      <button type="button" data-f="hecho" aria-pressed="false">Hecho</button>
+      <button type="button" data-f="build" aria-pressed="false">Sin ver</button>
+      <button type="button" data-f="pendiente" aria-pressed="false">Falta</button>
+      <button type="button" data-f="roto" aria-pressed="false">Roto</button>
+      <label for="persona" class="eyebrow" style="margin-left:8px">Quién</label>
+      <select id="persona"><option value="">Todo el equipo</option></select>
+    </div>
+    <div id="grupos" style="display:grid;gap:22px"></div>
+    <div style="display:grid;gap:8px">
+      <h3>Después del MVP</h3>
+      <ul class="fuera" id="fuera"></ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="h-eq" style="display:grid;gap:14px">
+    <h2 id="h-eq">Quién hace qué</h2>
+    <div class="equipo" id="equipo"></div>
+  </section>
+
+  <section aria-labelledby="h-ver" style="display:grid;gap:8px">
+    <h3 id="h-ver">Versiones del tablón</h3>
+    <div class="versiones" id="versiones"></div>
+  </section>
+</div>
+
+<script>
+const D = __DATOS__;
+const R = __RETRATOS__;
+const ET = {hecho:"Hecho", build:"Sin ver", pendiente:"Falta", roto:"Roto"};
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+document.getElementById("prio").innerHTML = (D.prioridades||[]).map(x => `<li><span class="dia">${esc(x.dia)}</span><div><p>${esc(x.que)}</p><small>${esc(x.quien)}</small></div></li>`).join("");
+const todas = D.grupos.flatMap(g => g.mecanicas);
+const cuenta = k => todas.filter(m => m.estado === k).length;
+const n = {hecho:cuenta("hecho"), build:cuenta("build"), pendiente:cuenta("pendiente"), roto:cuenta("roto")};
+const total = todas.length;
+
+document.getElementById("meta").textContent = `Versión ${D.version} · ${D.fecha}`;
+document.getElementById("objetivo").textContent = D.objetivo;
+const meter = document.getElementById("meter");
+meter.setAttribute("aria-label", `${n.hecho} hechas, ${n.build} sin ver, ${n.pendiente} por hacer y ${n.roto} rotas de ${total}`);
+meter.innerHTML = `<span style="width:${n.hecho/total*100}%;background:var(--ok)"></span><span style="width:${n.build/total*100}%;background:var(--wip)"></span><span style="width:${n.roto/total*100}%;background:var(--warn)"></span>`;
+document.getElementById("leyenda").innerHTML =
+  `<span><span class="pill p-hecho">${n.hecho} hechas</span></span><span><span class="pill p-build">${n.build} sin ver</span></span><span><span class="pill p-pendiente">${n.pendiente} por hacer</span></span><span><span class="pill p-roto">${n.roto} rotas</span></span><span class="mono">${total} mecánicas en total</span>`;
+
+document.getElementById("via").innerHTML = D.builds.map(b => {
+  const c = b.estado === "entregada" ? "entregada" : b.estado === "en curso" ? "encurso" : "";
+  return `<div class="parada ${c}"><div class="dot"></div><b>${esc(b.nombre)}</b><span class="eyebrow">${esc(b.estado)} · ${esc(b.cuando)}</span><small>${esc(b.nota)}</small></div>`;
+}).join("");
+
+document.getElementById("avisos").innerHTML = D.alertas.map(a =>
+  `<div class="aviso"><p>${esc(a.texto)}</p><span class="q">${esc(a.quien)}</span></div>`).join("");
+
+const gente = [...new Set(todas.flatMap(m => m.quien))].sort((a,b)=>a.localeCompare(b,"es"));
+const sel = document.getElementById("persona");
+gente.forEach(p => { const o = document.createElement("option"); o.value = p; o.textContent = p; sel.appendChild(o); });
+
+let filtro = "todas";
+function pintar(){
+  const p = sel.value;
+  document.getElementById("grupos").innerHTML = D.grupos.map(g => {
+    const ms = g.mecanicas.filter(m => (filtro === "todas" || m.estado === filtro) && (!p || m.quien.includes(p)));
+    const hechas = g.mecanicas.filter(m => m.estado === "hecho").length;
+    const filas = ms.length ? ms.map(m => `
+      <div class="fila">
+        <div class="m"><strong>${esc(m.m)}</strong>${m.dn ? `<span class="dn">${esc(m.dn)}</span>` : ""}
+          ${m.nota ? `<div class="nota${m.alerta ? " al" : ""}">${esc(m.nota)}</div>` : ""}</div>
+        <div><span class="pill p-${m.estado}">${ET[m.estado]}</span></div>
+        <div class="quien">${m.quien.map(esc).join(", ")}</div>
+        <div class="bloque">${esc(m.bloque || "")}</div>
+      </div>`).join("") : `<div class="vacio">Nada con este filtro.</div>`;
+    return `<div class="grupo"><div class="grupo-h"><h3>${esc(g.nombre)}</h3><span class="mono eyebrow">${hechas} de ${g.mecanicas.length} hechas</span></div><div class="tabla">${filas}</div></div>`;
+  }).join("");
+}
+document.getElementById("filtros").addEventListener("click", e => {
+  const b = e.target.closest("button[data-f]"); if (!b) return;
+  filtro = b.dataset.f;
+  document.querySelectorAll("#filtros button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+  pintar();
+});
+sel.addEventListener("change", pintar);
+pintar();
+
+document.getElementById("fuera").innerHTML = D.fuera.map(f => `<li>${esc(f)}</li>`).join("");
+
+document.getElementById("equipo").innerHTML = D.equipo.map(e => {
+  const mias = todas.filter(m => m.quien.includes(e.n) && m.estado !== "hecho").length;
+  const img = e.r && R[e.r] ? `<img class="retrato" alt="Retrato de ${esc(e.n)}" src="${R[e.r]}">` : `<div class="retrato" aria-hidden="true">${e.vacante ? "?" : esc(e.n[0])}</div>`;
+  return `<div class="persona${e.vacante ? " vac" : ""}">${img}<div style="min-width:0"><b>${esc(e.n)}</b><div class="rol">${esc(e.rol)}</div><p>${esc(e.lleva)}</p>${mias ? `<div class="carga">${mias} mecánica${mias>1?"s":""} abierta${mias>1?"s":""}</div>` : ""}</div></div>`;
+}).join("");
+
+document.getElementById("versiones").innerHTML = D.versiones.slice().reverse().map(v =>
+  `<div><span class="mono">v${v.v} · ${esc(v.fecha)}</span> · ${esc(v.cambio)}</div>`).join("");
+</script>
