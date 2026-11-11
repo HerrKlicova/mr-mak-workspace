@@ -34,6 +34,19 @@ El género y las mecánicas de construir vías y montar líneas son de todos. Na
 - **Las ciudades en ruinas son a la vez botín y peligro.** Limpiarlas da recursos y nuevas estaciones.
 - **La noche ataca la red.** Una vía cortada o un tren detenido en mitad de una horda es el drama del juego. La defensa de Sagunto que ya tenemos encaja como el asedio de una estación.
 
+## 4 bis. Dos géneros en un solo bucle (Eugenio, 22:45)
+
+Eugenio pide una gestión de recursos militares seria y entretenida, una gestión de transportes también entretenida y que los dos géneros se mezclen. La regla de diseño es que **ninguno de los dos funciona sin el otro**:
+
+- **El ejército consume.** Munición, combustible, raciones y repuestos se gastan al combatir, al moverse y con el paso del tiempo. Un pelotón sin munición no dispara, un VAMTAC sin gasoil se queda parado y una guarnición sin raciones pierde moral y acaba desertando.
+- **El transporte abastece.** Esos recursos solo llegan donde llega una vía o una carretera y una línea que los lleve. La capacidad, la frecuencia y el tiempo de viaje deciden cuánto frente puedes mantener.
+- **El ejército abre camino al transporte.** Tender vía exige limpiar y escoltar el tramo, y una vía sin guardia la cortan los zombis de noche.
+- **El transporte hace crecer al ejército.** Las ciudades limpiadas dan supervivientes (nuevos soldados y obreros), chatarra (material de vía) y depósitos (munición y gasoil), pero solo si alguien se los lleva a la base.
+
+La parte seria está en las cuentas: cada unidad tiene un consumo visible por hora y en combate, cada almacén muestra para cuánto tiempo le llega lo que tiene, y una línea muestra cuántas unidades por hora entrega. La parte entretenida está en las decisiones: adelantar el frente o reforzar lo que ya tienes, una línea rápida de munición o una lenta de material, arriesgar un tren por una zona sin limpiar.
+
+Recursos del MVP, solo cuatro: **munición, gasoil, raciones y material de vía**, además de los soldados como recurso humano.
+
 ## 5. MVP que lo demuestra (corte vertical)
 
 Un trozo de costa de unos 8 × 8 km (tamaño SIN VERIFICAR, lo fija Marcos según rendimiento), con Sagunto ya defendido y un pueblo en ruinas lleno de zombis.
@@ -58,8 +71,10 @@ Antes del corte completo, una prueba de que el núcleo nuevo funciona:
 - Una línea de dos paradas: un tren va, carga, vuelve y descarga solo, en bucle.
 - Un pelotón que se manda a mano a cualquier punto y se ve andar.
 - Un grupo de zombis (cien o así) en un caserío que reacciona al pelotón.
+- **El cruce de los dos géneros, ya en el Hito 1.** Cada soldado del pelotón lleva 60 cartuchos y el puesto avanzado (la estación B) empieza con poca munición (cifras SIN VERIFICAR, para Hugo). Sin la línea, el pelotón se queda seco a mitad del caserío; con la línea llevando munición de A a B, se rearma en B y termina el trabajo. Limpiar el caserío deja un depósito de material de vía que hay que traer a A con el mismo tren.
+- En pantalla: la munición de cada soldado, lo que tiene cada almacén y lo que entrega la línea por hora.
 
-Sin noche, sin economía y sin carreteras todavía. **Está hecho** cuando alguien del equipo lo juega con ventana durante diez minutos sin nada raro. Es lo primero que vería Eugenio.
+Sin noche, sin gasoil, sin raciones y sin carreteras todavía. Eso llega en el corte completo. **Está hecho** cuando alguien del equipo lo juega con ventana durante diez minutos sin nada raro. Es lo primero que vería Eugenio.
 
 ## 6. Plazos
 
