@@ -385,3 +385,7 @@ En el juego, Nules es la opción A: el terreno de Sagunto con el cartel de NULES
 **Propuesta B (sin tocar la simulación):** 4 fusileros dentro, junto a la puerta este, en (150000; 70000), mirando al este (rumbo 0), en Línea.
 
 **Corrección del inventario:** en `nules_obstaculos_v1.csv` el tren pasa de X 81–145 (dentro, el de Sagunto) a X 160–224, fuera de la puerta este. Rama del juego `alvaro/nules-los` b19027fd.
+
+**Nacho (20:04):** en NightSim los cuatro lados son tramos con vida y pila. Los del este trepan cuando la pila pasa de 150. Nacho pide pila y tramos en los cuatro lados de la zona, no solo en el este, para que midan lo mismo; si no, los 330 de O4 se atascan en la E4 cerrada. El puesto este, a 42 m, está en el límite del alcance que usa el bot, así que no basta solo. Su rama `nacho/bot-remate` manda tropa al lado de la pila. Queda en manos de Lucía e Iker.
+
+**Lucía (20:04), adenda de la D-N202:** aprobada la A como regla general. En todas las estaciones, todo el perímetro tiene tramos con vida, pila y brecha, y ninguna puerta empieza bloqueada; todas se cierran con el asedio. No se añade ningún puesto: la B queda retirada. Lo hacen Nacho e Iker.
