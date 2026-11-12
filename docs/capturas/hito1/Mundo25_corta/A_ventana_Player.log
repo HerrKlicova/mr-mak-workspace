@@ -1,0 +1,1019 @@
+Mono path[0] = 'C:/Dev/TBD/Builds/Mundo25/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD/Builds/Mundo25/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD/Builds/Mundo25/TBD_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5080
+[D3D12 Device Filter] Driver Version: 32.0.16.1664
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 15979 MB
+[D3D12 Device Filter] Processor Count: 20
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5080 (ID=0x2c02)
+    Vendor:          NVIDIA
+    VRAM:            15979 MB
+    App VRAM Budget: 15211 MB
+    Driver:          32.0.16.1664
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.040 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.097600 ms
+[UI3] interfaz v3 encendida (-ui3)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.616700 ms
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.474200 ms (FindLiveObjects: 0.092000 ms CreateObjectMapping: 0.034200 ms MarkObjects: 3.324700 ms  DeleteObjects: 0.022800 ms)
+
+[MUNDO] terreno de Álvaro: 2049² muestras, 2048 × 128 × 2048 m en Y = −10, con usos del suelo
+[MUNDO] -hashlog → C:\Dev\TBD\Builds\Mundo25\Captures\hash_C_A.txt
+[MUNDO] simulación de Nacho: 100 zombis, 45 casas, pelotón 1
+[MUNDO] vista desde el Mundo: 100 zombis, 15 edificios, 6 tapias, 960 naranjos, pelotón en (1290; 1610)
+[RED] usando el Mundo común (Mundo.Red): 2 estaciones, 1 tren, 2 trozos de carretera
+[MUNDO] prototipo de zum: 2048 × 2048 m, altura 6–4000 m, iconos por encima de 250 m
+[RED] vista de la red lista: T para trazar vía (arrastrar con el botón izquierdo), Esc cancela
+[TREN] tick 30 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 60 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 90 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 120 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 150 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 180 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 210 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 240 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 270 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 300 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 330 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 360 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[RED] modo trazar activado
+[TREN] tick 390 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[RED] ratón abajo en (830; 69) · trazo 0 puntos
+[TREN] tick 420 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 450 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 480 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 510 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 540 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[RED] ratón arriba en (1080; 779) · trazo 36 puntos
+[RED] vía no válida, no se manda: la vía tiene que empezar en una estación o en otra vía
+[TREN] tick 570 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 600 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[RED] ratón abajo en (874; 105) · trazo 0 puntos
+[TREN] tick 630 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 660 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 690 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 720 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 750 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[TREN] tick 780 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 19 palés · B 1 cajas 0 palés
+[RED] ratón arriba en (1060; 899) · trazo 54 puntos
+[RED] trazo de 54 puntos mandado al Mundo
+[RED] vía trazada: tramo 0, 102 piezas, 1219 m, 1 pasos a nivel
+[RED] curvas: 36 de 102 · primera curva (Izq240) en (1102; 645) m
+[RED] paso a nivel: SM_PasoNivel_90E_v0_Teja en (1199; 981) m
+[TREN] tick 810 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 840 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 870 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 900 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 930 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 960 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 990 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1020 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1050 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1080 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1110 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1140 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1170 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1200 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1230 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1260 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1290 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1320 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1350 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1380 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1410 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1440 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1470 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1500 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1530 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1560 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1590 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 1620 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1650 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[RED] ratón abajo en (1060; 899) · trazo 0 puntos
+[TREN] tick 1680 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1710 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1740 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1770 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[TREN] tick 1800 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 1 palés · B 1 cajas 0 palés
+[RED] ratón arriba en (1041; 938) · trazo 11 puntos
+[RED] trazo de 11 puntos mandado al Mundo
+[RED] vía trazada: tramo 1, 5 piezas, 74 m, 1 pasos a nivel
+[RED] curvas: 4 de 5 · primera curva (Izq120) en (1329; 1572) m
+[TREN] tick 1830 Tren 1 Parado línea -1 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 0 palés · B 1 cajas 0 palés
+[RED] línea A–B en marcha
+[RED] A y B unidas: la simulación crea la línea por defecto en el tick 1830 (4 cajas a B, 2 palés de vuelta) y el tren sale
+[RED] modo trazar desactivado
+[TREN] tick 1860 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 1890 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 1920 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 1950 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 20 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 1980 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 19 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2010 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 19 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2040 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 19 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2070 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 19 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2100 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 19 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2130 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 18 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2160 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 18 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2190 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 18 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2220 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 18 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2250 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 18 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2280 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 17 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 2310 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 17 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2340 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 17 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2370 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 17 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2400 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 17 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2430 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2460 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2490 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2520 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 4 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2550 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 7 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2580 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 11 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2610 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 16 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 2640 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 22 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2670 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 28 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2700 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 36 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2730 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 45 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 2760 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 54 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2790 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 64 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2820 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 76 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2850 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 87 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 2880 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 98 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2910 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 109 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2940 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 120 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 2970 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 131 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3000 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 142 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3030 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 153 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3060 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 164 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3090 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 175 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3120 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 187 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3150 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 198 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3180 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 209 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3210 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 220 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3240 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 231 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3270 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 242 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3300 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 253 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3330 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 264 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3360 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 275 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3390 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 286 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3420 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 298 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3450 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 309 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3480 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 320 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3510 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 331 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3540 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 342 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3570 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 353 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3600 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 364 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3630 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 375 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3660 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 386 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3690 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 397 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3720 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 409 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3750 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 420 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3780 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 431 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3810 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 442 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3840 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 453 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3870 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 464 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3900 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 475 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3930 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 486 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 3960 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 497 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 3990 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 508 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 4020 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 520 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4050 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 531 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 4080 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 542 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4110 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 553 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4140 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 564 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4170 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 575 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4200 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 586 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4230 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 597 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4260 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 608 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4290 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 619 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4320 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 631 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4350 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 642 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4380 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 653 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4410 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 664 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 4440 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 675 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4470 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 686 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4500 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 697 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 4530 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 708 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4560 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 719 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 4590 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 730 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4620 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 742 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4650 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 753 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 4680 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 764 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4710 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 775 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 4740 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 786 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4770 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 797 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4800 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 808 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4830 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 819 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4860 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 830 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4890 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 841 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4920 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 853 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4950 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 864 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 4980 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 875 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5010 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 886 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5040 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 897 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5070 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 908 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 5100 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 919 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5130 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 930 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5160 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 941 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 5190 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 952 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5220 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 964 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5250 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 975 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5280 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 986 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5310 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 997 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5340 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1008 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5370 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1019 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5400 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1030 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5430 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1041 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5460 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1052 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5490 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1063 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5520 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1075 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5550 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1086 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5580 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1097 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 5610 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1108 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5640 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1119 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5670 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1130 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5700 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1141 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5730 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1152 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5760 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1163 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5790 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1174 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5820 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1186 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5850 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1197 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5880 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1208 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5910 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1219 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5940 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 10 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 5970 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 20 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6000 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 30 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6030 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 38 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6060 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 46 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6090 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 52 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6120 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 58 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6150 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 63 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 6180 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 67 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6210 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 70 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6240 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 72 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6270 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 73 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6300 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6330 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6360 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6390 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6420 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 4 cajas 0 palés · A 16 cajas 0 palés · B 1 cajas 0 palés
+[TREN] tick 6450 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 16 cajas 0 palés · B 2 cajas 0 palés
+[TREN] tick 6480 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 16 cajas 0 palés · B 2 cajas 0 palés
+[TREN] tick 6510 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 16 cajas 0 palés · B 2 cajas 0 palés
+[TREN] tick 6540 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 16 cajas 0 palés · B 2 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 6570 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 3 cajas 0 palés · A 16 cajas 0 palés · B 2 cajas 0 palés
+[TREN] tick 6600 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 16 cajas 0 palés · B 3 cajas 0 palés
+[TREN] tick 6630 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 16 cajas 0 palés · B 3 cajas 0 palés
+[TREN] tick 6660 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 16 cajas 0 palés · B 3 cajas 0 palés
+[TREN] tick 6690 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 16 cajas 0 palés · B 3 cajas 0 palés
+[TREN] tick 6720 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 2 cajas 0 palés · A 16 cajas 0 palés · B 3 cajas 0 palés
+[TREN] tick 6750 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 16 cajas 0 palés · B 4 cajas 0 palés
+[TREN] tick 6780 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 16 cajas 0 palés · B 4 cajas 0 palés
+[TREN] tick 6810 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 16 cajas 0 palés · B 4 cajas 0 palés
+[TREN] tick 6840 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 16 cajas 0 palés · B 4 cajas 0 palés
+[TREN] tick 6870 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 1 cajas 0 palés · A 16 cajas 0 palés · B 4 cajas 0 palés
+[TREN] tick 6900 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 0 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 6930 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 1 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 6960 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 3 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 6990 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 6 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7020 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 9 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7050 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 14 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7080 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 20 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7110 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 26 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7140 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 33 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7170 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 42 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7200 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 51 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7230 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 61 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7260 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 72 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7290 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 9 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7320 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 20 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 7350 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 31 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7380 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 42 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7410 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 53 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7440 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 64 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7470 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 75 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7500 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 86 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7530 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 97 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7560 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 108 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7590 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 120 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7620 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 131 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7650 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 142 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7680 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 153 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7710 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 164 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 7740 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 175 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7770 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 186 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7800 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 197 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7830 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 208 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7860 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 219 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7890 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 231 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7920 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 242 m · pelotón 280 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7950 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 253 m · pelotón 275 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 7980 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 264 m · pelotón 265 cartuchos, 0 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8010 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 275 m · pelotón 242 cartuchos, 1 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8040 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 286 m · pelotón 241 cartuchos, 2 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 8070 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 297 m · pelotón 241 cartuchos, 2 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8100 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 308 m · pelotón 241 cartuchos, 2 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8130 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 319 m · pelotón 240 cartuchos, 3 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8160 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 330 m · pelotón 225 cartuchos, 4 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8190 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 342 m · pelotón 222 cartuchos, 5 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8220 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 353 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8250 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 364 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8280 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 375 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8310 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 386 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8340 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 397 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 8370 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 408 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8400 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 419 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8430 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 430 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8460 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 441 m · pelotón 217 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8490 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 453 m · pelotón 214 cartuchos, 6 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8520 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 464 m · pelotón 207 cartuchos, 8 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8550 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 475 m · pelotón 205 cartuchos, 10 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8580 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 486 m · pelotón 195 cartuchos, 13 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8610 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 497 m · pelotón 175 cartuchos, 14 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8640 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 508 m · pelotón 154 cartuchos, 19 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8670 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 519 m · pelotón 134 cartuchos, 24 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8700 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 530 m · pelotón 111 cartuchos, 28 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8730 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 541 m · pelotón 79 cartuchos, 30 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 8760 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 552 m · pelotón 72 cartuchos, 32 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8790 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 564 m · pelotón 72 cartuchos, 32 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8820 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 575 m · pelotón 66 cartuchos, 34 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8850 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 586 m · pelotón 62 cartuchos, 35 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8880 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 597 m · pelotón 62 cartuchos, 35 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8910 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 608 m · pelotón 54 cartuchos, 36 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8940 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 619 m · pelotón 46 cartuchos, 37 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 8970 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 630 m · pelotón 41 cartuchos, 38 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9000 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 641 m · pelotón 21 cartuchos, 41 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9030 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 652 m · pelotón 12 cartuchos, 42 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9060 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 663 m · pelotón 12 cartuchos, 42 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 9090 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 675 m · pelotón 4 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9120 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 686 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9150 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 697 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9180 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 708 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9210 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 719 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9240 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 730 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9270 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 741 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9300 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 752 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9330 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 763 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9360 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 774 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9390 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 786 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 9420 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 797 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9450 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 808 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9480 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 819 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9510 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 830 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9540 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 841 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9570 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 852 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9600 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 863 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9630 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 874 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9660 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 885 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9690 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 897 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9720 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 908 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 9750 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 919 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9780 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 930 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9810 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 941 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9840 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 952 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9870 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 963 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9900 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 974 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9930 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 985 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9960 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 996 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 9990 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1008 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10020 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1019 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10050 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1030 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10080 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1041 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10110 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1052 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 10140 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1063 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10170 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1074 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10200 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1085 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10230 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1096 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10260 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1107 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10290 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1119 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10320 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1130 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10350 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1141 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10380 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1152 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10410 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1162 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10440 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1172 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10470 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1181 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10500 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1189 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10530 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1196 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10560 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1202 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10590 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1207 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10620 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1211 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10650 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1214 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10680 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1217 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10710 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1218 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10740 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10770 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10800 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10830 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10860 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 16 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10890 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 15 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10920 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 15 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10950 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 15 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 10980 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 15 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11010 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 15 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11040 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 14 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11070 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 14 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11100 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 14 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11130 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 14 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11160 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 14 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11190 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 13 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11220 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 13 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11250 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 13 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11280 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 13 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11310 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 13 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11340 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11370 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11400 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 2 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11430 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 5 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11460 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 8 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11490 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 12 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11520 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 18 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11550 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 24 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11580 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 31 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11610 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 39 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11640 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 48 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11670 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 57 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11700 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 68 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11730 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 79 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11760 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 90 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11790 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 101 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11820 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 113 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11850 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 124 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11880 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 135 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11910 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 146 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11940 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 157 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 11970 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 168 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12000 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 179 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12030 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 190 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12060 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 201 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12090 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 212 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12120 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 224 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12150 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 235 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12180 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 246 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12210 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 257 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12240 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 268 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12270 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 279 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12300 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 290 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12330 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 301 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12360 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 312 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12390 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 323 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12420 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 335 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12450 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 346 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12480 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 357 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12510 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 368 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12540 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 379 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12570 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 390 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12600 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 401 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12630 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 412 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12660 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 423 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12690 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 434 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12720 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 446 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12750 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 457 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12780 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 468 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12810 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 479 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12840 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 490 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12870 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 501 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12900 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 512 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12930 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 523 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12960 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 534 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 12990 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 545 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13020 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 557 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13050 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 568 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13080 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 579 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13110 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 590 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13140 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 601 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13170 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 612 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13200 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 623 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13230 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 634 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13260 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 645 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13290 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 656 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13320 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 668 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13350 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 679 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13380 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 690 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13410 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 701 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13440 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 712 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13470 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 723 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13500 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 734 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13530 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 745 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13560 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 756 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13590 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 767 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13620 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 779 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13650 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 790 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13680 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 801 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13710 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 812 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13740 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 823 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13770 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 834 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13800 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 845 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13830 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 856 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13860 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 867 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13890 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 878 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13920 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 890 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13950 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 901 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 13980 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 912 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14010 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 923 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14040 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 934 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14070 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 945 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14100 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 956 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14130 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 967 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14160 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 978 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14190 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 989 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14220 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1001 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14250 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1012 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14280 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1023 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 14310 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1034 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14340 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1045 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14370 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1056 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14400 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1067 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14430 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1078 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14460 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1089 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14490 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1100 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14520 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1112 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14550 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1123 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14580 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1134 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14610 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1145 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14640 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1156 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14670 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1167 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14700 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1178 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14730 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1189 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14760 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1200 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 14790 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1211 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14820 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 3 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14850 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 14 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14880 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 24 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14910 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 33 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14940 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 41 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 14970 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 48 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15000 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 54 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15030 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 60 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15060 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 64 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15090 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 68 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15120 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 71 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15150 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 73 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15180 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15210 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15240 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15270 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15300 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 12 cajas 0 palés · B 5 cajas 0 palés
+[TREN] tick 15330 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 12 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 15360 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 12 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 15390 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 12 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 15420 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 12 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 15450 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 12 cajas 0 palés · B 6 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 15480 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 12 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 15510 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 12 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 15540 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 12 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 15570 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 12 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 15600 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 12 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 15630 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 12 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 15660 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 12 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 15690 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 12 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 15720 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 12 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 15750 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 12 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 15780 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 15810 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 15840 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 1 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 15870 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 4 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 15900 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 7 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 15930 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 11 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 15960 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 16 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 15990 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 22 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16020 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 28 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16050 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 36 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16080 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 45 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16110 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 54 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16140 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 64 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16170 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16200 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 12 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16230 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 23 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16260 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 34 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16290 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 46 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16320 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 57 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16350 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 68 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16380 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 79 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 16410 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 90 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16440 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 101 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16470 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 112 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16500 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 123 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16530 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 134 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16560 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 145 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16590 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 157 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16620 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 168 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16650 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 179 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16680 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 190 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 16710 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 201 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16740 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 212 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16770 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 223 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16800 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 234 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16830 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 245 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16860 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 256 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16890 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 268 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16920 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 279 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16950 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 290 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 16980 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 301 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17010 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 312 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17040 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 323 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17070 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 334 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17100 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 345 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17130 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 356 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17160 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 367 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 17190 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 379 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17220 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 390 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17250 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 401 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17280 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 412 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17310 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 423 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17340 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 434 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17370 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 445 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17400 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 456 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 17430 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 467 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17460 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 478 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17490 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 490 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17520 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 501 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17550 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 512 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17580 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 523 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17610 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 534 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17640 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 545 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17670 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 556 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17700 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 567 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17730 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 578 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17760 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 589 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17790 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 601 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17820 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 612 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17850 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 623 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17880 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 634 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17910 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 645 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17940 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 656 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 17970 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 667 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18000 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 678 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18030 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 689 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18060 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 700 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18090 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 712 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18120 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 723 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18150 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 734 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18180 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 745 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18210 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 756 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18240 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 767 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18270 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 778 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18300 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 789 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18330 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 800 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18360 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 811 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18390 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 823 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18420 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 834 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18450 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 845 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18480 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 856 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18510 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 867 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18540 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 878 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18570 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 889 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18600 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 900 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18630 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 911 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18660 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 922 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18690 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 934 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18720 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 945 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18750 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 956 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18780 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 967 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18810 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 978 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18840 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 989 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18870 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1000 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18900 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1011 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18930 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1022 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18960 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1033 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 18990 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1045 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19020 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1056 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19050 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1067 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19080 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1078 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19110 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1089 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19140 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1100 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19170 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1111 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19200 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1122 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19230 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1133 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19260 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1144 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19290 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1155 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19320 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1166 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19350 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1175 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19380 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1184 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19410 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1191 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19440 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1198 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19470 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1203 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19500 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1208 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19530 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1212 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19560 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1215 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19590 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1218 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19620 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 1219 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19650 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19680 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19710 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19740 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19770 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 12 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19800 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 11 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19830 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 11 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19860 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 11 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19890 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 11 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19920 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 11 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19950 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 10 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 19980 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 10 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20010 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 10 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20040 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 10 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20070 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 10 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20100 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 9 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20130 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 9 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20160 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 9 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20190 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 9 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20220 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 9 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20250 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 0 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20280 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20310 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 3 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20340 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 6 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20370 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 9 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20400 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 14 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20430 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 20 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20460 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 26 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20490 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 33 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20520 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 42 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20550 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 51 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20580 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 61 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20610 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 72 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20640 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 83 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20670 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 94 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20700 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 105 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20730 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 116 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20760 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 127 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20790 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 138 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20820 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 150 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20850 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 161 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20880 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 172 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20910 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 183 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20940 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 194 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 20970 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 205 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21000 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 216 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21030 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 227 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21060 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 238 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21090 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 249 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21120 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 261 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21150 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 272 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21180 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 283 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21210 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 294 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21240 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 305 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21270 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 316 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21300 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 327 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21330 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 338 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21360 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 349 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21390 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 360 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21420 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 372 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21450 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 383 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21480 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 394 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 21510 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 405 m · pelotón 0 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[RECARGA] 3 cajas → 280 cartuchos (pelotón 1, tick 21510, munición 280/280, sueltos en B 35, cajas en B 6)
+[TREN] tick 21540 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 416 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21570 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 427 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21600 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 438 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21630 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 449 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21660 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 460 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21690 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 471 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21720 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 483 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21750 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 494 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21780 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 505 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21810 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 516 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21840 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 527 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21870 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 538 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21900 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 549 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21930 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 560 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21960 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 571 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 21990 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 582 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22020 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 594 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22050 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 605 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22080 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 616 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22110 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 627 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22140 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 638 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22170 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 649 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22200 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 660 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22230 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 671 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22260 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 682 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22290 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 693 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22320 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 705 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22350 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 716 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22380 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 727 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22410 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 738 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22440 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 749 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22470 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 760 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22500 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 771 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22530 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 782 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22560 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 793 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22590 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 804 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22620 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 816 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22650 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 827 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22680 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 838 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22710 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 849 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22740 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 860 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22770 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 871 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22800 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 882 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22830 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 893 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22860 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 904 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22890 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 915 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22920 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 927 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22950 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 938 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 22980 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 949 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23010 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 960 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23040 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 971 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23070 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 982 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23100 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 993 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23130 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1004 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23160 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1015 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23190 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1026 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23220 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1038 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23250 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1049 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23280 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1060 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23310 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1071 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23340 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1082 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23370 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1093 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23400 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1104 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23430 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1115 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23460 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1126 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23490 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1137 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23520 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1149 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23550 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1160 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23580 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1171 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23610 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1182 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23640 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1193 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23670 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1204 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23700 Tren 1 EnMarcha línea 0 paso 0/2 tramo 0 off 1215 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23730 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 6 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23760 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 17 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23790 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 27 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23820 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 35 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23850 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 43 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23880 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 50 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23910 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 56 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23940 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 61 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 23970 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 66 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24000 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 69 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24030 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 72 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24060 Tren 1 EnMarcha línea 0 paso 1/2 tramo 1 off 73 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24090 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24120 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24150 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24180 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24210 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 4 cajas 0 palés · A 8 cajas 0 palés · B 6 cajas 0 palés
+[TREN] tick 24240 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 8 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 24270 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 8 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 24300 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 8 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 24330 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 8 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 24360 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 3 cajas 0 palés · A 8 cajas 0 palés · B 7 cajas 0 palés
+[TREN] tick 24390 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 8 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 24420 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 8 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 24450 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 8 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 24480 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 8 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 24510 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 2 cajas 0 palés · A 8 cajas 0 palés · B 8 cajas 0 palés
+[TREN] tick 24540 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 24570 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 24600 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 24630 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 24660 Tren 1 EnParada línea 0 paso 0/0 tramo -1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 1 cajas 0 palés · A 8 cajas 0 palés · B 9 cajas 0 palés
+[TREN] tick 24690 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24720 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 0 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24750 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 2 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24780 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 5 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24810 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 8 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24840 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 12 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24870 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 18 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24900 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 24 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24930 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 31 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24960 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 39 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 24990 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 48 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 25020 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 57 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 25050 Tren 1 EnMarcha línea 0 paso 0/2 tramo 1 off 68 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 25080 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 5 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 25110 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 16 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 25140 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 27 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 25170 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 38 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[RED] Supr: borrar tramo 1 pedido
+[TREN] tick 25200 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 49 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[RED] vía borrada: tramo 1
+[TREN] tick 25230 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 60 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25260 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 71 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25290 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 83 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25320 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 94 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25350 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 105 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25380 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 116 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25410 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 127 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25440 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 138 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25470 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 149 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25500 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 160 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25530 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 171 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25560 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 182 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25590 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 194 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25620 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 205 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25650 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 216 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25680 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 227 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25710 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 238 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25740 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 249 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25770 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 260 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25800 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 271 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25830 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 282 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25860 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 293 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25890 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 305 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25920 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 316 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 25950 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 327 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[QA] qa_pantalla.txt escrito
+[TREN] tick 25980 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 338 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[RED] modo trazar activado
+[TREN] tick 26010 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 349 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[RED] ratón abajo en (950; 946) · trazo 0 puntos
+[TREN] tick 26040 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 360 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 26070 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 371 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 26100 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 382 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 26130 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 393 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 26160 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 404 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[TREN] tick 26190 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 416 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 1 palés · B 10 cajas 0 palés
+[RED] ratón arriba en (913; 964) · trazo 13 puntos
+[RED] trazo de 13 puntos mandado al Mundo
+[RED] vía trazada: tramo 2, 5 piezas, 78 m, 1 pasos a nivel
+[RED] curvas: 5 de 5 · primera curva (Izq60) en (1329; 1572) m
+[TREN] tick 26220 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 427 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26250 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 438 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26280 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 449 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26310 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 460 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26340 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 471 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26370 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 482 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26400 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 493 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26430 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 504 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26460 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 515 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26490 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 527 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26520 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 538 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[RED] modo trazar desactivado
+[TREN] tick 26550 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 549 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26580 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 560 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26610 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 571 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26640 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 582 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[TREN] tick 26670 Tren 1 EnMarcha línea 0 paso 1/2 tramo 0 off 593 m · pelotón 280 cartuchos, 44 abatidos · carga 0 cajas 0 palés · A 8 cajas 0 palés · B 10 cajas 0 palés
+[MUNDO] grabación guardada: C:\Dev\TBD\Builds\Mundo25\Captures\mundo_grabacion.txt
+[MUNDO] fin: tick 26682, abatidos 44, bajas 0, hash f96b5bfa359e0b1d
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

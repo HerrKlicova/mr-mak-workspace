@@ -1,0 +1,20 @@
+Hito 1 · partida corta a mano (Mundo25) · Marcos (2), 12-11 05:00
+Código: TBD marcos/mundo-zum bac54cab (los 5 S2 cerrados: Iker e89f3e89, Nacho 17f68792, mis placas y franja de abajo). Build Mundo25.
+A: ventana 1920×1080, -grabar -trenlog -hashlog (sin -guion ni -camguion), PlayerPrefs limpios y restaurados. Ratón y teclado sintéticos. Sin pausas.
+B: batchmode -reproducir → desync=False · 26683 ticks comparados. 87 órdenes. Final común: tick 26682, 44 abatidos, 0 bajas, hash f96b5bfa359e0b1d.
+Capturas:
+ 01 rechazo por el arranque (✕ en el punto de arranque; motivo en la franja de abajo).
+ 02-03 vía A→B que acaba suelta a ~53 m de B (más de 40 m: queda suelta sin rechazo, es lo previsto) y su unión con B.
+ 04 franja de abajo entera (panel de la línea de Iker).
+ 05 zum cercano sobre A (88 m), con su placa.
+ 06-07 el rodeo a altura de pueblo (268 m).
+ 08-10 orden a un punto inalcanzable (el mar): el pelotón la acepta sin aviso, cruza la marjal y se queda en la orilla.  ← S2 propuesto
+ 09 aviso de pelotón seco.
+ 11 placas con «Midiendo…» y A con 0 palés (A vacía de material: «86 m»).
+ 12 placas con tendencia: B «Sube», A «Se agota en ~14 min».
+ 13 palés que suben en A: al borrar la unión (Supr) se devuelve el material (A de 0 a 1 palé).
+ 14 re-trazado de la unión; 15 final.
+Lo que falta de la lista de Sara:
+ - zum sobre el caserío y sobre un punto vacío (solo saqué el de A: el zum va al centro de la pantalla y centrar con WASD me costó mucho);
+ - el rechazo «no encaja con la estación B»: no lo conseguí provocar (con lo de Iker, los finales a menos de 40 m se llevan hasta la estación y encajan);
+ - «B llena»: no se llega en una partida corta (A sin palés sí).
