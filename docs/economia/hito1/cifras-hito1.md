@@ -110,3 +110,8 @@ Modelo con k 4,8 y caja 105: sin línea, primer seco p10/p50/p90 = 50/58/67, aba
 2. **Borrar vía devuelve el 100 %** en el Hito 1 (probar trazados sin castigo; el guion de borrar y rehacer no se queda sin material). En el corte completo, menos (por decidir).
 3. **Material inicial de A = coste real del trazado A–B + 2 palés**, redondeado arriba. Con 1250 m en recta y el paso a nivel son 14 + 2 = 16; si la curva nueva sube el coste, A sube con él (Iker da el coste real).
 4. **Medido por Iker (marcos/mundo-zum dbb03ed8):** recta A–B 14,9 palés (1485 m con curvas a 1,5); guion A → P → B 17,0. **A empieza con 19 palés** (coste del guion + 2). Sobra 2 con el guion y 4,1 con la recta.
+
+## 6. Carga del tren a 5 s por hueco (12-11 01:20, a raíz de las sondas de Marcos)
+- Marcos, guion con 19 palés + e97a27be: 88, 89 y 73 abatidos de 100 (k 5,6; la munición cuadra con Nacho). Causa: el reloj. Nacho probó con la primera entrega a los 7200 ticks y 20 min de margen; en el guion llega hacia los 11 000 y la sonda corta a 18 000–24 000.
+- **Cambio:** carga y descarga **5 s por hueco (150 ticks)** en vez de 15 s, en A y en B. No toca la lección sin línea (más cajas en B sí la rompían; bajar k obligaba a recalibrar el cargador). Primera entrega hacia los 8600 ticks; vuelta ≈ 5,3 min; la línea sostiene ≈ 66 % de un combate continuo (antes 49 %).
+- Pendiente: Nacho, 100 semillas con la entrega real del guion y corte a 24 000 ticks.
