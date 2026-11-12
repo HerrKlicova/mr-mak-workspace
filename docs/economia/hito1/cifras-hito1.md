@@ -104,3 +104,8 @@ Modelo con k 4,8 y caja 105: sin línea, primer seco p10/p50/p90 = 50/58/67, aba
 | Aniquilado | 0/100 | 0/100 |
 | Al acabar | quedan 41,6 zombis de media; el pelotón se retira y espera en B | 0,1 de media; tiempo p50 690 s (11,5 min) |
 **Cumple los tres objetivos de Lucía** (sin línea ≤ 5 % y sin morir; con línea ≥ 95 % con 0–2 bajas). Constante en el juego: Mundo.CartuchosPorCaja = 105.
+
+## 5. Coste de la vía (12-11 01:05, a pregunta de Sara)
+1. **Sin redondeo por tramo.** El material se guarda y se cobra en **metros enteros** (1 palé = 100 m). Recta: sus metros; curva: ×1,5; paso a nivel o cruce: 200 m por pieza; desvío: 200 m; topera: 100 m. En pantalla, palés con un decimal.
+2. **Borrar vía devuelve el 100 %** en el Hito 1 (probar trazados sin castigo; el guion de borrar y rehacer no se queda sin material). En el corte completo, menos (por decidir).
+3. **Material inicial de A = coste real del trazado A–B + 2 palés**, redondeado arriba. Con 1250 m en recta y el paso a nivel son 14 + 2 = 16; si la curva nueva sube el coste, A sube con él (Iker da el coste real).
