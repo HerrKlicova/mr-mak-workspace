@@ -3291,3 +3291,6 @@ El movimiento, el combate, los trenes y la carga van 1:1, en segundos reales, co
 
 ## D-N209 · La vía se traza por piezas del kit (11-11 23:40, Lucía, a propuesta de Iker)
 El jugador dibuja con el ratón y el juego propone en vivo la cadena de piezas del kit de Teo que mejor sigue el trazo (con un radio mínimo de 60 m). La vista coloca los FBX tal cual. El jugador nunca elige piezas de un menú: para él es un trazo libre que se ajusta solo. Se gana fidelidad al arte, los desvíos encajan solos y el coop es determinista. Siguiente D-N libre: D-N210.
+
+### D-N207 · ampliación: oleada final (12-11 01:50, Lucía)
+Cuando en el caserío quedan 15 zombis o menos, los que siguen vivos oyen los disparos en todo el caserío y van hacia el pelotón. La placa muestra cuántos quedan. Medido por Nacho con 100 semillas y corte a 24 000 ticks: con las entregas reales, 100/100 limpio, p50 465 s y 0 bajas; con la entrega en 8600, 99/100; sin la línea, 0/100 (quedan 41,6 zombis de media).
