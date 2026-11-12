@@ -105,6 +105,14 @@ Modelo con k 4,8 y caja 105: sin línea, primer seco p10/p50/p90 = 50/58/67, aba
 | Al acabar | quedan 41,6 zombis de media; el pelotón se retira y espera en B | 0,1 de media; tiempo p50 690 s (11,5 min) |
 **Cumple los tres objetivos de Lucía** (sin línea ≤ 5 % y sin morir; con línea ≥ 95 % con 0–2 bajas). Constante en el juego: Mundo.CartuchosPorCaja = 105.
 
+**Remedida con el reloj del guion (Nacho, 12-11 01:49; 100 semillas, corte 24 000 ticks, carga a 5 s por hueco, oleada final de rezagados de la D-N207 ampliada: ≤ 15 zombis van hacia el pelotón):**
+| | Sin línea | Con las entregas reales de Marcos | Con la primera entrega a los 8600 ticks |
+|---|---|---|---|
+| Caserío limpio | **0/100** (41,6 vivos de media) | **100/100** | **99/100** |
+| Tiempo (p50) | — | 465 s | — |
+| Bajas | 0 | 0 | — |
+La lección se mantiene con el reloj real.
+
 ## 5. Coste de la vía (12-11 01:05, a pregunta de Sara)
 1. **Sin redondeo por tramo.** El material se guarda y se cobra en **metros enteros** (1 palé = 100 m). Recta: sus metros; curva: ×1,5; paso a nivel o cruce: 200 m por pieza; desvío: 200 m; topera: 100 m. En pantalla, palés con un decimal.
 2. **Borrar vía devuelve el 100 %** en el Hito 1 (probar trazados sin castigo; el guion de borrar y rehacer no se queda sin material). En el corte completo, menos (por decidir).

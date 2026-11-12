@@ -29,3 +29,5 @@ Encargo (docs/hito1-reparto.md): cifras del Hito 1 (munición por soldado, munic
 - 12-11 01:05 · Coste de vía acordado (§5): en metros enteros, sin redondeo por tramo; borrar devuelve 100 % en Hito 1; A = coste real A–B + 2. Espera coste real de Iker con la curva.
 - 12-11 01:12 · Coste real (Iker): recta 14,9 palés, guion A–P–B 17,0 → A = 19 palés (guion + 2). Iker proponía 20.
 - 12-11 01:21 · Sondas de Marcos no limpian (88/89/73) → causa: entrega a ~11 000 ticks vs 7200 de Nacho. Decidido: carga 5 s/hueco (150 ticks). Nacho confirma con 100 semillas y corte 24 000. Marcos no graba la A definitiva hasta entonces.
+- 12-11 01:21 · Lucía aprueba 5 s/hueco y el 66 %. No se toca el guion (imita a un jugador real). Espera las 100 semillas de Nacho.
+- 12-11 01:50 · Nacho con reloj del guion + rezagados D-N207: sin línea 0/100; con entregas de Marcos 100/100, p50 465 s, 0 bajas; con entrega a 8600, 99/100. Apuntado en §4. CERRADO.
