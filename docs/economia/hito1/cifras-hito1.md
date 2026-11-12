@@ -109,3 +109,4 @@ Modelo con k 4,8 y caja 105: sin línea, primer seco p10/p50/p90 = 50/58/67, aba
 1. **Sin redondeo por tramo.** El material se guarda y se cobra en **metros enteros** (1 palé = 100 m). Recta: sus metros; curva: ×1,5; paso a nivel o cruce: 200 m por pieza; desvío: 200 m; topera: 100 m. En pantalla, palés con un decimal.
 2. **Borrar vía devuelve el 100 %** en el Hito 1 (probar trazados sin castigo; el guion de borrar y rehacer no se queda sin material). En el corte completo, menos (por decidir).
 3. **Material inicial de A = coste real del trazado A–B + 2 palés**, redondeado arriba. Con 1250 m en recta y el paso a nivel son 14 + 2 = 16; si la curva nueva sube el coste, A sube con él (Iker da el coste real).
+4. **Medido por Iker (marcos/mundo-zum dbb03ed8):** recta A–B 14,9 palés (1485 m con curvas a 1,5); guion A → P → B 17,0. **A empieza con 19 palés** (coste del guion + 2). Sobra 2 con el guion y 4,1 con la recta.

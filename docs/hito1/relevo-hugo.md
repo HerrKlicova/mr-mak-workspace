@@ -27,3 +27,4 @@ Encargo (docs/hito1-reparto.md): cifras del Hito 1 (munición por soldado, munic
 - 11-11 23:57 · Lucía da por CERRADAS las cifras del Hito 1. Pendiente de otros: Sara lo comprueba con ventana cuando haya build (paso del pelotón seco). Iker: caja 105.
 - 12-11 01:01 · Marcos: 450 ticks/caja (=15 s a 30 t/s) y salida a 1920 ticks: cuadra. Vuelta vacía hasta limpiar: previsto. Propuesto a Iker/Nacho: al limpiar el caserío, los 4 palés pasan al almacén de B cuando vuelve el pelotón; la línea los lleva a A en 2 vueltas; nadie más produce material.
 - 12-11 01:05 · Coste de vía acordado (§5): en metros enteros, sin redondeo por tramo; borrar devuelve 100 % en Hito 1; A = coste real A–B + 2. Espera coste real de Iker con la curva.
+- 12-11 01:12 · Coste real (Iker): recta 14,9 palés, guion A–P–B 17,0 → A = 19 palés (guion + 2). Iker proponía 20.
