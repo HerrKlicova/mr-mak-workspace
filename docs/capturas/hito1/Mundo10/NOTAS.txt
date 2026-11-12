@@ -1,0 +1,5 @@
+H2-H4 sobre Mundo10 (= Mundo8 + arreglo de RedVista al reproducir), contra hash_H1_A de Mundo8, misma grabacion (25 ordenes), -salir-en 18300:
+- H2: B en -batchmode -nographics, -turbo 4.
+- H3: B con ventana y -camguion (recorrido de camara: mapa 2500 m, soldado 8 m sobre el peloton girando, pueblo 120 m, mapa 3800 m, en bucle de 90 s), -turbo 4. Capturas en H3_camara.png.
+- H4: B a -turbo 1 (10 min reales) contra A a x4.
+Antes del arreglo, la H2 daba desync=True@44 (red.trenes): RedVista volvia a meter la linea por defecto al reproducir, en un tick que dependia de los fotogramas.

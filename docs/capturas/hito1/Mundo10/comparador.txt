@@ -1,0 +1,3 @@
+H2: desync=False · ticks comunes: 18301 (del 0 al 18300) · A: 18301 · B: 18301
+H3: desync=False · ticks comunes: 18301 (del 0 al 18300) · A: 18301 · B: 18301
+H4: desync=False · ticks comunes: 18301 (del 0 al 18300) · A: 18301 · B: 18301
