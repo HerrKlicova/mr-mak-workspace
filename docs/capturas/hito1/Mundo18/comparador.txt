@@ -1,0 +1,6 @@
+== H2
+desync=False · ticks comunes: 28501 (del 0 al 28500) · A: 28501 · B: 28501
+== H3
+desync=False · ticks comunes: 28501 (del 0 al 28500) · A: 28501 · B: 28501
+== H4
+desync=False · ticks comunes: 28501 (del 0 al 28500) · A: 28501 · B: 28501

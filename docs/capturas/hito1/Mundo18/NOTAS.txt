@@ -1,0 +1,13 @@
+Hito 1 · A definitiva (Mundo18) · Marcos (2), 12-11 03:10
+Código: TBD marcos/mundo-zum d9e3bab3 (nacho/hito1 c2e23f95, iker 0c8b9949: carga 150 ticks/hueco, 19 palés en A, coste de vía; regla de Lucía).
+A:  TBD.exe -mundo -batchmode -nographics -guion -grabar -trenlog -turbo 8 -salir-en 28500 -hashlog Captures/hash_H1_A.txt
+H2: -batchmode -nographics -turbo 8 -reproducir Captures/mundo_grabacion.txt   → desync=False · 28501 ticks
+H3: con ventana 1280x720, -camguion (mapa ↔ soldado)                          → desync=False · 28501 ticks
+H4: -batchmode a ×1 (≈16 min reales)                                         → desync=False · 28501 ticks
+Final común: tick 28500, abatidos 100, bajas 0, hash d74f58a970d0dfd9. Grabación: 29 órdenes (vía, mar, 106×2, 107, re-trazado, pelotón de Nacho).
+Casos de Sara (en A_Player.log):
+1. 6000 · 106 tramo 1 con el tren encima → «hay un tren en ese tramo (Tren 1)».
+2. 6100 · 106 tramo 0 por delante → borrado; el tren para en P (7710, «no hay vía hasta A»); 7800 re-trazado A→P (tramo 2); sale en 7860.
+3. Caserío limpio 14528 → palés en B 17829 → el tren los carga 23520–23910 → A sube de 1 a 3 palés en 27900–28050.
+Los primeros 24001 ticks son idénticos a una corrida a 24000 (se alargó para que el material llegue a A).
+H3_camara.png: 6 capturas de la ventana durante H3 (la vía ya sale en hueso con curvas; placa «Caserío · quedan N»).

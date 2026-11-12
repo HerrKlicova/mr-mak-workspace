@@ -1,0 +1,78 @@
+Mono path[0] = 'C:/Dev/TBD/Builds/Mundo18/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD/Builds/Mundo18/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD/Builds/Mundo18/TBD_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5080
+[D3D12 Device Filter] Driver Version: 32.0.16.1664
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 15979 MB
+[D3D12 Device Filter] Processor Count: 20
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5080 (ID=0x2c02)
+    Vendor:          NVIDIA
+    VRAM:            15979 MB
+    App VRAM Budget: 15211 MB
+    Driver:          32.0.16.1664
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.108 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.014000 ms
+[UI3] interfaz v3 encendida (-ui3)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.562100 ms
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.519700 ms (FindLiveObjects: 0.101900 ms CreateObjectMapping: 0.034700 ms MarkObjects: 3.245500 ms  DeleteObjects: 0.137300 ms)
+
+[MUNDO] -camguion: recorrido de cámara de 90 s en bucle
+[MUNDO] terreno de Álvaro: 2049² muestras, 2048 × 128 × 2048 m en Y = −10, con usos del suelo
+[MUNDO] -hashlog → C:\Dev\TBD\Builds\Mundo18\Captures\hash_H3_B.txt
+[MUNDO] reproduzco 29 órdenes de Captures/mundo_grabacion.txt y comparo con 28501 líneas de hash
+[MUNDO] simulación de Nacho: 100 zombis, 45 casas, pelotón 1
+[MUNDO] reproducción: salgo en el tick 28500 (el último de la referencia)
+[MUNDO] vista desde el Mundo: 100 zombis, 15 edificios, 6 tapias, 960 naranjos, pelotón en (1290; 1610)
+[RED] usando el Mundo común (Mundo.Red): 2 estaciones, 1 tren, 2 trozos de carretera
+[MUNDO] prototipo de zum: 2048 × 2048 m, altura 6–4000 m, iconos por encima de 250 m
+[RED] vista de la red lista: T para trazar vía (arrastrar con el botón izquierdo), Esc cancela
+[RED] vía trazada: tramo 0, 46 piezas, 471 m, 0 pasos a nivel
+[RED] curvas: 2 de 46 · primera curva (Der240) en (1139; 852) m
+[RED] vía trazada: tramo 1, 69 piezas, 824 m, 1 pasos a nivel
+[RED] curvas: 24 de 69 · primera curva (Der60) en (1148; 892) m
+[RED] paso a nivel: SM_PasoNivel_90E_v2_Abandonado en (1199; 982) m
+[RED] línea A–B en marcha
+[RED] A y B unidas: la simulación crea la línea por defecto en el tick 60 (4 cajas a B, 2 palés de vuelta) y el tren sale
+[RED] la red rechaza: la vía no puede ir por el mar (1815; 828)
+[RECARGA] 3 cajas → 280 cartuchos (pelotón 1, tick 4920, munición 280/280, sueltos en B 35, cajas en B 0)
+[RECARGA] 0 cajas → 8 cartuchos (pelotón 1, tick 4950, munición 280/280, sueltos en B 27, cajas en B 0)
+[RED] la red rechaza: hay un tren en ese tramo (Tren 1)
+[RED] vía borrada: tramo 0
+[RED] la red rechaza: Tren 1: no hay vía hasta A
+[RED] vía trazada: tramo 2, 46 piezas, 471 m, 1 pasos a nivel
+[RED] curvas: 2 de 46 · primera curva (Der240) en (1139; 852) m
+[CASERIO] quedan 15 zombis: oleada final, oyen los disparos desde todo el caserío (tick 9965)
+[RECARGA] 2 cajas → 237 cartuchos (pelotón 1, tick 12360, munición 237/280, sueltos en B 0, cajas en B 0)
+[RECARGA] sin cajas en B (pelotón 1, tick 12390, munición 237/280)
+[MATERIAL] caserío limpio (tick 14528): el pelotón 1 coge 4 palés; va más despacio y sin disparar hasta B
+[RECARGA] 2 cajas → 151 cartuchos (pelotón 1, tick 17550, munición 280/280, sueltos en B 59, cajas en B 2)
+[MATERIAL] 4 palés del caserío en B (pelotón 1, tick 17829, palés en B 4)
+[MUNDO] fin: tick 28500, abatidos 100, bajas 0, hash d74f58a970d0dfd9 · desync=False · 28501 ticks comparados
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
