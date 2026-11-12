@@ -20,3 +20,10 @@ Actualizado: 12-11, 00:10.
 - La reproducción sale sola en el último tick de la referencia. -trenlog da tren, carga, almacenes, munición y abatidos, y al salir los zombis vivos.
 - Vista: el montón de palés en el suelo, el aviso de material y la placa del caserío, que hoy cuenta los vivos. Nacho expone ZombisQuedan y OleadaFinal: cambiar a eso.
 - Pendiente: gamma de Bruno a 1800 m. Pasar H3_camara.png a la galería (a través del coordinador).
+
+## 12-11, 05:40 · Marcos (2) · partidas a mano y vista
+- Partidas a mano en verde: Mundo21 (larga, 41 714 ticks) y Mundo25 (corta, 26 683 ticks). Capturas en docs/capturas/hito1/Mundo21_a_mano, Mundo25_corta y Mundo26_27.
+- Ratón sintético: scratchpad/ventana.ps1 (Mov2 = SetCursorPos + un mouse_event relativo, para que el Input System vea el movimiento; arrastrar/presionar/camino/soltar; vkext para Supr). Helpers en scratchpad/m26/f.sh (qa = tecla K → Captures/qa_pantalla.txt con píxeles de los puntos de qa_puntos.txt).
+- Vista (marcos/mundo-zum 8a425736): P pausa, L línea, Supr borra tramo, munición por soldado y aviso de seco, placa del almacén (D-N210; textos de Iker en Red.ExistenciasAlmacen/TendenciaAlmacen), zum al cursor y aviso de punto inalcanzable (D-N211), mensajes encima del panel de la línea, HUD con fondo, -fpslog con el peor fotograma.
+- Rendimiento (Mundo27, camguion): peor media de 375 fps; peor fotograma 34,5 ms.
+- Pendiente: «Lleno» en la placa de B (D-N211 c), cuando Iker tenga la capacidad del almacén. El hilo ha llegado a 24 adjuntos.
