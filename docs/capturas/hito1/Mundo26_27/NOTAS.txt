@@ -1,0 +1,9 @@
+Hito 1 · vista tras los S2 y la D-N211 · Marcos (2), 12-11 05:30
+Mundo26 (marcos/mundo-zum 7705cce1, con nacho 73f45f3e) y Mundo27 (8a425736).
+01 zum al cursor sobre el caserío (144 m) · 02 zum al cursor sobre un campo vacío (136 m)
+03 orden al mar: aviso «Punto inalcanzable: va al más cercano» y marcador ◎ en el punto real (log [ORDEN] … (1753; 1500) en vez de (1801; 1500))
+04-05 vista previa y motivo de rechazo ENCIMA del panel de la línea (Galería, captura 14 de Mundo25)
+06 rechazo «no llega a la estación B: se queda a 27 m (tiene que acabar a menos de 12 m)» con la receta de Iker (Mundo25)
+Rendimiento (Mundo27, ventana 1920×1080, -guion -camguion -fpslog, 9000 ticks a ×1, 150 muestras de 2 s, sin vsync ni tope):
+ peor media de 2 s: 375 fps (a 2500 m) · peor fotograma: 34,5 ms (a 120 m; un tirón suelto) · típico 600–840 fps.
+Mundo27 añade fondo oscuro a los textos del HUD (arriba y franja de abajo): en el zum cercano el texto no se leía sobre el suelo claro.

@@ -1,0 +1,221 @@
+Mono path[0] = 'C:/Dev/TBD/Builds/Mundo27/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD/Builds/Mundo27/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD/Builds/Mundo27/TBD_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5080
+[D3D12 Device Filter] Driver Version: 32.0.16.1664
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 15979 MB
+[D3D12 Device Filter] Processor Count: 20
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5080 (ID=0x2c02)
+    Vendor:          NVIDIA
+    VRAM:            15979 MB
+    App VRAM Budget: 15211 MB
+    Driver:          32.0.16.1664
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.249 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.139200 ms
+[UI3] interfaz v3 encendida (-ui3)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.767500 ms
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.510400 ms (FindLiveObjects: 0.087900 ms CreateObjectMapping: 0.033100 ms MarkObjects: 3.367200 ms  DeleteObjects: 0.022000 ms)
+
+[MUNDO] -camguion: recorrido de cámara de 90 s en bucle
+[MUNDO] terreno de Álvaro: 2049² muestras, 2048 × 128 × 2048 m en Y = −10, con usos del suelo
+[MUNDO] simulación de Nacho: 100 zombis, 45 casas, pelotón 1
+[MUNDO] -guion: 29 órdenes por guion (prueba exigente de Sara)
+[MUNDO] vista desde el Mundo: 100 zombis, 15 edificios, 6 tapias, 960 naranjos, pelotón en (1290; 1610)
+[RED] usando el Mundo común (Mundo.Red): 2 estaciones, 1 tren, 2 trozos de carretera
+[MUNDO] prototipo de zum: 2048 × 2048 m, altura 6–4000 m, iconos por encima de 250 m
+[RED] vista de la red lista: T para trazar vía (arrastrar con el botón izquierdo), Esc cancela
+[RED] vía trazada: tramo 0, 46 piezas, 471 m, 0 pasos a nivel
+[RED] curvas: 2 de 46 · primera curva (Der240) en (1139; 852) m
+[RED] vía trazada: tramo 1, 69 piezas, 824 m, 1 pasos a nivel
+[RED] curvas: 24 de 69 · primera curva (Der60) en (1148; 892) m
+[RED] paso a nivel: SM_PasoNivel_90E_v2_Abandonado en (1199; 982) m
+[MUNDO-FPS] altura 2500 m · 375 fps de media · peor fotograma 12,5 ms
+[RED] línea A–B en marcha
+[RED] A y B unidas: la simulación crea la línea por defecto en el tick 60 (4 cajas a B, 2 palés de vuelta) y el tren sale
+[RED] la red rechaza: la vía no puede ir por el mar (1815; 828)
+[MUNDO-FPS] altura 2500 m · 650 fps de media · peor fotograma 14,7 ms
+[MUNDO-FPS] altura 2500 m · 631 fps de media · peor fotograma 3,5 ms
+[MUNDO-FPS] altura 2500 m · 634 fps de media · peor fotograma 2,8 ms
+[MUNDO-FPS] altura 2500 m · 631 fps de media · peor fotograma 3,4 ms
+[MUNDO-FPS] altura 2500 m · 632 fps de media · peor fotograma 2,9 ms
+[MUNDO-FPS] altura 2500 m · 636 fps de media · peor fotograma 3,3 ms
+[MUNDO-FPS] altura 15 m · 678 fps de media · peor fotograma 2,8 ms
+[MUNDO-FPS] altura 8 m · 848 fps de media · peor fotograma 9,3 ms
+[MUNDO-FPS] altura 8 m · 866 fps de media · peor fotograma 8,2 ms
+[MUNDO-FPS] altura 8 m · 858 fps de media · peor fotograma 11,3 ms
+[MUNDO-FPS] altura 8 m · 742 fps de media · peor fotograma 17,7 ms
+[MUNDO-FPS] altura 8 m · 698 fps de media · peor fotograma 8,7 ms
+[MUNDO-FPS] altura 8 m · 789 fps de media · peor fotograma 9,6 ms
+[MUNDO-FPS] altura 8 m · 796 fps de media · peor fotograma 7,2 ms
+[MUNDO-FPS] altura 8 m · 734 fps de media · peor fotograma 11,8 ms
+[MUNDO-FPS] altura 8 m · 782 fps de media · peor fotograma 5,6 ms
+[MUNDO-FPS] altura 8 m · 816 fps de media · peor fotograma 5,5 ms
+[MUNDO-FPS] altura 8 m · 766 fps de media · peor fotograma 7,7 ms
+[MUNDO-FPS] altura 8 m · 776 fps de media · peor fotograma 8,7 ms
+[MUNDO-FPS] altura 8 m · 748 fps de media · peor fotograma 6,8 ms
+[MUNDO-FPS] altura 8 m · 718 fps de media · peor fotograma 5,9 ms
+[MUNDO-FPS] altura 120 m · 727 fps de media · peor fotograma 7,3 ms
+[MUNDO-FPS] altura 120 m · 773 fps de media · peor fotograma 8,7 ms
+[MUNDO-FPS] altura 120 m · 810 fps de media · peor fotograma 2,9 ms
+[MUNDO-FPS] altura 120 m · 701 fps de media · peor fotograma 34,5 ms
+[MUNDO-FPS] altura 120 m · 783 fps de media · peor fotograma 5,4 ms
+[MUNDO-FPS] altura 120 m · 827 fps de media · peor fotograma 5,3 ms
+[MUNDO-FPS] altura 120 m · 835 fps de media · peor fotograma 5,1 ms
+[MUNDO-FPS] altura 120 m · 778 fps de media · peor fotograma 7,9 ms
+[MUNDO-FPS] altura 120 m · 820 fps de media · peor fotograma 5,3 ms
+[MUNDO-FPS] altura 120 m · 552 fps de media · peor fotograma 11,6 ms
+[MUNDO-FPS] altura 120 m · 421 fps de media · peor fotograma 13,1 ms
+[MUNDO-FPS] altura 120 m · 446 fps de media · peor fotograma 7,0 ms
+[MUNDO-FPS] altura 120 m · 564 fps de media · peor fotograma 3,7 ms
+[MUNDO-FPS] altura 3800 m · 529 fps de media · peor fotograma 6,6 ms
+[MUNDO-FPS] altura 3800 m · 502 fps de media · peor fotograma 17,7 ms
+[MUNDO-FPS] altura 3800 m · 509 fps de media · peor fotograma 19,3 ms
+[MUNDO-FPS] altura 3800 m · 493 fps de media · peor fotograma 23,2 ms
+[MUNDO-FPS] altura 3800 m · 541 fps de media · peor fotograma 11,0 ms
+[MUNDO-FPS] altura 3800 m · 543 fps de media · peor fotograma 11,2 ms
+[MUNDO-FPS] altura 3800 m · 516 fps de media · peor fotograma 23,9 ms
+[MUNDO-FPS] altura 3800 m · 556 fps de media · peor fotograma 3,8 ms
+[MUNDO-FPS] altura 3800 m · 534 fps de media · peor fotograma 8,3 ms
+[MUNDO-FPS] altura 3800 m · 562 fps de media · peor fotograma 4,3 ms
+[MUNDO-FPS] altura 2500 m · 548 fps de media · peor fotograma 3,8 ms
+[MUNDO-FPS] altura 2500 m · 531 fps de media · peor fotograma 19,2 ms
+[MUNDO-FPS] altura 2500 m · 465 fps de media · peor fotograma 8,2 ms
+[MUNDO-FPS] altura 2500 m · 557 fps de media · peor fotograma 13,2 ms
+[MUNDO-FPS] altura 2500 m · 616 fps de media · peor fotograma 6,5 ms
+[MUNDO-FPS] altura 2500 m · 641 fps de media · peor fotograma 3,1 ms
+[MUNDO-FPS] altura 2500 m · 644 fps de media · peor fotograma 3,5 ms
+[MUNDO-FPS] altura 12 m · 678 fps de media · peor fotograma 3,3 ms
+[MUNDO-FPS] altura 8 m · 857 fps de media · peor fotograma 5,7 ms
+[MUNDO-FPS] altura 8 m · 876 fps de media · peor fotograma 6,6 ms
+[MUNDO-FPS] altura 8 m · 894 fps de media · peor fotograma 6,2 ms
+[MUNDO-FPS] altura 8 m · 889 fps de media · peor fotograma 6,6 ms
+[MUNDO-FPS] altura 8 m · 868 fps de media · peor fotograma 7,7 ms
+[MUNDO-FPS] altura 8 m · 884 fps de media · peor fotograma 6,4 ms
+[MUNDO-FPS] altura 8 m · 872 fps de media · peor fotograma 5,3 ms
+[MUNDO-FPS] altura 8 m · 870 fps de media · peor fotograma 5,6 ms
+[MUNDO-FPS] altura 8 m · 872 fps de media · peor fotograma 6,0 ms
+[MUNDO-FPS] altura 8 m · 855 fps de media · peor fotograma 5,6 ms
+[MUNDO-FPS] altura 8 m · 846 fps de media · peor fotograma 5,7 ms
+[MUNDO-FPS] altura 8 m · 875 fps de media · peor fotograma 5,9 ms
+[MUNDO-FPS] altura 8 m · 877 fps de media · peor fotograma 5,7 ms
+[MUNDO-FPS] altura 8 m · 880 fps de media · peor fotograma 6,0 ms
+[MUNDO-FPS] altura 120 m · 880 fps de media · peor fotograma 6,3 ms
+[MUNDO-FPS] altura 120 m · 870 fps de media · peor fotograma 3,9 ms
+[MUNDO-FPS] altura 120 m · 882 fps de media · peor fotograma 5,3 ms
+[MUNDO-FPS] altura 120 m · 884 fps de media · peor fotograma 3,0 ms
+[MUNDO-FPS] altura 120 m · 886 fps de media · peor fotograma 5,2 ms
+[MUNDO-FPS] altura 120 m · 876 fps de media · peor fotograma 2,8 ms
+[MUNDO-FPS] altura 120 m · 867 fps de media · peor fotograma 3,0 ms
+[MUNDO-FPS] altura 120 m · 882 fps de media · peor fotograma 5,5 ms
+[MUNDO-FPS] altura 120 m · 892 fps de media · peor fotograma 5,0 ms
+[MUNDO-FPS] altura 120 m · 871 fps de media · peor fotograma 6,4 ms
+[MUNDO-FPS] altura 120 m · 880 fps de media · peor fotograma 3,9 ms
+[MUNDO-FPS] altura 120 m · 858 fps de media · peor fotograma 5,5 ms
+[MUNDO-FPS] altura 120 m · 870 fps de media · peor fotograma 4,8 ms
+[MUNDO-FPS] altura 3800 m · 697 fps de media · peor fotograma 6,8 ms
+[MUNDO-FPS] altura 3800 m · 653 fps de media · peor fotograma 6,4 ms
+[RECARGA] 3 cajas → 280 cartuchos (pelotón 1, tick 4920, munición 280/280, sueltos en B 35, cajas en B 0)
+[RECARGA] 0 cajas → 8 cartuchos (pelotón 1, tick 4950, munición 280/280, sueltos en B 27, cajas en B 0)
+[MUNDO-FPS] altura 3800 m · 631 fps de media · peor fotograma 6,8 ms
+[MUNDO-FPS] altura 3800 m · 650 fps de media · peor fotograma 3,8 ms
+[MUNDO-FPS] altura 3800 m · 648 fps de media · peor fotograma 3,5 ms
+[MUNDO-FPS] altura 3800 m · 653 fps de media · peor fotograma 8,7 ms
+[MUNDO-FPS] altura 3800 m · 583 fps de media · peor fotograma 27,7 ms
+[MUNDO-FPS] altura 3800 m · 654 fps de media · peor fotograma 8,2 ms
+[MUNDO-FPS] altura 3800 m · 663 fps de media · peor fotograma 3,1 ms
+[MUNDO-FPS] altura 3800 m · 663 fps de media · peor fotograma 3,4 ms
+[MUNDO-FPS] altura 2500 m · 631 fps de media · peor fotograma 7,2 ms
+[MUNDO-FPS] altura 2500 m · 549 fps de media · peor fotograma 20,9 ms
+[MUNDO-FPS] altura 2500 m · 584 fps de media · peor fotograma 19,8 ms
+[MUNDO-FPS] altura 2500 m · 621 fps de media · peor fotograma 24,5 ms
+[MUNDO-FPS] altura 2500 m · 648 fps de media · peor fotograma 3,3 ms
+[MUNDO-FPS] altura 2500 m · 653 fps de media · peor fotograma 3,6 ms
+[MUNDO-FPS] altura 2500 m · 660 fps de media · peor fotograma 7,0 ms
+[MUNDO-FPS] altura 11 m · 700 fps de media · peor fotograma 4,2 ms
+[MUNDO-FPS] altura 8 m · 893 fps de media · peor fotograma 6,0 ms
+[MUNDO-FPS] altura 8 m · 889 fps de media · peor fotograma 5,7 ms
+[RED] la red rechaza: hay un tren en ese tramo (Tren 1)
+[MUNDO-FPS] altura 8 m · 886 fps de media · peor fotograma 3,7 ms
+[RED] vía borrada: tramo 0
+[MUNDO-FPS] altura 8 m · 881 fps de media · peor fotograma 5,6 ms
+[MUNDO-FPS] altura 8 m · 857 fps de media · peor fotograma 6,8 ms
+[MUNDO-FPS] altura 8 m · 848 fps de media · peor fotograma 5,6 ms
+[MUNDO-FPS] altura 8 m · 874 fps de media · peor fotograma 6,1 ms
+[MUNDO-FPS] altura 8 m · 880 fps de media · peor fotograma 6,2 ms
+[MUNDO-FPS] altura 8 m · 894 fps de media · peor fotograma 5,8 ms
+[MUNDO-FPS] altura 8 m · 900 fps de media · peor fotograma 5,5 ms
+[MUNDO-FPS] altura 8 m · 858 fps de media · peor fotograma 5,8 ms
+[MUNDO-FPS] altura 8 m · 867 fps de media · peor fotograma 5,6 ms
+[MUNDO-FPS] altura 8 m · 895 fps de media · peor fotograma 5,8 ms
+[MUNDO-FPS] altura 8 m · 892 fps de media · peor fotograma 4,9 ms
+[MUNDO-FPS] altura 120 m · 875 fps de media · peor fotograma 5,4 ms
+[MUNDO-FPS] altura 120 m · 871 fps de media · peor fotograma 6,3 ms
+[MUNDO-FPS] altura 120 m · 887 fps de media · peor fotograma 5,7 ms
+[MUNDO-FPS] altura 120 m · 884 fps de media · peor fotograma 4,9 ms
+[MUNDO-FPS] altura 120 m · 880 fps de media · peor fotograma 5,9 ms
+[MUNDO-FPS] altura 120 m · 900 fps de media · peor fotograma 5,8 ms
+[MUNDO-FPS] altura 120 m · 883 fps de media · peor fotograma 5,5 ms
+[MUNDO-FPS] altura 120 m · 896 fps de media · peor fotograma 5,7 ms
+[MUNDO-FPS] altura 120 m · 885 fps de media · peor fotograma 5,8 ms
+[MUNDO-FPS] altura 120 m · 904 fps de media · peor fotograma 5,7 ms
+[MUNDO-FPS] altura 120 m · 782 fps de media · peor fotograma 7,7 ms
+[MUNDO-FPS] altura 120 m · 862 fps de media · peor fotograma 5,7 ms
+[MUNDO-FPS] altura 120 m · 816 fps de media · peor fotograma 7,4 ms
+[MUNDO-FPS] altura 3800 m · 635 fps de media · peor fotograma 6,0 ms
+[MUNDO-FPS] altura 3800 m · 624 fps de media · peor fotograma 3,3 ms
+[MUNDO-FPS] altura 3800 m · 603 fps de media · peor fotograma 3,9 ms
+[RED] estado del tren: Tren 1: no hay vía hasta A
+[MUNDO-FPS] altura 3800 m · 611 fps de media · peor fotograma 7,6 ms
+[MUNDO-FPS] altura 3800 m · 647 fps de media · peor fotograma 6,9 ms
+[RED] vía trazada: tramo 2, 46 piezas, 471 m, 1 pasos a nivel
+[RED] curvas: 2 de 46 · primera curva (Der240) en (1139; 852) m
+[MUNDO-FPS] altura 3800 m · 656 fps de media · peor fotograma 3,2 ms
+[MUNDO-FPS] altura 3800 m · 643 fps de media · peor fotograma 3,5 ms
+[MUNDO-FPS] altura 3800 m · 654 fps de media · peor fotograma 3,3 ms
+[MUNDO-FPS] altura 3800 m · 618 fps de media · peor fotograma 3,9 ms
+[MUNDO-FPS] altura 3800 m · 645 fps de media · peor fotograma 3,0 ms
+[MUNDO-FPS] altura 2500 m · 655 fps de media · peor fotograma 7,7 ms
+[MUNDO-FPS] altura 2500 m · 648 fps de media · peor fotograma 3,3 ms
+[MUNDO-FPS] altura 2500 m · 627 fps de media · peor fotograma 4,7 ms
+[MUNDO-FPS] altura 2500 m · 614 fps de media · peor fotograma 3,9 ms
+[MUNDO-FPS] altura 2500 m · 637 fps de media · peor fotograma 7,1 ms
+[MUNDO-FPS] altura 2500 m · 593 fps de media · peor fotograma 4,0 ms
+[MUNDO-FPS] altura 2500 m · 640 fps de media · peor fotograma 7,2 ms
+[MUNDO-FPS] altura 10 m · 475 fps de media · peor fotograma 8,0 ms
+[MUNDO-FPS] altura 8 m · 788 fps de media · peor fotograma 6,1 ms
+[MUNDO-FPS] altura 8 m · 719 fps de media · peor fotograma 6,6 ms
+[MUNDO-FPS] altura 8 m · 840 fps de media · peor fotograma 6,1 ms
+[MUNDO-FPS] altura 8 m · 445 fps de media · peor fotograma 6,5 ms
+[MUNDO-FPS] altura 8 m · 821 fps de media · peor fotograma 5,8 ms
+[MUNDO-FPS] altura 8 m · 795 fps de media · peor fotograma 6,2 ms
+[MUNDO-FPS] altura 8 m · 621 fps de media · peor fotograma 10,3 ms
+[MUNDO] fin: tick 9000, abatidos 73, bajas 0, hash 5ac341ab4830a6d2
+[MUNDO-FPS] resumen: peor media de 2 s 375 fps · peor fotograma 34,5 ms (sin los 120 primeros fotogramas)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
