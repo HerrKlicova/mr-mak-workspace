@@ -3300,3 +3300,10 @@ Nunca se muestra «por hora» (D-N208). El §5 bis del plan decía «por hora» 
 **Panel de la línea:** 1) nombre y color («Línea 1 · A ⇄ B»); 2) «Lleva 4 cajas de munición por viaje · trae material de vuelta»; 3) «Un viaje cada 5,3 min», con la vuelta medida por el juego (media de las dos últimas); 4) el estado del tren en vivo («Cargando en A», «Hacia B · llega en 1:20», «Descargando en B»).
 **Placa del almacén (A y B):** 1) lo que hay, en cajas y cartuchos («3 cajas · 315 cartuchos») y los palés como «N palés y M m»; 2) para cuánto le llega, con el saldo de entradas y salidas de los últimos 2 viajes: «Se agota en ~4 min», «Se mantiene» o «Sube», y «Sin consumo» si nadie gasta. En ámbar cuando se agota en menos de un viaje.
 **Pelotón:** cartuchos por soldado y en total, con un aviso de «sin munición». Siguiente D-N libre: D-N211.
+
+## D-N211 · Cuatro reglas del informe de Mundo25 (12-11 04:05, Lucía)
+a) **Orden a un punto inalcanzable** (mar, agua o edificio): el pelotón va al punto alcanzable más cercano. El marcador de destino aparece donde va de verdad, con el aviso breve «Punto inalcanzable: va al más cercano». Una orden nunca se rechaza en silencio.
+b) **Vías abiertas permitidas.** Tender vía por tramos es el corazón del juego («construir vía es avanzar el frente»). La vista previa no la marca inválida: queda en hueso con la nota «Acaba suelta: no llega a B». Una línea solo puede usar vía que una dos estaciones; si no, el panel de la línea dice «Sin vía entre A y B».
+c) **«B llena» se prueba forzándolo**, con una partida de prueba que empieza con B casi llena. Comportamiento: el tren descarga lo que cabe y vuelve con el resto a bordo; el panel dice «B llena: vuelven 2 cajas» y la placa del almacén pone «Lleno», en ámbar.
+d) **El zum va al cursor**, no al centro de la pantalla (S3 aceptado).
+Siguiente D-N libre: D-N212.
