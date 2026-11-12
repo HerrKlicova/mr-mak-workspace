@@ -1,0 +1,1 @@
+desync=False · ticks comunes: 41714 (del 0 al 41713) · A: 41714 · B: 41714

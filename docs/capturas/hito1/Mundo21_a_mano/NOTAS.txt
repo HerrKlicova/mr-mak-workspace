@@ -1,0 +1,24 @@
+Hito 1 · partida a mano con teclado y ratón (Mundo21) · Marcos (2), 12-11 04:15
+Código: TBD marcos/mundo-zum (ea9c336d + ae259ff5 + GUI.depth/registro del ratón). Build Mundo21.
+A: TBD.exe -mundo -screen-fullscreen 0 -screen-width 1920 -screen-height 1080 -grabar -trenlog -hashlog Captures/hash_M_A.txt
+   (sin -guion ni -camguion; PlayerPrefs borrados antes, copia en prefs_bak.reg y restaurados al acabar)
+   Ratón y teclado sintéticos (SetCursorPos + mouse_event + keybd_event) sobre la ventana, paso a paso.
+B: TBD.exe -mundo -batchmode -nographics -turbo 8 -reproducir Captures/mundo_grabacion.txt -hashlog Captures/hash_M_B.txt
+   → desync=False · 41714 ticks comparados (comparador.txt). 164 órdenes. Final común: tick 41713, 100 abatidos, 0 bajas, hash 6928905487944d40.
+Pausas (P), todas al principio para trazar sin que corra el tren: sí/no en los ticks 166, 208 y 249 (3 pausas; las órdenes dadas en pausa se aplican en el tick siguiente).
+Secuencia (y capturas):
+ 01-02 vía A→mar: vista previa con motivo «la vía no puede ir por el mar (1817; 833)»; no se manda.
+ 03-04 vía larga por el oeste: «falta material: esta vía cuesta 19 palés y 40 m y faltan 40 m»; no se manda.
+ 05    L (línea desde la interfaz) y vista previa válida A→P con coste: «469 m de vía + 39 m por curvas · cuesta 5 palés y 8 m · a A le quedan 13 palés y 92 m».
+ 06-07 P→B trazada; panel de la línea «4 cajas por viaje · midiendo la vuelta…»; clic izquierdo en el pelotón y clic derecho por fuera del caserío (08: rodeo).
+ 1.º asalto: el pelotón se queda seco y vuelve solo a B (regla de Nacho) y rearma (tick 5100).
+ 10    Supr con el tren en marcha: tramo 1 borrado (el tren ya iba por el tramo 0 hacia A) y tramo 0 rechazado «hay un tren en ese tramo (Tren 1)».
+ 11    estado ámbar «Tren 1 parado: no hay vía hasta B» (tick 18690); panel «un viaje cada 4,9 min».
+ 09    aviso rojo «¡Pelotón seco! Retíralo a B para rearmar» (tick 20700) → 12 retirada a B con clic derecho → 13 rearme (tick 22980).
+ Re-trazado P→B: el 1.er intento (tramo 2) acabó a ~20 m de B (el encaje es 12 m) y no unía; lo borré con Supr y lo volví a trazar (tramo 3) → el tren sigue.
+ 14    caserío limpio (tick 24606) → 15 el pelotón lleva los 4 palés a B (tick 26750) → 16 los 4 palés llegan a A (A 1 → 5 palés, tick ~41370).
+Para Iker / Bruno / Lucía (vista):
+ - La línea ámbar del tren pisa la de «T: trazar vía» (mi y -= 26). Lo arreglo.
+ - El panel dice «un viaje cada N min», no unidades por hora.
+ - La vista previa no avisa cuando el final no llega a encajar con la estación (12 m): la vía queda suelta y el tren se para sin saber por qué.
+ - La primera línea del HUD superior a veces sale cortada arriba.
