@@ -1,0 +1,1 @@
+desync=False · ticks comunes: 38001 (del 0 al 38000) · A: 38001 · B: 38001

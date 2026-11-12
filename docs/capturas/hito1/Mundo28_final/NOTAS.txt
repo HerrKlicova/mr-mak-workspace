@@ -1,0 +1,9 @@
+Hito 1 · build final (Mundo28) · Marcos (2), 12-11 06:00
+Código: TBD marcos/mundo-zum f4ecf128 (Iker: D-N211 b y c; Nacho: 73f45f3e; vista de Marcos 8a425736).
+A: -batchmode -guion -grabar -trenlog -turbo 8 -salir-en 38000 -hashlog Captures/hash_H1_A.txt
+B: -batchmode -turbo 8 -reproducir Captures/mundo_grabacion.txt → desync=False · 38001 ticks. Final común: tick 38000, 100 abatidos, 0 bajas, hash 9d7d83514e58d29d.
+Log de A: mar rechazado, borrado con el tren encima rechazado, «Tren 1: no hay vía hasta A» como estado, oleada final en el 9965, caserío limpio en el 14528, palés en B en el 17829, A con 5 palés en el 37980 (llegan los 4).
+Capturas (ventana 1920×1080):
+ 01 vista previa «Acaba suelta: no llega a B (a 65 m)» en ámbar.
+ 02 panel «Sin vía entre A y B» con la vía suelta.
+ 03 -bllena: placa de B «Lleno» en ámbar (8 cajas) y panel «B llena: vuelven 2 cajas».
