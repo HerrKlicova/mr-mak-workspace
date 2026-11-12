@@ -1,0 +1,1 @@
+Criba con ventana (Mundo19, ea9c336d): -guion -camguion a x1 hasta 38000. Hasta 28500, idéntico a la A de Mundo18 (desync=False · 28501). Los 4 palés llegan a A (1 → 5 palés hacia el 37 000). ZumSuelo y ZumTrazado cargan con ventana. «Tren 1: no hay vía hasta A» sale como [RED] estado del tren.
