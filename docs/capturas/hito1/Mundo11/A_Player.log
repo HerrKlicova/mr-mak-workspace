@@ -1,0 +1,71 @@
+Mono path[0] = 'C:/Dev/TBD/Builds/Mundo11/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD/Builds/Mundo11/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD/Builds/Mundo11/TBD_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 5080
+[D3D12 Device Filter] Driver Version: 32.0.16.1664
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 15979 MB
+[D3D12 Device Filter] Processor Count: 20
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5080 (ID=0x2c02)
+    Vendor:          NVIDIA
+    VRAM:            15979 MB
+    App VRAM Budget: 15211 MB
+    Driver:          32.0.16.1664
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.032 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+UnloadTime: 1.031500 ms
+[UI3] interfaz v3 encendida (-ui3)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.583300 ms
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3277.
+Total: 3.323500 ms (FindLiveObjects: 0.096200 ms CreateObjectMapping: 0.036500 ms MarkObjects: 3.165300 ms  DeleteObjects: 0.025200 ms)
+
+[MUNDO] terreno de Álvaro: 2049² muestras, 2048 × 128 × 2048 m en Y = −10, con usos del suelo
+[MUNDO] -hashlog → C:\Dev\TBD\Builds\Mundo11\Captures\hash_H1_A.txt
+[MUNDO] simulación de Nacho: 100 zombis, 45 casas, pelotón 1
+[MUNDO] -guion: 33 órdenes por guion (prueba exigente de Sara)
+[MUNDO] vista desde el Mundo: 100 zombis, 15 edificios, 6 tapias, 960 naranjos, pelotón en (1290; 1610)
+[RED] usando el Mundo común (Mundo.Red): 2 estaciones, 1 tren, 2 trozos de carretera
+[MUNDO] prototipo de zum: 2048 × 2048 m, altura 6–4000 m, iconos por encima de 250 m
+[RED] vista de la red lista: T para trazar vía (arrastrar con el botón izquierdo), Esc cancela
+[RED] la red rechaza: la vía tiene que empezar en una estación o en otra vía
+[RED] vía trazada: tramo 0, 99 piezas, 1002 m, 1 pasos a nivel
+[RED] curvas: 5 de 99 · primera curva (Izq240) en (1431; 624) m
+[RED] paso a nivel: SM_PasoNivel_60E_v0_Teja en (1199; 503) m
+[RED] línea A–B en marcha
+[RED] la red rechaza: Tren 1: no hay vía hasta B
+[RED] vía borrada: tramo 0
+[RED] la red rechaza: ese tramo no existe
+[RED] la red rechaza: Tren 1: no hay vía hasta B
+[RED] la red rechaza: la vía tiene que empezar en una estación o en otra vía
+[RED] la red rechaza: Tren 1: no hay vía hasta B
+[RECARGA] 1 cajas → 105 cartuchos (pelotón 1, tick 6510, munición 105/280, sueltos en B 0, cajas en B 0)
+[RECARGA] sin cajas en B (pelotón 1, tick 6540, munición 105/280)
+[RED] la red rechaza: Tren 2: no hay vía hasta B
+[RECARGA] sin cajas en B (pelotón 1, tick 18000, munición 0/280)
+[MUNDO] grabación guardada: C:\Dev\TBD\Builds\Mundo11\Captures\mundo_grabacion.txt
+[MUNDO] fin: tick 18300, abatidos 66, bajas 4, hash c017e8d6d0013fc5
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
