@@ -43,7 +43,7 @@ Eugenio pide una gestión de recursos militares seria y entretenida, una gestió
 - **El ejército abre camino al transporte.** Tender vía exige limpiar y escoltar el tramo, y una vía sin guardia la cortan los zombis de noche.
 - **El transporte hace crecer al ejército.** Las ciudades limpiadas dan supervivientes (nuevos soldados y obreros), chatarra (material de vía) y depósitos (munición y gasoil), pero solo si alguien se los lleva a la base.
 
-La parte seria está en las cuentas: cada unidad tiene un consumo visible por hora y en combate, cada almacén muestra para cuánto tiempo le llega lo que tiene, y una línea muestra cuántas unidades por hora entrega. La parte entretenida está en las decisiones: adelantar el frente o reforzar lo que ya tienes, una línea rápida de munición o una lenta de material, arriesgar un tren por una zona sin limpiar.
+La parte seria está en las cuentas: cada unidad muestra lo que gasta en combate y por día, cada almacén muestra para cuánto tiempo le llega lo que tiene y una línea muestra lo que lleva por viaje y cada cuánto viaja (nunca «por hora», D-N208). La parte entretenida está en las decisiones: adelantar el frente o reforzar lo que ya tienes, una línea rápida de munición o una lenta de material, arriesgar un tren por una zona sin limpiar.
 
 Recursos del MVP, solo cuatro: **munición, gasoil, raciones y material de vía**, además de los soldados como recurso humano.
 
@@ -72,7 +72,7 @@ Antes del corte completo, una prueba de que el núcleo nuevo funciona:
 - Un pelotón que se manda a mano a cualquier punto y se ve andar.
 - Un grupo de zombis (cien o así) en un caserío que reacciona al pelotón.
 - **El cruce de los dos géneros, ya en el Hito 1.** Cada soldado del pelotón lleva 60 cartuchos y el puesto avanzado (la estación B) empieza con poca munición (cifras SIN VERIFICAR, para Hugo). Sin la línea, el pelotón se queda seco a mitad del caserío; con la línea llevando munición de A a B, se rearma en B y termina el trabajo. Limpiar el caserío deja un depósito de material de vía que hay que traer a A con el mismo tren.
-- En pantalla: la munición de cada soldado, lo que tiene cada almacén y lo que entrega la línea por hora.
+- En pantalla: la munición de cada soldado, lo que tiene cada almacén y para cuánto le llega, y lo que lleva la línea por viaje y cada cuánto viaja (especificación en D-N210).
 
 Sin noche, sin gasoil, sin raciones y sin carreteras todavía. Eso llega en el corte completo. **Está hecho** cuando alguien del equipo lo juega con ventana durante diez minutos sin nada raro. Es lo primero que vería Eugenio.
 
