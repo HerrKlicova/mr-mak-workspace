@@ -1,0 +1,77 @@
+Mono path[0] = 'C:/Dev/TBD/Builds/Mundo29/TBD_Data/Managed'
+Mono config path = 'C:/Dev/TBD/Builds/Mundo29/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.28f1 (8f082d2fe476)
+[Subsystems] Discovering subsystems at path C:/Dev/TBD/Builds/Mundo29/TBD_Data/UnitySubsystems
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.107 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+UnloadTime: 0.865600 ms
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+Warning: No Graphics Device found. Deformation systems will not run.
+No SRP present, no compute shader support, or running with -nographics. Mesh Deformation Systems disabled.
+No SRP present, no compute shader support, or running with -nographics. Entities Graphics package disabled
+[UI3] interfaz v3 encendida (-ui3)
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.735300 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.Rendering.EntitiesGraphicsSystemUtility.RootsHandlerDelegate (System.IntPtr state) [0x00024] in <8e6ea5a5bb18481ab90b4e7296b4af37>:0 
+  at Unity.Entities.UnityObjectRefUtility.RootsHandlerDelegate (System.IntPtr state) [0x00014] in <f511ab2c7ee34895b0d5d07b67765712>:0 
+  at UnityEngine.ResourcesAPIInternal+EntitiesAssetGC.GetAdditionalRoots (System.IntPtr state) [0x0000d] in <398789c008484afa80c3315b7c00257b>:0 
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3118.
+Total: 5.797900 ms (FindLiveObjects: 0.081900 ms CreateObjectMapping: 0.035000 ms MarkObjects: 5.672100 ms  DeleteObjects: 0.008500 ms)
+
+[ZUM] no carga el shader TBD/ZumSuelo (¿error de compilación? mira la consola): se queda lo de antes
+[MUNDO] terreno de Álvaro: 2049² muestras, 2048 × 128 × 2048 m en Y = −10, con usos del suelo
+[MUNDO] -hashlog → C:\Dev\TBD\Builds\Mundo29\Captures\hash_P_B.txt
+[MUNDO] reproduzco 124 órdenes de Captures/mundo_grabacion.txt y comparo con 48033 líneas de hash
+[MUNDO] simulación de Nacho: 100 zombis, 45 casas, pelotón 1
+[MUNDO] reproducción: salgo en el tick 48032 (el último de la referencia)
+[MUNDO] vista desde el Mundo: 100 zombis, 15 edificios, 6 tapias, 960 naranjos, pelotón en (1290; 1610)
+[RED] usando el Mundo común (Mundo.Red): 2 estaciones, 1 tren, 2 trozos de carretera
+[MUNDO] prototipo de zum: 2048 × 2048 m, altura 6–4000 m, iconos por encima de 250 m
+[RED] vista de la red lista: T para trazar vía (arrastrar con el botón izquierdo), Esc cancela
+[RED] línea A–B en marcha
+[RED] vía trazada: tramo 0, 43 piezas, 479 m, 0 pasos a nivel
+[RED] curvas: 9 de 43 · primera curva (Izq240) en (1071; 488) m
+[ZUM] no carga el shader TBD/ZumTrazado (¿error de compilación? mira la consola): se queda lo de antes
+[RED] vía trazada: tramo 1, 70 piezas, 826 m, 1 pasos a nivel
+[RED] curvas: 22 de 70 · primera curva (Der60) en (1150; 901) m
+[RED] paso a nivel: SM_PasoNivel_90E_v0_Teja en (1199; 982) m
+[RECARGA] 3 cajas → 280 cartuchos (pelotón 1, tick 6840, munición 280/280, sueltos en B 35, cajas en B 2)
+[RECARGA] 2 cajas → 245 cartuchos (pelotón 1, tick 12510, munición 245/280, sueltos en B 0, cajas en B 0)
+[RECARGA] sin cajas en B (pelotón 1, tick 12540, munición 245/280)
+[RED] la red rechaza: hay un tren en ese tramo (Tren 1)
+[RECARGA] 1 cajas → 35 cartuchos (pelotón 1, tick 14310, munición 280/280, sueltos en B 70, cajas en B 0)
+[RED] vía borrada: tramo 0
+[RED] estado del tren: Tren 1: no hay vía hasta A
+[RED] vía trazada: tramo 2, 46 piezas, 479 m, 1 pasos a nivel
+[RED] curvas: 3 de 46 · primera curva (Der240) en (1138; 842) m
+[CASERIO] quedan 15 zombis: oleada final, oyen los disparos desde todo el caserío (tick 19128)
+[MATERIAL] caserío limpio (tick 24512): el pelotón 1 coge 4 palés; va más despacio y sin disparar hasta B
+[RECARGA] 1 cajas → 79 cartuchos (pelotón 1, tick 28860, munición 280/280, sueltos en B 96, cajas en B 6)
+[MATERIAL] 4 palés del caserío en B (pelotón 1, tick 29165, palés en B 4)
+[MUNDO] fin: tick 48032, abatidos 100, bajas 0, hash 24159945038b5d85 · desync=False · 48033 ticks comparados
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

@@ -1,0 +1,13 @@
+Hito 1 · partida completa a mano sobre la build final (Mundo29 = Mundo28 + placa encima de los iconos) · Marcos (2), 12-11 06:45
+Código: TBD marcos/mundo-zum (f4ecf128 + placa por encima). Ventana 1920×1080, -grabar -trenlog -hashlog, sin -guion ni -camguion, sin pausas, PlayerPrefs limpios y restaurados. Ratón y teclado sintéticos.
+B: batchmode -reproducir → desync=False · 48033 ticks comparados (comparador.txt). 124 órdenes. Final común: tick 48032, 100 abatidos, 0 bajas, hash 24159945038b5d85.
+Pasos (log de A):
+ 3 vía al mar rechazada («la vía no puede ir por el mar (1818; 830)») y vía cara rechazada («falta material: cuesta 19 palés y 42 m y faltan 42 m»)
+ 4 línea desde la interfaz (L) y vía A→P y P→B (01 vista previa con coste; 02 línea)
+ 5 pelotón con clic derecho rodeando por fuera del caserío hasta quedarse seco (03, tick ~6000)
+ 6 retirada a B con clic derecho y rearme (04, tick 6840, placa visible)
+ 7 borrado con el tren en marcha: tramo 1 con el tren encima rechazado; tramo 0 por delante aceptado (tick ~15200); el tren para en P (05, tick 17370, «Sin vía entre B y A»); re-trazado A→P y sigue (17730)
+ 8 caserío limpio (tick 24512) con varias idas a B para rearmar
+ 9 el pelotón lleva los 4 palés a B (tick 29165)
+ 10 los 4 palés llegan a A (06: A con 6 palés al final, tick 48030)
+Notas: al final A se queda sin munición («0 cajas», placa «Agotado») porque la línea sigue llevándola a B: es lo esperado, pero conviene que Hugo lo mire para el Hito 2.
