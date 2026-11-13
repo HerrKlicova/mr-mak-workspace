@@ -30,3 +30,4 @@ Actualizado: 12-11, 00:10.
 
 ## 13-11, 14:50 · Marcos (3)
 - Para jugar el Hito 1: C:\Dev\TBD\Builds\Mundo29\TBD.exe -mundo (sin -mundo sale el menú viejo). Builds/Mundo-I2 de TBD-2 es otra build (la vieja). Acceso en el escritorio de Eugenio: «Jugar Hito 1 (Mundo29).bat» (ventana 1920×1080). Comprobado: carga el mundo sin excepciones.
+- 13-11 ~15:10: se borraron las builds viejas (no estaban en la papelera; no sé quién). Quedan TBD/Builds: Mundo29, INoche*cap, P112f; TBD-2/Builds: Mundo-I1, Mundo-I2, iker-tutorial. Mundo18 e I-Noche178 YA NO EXISTEN: recompilar desde su commit si hacen falta (Mundo18 = marcos/mundo-zum d9e3bab3; grabaciones en docs/capturas/hito1/Mundo18).
