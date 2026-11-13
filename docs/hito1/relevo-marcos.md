@@ -27,3 +27,6 @@ Actualizado: 12-11, 00:10.
 - Vista (marcos/mundo-zum 8a425736): P pausa, L línea, Supr borra tramo, munición por soldado y aviso de seco, placa del almacén (D-N210; textos de Iker en Red.ExistenciasAlmacen/TendenciaAlmacen), zum al cursor y aviso de punto inalcanzable (D-N211), mensajes encima del panel de la línea, HUD con fondo, -fpslog con el peor fotograma.
 - Rendimiento (Mundo27, camguion): peor media de 375 fps; peor fotograma 34,5 ms.
 - Pendiente: «Lleno» en la placa de B (D-N211 c), cuando Iker tenga la capacidad del almacén. El hilo ha llegado a 24 adjuntos.
+
+## 13-11, 14:50 · Marcos (3)
+- Para jugar el Hito 1: C:\Dev\TBD\Builds\Mundo29\TBD.exe -mundo (sin -mundo sale el menú viejo). Builds/Mundo-I2 de TBD-2 es otra build (la vieja). Acceso en el escritorio de Eugenio: «Jugar Hito 1 (Mundo29).bat» (ventana 1920×1080). Comprobado: carga el mundo sin excepciones.
